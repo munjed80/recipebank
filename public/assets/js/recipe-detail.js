@@ -1,7 +1,16 @@
 /**
  * RecipeBank - Recipe Detail Module
- * Handles rendering single recipe from JSON
+ * Handles rendering single recipe from JSON with modern UI
  */
+
+/**
+ * Escape HTML to prevent XSS attacks
+ */
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
 
 /**
  * Initialize recipe detail page
@@ -30,7 +39,7 @@ async function initRecipeDetail() {
       return;
     }
 
-    renderRecipe(container, recipe);
+    renderRecipeModern(container, recipe);
     updatePageTitle(recipe.name_en);
     
   } catch (error) {
@@ -59,99 +68,183 @@ function updatePageTitle(recipeName) {
 }
 
 /**
- * Render recipe to container
+ * Get difficulty class for styling
  */
-function renderRecipe(container, recipe) {
-  const ingredientsHtml = recipe.ingredients.map(ing => `
-    <li>
-      <span class="ingredient-name">${ing.name}</span>
-      <span class="ingredient-amount">${ing.amount} ${ing.unit}</span>
+function getDifficultyClass(difficulty) {
+  switch (difficulty) {
+    case 'easy': return 'difficulty-easy';
+    case 'medium': return 'difficulty-medium';
+    case 'hard': return 'difficulty-hard';
+    default: return '';
+  }
+}
+
+/**
+ * Render modern recipe layout
+ */
+function renderRecipeModern(container, recipe) {
+  // Generate ingredients checklist HTML
+  const ingredientsHtml = recipe.ingredients.map((ing, index) => `
+    <li class="ingredient-item">
+      <input type="checkbox" class="ingredient-checkbox" id="ing-${index}">
+      <label class="ingredient-name" for="ing-${index}">${escapeHtml(ing.name)}</label>
+      <span class="ingredient-amount">${escapeHtml(String(ing.amount))} ${escapeHtml(ing.unit)}</span>
     </li>
   `).join('');
 
-  const stepsHtml = recipe.steps.map(step => `<li>${step}</li>`).join('');
+  // Generate steps cards HTML
+  const stepsHtml = recipe.steps.map((step, index) => `
+    <li class="step-card">
+      <div class="step-number">${index + 1}</div>
+      <div class="step-content">${escapeHtml(step)}</div>
+    </li>
+  `).join('');
 
-  const tagsHtml = recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
+  // Generate tag pills HTML
+  const tagsHtml = recipe.tags.map(tag => 
+    `<a href="#" class="tag-pill" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)}</a>`
+  ).join('');
 
+  // Generate nutrition section HTML
   const nutritionHtml = recipe.nutrition ? `
-    <section class="recipe-section">
-      <h2>🥗 Nutrition (per serving)</h2>
-      <div class="nutrition-grid">
-        <div class="nutrition-item">
-          <div class="nutrition-value">${recipe.nutrition.per_serving_kcal}</div>
-          <div class="nutrition-label">Calories</div>
+    <section class="nutrition-section">
+      <h3 class="nutrition-title">
+        <span class="icon">📊</span>
+        Nutrition Facts / القيم الغذائية
+        <span class="section-subtitle">(per serving)</span>
+      </h3>
+      <div class="nutrition-grid-modern">
+        <div class="nutrition-item-modern">
+          <div class="nutrition-icon">🔥</div>
+          <div class="nutrition-value-modern">${recipe.nutrition.per_serving_kcal}</div>
+          <div class="nutrition-label-modern">Calories</div>
         </div>
-        <div class="nutrition-item">
-          <div class="nutrition-value">${recipe.nutrition.protein_g}g</div>
-          <div class="nutrition-label">Protein</div>
+        <div class="nutrition-item-modern">
+          <div class="nutrition-icon">🥩</div>
+          <div class="nutrition-value-modern">${recipe.nutrition.protein_g}g</div>
+          <div class="nutrition-label-modern">Protein</div>
         </div>
-        <div class="nutrition-item">
-          <div class="nutrition-value">${recipe.nutrition.fat_g}g</div>
-          <div class="nutrition-label">Fat</div>
+        <div class="nutrition-item-modern">
+          <div class="nutrition-icon">🧈</div>
+          <div class="nutrition-value-modern">${recipe.nutrition.fat_g}g</div>
+          <div class="nutrition-label-modern">Fat</div>
         </div>
-        <div class="nutrition-item">
-          <div class="nutrition-value">${recipe.nutrition.carbs_g}g</div>
-          <div class="nutrition-label">Carbs</div>
+        <div class="nutrition-item-modern">
+          <div class="nutrition-icon">🍞</div>
+          <div class="nutrition-value-modern">${recipe.nutrition.carbs_g}g</div>
+          <div class="nutrition-label-modern">Carbs</div>
         </div>
       </div>
     </section>
   ` : '';
 
+  // Determine text direction for local name (RTL for Arabic)
+  const isArabic = /[\u0600-\u06FF]/.test(recipe.name_local);
+  const localNameDir = isArabic ? 'rtl' : 'ltr';
+
+  container.classList.add('recipe-page');
   container.innerHTML = `
-    <header class="recipe-header">
-      <div class="recipe-header-content">
-        <nav class="breadcrumb">
-          <a href="${RecipeBank.CONFIG.basePath}/public/index.html">Home</a> → 
-          <a href="${RecipeBank.CONFIG.basePath}/public/countries/${recipe.country_slug}.html">${recipe.country}</a> → 
-          ${recipe.name_en}
-        </nav>
-        <h1 class="recipe-title">${recipe.name_en}</h1>
-        <p class="recipe-local-name">${recipe.name_local}</p>
-        <div class="recipe-meta">
-          <span class="recipe-meta-item">
-            ${RecipeBank.getCountryFlag(recipe.country_slug)} ${recipe.country}
-          </span>
-          <span class="recipe-meta-item">
-            ⏱️ ${RecipeBank.formatTime(recipe.cooking_time_minutes)}
-          </span>
-          <span class="recipe-meta-item">
-            📊 ${recipe.difficulty.charAt(0).toUpperCase() + recipe.difficulty.slice(1)}
-          </span>
+    <!-- Action Buttons Bar -->
+    <div class="recipe-actions-bar">
+      <a href="${RecipeBank.CONFIG.basePath}/public/countries/${escapeHtml(recipe.country_slug)}.html" class="recipe-action-btn">
+        <span class="icon">←</span>
+        <span>Back to ${escapeHtml(recipe.country)}</span>
+      </a>
+      <button type="button" id="btn-print-recipe" class="recipe-action-btn">
+        <span class="icon">🖨️</span>
+        <span>Print</span>
+      </button>
+      <button type="button" id="btn-save-favorite" class="recipe-action-btn btn-primary">
+        <span class="icon">🤍</span>
+        <span>Save</span>
+      </button>
+    </div>
+
+    <!-- Print Area -->
+    <div class="recipe-print-area">
+      <!-- Hero Image -->
+      <div class="recipe-hero-image">
+        <div class="recipe-hero-placeholder">🍽️</div>
+      </div>
+
+      <!-- Recipe Header -->
+      <header class="recipe-header-modern">
+        <div class="recipe-header-content">
+          <h1 class="recipe-title-modern">${escapeHtml(recipe.name_en)}</h1>
+          <p class="recipe-local-name-modern" dir="${localNameDir}">${escapeHtml(recipe.name_local)}</p>
+          
+          <!-- Rating Stars Placeholder -->
+          <div class="recipe-rating">
+            <span class="stars">★★★★☆</span>
+            <span class="rating-text">(Coming soon)</span>
+          </div>
+
+          <!-- Meta Pills -->
+          <div class="recipe-meta-pills">
+            <span class="meta-pill">
+              <span class="icon">${RecipeBank.getCountryFlag(recipe.country_slug)}</span>
+              ${escapeHtml(recipe.country)}
+            </span>
+            <span class="meta-pill">
+              <span class="icon">⏱️</span>
+              ${RecipeBank.formatTime(recipe.cooking_time_minutes)}
+            </span>
+            <span class="meta-pill ${getDifficultyClass(recipe.difficulty)}">
+              <span class="icon">📊</span>
+              ${escapeHtml(recipe.difficulty.charAt(0).toUpperCase() + recipe.difficulty.slice(1))}
+            </span>
+            <span class="meta-pill">
+              <span class="icon">🍽️</span>
+              4 servings
+            </span>
+          </div>
+
+          <!-- Tag Pills -->
+          <div class="recipe-tags-modern">
+            ${tagsHtml}
+          </div>
+        </div>
+      </header>
+
+      <!-- Description -->
+      <div class="recipe-main-content">
+        <p class="recipe-description-modern">${escapeHtml(recipe.short_description)}</p>
+
+        <!-- Two Column Layout -->
+        <div class="recipe-columns">
+          <!-- Left Column: Ingredients -->
+          <div class="ingredients-section">
+            <h2 class="section-title-modern">
+              <span class="icon">🥘</span>
+              Ingredients / المكونات
+            </h2>
+            <ul class="ingredients-checklist">
+              ${ingredientsHtml}
+            </ul>
+            ${nutritionHtml}
+          </div>
+
+          <!-- Right Column: Steps -->
+          <div class="steps-section">
+            <h2 class="section-title-modern">
+              <span class="icon">👨‍🍳</span>
+              Steps / خطوات التحضير
+            </h2>
+            <ol class="steps-list-modern">
+              ${stepsHtml}
+            </ol>
+          </div>
         </div>
       </div>
-    </header>
+    </div>
 
-    <main class="recipe-content">
-      <div class="recipe-description">
-        ${recipe.short_description}
-      </div>
-
-      <div class="recipe-card-tags mb-3">
-        ${tagsHtml}
-      </div>
-
-      <section class="recipe-section">
-        <h2>🥘 Ingredients</h2>
-        <ul class="ingredients-list">
-          ${ingredientsHtml}
-        </ul>
-      </section>
-
-      <section class="recipe-section">
-        <h2>👨‍🍳 Instructions</h2>
-        <ol class="steps-list">
-          ${stepsHtml}
-        </ol>
-      </section>
-
-      ${nutritionHtml}
-
-      <div class="text-center mt-3">
-        <a href="${RecipeBank.CONFIG.basePath}/public/countries/${recipe.country_slug}.html" class="btn">
-          ← More ${recipe.country} Recipes
-        </a>
-      </div>
-    </main>
+    <!-- Footer Actions -->
+    <div class="recipe-footer-actions">
+      <a href="${RecipeBank.CONFIG.basePath}/public/countries/${escapeHtml(recipe.country_slug)}.html" class="btn-back-country">
+        <span class="icon">←</span>
+        More ${escapeHtml(recipe.country)} Recipes
+      </a>
+    </div>
   `;
 }
 
