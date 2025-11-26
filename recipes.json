@@ -3,9 +3,10 @@
     "id": "it-margherita-pizza",
     "slug": "margherita-pizza",
     "country": "Italy",
+    "country_slug": "italy",
     "name_en": "Margherita Pizza",
     "name_local": "Pizza Margherita",
-    "image": "/public/assets/img/recipes/margherita-pizza.jpg",
+    "image": "assets/img/recipes/margherita-pizza.jpg",
     "short_description": "Classic Neapolitan-style pizza with tomato, mozzarella, and basil.",
     "ingredients": [
       { "name": "00 flour", "amount": 500, "unit": "g" },
@@ -31,6 +32,333 @@
       "protein_g": 22,
       "fat_g": 18,
       "carbs_g": 70
+    }
+  },
+  {
+    "id": "it-spaghetti-carbonara",
+    "slug": "spaghetti-carbonara",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Spaghetti Carbonara",
+    "name_local": "Spaghetti alla Carbonara",
+    "image": "assets/img/recipes/spaghetti-carbonara.jpg",
+    "short_description": "Creamy Roman pasta with eggs, pecorino cheese, guanciale, and black pepper.",
+    "ingredients": [
+      { "name": "spaghetti", "amount": 400, "unit": "g" },
+      { "name": "guanciale", "amount": 200, "unit": "g" },
+      { "name": "egg yolks", "amount": 6, "unit": "pc" },
+      { "name": "whole eggs", "amount": 2, "unit": "pc" },
+      { "name": "pecorino romano", "amount": 100, "unit": "g" },
+      { "name": "black pepper", "amount": 2, "unit": "tsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Bring a large pot of salted water to boil and cook spaghetti until al dente.",
+      "Cut guanciale into small strips and cook in a pan until crispy.",
+      "Whisk egg yolks, whole eggs, and grated pecorino together with pepper.",
+      "Drain pasta, reserving some cooking water. Add pasta to guanciale pan (off heat).",
+      "Pour egg mixture over pasta, tossing quickly to create a creamy sauce. Add pasta water if needed."
+    ],
+    "cooking_time_minutes": 30,
+    "difficulty": "medium",
+    "tags": ["italian", "pasta", "quick", "creamy"],
+    "nutrition": {
+      "per_serving_kcal": 650,
+      "protein_g": 28,
+      "fat_g": 32,
+      "carbs_g": 58
+    }
+  },
+  {
+    "id": "in-butter-chicken",
+    "slug": "butter-chicken",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Butter Chicken",
+    "name_local": "Murgh Makhani",
+    "image": "assets/img/recipes/butter-chicken.jpg",
+    "short_description": "Tender chicken in a rich, creamy tomato-based curry sauce.",
+    "ingredients": [
+      { "name": "chicken thighs", "amount": 800, "unit": "g" },
+      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "tomato puree", "amount": 400, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "heavy cream", "amount": 200, "unit": "ml" },
+      { "name": "garam masala", "amount": 2, "unit": "tbsp" },
+      { "name": "garlic", "amount": 6, "unit": "cloves" },
+      { "name": "ginger", "amount": 2, "unit": "inch" },
+      { "name": "kashmiri red chili powder", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Marinate chicken in yogurt, garam masala, and chili powder for at least 2 hours.",
+      "Grill or pan-fry the marinated chicken until charred and cooked through.",
+      "In a pan, melt butter and sauté garlic and ginger until fragrant.",
+      "Add tomato puree and simmer for 15 minutes. Add garam masala and chili powder.",
+      "Stir in cream, add cooked chicken, and simmer for 10 more minutes."
+    ],
+    "cooking_time_minutes": 60,
+    "difficulty": "medium",
+    "tags": ["indian", "curry", "creamy", "spicy", "chicken"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 42,
+      "fat_g": 38,
+      "carbs_g": 15
+    }
+  },
+  {
+    "id": "in-vegetable-biryani",
+    "slug": "vegetable-biryani",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Vegetable Biryani",
+    "name_local": "Sabzi Biryani",
+    "image": "assets/img/recipes/vegetable-biryani.jpg",
+    "short_description": "Fragrant layered rice dish with spiced vegetables and aromatic herbs.",
+    "ingredients": [
+      { "name": "basmati rice", "amount": 500, "unit": "g" },
+      { "name": "mixed vegetables", "amount": 400, "unit": "g" },
+      { "name": "onions", "amount": 3, "unit": "large" },
+      { "name": "yogurt", "amount": 150, "unit": "g" },
+      { "name": "biryani masala", "amount": 2, "unit": "tbsp" },
+      { "name": "saffron", "amount": 1, "unit": "pinch" },
+      { "name": "ghee", "amount": 4, "unit": "tbsp" },
+      { "name": "fresh mint", "amount": 1, "unit": "bunch" },
+      { "name": "fresh cilantro", "amount": 1, "unit": "bunch" }
+    ],
+    "steps": [
+      "Soak basmati rice for 30 minutes, then parboil until 70% cooked.",
+      "Fry sliced onions until golden brown and crispy. Set aside.",
+      "Sauté vegetables with biryani masala and yogurt until tender.",
+      "Layer rice and vegetable mixture in a heavy pot. Add fried onions, mint, and cilantro.",
+      "Drizzle saffron milk over the top, cover tightly, and cook on low heat for 25 minutes."
+    ],
+    "cooking_time_minutes": 75,
+    "difficulty": "hard",
+    "tags": ["indian", "rice", "vegetarian", "aromatic", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 65
+    }
+  },
+  {
+    "id": "jp-ramen",
+    "slug": "ramen",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Shoyu Ramen",
+    "name_local": "醤油ラーメン",
+    "image": "assets/img/recipes/ramen.jpg",
+    "short_description": "Japanese noodle soup with soy sauce broth, chashu pork, and soft-boiled egg.",
+    "ingredients": [
+      { "name": "ramen noodles", "amount": 400, "unit": "g" },
+      { "name": "pork belly", "amount": 500, "unit": "g" },
+      { "name": "soy sauce", "amount": 100, "unit": "ml" },
+      { "name": "chicken stock", "amount": 2, "unit": "L" },
+      { "name": "eggs", "amount": 4, "unit": "pc" },
+      { "name": "green onions", "amount": 4, "unit": "stalks" },
+      { "name": "nori seaweed", "amount": 8, "unit": "sheets" },
+      { "name": "garlic", "amount": 4, "unit": "cloves" },
+      { "name": "ginger", "amount": 2, "unit": "inch" }
+    ],
+    "steps": [
+      "Braise pork belly in soy sauce, mirin, and sake for 2 hours until tender. Slice for chashu.",
+      "Make soft-boiled eggs (6 minutes), peel and marinate in soy sauce mixture.",
+      "Simmer chicken stock with garlic, ginger, and soy sauce to create the broth.",
+      "Cook ramen noodles according to package instructions.",
+      "Assemble bowls: noodles, hot broth, sliced chashu, marinated egg, nori, and green onions."
+    ],
+    "cooking_time_minutes": 180,
+    "difficulty": "hard",
+    "tags": ["japanese", "soup", "noodles", "pork", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 720,
+      "protein_g": 45,
+      "fat_g": 35,
+      "carbs_g": 55
+    }
+  },
+  {
+    "id": "jp-teriyaki-salmon",
+    "slug": "teriyaki-salmon",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Teriyaki Salmon",
+    "name_local": "鮭の照り焼き",
+    "image": "assets/img/recipes/teriyaki-salmon.jpg",
+    "short_description": "Glazed salmon fillets with sweet and savory teriyaki sauce.",
+    "ingredients": [
+      { "name": "salmon fillets", "amount": 4, "unit": "pc" },
+      { "name": "soy sauce", "amount": 4, "unit": "tbsp" },
+      { "name": "mirin", "amount": 3, "unit": "tbsp" },
+      { "name": "sake", "amount": 2, "unit": "tbsp" },
+      { "name": "sugar", "amount": 2, "unit": "tbsp" },
+      { "name": "vegetable oil", "amount": 2, "unit": "tbsp" },
+      { "name": "sesame seeds", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Mix soy sauce, mirin, sake, and sugar to make the teriyaki sauce.",
+      "Pat salmon fillets dry and season with a pinch of salt.",
+      "Heat oil in a pan and sear salmon skin-side down for 3 minutes.",
+      "Flip salmon, pour teriyaki sauce over, and cook for another 3-4 minutes while basting.",
+      "Serve glazed salmon with sesame seeds sprinkled on top."
+    ],
+    "cooking_time_minutes": 20,
+    "difficulty": "easy",
+    "tags": ["japanese", "fish", "quick", "gluten-free", "healthy"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 15
+    }
+  },
+  {
+    "id": "mx-tacos-al-pastor",
+    "slug": "tacos-al-pastor",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Tacos al Pastor",
+    "name_local": "Tacos al Pastor",
+    "image": "assets/img/recipes/tacos-al-pastor.jpg",
+    "short_description": "Marinated pork tacos with pineapple, onion, and cilantro.",
+    "ingredients": [
+      { "name": "pork shoulder", "amount": 1, "unit": "kg" },
+      { "name": "dried guajillo chilies", "amount": 6, "unit": "pc" },
+      { "name": "pineapple", "amount": 1, "unit": "whole" },
+      { "name": "corn tortillas", "amount": 16, "unit": "pc" },
+      { "name": "white onion", "amount": 1, "unit": "large" },
+      { "name": "fresh cilantro", "amount": 1, "unit": "bunch" },
+      { "name": "achiote paste", "amount": 100, "unit": "g" },
+      { "name": "lime", "amount": 4, "unit": "pc" }
+    ],
+    "steps": [
+      "Blend rehydrated guajillo chilies with achiote paste, pineapple juice, and spices.",
+      "Slice pork thinly and marinate in the sauce for at least 4 hours or overnight.",
+      "Grill or pan-fry pork slices until charred and caramelized. Dice pineapple and grill.",
+      "Warm corn tortillas on a dry pan.",
+      "Assemble tacos with pork, grilled pineapple, diced onion, cilantro, and lime juice."
+    ],
+    "cooking_time_minutes": 45,
+    "difficulty": "medium",
+    "tags": ["mexican", "tacos", "pork", "spicy", "street-food"],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 42
+    }
+  },
+  {
+    "id": "mx-guacamole",
+    "slug": "guacamole",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Guacamole",
+    "name_local": "Guacamole",
+    "image": "assets/img/recipes/guacamole.jpg",
+    "short_description": "Fresh avocado dip with lime, cilantro, and jalapeño.",
+    "ingredients": [
+      { "name": "ripe avocados", "amount": 4, "unit": "pc" },
+      { "name": "lime juice", "amount": 3, "unit": "tbsp" },
+      { "name": "white onion", "amount": 0.5, "unit": "pc" },
+      { "name": "fresh cilantro", "amount": 0.5, "unit": "bunch" },
+      { "name": "jalapeño", "amount": 1, "unit": "pc" },
+      { "name": "tomato", "amount": 1, "unit": "medium" },
+      { "name": "salt", "amount": 1, "unit": "tsp" },
+      { "name": "garlic", "amount": 1, "unit": "clove" }
+    ],
+    "steps": [
+      "Cut avocados in half, remove pit, and scoop flesh into a bowl.",
+      "Mash avocados with a fork to desired consistency (chunky or smooth).",
+      "Finely dice onion, jalapeño, tomato, and cilantro.",
+      "Add diced vegetables, lime juice, minced garlic, and salt to avocado. Mix well.",
+      "Taste and adjust seasoning. Serve immediately with tortilla chips."
+    ],
+    "cooking_time_minutes": 10,
+    "difficulty": "easy",
+    "tags": ["mexican", "dip", "vegan", "quick", "gluten-free", "appetizer"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 15,
+      "carbs_g": 12
+    }
+  },
+  {
+    "id": "sy-kibbeh",
+    "slug": "kibbeh",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Kibbeh",
+    "name_local": "كبة",
+    "image": "assets/img/recipes/kibbeh.jpg",
+    "short_description": "Crispy bulgur shells stuffed with spiced lamb and pine nuts.",
+    "ingredients": [
+      { "name": "fine bulgur wheat", "amount": 400, "unit": "g" },
+      { "name": "ground lamb", "amount": 500, "unit": "g" },
+      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "pine nuts", "amount": 100, "unit": "g" },
+      { "name": "allspice", "amount": 2, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable oil", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Soak bulgur in water for 30 minutes, then drain and squeeze out excess water.",
+      "For the shell: blend bulgur with half the lamb, grated onion, and spices until smooth.",
+      "For the filling: sauté remaining lamb with diced onion, pine nuts, and spices.",
+      "Shape small portions of shell into oval cups, fill with meat mixture, and seal.",
+      "Deep fry kibbeh in hot oil until golden brown and crispy. Serve with yogurt."
+    ],
+    "cooking_time_minutes": 90,
+    "difficulty": "hard",
+    "tags": ["syrian", "fried", "lamb", "appetizer", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 28
+    }
+  },
+  {
+    "id": "sy-fattoush",
+    "slug": "fattoush",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Fattoush Salad",
+    "name_local": "فتوش",
+    "image": "assets/img/recipes/fattoush.jpg",
+    "short_description": "Refreshing Levantine salad with crispy pita, vegetables, and sumac dressing.",
+    "ingredients": [
+      { "name": "romaine lettuce", "amount": 1, "unit": "head" },
+      { "name": "cucumber", "amount": 2, "unit": "medium" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "radishes", "amount": 6, "unit": "pc" },
+      { "name": "pita bread", "amount": 2, "unit": "pc" },
+      { "name": "sumac", "amount": 2, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "lemon juice", "amount": 60, "unit": "ml" },
+      { "name": "fresh mint", "amount": 0.5, "unit": "bunch" },
+      { "name": "pomegranate molasses", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Toast or fry pita bread pieces until golden and crispy.",
+      "Chop lettuce, dice cucumber and tomatoes, slice radishes thinly.",
+      "Whisk olive oil, lemon juice, sumac, and pomegranate molasses for dressing.",
+      "Combine all vegetables in a large bowl with fresh mint leaves.",
+      "Add crispy pita and dressing just before serving. Toss well and serve immediately."
+    ],
+    "cooking_time_minutes": 20,
+    "difficulty": "easy",
+    "tags": ["syrian", "salad", "vegan", "quick", "healthy", "refreshing"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 5,
+      "fat_g": 14,
+      "carbs_g": 22
     }
   }
 ]
