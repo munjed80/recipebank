@@ -1,5 +1,5 @@
 /**
- * RecipeBank - Main JavaScript
+ * Chefpedia - Main JavaScript
  * Shared utilities and navigation functionality
  * Optimized for performance with caching and minimal DOM operations
  */

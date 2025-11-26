@@ -1,5 +1,5 @@
 /**
- * RecipeBank - AI Assistant Module
+ * Chefpedia - AI Assistant Module
  * Local search and filtering logic for recipe suggestions
  */
 

@@ -1,5 +1,5 @@
 /**
- * RecipeBank - Recipe Detail Module
+ * Chefpedia - Recipe Detail Module
  * Handles rendering single recipe from JSON with modern UI
  */
 
@@ -207,6 +207,7 @@ async function initRecipeDetail() {
     initFavoriteButton(recipe.slug);
     initPrintButton();
     initRatingSystem(recipe.slug);
+    initShareButtons(recipe);
     
   } catch (error) {
     console.error('Error loading recipe:', error);
@@ -232,7 +233,7 @@ function getRecipeSlugFromUrl() {
  * Update page title and apply SEO
  */
 function updatePageTitle(recipeName) {
-  document.title = `${recipeName} | RecipeBank`;
+  document.title = `${recipeName} | Chefpedia`;
 }
 
 /**
@@ -463,7 +464,22 @@ function renderRecipeModern(container, recipe) {
         <span class="icon">🤍</span>
         <span>Save</span>
       </button>
+      <div class="share-buttons-group">
+        <button type="button" id="btn-copy-link" class="recipe-action-btn share-btn" title="Copy link to clipboard">
+          <span class="icon">🔗</span>
+          <span>Copy Link</span>
+        </button>
+        <a href="javascript:void(0)" id="btn-share-twitter" class="recipe-action-btn share-btn" target="_blank" rel="noopener noreferrer" title="Share on Twitter/X">
+          <span class="icon">𝕏</span>
+          <span>Tweet</span>
+        </a>
+        <a href="javascript:void(0)" id="btn-share-whatsapp" class="recipe-action-btn share-btn" target="_blank" rel="noopener noreferrer" title="Share on WhatsApp">
+          <span class="icon">📱</span>
+          <span>WhatsApp</span>
+        </a>
+      </div>
     </div>
+    <div id="copy-toast" class="copy-toast" aria-live="polite"></div>
 
     <!-- Print Area -->
     <div class="recipe-print-area">
@@ -630,4 +646,72 @@ function initPrintButton() {
   printBtn.addEventListener('click', () => {
     window.print();
   });
+}
+
+/**
+ * Initialize share buttons for recipe
+ * @param {Object} recipe - Recipe object with name and slug
+ */
+function initShareButtons(recipe) {
+  const currentUrl = window.location.href;
+  const recipeTitle = recipe.name_en;
+  const shareText = `Check out this delicious ${recipeTitle} recipe from Chefpedia!`;
+  
+  // Copy Link button
+  const copyBtn = document.getElementById('btn-copy-link');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(currentUrl);
+        showCopyToast('Link copied to clipboard!');
+      } catch (err) {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = currentUrl;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-9999px';
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+          document.execCommand('copy');
+          showCopyToast('Link copied to clipboard!');
+        } catch (e) {
+          showCopyToast('Failed to copy link', true);
+        }
+        document.body.removeChild(textArea);
+      }
+    });
+  }
+  
+  // Twitter/X share button
+  const twitterBtn = document.getElementById('btn-share-twitter');
+  if (twitterBtn) {
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(currentUrl)}`;
+    twitterBtn.href = twitterUrl;
+  }
+  
+  // WhatsApp share button
+  const whatsappBtn = document.getElementById('btn-share-whatsapp');
+  if (whatsappBtn) {
+    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(shareText + ' ' + currentUrl)}`;
+    whatsappBtn.href = whatsappUrl;
+  }
+}
+
+/**
+ * Show a toast notification for copy actions
+ * @param {string} message - Message to display
+ * @param {boolean} isError - Whether this is an error message
+ */
+function showCopyToast(message, isError = false) {
+  const toast = document.getElementById('copy-toast');
+  if (!toast) return;
+  
+  toast.textContent = message;
+  toast.className = `copy-toast show ${isError ? 'error' : 'success'}`;
+  
+  // Hide after 3 seconds
+  setTimeout(() => {
+    toast.classList.remove('show');
+  }, 3000);
 }

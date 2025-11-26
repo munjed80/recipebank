@@ -1,5 +1,5 @@
 /**
- * RecipeBank - Favorites Module
+ * Chefpedia - Favorites Module
  * Handles saving, loading, and managing favorite recipes using localStorage
  */
 
