@@ -429,8 +429,22 @@
   color: var(--recipe-text);
 }
 
+.step-title {
+  display: block;
+  font-weight: 700;
+  color: var(--secondary-color, #2c3e50);
+  margin-bottom: 0.25rem;
+}
+
+.step-explanation {
+  display: block;
+  font-weight: 400;
+  color: var(--recipe-text-light);
+  font-size: 1rem;
+}
+
 /* =========================================
-   Nutrition Facts Box
+   Nutrition Facts Box (Nutritional Breakdown)
    ========================================= */
 .nutrition-section {
   background: var(--recipe-card-bg);
@@ -439,6 +453,12 @@
   margin-top: 1.5rem;
   box-shadow: var(--recipe-shadow);
   border: 2px solid var(--recipe-border);
+}
+
+/* Full-width nutritional breakdown under the columns */
+.nutritional-breakdown {
+  max-width: 100%;
+  border-left: 5px solid var(--recipe-accent);
 }
 
 .nutrition-title {

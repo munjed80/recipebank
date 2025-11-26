@@ -295,29 +295,54 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     this.currentRecipe = recipe;
     
     const recipeLink = this.getRecipeLink(recipe.slug);
+    const totalTime = (recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0);
 
     let response = `## ${recipe.name_en}\n\n`;
     response += `**${recipe.short_description}**\n\n`;
-    response += `⏱️ Prep: ${recipe.prep_time_minutes} min | Cook: ${recipe.cooking_time_minutes} min | Serves: ${recipe.servings}\n\n`;
+    
+    // Recipe quick info badges
+    response += `🌍 ${recipe.country} • ⏱️ Prep: ${recipe.prep_time_minutes} min • 🔥 Cook: ${recipe.cooking_time_minutes} min • ⏰ Total: ${totalTime} min • 🍽️ ${recipe.servings} servings\n\n`;
     
     response += `### Ingredients:\n`;
     recipe.ingredients.forEach(ing => {
       response += `• ${ing.amount} ${ing.unit} ${ing.name}\n`;
     });
     
-    response += `\n### Steps:\n`;
+    response += `\n### Step-by-Step Instructions:\n`;
     recipe.steps.forEach((step, index) => {
-      response += `${index + 1}. ${step}\n`;
+      // Format each step with a bold numbered header
+      const shortTitle = this.getStepTitle(step);
+      response += `**${index + 1}. ${shortTitle}**\n${step}\n\n`;
     });
+
+    // Add nutritional breakdown
+    if (recipe.nutrition) {
+      response += `### Nutritional Breakdown (per serving):\n`;
+      response += `• 🔥 ${recipe.nutrition.per_serving_kcal} calories\n`;
+      response += `• 🥩 ${recipe.nutrition.protein_g}g protein\n`;
+      response += `• 🍞 ${recipe.nutrition.carbs_g}g carbs\n`;
+      response += `• 🧈 ${recipe.nutrition.fat_g}g fat\n`;
+    }
 
     if (Favorites.isFavorite(recipe.slug)) {
       response += `\n❤️ *This recipe is in your favorites!*`;
     }
 
     response += `\n\n[RECIPE_LINK:${recipe.slug}:View full recipe page →]`;
-    response += `\n\nWant cooking tips or nutrition info? Just ask!`;
+    response += `\n\nWant cooking tips or more details? Just ask!`;
     
     return response;
+  },
+
+  /**
+   * Extract a short title from a step instruction
+   */
+  getStepTitle(step) {
+    if (!step || step.length <= 30) return '';
+    
+    // Try to extract first verb phrase
+    const words = step.split(/\s+/).slice(0, 4);
+    return words.join(' ') + '...';
   },
 
   handleIngredientQuestion(msg) {
