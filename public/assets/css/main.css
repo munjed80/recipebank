@@ -1191,3 +1191,56 @@ footer a {
   font-size: 0.8rem;
   padding: 0.35rem 0.8rem;
 }
+
+/* ===== Performance Optimizations ===== */
+
+/* Smooth scrolling for browsers that support it */
+@supports (scroll-behavior: smooth) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* GPU acceleration for animated elements - applied on hover */
+.recipe-card:hover,
+.country-card:hover {
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Print styles - exclude navigation and non-essential elements */
+@media print {
+  header,
+  footer,
+  .menu-toggle,
+  .favorite-btn,
+  .btn,
+  .global-search-wrapper,
+  .recipe-actions-bar {
+    display: none !important;
+  }
+  
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+  
+  .recipe-card {
+    break-inside: avoid;
+  }
+}

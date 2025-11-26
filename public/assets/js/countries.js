@@ -1,38 +1,13 @@
 /**
  * RecipeBank - Countries Module
  * Handles loading and rendering country recipe lists with search and filters
+ * Uses shared utilities from main.js for country data
  */
 
 /**
  * Store for all recipes on the current country page
  */
 let countryRecipes = [];
-
-/**
- * Country names mapping
- */
-const COUNTRY_NAMES = {
-  italy: 'Italy',
-  india: 'India',
-  japan: 'Japan',
-  mexico: 'Mexico',
-  syria: 'Syria',
-  france: 'France',
-  thailand: 'Thailand',
-  morocco: 'Morocco',
-  lebanon: 'Lebanon',
-  china: 'China',
-  greece: 'Greece',
-  spain: 'Spain',
-  turkey: 'Turkey',
-  korea: 'Korea',
-  vietnam: 'Vietnam',
-  brazil: 'Brazil',
-  ethiopia: 'Ethiopia',
-  peru: 'Peru',
-  indonesia: 'Indonesia',
-  egypt: 'Egypt'
-};
 
 /**
  * Initialize country page
@@ -48,8 +23,8 @@ async function initCountryPage() {
 
   container.innerHTML = '<div class="loading">Loading recipes...</div>';
 
-  // Get country name for SEO
-  const countryName = COUNTRY_NAMES[countrySlug] || countrySlug.charAt(0).toUpperCase() + countrySlug.slice(1);
+  // Get country name from shared utility
+  const countryName = RecipeBank.getCountryName(countrySlug);
 
   try {
     countryRecipes = await RecipeBank.getRecipesByCountry(countrySlug);
@@ -223,9 +198,12 @@ function initFilters() {
   const timeFilter = document.getElementById('time-filter');
   const clearBtn = document.getElementById('clear-filters');
 
+  // Use shared debounce from main.js
+  const debouncedApplyFilters = RecipeBank.debounce(applyFilters, 250);
+
   // Add event listeners
   if (searchInput) {
-    searchInput.addEventListener('input', debounce(applyFilters, 300));
+    searchInput.addEventListener('input', debouncedApplyFilters);
   }
   if (difficultyFilter) {
     difficultyFilter.addEventListener('change', applyFilters);
@@ -242,21 +220,6 @@ function initFilters() {
   if (clearBtn) {
     clearBtn.addEventListener('click', clearAllFilters);
   }
-}
-
-/**
- * Debounce function for search input
- */
-function debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-  };
 }
 
 /**
