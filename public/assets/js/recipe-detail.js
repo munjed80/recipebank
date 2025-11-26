@@ -469,11 +469,11 @@ function renderRecipeModern(container, recipe) {
           <span class="icon">🔗</span>
           <span>Copy Link</span>
         </button>
-        <a href="#" id="btn-share-twitter" class="recipe-action-btn share-btn" target="_blank" rel="noopener noreferrer" title="Share on Twitter/X">
+        <a href="javascript:void(0)" id="btn-share-twitter" class="recipe-action-btn share-btn" target="_blank" rel="noopener noreferrer" title="Share on Twitter/X">
           <span class="icon">𝕏</span>
           <span>Tweet</span>
         </a>
-        <a href="#" id="btn-share-whatsapp" class="recipe-action-btn share-btn" target="_blank" rel="noopener noreferrer" title="Share on WhatsApp">
+        <a href="javascript:void(0)" id="btn-share-whatsapp" class="recipe-action-btn share-btn" target="_blank" rel="noopener noreferrer" title="Share on WhatsApp">
           <span class="icon">📱</span>
           <span>WhatsApp</span>
         </a>

@@ -116,6 +116,7 @@ function getUniqueDietaryStyles(recipes) {
 /**
  * Get common main ingredients from recipes
  * Returns the most frequently used ingredients across all recipes
+ * Uses word boundary matching for precise ingredient detection
  */
 function getMainIngredients(recipes) {
   const ingredientCounts = {};
@@ -127,11 +128,16 @@ function getMainIngredients(recipes) {
     'lemon', 'olive oil', 'coconut', 'ginger'
   ];
   
+  // Create regex patterns for word boundary matching (more precise)
+  const ingredientPatterns = new Map(
+    commonIngredients.map(ing => [ing, new RegExp(`\\b${ing}s?\\b`, 'i')])
+  );
+  
   recipes.forEach(recipe => {
     recipe.ingredients.forEach(ing => {
       const ingName = ing.name.toLowerCase();
-      commonIngredients.forEach(common => {
-        if (ingName.includes(common)) {
+      ingredientPatterns.forEach((pattern, common) => {
+        if (pattern.test(ingName)) {
           ingredientCounts[common] = (ingredientCounts[common] || 0) + 1;
         }
       });
