@@ -89,7 +89,17 @@ const COUNTRY_FLAGS = {
   france: '🇫🇷',
   thailand: '🇹🇭',
   morocco: '🇲🇦',
-  lebanon: '🇱🇧'
+  lebanon: '🇱🇧',
+  china: '🇨🇳',
+  greece: '🇬🇷',
+  spain: '🇪🇸',
+  korea: '🇰🇷',
+  vietnam: '🇻🇳',
+  brazil: '🇧🇷',
+  ethiopia: '🇪🇹',
+  peru: '🇵🇪',
+  indonesia: '🇮🇩',
+  egypt: '🇪🇬'
 };
 
 /**
