@@ -927,6 +927,11 @@
   color: white;
 }
 
+.allergen-badge.contains-soy {
+  background: #8e44ad;
+  color: white;
+}
+
 /* =========================================
    Enhanced Nutrition Grid (6 items)
    ========================================= */

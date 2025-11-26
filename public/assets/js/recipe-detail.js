@@ -111,6 +111,10 @@ function generateAllergenBadges(ingredients, dietaryStyle) {
     badges.push('<span class="allergen-badge contains-shellfish">🦐 Contains Shellfish</span>');
   }
 
+  if (allergens.soy) {
+    badges.push('<span class="allergen-badge contains-soy">🫘 Contains Soy</span>');
+  }
+
   return badges.join('');
 }
 
@@ -327,16 +331,21 @@ function renderRecipeModern(container, recipe) {
     const { title, explanation } = parseStepInstruction(step, index);
     const stepLower = step.toLowerCase();
     
-    let actionType = 'general';
-    let actionIcon = '📋';
+    // Determine step type with lookup object for cleaner code
+    const stepTypes = {
+      prep: { icon: '🔪', label: 'Preparation' },
+      cook: { icon: '🔥', label: 'Cooking' },
+      general: { icon: '📋', label: 'Action' }
+    };
     
+    let actionType = 'general';
     if (prepKeywords.some(kw => stepLower.includes(kw))) {
       actionType = 'prep';
-      actionIcon = '🔪';
     } else if (cookKeywords.some(kw => stepLower.includes(kw))) {
       actionType = 'cook';
-      actionIcon = '🔥';
     }
+    
+    const { icon: actionIcon, label: actionLabel } = stepTypes[actionType];
     
     return `
       <li class="step-card step-${actionType}">
@@ -345,7 +354,7 @@ function renderRecipeModern(container, recipe) {
           ${index + 1}
         </div>
         <div class="step-content">
-          <span class="step-type-badge ${actionType}">${actionType === 'prep' ? 'Preparation' : actionType === 'cook' ? 'Cooking' : 'Action'}</span>
+          <span class="step-type-badge ${actionType}">${actionLabel}</span>
           <strong class="step-title">${escapeHtml(title)}</strong>
           ${explanation ? `<span class="step-explanation">${escapeHtml(explanation)}</span>` : ''}
         </div>
@@ -371,9 +380,12 @@ function renderRecipeModern(container, recipe) {
     </section>
   ` : '';
 
-  // Generate enhanced nutrition section with fiber and sugar (estimated if not available)
-  const fiber = recipe.nutrition?.fiber_g || Math.round((recipe.nutrition?.carbs_g || 0) * 0.1);
-  const sugar = recipe.nutrition?.sugar_g || Math.round((recipe.nutrition?.carbs_g || 0) * 0.15);
+  // Generate enhanced nutrition section with fiber and sugar
+  // If fiber_g or sugar_g not provided in recipe data, estimate based on carbs
+  // These are rough estimates: fiber ~10% of carbs, sugar ~15% of carbs (typical for mixed dishes)
+  const fiber = recipe.nutrition?.fiber_g ?? Math.round((recipe.nutrition?.carbs_g || 0) * 0.1);
+  const sugar = recipe.nutrition?.sugar_g ?? Math.round((recipe.nutrition?.carbs_g || 0) * 0.15);
+  const isEstimated = !recipe.nutrition?.fiber_g || !recipe.nutrition?.sugar_g;
 
   const nutritionBenefitsHtml = recipe.nutrition ? `
     <section class="nutrition-section nutritional-breakdown">
