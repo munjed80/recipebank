@@ -104,6 +104,8 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
       response = this.handleHowToMake(lowerMessage);
     } else if (this.isAskingAboutIngredients(lowerMessage)) {
       response = this.handleIngredientQuestion(lowerMessage);
+    } else if (this.isAskingAboutDietaryInfo(lowerMessage)) {
+      response = this.handleDietaryInfoQuestion(lowerMessage);
     } else if (this.isAskingAboutNutrition(lowerMessage)) {
       response = this.handleNutritionQuestion(lowerMessage);
     } else if (this.isAskingAboutTime(lowerMessage)) {
@@ -157,7 +159,12 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
   },
 
   isAskingAboutNutrition(msg) {
-    return /(nutrition|calories|protein|carbs|fat|health|healthy|benefits)/i.test(msg);
+    return /(nutrition|calories|protein|carbs|fat|health|healthy|benefits|kcal|how many calories)/i.test(msg);
+  },
+
+  isAskingAboutDietaryInfo(msg) {
+    // Asking if a specific recipe is gluten-free, vegan, etc.
+    return /(is (this|it|the)?.*(gluten.free|vegan|vegetarian|dairy.free|healthy))|(how many calories)/i.test(msg);
   },
 
   isAskingAboutTime(msg) {
@@ -199,9 +206,16 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     return greetings[Math.floor(Math.random() * greetings.length)];
   },
 
+  /**
+   * Generate recipe link URL
+   */
+  getRecipeLink(slug) {
+    return `${RecipeBank.CONFIG.basePath}/public/recipes/recipe.html?slug=${slug}`;
+  },
+
   handleRecipeSearch(msg) {
     // Check for country-specific search
-    const countryMatch = msg.match(/(italy|italian|india|indian|japan|japanese|mexico|mexican|syria|syrian)/i);
+    const countryMatch = msg.match(/(italy|italian|india|indian|japan|japanese|mexico|mexican|syria|syrian|france|french|thailand|thai|morocco|moroccan|lebanon|lebanese|china|chinese|greece|greek|spain|spanish|turkey|turkish|korea|korean|vietnam|vietnamese|brazil|brazilian|ethiopia|ethiopian|peru|peruvian|indonesia|indonesian|egypt|egyptian)/i);
     
     let searchResults;
     if (countryMatch) {
@@ -210,7 +224,22 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
         'india': 'india', 'indian': 'india',
         'japan': 'japan', 'japanese': 'japan',
         'mexico': 'mexico', 'mexican': 'mexico',
-        'syria': 'syria', 'syrian': 'syria'
+        'syria': 'syria', 'syrian': 'syria',
+        'france': 'france', 'french': 'france',
+        'thailand': 'thailand', 'thai': 'thailand',
+        'morocco': 'morocco', 'moroccan': 'morocco',
+        'lebanon': 'lebanon', 'lebanese': 'lebanon',
+        'china': 'china', 'chinese': 'china',
+        'greece': 'greece', 'greek': 'greece',
+        'spain': 'spain', 'spanish': 'spain',
+        'turkey': 'turkey', 'turkish': 'turkey',
+        'korea': 'korea', 'korean': 'korea',
+        'vietnam': 'vietnam', 'vietnamese': 'vietnam',
+        'brazil': 'brazil', 'brazilian': 'brazil',
+        'ethiopia': 'ethiopia', 'ethiopian': 'ethiopia',
+        'peru': 'peru', 'peruvian': 'peru',
+        'indonesia': 'indonesia', 'indonesian': 'indonesia',
+        'egypt': 'egypt', 'egyptian': 'egypt'
       };
       const country = countryMap[countryMatch[1].toLowerCase()];
       searchResults = RecipeSearch.getByCountry(this.allRecipes, country);
@@ -220,7 +249,7 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     }
 
     if (searchResults.length === 0) {
-      return "I couldn't find any recipes matching that. Try searching by country (Italy, India, Japan, Mexico, Syria) or by ingredients like 'chicken', 'pasta', or 'vegetarian'.";
+      return "I couldn't find any recipes matching that. Try searching by country (Italy, France, India, Japan, Mexico, etc.) or by ingredients like 'chicken', 'pasta', or 'vegetarian'.";
     }
 
     let response = `I found ${searchResults.length} recipe${searchResults.length > 1 ? 's' : ''} for you:\n\n`;
@@ -229,12 +258,11 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
       const isFav = Favorites.isFavorite(recipe.slug);
       const favIcon = isFav ? ' ❤️' : '';
       const dietary = recipe.dietaryStyle && recipe.dietaryStyle !== 'None' ? ` • ${recipe.dietaryStyle}` : '';
-      response += `**${index + 1}. ${recipe.name_en}${favIcon}** (${recipe.country})\n`;
-      response += `   🍽️ ${recipe.mealType}${dietary} | ⏱️ ${(recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0)} min | ${recipe.difficulty}\n`;
-      response += `   ${recipe.short_description.substring(0, 100)}...\n\n`;
+      const link = this.getRecipeLink(recipe.slug);
+      response += `[RECIPE_CARD:${recipe.slug}:${recipe.name_en}${favIcon}:${recipe.country}:${recipe.mealType}${dietary}:${(recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0)} min]\n`;
     });
 
-    response += 'Would you like instructions for any of these? Just ask "How do I make [recipe name]?"';
+    response += '\nClick on any recipe to view the full instructions, or ask "How do I make [recipe name]?"';
     
     return response;
   },
@@ -265,6 +293,8 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
 
     // Set current recipe for follow-up questions
     this.currentRecipe = recipe;
+    
+    const recipeLink = this.getRecipeLink(recipe.slug);
 
     let response = `## ${recipe.name_en}\n\n`;
     response += `**${recipe.short_description}**\n\n`;
@@ -284,6 +314,7 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
       response += `\n❤️ *This recipe is in your favorites!*`;
     }
 
+    response += `\n\n[RECIPE_LINK:${recipe.slug}:View full recipe page →]`;
     response += `\n\nWant cooking tips or nutrition info? Just ask!`;
     
     return response;
@@ -327,6 +358,63 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     response += `• 🧈 Fat: ${recipe.nutrition.fat_g}g\n`;
     response += `• 🍞 Carbs: ${recipe.nutrition.carbs_g}g\n\n`;
     response += `**Health Benefits:**\n${recipe.nutrition_benefits}`;
+    
+    return response;
+  },
+
+  handleDietaryInfoQuestion(msg) {
+    const recipe = this.findRecipeFromMessage(msg) || this.currentRecipe;
+    
+    if (!recipe) {
+      return "Which recipe would you like dietary info for? Please specify the dish name.";
+    }
+
+    this.currentRecipe = recipe;
+    
+    let response = `### Dietary Information for ${recipe.name_en}\n\n`;
+    
+    // Check for gluten-free
+    if (msg.includes('gluten')) {
+      const isGlutenFree = recipe.dietaryStyle === 'Gluten Free';
+      response += isGlutenFree 
+        ? `✅ **Yes, ${recipe.name_en} is Gluten Free!**\n\n`
+        : `❌ **${recipe.name_en} is not specifically Gluten Free.** It is classified as: ${recipe.dietaryStyle || 'None specified'}\n\n`;
+    }
+    
+    // Check for vegan
+    if (msg.includes('vegan')) {
+      const isVegan = recipe.dietaryStyle === 'Vegan';
+      response += isVegan 
+        ? `✅ **Yes, ${recipe.name_en} is Vegan!**\n\n`
+        : `❌ **${recipe.name_en} is not Vegan.** It is classified as: ${recipe.dietaryStyle || 'None specified'}\n\n`;
+    }
+    
+    // Check for vegetarian
+    if (msg.includes('vegetarian')) {
+      const isVegetarian = recipe.dietaryStyle === 'Vegetarian' || recipe.dietaryStyle === 'Vegan';
+      response += isVegetarian 
+        ? `✅ **Yes, ${recipe.name_en} is Vegetarian!**\n\n`
+        : `❌ **${recipe.name_en} is not Vegetarian.** It is classified as: ${recipe.dietaryStyle || 'None specified'}\n\n`;
+    }
+    
+    // Check for dairy-free
+    if (msg.includes('dairy')) {
+      const isDairyFree = recipe.dietaryStyle === 'Dairy Free' || recipe.dietaryStyle === 'Vegan';
+      response += isDairyFree 
+        ? `✅ **Yes, ${recipe.name_en} is Dairy Free!**\n\n`
+        : `❌ **${recipe.name_en} is not specifically Dairy Free.** It is classified as: ${recipe.dietaryStyle || 'None specified'}\n\n`;
+    }
+    
+    // Add calories if asking about that
+    if (msg.includes('calorie') || msg.includes('calories') || msg.includes('kcal')) {
+      response += `🔥 **Calories:** ${recipe.nutrition.per_serving_kcal} kcal per serving\n\n`;
+    }
+    
+    // Add general dietary info
+    response += `**Classification:** ${recipe.mealType} • ${recipe.dietaryStyle}\n`;
+    response += `**Per Serving:** ${recipe.nutrition.per_serving_kcal} kcal, ${recipe.nutrition.protein_g}g protein\n\n`;
+    
+    response += `[RECIPE_LINK:${recipe.slug}:View full recipe →]`;
     
     return response;
   },
@@ -469,16 +557,17 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
       const recipes = this.allRecipes.filter(r => r.mealType === mealType);
       if (recipes.length > 0) {
         let response = `Here are ${mealType.toLowerCase()} recipes:\n\n`;
-        recipes.slice(0, 10).forEach((r, i) => {
+        recipes.slice(0, 8).forEach((r) => {
           const isFav = Favorites.isFavorite(r.slug);
           const favIcon = isFav ? ' ❤️' : '';
           const dietary = r.dietaryStyle && r.dietaryStyle !== 'None' ? ` • ${r.dietaryStyle}` : '';
-          response += `${i + 1}. **${r.name_en}${favIcon}** (${r.country})${dietary}\n`;
+          const time = (r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0);
+          response += `[RECIPE_CARD:${r.slug}:${r.name_en}${favIcon}:${r.country}:${mealType}${dietary}:${time} min]\n`;
         });
-        if (recipes.length > 10) {
-          response += `\n...and ${recipes.length - 10} more!\n`;
+        if (recipes.length > 8) {
+          response += `\n...and ${recipes.length - 8} more!\n`;
         }
-        response += `\nWould you like instructions for any of these?`;
+        response += `\nClick any recipe for full details!`;
         return response;
       }
       return `I don't have any ${mealType.toLowerCase()} recipes at the moment.`;
@@ -514,15 +603,16 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
       const recipes = this.allRecipes.filter(r => r.dietaryStyle === dietaryStyle);
       if (recipes.length > 0) {
         let response = `Here are ${dietaryStyle.toLowerCase()} recipes:\n\n`;
-        recipes.slice(0, 10).forEach((r, i) => {
+        recipes.slice(0, 8).forEach((r) => {
           const isFav = Favorites.isFavorite(r.slug);
           const favIcon = isFav ? ' ❤️' : '';
-          response += `${i + 1}. **${r.name_en}${favIcon}** (${r.country}) - ${r.mealType}\n`;
+          const time = (r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0);
+          response += `[RECIPE_CARD:${r.slug}:${r.name_en}${favIcon}:${r.country}:${r.mealType}:${time} min]\n`;
         });
-        if (recipes.length > 10) {
-          response += `\n...and ${recipes.length - 10} more!\n`;
+        if (recipes.length > 8) {
+          response += `\n...and ${recipes.length - 8} more!\n`;
         }
-        response += `\nWould you like instructions for any of these?`;
+        response += `\nClick any recipe for full details!`;
         return response;
       }
       return `I don't have any ${dietaryStyle.toLowerCase()} recipes at the moment, but you can adapt many recipes with ingredient substitutions!`;
@@ -541,11 +631,13 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     const favoriteRecipes = this.allRecipes.filter(r => favorites.includes(r.slug));
     
     let response = `### Your Favorite Recipes (${favoriteRecipes.length}):\n\n`;
-    favoriteRecipes.forEach((r, i) => {
-      response += `${i + 1}. **${r.name_en}** (${r.country})\n`;
+    favoriteRecipes.forEach((r) => {
+      const time = (r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0);
+      const dietary = r.dietaryStyle && r.dietaryStyle !== 'None' ? ` • ${r.dietaryStyle}` : '';
+      response += `[RECIPE_CARD:${r.slug}:${r.name_en} ❤️:${r.country}:${r.mealType}${dietary}:${time} min]\n`;
     });
     
-    response += `\nWould you like instructions for any of these?`;
+    response += `\nClick any recipe for full details!`;
     
     return response;
   },
@@ -556,10 +648,12 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     
     if (results.length > 0) {
       this.currentRecipe = results[0];
+      const r = results[0];
+      const time = (r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0);
+      const dietary = r.dietaryStyle && r.dietaryStyle !== 'None' ? ` • ${r.dietaryStyle}` : '';
       return `I found a recipe that might be what you're looking for:\n\n` +
-             `**${results[0].name_en}** (${results[0].country})\n` +
-             `${results[0].short_description.substring(0, 150)}...\n\n` +
-             `Would you like the full instructions?`;
+             `[RECIPE_CARD:${r.slug}:${r.name_en}:${r.country}:${r.mealType}${dietary}:${time} min]\n\n` +
+             `Would you like the full instructions? Just ask "How do I make ${r.name_en}?"`;
     }
 
     return `I'm not sure how to help with that. You can ask me:\n\n` +
@@ -616,6 +710,16 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.+?)\*/g, '<em>$1</em>')
       .replace(/###\s*(.+)/g, '<h4>$1</h4>')
+      // Parse recipe links [RECIPE_LINK:slug:text]
+      .replace(/\[RECIPE_LINK:([^:]+):([^\]]+)\]/g, (match, slug, text) => {
+        const link = `${RecipeBank.CONFIG.basePath}/public/recipes/recipe.html?slug=${slug}`;
+        return `<a href="${link}" class="recipe-link">${text}</a>`;
+      })
+      // Parse recipe cards [RECIPE_CARD:slug:name:country:mealType:time]
+      .replace(/\[RECIPE_CARD:([^:]+):([^:]+):([^:]+):([^:]+):([^\]]+)\]/g, (match, slug, name, country, mealType, time) => {
+        const link = `${RecipeBank.CONFIG.basePath}/public/recipes/recipe.html?slug=${slug}`;
+        return `<a href="${link}" class="recipe-card-inline"><span class="recipe-name">${name}</span><div class="recipe-meta">🌍 ${country} • 🍽️ ${mealType} • ⏱️ ${time}</div></a>`;
+      })
       .replace(/##\s*(.+)/g, '<h3>$1</h3>')
       .replace(/•\s*(.+)/g, '<span class="list-item">• $1</span>')
       .replace(/(\d+)\.\s+(.+)/g, '<span class="numbered-item">$1. $2</span>')
