@@ -1,0 +1,266 @@
+[
+  {
+    "id": "ru-borscht",
+    "slug": "borscht",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Borscht",
+    "image": "assets/img/recipes/borscht.jpg",
+    "short_description": "The iconic beet soup of Eastern Europe, featuring a deeply flavored broth with vegetables and meat, finished with a generous dollop of smetana (sour cream). This ruby-red soup warms souls across Russia.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      { "name": "beef brisket", "amount": 500, "unit": "g" },
+      { "name": "beets", "amount": 3, "unit": "medium" },
+      { "name": "cabbage", "amount": 0.5, "unit": "head" },
+      { "name": "potatoes", "amount": 3, "unit": "medium" },
+      { "name": "carrots", "amount": 2, "unit": "pc" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "garlic cloves", "amount": 3, "unit": "pc" },
+      { "name": "bay leaves", "amount": 2, "unit": "pc" },
+      { "name": "white vinegar", "amount": 2, "unit": "tbsp" },
+      { "name": "sour cream", "amount": 200, "unit": "g" },
+      { "name": "fresh dill", "amount": 0.5, "unit": "cup" }
+    ],
+    "steps": [
+      "Simmer beef in water with bay leaves for 1-1.5 hours until tender.",
+      "Remove meat, strain broth, and cut meat into pieces.",
+      "Grate beets and carrots, sauté with onion until soft.",
+      "Add tomato paste and vinegar to vegetables, cook 5 minutes.",
+      "Shred cabbage, cube potatoes.",
+      "Add potatoes to broth and cook 10 minutes.",
+      "Add cabbage and the beet mixture.",
+      "Simmer until all vegetables are tender.",
+      "Return meat to pot, add garlic, season with salt and pepper.",
+      "Let rest 10 minutes before serving.",
+      "Serve with sour cream and fresh dill."
+    ],
+    "cooking_tips": [
+      "The vinegar helps beets retain their vibrant color.",
+      "Borscht tastes even better the next day.",
+      "Serve with dark rye bread for authenticity."
+    ],
+    "difficulty": "medium",
+    "tags": ["russian", "soup", "beets", "traditional", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 12,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Beets are rich in folate and nitrates for blood pressure. Cabbage provides vitamin C and fiber. A nutritionally complete meal in one bowl.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ru-beef-stroganoff",
+    "slug": "beef-stroganoff",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Beef Stroganoff",
+    "image": "assets/img/recipes/beef-stroganoff.jpg",
+    "short_description": "A 19th-century Russian classic of tender beef strips in a rich, creamy mushroom and sour cream sauce. Named after the Stroganov family, this elegant dish has become internationally renowned.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "beef tenderloin", "amount": 600, "unit": "g" },
+      { "name": "mushrooms", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "sour cream", "amount": 250, "unit": "g" },
+      { "name": "beef broth", "amount": 150, "unit": "ml" },
+      { "name": "Dijon mustard", "amount": 1, "unit": "tbsp" },
+      { "name": "butter", "amount": 3, "unit": "tbsp" },
+      { "name": "flour", "amount": 1, "unit": "tbsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "fresh parsley", "amount": 0.25, "unit": "cup" }
+    ],
+    "steps": [
+      "Slice beef into thin strips against the grain.",
+      "Season with salt, pepper, and paprika.",
+      "Heat butter in a large pan over high heat.",
+      "Sear beef quickly in batches, set aside.",
+      "Reduce heat, sauté sliced onion and mushrooms.",
+      "Add flour and stir for 1 minute.",
+      "Pour in broth and bring to simmer.",
+      "Stir in mustard and sour cream.",
+      "Return beef to pan, heat through gently.",
+      "Don't let it boil after adding sour cream.",
+      "Serve over egg noodles or mashed potatoes with parsley."
+    ],
+    "cooking_tips": [
+      "Use the best quality beef you can afford.",
+      "Sear in batches to avoid steaming the meat.",
+      "Room temperature sour cream prevents curdling."
+    ],
+    "difficulty": "medium",
+    "tags": ["russian", "beef", "creamy", "classic", "dinner", "elegant"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 40,
+      "fat_g": 35,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High in protein and iron from beef. Mushrooms provide B vitamins and minerals. A satisfying, rich main course.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ru-pelmeni",
+    "slug": "pelmeni",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Pelmeni",
+    "image": "assets/img/recipes/pelmeni.jpg",
+    "short_description": "Siberian meat dumplings with a delicate dough wrapped around a juicy filling of mixed meats. These bite-sized treasures are often made in large batches and frozen for quick meals.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "eggs", "amount": 2, "unit": "pc" },
+      { "name": "water", "amount": 150, "unit": "ml" },
+      { "name": "ground beef", "amount": 300, "unit": "g" },
+      { "name": "ground pork", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "medium" },
+      { "name": "garlic", "amount": 2, "unit": "cloves" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "sour cream", "amount": 200, "unit": "g" },
+      { "name": "salt and pepper", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make dough: mix flour, eggs, water, and salt until smooth.",
+      "Knead for 10 minutes, rest under a towel for 30 minutes.",
+      "Mix meats with grated onion, garlic, salt, and pepper.",
+      "Roll dough thin and cut circles (about 6cm diameter).",
+      "Place 1 tsp filling in center of each circle.",
+      "Fold in half, press edges firmly to seal.",
+      "Bring the two corners together and pinch.",
+      "Boil in salted water until they float, plus 3 minutes more.",
+      "Drain and toss with butter.",
+      "Serve with sour cream, vinegar, or in broth."
+    ],
+    "cooking_tips": [
+      "Make a big batch and freeze on a tray before bagging.",
+      "The meat should have some fat for juicy filling.",
+      "A drop of cold water in the filling keeps it moist."
+    ],
+    "difficulty": "hard",
+    "tags": ["russian", "dumplings", "beef", "pork", "traditional", "dinner", "freezer-friendly"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 18,
+      "carbs_g": 40
+    },
+    "nutrition_benefits": "A balanced meal with protein from meat and carbs from the wrapper. Easy to digest when boiled. The broth adds hydration.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ru-blini",
+    "slug": "blini",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Blini with Caviar",
+    "image": "assets/img/recipes/blini.jpg",
+    "short_description": "Delicate yeasted buckwheat pancakes traditionally served with smetana and luxurious caviar. These lacy, slightly sour pancakes are an essential part of Russian celebrations, especially Maslenitsa.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      { "name": "buckwheat flour", "amount": 100, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 100, "unit": "g" },
+      { "name": "warm milk", "amount": 300, "unit": "ml" },
+      { "name": "eggs", "amount": 2, "unit": "pc" },
+      { "name": "yeast", "amount": 1, "unit": "tsp" },
+      { "name": "sugar", "amount": 1, "unit": "tbsp" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "sour cream", "amount": 200, "unit": "g" },
+      { "name": "salmon roe or caviar", "amount": 100, "unit": "g" },
+      { "name": "salt", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Dissolve yeast and sugar in warm milk, let foam.",
+      "Mix flours and salt in a bowl.",
+      "Add yeast mixture and egg yolks, whisk until smooth.",
+      "Cover and let rise for 1 hour.",
+      "Whip egg whites to soft peaks.",
+      "Fold whites into batter gently.",
+      "Let rest another 20 minutes.",
+      "Brush a small pan with butter.",
+      "Pour small ladles of batter, cook until bubbly.",
+      "Flip and cook briefly on other side.",
+      "Stack and keep warm. Serve with sour cream and caviar."
+    ],
+    "cooking_tips": [
+      "Buckwheat adds an earthy, slightly sour flavor.",
+      "The first blini is always sacrificial - for testing heat.",
+      "Keep them small for elegant appetizers."
+    ],
+    "difficulty": "medium",
+    "tags": ["russian", "pancakes", "caviar", "appetizer", "celebration", "maslenitsa"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 10,
+      "fat_g": 12,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Buckwheat is gluten-free and high in protein. Caviar is rich in omega-3s and vitamin B12. A luxurious yet nutritious appetizer.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-sharlotka",
+    "slug": "sharlotka",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Sharlotka Apple Cake",
+    "image": "assets/img/recipes/sharlotka.jpg",
+    "short_description": "Russia's beloved apple cake with a fluffy sponge studded with tender apple pieces. This simple, homey dessert is a staple in every Russian household, especially during apple season.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      { "name": "eggs", "amount": 4, "unit": "pc" },
+      { "name": "sugar", "amount": 200, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 200, "unit": "g" },
+      { "name": "apples", "amount": 4, "unit": "large" },
+      { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "butter for pan", "amount": 1, "unit": "tbsp" },
+      { "name": "powdered sugar", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Preheat oven to 180°C (350°F).",
+      "Peel and slice apples, toss with cinnamon.",
+      "Beat eggs with sugar for 5-7 minutes until pale and fluffy.",
+      "Add vanilla extract.",
+      "Fold in flour gently - don't deflate the batter.",
+      "Butter and flour a 9-inch round pan.",
+      "Arrange apple slices in the bottom.",
+      "Pour batter over apples.",
+      "Bake for 40-45 minutes until golden and springy.",
+      "Cool in pan 10 minutes, then invert onto plate.",
+      "Dust with powdered sugar before serving."
+    ],
+    "cooking_tips": [
+      "Use tart apples that hold their shape when baked.",
+      "Beat eggs and sugar very well - this provides all the lift.",
+      "Serve warm with tea for the authentic experience."
+    ],
+    "difficulty": "easy",
+    "tags": ["russian", "dessert", "apple", "cake", "simple", "autumn"],
+    "nutrition": {
+      "per_serving_kcal": 250,
+      "protein_g": 5,
+      "fat_g": 4,
+      "carbs_g": 50
+    },
+    "nutrition_benefits": "Apples provide fiber and vitamin C. A relatively light cake with no added fat in the batter. Perfect with tea.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  }
+]

@@ -157,7 +157,17 @@ const COUNTRY_FLAGS = {
   ethiopia: '🇪🇹',
   peru: '🇵🇪',
   indonesia: '🇮🇩',
-  egypt: '🇪🇬'
+  egypt: '🇪🇬',
+  yemen: '🇾🇪',
+  'saudi-arabia': '🇸🇦',
+  algeria: '🇩🇿',
+  tunisia: '🇹🇳',
+  palestine: '🇵🇸',
+  scandinavia: '🇸🇪',
+  armenia: '🇦🇲',
+  russia: '🇷🇺',
+  uzbekistan: '🇺🇿',
+  'united-states': '🇺🇸'
 };
 
 /**

@@ -1,0 +1,259 @@
+[
+  {
+    "id": "sa-kabsa",
+    "slug": "kabsa",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Kabsa",
+    "image": "assets/img/recipes/kabsa.jpg",
+    "short_description": "The crown jewel of Saudi cuisine, featuring fragrant spiced rice topped with tender meat, garnished with fried nuts and raisins. This aromatic one-pot feast is the heart of every Saudi gathering and celebration.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "whole chicken or lamb", "amount": 1.5, "unit": "kg" },
+      { "name": "basmati rice", "amount": 500, "unit": "g" },
+      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "tomatoes", "amount": 4, "unit": "medium" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "kabsa spice mix", "amount": 3, "unit": "tbsp" },
+      { "name": "cardamom pods", "amount": 6, "unit": "pc" },
+      { "name": "cinnamon sticks", "amount": 2, "unit": "pc" },
+      { "name": "dried limes (loomi)", "amount": 2, "unit": "pc" },
+      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
+      { "name": "vegetable oil", "amount": 4, "unit": "tbsp" },
+      { "name": "almonds and raisins", "amount": 100, "unit": "g" }
+    ],
+    "steps": [
+      "Season chicken or lamb with kabsa spice and salt, set aside.",
+      "Heat oil in a large pot and brown the meat on all sides.",
+      "Remove meat and sauté onions until golden.",
+      "Add garlic, chopped tomatoes, and tomato paste. Cook for 5 minutes.",
+      "Return meat to pot with whole spices and dried limes.",
+      "Add enough water to cover meat, simmer until tender (45-60 minutes).",
+      "Remove meat and strain broth, measure out 4 cups for rice.",
+      "Wash rice and add to the broth, cook until fluffy.",
+      "Fry almonds and raisins in butter until golden.",
+      "Serve rice on a large platter, top with meat and garnish with nuts and raisins."
+    ],
+    "cooking_tips": [
+      "Dried limes (loomi) add a unique tangy flavor - pierce them before adding.",
+      "The kabsa spice mix typically includes cumin, coriander, cloves, cardamom, and pepper.",
+      "Traditionally served on a large communal platter."
+    ],
+    "difficulty": "medium",
+    "tags": ["saudi", "rice", "chicken", "lamb", "festive", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "A complete meal providing protein from meat, complex carbohydrates from rice, and healthy fats from nuts. The spices aid digestion and have anti-inflammatory properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sa-jareesh",
+    "slug": "jareesh",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Jareesh",
+    "image": "assets/img/recipes/jareesh.jpg",
+    "short_description": "A comforting Saudi porridge made from crushed wheat cooked slowly with meat until creamy and rich. This traditional dish is especially popular during Ramadan and cold winter months.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      { "name": "crushed wheat (jareesh)", "amount": 400, "unit": "g" },
+      { "name": "lamb or chicken", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomatoes", "amount": 2, "unit": "medium" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "chicken or meat broth", "amount": 2, "unit": "L" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "coriander", "amount": 1, "unit": "tsp" },
+      { "name": "ghee", "amount": 4, "unit": "tbsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak the crushed wheat in water for 1 hour, then drain.",
+      "Cook meat in broth until tender, about 1 hour.",
+      "Remove meat, shred it, and reserve the broth.",
+      "Sauté onion and garlic in ghee until golden.",
+      "Add tomatoes and spices, cook for 5 minutes.",
+      "Add the soaked wheat and reserved broth.",
+      "Simmer on low heat, stirring frequently, for 1-1.5 hours.",
+      "The dish is ready when wheat is creamy and porridge-like.",
+      "Stir in the shredded meat.",
+      "Serve hot, drizzled with extra ghee and optionally yogurt."
+    ],
+    "cooking_tips": [
+      "Constant stirring prevents sticking and ensures creamy texture.",
+      "The longer it cooks, the creamier it becomes.",
+      "Some prefer it smooth, others like a bit of texture."
+    ],
+    "difficulty": "medium",
+    "tags": ["saudi", "porridge", "comfort-food", "ramadan", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Crushed wheat is high in fiber and provides sustained energy. The slow-cooked meat is easy to digest. A warming, nutritious meal perfect for recovery or during fasting.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sa-mutabbaq",
+    "slug": "mutabbaq",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Mutabbaq",
+    "image": "assets/img/recipes/mutabbaq.jpg",
+    "short_description": "A crispy stuffed pancake filled with spiced meat, eggs, and vegetables. This popular street food is folded into a perfect square and pan-fried until golden and flaky.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "ready-made spring roll wrappers", "amount": 8, "unit": "sheets" },
+      { "name": "ground beef or lamb", "amount": 300, "unit": "g" },
+      { "name": "eggs", "amount": 4, "unit": "pc" },
+      { "name": "onion", "amount": 1, "unit": "medium" },
+      { "name": "green onions", "amount": 4, "unit": "stalks" },
+      { "name": "green chilies", "amount": 2, "unit": "pc" },
+      { "name": "curry powder", "amount": 1, "unit": "tsp" },
+      { "name": "cumin", "amount": 0.5, "unit": "tsp" },
+      { "name": "vegetable oil", "amount": 100, "unit": "ml" },
+      { "name": "salt and pepper", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook ground meat with diced onion and spices until browned.",
+      "Let the meat mixture cool slightly.",
+      "Beat eggs and mix with cooked meat, chopped green onions, and chilies.",
+      "Lay out spring roll wrappers, overlapping two slightly.",
+      "Place filling in the center of each wrapper.",
+      "Fold the edges to create a square parcel.",
+      "Heat oil in a flat pan over medium heat.",
+      "Fry each mutabbaq until golden and crispy on both sides.",
+      "Drain on paper towels.",
+      "Serve hot with pickled vegetables or chili sauce."
+    ],
+    "cooking_tips": [
+      "Keep wrappers covered with a damp cloth to prevent drying.",
+      "Don't overfill or the parcels will burst while frying.",
+      "Traditional versions use a hand-stretched dough."
+    ],
+    "difficulty": "easy",
+    "tags": ["saudi", "street-food", "snack", "beef", "crispy", "appetizer"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 24,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "High in protein from meat and eggs. The crispy exterior comes from pan-frying rather than deep-frying, making it lighter than other fried snacks.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sa-saleeg",
+    "slug": "saleeg",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Saleeg",
+    "image": "assets/img/recipes/saleeg.jpg",
+    "short_description": "A creamy Saudi comfort food from the Hijaz region, featuring tender chicken atop silky rice cooked in milk and chicken broth. Often called Saudi risotto for its luxurious texture.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      { "name": "whole chicken", "amount": 1, "unit": "kg" },
+      { "name": "Egyptian rice", "amount": 300, "unit": "g" },
+      { "name": "whole milk", "amount": 500, "unit": "ml" },
+      { "name": "chicken broth", "amount": 1, "unit": "L" },
+      { "name": "mastic gum", "amount": 3, "unit": "pieces" },
+      { "name": "cardamom pods", "amount": 4, "unit": "pc" },
+      { "name": "butter", "amount": 4, "unit": "tbsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" },
+      { "name": "white pepper", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Boil chicken with cardamom and salt until fully cooked.",
+      "Remove chicken, strain and reserve the broth.",
+      "Wash rice thoroughly until water runs clear.",
+      "Toast rice briefly in butter until slightly golden.",
+      "Add chicken broth and crushed mastic gum.",
+      "Simmer until rice absorbs most of the liquid.",
+      "Gradually add warm milk, stirring gently.",
+      "Continue cooking until rice is creamy and soft.",
+      "Grill or roast the boiled chicken until skin is crispy.",
+      "Serve creamy rice with chicken pieces on top."
+    ],
+    "cooking_tips": [
+      "Egyptian rice gives the best creamy texture, but short-grain rice works too.",
+      "Mastic gum adds a unique subtle pine flavor - use sparingly.",
+      "Keep adding warm liquid if rice seems too thick."
+    ],
+    "difficulty": "medium",
+    "tags": ["saudi", "rice", "chicken", "creamy", "comfort-food", "hijazi", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 550,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "A calcium-rich dish thanks to the milk. Chicken provides lean protein while the rice offers energy-sustaining carbohydrates.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "sa-harees",
+    "slug": "harees",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Harees",
+    "image": "assets/img/recipes/harees.jpg",
+    "short_description": "A beloved Arabian porridge of slow-cooked wheat and meat, beaten to a smooth, comforting consistency. This ancient dish is especially cherished during Ramadan and is known for being easy to digest.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 240,
+    "servings": 6,
+    "ingredients": [
+      { "name": "whole wheat", "amount": 400, "unit": "g" },
+      { "name": "lamb or chicken", "amount": 500, "unit": "g" },
+      { "name": "ghee", "amount": 100, "unit": "g" },
+      { "name": "salt", "amount": 2, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "water", "amount": 3, "unit": "L" }
+    ],
+    "steps": [
+      "Soak wheat overnight in plenty of water.",
+      "Drain wheat and place in a large pot with meat.",
+      "Add water and salt, bring to a boil.",
+      "Reduce heat and simmer for 3-4 hours, stirring occasionally.",
+      "When meat is falling apart and wheat is very soft, beat vigorously.",
+      "Traditionally beaten with a wooden paddle until smooth.",
+      "Modern method: blend partially for similar texture.",
+      "Continue cooking until thick and porridge-like.",
+      "Serve in bowls with melted ghee and cinnamon on top.",
+      "Traditionally eaten with spoons or scooped with bread."
+    ],
+    "cooking_tips": [
+      "The longer you cook and beat, the smoother the texture.",
+      "Don't skip the soaking - it's essential for proper texture.",
+      "Some add sugar on top instead of cinnamon."
+    ],
+    "difficulty": "medium",
+    "tags": ["saudi", "porridge", "ramadan", "traditional", "comfort-food", "wheat"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 25,
+      "fat_g": 22,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Whole wheat provides fiber and B vitamins. The slow-cooking breaks down proteins for easy digestion, making it ideal for breaking fasts. Ghee adds healthy saturated fats.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  }
+]

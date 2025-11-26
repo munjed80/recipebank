@@ -1,0 +1,259 @@
+[
+  {
+    "id": "tn-couscous-poisson",
+    "slug": "couscous-poisson",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Couscous au Poisson",
+    "image": "assets/img/recipes/couscous-poisson.jpg",
+    "short_description": "Tunisia's signature fish couscous featuring fresh Mediterranean fish in a spicy tomato-based sauce. This coastal specialty showcases Tunisia's unique fusion of North African and Mediterranean flavors.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "couscous", "amount": 500, "unit": "g" },
+      { "name": "sea bass or grouper", "amount": 1, "unit": "kg" },
+      { "name": "potatoes", "amount": 3, "unit": "medium" },
+      { "name": "carrots", "amount": 3, "unit": "pc" },
+      { "name": "zucchini", "amount": 2, "unit": "pc" },
+      { "name": "tomato paste", "amount": 3, "unit": "tbsp" },
+      { "name": "harissa paste", "amount": 2, "unit": "tbsp" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "cumin", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" }
+    ],
+    "steps": [
+      "Clean and cut fish into large steaks, season with salt.",
+      "In a couscoussier bottom, sauté garlic in olive oil.",
+      "Add tomato paste and harissa, cook for 2 minutes.",
+      "Add water, cumin, and bring to boil.",
+      "Add harder vegetables first (potatoes, carrots).",
+      "Steam couscous in the top section for 20 minutes.",
+      "Fluff couscous, add butter, steam again.",
+      "Add zucchini to the stew.",
+      "Gently add fish steaks, cook for 15 minutes.",
+      "Serve couscous topped with fish, vegetables, and spicy broth."
+    ],
+    "cooking_tips": [
+      "Don't overcook the fish - it should be just flaky.",
+      "The harissa gives the characteristic Tunisian heat.",
+      "Serve with extra harissa on the side for those who like it spicy."
+    ],
+    "difficulty": "medium",
+    "tags": ["tunisian", "couscous", "fish", "seafood", "spicy", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 16,
+      "carbs_g": 55
+    },
+    "nutrition_benefits": "Fish provides omega-3 fatty acids for heart health. The variety of vegetables adds vitamins and fiber. Harissa contains capsaicin which may boost metabolism.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "tn-brik",
+    "slug": "brik",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Brik à l'Oeuf",
+    "image": "assets/img/recipes/brik.jpg",
+    "short_description": "A beloved Tunisian appetizer featuring a crispy malsouka pastry envelope filled with tuna, egg, and capers. The runny yolk inside creates a delightful surprise when you bite in.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      { "name": "malsouka or filo sheets", "amount": 4, "unit": "sheets" },
+      { "name": "eggs", "amount": 4, "unit": "pc" },
+      { "name": "canned tuna", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "small" },
+      { "name": "capers", "amount": 2, "unit": "tbsp" },
+      { "name": "fresh parsley", "amount": 0.25, "unit": "cup" },
+      { "name": "harissa", "amount": 1, "unit": "tsp" },
+      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
+      { "name": "vegetable oil for frying", "amount": 500, "unit": "ml" },
+      { "name": "salt and pepper", "amount": 1, "unit": "pinch" }
+    ],
+    "steps": [
+      "Drain tuna and mix with finely diced onion, capers, parsley, and harissa.",
+      "Lay out a pastry sheet and fold in half.",
+      "Place tuna mixture on one side.",
+      "Create a small well in the filling and crack an egg into it.",
+      "Carefully fold the pastry to form a triangle, sealing edges.",
+      "Heat oil to 180°C (350°F).",
+      "Gently slide brik into oil, fry until golden on both sides.",
+      "The egg yolk should remain runny inside.",
+      "Drain on paper towels.",
+      "Serve immediately with lemon wedges."
+    ],
+    "cooking_tips": [
+      "Work quickly once you add the egg - it will start cooking.",
+      "The pastry should be thin and crispy, not chewy.",
+      "Eat immediately - brik doesn't keep well."
+    ],
+    "difficulty": "medium",
+    "tags": ["tunisian", "appetizer", "fried", "egg", "tuna", "street-food"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Eggs provide complete protein and choline. Tuna offers omega-3s and lean protein. Capers add antioxidants and a distinctive briny flavor.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "tn-lablabi",
+    "slug": "lablabi",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Lablabi",
+    "image": "assets/img/recipes/lablabi.jpg",
+    "short_description": "Tunisia's beloved street food breakfast - a warming chickpea soup served over torn bread, drizzled with olive oil and harissa. This humble dish is a staple on cold mornings across the country.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "chickpeas (cooked or canned)", "amount": 500, "unit": "g" },
+      { "name": "stale bread", "amount": 200, "unit": "g" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "harissa paste", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "extra virgin olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "eggs", "amount": 4, "unit": "pc" },
+      { "name": "preserved lemon", "amount": 1, "unit": "pc" },
+      { "name": "capers", "amount": 2, "unit": "tbsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Heat chickpeas in their cooking liquid or water until simmering.",
+      "Crush garlic with cumin and salt to form a paste.",
+      "Tear bread into bite-sized pieces in serving bowls.",
+      "Soft boil the eggs (6-7 minutes).",
+      "Ladle hot chickpeas and broth over the bread.",
+      "Add a spoonful of garlic-cumin paste and harissa.",
+      "Drizzle generously with olive oil.",
+      "Top with peeled soft-boiled eggs, halved.",
+      "Garnish with chopped preserved lemon and capers.",
+      "Mix everything together and eat immediately."
+    ],
+    "cooking_tips": [
+      "Day-old bread absorbs the broth better than fresh.",
+      "Each person can customize their harissa and garlic levels.",
+      "The broth should be quite soupy."
+    ],
+    "difficulty": "easy",
+    "tags": ["tunisian", "breakfast", "chickpeas", "street-food", "comfort-food", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 18,
+      "fat_g": 20,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Chickpeas are excellent for fiber and plant protein. The combination with eggs provides complete protein. Cumin aids digestion.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tn-ojja",
+    "slug": "ojja",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Ojja aux Merguez",
+    "image": "assets/img/recipes/ojja.jpg",
+    "short_description": "A spicy Tunisian egg dish similar to shakshuka, featuring merguez sausages poached in a fiery tomato and pepper sauce. Perfect for brunch or a hearty dinner.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      { "name": "eggs", "amount": 6, "unit": "pc" },
+      { "name": "merguez sausages", "amount": 4, "unit": "pc" },
+      { "name": "tomatoes", "amount": 4, "unit": "large" },
+      { "name": "green peppers", "amount": 2, "unit": "pc" },
+      { "name": "onion", "amount": 1, "unit": "medium" },
+      { "name": "garlic cloves", "amount": 3, "unit": "pc" },
+      { "name": "harissa paste", "amount": 1, "unit": "tbsp" },
+      { "name": "caraway seeds", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Slice merguez and brown in a pan, set aside.",
+      "In the same pan, sauté diced onion and peppers.",
+      "Add minced garlic and caraway seeds.",
+      "Grate or dice tomatoes and add to pan.",
+      "Stir in harissa and simmer until sauce thickens.",
+      "Return merguez to the pan.",
+      "Make wells in the sauce and crack eggs into them.",
+      "Cover and cook until eggs are set but yolks still runny.",
+      "Serve directly from the pan with crusty bread."
+    ],
+    "cooking_tips": [
+      "Use ripe, flavorful tomatoes for the best sauce.",
+      "Caraway seeds are essential for authentic flavor.",
+      "Don't stir after adding the eggs."
+    ],
+    "difficulty": "easy",
+    "tags": ["tunisian", "eggs", "merguez", "spicy", "brunch", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 30,
+      "carbs_g": 15
+    },
+    "nutrition_benefits": "High in protein from eggs and sausages. Tomatoes and peppers provide vitamins A and C. The spices may help boost metabolism.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "tn-bambalouni",
+    "slug": "bambalouni",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Bambalouni",
+    "image": "assets/img/recipes/bambalouni.jpg",
+    "short_description": "Tunisia's beloved ring-shaped doughnuts, fried until golden and coated in sugar. These addictive treats are a popular street food, best enjoyed fresh and warm.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 20,
+    "servings": 12,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "instant yeast", "amount": 2, "unit": "tsp" },
+      { "name": "sugar", "amount": 2, "unit": "tbsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" },
+      { "name": "warm water", "amount": 300, "unit": "ml" },
+      { "name": "vegetable oil for frying", "amount": 1, "unit": "L" },
+      { "name": "granulated sugar for coating", "amount": 200, "unit": "g" }
+    ],
+    "steps": [
+      "Mix flour, yeast, sugar, and salt in a large bowl.",
+      "Add warm water gradually, mixing to form a soft, sticky dough.",
+      "Knead for 10 minutes until smooth and elastic.",
+      "Cover and let rise for 1 hour until doubled.",
+      "Heat oil to 180°C (350°F).",
+      "With wet hands, take portions of dough.",
+      "Stretch into a ring shape and drop carefully into oil.",
+      "Fry until golden brown on both sides.",
+      "Drain briefly and toss immediately in sugar.",
+      "Serve warm for the best experience."
+    ],
+    "cooking_tips": [
+      "Keep your hands wet to prevent sticking.",
+      "The dough should be quite soft and stretchy.",
+      "Eat within a few hours - they don't keep well."
+    ],
+    "difficulty": "easy",
+    "tags": ["tunisian", "dessert", "doughnut", "fried", "street-food", "sweet"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "A occasional treat providing quick energy. The simple ingredients make it a straightforward indulgence. Best enjoyed in moderation.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  }
+]

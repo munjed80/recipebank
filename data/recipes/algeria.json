@@ -1,0 +1,267 @@
+[
+  {
+    "id": "dz-couscous",
+    "slug": "couscous-algerien",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Couscous Royal",
+    "image": "assets/img/recipes/couscous-algerien.jpg",
+    "short_description": "The quintessential Algerian dish featuring fluffy steamed semolina topped with a rich vegetable stew and various meats. This Friday tradition brings families together around a communal platter.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      { "name": "couscous", "amount": 500, "unit": "g" },
+      { "name": "lamb shoulder", "amount": 500, "unit": "g" },
+      { "name": "chicken pieces", "amount": 500, "unit": "g" },
+      { "name": "merguez sausages", "amount": 4, "unit": "pc" },
+      { "name": "chickpeas (soaked)", "amount": 200, "unit": "g" },
+      { "name": "carrots", "amount": 4, "unit": "pc" },
+      { "name": "zucchini", "amount": 3, "unit": "pc" },
+      { "name": "turnips", "amount": 2, "unit": "pc" },
+      { "name": "tomatoes", "amount": 3, "unit": "pc" },
+      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "ras el hanout", "amount": 2, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" }
+    ],
+    "steps": [
+      "In a couscoussier or steamer, brown lamb and chicken in oil.",
+      "Add sliced onions and cook until softened.",
+      "Add tomatoes, ras el hanout, salt, and water to cover.",
+      "Bring to boil, add soaked chickpeas, reduce to simmer.",
+      "Meanwhile, moisten couscous with salted water and let rest.",
+      "Steam couscous over the stew for 20 minutes.",
+      "Fluff couscous, add butter, steam again for 20 minutes.",
+      "Add harder vegetables (carrots, turnips) to stew.",
+      "After 30 minutes, add softer vegetables (zucchini).",
+      "Grill merguez separately, slice when cooked.",
+      "Serve couscous on large platter, arrange meat and vegetables on top."
+    ],
+    "cooking_tips": [
+      "The couscous must be steamed, not boiled, for proper fluffiness.",
+      "Break up any lumps in the couscous between steamings.",
+      "The broth should be ladled over when serving."
+    ],
+    "difficulty": "hard",
+    "tags": ["algerian", "couscous", "festive", "friday", "family", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 680,
+      "protein_g": 42,
+      "fat_g": 28,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "A complete meal with protein from multiple meat sources. Chickpeas add plant protein and fiber. The variety of vegetables provides vitamins and minerals.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "dz-chakhchoukha",
+    "slug": "chakhchoukha",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Chakhchoukha",
+    "image": "assets/img/recipes/chakhchoukha.jpg",
+    "short_description": "A hearty Algerian dish from the Aurès region featuring torn flatbread pieces soaked in a spiced meat and vegetable stew. This rustic comfort food is packed with flavor.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "semolina", "amount": 500, "unit": "g" },
+      { "name": "lamb", "amount": 500, "unit": "g" },
+      { "name": "chickpeas (cooked)", "amount": 200, "unit": "g" },
+      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "tomatoes", "amount": 3, "unit": "pc" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "harissa paste", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make a simple flatbread dough with semolina, salt, and water.",
+      "Knead until smooth, rest for 30 minutes.",
+      "Roll thin and cook on a dry griddle until done but not crispy.",
+      "Tear the bread into small pieces and set aside.",
+      "Brown lamb in oil, add onions and garlic.",
+      "Add tomatoes, harissa, cumin, and water.",
+      "Simmer until lamb is tender, about 1 hour.",
+      "Add cooked chickpeas in the last 15 minutes.",
+      "Place torn bread in serving dishes.",
+      "Ladle hot stew over bread, let soak briefly before serving."
+    ],
+    "cooking_tips": [
+      "The bread should be soft enough to absorb the sauce.",
+      "Don't let the bread get too soggy - serve immediately.",
+      "Adjust harissa to your spice preference."
+    ],
+    "difficulty": "medium",
+    "tags": ["algerian", "lamb", "bread", "traditional", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Lamb provides iron and B12. Chickpeas add fiber and plant protein. Tomatoes offer lycopene and vitamin C.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "dz-dolma",
+    "slug": "dolma-algerienne",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Dolma Algérienne",
+    "image": "assets/img/recipes/dolma-algerienne.jpg",
+    "short_description": "Algerian-style stuffed vegetables featuring a medley of zucchini, peppers, and tomatoes filled with spiced meat and rice, simmered in a savory tomato sauce.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 75,
+    "servings": 6,
+    "ingredients": [
+      { "name": "zucchini", "amount": 4, "unit": "medium" },
+      { "name": "bell peppers", "amount": 4, "unit": "pc" },
+      { "name": "tomatoes", "amount": 4, "unit": "large" },
+      { "name": "ground beef", "amount": 400, "unit": "g" },
+      { "name": "rice", "amount": 150, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "tomato paste", "amount": 3, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Hollow out zucchini and peppers, saving the flesh.",
+      "Scoop out tomatoes, chop the flesh.",
+      "Mix ground beef with rice, chopped onion, parsley, and spices.",
+      "Stuff vegetables loosely with meat mixture.",
+      "Arrange stuffed vegetables in a deep pot.",
+      "Mix tomato paste with water and chopped tomato flesh.",
+      "Pour sauce around the vegetables.",
+      "Cover and simmer on low heat for 1 hour.",
+      "Check occasionally, adding water if needed.",
+      "Serve hot with crusty bread to soak up the sauce."
+    ],
+    "cooking_tips": [
+      "Don't pack the filling too tight - rice needs room to expand.",
+      "The vegetables should be snug in the pot to prevent tipping.",
+      "A splash of lemon juice at the end brightens the flavors."
+    ],
+    "difficulty": "medium",
+    "tags": ["algerian", "stuffed-vegetables", "beef", "dinner", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 24,
+      "fat_g": 16,
+      "carbs_g": 35
+    },
+    "nutrition_benefits": "A vegetable-rich dish providing vitamins A and C from peppers and tomatoes. The balanced combination of protein, carbs, and vegetables makes it nutritionally complete.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "dz-chorba",
+    "slug": "chorba-frik",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Chorba Frik",
+    "image": "assets/img/recipes/chorba-frik.jpg",
+    "short_description": "A beloved Algerian soup made with freekeh (roasted green wheat), lamb, and a bounty of vegetables. This hearty soup is essential during Ramadan for breaking the fast.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      { "name": "freekeh (green wheat)", "amount": 150, "unit": "g" },
+      { "name": "lamb shoulder", "amount": 400, "unit": "g" },
+      { "name": "chickpeas (soaked)", "amount": 100, "unit": "g" },
+      { "name": "onions", "amount": 2, "unit": "medium" },
+      { "name": "tomatoes", "amount": 3, "unit": "pc" },
+      { "name": "celery stalks", "amount": 2, "unit": "pc" },
+      { "name": "fresh cilantro", "amount": 0.5, "unit": "cup" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "ras el hanout", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "lemon juice", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Rinse freekeh well and soak for 30 minutes.",
+      "Cut lamb into small pieces, brown in olive oil.",
+      "Add diced onions and cook until soft.",
+      "Add tomato paste and grated tomatoes.",
+      "Pour in 3 liters of water, add chickpeas and ras el hanout.",
+      "Simmer for 45 minutes until lamb is tender.",
+      "Add drained freekeh and continue cooking for 30 minutes.",
+      "Add chopped celery and cilantro.",
+      "Season with salt and lemon juice.",
+      "Serve hot with crusty bread and lemon wedges."
+    ],
+    "cooking_tips": [
+      "Freekeh has a unique smoky flavor that defines this soup.",
+      "The soup thickens as it sits - add more broth when reheating.",
+      "Fresh mint can be added as a garnish."
+    ],
+    "difficulty": "easy",
+    "tags": ["algerian", "soup", "ramadan", "lamb", "freekeh", "healthy"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 12,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "Freekeh is a superfood grain high in fiber and protein. The soup is hydrating and nutritious, perfect for breaking a fast. Rich in vitamins from fresh herbs and vegetables.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "dz-makroud",
+    "slug": "makroud",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Makroud",
+    "image": "assets/img/recipes/makroud.jpg",
+    "short_description": "Traditional Algerian semolina cookies stuffed with sweet date paste, fried until golden, and dipped in honey syrup. These diamond-shaped treats are beloved during celebrations.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 24,
+    "ingredients": [
+      { "name": "fine semolina", "amount": 500, "unit": "g" },
+      { "name": "butter", "amount": 150, "unit": "g" },
+      { "name": "vegetable oil", "amount": 100, "unit": "ml" },
+      { "name": "date paste", "amount": 400, "unit": "g" },
+      { "name": "orange blossom water", "amount": 2, "unit": "tbsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "honey", "amount": 300, "unit": "g" },
+      { "name": "vegetable oil for frying", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Mix semolina with melted butter, oil, salt, and orange blossom water.",
+      "Add water gradually to form a soft, pliable dough.",
+      "Let rest for 30 minutes.",
+      "Mix date paste with cinnamon until smooth.",
+      "Divide dough into portions and roll into long cylinders.",
+      "Flatten each, place date paste in center, fold and seal.",
+      "Roll gently to even thickness.",
+      "Cut into diamond shapes at an angle.",
+      "Deep fry in batches until golden brown.",
+      "Immediately dip in warm honey, let excess drip off.",
+      "Cool on a rack and serve at room temperature."
+    ],
+    "cooking_tips": [
+      "The dough should be soft but not sticky.",
+      "Don't overcrowd the fryer - they expand slightly.",
+      "Warm the honey for easier coating."
+    ],
+    "difficulty": "medium",
+    "tags": ["algerian", "dessert", "dates", "fried", "honey", "traditional", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Dates are high in fiber and natural sugars for quick energy. Semolina provides complex carbohydrates. Honey has natural antibacterial properties.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  }
+]

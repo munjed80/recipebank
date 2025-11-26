@@ -1,0 +1,256 @@
+[
+  {
+    "id": "se-swedish-meatballs",
+    "slug": "swedish-meatballs",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Swedish Meatballs",
+    "image": "assets/img/recipes/swedish-meatballs.jpg",
+    "short_description": "The iconic Swedish köttbullar - tender, well-seasoned meatballs served in a creamy gravy with lingonberry jam. A comfort food classic that has captured hearts worldwide.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      { "name": "ground beef", "amount": 400, "unit": "g" },
+      { "name": "ground pork", "amount": 200, "unit": "g" },
+      { "name": "breadcrumbs", "amount": 50, "unit": "g" },
+      { "name": "milk", "amount": 100, "unit": "ml" },
+      { "name": "egg", "amount": 1, "unit": "pc" },
+      { "name": "onion", "amount": 1, "unit": "small" },
+      { "name": "heavy cream", "amount": 250, "unit": "ml" },
+      { "name": "beef broth", "amount": 200, "unit": "ml" },
+      { "name": "allspice", "amount": 0.5, "unit": "tsp" },
+      { "name": "butter", "amount": 3, "unit": "tbsp" },
+      { "name": "lingonberry jam", "amount": 100, "unit": "g" }
+    ],
+    "steps": [
+      "Soak breadcrumbs in milk for 5 minutes.",
+      "Finely mince onion and sauté until soft, cool.",
+      "Mix meats with soaked breadcrumbs, egg, onion, allspice, salt, and pepper.",
+      "Roll into small balls (about 2cm diameter).",
+      "Brown meatballs in butter in batches, set aside.",
+      "Add flour to pan drippings, cook 1 minute.",
+      "Gradually whisk in broth and cream.",
+      "Simmer sauce until thickened.",
+      "Return meatballs to sauce, simmer 10 minutes.",
+      "Serve with mashed potatoes and lingonberry jam."
+    ],
+    "cooking_tips": [
+      "Keep meatballs small for even cooking and authentic size.",
+      "Don't skip the allspice - it's the secret flavor.",
+      "Lingonberry jam cuts the richness of the cream sauce."
+    ],
+    "difficulty": "medium",
+    "tags": ["scandinavian", "swedish", "meatballs", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 35,
+      "carbs_g": 15
+    },
+    "nutrition_benefits": "High in protein from mixed meats. Lingonberries are rich in antioxidants and vitamin C. A satisfying, energy-dense meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "se-gravlax",
+    "slug": "gravlax",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Gravlax with Dill Sauce",
+    "image": "assets/img/recipes/gravlax.jpg",
+    "short_description": "Nordic cured salmon with dill, sugar, and salt - a elegant preparation dating back to Viking times. Served with a sweet mustard-dill sauce, it's a staple of Scandinavian celebrations.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 10,
+    "ingredients": [
+      { "name": "fresh salmon fillet", "amount": 1, "unit": "kg" },
+      { "name": "coarse salt", "amount": 100, "unit": "g" },
+      { "name": "sugar", "amount": 100, "unit": "g" },
+      { "name": "fresh dill", "amount": 2, "unit": "bunches" },
+      { "name": "white pepper", "amount": 2, "unit": "tbsp" },
+      { "name": "Swedish mustard", "amount": 3, "unit": "tbsp" },
+      { "name": "honey", "amount": 2, "unit": "tbsp" },
+      { "name": "white wine vinegar", "amount": 2, "unit": "tbsp" },
+      { "name": "vegetable oil", "amount": 100, "unit": "ml" }
+    ],
+    "steps": [
+      "Mix salt, sugar, and crushed white pepper.",
+      "Place salmon skin-side down on plastic wrap.",
+      "Rub cure mixture generously over salmon flesh.",
+      "Cover with chopped dill, pressing gently.",
+      "Wrap tightly in plastic wrap.",
+      "Refrigerate for 48-72 hours, turning once daily.",
+      "For sauce: whisk mustard, honey, and vinegar.",
+      "Slowly drizzle in oil, whisking until emulsified.",
+      "Stir in fresh chopped dill.",
+      "Scrape cure off salmon, slice thinly at an angle.",
+      "Serve with sauce, dark bread, and capers."
+    ],
+    "cooking_tips": [
+      "The longer you cure, the firmer and saltier the fish.",
+      "Use the freshest salmon possible.",
+      "A sharp, flexible knife makes slicing easier."
+    ],
+    "difficulty": "easy",
+    "tags": ["scandinavian", "salmon", "cured", "appetizer", "celebration", "dill"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 24,
+      "fat_g": 18,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Salmon is rich in omega-3 fatty acids and vitamin D. The curing process preserves nutrients. Dill has digestive benefits.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "dk-smorrebrod",
+    "slug": "smorrebrod",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Smørrebrød",
+    "image": "assets/img/recipes/smorrebrod.jpg",
+    "short_description": "Danish open-faced sandwiches elevated to an art form. These beautiful creations feature dark rye bread topped with an array of ingredients from pickled herring to roast beef.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      { "name": "dark rye bread", "amount": 4, "unit": "slices" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "pickled herring", "amount": 150, "unit": "g" },
+      { "name": "cooked shrimp", "amount": 200, "unit": "g" },
+      { "name": "roast beef slices", "amount": 150, "unit": "g" },
+      { "name": "hard-boiled eggs", "amount": 2, "unit": "pc" },
+      { "name": "red onion", "amount": 1, "unit": "small" },
+      { "name": "capers", "amount": 2, "unit": "tbsp" },
+      { "name": "fresh dill", "amount": 0.25, "unit": "cup" },
+      { "name": "remoulade sauce", "amount": 100, "unit": "g" }
+    ],
+    "steps": [
+      "Generously butter each slice of rye bread.",
+      "For herring version: top with pickled herring, onion rings, and dill.",
+      "For shrimp version: mound mayonnaise-dressed shrimp, top with lemon and dill.",
+      "For beef version: layer roast beef, remoulade, fried onions, and pickles.",
+      "Garnish with egg slices, capers, and fresh herbs.",
+      "Arrange artfully - presentation is key.",
+      "Serve immediately with knife and fork.",
+      "Never stack or cover - eat face up!"
+    ],
+    "cooking_tips": [
+      "Use dense, dark Danish rye bread for authentic taste.",
+      "Butter generously - it prevents sogginess.",
+      "Each smørrebrød is eaten with knife and fork, never picked up."
+    ],
+    "difficulty": "easy",
+    "tags": ["scandinavian", "danish", "sandwich", "lunch", "seafood", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 350,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 25
+    },
+    "nutrition_benefits": "Rye bread is high in fiber and has a low glycemic index. Pickled fish provides omega-3s. A balanced meal with protein, carbs, and fats.",
+    "mealType": "Lunch",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "no-lefse",
+    "slug": "lefse",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Norwegian Lefse",
+    "image": "assets/img/recipes/lefse.jpg",
+    "short_description": "Soft Norwegian potato flatbread that's rolled thin and cooked on a griddle. Served with butter and sugar or used as a wrap, it's a beloved Norwegian tradition especially during holidays.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      { "name": "russet potatoes", "amount": 1, "unit": "kg" },
+      { "name": "butter", "amount": 60, "unit": "g" },
+      { "name": "heavy cream", "amount": 60, "unit": "ml" },
+      { "name": "all-purpose flour", "amount": 200, "unit": "g" },
+      { "name": "sugar", "amount": 2, "unit": "tbsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Boil potatoes until tender, drain well.",
+      "Rice or mash potatoes while still hot.",
+      "Add butter and cream, mix until smooth.",
+      "Cool completely (refrigerate overnight is best).",
+      "Add flour, sugar, and salt to cold potato mixture.",
+      "Mix until just combined - don't overwork.",
+      "Divide into 12 balls.",
+      "Roll each very thin on floured surface.",
+      "Cook on ungreased griddle until spotted brown on both sides.",
+      "Stack between towels to keep soft.",
+      "Serve with butter and sugar, or fill with savory ingredients."
+    ],
+    "cooking_tips": [
+      "Cold potato mixture is essential - warm dough is sticky.",
+      "Roll as thin as possible - almost translucent.",
+      "A grooved rolling pin (lefse stick) helps."
+    ],
+    "difficulty": "hard",
+    "tags": ["scandinavian", "norwegian", "flatbread", "potato", "traditional", "holiday"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 6,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Potatoes provide potassium and vitamin C. A simple, wholesome bread. Can be made with less sugar for a healthier version.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fi-karjalanpiirakka",
+    "slug": "karjalanpiirakka",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Karelian Pasties",
+    "image": "assets/img/recipes/karjalanpiirakka.jpg",
+    "short_description": "Traditional Finnish rye crust pasties filled with creamy rice porridge. These iconic pastries are topped with egg butter and are a beloved part of Finnish food culture.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 25,
+    "servings": 20,
+    "ingredients": [
+      { "name": "rye flour", "amount": 200, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 50, "unit": "g" },
+      { "name": "water", "amount": 150, "unit": "ml" },
+      { "name": "short-grain rice", "amount": 200, "unit": "g" },
+      { "name": "whole milk", "amount": 1, "unit": "L" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "hard-boiled eggs", "amount": 4, "unit": "pc" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make rice porridge: simmer rice in milk for 45 minutes, stirring often.",
+      "Season with salt, cool completely.",
+      "Mix flours with salt and water to form stiff dough.",
+      "Roll very thin and cut into 10cm circles.",
+      "Place 2 tbsp cold porridge in center of each.",
+      "Fold edges up, crimp decoratively.",
+      "Bake at 250°C (480°F) for 10-15 minutes.",
+      "Brush hot pasties with melted butter.",
+      "Make egg butter: mix chopped eggs with soft butter.",
+      "Serve pasties warm with egg butter on top."
+    ],
+    "cooking_tips": [
+      "The crust should be very thin and slightly crispy.",
+      "Work quickly as rye dough dries out fast.",
+      "Best eaten fresh and warm."
+    ],
+    "difficulty": "hard",
+    "tags": ["scandinavian", "finnish", "pastry", "rice", "traditional", "breakfast"],
+    "nutrition": {
+      "per_serving_kcal": 150,
+      "protein_g": 4,
+      "fat_g": 6,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Rye provides fiber and has a low glycemic index. Rice offers easily digestible carbohydrates. Eggs add protein and nutrients.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  }
+]

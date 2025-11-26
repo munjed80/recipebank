@@ -1,0 +1,265 @@
+[
+  {
+    "id": "ye-mandi",
+    "slug": "mandi",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Mandi",
+    "image": "assets/img/recipes/mandi.jpg",
+    "short_description": "A legendary Yemeni rice dish featuring tender, slow-cooked meat infused with aromatic spices like cardamom and cloves, traditionally prepared in an underground clay oven called a tandoor. The rice absorbs the rich meat juices creating an unforgettable feast.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      { "name": "lamb or chicken", "amount": 1.5, "unit": "kg" },
+      { "name": "basmati rice", "amount": 500, "unit": "g" },
+      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
+      { "name": "hawaij spice blend", "amount": 3, "unit": "tbsp" },
+      { "name": "cardamom pods", "amount": 6, "unit": "pc" },
+      { "name": "cinnamon sticks", "amount": 2, "unit": "pc" },
+      { "name": "bay leaves", "amount": 3, "unit": "pc" },
+      { "name": "ghee", "amount": 4, "unit": "tbsp" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Marinate the meat with hawaij spice blend, crushed garlic, and salt for at least 2 hours or overnight.",
+      "In a large pot, heat ghee and sear the meat on all sides until golden brown.",
+      "Add sliced onions and cook until softened and caramelized.",
+      "Add chopped tomatoes, cardamom, cinnamon sticks, and bay leaves.",
+      "Pour enough water to cover the meat and bring to a boil, then reduce heat and simmer for 2-3 hours until tender.",
+      "Remove meat and strain the broth, reserving it for cooking rice.",
+      "Rinse basmati rice and soak for 30 minutes, then drain.",
+      "Cook rice in the reserved meat broth until fluffy and aromatic.",
+      "Traditionally, smoke the meat over charcoal for authentic flavor.",
+      "Serve the rice on a large platter with meat on top, garnished with fried onions and almonds."
+    ],
+    "cooking_tips": [
+      "For authentic smoky flavor, place a small piece of charcoal in the pot and drizzle with ghee before covering.",
+      "Hawaiian spice blend can be made with cumin, coriander, cardamom, turmeric, and black pepper.",
+      "The longer you marinate the meat, the more flavorful it becomes."
+    ],
+    "difficulty": "hard",
+    "tags": ["yemeni", "rice", "lamb", "festive", "traditional", "dinner", "middle-eastern"],
+    "nutrition": {
+      "per_serving_kcal": 650,
+      "protein_g": 42,
+      "fat_g": 28,
+      "carbs_g": 55
+    },
+    "nutrition_benefits": "Mandi provides high-quality protein from lamb, essential for muscle repair. The aromatic spices like cardamom aid digestion while basmati rice offers sustained energy. The slow-cooking method helps break down proteins for better absorption.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "ye-saltah",
+    "slug": "saltah",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Saltah",
+    "image": "assets/img/recipes/saltah.jpg",
+    "short_description": "Yemen's national dish, a hearty meat stew topped with hulba (fenugreek foam) and served bubbling hot in a traditional stone pot. This flavorful dish combines tender meat with vegetables in a rich, spiced broth.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      { "name": "lamb or beef", "amount": 500, "unit": "g" },
+      { "name": "potatoes", "amount": 2, "unit": "medium" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "green chilies", "amount": 2, "unit": "pc" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "fenugreek seeds", "amount": 2, "unit": "tbsp" },
+      { "name": "hawaij spice", "amount": 2, "unit": "tbsp" },
+      { "name": "fresh cilantro", "amount": 0.5, "unit": "cup" },
+      { "name": "vegetable oil", "amount": 3, "unit": "tbsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak fenugreek seeds in water overnight or for at least 4 hours.",
+      "Cut meat into small cubes and season with salt and hawaij spice.",
+      "Heat oil in a stone pot or heavy-bottomed pan and brown the meat.",
+      "Add diced onion and garlic, cooking until softened.",
+      "Add chopped tomatoes and green chilies, stirring well.",
+      "Pour enough water to cover and simmer until meat is tender, about 45 minutes.",
+      "Add cubed potatoes and continue cooking until potatoes are done.",
+      "Blend soaked fenugreek seeds with a little water to create a frothy paste (hulba).",
+      "Top the stew with generous amounts of hulba foam.",
+      "Serve immediately in the cooking pot with Yemeni flatbread."
+    ],
+    "cooking_tips": [
+      "The hulba (fenugreek foam) is key - whip it until light and fluffy.",
+      "Traditionally served in a stone pot called a madara.",
+      "Eat with your hands using flatbread to scoop up the stew."
+    ],
+    "difficulty": "medium",
+    "tags": ["yemeni", "stew", "traditional", "national-dish", "lunch", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Saltah is rich in protein and iron from the meat. Fenugreek aids digestion and may help regulate blood sugar. The combination of vegetables provides vitamins and fiber.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "ye-fahsa",
+    "slug": "fahsa",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Fahsa",
+    "image": "assets/img/recipes/fahsa.jpg",
+    "short_description": "A rich and flavorful Yemeni lamb stew made with tender shredded meat, aromatic spices, and topped with the signature frothy fenugreek paste. Often enjoyed as a communal meal with fresh bread.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 600, "unit": "g" },
+      { "name": "onions", "amount": 2, "unit": "medium" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "garlic cloves", "amount": 5, "unit": "pc" },
+      { "name": "hawaij spice", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "fenugreek seeds", "amount": 2, "unit": "tbsp" },
+      { "name": "green onions", "amount": 4, "unit": "stalks" },
+      { "name": "ghee", "amount": 3, "unit": "tbsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Boil the lamb in salted water until very tender, about 1.5 hours.",
+      "Remove lamb, shred it, and reserve the cooking broth.",
+      "Soak fenugreek seeds for 4 hours, then blend into a frothy paste.",
+      "Heat ghee in a clay pot and sauté onions until golden.",
+      "Add garlic and spices, cooking until fragrant.",
+      "Stir in tomato paste and cook for 2 minutes.",
+      "Add the shredded lamb and some reserved broth.",
+      "Simmer until heated through and well combined.",
+      "Top generously with the fenugreek paste (hulba).",
+      "Garnish with chopped green onions and serve hot."
+    ],
+    "cooking_tips": [
+      "The meat should be so tender it falls apart easily.",
+      "Adjust the amount of hulba based on preference - it adds a unique bitter-savory note.",
+      "Best served in the traditional stone pot it's cooked in."
+    ],
+    "difficulty": "medium",
+    "tags": ["yemeni", "lamb", "stew", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "High in protein and B vitamins from lamb. Fenugreek is known for its anti-inflammatory properties. Garlic provides immune-boosting benefits.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ye-zurbian",
+    "slug": "zurbian",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Zurbian",
+    "image": "assets/img/recipes/zurbian.jpg",
+    "short_description": "A festive Yemeni rice dish similar to biryani, featuring layers of fragrant rice and spiced meat, often prepared for special occasions and celebrations. The rice is golden with saffron and aromatic with whole spices.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      { "name": "chicken or lamb", "amount": 1, "unit": "kg" },
+      { "name": "basmati rice", "amount": 500, "unit": "g" },
+      { "name": "onions", "amount": 3, "unit": "large" },
+      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "saffron threads", "amount": 1, "unit": "pinch" },
+      { "name": "cardamom pods", "amount": 8, "unit": "pc" },
+      { "name": "cloves", "amount": 6, "unit": "pc" },
+      { "name": "cinnamon sticks", "amount": 2, "unit": "pc" },
+      { "name": "hawaij spice", "amount": 3, "unit": "tbsp" },
+      { "name": "ghee", "amount": 6, "unit": "tbsp" },
+      { "name": "raisins", "amount": 50, "unit": "g" },
+      { "name": "almonds", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Marinate meat in yogurt, hawaij spice, and salt for 2 hours.",
+      "Fry sliced onions in ghee until deeply caramelized and crispy, set aside.",
+      "In the same pot, sear the marinated meat until browned.",
+      "Add whole spices and enough water to cover, simmer until tender.",
+      "Soak saffron in warm milk for 10 minutes.",
+      "Parboil rice until 70% cooked, drain well.",
+      "Layer the meat and rice in a pot, sprinkling saffron milk between layers.",
+      "Top with fried onions, raisins, and almonds.",
+      "Cover tightly and cook on very low heat for 30 minutes.",
+      "Gently mix when serving, ensuring meat and rice are well distributed."
+    ],
+    "cooking_tips": [
+      "The key to great zurbian is properly caramelized onions.",
+      "Don't skip the dum cooking step - it allows flavors to meld.",
+      "Use good quality saffron for authentic color and aroma."
+    ],
+    "difficulty": "hard",
+    "tags": ["yemeni", "rice", "festive", "biryani", "dinner", "celebration"],
+    "nutrition": {
+      "per_serving_kcal": 680,
+      "protein_g": 35,
+      "fat_g": 30,
+      "carbs_g": 65
+    },
+    "nutrition_benefits": "A balanced meal with protein, carbohydrates, and healthy fats. Saffron is rich in antioxidants. Nuts provide essential fatty acids and vitamin E.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ye-bint-al-sahn",
+    "slug": "bint-al-sahn",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Bint Al Sahn",
+    "image": "assets/img/recipes/bint-al-sahn.jpg",
+    "short_description": "A beloved Yemeni honey cake made with layers of thin buttery dough, drizzled generously with local honey. This sweet treat is traditionally served at celebrations and as a sign of hospitality.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "eggs", "amount": 4, "unit": "pc" },
+      { "name": "ghee or butter", "amount": 200, "unit": "g" },
+      { "name": "yeast", "amount": 1, "unit": "tbsp" },
+      { "name": "warm milk", "amount": 150, "unit": "ml" },
+      { "name": "sugar", "amount": 2, "unit": "tbsp" },
+      { "name": "Yemeni honey", "amount": 200, "unit": "g" },
+      { "name": "nigella seeds", "amount": 1, "unit": "tbsp" },
+      { "name": "salt", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Dissolve yeast and sugar in warm milk, let it foam for 10 minutes.",
+      "Mix flour, eggs, salt, and the yeast mixture to form a soft dough.",
+      "Knead until smooth and elastic, then let rise for 1 hour.",
+      "Divide dough into small balls and let rest for 15 minutes.",
+      "Roll each ball very thin, brush generously with melted ghee.",
+      "Stack the layers in a round baking pan, brushing ghee between each.",
+      "Sprinkle nigella seeds on top.",
+      "Bake at 180°C (350°F) for 25-30 minutes until golden.",
+      "Immediately drizzle with warm Yemeni honey while still hot.",
+      "Serve warm, pulling apart the flaky layers."
+    ],
+    "cooking_tips": [
+      "The thinner the layers, the flakier the result.",
+      "Yemeni sidr honey is traditional, but any good quality honey works.",
+      "Best enjoyed fresh and warm."
+    ],
+    "difficulty": "medium",
+    "tags": ["yemeni", "dessert", "sweet", "honey", "traditional", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 8,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Honey provides natural antioxidants and has antibacterial properties. Eggs add protein. Nigella seeds are known for their immune-boosting benefits.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  }
+]
