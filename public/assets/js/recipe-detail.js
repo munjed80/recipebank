@@ -13,6 +13,164 @@ function escapeHtml(text) {
 }
 
 /**
+ * Recipe Rating System - localStorage based
+ */
+const RecipeRating = {
+  storageKey: 'recipebank_ratings',
+
+  getRatings() {
+    try {
+      return JSON.parse(localStorage.getItem(this.storageKey)) || {};
+    } catch {
+      return {};
+    }
+  },
+
+  getRating(slug) {
+    const ratings = this.getRatings();
+    return ratings[slug] || 0;
+  },
+
+  setRating(slug, rating) {
+    const ratings = this.getRatings();
+    ratings[slug] = rating;
+    localStorage.setItem(this.storageKey, JSON.stringify(ratings));
+  }
+};
+
+/**
+ * Detect allergens from ingredients
+ */
+function detectAllergens(ingredients) {
+  const allergens = {
+    gluten: false,
+    dairy: false,
+    eggs: false,
+    nuts: false,
+    shellfish: false,
+    soy: false
+  };
+
+  const glutenKeywords = ['flour', 'wheat', 'bread', 'pasta', 'noodle', 'barley', 'rye', 'semolina', 'couscous'];
+  const dairyKeywords = ['milk', 'cheese', 'cream', 'butter', 'yogurt', 'mozzarella', 'parmesan', 'pecorino', 'ricotta', 'ghee', 'paneer'];
+  const eggKeywords = ['egg', 'yolk', 'whites'];
+  const nutKeywords = ['almond', 'walnut', 'peanut', 'cashew', 'pistachio', 'hazelnut', 'pine nut', 'nut'];
+  const shellfishKeywords = ['shrimp', 'prawn', 'crab', 'lobster', 'clam', 'mussel', 'oyster', 'scallop', 'squid', 'shellfish'];
+  const soyKeywords = ['soy', 'tofu', 'tempeh', 'miso', 'edamame'];
+
+  ingredients.forEach(ing => {
+    const name = ing.name.toLowerCase();
+    if (glutenKeywords.some(kw => name.includes(kw))) allergens.gluten = true;
+    if (dairyKeywords.some(kw => name.includes(kw))) allergens.dairy = true;
+    if (eggKeywords.some(kw => name.includes(kw))) allergens.eggs = true;
+    if (nutKeywords.some(kw => name.includes(kw))) allergens.nuts = true;
+    if (shellfishKeywords.some(kw => name.includes(kw))) allergens.shellfish = true;
+    if (soyKeywords.some(kw => name.includes(kw))) allergens.soy = true;
+  });
+
+  return allergens;
+}
+
+/**
+ * Generate allergen badges HTML
+ */
+function generateAllergenBadges(ingredients, dietaryStyle) {
+  const allergens = detectAllergens(ingredients);
+  const badges = [];
+
+  // Dietary badges
+  if (dietaryStyle) {
+    const style = dietaryStyle.toLowerCase();
+    if (style.includes('vegan')) {
+      badges.push('<span class="allergen-badge vegan">🌱 Vegan</span>');
+    } else if (style.includes('vegetarian')) {
+      badges.push('<span class="allergen-badge vegetarian">🥬 Vegetarian</span>');
+    }
+  }
+
+  // Allergen badges
+  if (!allergens.gluten) {
+    badges.push('<span class="allergen-badge gluten-free">🌾 Gluten-Free</span>');
+  } else {
+    badges.push('<span class="allergen-badge contains-gluten">⚠️ Contains Gluten</span>');
+  }
+
+  if (allergens.dairy) {
+    badges.push('<span class="allergen-badge contains-dairy">🥛 Contains Dairy</span>');
+  }
+
+  if (allergens.eggs) {
+    badges.push('<span class="allergen-badge contains-eggs">🥚 Contains Eggs</span>');
+  }
+
+  if (allergens.nuts) {
+    badges.push('<span class="allergen-badge contains-nuts">🥜 Contains Nuts</span>');
+  }
+
+  if (allergens.shellfish) {
+    badges.push('<span class="allergen-badge contains-shellfish">🦐 Contains Shellfish</span>');
+  }
+
+  return badges.join('');
+}
+
+/**
+ * Generate rating stars HTML
+ */
+function generateRatingStars(slug) {
+  const currentRating = RecipeRating.getRating(slug);
+  let starsHtml = '';
+  
+  for (let i = 1; i <= 5; i++) {
+    const filled = i <= currentRating ? 'filled' : '';
+    starsHtml += `<button class="star-btn ${filled}" data-rating="${i}" aria-label="Rate ${i} stars">★</button>`;
+  }
+
+  return `
+    <div class="recipe-rating-interactive" data-slug="${escapeHtml(slug)}">
+      <div class="rating-stars">${starsHtml}</div>
+      <span class="rating-label">${currentRating > 0 ? `Your rating: ${currentRating}/5` : 'Rate this recipe'}</span>
+    </div>
+  `;
+}
+
+/**
+ * Initialize rating system
+ */
+function initRatingSystem(slug) {
+  const ratingContainer = document.querySelector('.recipe-rating-interactive');
+  if (!ratingContainer) return;
+
+  const stars = ratingContainer.querySelectorAll('.star-btn');
+  const label = ratingContainer.querySelector('.rating-label');
+
+  stars.forEach(star => {
+    star.addEventListener('click', () => {
+      const rating = parseInt(star.dataset.rating);
+      RecipeRating.setRating(slug, rating);
+      
+      // Update UI
+      stars.forEach((s, index) => {
+        s.classList.toggle('filled', index < rating);
+      });
+      label.textContent = `Your rating: ${rating}/5`;
+    });
+
+    // Hover effects
+    star.addEventListener('mouseenter', () => {
+      const rating = parseInt(star.dataset.rating);
+      stars.forEach((s, index) => {
+        s.classList.toggle('hover', index < rating);
+      });
+    });
+
+    star.addEventListener('mouseleave', () => {
+      stars.forEach(s => s.classList.remove('hover'));
+    });
+  });
+}
+
+/**
  * Initialize recipe detail page
  */
 async function initRecipeDetail() {
@@ -44,6 +202,7 @@ async function initRecipeDetail() {
     applyRecipeSEO(recipe);
     initFavoriteButton(recipe.slug);
     initPrintButton();
+    initRatingSystem(recipe.slug);
     
   } catch (error) {
     console.error('Error loading recipe:', error);
@@ -147,6 +306,9 @@ function parseStepInstruction(step, index) {
  * Render modern recipe layout
  */
 function renderRecipeModern(container, recipe) {
+  // Generate allergen badges
+  const allergenBadgesHtml = generateAllergenBadges(recipe.ingredients, recipe.dietaryStyle);
+
   // Generate ingredients checklist HTML
   const ingredientsHtml = recipe.ingredients.map((ing, index) => `
     <li class="ingredient-item">
@@ -156,14 +318,34 @@ function renderRecipeModern(container, recipe) {
     </li>
   `).join('');
 
-  // Generate steps cards HTML with bold title and explanation
+  // Categorize steps into prep and cooking actions
+  const prepKeywords = ['chop', 'dice', 'slice', 'mince', 'peel', 'wash', 'rinse', 'soak', 'marinate', 'mix', 'combine', 'whisk', 'beat', 'prepare', 'season', 'coat'];
+  const cookKeywords = ['cook', 'fry', 'bake', 'roast', 'grill', 'boil', 'simmer', 'sauté', 'saute', 'steam', 'braise', 'broil', 'heat', 'preheat'];
+
+  // Generate steps cards HTML with icons and action type
   const stepsHtml = recipe.steps.map((step, index) => {
-    // Parse step to extract title and explanation
     const { title, explanation } = parseStepInstruction(step, index);
+    const stepLower = step.toLowerCase();
+    
+    let actionType = 'general';
+    let actionIcon = '📋';
+    
+    if (prepKeywords.some(kw => stepLower.includes(kw))) {
+      actionType = 'prep';
+      actionIcon = '🔪';
+    } else if (cookKeywords.some(kw => stepLower.includes(kw))) {
+      actionType = 'cook';
+      actionIcon = '🔥';
+    }
+    
     return `
-      <li class="step-card">
-        <div class="step-number">${index + 1}</div>
+      <li class="step-card step-${actionType}">
+        <div class="step-number">
+          <span class="step-action-icon">${actionIcon}</span>
+          ${index + 1}
+        </div>
         <div class="step-content">
+          <span class="step-type-badge ${actionType}">${actionType === 'prep' ? 'Preparation' : actionType === 'cook' ? 'Cooking' : 'Action'}</span>
           <strong class="step-title">${escapeHtml(title)}</strong>
           ${explanation ? `<span class="step-explanation">${escapeHtml(explanation)}</span>` : ''}
         </div>
@@ -189,16 +371,19 @@ function renderRecipeModern(container, recipe) {
     </section>
   ` : '';
 
-  // Generate nutrition and benefits section HTML - Nutritional Breakdown
+  // Generate enhanced nutrition section with fiber and sugar (estimated if not available)
+  const fiber = recipe.nutrition?.fiber_g || Math.round((recipe.nutrition?.carbs_g || 0) * 0.1);
+  const sugar = recipe.nutrition?.sugar_g || Math.round((recipe.nutrition?.carbs_g || 0) * 0.15);
+
   const nutritionBenefitsHtml = recipe.nutrition ? `
     <section class="nutrition-section nutritional-breakdown">
       <h3 class="nutrition-title">
         <span class="icon">📊</span>
-        Nutritional Breakdown
+        Nutritional Information
         <span class="section-subtitle">(per serving)</span>
       </h3>
-      <div class="nutrition-grid-modern">
-        <div class="nutrition-item-modern calories-item">
+      <div class="nutrition-grid-enhanced">
+        <div class="nutrition-item-modern calories-item highlight">
           <div class="nutrition-icon">🔥</div>
           <div class="nutrition-value-modern">${recipe.nutrition.per_serving_kcal}</div>
           <div class="nutrition-label-modern">Calories</div>
@@ -216,14 +401,24 @@ function renderRecipeModern(container, recipe) {
         <div class="nutrition-item-modern fat-item">
           <div class="nutrition-icon">🧈</div>
           <div class="nutrition-value-modern">${recipe.nutrition.fat_g}g</div>
-          <div class="nutrition-label-modern">Fat</div>
+          <div class="nutrition-label-modern">Fats</div>
+        </div>
+        <div class="nutrition-item-modern fiber-item">
+          <div class="nutrition-icon">🌾</div>
+          <div class="nutrition-value-modern">${fiber}g</div>
+          <div class="nutrition-label-modern">Fiber</div>
+        </div>
+        <div class="nutrition-item-modern sugar-item">
+          <div class="nutrition-icon">🍯</div>
+          <div class="nutrition-value-modern">${sugar}g</div>
+          <div class="nutrition-label-modern">Sugar</div>
         </div>
       </div>
       ${recipe.nutrition_benefits ? `
         <div class="nutrition-benefits">
           <h4 class="benefits-title">
             <span class="icon">🌿</span>
-            Health Benefits
+            Health Benefits Summary
           </h4>
           <p class="benefits-text">${escapeHtml(recipe.nutrition_benefits)}</p>
         </div>
@@ -236,6 +431,9 @@ function renderRecipeModern(container, recipe) {
   const cookTime = recipe.cooking_time_minutes || 0;
   const totalTime = getTotalTime(recipe);
   const servings = recipe.servings || 4;
+
+  // Generate rating stars
+  const ratingHtml = generateRatingStars(recipe.slug);
 
   container.classList.add('recipe-page');
   container.innerHTML = `
@@ -273,10 +471,12 @@ function renderRecipeModern(container, recipe) {
             ${RecipeBank.getClassificationBadges(recipe).dietaryBadge}
           </div>
           
-          <!-- Rating Stars Placeholder -->
-          <div class="recipe-rating">
-            <span class="stars">★★★★☆</span>
-            <span class="rating-text">(Coming soon)</span>
+          <!-- Interactive Rating Stars -->
+          ${ratingHtml}
+
+          <!-- Allergen & Dietary Badges -->
+          <div class="allergen-badges-container">
+            ${allergenBadgesHtml}
           </div>
 
           <!-- Meta Pills -->
@@ -285,15 +485,15 @@ function renderRecipeModern(container, recipe) {
               <span class="icon">${RecipeBank.getCountryFlag(recipe.country_slug)}</span>
               ${escapeHtml(recipe.country)}
             </span>
-            <span class="meta-pill">
-              <span class="icon">🥣</span>
+            <span class="meta-pill prep-time">
+              <span class="icon">🔪</span>
               Prep: ${RecipeBank.formatTime(prepTime)}
             </span>
-            <span class="meta-pill">
+            <span class="meta-pill cook-time">
               <span class="icon">🔥</span>
               Cook: ${RecipeBank.formatTime(cookTime)}
             </span>
-            <span class="meta-pill">
+            <span class="meta-pill total-time">
               <span class="icon">⏱️</span>
               Total: ${RecipeBank.formatTime(totalTime)}
             </span>
@@ -336,9 +536,13 @@ function renderRecipeModern(container, recipe) {
           <div class="steps-section">
             <h2 class="section-title-modern">
               <span class="icon">👨‍🍳</span>
-              Instructions
+              Step-by-Step Instructions
               <span class="section-subtitle">(${recipe.steps.length} steps)</span>
             </h2>
+            <div class="steps-legend">
+              <span class="legend-item"><span class="legend-icon prep">🔪</span> Preparation</span>
+              <span class="legend-item"><span class="legend-icon cook">🔥</span> Cooking</span>
+            </div>
             <ol class="steps-list-modern">
               ${stepsHtml}
             </ol>
