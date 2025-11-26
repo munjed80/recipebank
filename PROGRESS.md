@@ -1,6 +1,40 @@
 # RecipeBank Progress Log
 
-## Iteration 4 - Recipe Classification System (Current)
+## Iteration 5 - AI Assistant & Recipe Page Polish (Current)
+
+### What Was Built
+
+#### AI Assistant Improvements
+- ✅ Recipe search results now show clickable recipe cards with links to detail pages
+- ✅ Expanded country search to all 20 countries (not just original 5)
+- ✅ Meal type and dietary queries now show clickable recipe cards
+- ✅ Added dietary info questions ("Is this gluten free?", "How many calories?")
+- ✅ Recipe instructions include link to view full recipe page
+- ✅ Favorites question shows clickable recipe cards
+- ✅ Integrated with existing recipe data for nutrition and dietary info
+
+#### Recipe Page Fixes
+- ✅ Fixed duplicate favorite button handlers
+- ✅ Consolidated favorites handling into favorites.js module
+- ✅ Save button now properly updates to "❤️ Saved" on click
+- ✅ Favorites correctly persist to localStorage
+
+#### Chat UI Improvements
+- ✅ Added styles for clickable recipe cards in chat messages
+- ✅ Recipe cards show name, country, meal type, and time
+- ✅ Added recipe link styles for inline links
+- ✅ Improved mobile responsiveness
+
+### Testing Completed
+- ✅ Verified recipe search shows clickable cards with links
+- ✅ Verified clicking recipe card navigates to detail page
+- ✅ Verified Save button toggles correctly on recipe pages
+- ✅ Verified saved recipes appear on Favorites page
+- ✅ Verified AI can answer dietary questions using recipe data
+
+---
+
+## Iteration 4 - Recipe Classification System
 
 ### What Was Built
 
