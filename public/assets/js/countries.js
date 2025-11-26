@@ -222,7 +222,7 @@ function applyFilters() {
       return false;
     }
 
-    // Time filter
+    // Time filter (quick: under 30 min, medium: 30-60 min inclusive, long: over 60 min)
     if (time) {
       const totalTime = (recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0);
       switch (time) {
@@ -233,7 +233,7 @@ function applyFilters() {
           if (totalTime < 30 || totalTime > 60) return false;
           break;
         case 'long':
-          if (totalTime <= 60) return false;
+          if (totalTime < 60) return false;
           break;
       }
     }
