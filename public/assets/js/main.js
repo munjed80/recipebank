@@ -72,7 +72,7 @@ async function fetchRecipesByCountry(countrySlug) {
     recipeCache.byCountry[countrySlug] = recipes;
     return recipes;
   } catch (error) {
-    console.log(`Country file not found for ${countrySlug}, falling back to main recipes.json`);
+    console.warn(`Country file not found for ${countrySlug}, falling back to main recipes.json`);
     // Fallback to filtering from main recipes.json
     const allRecipes = await fetchRecipes();
     const filtered = allRecipes.filter(recipe => recipe.country_slug === countrySlug);

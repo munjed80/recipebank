@@ -55,8 +55,8 @@ async function initRecipeDetail() {
 }
 
 /**
- * Get recipe slug/id from URL query parameter
- * Supports both ?slug=xxx and ?id=xxx formats
+ * Get recipe identifier from URL query parameter
+ * Supports both ?slug=xxx and ?id=xxx formats for backwards compatibility
  */
 function getRecipeSlugFromUrl() {
   const params = new URLSearchParams(window.location.search);
