@@ -1,0 +1,263 @@
+[
+  {
+    "id": "af-kabuli-pulao",
+    "slug": "kabuli-pulao",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Kabuli Pulao",
+    "image": "assets/img/recipes/kabuli-pulao.jpg",
+    "short_description": "Afghanistan's national dish featuring fragrant basmati rice cooked with tender lamb, sweet carrots, raisins, and caramelized onions. This celebratory pilaf showcases the Central Asian love for rice dishes with a perfect balance of savory and sweet.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {"name": "basmati rice", "amount": 3, "unit": "cups"},
+      {"name": "lamb shoulder (bone-in)", "amount": 1, "unit": "kg"},
+      {"name": "carrots", "amount": 4, "unit": "large"},
+      {"name": "raisins", "amount": 0.5, "unit": "cup"},
+      {"name": "onions", "amount": 2, "unit": "large"},
+      {"name": "vegetable oil", "amount": 0.5, "unit": "cup"},
+      {"name": "cumin seeds", "amount": 1, "unit": "tbsp"},
+      {"name": "cardamom pods", "amount": 6, "unit": "pc"},
+      {"name": "salt", "amount": 2, "unit": "tsp"},
+      {"name": "sugar", "amount": 2, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Soak rice in salted water for 2 hours, then rinse thoroughly.",
+      "Boil lamb with one sliced onion and salt until tender, about 1 hour.",
+      "Remove lamb and reserve the broth.",
+      "Julienne carrots into thin matchsticks.",
+      "Saute carrots with sugar until caramelized and slightly crispy.",
+      "Add raisins to carrots and set aside.",
+      "Fry remaining sliced onion until deeply golden.",
+      "Parboil rice until just al dente, then drain.",
+      "Layer rice in pot with cumin and cardamom, add lamb in center.",
+      "Pour hot lamb broth over rice, cover tightly.",
+      "Cook on low heat for 30 minutes until rice is fluffy and bottom is crispy.",
+      "Serve with lamb in center, topped with carrot-raisin mixture."
+    ],
+    "cooking_tips": [
+      "The caramelized carrot topping is called zardak and should be sweet but not burnt.",
+      "Using lamb broth instead of water makes the rice incredibly flavorful.",
+      "The crusty bottom (tah-dig) is considered the best part."
+    ],
+    "difficulty": "medium",
+    "tags": ["afghan", "rice", "lamb", "pilaf", "dinner", "festive", "national-dish"],
+    "nutrition": {
+      "per_serving_kcal": 680,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 72
+    },
+    "nutrition_benefits": "Kabuli Pulao provides complete protein from lamb along with iron and B12. Carrots add beta-carotene for eye health. Raisins provide natural sugars and iron. The combination offers sustained energy from complex carbohydrates.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-mantu",
+    "slug": "afghan-mantu",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Afghan Mantu",
+    "image": "assets/img/recipes/afghan-mantu.jpg",
+    "short_description": "Steamed Afghan dumplings filled with spiced beef and onions, served with a tangy tomato-lentil sauce and cooling yogurt-garlic topping. These labor-intensive parcels are the centerpiece of special occasions.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {"name": "all-purpose flour", "amount": 3, "unit": "cups"},
+      {"name": "ground beef", "amount": 500, "unit": "g"},
+      {"name": "onions", "amount": 4, "unit": "large"},
+      {"name": "split yellow lentils", "amount": 0.5, "unit": "cup"},
+      {"name": "tomato paste", "amount": 3, "unit": "tbsp"},
+      {"name": "Greek yogurt", "amount": 2, "unit": "cups"},
+      {"name": "garlic", "amount": 4, "unit": "cloves"},
+      {"name": "coriander powder", "amount": 1, "unit": "tbsp"},
+      {"name": "salt", "amount": 2, "unit": "tsp"},
+      {"name": "dried mint", "amount": 1, "unit": "tbsp"},
+      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Make dough with flour, water, and salt; knead until smooth and rest 30 minutes.",
+      "Finely dice onions; mix half with ground beef, coriander, and salt for filling.",
+      "Roll dough very thin and cut into 3-inch squares.",
+      "Place filling in center of each square, fold corners up and pinch closed.",
+      "Steam dumplings in batches for 40-45 minutes until dough is cooked.",
+      "Cook lentils until soft, then saute remaining onion until golden.",
+      "Add tomato paste and lentils to onions, simmer to make sauce.",
+      "Mix yogurt with minced garlic and a pinch of salt.",
+      "Arrange dumplings on a platter, top with meat sauce.",
+      "Drizzle generously with garlic yogurt and sprinkle with dried mint."
+    ],
+    "cooking_tips": [
+      "The dough must be paper-thin for the best texture.",
+      "Make dumplings in advance and freeze before steaming.",
+      "The sauce should be thick enough to coat the dumplings."
+    ],
+    "difficulty": "hard",
+    "tags": ["afghan", "dumplings", "beef", "steamed", "dinner", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 26,
+      "fat_g": 18,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Mantu provides protein from beef and lentils, making it nutritionally complete. Yogurt adds probiotics and calcium. Lentils are rich in fiber and iron, supporting digestive health and energy levels.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-bolani",
+    "slug": "bolani",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Bolani",
+    "image": "assets/img/recipes/bolani.jpg",
+    "short_description": "Crispy Afghan flatbreads stuffed with savory fillings like spiced potatoes, leeks, or pumpkin. These golden pan-fried breads are a beloved street food and appetizer throughout Afghanistan.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {"name": "all-purpose flour", "amount": 3, "unit": "cups"},
+      {"name": "potatoes", "amount": 500, "unit": "g"},
+      {"name": "leeks", "amount": 2, "unit": "large"},
+      {"name": "green onions", "amount": 1, "unit": "bunch"},
+      {"name": "fresh cilantro", "amount": 1, "unit": "bunch"},
+      {"name": "cumin", "amount": 1, "unit": "tsp"},
+      {"name": "coriander powder", "amount": 1, "unit": "tsp"},
+      {"name": "salt", "amount": 2, "unit": "tsp"},
+      {"name": "vegetable oil", "amount": 0.5, "unit": "cup"},
+      {"name": "chili flakes", "amount": 0.5, "unit": "tsp"}
+    ],
+    "steps": [
+      "Make soft dough with flour, water, and salt; rest for 30 minutes.",
+      "Boil and mash potatoes, keeping them slightly chunky.",
+      "Finely chop leeks, green onions, and cilantro.",
+      "Mix vegetables into potatoes with cumin, coriander, and chili.",
+      "Divide dough into 8 balls; roll each into a thin circle.",
+      "Place filling on one half, fold over, and seal edges well.",
+      "Roll gently to flatten and distribute filling evenly.",
+      "Pan-fry in oil until golden brown on both sides, about 3-4 minutes per side.",
+      "Drain on paper towels and keep warm.",
+      "Serve hot with yogurt sauce or Afghan chutney."
+    ],
+    "cooking_tips": [
+      "Don't overfill or the bolani will burst during cooking.",
+      "The dough should be soft and pliable for easy rolling.",
+      "Serve immediately for best crispy texture."
+    ],
+    "difficulty": "easy",
+    "tags": ["afghan", "flatbread", "vegetarian", "appetizer", "street-food", "potato"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Bolani provides carbohydrates for energy from potatoes and flour. Leeks contain prebiotics supporting gut health. The dish offers vitamin C from fresh vegetables and antioxidants from herbs and spices.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-ashak",
+    "slug": "ashak",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Ashak",
+    "image": "assets/img/recipes/ashak.jpg",
+    "short_description": "Delicate Afghan leek-filled dumplings served with a spiced meat sauce and cooling yogurt-mint topping. Lighter than mantu, these elegant parcels showcase Afghanistan's refined dumpling traditions.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {"name": "all-purpose flour", "amount": 2, "unit": "cups"},
+      {"name": "leeks", "amount": 6, "unit": "large"},
+      {"name": "ground beef", "amount": 300, "unit": "g"},
+      {"name": "Greek yogurt", "amount": 2, "unit": "cups"},
+      {"name": "garlic", "amount": 4, "unit": "cloves"},
+      {"name": "tomato paste", "amount": 2, "unit": "tbsp"},
+      {"name": "dried mint", "amount": 2, "unit": "tbsp"},
+      {"name": "coriander powder", "amount": 1, "unit": "tbsp"},
+      {"name": "salt", "amount": 2, "unit": "tsp"},
+      {"name": "vegetable oil", "amount": 3, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Make smooth dough with flour, water, and salt; rest covered for 30 minutes.",
+      "Clean leeks thoroughly and chop very finely.",
+      "Salt the leeks and let sit 15 minutes, then squeeze out excess water.",
+      "Roll dough very thin and cut into 3-inch circles.",
+      "Place a spoonful of leeks on each circle, fold and crimp edges.",
+      "Boil dumplings in salted water for 8-10 minutes until they float.",
+      "Brown ground beef with onion, coriander, and tomato paste.",
+      "Mix yogurt with minced garlic and salt.",
+      "Arrange cooked dumplings on a platter, top with meat sauce.",
+      "Drizzle with garlic yogurt and finish with dried mint."
+    ],
+    "cooking_tips": [
+      "Removing water from leeks prevents soggy dumplings.",
+      "These can be boiled ahead and reheated in the sauce.",
+      "The meat sauce should be chunky, not too saucy."
+    ],
+    "difficulty": "medium",
+    "tags": ["afghan", "dumplings", "leeks", "boiled", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Ashak is rich in prebiotics from leeks, supporting gut health. The yogurt topping provides probiotics and calcium. Leeks also offer vitamin K for bone health and antioxidants including kaempferol.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "af-firni",
+    "slug": "firni",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Firni",
+    "image": "assets/img/recipes/firni.jpg",
+    "short_description": "A silky Afghan milk pudding thickened with cornstarch and delicately perfumed with rose water and cardamom. Topped with crushed pistachios and almonds, this cooling dessert is essential at celebrations.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 6,
+    "ingredients": [
+      {"name": "whole milk", "amount": 1, "unit": "liter"},
+      {"name": "cornstarch", "amount": 0.5, "unit": "cup"},
+      {"name": "sugar", "amount": 0.75, "unit": "cup"},
+      {"name": "rose water", "amount": 2, "unit": "tbsp"},
+      {"name": "cardamom powder", "amount": 1, "unit": "tsp"},
+      {"name": "pistachios (crushed)", "amount": 50, "unit": "g"},
+      {"name": "almonds (slivered)", "amount": 50, "unit": "g"},
+      {"name": "ground cinnamon", "amount": 0.5, "unit": "tsp"}
+    ],
+    "steps": [
+      "Dissolve cornstarch in 1 cup of cold milk until smooth.",
+      "Heat remaining milk in a heavy pot over medium heat.",
+      "Add sugar and stir until dissolved.",
+      "Slowly pour cornstarch mixture into hot milk while stirring constantly.",
+      "Continue stirring over medium heat until mixture thickens, about 15 minutes.",
+      "Add cardamom and rose water, stir well.",
+      "Pour into individual serving bowls.",
+      "Let cool to room temperature, then refrigerate until set.",
+      "Before serving, top with crushed pistachios, almonds, and a dust of cinnamon.",
+      "Serve chilled as a refreshing end to a meal."
+    ],
+    "cooking_tips": [
+      "Constant stirring prevents lumps and burning.",
+      "Traditional firni is served in special shallow clay bowls.",
+      "Adjust sugar to taste - some prefer it less sweet."
+    ],
+    "difficulty": "easy",
+    "tags": ["afghan", "dessert", "pudding", "milk", "rose-water", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 12,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Firni provides calcium and protein from milk for bone health. Pistachios and almonds add healthy fats, vitamin E, and minerals. Cardamom aids digestion and has antibacterial properties.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "id": "sr-roti",
+    "slug": "surinamese-roti",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Surinamese Roti",
+    "image": "assets/img/recipes/surinamese-roti.jpg",
+    "short_description": "Suriname's most beloved dish featuring soft, layered flatbread wrapped around curried chicken, potatoes, and long beans. This Indo-Caribbean fusion reflects the country's unique multicultural heritage.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {"name": "all-purpose flour", "amount": 4, "unit": "cups"},
+      {"name": "baking powder", "amount": 2, "unit": "tsp"},
+      {"name": "chicken thighs (bone-in)", "amount": 1, "unit": "kg"},
+      {"name": "potatoes", "amount": 500, "unit": "g"},
+      {"name": "long beans (yard beans)", "amount": 300, "unit": "g"},
+      {"name": "masala powder", "amount": 3, "unit": "tbsp"},
+      {"name": "cumin", "amount": 1, "unit": "tbsp"},
+      {"name": "garlic", "amount": 6, "unit": "cloves"},
+      {"name": "hot pepper", "amount": 1, "unit": "pc"},
+      {"name": "vegetable oil", "amount": 0.5, "unit": "cup"},
+      {"name": "salt", "amount": 2, "unit": "tsp"}
+    ],
+    "steps": [
+      "Make dough with flour, baking powder, salt, oil, and water; rest 30 minutes.",
+      "Season chicken with masala, cumin, garlic, and salt; marinate 1 hour.",
+      "Brown chicken in oil, then add water and simmer until tender.",
+      "Peel and cube potatoes, add to chicken curry.",
+      "Cut long beans into 2-inch pieces and add to pot.",
+      "Simmer until vegetables are tender and sauce is thick.",
+      "Divide dough into balls; roll thin, brush with oil, fold into layers.",
+      "Cook on dry griddle, flipping until golden spots appear.",
+      "Clap roti between hands to soften and separate layers.",
+      "Serve curry over roti or wrapped inside like a burrito."
+    ],
+    "cooking_tips": [
+      "The roti should be soft and pliable, not crispy.",
+      "Bone-in chicken adds more flavor to the curry.",
+      "Adjust hot pepper according to your spice tolerance."
+    ],
+    "difficulty": "medium",
+    "tags": ["surinamese", "roti", "curry", "chicken", "dinner", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Surinamese Roti provides complete protein from chicken. Potatoes offer potassium and vitamin C. Long beans add fiber and folate. The warming spices like cumin aid digestion and have anti-inflammatory properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "sr-pom",
+    "slug": "pom",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Pom",
+    "image": "assets/img/recipes/pom.jpg",
+    "short_description": "A unique Surinamese casserole made from grated tayer root (pomtajer) mixed with chicken in a tangy citrus sauce. This Creole-Jewish fusion dish is the centerpiece of every Surinamese celebration.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {"name": "tayer root (pomtajer)", "amount": 2, "unit": "kg"},
+      {"name": "chicken thighs", "amount": 1, "unit": "kg"},
+      {"name": "sour oranges (or orange/lemon mix)", "amount": 4, "unit": "pc"},
+      {"name": "tomato paste", "amount": 3, "unit": "tbsp"},
+      {"name": "onion", "amount": 2, "unit": "large"},
+      {"name": "celery", "amount": 3, "unit": "stalks"},
+      {"name": "nutmeg", "amount": 0.5, "unit": "tsp"},
+      {"name": "butter", "amount": 100, "unit": "g"},
+      {"name": "salt", "amount": 2, "unit": "tsp"},
+      {"name": "black pepper", "amount": 1, "unit": "tsp"},
+      {"name": "brown sugar", "amount": 2, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Season chicken with salt, pepper, and half the citrus juice; marinate 2 hours.",
+      "Peel and grate the tayer root, mix immediately with remaining citrus juice.",
+      "Saute onion and celery in butter until soft.",
+      "Add tomato paste, nutmeg, and brown sugar to vegetables.",
+      "Brown marinated chicken pieces and set aside.",
+      "Mix grated tayer with the sauteed aromatics and half the butter.",
+      "Layer half the tayer mixture in a buttered baking dish.",
+      "Arrange chicken pieces on top, then cover with remaining tayer.",
+      "Dot with remaining butter and bake at 180°C for 1.5 hours.",
+      "The top should be golden brown and crispy, interior soft and savory."
+    ],
+    "cooking_tips": [
+      "Work quickly with tayer root as it discolors when exposed to air.",
+      "The citrus prevents browning and adds essential tangy flavor.",
+      "Pom tastes even better the next day when flavors meld."
+    ],
+    "difficulty": "hard",
+    "tags": ["surinamese", "casserole", "chicken", "festive", "creole", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Pom provides protein from chicken and unique complex carbohydrates from tayer root. Tayer is rich in fiber and potassium. The citrus adds vitamin C, while celery provides vitamins K and folate.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-moksi-alesi",
+    "slug": "moksi-alesi",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Moksi Alesi",
+    "image": "assets/img/recipes/moksi-alesi.jpg",
+    "short_description": "Surinamese mixed rice cooked with beans, salted meat, and vegetables in one pot. This Creole comfort dish translates to 'mixed rice' and represents the diverse cultural influences of Suriname.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {"name": "long grain rice", "amount": 2, "unit": "cups"},
+      {"name": "kidney beans (cooked)", "amount": 1, "unit": "cup"},
+      {"name": "salted pork or bacon", "amount": 300, "unit": "g"},
+      {"name": "coconut milk", "amount": 400, "unit": "ml"},
+      {"name": "tomatoes", "amount": 2, "unit": "medium"},
+      {"name": "onion", "amount": 1, "unit": "large"},
+      {"name": "garlic", "amount": 4, "unit": "cloves"},
+      {"name": "thyme", "amount": 2, "unit": "sprigs"},
+      {"name": "hot pepper", "amount": 1, "unit": "pc"},
+      {"name": "vegetable oil", "amount": 3, "unit": "tbsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Soak salted meat overnight if very salty, then dice.",
+      "Render fat from salted pork in a heavy pot.",
+      "Saute onion and garlic until golden.",
+      "Add diced tomatoes and cook until soft.",
+      "Add rice and stir to coat in the oils and aromatics.",
+      "Pour in coconut milk and enough water to cover rice by 1 inch.",
+      "Add beans, thyme, and whole hot pepper (don't burst it).",
+      "Bring to boil, then cover and simmer on low for 25 minutes.",
+      "Let rest covered for 10 minutes before fluffing.",
+      "Serve as a main dish or alongside other Surinamese specialties."
+    ],
+    "cooking_tips": [
+      "Don't burst the hot pepper unless you want serious heat.",
+      "The rice should be fluffy with each grain separate.",
+      "Substitute smoked turkey for a lighter version."
+    ],
+    "difficulty": "easy",
+    "tags": ["surinamese", "rice", "one-pot", "beans", "dinner", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 22,
+      "fat_g": 24,
+      "carbs_g": 54
+    },
+    "nutrition_benefits": "Moksi Alesi combines rice and beans for complete plant protein. Kidney beans provide fiber, iron, and folate. Coconut milk adds healthy fats. The dish offers balanced nutrition in one satisfying pot.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-bara",
+    "slug": "bara",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Bara",
+    "image": "assets/img/recipes/bara.jpg",
+    "short_description": "Crispy fried split pea fritters seasoned with cumin and garlic, a beloved Indo-Surinamese street snack. Often served topped with pom or curried vegetables for a satisfying sandwich.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {"name": "yellow split peas", "amount": 2, "unit": "cups"},
+      {"name": "cumin seeds", "amount": 1, "unit": "tbsp"},
+      {"name": "garlic", "amount": 6, "unit": "cloves"},
+      {"name": "hot pepper", "amount": 1, "unit": "pc"},
+      {"name": "baking powder", "amount": 1, "unit": "tsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"},
+      {"name": "vegetable oil for frying", "amount": 500, "unit": "ml"},
+      {"name": "all-purpose flour", "amount": 2, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Soak split peas in water for at least 8 hours or overnight.",
+      "Drain peas and grind with garlic and hot pepper into thick paste.",
+      "Add cumin seeds, baking powder, salt, and flour to paste.",
+      "Mix well; batter should be thick but spreadable.",
+      "Heat oil to 180°C in a deep pan.",
+      "Drop spoonfuls of batter into hot oil.",
+      "Flatten slightly with back of spoon.",
+      "Fry until deep golden on both sides, about 4 minutes total.",
+      "Drain on paper towels.",
+      "Serve hot as a snack or split and fill with curry."
+    ],
+    "cooking_tips": [
+      "Longer soaking makes grinding easier and texture better.",
+      "Test one bara first to check seasoning and oil temperature.",
+      "Best eaten fresh and hot from the fryer."
+    ],
+    "difficulty": "medium",
+    "tags": ["surinamese", "fritters", "street-food", "appetizer", "vegan", "split-peas"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 8,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Bara provides plant-based protein from split peas. Split peas are high in fiber and B vitamins. The dish offers iron and zinc. Cumin aids digestion and has antioxidant properties.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sr-bojo",
+    "slug": "bojo",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Bojo",
+    "image": "assets/img/recipes/bojo.jpg",
+    "short_description": "A beloved Surinamese cassava cake made with grated cassava, coconut, and condensed milk. This chewy, sweet treat with its caramelized top is essential at every birthday and celebration.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 60,
+    "servings": 12,
+    "ingredients": [
+      {"name": "cassava (yuca)", "amount": 1, "unit": "kg"},
+      {"name": "grated coconut", "amount": 200, "unit": "g"},
+      {"name": "condensed milk", "amount": 400, "unit": "ml"},
+      {"name": "butter", "amount": 150, "unit": "g"},
+      {"name": "eggs", "amount": 3, "unit": "pc"},
+      {"name": "vanilla extract", "amount": 2, "unit": "tsp"},
+      {"name": "cinnamon", "amount": 1, "unit": "tsp"},
+      {"name": "nutmeg", "amount": 0.5, "unit": "tsp"},
+      {"name": "rum or rum extract", "amount": 2, "unit": "tbsp"},
+      {"name": "raisins", "amount": 100, "unit": "g"}
+    ],
+    "steps": [
+      "Peel cassava and grate finely, then squeeze out excess moisture.",
+      "Melt butter and mix with condensed milk.",
+      "Beat eggs and add to butter mixture with vanilla and rum.",
+      "Combine grated cassava with coconut, cinnamon, and nutmeg.",
+      "Pour wet ingredients into dry and mix thoroughly.",
+      "Fold in raisins.",
+      "Grease a 9x13 inch baking pan well.",
+      "Pour batter into pan and smooth top.",
+      "Bake at 180°C for 1 hour until top is golden brown.",
+      "Let cool completely before cutting into squares."
+    ],
+    "cooking_tips": [
+      "Squeeze cassava very well - too much moisture makes it gummy.",
+      "The top should be golden but inside should be chewy, not dry.",
+      "Bojo keeps well at room temperature for several days."
+    ],
+    "difficulty": "medium",
+    "tags": ["surinamese", "dessert", "cake", "cassava", "coconut", "celebration"],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 4,
+      "fat_g": 16,
+      "carbs_g": 46
+    },
+    "nutrition_benefits": "Bojo provides energy from cassava carbohydrates. Coconut adds fiber and healthy fats. Eggs contribute protein and vitamins. The dish is naturally gluten-free, suitable for those with gluten sensitivity.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  }
+]

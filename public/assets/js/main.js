@@ -192,7 +192,12 @@ const COUNTRY_DATA = {
   armenia: { flag: '🇦🇲', name: 'Armenia' },
   russia: { flag: '🇷🇺', name: 'Russia' },
   uzbekistan: { flag: '🇺🇿', name: 'Uzbekistan' },
-  'united-states': { flag: '🇺🇸', name: 'United States' }
+  'united-states': { flag: '🇺🇸', name: 'United States' },
+  iraq: { flag: '🇮🇶', name: 'Iraq' },
+  iran: { flag: '🇮🇷', name: 'Iran' },
+  afghanistan: { flag: '🇦🇫', name: 'Afghanistan' },
+  malaysia: { flag: '🇲🇾', name: 'Malaysia' },
+  suriname: { flag: '🇸🇷', name: 'Suriname' }
 };
 
 // Legacy COUNTRY_FLAGS map for backwards compatibility
