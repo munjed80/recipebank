@@ -1,1 +1,37 @@
+[
+  {
+    "id": "it-margherita-pizza",
+    "slug": "margherita-pizza",
+    "country": "Italy",
+    "name_en": "Margherita Pizza",
+    "name_local": "Pizza Margherita",
+    "image": "/public/assets/img/recipes/margherita-pizza.jpg",
+    "short_description": "Classic Neapolitan-style pizza with tomato, mozzarella, and basil.",
+    "ingredients": [
+      { "name": "00 flour", "amount": 500, "unit": "g" },
+      { "name": "water", "amount": 320, "unit": "ml" },
+      { "name": "fresh yeast", "amount": 3, "unit": "g" },
+      { "name": "salt", "amount": 10, "unit": "g" },
+      { "name": "tomato sauce", "amount": 200, "unit": "g" },
+      { "name": "mozzarella", "amount": 200, "unit": "g" },
+      { "name": "fresh basil leaves", "amount": 8, "unit": "pc" }
+    ],
+    "steps": [
+      "Mix flour, yeast, water, and salt. Knead until smooth.",
+      "Let the dough rise until doubled in size.",
+      "Preheat oven to highest temperature with a pizza stone if possible.",
+      "Shape the dough into rounds, spread tomato sauce, add mozzarella and basil.",
+      "Bake until crust is browned and cheese is melted."
+    ],
+    "cooking_time_minutes": 90,
+    "difficulty": "medium",
+    "tags": ["italian", "pizza", "vegetarian", "baked"],
+    "nutrition": {
+      "per_serving_kcal": 550,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 70
+    }
+  }
+]
 
