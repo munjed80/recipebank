@@ -1,0 +1,197 @@
+[
+  {
+    "id": "mx-tacos-al-pastor",
+    "slug": "tacos-al-pastor",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Tacos al Pastor",
+    "image": "assets/img/recipes/tacos-al-pastor.jpg",
+    "short_description": "Mexico City's iconic street food featuring smoky, chile-marinated pork with caramelized pineapple, fresh cilantro, and tangy lime on warm corn tortillas. This beloved taco style brings together Lebanese and Mexican culinary traditions in perfect harmony.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "dried guajillo chilies",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "dried ancho chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh pineapple",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "corn tortillas",
+        "amount": 16,
+        "unit": "pc"
+      },
+      {
+        "name": "white onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "achiote paste",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "limes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "white vinegar",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Remove stems and seeds from dried chilies, then toast briefly in a dry pan until fragrant.",
+      "Soak the toasted chilies in hot water for 20 minutes until softened.",
+      "Blend the rehydrated chilies with achiote paste, garlic, vinegar, and 1/2 cup pineapple juice until smooth.",
+      "Slice the pork shoulder into thin steaks, about 1/4 inch thick.",
+      "Coat the pork thoroughly in the marinade and refrigerate for at least 4 hours or overnight.",
+      "Cut pineapple into 1/2 inch thick rings or chunks.",
+      "Grill or pan-fry the marinated pork over high heat until charred and caramelized on edges.",
+      "Grill the pineapple pieces alongside until caramelized with grill marks.",
+      "Dice the grilled pork and pineapple into small pieces.",
+      "Warm the corn tortillas on a dry skillet until soft and pliable.",
+      "Assemble tacos with pork, pineapple, diced raw onion, fresh cilantro, and a generous squeeze of lime."
+    ],
+    "cooking_tips": [
+      "Marinating overnight allows the acidic marinade to tenderize and flavor the meat deeply.",
+      "High heat is essential for achieving the characteristic charred, crispy edges.",
+      "Warm your tortillas just before serving to prevent them from cracking."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "tacos",
+      "pork",
+      "spicy",
+      "street-food",
+      "dinner",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Tacos al pastor provide excellent protein from pork, essential for muscle repair and immune function. The pineapple contains bromelain, an enzyme that aids protein digestion. Dried chilies are rich in vitamins A and C plus capsaicin, which may boost metabolism. The corn tortillas offer fiber and are naturally gluten-free.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "mx-guacamole",
+    "slug": "guacamole",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Guacamole",
+    "image": "assets/img/recipes/guacamole.jpg",
+    "short_description": "A vibrant, chunky Mexican dip showcasing perfectly ripe avocados brightened with fresh lime, aromatic cilantro, and just enough heat from fresh jalapeno. This ancient Aztec creation remains the ultimate crowd-pleasing appetizer and the perfect companion to crispy tortilla chips.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ripe Hass avocados",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh lime juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "white onion (finely diced)",
+        "amount": 0.5,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh cilantro (chopped)",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh jalapeno (seeded, minced)",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "Roma tomato (seeded, diced)",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "sea salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic (minced)",
+        "amount": 1,
+        "unit": "clove"
+      }
+    ],
+    "steps": [
+      "Cut avocados in half lengthwise, remove the pit, and score the flesh in a crosshatch pattern.",
+      "Scoop the avocado flesh into a mixing bowl using a large spoon.",
+      "Add the lime juice and salt immediately to prevent browning.",
+      "Mash the avocado with a fork to your preferred consistency (chunky or smooth).",
+      "Fold in the diced onion, minced jalapeno, minced garlic, and diced tomato.",
+      "Stir in the fresh chopped cilantro and mix gently.",
+      "Taste and adjust seasoning with more salt or lime juice as needed.",
+      "Serve immediately with fresh tortilla chips, or cover with plastic wrap pressed directly on the surface to prevent browning."
+    ],
+    "cooking_tips": [
+      "Choose avocados that yield to gentle pressure - not too soft, not too firm.",
+      "Removing jalapeno seeds significantly reduces the heat while maintaining flavor.",
+      "Pressing plastic wrap directly onto the guacamole surface prevents oxidation."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "mexican",
+      "dip",
+      "vegan",
+      "quick",
+      "gluten-free",
+      "appetizer",
+      "healthy",
+      "no-cook"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 15,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Guacamole is a nutritional powerhouse thanks to avocados, which provide heart-healthy monounsaturated fats that help lower bad cholesterol. They are rich in potassium (more than bananas), fiber for digestive health, and vitamin K for bone health. Lime juice adds vitamin C, while cilantro offers detoxifying properties.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  }
+]

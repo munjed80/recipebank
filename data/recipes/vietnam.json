@@ -1,0 +1,275 @@
+[
+  {
+    "id": "vn-pho",
+    "slug": "pho-bo",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Pho Bo",
+    "short_description": "Aromatic beef noodle soup with star anise and fresh herbs.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef bones",
+        "amount": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "star anise",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Char aromatics.",
+      "Simmer broth.",
+      "Prepare toppings.",
+      "Assemble bowls."
+    ],
+    "cooking_tips": [
+      "Long simmer.",
+      "Fresh herbs essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "vietnamese",
+      "soup",
+      "beef",
+      "noodles",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 12,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Collagen from bones, herbs provide vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "vn-banh-mi",
+    "slug": "banh-mi",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Banh Mi",
+    "short_description": "Crispy Vietnamese baguette with pate, pork, and pickled vegetables.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "baguette",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "pork belly",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pate",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Prep fillings.",
+      "Toast bread.",
+      "Layer ingredients."
+    ],
+    "cooking_tips": [
+      "Crispy bread.",
+      "Balance flavors."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "sandwich",
+      "pork",
+      "quick",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 22,
+      "fat_g": 24,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Balanced meal, pickled vegetables aid digestion.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "vn-spring-rolls",
+    "slug": "goi-cuon",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Fresh Spring Rolls",
+    "short_description": "Fresh rice paper rolls with shrimp, pork, and herbs.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice paper",
+        "amount": 12,
+        "unit": "sheets"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Prep fillings.",
+      "Soften rice paper.",
+      "Roll tightly."
+    ],
+    "cooking_tips": [
+      "Don't oversoak paper.",
+      "Tight rolls."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "appetizer",
+      "healthy",
+      "fresh",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 14,
+      "fat_g": 2,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Low fat, high protein, fresh vegetables.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "vn-bun-cha",
+    "slug": "bun-cha",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Bun Cha",
+    "short_description": "Grilled pork patties with rice noodles and dipping sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice vermicelli",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make patties.",
+      "Grill.",
+      "Make dipping sauce.",
+      "Serve with noodles."
+    ],
+    "cooking_tips": [
+      "Charred edges.",
+      "Balance dipping sauce."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "pork",
+      "grilled",
+      "noodles",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Protein from pork, herbs provide vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "vn-ca-phe",
+    "slug": "vietnamese-coffee",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Vietnamese Coffee",
+    "short_description": "Strong dark roast dripped over sweetened condensed milk.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 5,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "dark roast coffee",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "condensed milk",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "hot water",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Add condensed milk.",
+      "Set up phin filter.",
+      "Drip slowly.",
+      "Stir and enjoy."
+    ],
+    "cooking_tips": [
+      "Patience.",
+      "Adjust sweetness."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "drink",
+      "coffee",
+      "sweet",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 150,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Antioxidants from coffee, energy boost.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  }
+]

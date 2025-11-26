@@ -55,11 +55,13 @@ async function initRecipeDetail() {
 }
 
 /**
- * Get recipe slug from URL query parameter
+ * Get recipe slug/id from URL query parameter
+ * Supports both ?slug=xxx and ?id=xxx formats
  */
 function getRecipeSlugFromUrl() {
   const params = new URLSearchParams(window.location.search);
-  return params.get('slug');
+  // Support both 'slug' and 'id' parameters for backwards compatibility
+  return params.get('slug') || params.get('id');
 }
 
 /**

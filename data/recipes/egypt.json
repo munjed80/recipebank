@@ -1,0 +1,275 @@
+[
+  {
+    "id": "eg-koshari",
+    "slug": "koshari",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Koshari",
+    "short_description": "Egypt's national dish with rice, lentils, pasta, and spiced tomato sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "lentils",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pasta",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook grains separately.",
+      "Make tomato sauce.",
+      "Fry onions.",
+      "Layer and top."
+    ],
+    "cooking_tips": [
+      "Crispy onions.",
+      "Spicy sauce optional."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "egyptian",
+      "vegetarian",
+      "vegan",
+      "carbs",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 68
+    },
+    "nutrition_benefits": "Complete plant protein, high fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "eg-ful-medames",
+    "slug": "ful-medames",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Ful Medames",
+    "short_description": "Slow-cooked fava beans with cumin, olive oil, and lemon.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 120,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fava beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook beans until soft.",
+      "Mash partially.",
+      "Season.",
+      "Drizzle oil."
+    ],
+    "cooking_tips": [
+      "Long cooking.",
+      "Runny texture."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "egyptian",
+      "breakfast",
+      "vegan",
+      "beans",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "High protein and fiber, iron-rich.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "eg-molokhia",
+    "slug": "molokhia",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Molokhia",
+    "short_description": "Jute leaf soup with garlic and coriander, served over rice.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "molokhia leaves",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 10,
+        "unit": "cloves"
+      },
+      {
+        "name": "chicken stock",
+        "amount": 1000,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Chop leaves fine.",
+      "Make garlic tadka.",
+      "Simmer in stock."
+    ],
+    "cooking_tips": [
+      "Don't boil.",
+      "Fresh garlic."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "egyptian",
+      "soup",
+      "greens",
+      "healthy",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High vitamins A and C, antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "eg-shawarma",
+    "slug": "egyptian-shawarma",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Egyptian Shawarma",
+    "short_description": "Spiced meat wrapped in pita with tahini and pickles.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef or chicken",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Egyptian spices",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pita",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Marinate meat.",
+      "Grill.",
+      "Slice.",
+      "Wrap with toppings."
+    ],
+    "cooking_tips": [
+      "Thin slices.",
+      "Fresh pita."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "egyptian",
+      "wrap",
+      "street-food",
+      "meat"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 36,
+      "fat_g": 22,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "High protein, balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "eg-basbousa",
+    "slug": "basbousa",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Basbousa",
+    "short_description": "Semolina cake soaked in rose water syrup with almonds.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yogurt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sugar syrup",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mix batter.",
+      "Bake.",
+      "Pour cold syrup.",
+      "Garnish with almonds."
+    ],
+    "cooking_tips": [
+      "Cold syrup hot cake.",
+      "Score before baking."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "egyptian",
+      "dessert",
+      "semolina",
+      "sweet",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 6,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Energy from semolina.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  }
+]

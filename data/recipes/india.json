@@ -1,0 +1,219 @@
+[
+  {
+    "id": "in-butter-chicken",
+    "slug": "butter-chicken",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Butter Chicken",
+    "image": "assets/img/recipes/butter-chicken.jpg",
+    "short_description": "An indulgent North Indian classic featuring tender, smoky tandoori-style chicken swimming in a velvety tomato cream sauce infused with aromatic spices. This restaurant-favorite dish delivers the perfect balance of richness, warmth, and comfort in every spoonful.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "boneless chicken thighs",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tomato puree",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "garam masala",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": 2,
+        "unit": "inch"
+      },
+      {
+        "name": "Kashmiri red chili powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ground cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried fenugreek leaves",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut chicken into bite-sized pieces and place in a large bowl.",
+      "Mix yogurt with half the garam masala, chili powder, and cumin to create the marinade.",
+      "Coat the chicken thoroughly in the marinade and refrigerate for at least 2 hours or overnight.",
+      "Grill or pan-sear the marinated chicken pieces until charred on the edges and cooked through.",
+      "In a large pan, melt the butter over medium heat.",
+      "Add minced garlic and grated ginger, sauteing for 2 minutes until fragrant.",
+      "Pour in the tomato puree and simmer for 15 minutes, stirring occasionally.",
+      "Add the remaining garam masala, chili powder, and sugar to the sauce.",
+      "Stir in the heavy cream and crushed fenugreek leaves.",
+      "Add the grilled chicken pieces to the sauce and simmer for 10 minutes.",
+      "Adjust seasoning with salt, garnish with a swirl of cream, and serve with naan or rice."
+    ],
+    "cooking_tips": [
+      "Marinating overnight dramatically improves the depth of flavor and tenderness of the chicken.",
+      "Kashmiri chili powder provides vibrant color without excessive heat.",
+      "Crushing dried fenugreek leaves between your palms before adding releases their aromatic oils."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indian",
+      "curry",
+      "creamy",
+      "mild-spicy",
+      "chicken",
+      "dinner",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 42,
+      "fat_g": 38,
+      "carbs_g": 15
+    },
+    "nutrition_benefits": "Butter chicken is packed with high-quality protein essential for muscle building and repair. The tomatoes provide lycopene and vitamin C, while the spices like ginger, garlic, and turmeric offer anti-inflammatory and immune-boosting properties. Garam masala spices aid digestion and metabolism.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "in-vegetable-biryani",
+    "slug": "vegetable-biryani",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Vegetable Biryani",
+    "image": "assets/img/recipes/vegetable-biryani.jpg",
+    "short_description": "A majestic one-pot masterpiece featuring layers of fluffy saffron-kissed basmati rice and aromatic spiced vegetables, slow-cooked to perfection. This festive Mughlai dish delivers an intoxicating blend of flavors and textures that makes every bite a celebration.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mixed vegetables (carrots, peas, beans, potatoes)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "large onions",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "biryani masala",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "saffron strands",
+        "amount": 1,
+        "unit": "pinch"
+      },
+      {
+        "name": "warm milk",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ghee",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh mint leaves",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "green chilies",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Rinse basmati rice thoroughly and soak in cold water for 30 minutes.",
+      "Soak saffron strands in warm milk and set aside to bloom.",
+      "Slice onions thinly and fry in ghee until deep golden brown and crispy. Remove half for garnish.",
+      "Add mixed vegetables to the remaining onions and saute for 5 minutes.",
+      "Stir in yogurt, biryani masala, half the mint, and half the cilantro. Cook for 10 minutes.",
+      "Parboil the soaked rice in salted water until 70% cooked (grains should still have a bite).",
+      "Drain the rice and layer it over the vegetable mixture in the same heavy-bottomed pot.",
+      "Top with remaining mint, cilantro, fried onions, slit green chilies, and drizzle the saffron milk.",
+      "Cover with a tight-fitting lid, seal edges with dough if needed, and cook on very low heat for 25 minutes.",
+      "Let the biryani rest for 5 minutes, then gently mix layers from the bottom.",
+      "Serve hot with raita and fried papadum."
+    ],
+    "cooking_tips": [
+      "The dum cooking method (slow steaming) is essential - never lift the lid during cooking.",
+      "Parboiling rice to 70% doneness prevents mushy biryani as it finishes cooking in steam.",
+      "Quality saffron makes a noticeable difference in both color and aroma."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "indian",
+      "rice",
+      "vegetarian",
+      "aromatic",
+      "festive",
+      "vegan-adaptable",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 65
+    },
+    "nutrition_benefits": "Vegetable biryani provides a complete meal with complex carbohydrates from basmati rice for sustained energy. The variety of vegetables offers fiber, vitamins, and minerals. Saffron has antioxidant properties, while the aromatic spices like cardamom and cloves aid digestion and have antimicrobial properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  }
+]

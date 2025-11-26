@@ -1,0 +1,364 @@
+[
+  {
+    "id": "th-pad-thai",
+    "slug": "pad-thai",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Pad Thai",
+    "short_description": "Iconic stir-fried rice noodles with tamarind, peanuts, and lime.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice noodles",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "peanuts",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak noodles.",
+      "Make sauce.",
+      "Stir-fry.",
+      "Add noodles.",
+      "Garnish."
+    ],
+    "cooking_tips": [
+      "High heat.",
+      "Don't overcook noodles."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "noodles",
+      "stir-fry",
+      "quick",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Protein from shrimp, healthy fats from peanuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "th-green-curry",
+    "slug": "thai-green-curry",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Thai Green Curry",
+    "short_description": "Aromatic coconut curry with green chilies, Thai basil, and vegetables.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "green curry paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Thai basil",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Fry curry paste.",
+      "Add coconut milk.",
+      "Add chicken.",
+      "Simmer.",
+      "Add basil."
+    ],
+    "cooking_tips": [
+      "Quality paste.",
+      "Don't boil coconut."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "curry",
+      "coconut",
+      "spicy",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 30,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "MCTs from coconut, protein, anti-inflammatory spices.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "th-tom-yum",
+    "slug": "tom-yum-soup",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Tom Yum Soup",
+    "short_description": "Hot and sour soup with shrimp, lemongrass, and galangal.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 3,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "lime leaves",
+        "amount": 6,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make aromatic broth.",
+      "Add mushrooms.",
+      "Add shrimp.",
+      "Season with lime and fish sauce."
+    ],
+    "cooking_tips": [
+      "Fresh aromatics.",
+      "Don't overcook shrimp."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "soup",
+      "seafood",
+      "spicy",
+      "healthy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 24,
+      "fat_g": 4,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Low calorie, high protein, immune-boosting aromatics.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Low Carb"
+  },
+  {
+    "id": "th-mango-rice",
+    "slug": "mango-sticky-rice",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Mango Sticky Rice",
+    "short_description": "Sweet coconut sticky rice with fresh ripe mango.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "sticky rice",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "mango",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak and steam rice.",
+      "Make coconut sauce.",
+      "Combine.",
+      "Serve with mango."
+    ],
+    "cooking_tips": [
+      "Ripe mangoes.",
+      "Soak rice overnight."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "dessert",
+      "sweet",
+      "coconut",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 5,
+      "fat_g": 12,
+      "carbs_g": 65
+    },
+    "nutrition_benefits": "Vitamin A and C from mango, energy from rice.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "th-satay",
+    "slug": "chicken-satay",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Chicken Satay",
+    "short_description": "Grilled marinated chicken skewers with peanut dipping sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "peanut butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "curry powder",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Skewer.",
+      "Grill.",
+      "Make peanut sauce."
+    ],
+    "cooking_tips": [
+      "Soak bamboo skewers.",
+      "Baste while grilling."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "appetizer",
+      "grilled",
+      "peanut",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 350,
+      "protein_g": 38,
+      "fat_g": 18,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "High protein, healthy fats from peanuts.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "th-papaya-salad",
+    "slug": "som-tam",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Som Tam (Papaya Salad)",
+    "short_description": "Spicy green papaya salad with lime, chilies, and dried shrimp.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "green papaya",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "long beans",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "lime",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Shred papaya.",
+      "Pound garlic and chilies.",
+      "Add vegetables.",
+      "Dress with lime."
+    ],
+    "cooking_tips": [
+      "Use mortar and pestle.",
+      "Adjust spice level."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "salad",
+      "spicy",
+      "healthy",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 3,
+      "fat_g": 1,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Very low calorie, high vitamin C, digestive enzymes from papaya.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Gluten Free"
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "id": "pe-ceviche",
+    "slug": "ceviche",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Ceviche",
+    "short_description": "Fresh fish cured in lime juice with onions and chili.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "white fish",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lime juice",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "red onion",
+        "amount": 1,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Cube fish.",
+      "Add lime juice.",
+      "Rest 15 minutes.",
+      "Add onion and chili."
+    ],
+    "cooking_tips": [
+      "Fresh fish only.",
+      "Don't over-cure."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "peruvian",
+      "seafood",
+      "raw",
+      "citrus",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 28,
+      "fat_g": 4,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "High protein, omega-3, vitamin C from lime.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "pe-lomo-saltado",
+    "slug": "lomo-saltado",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Lomo Saltado",
+    "short_description": "Stir-fried beef with tomatoes, onions, and french fries.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "french fries",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Sear beef.",
+      "Add vegetables.",
+      "Add fries.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "High heat.",
+      "Crispy fries."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "peruvian",
+      "beef",
+      "fusion",
+      "stir-fry",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 36,
+      "fat_g": 24,
+      "carbs_g": 40
+    },
+    "nutrition_benefits": "High protein, Chinese-Peruvian fusion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "pe-causa",
+    "slug": "causa",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Causa Rellena",
+    "short_description": "Layered potato terrine with avocado and chicken.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "yellow potatoes",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "avocado",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "chicken",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Mash potatoes with aji amarillo.",
+      "Layer with fillings.",
+      "Chill.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Yellow potatoes best.",
+      "Chill well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "appetizer",
+      "potato",
+      "chicken",
+      "elegant"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Potassium from potatoes, healthy fats from avocado.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "pe-anticuchos",
+    "slug": "anticuchos",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Anticuchos",
+    "short_description": "Grilled beef heart skewers with aji panca marinade.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef heart",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "aji panca paste",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cube heart.",
+      "Marinate.",
+      "Skewer.",
+      "Grill hot."
+    ],
+    "cooking_tips": [
+      "Remove membrane.",
+      "High heat."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "beef",
+      "grilled",
+      "street-food",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 28,
+      "fat_g": 10,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Very high protein, iron, B vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "pe-aji-gallina",
+    "slug": "aji-de-gallina",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Aji de Gallina",
+    "short_description": "Creamy shredded chicken in walnut and aji amarillo sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "aji amarillo",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "walnuts",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Poach and shred chicken.",
+      "Blend sauce.",
+      "Combine.",
+      "Serve over rice."
+    ],
+    "cooking_tips": [
+      "Toast walnuts.",
+      "Adjust spice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "chicken",
+      "creamy",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Protein, healthy fats from walnuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  }
+]
