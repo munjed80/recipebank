@@ -4,6 +4,15 @@
  */
 
 /**
+ * Escape HTML to prevent XSS attacks
+ */
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+/**
  * Initialize recipe detail page
  */
 async function initRecipeDetail() {
@@ -78,8 +87,8 @@ function renderRecipeModern(container, recipe) {
   const ingredientsHtml = recipe.ingredients.map((ing, index) => `
     <li class="ingredient-item">
       <input type="checkbox" class="ingredient-checkbox" id="ing-${index}">
-      <label class="ingredient-name" for="ing-${index}">${ing.name}</label>
-      <span class="ingredient-amount">${ing.amount} ${ing.unit}</span>
+      <label class="ingredient-name" for="ing-${index}">${escapeHtml(ing.name)}</label>
+      <span class="ingredient-amount">${escapeHtml(String(ing.amount))} ${escapeHtml(ing.unit)}</span>
     </li>
   `).join('');
 
@@ -87,13 +96,13 @@ function renderRecipeModern(container, recipe) {
   const stepsHtml = recipe.steps.map((step, index) => `
     <li class="step-card">
       <div class="step-number">${index + 1}</div>
-      <div class="step-content">${step}</div>
+      <div class="step-content">${escapeHtml(step)}</div>
     </li>
   `).join('');
 
   // Generate tag pills HTML
   const tagsHtml = recipe.tags.map(tag => 
-    `<a href="#" class="tag-pill" data-tag="${tag}">${tag}</a>`
+    `<a href="#" class="tag-pill" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)}</a>`
   ).join('');
 
   // Generate nutrition section HTML
@@ -137,9 +146,9 @@ function renderRecipeModern(container, recipe) {
   container.innerHTML = `
     <!-- Action Buttons Bar -->
     <div class="recipe-actions-bar">
-      <a href="${RecipeBank.CONFIG.basePath}/public/countries/${recipe.country_slug}.html" class="recipe-action-btn">
+      <a href="${RecipeBank.CONFIG.basePath}/public/countries/${escapeHtml(recipe.country_slug)}.html" class="recipe-action-btn">
         <span class="icon">←</span>
-        <span>Back to ${recipe.country}</span>
+        <span>Back to ${escapeHtml(recipe.country)}</span>
       </a>
       <button type="button" id="btn-print-recipe" class="recipe-action-btn">
         <span class="icon">🖨️</span>
@@ -161,8 +170,8 @@ function renderRecipeModern(container, recipe) {
       <!-- Recipe Header -->
       <header class="recipe-header-modern">
         <div class="recipe-header-content">
-          <h1 class="recipe-title-modern">${recipe.name_en}</h1>
-          <p class="recipe-local-name-modern" dir="${localNameDir}">${recipe.name_local}</p>
+          <h1 class="recipe-title-modern">${escapeHtml(recipe.name_en)}</h1>
+          <p class="recipe-local-name-modern" dir="${localNameDir}">${escapeHtml(recipe.name_local)}</p>
           
           <!-- Rating Stars Placeholder -->
           <div class="recipe-rating">
@@ -174,7 +183,7 @@ function renderRecipeModern(container, recipe) {
           <div class="recipe-meta-pills">
             <span class="meta-pill">
               <span class="icon">${RecipeBank.getCountryFlag(recipe.country_slug)}</span>
-              ${recipe.country}
+              ${escapeHtml(recipe.country)}
             </span>
             <span class="meta-pill">
               <span class="icon">⏱️</span>
@@ -182,7 +191,7 @@ function renderRecipeModern(container, recipe) {
             </span>
             <span class="meta-pill ${getDifficultyClass(recipe.difficulty)}">
               <span class="icon">📊</span>
-              ${recipe.difficulty.charAt(0).toUpperCase() + recipe.difficulty.slice(1)}
+              ${escapeHtml(recipe.difficulty.charAt(0).toUpperCase() + recipe.difficulty.slice(1))}
             </span>
             <span class="meta-pill">
               <span class="icon">🍽️</span>
@@ -199,7 +208,7 @@ function renderRecipeModern(container, recipe) {
 
       <!-- Description -->
       <div class="recipe-main-content">
-        <p class="recipe-description-modern">${recipe.short_description}</p>
+        <p class="recipe-description-modern">${escapeHtml(recipe.short_description)}</p>
 
         <!-- Two Column Layout -->
         <div class="recipe-columns">
@@ -231,9 +240,9 @@ function renderRecipeModern(container, recipe) {
 
     <!-- Footer Actions -->
     <div class="recipe-footer-actions">
-      <a href="${RecipeBank.CONFIG.basePath}/public/countries/${recipe.country_slug}.html" class="btn-back-country">
+      <a href="${RecipeBank.CONFIG.basePath}/public/countries/${escapeHtml(recipe.country_slug)}.html" class="btn-back-country">
         <span class="icon">←</span>
-        More ${recipe.country} Recipes
+        More ${escapeHtml(recipe.country)} Recipes
       </a>
     </div>
   `;

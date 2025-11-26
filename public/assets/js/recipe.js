@@ -150,11 +150,48 @@ const RecipeInteractions = {
       tag.addEventListener('click', (e) => {
         e.preventDefault();
         const tagName = e.target.dataset.tag;
-        // Navigate to assistant page with tag filter (future enhancement)
-        // For now, we show an alert with the tag name
-        alert(`Filtering by tag: ${tagName}\n\nThis feature will show all recipes with this tag.`);
+        // Show toast notification for tag filtering (future feature)
+        this.showToast(`Filtering by tag: ${tagName} (coming soon!)`);
       });
     });
+  },
+
+  /**
+   * Show a toast notification
+   */
+  showToast(message) {
+    // Remove any existing toast
+    const existingToast = document.querySelector('.recipe-toast');
+    if (existingToast) {
+      existingToast.remove();
+    }
+
+    // Create toast element
+    const toast = document.createElement('div');
+    toast.className = 'recipe-toast';
+    toast.textContent = message;
+    toast.style.cssText = `
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #2c3e50;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-size: 0.95rem;
+      z-index: 1000;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      animation: toastFadeIn 0.3s ease;
+    `;
+
+    document.body.appendChild(toast);
+
+    // Remove after 3 seconds
+    setTimeout(() => {
+      toast.style.animation = 'toastFadeOut 0.3s ease forwards';
+      setTimeout(() => toast.remove(), 300);
+    }, 3000);
   }
 };
 
