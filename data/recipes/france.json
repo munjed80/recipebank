@@ -1,0 +1,335 @@
+[
+  {
+    "id": "fr-coq-au-vin",
+    "slug": "coq-au-vin",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Coq au Vin",
+    "short_description": "Classic French chicken braised in red wine with mushrooms and pearl onions.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "red wine",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "bacon",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "mushrooms",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Brown chicken.",
+      "Cook bacon.",
+      "Deglaze with wine.",
+      "Braise 90 minutes."
+    ],
+    "cooking_tips": [
+      "Quality wine.",
+      "Marinate overnight."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "chicken",
+      "braised",
+      "classic",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 42,
+      "fat_g": 28,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein, antioxidants from wine.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "fr-croissant",
+    "slug": "croissant",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Croissant",
+    "short_description": "Flaky, buttery French pastry with perfectly laminated layers.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 20,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 280,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Laminate with butter.",
+      "Shape and bake."
+    ],
+    "cooking_tips": [
+      "Cold butter.",
+      "Patient folding."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "pastry",
+      "breakfast",
+      "baked"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 16,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Energy from carbs, best in moderation.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-ratatouille",
+    "slug": "ratatouille",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Ratatouille",
+    "short_description": "Provencal vegetable stew with eggplant, zucchini, and tomatoes.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Slice vegetables.",
+      "Layer in dish.",
+      "Bake until tender."
+    ],
+    "cooking_tips": [
+      "Uniform slices.",
+      "Low and slow."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "french",
+      "vegetarian",
+      "vegan",
+      "healthy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 6,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Low calorie, high fiber, vitamin-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "fr-onion-soup",
+    "slug": "french-onion-soup",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "French Onion Soup",
+    "short_description": "Rich caramelized onion soup topped with crusty bread and melted Gruyere.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "onions",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "beef stock",
+        "amount": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "gruyere",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Caramelize onions.",
+      "Add stock.",
+      "Top with bread and cheese.",
+      "Broil."
+    ],
+    "cooking_tips": [
+      "Low heat for onions.",
+      "Don't rush."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "soup",
+      "comfort-food",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 20,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Quercetin from onions, calcium from cheese.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "fr-crepes",
+    "slug": "crepes",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Crepes",
+    "short_description": "Thin French pancakes perfect for sweet or savory fillings.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "milk",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Blend batter.",
+      "Rest.",
+      "Cook thin.",
+      "Fill and fold."
+    ],
+    "cooking_tips": [
+      "Smooth batter.",
+      "Swirl pan."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "french",
+      "breakfast",
+      "dessert",
+      "versatile"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 7,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein from eggs, versatile base.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-quiche",
+    "slug": "quiche-lorraine",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Quiche Lorraine",
+    "short_description": "Savory custard tart with bacon, cheese, and buttery crust.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "pie crust",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cream",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "bacon",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Blind bake crust.",
+      "Cook bacon.",
+      "Whisk custard.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Blind bake essential.",
+      "Don't overbake."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "brunch",
+      "baked",
+      "eggs"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 16,
+      "fat_g": 32,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Protein from eggs and bacon.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "None"
+  }
+]

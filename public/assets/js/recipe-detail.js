@@ -41,7 +41,9 @@ async function initRecipeDetail() {
 
     renderRecipeModern(container, recipe);
     updatePageTitle(recipe.name_en);
+    applyRecipeSEO(recipe);
     initFavoriteButton(recipe.slug);
+    initPrintButton();
     
   } catch (error) {
     console.error('Error loading recipe:', error);
@@ -54,18 +56,29 @@ async function initRecipeDetail() {
 }
 
 /**
- * Get recipe slug from URL query parameter
+ * Get recipe identifier from URL query parameter
+ * Supports both ?slug=xxx and ?id=xxx formats for backwards compatibility
  */
 function getRecipeSlugFromUrl() {
   const params = new URLSearchParams(window.location.search);
-  return params.get('slug');
+  // Support both 'slug' and 'id' parameters for backwards compatibility
+  return params.get('slug') || params.get('id');
 }
 
 /**
- * Update page title
+ * Update page title and apply SEO
  */
 function updatePageTitle(recipeName) {
   document.title = `${recipeName} | RecipeBank`;
+}
+
+/**
+ * Apply SEO meta tags and structured data for the recipe
+ */
+function applyRecipeSEO(recipe) {
+  if (window.SEO) {
+    window.SEO.applyRecipeSEO(recipe);
+  }
 }
 
 /**
@@ -90,6 +103,47 @@ function getTotalTime(recipe) {
 }
 
 /**
+ * Parse a step instruction to extract a bold title and explanation
+ * If the step is a short phrase, use it as title only
+ * If longer, extract a short title from the first few words
+ */
+function parseStepInstruction(step, index) {
+  if (!step || step.length === 0) {
+    return { title: `Step ${index + 1}`, explanation: '' };
+  }
+  
+  // If step has a natural break (period, dash, colon in first part), split there
+  const colonMatch = step.match(/^([^:]+):\s*(.+)$/);
+  if (colonMatch) {
+    return { title: colonMatch[1].trim(), explanation: colonMatch[2].trim() };
+  }
+  
+  // If step is short (less than 40 chars), use whole thing as title
+  if (step.length <= 40) {
+    return { title: step, explanation: '' };
+  }
+  
+  // For longer steps, create a short action title from first verb phrase
+  // Extract first sentence or first 5-7 words as title
+  const sentences = step.split(/\.\s+/);
+  if (sentences.length > 1 && sentences[0].length <= 50) {
+    return { title: sentences[0] + '.', explanation: sentences.slice(1).join('. ').trim() };
+  }
+  
+  // Extract first few words as title (aim for action verb + object)
+  const words = step.split(/\s+/);
+  const titleWords = words.slice(0, Math.min(5, words.length));
+  const title = titleWords.join(' ');
+  const explanation = words.slice(titleWords.length).join(' ');
+  
+  // Add ellipsis if we split the sentence
+  return { 
+    title: title + (explanation ? '...' : ''), 
+    explanation: explanation 
+  };
+}
+
+/**
  * Render modern recipe layout
  */
 function renderRecipeModern(container, recipe) {
@@ -102,13 +156,20 @@ function renderRecipeModern(container, recipe) {
     </li>
   `).join('');
 
-  // Generate steps cards HTML
-  const stepsHtml = recipe.steps.map((step, index) => `
-    <li class="step-card">
-      <div class="step-number">${index + 1}</div>
-      <div class="step-content">${escapeHtml(step)}</div>
-    </li>
-  `).join('');
+  // Generate steps cards HTML with bold title and explanation
+  const stepsHtml = recipe.steps.map((step, index) => {
+    // Parse step to extract title and explanation
+    const { title, explanation } = parseStepInstruction(step, index);
+    return `
+      <li class="step-card">
+        <div class="step-number">${index + 1}</div>
+        <div class="step-content">
+          <strong class="step-title">${escapeHtml(title)}</strong>
+          ${explanation ? `<span class="step-explanation">${escapeHtml(explanation)}</span>` : ''}
+        </div>
+      </li>
+    `;
+  }).join('');
 
   // Generate tag pills HTML
   const tagsHtml = recipe.tags.map(tag => 
@@ -128,41 +189,41 @@ function renderRecipeModern(container, recipe) {
     </section>
   ` : '';
 
-  // Generate nutrition and benefits section HTML
+  // Generate nutrition and benefits section HTML - Nutritional Breakdown
   const nutritionBenefitsHtml = recipe.nutrition ? `
-    <section class="nutrition-section">
+    <section class="nutrition-section nutritional-breakdown">
       <h3 class="nutrition-title">
         <span class="icon">📊</span>
-        Nutrition Facts
+        Nutritional Breakdown
         <span class="section-subtitle">(per serving)</span>
       </h3>
       <div class="nutrition-grid-modern">
-        <div class="nutrition-item-modern">
+        <div class="nutrition-item-modern calories-item">
           <div class="nutrition-icon">🔥</div>
           <div class="nutrition-value-modern">${recipe.nutrition.per_serving_kcal}</div>
           <div class="nutrition-label-modern">Calories</div>
         </div>
-        <div class="nutrition-item-modern">
+        <div class="nutrition-item-modern protein-item">
           <div class="nutrition-icon">🥩</div>
           <div class="nutrition-value-modern">${recipe.nutrition.protein_g}g</div>
           <div class="nutrition-label-modern">Protein</div>
         </div>
-        <div class="nutrition-item-modern">
-          <div class="nutrition-icon">🧈</div>
-          <div class="nutrition-value-modern">${recipe.nutrition.fat_g}g</div>
-          <div class="nutrition-label-modern">Fat</div>
-        </div>
-        <div class="nutrition-item-modern">
+        <div class="nutrition-item-modern carbs-item">
           <div class="nutrition-icon">🍞</div>
           <div class="nutrition-value-modern">${recipe.nutrition.carbs_g}g</div>
           <div class="nutrition-label-modern">Carbs</div>
+        </div>
+        <div class="nutrition-item-modern fat-item">
+          <div class="nutrition-icon">🧈</div>
+          <div class="nutrition-value-modern">${recipe.nutrition.fat_g}g</div>
+          <div class="nutrition-label-modern">Fat</div>
         </div>
       </div>
       ${recipe.nutrition_benefits ? `
         <div class="nutrition-benefits">
           <h4 class="benefits-title">
             <span class="icon">🌿</span>
-            Nutrition & Benefits
+            Health Benefits
           </h4>
           <p class="benefits-text">${escapeHtml(recipe.nutrition_benefits)}</p>
         </div>
@@ -197,14 +258,20 @@ function renderRecipeModern(container, recipe) {
     <!-- Print Area -->
     <div class="recipe-print-area">
       <!-- Hero Image -->
-      <div class="recipe-hero-image">
-        <div class="recipe-hero-placeholder">🍽️</div>
+      <div class="recipe-hero-image" role="img" aria-label="${escapeHtml(recipe.name_en)} - ${escapeHtml(recipe.country)} dish">
+        <div class="recipe-hero-placeholder" aria-hidden="true">🍽️</div>
       </div>
 
       <!-- Recipe Header -->
       <header class="recipe-header-modern">
         <div class="recipe-header-content">
           <h1 class="recipe-title-modern">${escapeHtml(recipe.name_en)}</h1>
+          
+          <!-- Classification Badges -->
+          <div class="recipe-classification">
+            ${RecipeBank.getClassificationBadges(recipe).mealTypeBadge}
+            ${RecipeBank.getClassificationBadges(recipe).dietaryBadge}
+          </div>
           
           <!-- Rating Stars Placeholder -->
           <div class="recipe-rating">
@@ -263,14 +330,13 @@ function renderRecipeModern(container, recipe) {
             <ul class="ingredients-checklist">
               ${ingredientsHtml}
             </ul>
-            ${nutritionBenefitsHtml}
           </div>
 
           <!-- Right Column: Steps -->
           <div class="steps-section">
             <h2 class="section-title-modern">
               <span class="icon">👨‍🍳</span>
-              Method
+              Instructions
               <span class="section-subtitle">(${recipe.steps.length} steps)</span>
             </h2>
             <ol class="steps-list-modern">
@@ -279,6 +345,9 @@ function renderRecipeModern(container, recipe) {
             ${cookingTipsHtml}
           </div>
         </div>
+        
+        <!-- Nutritional Breakdown (full-width below columns) -->
+        ${nutritionBenefitsHtml}
       </div>
     </div>
 
@@ -331,4 +400,18 @@ function updateFavoriteButton(btn, isFavorite) {
     if (icon) icon.textContent = '🤍';
     if (text) text.textContent = 'Save';
   }
+}
+
+/**
+ * Initialize print button to only print recipe content
+ * Note: CSS print media query in recipe.css hides non-recipe elements
+ * and uses `.recipe-print-area` to isolate the printable content
+ */
+function initPrintButton() {
+  const printBtn = document.getElementById('btn-print-recipe');
+  if (!printBtn) return;
+  
+  printBtn.addEventListener('click', () => {
+    window.print();
+  });
 }

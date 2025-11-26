@@ -3,10 +3,12 @@
 .chat-container {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 120px);
-  max-width: 900px;
+  height: calc(100vh - 70px);
+  max-width: 800px;
   margin: 0 auto;
   padding: 0;
+  background: var(--card-background);
+  box-shadow: var(--shadow);
 }
 
 /* Chat Header */
@@ -159,6 +161,50 @@
   margin: 0.5rem 0;
 }
 
+/* Recipe Links in Messages */
+.message-bubble .recipe-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.message-bubble .recipe-link:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.message-bubble .recipe-card-inline {
+  display: block;
+  background: var(--background-color);
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+}
+
+.message-bubble .recipe-card-inline:hover {
+  border-color: var(--primary-color);
+  transform: translateX(4px);
+}
+
+.message-bubble .recipe-card-inline .recipe-name {
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.message-bubble .recipe-card-inline .recipe-meta {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-top: 0.25rem;
+}
+
 /* Typing Indicator */
 .typing-indicator {
   display: flex;
@@ -281,7 +327,11 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .chat-container {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
+    max-width: 100%;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
   }
 
   .chat-header {

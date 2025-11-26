@@ -1,0 +1,217 @@
+[
+  {
+    "id": "sy-kibbeh",
+    "slug": "kibbeh",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Kibbeh",
+    "image": "assets/img/recipes/kibbeh.jpg",
+    "short_description": "A cherished Levantine delicacy featuring a crispy shell of fine bulgur wheat encasing a fragrant filling of spiced lamb and toasted pine nuts. This labor of love represents centuries of Syrian culinary artistry and is considered the national dish by many.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "fine bulgur wheat",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "large onions",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "ground allspice",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Rinse bulgur wheat thoroughly and soak in cold water for 30 minutes.",
+      "Drain the bulgur and squeeze out all excess water using a clean kitchen towel.",
+      "For the shell: Combine the bulgur, half the lamb (250g), one grated onion, half the spices, and 1 tsp salt in a food processor.",
+      "Process until the mixture forms a smooth, pliable dough. Refrigerate for 30 minutes.",
+      "For the filling: Toast pine nuts in a dry pan until golden, then set aside.",
+      "Finely dice the remaining onion and saute in 2 tbsp oil until softened.",
+      "Add the remaining lamb and cook until browned, breaking it up with a spoon.",
+      "Season the filling with remaining spices and salt, then stir in the pine nuts. Let cool.",
+      "Wet your hands and take a golf ball-sized portion of the shell dough.",
+      "Shape it into an oval cup, fill with 1 tablespoon of the meat filling.",
+      "Pinch the opening closed and form into a pointed oval shape (like a football).",
+      "Heat oil to 350°F (175°C) and deep fry kibbeh in batches until deep golden brown, about 4-5 minutes.",
+      "Drain on paper towels and serve hot with yogurt sauce."
+    ],
+    "cooking_tips": [
+      "Keep your hands wet while shaping to prevent the dough from sticking.",
+      "Ensure the shell dough has no cracks before frying or it will absorb oil.",
+      "Kibbeh can also be baked in a tray (kibbeh bil sanieh) for a lighter version."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "syrian",
+      "fried",
+      "lamb",
+      "appetizer",
+      "traditional",
+      "middle-eastern",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Kibbeh offers a balanced combination of protein from lamb, complex carbohydrates from bulgur wheat, and healthy fats from pine nuts. Bulgur is high in fiber and has a low glycemic index. Lamb provides iron, zinc, and B vitamins, particularly B12. The warming spices like cinnamon and allspice have anti-inflammatory properties.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sy-fattoush",
+    "slug": "fattoush",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Fattoush Salad",
+    "image": "assets/img/recipes/fattoush.jpg",
+    "short_description": "A vibrant Levantine salad bursting with crisp vegetables, aromatic herbs, and golden fried pita pieces, all tossed in a tangy sumac and pomegranate molasses dressing. This refreshing dish celebrates the bounty of Middle Eastern gardens in every colorful bite.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 5,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "romaine lettuce",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "cucumber",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "ripe tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "red radishes",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "pita bread",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "ground sumac",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh lemon juice",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh mint leaves",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "pomegranate molasses",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 1,
+        "unit": "clove"
+      }
+    ],
+    "steps": [
+      "Split the pita bread into two thin rounds and cut or tear into bite-sized pieces.",
+      "Fry the pita pieces in olive oil until golden and crispy, or bake at 400°F until crunchy. Set aside.",
+      "Tear the romaine lettuce into bite-sized pieces and place in a large salad bowl.",
+      "Dice the cucumber and tomatoes into similar-sized cubes.",
+      "Slice the radishes into thin rounds.",
+      "Chop the fresh mint and parsley leaves.",
+      "Add all the vegetables and herbs to the bowl with the lettuce.",
+      "For the dressing: Whisk together olive oil, lemon juice, minced garlic, sumac, pomegranate molasses, and salt.",
+      "Just before serving, add the crispy pita pieces to the salad.",
+      "Pour the dressing over the salad and toss everything together thoroughly.",
+      "Serve immediately while the pita is still crispy, with extra sumac sprinkled on top."
+    ],
+    "cooking_tips": [
+      "Always add the pita and dressing at the last moment to maintain the crucial crispy texture.",
+      "Sumac can be found at Middle Eastern grocery stores and provides the signature tangy flavor.",
+      "For extra flavor, add a handful of pomegranate seeds when in season."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "syrian",
+      "salad",
+      "vegan",
+      "quick",
+      "healthy",
+      "refreshing",
+      "middle-eastern",
+      "lunch"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 5,
+      "fat_g": 14,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Fattoush is packed with vitamins and antioxidants from the rainbow of fresh vegetables. Sumac is exceptionally high in antioxidants and has natural antibacterial properties. The olive oil provides heart-healthy fats, while the variety of raw vegetables ensures maximum vitamin retention. This salad is excellent for digestive health due to its high fiber content.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
+  }
+]

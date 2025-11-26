@@ -1,0 +1,270 @@
+[
+  {
+    "id": "br-feijoada",
+    "slug": "feijoada",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Feijoada",
+    "short_description": "Black bean stew with pork and beef, Brazil's national dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "black beans",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pork ribs",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "smoked sausage",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak beans overnight.",
+      "Simmer meats.",
+      "Cook beans with meats."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Multiple meats."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "beans",
+      "pork",
+      "traditional",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "High protein, fiber from beans.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "br-picanha",
+    "slug": "picanha",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Picanha",
+    "short_description": "Prime cut beef grilled churrasco-style with rock salt.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "picanha",
+        "amount": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "coarse salt",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Salt generously.",
+      "Skewer.",
+      "Grill over charcoal."
+    ],
+    "cooking_tips": [
+      "Fat cap up.",
+      "Medium-rare."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "beef",
+      "grilled",
+      "bbq",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 42,
+      "fat_g": 32,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "High protein, iron, zinc from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "br-coxinha",
+    "slug": "coxinha",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Coxinha",
+    "short_description": "Teardrop-shaped chicken croquettes with creamy filling.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cream cheese",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Shred chicken.",
+      "Shape.",
+      "Bread.",
+      "Fry."
+    ],
+    "cooking_tips": [
+      "Chill dough.",
+      "Hot oil."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "brazilian",
+      "appetizer",
+      "chicken",
+      "fried",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-acai-bowl",
+    "slug": "acai-bowl",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Acai Bowl",
+    "short_description": "Frozen acai berry bowl topped with granola and fresh fruits.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 0,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "frozen acai",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "banana",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "granola",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Blend acai with banana.",
+      "Pour into bowl.",
+      "Top with fruit and granola."
+    ],
+    "cooking_tips": [
+      "Thick consistency.",
+      "Eat immediately."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "breakfast",
+      "healthy",
+      "vegan",
+      "fruit"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 46
+    },
+    "nutrition_benefits": "Antioxidants from acai, fiber, vitamins.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "br-pao-de-queijo",
+    "slug": "pao-de-queijo",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Pao de Queijo",
+    "short_description": "Chewy cheese bread balls made with tapioca flour.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "tapioca flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Heat milk and oil.",
+      "Add flour.",
+      "Mix in cheese and eggs.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Don't overmix.",
+      "Best warm."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "bread",
+      "cheese",
+      "gluten-free",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 6,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Gluten-free, protein from cheese.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
+  }
+]

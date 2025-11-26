@@ -1,0 +1,331 @@
+[
+  {
+    "id": "gr-moussaka",
+    "slug": "moussaka",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Moussaka",
+    "short_description": "Layered eggplant, spiced lamb, and bechamel casserole.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "bechamel",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Salt and fry eggplant.",
+      "Make meat sauce.",
+      "Layer.",
+      "Top with bechamel.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Salt eggplant.",
+      "Rest before cutting."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "lamb",
+      "baked",
+      "classic",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 26,
+      "fat_g": 32,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein from lamb, fiber from eggplant.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "gr-souvlaki",
+    "slug": "souvlaki",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Souvlaki",
+    "short_description": "Grilled pork skewers with oregano, lemon, and tzatziki.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork tenderloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "lemon",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "tzatziki",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Marinate pork.",
+      "Skewer.",
+      "Grill.",
+      "Serve with pita."
+    ],
+    "cooking_tips": [
+      "Room temp meat.",
+      "Hot grill."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "greek",
+      "pork",
+      "grilled",
+      "street-food",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 38,
+      "fat_g": 18,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Lean protein, probiotics from tzatziki.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "gr-spanakopita",
+    "slug": "spanakopita",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Spanakopita",
+    "short_description": "Flaky phyllo pie with spinach and feta cheese.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "spinach",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "feta cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "phyllo dough",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook spinach.",
+      "Mix with feta.",
+      "Layer phyllo.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Squeeze spinach dry.",
+      "Brush phyllo well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "vegetarian",
+      "baked",
+      "pie",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Iron from spinach, calcium from feta.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-tzatziki",
+    "slug": "tzatziki",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Tzatziki",
+    "short_description": "Cool yogurt dip with cucumber, garlic, and dill.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "greek yogurt",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Grate and drain cucumber.",
+      "Mix with yogurt.",
+      "Add garlic and dill."
+    ],
+    "cooking_tips": [
+      "Drain cucumber well.",
+      "Rest for flavor."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "greek",
+      "dip",
+      "vegetarian",
+      "healthy",
+      "refreshing"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 6,
+      "fat_g": 4,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Probiotics from yogurt, low calorie.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-greek-salad",
+    "slug": "greek-salad",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Greek Salad",
+    "short_description": "Fresh tomatoes, cucumber, olives, and feta with oregano.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "feta",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Chop vegetables.",
+      "Add feta.",
+      "Dress with olive oil."
+    ],
+    "cooking_tips": [
+      "Ripe tomatoes.",
+      "Quality olive oil."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "greek",
+      "salad",
+      "vegetarian",
+      "healthy",
+      "summer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 8,
+      "fat_g": 18,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Healthy fats from olives and olive oil, calcium from feta.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-baklava",
+    "slug": "baklava",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Baklava",
+    "short_description": "Layered phyllo pastry with nuts and honey syrup.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 50,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "phyllo dough",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "walnuts",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Layer phyllo and nuts.",
+      "Cut.",
+      "Bake.",
+      "Pour hot syrup."
+    ],
+    "cooking_tips": [
+      "Cold syrup on hot baklava.",
+      "Sharp knife."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "dessert",
+      "pastry",
+      "nuts",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 16,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Healthy fats from nuts, antioxidants from honey.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "it-margherita-pizza",
+    "slug": "margherita-pizza",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Margherita Pizza",
+    "image": "assets/img/recipes/margherita-pizza.jpg",
+    "short_description": "A timeless Neapolitan masterpiece featuring a pillowy crust, vibrant San Marzano tomato sauce, creamy fresh mozzarella, and fragrant basil leaves. This iconic pizza represents the colors of the Italian flag and delivers pure Mediterranean simplicity at its finest.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "00 flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 320,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh yeast",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "San Marzano tomato sauce",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fresh mozzarella",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fresh basil leaves",
+        "amount": 12,
+        "unit": "leaves"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Dissolve the yeast in lukewarm water and let it activate for 5 minutes until slightly foamy.",
+      "In a large bowl, combine the flour and salt, then gradually add the yeast water while mixing.",
+      "Knead the dough on a floured surface for 10 minutes until smooth and elastic.",
+      "Place the dough in an oiled bowl, cover with a damp cloth, and let rise for 2 hours until doubled.",
+      "Preheat your oven to the highest setting (250°C/480°F) with a pizza stone or baking sheet inside.",
+      "Divide the dough into 4 portions and stretch each into a thin round, leaving edges slightly thicker.",
+      "Spread a thin layer of tomato sauce, leaving a 1-inch border for the crust.",
+      "Tear the mozzarella into pieces and distribute evenly over the sauce.",
+      "Bake for 8-10 minutes until the crust is golden and cheese is bubbling.",
+      "Remove from oven, top with fresh basil leaves, drizzle with olive oil, and serve immediately."
+    ],
+    "cooking_tips": [
+      "For best results, let the dough cold-ferment in the refrigerator overnight for deeper flavor.",
+      "Use a pizza stone preheated for at least 30 minutes to achieve a crispy bottom.",
+      "Less is more with toppings - overloading will result in a soggy center."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "pizza",
+      "vegetarian",
+      "baked",
+      "classic",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 550,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 70
+    },
+    "nutrition_benefits": "This pizza provides a good balance of carbohydrates for energy, protein from the mozzarella cheese, and lycopene from the tomatoes which is a powerful antioxidant. The olive oil adds heart-healthy monounsaturated fats. Fresh basil contains vitamins K, A, and C, plus essential oils with anti-inflammatory properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-spaghetti-carbonara",
+    "slug": "spaghetti-carbonara",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Spaghetti Carbonara",
+    "image": "assets/img/recipes/spaghetti-carbonara.jpg",
+    "short_description": "An authentic Roman treasure featuring al dente spaghetti coated in a luxuriously silky sauce of eggs, aged Pecorino Romano, crispy guanciale, and freshly cracked black pepper. This dish showcases Italian cuisine's genius for transforming simple ingredients into extraordinary flavors.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "spaghetti",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "guanciale",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "whole eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "Pecorino Romano cheese",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "freshly ground black pepper",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Bring a large pot of generously salted water to a rolling boil.",
+      "Cut the guanciale into small strips or cubes, about 1cm thick.",
+      "In a bowl, whisk together the egg yolks, whole eggs, and finely grated Pecorino Romano until smooth.",
+      "Add generous amounts of freshly ground black pepper to the egg mixture and set aside.",
+      "Cook the guanciale in a large cold pan over medium heat, letting the fat render slowly for 8-10 minutes until crispy.",
+      "Cook the spaghetti until al dente, reserving 1 cup of pasta water before draining.",
+      "Remove the guanciale pan from heat and let it cool for 1 minute.",
+      "Add the hot drained pasta to the guanciale pan and toss to coat in the rendered fat.",
+      "Working quickly off the heat, pour the egg mixture over the pasta while tossing continuously.",
+      "Add small splashes of pasta water while tossing to create a creamy, glossy sauce.",
+      "Serve immediately with extra Pecorino and black pepper on top."
+    ],
+    "cooking_tips": [
+      "Never add the egg mixture to a hot pan on the heat, or you will get scrambled eggs instead of a silky sauce.",
+      "The residual heat from the pasta and pan is what gently cooks the eggs into a creamy coating.",
+      "Authentic carbonara never includes cream, garlic, or onions."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "pasta",
+      "quick",
+      "high-protein",
+      "classic",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 650,
+      "protein_g": 28,
+      "fat_g": 32,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Carbonara is an excellent source of complete protein from eggs and cheese, providing all essential amino acids. The eggs contain choline, vital for brain health, and the Pecorino Romano offers calcium for bone strength. The dish provides sustained energy from complex carbohydrates in the pasta.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  }
+]

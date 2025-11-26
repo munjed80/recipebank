@@ -1,0 +1,276 @@
+[
+  {
+    "id": "id-nasi-goreng",
+    "slug": "nasi-goreng",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Nasi Goreng",
+    "short_description": "Indonesian fried rice with sweet soy sauce and egg.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "day-old rice",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Stir-fry aromatics.",
+      "Add rice.",
+      "Add kecap manis.",
+      "Top with fried egg."
+    ],
+    "cooking_tips": [
+      "Day-old rice.",
+      "High heat."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "rice",
+      "quick",
+      "breakfast",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Energy from rice, protein from egg.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "id-satay",
+    "slug": "sate-ayam",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Sate Ayam",
+    "short_description": "Chicken skewers with spicy peanut sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "peanuts",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 40,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cube and skewer chicken.",
+      "Grill.",
+      "Make peanut sauce."
+    ],
+    "cooking_tips": [
+      "Soak skewers.",
+      "Baste while grilling."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "chicken",
+      "grilled",
+      "peanut",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 36,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein, healthy fats from peanuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "id-rendang",
+    "slug": "rendang",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Rendang",
+    "short_description": "Slow-cooked spiced beef in coconut, often called world's most delicious.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 240,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "galangal",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make spice paste.",
+      "Add beef and coconut.",
+      "Cook until dry.",
+      "Fry in rendered oil."
+    ],
+    "cooking_tips": [
+      "Very slow cook.",
+      "Stir often at end."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "indonesian",
+      "beef",
+      "coconut",
+      "slow-cooked",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 36,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High protein, MCTs from coconut.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "id-gado-gado",
+    "slug": "gado-gado",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Gado Gado",
+    "short_description": "Indonesian salad with vegetables, tofu, and peanut dressing.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mixed vegetables",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "peanut sauce",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Blanch vegetables.",
+      "Fry tofu.",
+      "Arrange on plate.",
+      "Drizzle peanut sauce."
+    ],
+    "cooking_tips": [
+      "Cook vegetables separately.",
+      "Thick sauce."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "salad",
+      "vegetarian",
+      "peanut",
+      "healthy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 20,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Varied vegetables, plant protein.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "id-soto",
+    "slug": "soto-ayam",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Soto Ayam",
+    "short_description": "Turmeric chicken soup with glass noodles and boiled eggs.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "turmeric",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "glass noodles",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Simmer chicken.",
+      "Make spice paste.",
+      "Combine.",
+      "Add noodles."
+    ],
+    "cooking_tips": [
+      "Golden color from turmeric.",
+      "Fresh herbs topping."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "soup",
+      "chicken",
+      "comfort-food",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 14,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "High protein, anti-inflammatory turmeric.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  }
+]

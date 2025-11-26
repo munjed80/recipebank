@@ -1,0 +1,198 @@
+[
+  {
+    "id": "jp-ramen",
+    "slug": "ramen",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Shoyu Ramen",
+    "image": "assets/img/recipes/ramen.jpg",
+    "short_description": "A soul-warming Japanese noodle soup featuring a crystal-clear soy-based broth, springy wheat noodles, melt-in-your-mouth chashu pork, and a perfectly jammy marinated egg. This beloved comfort food represents the pinnacle of Japanese culinary craftsmanship.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh ramen noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pork belly",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "sake",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "chicken stock",
+        "amount": 2,
+        "unit": "L"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "green onions",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "nori seaweed sheets",
+        "amount": 8,
+        "unit": "sheets"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": 2,
+        "unit": "inch"
+      }
+    ],
+    "steps": [
+      "For the chashu: Roll and tie the pork belly, then sear all sides in a hot pan until golden.",
+      "Combine soy sauce, mirin, sake, and 1 cup water in a pot. Add the seared pork.",
+      "Braise the pork covered on low heat for 2 hours, turning occasionally, until tender.",
+      "For the eggs: Boil eggs for exactly 6 minutes 30 seconds, then immediately ice bath.",
+      "Peel the eggs and marinate in the chashu braising liquid for at least 2 hours.",
+      "For the broth: Simmer chicken stock with sliced garlic and ginger for 30 minutes.",
+      "Strain the broth and season with 2 tablespoons soy sauce per bowl.",
+      "Slice the chashu pork into 1/4 inch rounds.",
+      "Cook the ramen noodles according to package directions, drain well.",
+      "Assemble each bowl: noodles first, then hot broth, 3-4 chashu slices, halved egg, nori, and sliced green onions.",
+      "Serve immediately while steaming hot."
+    ],
+    "cooking_tips": [
+      "Fresh ramen noodles from Asian markets make a significant difference in texture.",
+      "The 6.5-minute egg timing is crucial for the perfect jammy yolk - adjust for altitude if needed.",
+      "Make the chashu and eggs a day ahead so the flavors can develop."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "japanese",
+      "soup",
+      "noodles",
+      "pork",
+      "comfort-food",
+      "dinner",
+      "high-protein"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 720,
+      "protein_g": 45,
+      "fat_g": 35,
+      "carbs_g": 55
+    },
+    "nutrition_benefits": "Shoyu ramen delivers substantial protein from both the pork and egg, supporting muscle maintenance and satiety. The slow-simmered broth extracts collagen from the pork, beneficial for skin and joint health. Ginger and garlic provide immune-boosting compounds, while the nori adds iodine essential for thyroid function.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "jp-teriyaki-salmon",
+    "slug": "teriyaki-salmon",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Teriyaki Salmon",
+    "image": "assets/img/recipes/teriyaki-salmon.jpg",
+    "short_description": "Perfectly seared salmon fillets glazed with a glistening homemade teriyaki sauce that balances sweet, savory, and umami notes. This elegant yet simple dish showcases the Japanese art of bringing out the natural beauty of premium ingredients.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "salmon fillets (skin-on)",
+        "amount": 4,
+        "unit": "pc (150g each)"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "mirin",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sake",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "toasted sesame seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "green onion",
+        "amount": 2,
+        "unit": "stalks"
+      }
+    ],
+    "steps": [
+      "Combine soy sauce, mirin, sake, and sugar in a small bowl to make the teriyaki sauce.",
+      "Pat salmon fillets completely dry with paper towels and season lightly with salt.",
+      "Heat vegetable oil in a non-stick pan over medium-high heat until shimmering.",
+      "Place salmon skin-side down and press gently to ensure even contact with the pan.",
+      "Cook for 3-4 minutes until the skin is crispy and golden.",
+      "Flip the salmon and reduce heat to medium.",
+      "Pour the teriyaki sauce into the pan around the salmon.",
+      "Cook for 3-4 minutes while spooning the bubbling sauce over the salmon repeatedly.",
+      "The sauce should reduce to a glossy, thick glaze coating the fish.",
+      "Transfer to plates, drizzle with remaining pan sauce, and top with sesame seeds and sliced green onions."
+    ],
+    "cooking_tips": [
+      "Starting with the skin side down and not moving the fish creates the crispiest skin.",
+      "Reduce the heat when adding the sauce to prevent burning the sugars.",
+      "The sauce continues to thicken after removing from heat, so remove slightly before desired consistency."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "seafood",
+      "quick",
+      "healthy",
+      "dinner",
+      "high-protein",
+      "omega-3"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 15
+    },
+    "nutrition_benefits": "Salmon is one of the best sources of omega-3 fatty acids, which support heart health, brain function, and reduce inflammation. It provides high-quality complete protein and is rich in B vitamins, particularly B12 for energy metabolism. The fish also offers selenium and vitamin D, often lacking in modern diets.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  }
+]

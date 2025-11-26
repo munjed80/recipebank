@@ -1,0 +1,275 @@
+[
+  {
+    "id": "tr-kebab",
+    "slug": "adana-kebab",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Adana Kebab",
+    "short_description": "Spicy hand-minced lamb kebabs on wide skewers.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "lamb fat",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "urfa pepper",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Hand-mince meat.",
+      "Add fat and spices.",
+      "Shape on skewers.",
+      "Grill."
+    ],
+    "cooking_tips": [
+      "Hand-minced.",
+      "Flat skewers."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "lamb",
+      "grilled",
+      "spicy",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 32,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "High protein, iron from lamb.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "tr-lahmacun",
+    "slug": "lahmacun",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Lahmacun",
+    "short_description": "Thin crispy flatbread with spiced lamb and vegetables.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make thin dough.",
+      "Spread lamb topping.",
+      "Bake hot."
+    ],
+    "cooking_tips": [
+      "Very thin.",
+      "Hot oven."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "lamb",
+      "baked",
+      "flatbread"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Protein from lamb, balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "tr-dolma",
+    "slug": "dolma",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Dolma",
+    "short_description": "Stuffed grape leaves with rice, pine nuts, and herbs.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 50,
+        "unit": "pc"
+      },
+      {
+        "name": "rice",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make rice filling.",
+      "Roll leaves.",
+      "Stack and cook."
+    ],
+    "cooking_tips": [
+      "Tight rolls.",
+      "Weight down."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "appetizer",
+      "vegetarian",
+      "vegan",
+      "rice"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Fiber, healthy fats from pine nuts.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tr-pide",
+    "slug": "pide",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Pide",
+    "short_description": "Turkish boat-shaped flatbread with various toppings.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "minced meat",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "egg",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Shape boats.",
+      "Add filling.",
+      "Bake.",
+      "Add egg."
+    ],
+    "cooking_tips": [
+      "Hot oven.",
+      "Egg at end."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "baked",
+      "flatbread",
+      "versatile"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 24,
+      "fat_g": 18,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete meal with protein and carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "tr-baklava",
+    "slug": "turkish-baklava",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Turkish Baklava",
+    "short_description": "Paper-thin phyllo layers with pistachios and syrup.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "phyllo",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pistachios",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 250,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Layer phyllo and butter.",
+      "Add nuts.",
+      "Cut.",
+      "Bake.",
+      "Add syrup."
+    ],
+    "cooking_tips": [
+      "Hot syrup cold baklava.",
+      "Very thin layers."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "turkish",
+      "dessert",
+      "pastry",
+      "nuts",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 6,
+      "fat_g": 20,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Healthy fats from pistachios.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  }
+]

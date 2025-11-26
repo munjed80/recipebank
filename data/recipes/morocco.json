@@ -1,0 +1,328 @@
+[
+  {
+    "id": "ma-tagine",
+    "slug": "lamb-tagine",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Lamb Tagine",
+    "short_description": "Slow-cooked Moroccan stew with lamb, apricots, and warming spices.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "dried apricots",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb.",
+      "Add spices.",
+      "Slow cook.",
+      "Add fruit."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Tagine pot ideal."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "lamb",
+      "stew",
+      "aromatic",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Iron-rich lamb, antioxidant spices, natural sweetness from fruit.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-couscous",
+    "slug": "couscous-royale",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Couscous Royale",
+    "short_description": "Fluffy semolina with seven vegetables and tender meat.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "couscous",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mixed vegetables",
+        "amount": 800,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Steam couscous.",
+      "Make vegetable stew.",
+      "Layer and serve."
+    ],
+    "cooking_tips": [
+      "Fluff couscous.",
+      "Seven vegetables traditional."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "couscous",
+      "traditional",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 14,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Balanced meal with protein, fiber, and complex carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "ma-harira",
+    "slug": "harira",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Harira",
+    "short_description": "Hearty Moroccan soup with lentils, chickpeas, and tomatoes.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lentils",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Simmer lentils.",
+      "Add chickpeas.",
+      "Thicken with flour."
+    ],
+    "cooking_tips": [
+      "Ramadan staple.",
+      "Dates on the side."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "soup",
+      "lentils",
+      "healthy",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 12,
+      "fat_g": 4,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "High fiber, plant protein, low fat.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-bastilla",
+    "slug": "bastilla",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Bastilla",
+    "short_description": "Sweet and savory pie with chicken, almonds, and cinnamon in phyllo.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "phyllo dough",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Poach chicken.",
+      "Make filling.",
+      "Layer phyllo.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Brush phyllo well.",
+      "Dust with sugar."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "moroccan",
+      "pastry",
+      "chicken",
+      "festive",
+      "elegant"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Protein from chicken, healthy fats from almonds.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "ma-mint-tea",
+    "slug": "moroccan-mint-tea",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Moroccan Mint Tea",
+    "short_description": "Sweet green tea with fresh mint, poured from a height.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 5,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "gunpowder green tea",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh mint",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "sugar",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Rinse tea.",
+      "Add mint and sugar.",
+      "Steep.",
+      "Pour from height."
+    ],
+    "cooking_tips": [
+      "Pour from height for foam.",
+      "Fresh mint essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "drink",
+      "tea",
+      "refreshing",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 0,
+      "fat_g": 0,
+      "carbs_g": 15
+    },
+    "nutrition_benefits": "Antioxidants from tea, digestive mint.",
+    "mealType": "Drink",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-zaalouk",
+    "slug": "zaalouk",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Zaalouk",
+    "short_description": "Smoky eggplant and tomato dip with cumin and paprika.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Roast eggplant.",
+      "Cook with tomatoes.",
+      "Mash and season."
+    ],
+    "cooking_tips": [
+      "Char eggplant.",
+      "Serve warm or cold."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "dip",
+      "vegan",
+      "healthy",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 2,
+      "fat_g": 5,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Low calorie, fiber-rich, antioxidants.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "id": "kr-bibimbap",
+    "slug": "bibimbap",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Bibimbap",
+    "short_description": "Rice bowl with assorted vegetables, meat, and gochujang.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "beef",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "gochujang",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook rice.",
+      "Prep vegetables.",
+      "Cook beef.",
+      "Arrange in bowl.",
+      "Top with egg."
+    ],
+    "cooking_tips": [
+      "Mix before eating.",
+      "Stone bowl for crispy rice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "rice",
+      "beef",
+      "healthy",
+      "colorful"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 24,
+      "fat_g": 16,
+      "carbs_g": 68
+    },
+    "nutrition_benefits": "Balanced with protein, vegetables, grains.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "kr-bulgogi",
+    "slug": "bulgogi",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Bulgogi",
+    "short_description": "Sweet and savory marinated beef, grilled to perfection.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "asian pear",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Slice beef thin.",
+      "Marinate.",
+      "Grill.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Pear tenderizes.",
+      "High heat."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "beef",
+      "grilled",
+      "bbq",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 36,
+      "fat_g": 18,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "High protein, iron from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "kr-kimchi-jjigae",
+    "slug": "kimchi-jjigae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Kimchi Jjigae",
+    "short_description": "Spicy fermented cabbage stew with pork and tofu.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "kimchi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pork belly",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Sauté pork.",
+      "Add kimchi.",
+      "Add water.",
+      "Simmer.",
+      "Add tofu."
+    ],
+    "cooking_tips": [
+      "Aged kimchi best.",
+      "Don't overcook tofu."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "soup",
+      "spicy",
+      "fermented",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Probiotics from kimchi, protein from pork and tofu.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "kr-japchae",
+    "slug": "japchae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Japchae",
+    "short_description": "Sweet potato noodles stir-fried with vegetables and beef.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "sweet potato noodles",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "beef",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook noodles.",
+      "Stir-fry vegetables separately.",
+      "Combine with sauce."
+    ],
+    "cooking_tips": [
+      "Don't overcook noodles.",
+      "Sesame oil finish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "noodles",
+      "vegetable",
+      "gluten-free",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 10,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Gluten-free noodles, iron from spinach.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "kr-fried-chicken",
+    "slug": "korean-fried-chicken",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Korean Fried Chicken",
+    "short_description": "Extra crispy double-fried chicken with gochujang glaze.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken wings",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "gochujang",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "rice flour",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Season chicken.",
+      "Double fry.",
+      "Toss in sauce."
+    ],
+    "cooking_tips": [
+      "Double fry.",
+      "Light coating."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "chicken",
+      "fried",
+      "spicy",
+      "crispy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "High protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  }
+]

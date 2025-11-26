@@ -1,0 +1,268 @@
+[
+  {
+    "id": "et-doro-wat",
+    "slug": "doro-wat",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Doro Wat",
+    "short_description": "Spicy chicken stew with berbere spice and boiled eggs.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "berbere spice",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook onions long.",
+      "Add berbere.",
+      "Add chicken.",
+      "Add eggs."
+    ],
+    "cooking_tips": [
+      "Dry cook onions.",
+      "Score eggs."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "chicken",
+      "spicy",
+      "stew",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein, anti-inflammatory spices.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "et-injera",
+    "slug": "injera",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Injera",
+    "short_description": "Spongy sourdough flatbread made from teff flour.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "teff flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 600,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mix batter.",
+      "Ferment 2-3 days.",
+      "Cook like crepe."
+    ],
+    "cooking_tips": [
+      "Fermentation key.",
+      "Bubbles essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "ethiopian",
+      "bread",
+      "fermented",
+      "vegan",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 1,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "High iron teff, probiotics from fermentation.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-kitfo",
+    "slug": "kitfo",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Kitfo",
+    "short_description": "Ethiopian steak tartare with mitmita spice and butter.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "lean beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mitmita spice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mince beef fine.",
+      "Mix with spiced butter.",
+      "Serve raw or lightly warmed."
+    ],
+    "cooking_tips": [
+      "Very fresh meat.",
+      "Room temperature."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "beef",
+      "raw",
+      "traditional",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "High protein, iron, B vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "et-shiro",
+    "slug": "shiro",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Shiro",
+    "short_description": "Spiced chickpea flour stew, a fasting-day staple.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shiro powder",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook onions.",
+      "Add water and shiro.",
+      "Simmer until thick."
+    ],
+    "cooking_tips": [
+      "Stir constantly.",
+      "Adjust thickness."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "vegan",
+      "chickpeas",
+      "fasting",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 12,
+      "fat_g": 10,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Plant protein, fiber, healthy fats.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-tibs",
+    "slug": "tibs",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Tibs",
+    "short_description": "Sautéed beef cubes with onions, peppers, and rosemary.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "jalapeño",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cube beef.",
+      "Sauté on high heat.",
+      "Add vegetables."
+    ],
+    "cooking_tips": [
+      "Very hot pan.",
+      "Don't overcrowd."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "beef",
+      "quick",
+      "sautéed",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 350,
+      "protein_g": 38,
+      "fat_g": 18,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High protein, iron from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  }
+]

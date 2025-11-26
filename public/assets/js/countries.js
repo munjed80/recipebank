@@ -9,6 +9,32 @@
 let countryRecipes = [];
 
 /**
+ * Country names mapping
+ */
+const COUNTRY_NAMES = {
+  italy: 'Italy',
+  india: 'India',
+  japan: 'Japan',
+  mexico: 'Mexico',
+  syria: 'Syria',
+  france: 'France',
+  thailand: 'Thailand',
+  morocco: 'Morocco',
+  lebanon: 'Lebanon',
+  china: 'China',
+  greece: 'Greece',
+  spain: 'Spain',
+  turkey: 'Turkey',
+  korea: 'Korea',
+  vietnam: 'Vietnam',
+  brazil: 'Brazil',
+  ethiopia: 'Ethiopia',
+  peru: 'Peru',
+  indonesia: 'Indonesia',
+  egypt: 'Egypt'
+};
+
+/**
  * Initialize country page
  */
 async function initCountryPage() {
@@ -22,8 +48,16 @@ async function initCountryPage() {
 
   container.innerHTML = '<div class="loading">Loading recipes...</div>';
 
+  // Get country name for SEO
+  const countryName = COUNTRY_NAMES[countrySlug] || countrySlug.charAt(0).toUpperCase() + countrySlug.slice(1);
+
   try {
     countryRecipes = await RecipeBank.getRecipesByCountry(countrySlug);
+    
+    // Apply SEO for country page
+    if (window.SEO) {
+      window.SEO.applyCountrySEO(countrySlug, countryName, countryRecipes.length);
+    }
     
     if (countryRecipes.length === 0) {
       container.innerHTML = `
@@ -81,23 +115,50 @@ function getDifficultyLevels(recipes) {
 }
 
 /**
+ * Get unique meal types from recipes
+ */
+function getUniqueMealTypes(recipes) {
+  const types = new Set();
+  recipes.forEach(recipe => {
+    if (recipe.mealType) types.add(recipe.mealType);
+  });
+  return Array.from(types).sort();
+}
+
+/**
+ * Get unique dietary styles from recipes
+ */
+function getUniqueDietaryStyles(recipes) {
+  const styles = new Set();
+  recipes.forEach(recipe => {
+    if (recipe.dietaryStyle && recipe.dietaryStyle !== 'None') {
+      styles.add(recipe.dietaryStyle);
+    }
+  });
+  return Array.from(styles).sort();
+}
+
+/**
  * Render the full country content with search bar and recipes
  */
 function renderCountryContent(container, recipes) {
-  const tags = getUniqueTags(recipes);
   const difficulties = getDifficultyLevels(recipes);
+  const mealTypes = getUniqueMealTypes(recipes);
+  const dietaryStyles = getUniqueDietaryStyles(recipes);
   
   // Build difficulty options
   const difficultyOptions = difficulties.map(d => 
     `<option value="${d}">${d.charAt(0).toUpperCase() + d.slice(1)}</option>`
   ).join('');
   
-  // Build dietary/tag options (filter for common dietary tags)
-  const dietaryTags = tags.filter(tag => 
-    ['vegetarian', 'vegan', 'gluten-free', 'healthy', 'quick', 'spicy', 'mild-spicy'].includes(tag)
-  );
-  const tagOptions = dietaryTags.map(tag => 
-    `<option value="${tag}">${tag.charAt(0).toUpperCase() + tag.slice(1)}</option>`
+  // Build meal type options
+  const mealTypeOptions = mealTypes.map(m => 
+    `<option value="${m}">${m}</option>`
+  ).join('');
+  
+  // Build dietary style options
+  const dietaryStyleOptions = dietaryStyles.map(s => 
+    `<option value="${s}">${s}</option>`
   ).join('');
 
   const searchBarHtml = `
@@ -117,9 +178,15 @@ function renderCountryContent(container, recipes) {
           </select>
         </div>
         <div class="filter-group">
+          <select id="meal-type-filter" class="filter-select">
+            <option value="">All Meal Types</option>
+            ${mealTypeOptions}
+          </select>
+        </div>
+        <div class="filter-group">
           <select id="dietary-filter" class="filter-select">
             <option value="">All Dietary Styles</option>
-            ${tagOptions}
+            ${dietaryStyleOptions}
           </select>
         </div>
         <div class="filter-group">
@@ -151,6 +218,7 @@ function renderCountryContent(container, recipes) {
 function initFilters() {
   const searchInput = document.getElementById('recipe-search');
   const difficultyFilter = document.getElementById('difficulty-filter');
+  const mealTypeFilter = document.getElementById('meal-type-filter');
   const dietaryFilter = document.getElementById('dietary-filter');
   const timeFilter = document.getElementById('time-filter');
   const clearBtn = document.getElementById('clear-filters');
@@ -161,6 +229,9 @@ function initFilters() {
   }
   if (difficultyFilter) {
     difficultyFilter.addEventListener('change', applyFilters);
+  }
+  if (mealTypeFilter) {
+    mealTypeFilter.addEventListener('change', applyFilters);
   }
   if (dietaryFilter) {
     dietaryFilter.addEventListener('change', applyFilters);
@@ -194,6 +265,7 @@ function debounce(func, wait) {
 function applyFilters() {
   const searchInput = document.getElementById('recipe-search');
   const difficultyFilter = document.getElementById('difficulty-filter');
+  const mealTypeFilter = document.getElementById('meal-type-filter');
   const dietaryFilter = document.getElementById('dietary-filter');
   const timeFilter = document.getElementById('time-filter');
   const recipeGrid = document.getElementById('recipe-grid');
@@ -202,6 +274,7 @@ function applyFilters() {
 
   const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : '';
   const difficulty = difficultyFilter ? difficultyFilter.value : '';
+  const mealType = mealTypeFilter ? mealTypeFilter.value : '';
   const dietary = dietaryFilter ? dietaryFilter.value : '';
   const time = timeFilter ? timeFilter.value : '';
 
@@ -217,8 +290,13 @@ function applyFilters() {
       return false;
     }
 
-    // Dietary filter
-    if (dietary && !recipe.tags.includes(dietary)) {
+    // Meal type filter (with null check)
+    if (mealType && (!recipe.mealType || recipe.mealType !== mealType)) {
+      return false;
+    }
+
+    // Dietary style filter (with null check)
+    if (dietary && (!recipe.dietaryStyle || recipe.dietaryStyle !== dietary)) {
       return false;
     }
 
@@ -260,13 +338,13 @@ function applyFilters() {
   }
 
   // Update active filters display
-  updateActiveFiltersDisplay(searchTerm, difficulty, dietary, time, activeFilters);
+  updateActiveFiltersDisplay(searchTerm, difficulty, mealType, dietary, time, activeFilters);
 }
 
 /**
  * Update the active filters display
  */
-function updateActiveFiltersDisplay(searchTerm, difficulty, dietary, time, container) {
+function updateActiveFiltersDisplay(searchTerm, difficulty, mealType, dietary, time, container) {
   if (!container) return;
 
   const filters = [];
@@ -276,6 +354,9 @@ function updateActiveFiltersDisplay(searchTerm, difficulty, dietary, time, conta
   }
   if (difficulty) {
     filters.push(`<span class="filter-tag" data-filter="difficulty">Difficulty: ${difficulty} <button type="button" onclick="clearFilter('difficulty')">×</button></span>`);
+  }
+  if (mealType) {
+    filters.push(`<span class="filter-tag" data-filter="mealType">Meal: ${mealType} <button type="button" onclick="clearFilter('mealType')">×</button></span>`);
   }
   if (dietary) {
     filters.push(`<span class="filter-tag" data-filter="dietary">Dietary: ${dietary} <button type="button" onclick="clearFilter('dietary')">×</button></span>`);
@@ -299,6 +380,9 @@ function clearFilter(filterType) {
     case 'difficulty':
       document.getElementById('difficulty-filter').value = '';
       break;
+    case 'mealType':
+      document.getElementById('meal-type-filter').value = '';
+      break;
     case 'dietary':
       document.getElementById('dietary-filter').value = '';
       break;
@@ -315,11 +399,13 @@ function clearFilter(filterType) {
 function clearAllFilters() {
   const searchInput = document.getElementById('recipe-search');
   const difficultyFilter = document.getElementById('difficulty-filter');
+  const mealTypeFilter = document.getElementById('meal-type-filter');
   const dietaryFilter = document.getElementById('dietary-filter');
   const timeFilter = document.getElementById('time-filter');
 
   if (searchInput) searchInput.value = '';
   if (difficultyFilter) difficultyFilter.value = '';
+  if (mealTypeFilter) mealTypeFilter.value = '';
   if (dietaryFilter) dietaryFilter.value = '';
   if (timeFilter) timeFilter.value = '';
 

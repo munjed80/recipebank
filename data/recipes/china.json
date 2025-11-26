@@ -1,0 +1,327 @@
+[
+  {
+    "id": "cn-kung-pao",
+    "slug": "kung-pao-chicken",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Kung Pao Chicken",
+    "short_description": "Spicy stir-fried chicken with peanuts and dried chilies.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "peanuts",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 10,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Stir-fry.",
+      "Add sauce.",
+      "Add peanuts."
+    ],
+    "cooking_tips": [
+      "Hot wok.",
+      "Velvet chicken."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "chicken",
+      "spicy",
+      "stir-fry",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "High protein, healthy fats from peanuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "cn-dumplings",
+    "slug": "pork-dumplings",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Pork Dumplings",
+    "short_description": "Delicate wrappers filled with seasoned pork and cabbage.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "dumpling wrappers",
+        "amount": 50,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make filling.",
+      "Wrap dumplings.",
+      "Steam or pan-fry."
+    ],
+    "cooking_tips": [
+      "Pleat edges.",
+      "Don't overfill."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "dumplings",
+      "pork",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Protein from pork, fiber from cabbage.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "cn-fried-rice",
+    "slug": "yangzhou-fried-rice",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Yangzhou Fried Rice",
+    "short_description": "Classic Chinese fried rice with shrimp, ham, and eggs.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "day-old rice",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Scramble eggs.",
+      "Stir-fry rice.",
+      "Add proteins.",
+      "Season."
+    ],
+    "cooking_tips": [
+      "Day-old rice.",
+      "High heat.",
+      "Quick movements."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "rice",
+      "quick",
+      "versatile"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 16,
+      "fat_g": 12,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Balanced meal, protein from shrimp and eggs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "cn-mapo-tofu",
+    "slug": "mapo-tofu",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Mapo Tofu",
+    "short_description": "Sichuan tofu in spicy, numbing bean sauce with ground pork.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "silken tofu",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "doubanjiang",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook pork.",
+      "Add bean paste.",
+      "Add tofu.",
+      "Thicken."
+    ],
+    "cooking_tips": [
+      "Silken tofu.",
+      "Sichuan peppercorns."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "tofu",
+      "spicy",
+      "sichuan",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Plant protein from tofu, low carb.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "cn-spring-rolls",
+    "slug": "spring-rolls",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Spring Rolls",
+    "short_description": "Crispy rolls filled with vegetables and sometimes meat.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "spring roll wrappers",
+        "amount": 20,
+        "unit": "pc"
+      },
+      {
+        "name": "cabbage",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Prep filling.",
+      "Wrap tightly.",
+      "Deep fry."
+    ],
+    "cooking_tips": [
+      "Squeeze out moisture.",
+      "Seal well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "appetizer",
+      "fried",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Vegetables provide fiber and vitamins.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "cn-char-siu",
+    "slug": "char-siu",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Char Siu (BBQ Pork)",
+    "short_description": "Cantonese honey-glazed barbecue pork with red edges.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "hoisin sauce",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "honey",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Marinate pork.",
+      "Roast.",
+      "Glaze.",
+      "Rest and slice."
+    ],
+    "cooking_tips": [
+      "Char edges.",
+      "Baste often."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "pork",
+      "bbq",
+      "cantonese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 20,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "High protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  }
+]

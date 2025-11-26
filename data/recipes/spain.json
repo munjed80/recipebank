@@ -1,0 +1,275 @@
+[
+  {
+    "id": "es-paella",
+    "slug": "paella-valenciana",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Paella Valenciana",
+    "short_description": "Saffron rice with chicken, rabbit, and green beans from Valencia.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "bomba rice",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "saffron",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Brown meats.",
+      "Add vegetables.",
+      "Add rice and stock.",
+      "Cook without stirring."
+    ],
+    "cooking_tips": [
+      "Wide shallow pan.",
+      "Socarrat is key."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "spanish",
+      "rice",
+      "chicken",
+      "classic",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Balanced meal with protein and carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "es-gazpacho",
+    "slug": "gazpacho",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Gazpacho",
+    "short_description": "Chilled Andalusian tomato soup with cucumber and peppers.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "sherry vinegar",
+        "amount": 30,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Blend all.",
+      "Strain.",
+      "Chill.",
+      "Serve cold."
+    ],
+    "cooking_tips": [
+      "Ripe tomatoes.",
+      "Chill overnight."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "spanish",
+      "soup",
+      "vegan",
+      "cold",
+      "summer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Low calorie, vitamin C, lycopene.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "es-tortilla",
+    "slug": "tortilla-espanola",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Tortilla Espanola",
+    "short_description": "Classic Spanish potato omelette with onions.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Slow fry potatoes.",
+      "Mix with eggs.",
+      "Cook low.",
+      "Flip."
+    ],
+    "cooking_tips": [
+      "Low heat.",
+      "Runny center optional."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "spanish",
+      "eggs",
+      "potatoes",
+      "classic",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 16,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein from eggs, potassium from potatoes.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "es-patatas-bravas",
+    "slug": "patatas-bravas",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Patatas Bravas",
+    "short_description": "Crispy potatoes with spicy tomato sauce and aioli.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "aioli",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Fry potatoes.",
+      "Make bravas sauce.",
+      "Drizzle sauces."
+    ],
+    "cooking_tips": [
+      "Twice-fried best.",
+      "Hot sauce."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "spanish",
+      "appetizer",
+      "potatoes",
+      "vegetarian",
+      "tapas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 5,
+      "fat_g": 18,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Energy from potatoes, garlic benefits from aioli.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "es-churros",
+    "slug": "churros-con-chocolate",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Churros con Chocolate",
+    "short_description": "Crispy fried dough with thick hot chocolate for dipping.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "dark chocolate",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 400,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Fry churros.",
+      "Make thick chocolate."
+    ],
+    "cooking_tips": [
+      "Star tip.",
+      "Hot oil."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "spanish",
+      "dessert",
+      "fried",
+      "chocolate",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 6,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Antioxidants from dark chocolate.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  }
+]

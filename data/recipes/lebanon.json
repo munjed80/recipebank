@@ -1,0 +1,331 @@
+[
+  {
+    "id": "lb-shawarma",
+    "slug": "beef-shawarma",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Beef Shawarma",
+    "short_description": "Spiced beef wrapped in pita with tahini and pickles.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "pita",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tahini",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Marinate beef.",
+      "Grill or roast.",
+      "Slice thin.",
+      "Wrap with toppings."
+    ],
+    "cooking_tips": [
+      "Thin slices.",
+      "Stack and slice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lebanese",
+      "beef",
+      "wrap",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "High protein, iron from beef, calcium from tahini.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "lb-falafel",
+    "slug": "falafel",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Falafel",
+    "short_description": "Crispy chickpea fritters with herbs and spices.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "dried chickpeas",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "parsley",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak chickpeas overnight.",
+      "Blend with herbs.",
+      "Shape.",
+      "Deep fry."
+    ],
+    "cooking_tips": [
+      "Never use canned chickpeas.",
+      "Hot oil."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lebanese",
+      "vegetarian",
+      "vegan",
+      "fried",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Plant protein, fiber, herbs provide vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "lb-baba-ganoush",
+    "slug": "baba-ganoush",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Baba Ganoush",
+    "short_description": "Smoky roasted eggplant dip with tahini and garlic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "tahini",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Char eggplant.",
+      "Scoop flesh.",
+      "Blend with tahini.",
+      "Season."
+    ],
+    "cooking_tips": [
+      "Direct flame best.",
+      "Drain liquid."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "lebanese",
+      "dip",
+      "vegan",
+      "healthy",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 9,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Low calorie, healthy fats from tahini.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "lb-manousheh",
+    "slug": "manousheh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Manousheh",
+    "short_description": "Lebanese flatbread topped with zaatar and olive oil.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "zaatar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Rise.",
+      "Stretch.",
+      "Top with zaatar oil.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Hot oven.",
+      "Fresh zaatar."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lebanese",
+      "breakfast",
+      "baked",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 8,
+      "fat_g": 16,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Energy from carbs, antioxidants from zaatar.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "lb-kebbeh",
+    "slug": "kebbeh-nayeh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Kebbeh Nayeh",
+    "short_description": "Lebanese steak tartare with bulgur, onion, and spices.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lean lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "fine bulgur",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      }
+    ],
+    "steps": [
+      "Soak bulgur.",
+      "Process lamb.",
+      "Combine.",
+      "Serve raw."
+    ],
+    "cooking_tips": [
+      "Freshest lamb.",
+      "Chill all equipment."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lebanese",
+      "raw",
+      "lamb",
+      "traditional",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 22,
+      "fat_g": 10,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein, iron, zinc from raw lamb.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "lb-tabbouleh",
+    "slug": "lebanese-tabbouleh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Lebanese Tabbouleh",
+    "short_description": "Fresh herb salad dominated by parsley with bulgur and lemon.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "parsley",
+        "amount": 4,
+        "unit": "bunches"
+      },
+      {
+        "name": "bulgur",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      }
+    ],
+    "steps": [
+      "Soak bulgur.",
+      "Chop parsley fine.",
+      "Combine.",
+      "Dress with lemon oil."
+    ],
+    "cooking_tips": [
+      "More parsley than bulgur.",
+      "Very fine chop."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "lebanese",
+      "salad",
+      "vegan",
+      "healthy",
+      "refreshing"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Iron from parsley, vitamin K, antioxidants.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
+  }
+]

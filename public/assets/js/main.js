@@ -6,6 +6,7 @@
 // Configuration
 const CONFIG = {
   recipesJsonPath: '/recipes.json',
+  recipesDataPath: '/data/recipes',
   basePath: ''
 };
 
@@ -15,22 +16,38 @@ const CONFIG = {
   if (path.includes('/public/countries/') || path.includes('/public/recipes/')) {
     CONFIG.basePath = '../..';
     CONFIG.recipesJsonPath = '../../recipes.json';
+    CONFIG.recipesDataPath = '../../data/recipes';
   } else if (path.includes('/public/')) {
     CONFIG.basePath = '..';
     CONFIG.recipesJsonPath = '../recipes.json';
+    CONFIG.recipesDataPath = '../data/recipes';
   }
 })();
 
+// Cache for loaded recipe data
+const recipeCache = {
+  all: null,
+  byCountry: {}
+};
+
 /**
- * Fetch all recipes from recipes.json
+ * Fetch all recipes from recipes.json (fallback) or aggregate from country files
  */
 async function fetchRecipes() {
+  // Return cached data if available
+  if (recipeCache.all) {
+    return recipeCache.all;
+  }
+
   try {
+    // First try to load from the main recipes.json (for backwards compatibility)
     const response = await fetch(CONFIG.recipesJsonPath);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    return await response.json();
+    const recipes = await response.json();
+    recipeCache.all = recipes;
+    return recipes;
   } catch (error) {
     console.error('Error fetching recipes:', error);
     return [];
@@ -38,19 +55,60 @@ async function fetchRecipes() {
 }
 
 /**
- * Get recipes for a specific country
+ * Fetch recipes for a specific country from the individual country JSON file
  */
-async function getRecipesByCountry(countrySlug) {
-  const recipes = await fetchRecipes();
-  return recipes.filter(recipe => recipe.country_slug === countrySlug);
+async function fetchRecipesByCountry(countrySlug) {
+  // Return cached data if available
+  if (recipeCache.byCountry[countrySlug]) {
+    return recipeCache.byCountry[countrySlug];
+  }
+
+  try {
+    const response = await fetch(`${CONFIG.recipesDataPath}/${countrySlug}.json`);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const recipes = await response.json();
+    recipeCache.byCountry[countrySlug] = recipes;
+    return recipes;
+  } catch (error) {
+    console.warn(`Country file not found for ${countrySlug}, falling back to main recipes.json`);
+    // Fallback to filtering from main recipes.json
+    const allRecipes = await fetchRecipes();
+    const filtered = allRecipes.filter(recipe => recipe.country_slug === countrySlug);
+    recipeCache.byCountry[countrySlug] = filtered;
+    return filtered;
+  }
 }
 
 /**
- * Get a single recipe by slug
+ * Get recipes for a specific country (uses country-specific JSON file)
  */
-async function getRecipeBySlug(slug) {
+async function getRecipesByCountry(countrySlug) {
+  return await fetchRecipesByCountry(countrySlug);
+}
+
+/**
+ * Get a single recipe by slug (ID)
+ * Can optionally specify country to optimize loading
+ */
+async function getRecipeBySlug(slug, countrySlug = null) {
+  // If country is known, load directly from country file
+  if (countrySlug) {
+    const countryRecipes = await fetchRecipesByCountry(countrySlug);
+    return countryRecipes.find(recipe => recipe.slug === slug);
+  }
+  
+  // Otherwise search through all recipes
   const recipes = await fetchRecipes();
   return recipes.find(recipe => recipe.slug === slug);
+}
+
+/**
+ * Get a single recipe by ID (alias for getRecipeBySlug for new URL format)
+ */
+async function getRecipeById(id, countrySlug = null) {
+  return getRecipeBySlug(id, countrySlug);
 }
 
 /**
@@ -134,6 +192,21 @@ function getDifficultyClass(difficulty) {
 }
 
 /**
+ * Generate classification badge HTML for a recipe
+ * @param {Object} recipe - Recipe object with mealType and dietaryStyle
+ * @returns {Object} Object with mealTypeBadge and dietaryBadge HTML strings
+ */
+function getClassificationBadges(recipe) {
+  const mealTypeBadge = recipe.mealType ? 
+    `<span class="classification-badge meal-type-badge meal-${recipe.mealType.toLowerCase()}">${recipe.mealType}</span>` : '';
+  
+  const dietaryBadge = recipe.dietaryStyle && recipe.dietaryStyle !== 'None' ? 
+    `<span class="classification-badge dietary-badge dietary-${recipe.dietaryStyle.toLowerCase().replace(/\s+/g, '-')}">${recipe.dietaryStyle}</span>` : '';
+  
+  return { mealTypeBadge, dietaryBadge };
+}
+
+/**
  * Create a recipe card HTML with favorite button
  */
 function createRecipeCard(recipe, options = {}) {
@@ -151,6 +224,12 @@ function createRecipeCard(recipe, options = {}) {
   const favIcon = isFavorite ? '❤️' : '🤍';
   const favClass = isFavorite ? 'is-favorite' : '';
 
+  // Generate image alt text
+  const altText = `${recipe.name_en} - ${recipe.country} ${recipe.difficulty} recipe`;
+
+  // Generate meal type and dietary style badges using utility function
+  const { mealTypeBadge, dietaryBadge } = getClassificationBadges(recipe);
+
   return `
     <article class="recipe-card">
       <button type="button" 
@@ -160,16 +239,20 @@ function createRecipeCard(recipe, options = {}) {
               onclick="toggleFavorite(event, '${recipe.slug}')">
         ${favIcon}
       </button>
-      <a href="${CONFIG.basePath}/public/recipes/recipe.html?slug=${recipe.slug}">
-        <div class="recipe-card-image">
-          <span>🍽️</span>
+      <a href="${CONFIG.basePath}/public/recipes/recipe.html?slug=${recipe.slug}" aria-label="View ${recipe.name_en} recipe">
+        <div class="recipe-card-image" role="img" aria-label="${altText}">
+          <span aria-hidden="true">🍽️</span>
         </div>
         <div class="recipe-card-content">
+          <div class="recipe-card-badges">
+            ${mealTypeBadge}
+            ${dietaryBadge}
+          </div>
           <h3 class="recipe-card-title">${recipe.name_en}</h3>
           <p class="recipe-card-description">${recipe.short_description}</p>
           <div class="recipe-card-meta">
-            <span>⏱️ ${formatTime(totalTime)}</span>
-            <span>📊 ${recipe.difficulty}</span>
+            <span><span aria-hidden="true">⏱️</span> ${formatTime(totalTime)}</span>
+            <span><span aria-hidden="true">📊</span> ${recipe.difficulty}</span>
             <span>${getCountryFlag(recipe.country_slug)} ${recipe.country}</span>
           </div>
           <div class="recipe-card-tags">
@@ -316,12 +399,15 @@ document.addEventListener('DOMContentLoaded', () => {
 // Export functions for use in other modules
 window.RecipeBank = {
   fetchRecipes,
+  fetchRecipesByCountry,
   getRecipesByCountry,
   getRecipeBySlug,
+  getRecipeById,
   getCountries,
   getCountryFlag,
   formatTime,
   getDifficultyClass,
+  getClassificationBadges,
   createRecipeCard,
   CONFIG
 };
