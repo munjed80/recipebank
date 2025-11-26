@@ -1,5 +1,5 @@
 /**
- * RecipeBank - Shared Search Helper Module
+ * Chefpedia - Shared Search Helper Module
  * Central place for recipe search, filtering, and matching logic
  */
 

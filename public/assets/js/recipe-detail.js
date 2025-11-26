@@ -1,5 +1,5 @@
 /**
- * RecipeBank - Recipe Detail Module
+ * Chefpedia - Recipe Detail Module
  * Handles rendering single recipe from JSON with modern UI
  */
 
@@ -233,7 +233,7 @@ function getRecipeSlugFromUrl() {
  * Update page title and apply SEO
  */
 function updatePageTitle(recipeName) {
-  document.title = `${recipeName} | RecipeBank`;
+  document.title = `${recipeName} | Chefpedia`;
 }
 
 /**
@@ -655,7 +655,7 @@ function initPrintButton() {
 function initShareButtons(recipe) {
   const currentUrl = window.location.href;
   const recipeTitle = recipe.name_en;
-  const shareText = `Check out this delicious ${recipeTitle} recipe from RecipeBank!`;
+  const shareText = `Check out this delicious ${recipeTitle} recipe from Chefpedia!`;
   
   // Copy Link button
   const copyBtn = document.getElementById('btn-copy-link');

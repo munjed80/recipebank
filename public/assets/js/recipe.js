@@ -1,5 +1,5 @@
 /**
- * RecipeBank - Recipe Page Interactions
+ * Chefpedia - Recipe Page Interactions
  * Handles ingredient checking, printing, and tag filtering
  * Note: Favorites are now handled by the favorites.js module and recipe-detail.js
  */

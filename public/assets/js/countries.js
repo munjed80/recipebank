@@ -1,5 +1,5 @@
 /**
- * RecipeBank - Countries Module
+ * Chefpedia - Countries Module
  * Handles loading and rendering country recipe lists with search and filters
  * Uses shared utilities from main.js for country data
  */

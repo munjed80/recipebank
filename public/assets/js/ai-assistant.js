@@ -1,5 +1,5 @@
 /**
- * RecipeBank - AI Assistant Module
+ * Chefpedia - AI Assistant Module
  * Smart chat interface for cooking questions and recipe guidance
  */
 
@@ -48,7 +48,7 @@ const AIAssistant = {
    * Show welcome message
    */
   showWelcome() {
-    const welcomeMessage = `## 👋 Welcome to RecipeBank AI Chef!
+    const welcomeMessage = `## 👋 Welcome to Chefpedia AI Chef!
 
 I'm your personal cooking assistant with access to **${this.allRecipes.length} recipes** from around the world. Here's what I can help you with:
 
