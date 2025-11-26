@@ -485,6 +485,66 @@
   margin-top: 0.25rem;
 }
 
+/* Nutrition Benefits */
+.nutrition-benefits {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--recipe-border);
+}
+
+.benefits-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--secondary-color, #2c3e50);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.benefits-text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--recipe-text-light);
+  margin: 0;
+}
+
+/* Cooking Tips Section */
+.cooking-tips-section {
+  background: var(--recipe-card-bg);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: var(--recipe-shadow);
+  border: 2px dashed var(--accent-color, #f39c12);
+}
+
+.cooking-tips-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cooking-tips-list li {
+  position: relative;
+  padding: 0.75rem 0 0.75rem 2rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--recipe-text);
+  border-bottom: 1px solid var(--recipe-border);
+}
+
+.cooking-tips-list li:last-child {
+  border-bottom: none;
+}
+
+.cooking-tips-list li::before {
+  content: '💡';
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+}
+
 /* =========================================
    Back to Country Button
    ========================================= */

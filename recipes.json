@@ -5,34 +5,47 @@
     "country": "Italy",
     "country_slug": "italy",
     "name_en": "Margherita Pizza",
-    "name_local": "Pizza Margherita",
     "image": "assets/img/recipes/margherita-pizza.jpg",
-    "short_description": "Classic Neapolitan-style pizza with tomato, mozzarella, and basil.",
+    "short_description": "A timeless Neapolitan masterpiece featuring a pillowy crust, vibrant San Marzano tomato sauce, creamy fresh mozzarella, and fragrant basil leaves. This iconic pizza represents the colors of the Italian flag and delivers pure Mediterranean simplicity at its finest.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 4,
     "ingredients": [
       { "name": "00 flour", "amount": 500, "unit": "g" },
       { "name": "water", "amount": 320, "unit": "ml" },
       { "name": "fresh yeast", "amount": 3, "unit": "g" },
       { "name": "salt", "amount": 10, "unit": "g" },
-      { "name": "tomato sauce", "amount": 200, "unit": "g" },
-      { "name": "mozzarella", "amount": 200, "unit": "g" },
-      { "name": "fresh basil leaves", "amount": 8, "unit": "pc" }
+      { "name": "San Marzano tomato sauce", "amount": 200, "unit": "g" },
+      { "name": "fresh mozzarella", "amount": 200, "unit": "g" },
+      { "name": "fresh basil leaves", "amount": 12, "unit": "leaves" },
+      { "name": "extra virgin olive oil", "amount": 2, "unit": "tbsp" }
     ],
     "steps": [
-      "Mix flour, yeast, water, and salt. Knead until smooth.",
-      "Let the dough rise until doubled in size.",
-      "Preheat oven to highest temperature with a pizza stone if possible.",
-      "Shape the dough into rounds, spread tomato sauce, add mozzarella and basil.",
-      "Bake until crust is browned and cheese is melted."
+      "Dissolve the yeast in lukewarm water and let it activate for 5 minutes until slightly foamy.",
+      "In a large bowl, combine the flour and salt, then gradually add the yeast water while mixing.",
+      "Knead the dough on a floured surface for 10 minutes until smooth and elastic.",
+      "Place the dough in an oiled bowl, cover with a damp cloth, and let rise for 2 hours until doubled.",
+      "Preheat your oven to the highest setting (250°C/480°F) with a pizza stone or baking sheet inside.",
+      "Divide the dough into 4 portions and stretch each into a thin round, leaving edges slightly thicker.",
+      "Spread a thin layer of tomato sauce, leaving a 1-inch border for the crust.",
+      "Tear the mozzarella into pieces and distribute evenly over the sauce.",
+      "Bake for 8-10 minutes until the crust is golden and cheese is bubbling.",
+      "Remove from oven, top with fresh basil leaves, drizzle with olive oil, and serve immediately."
     ],
-    "cooking_time_minutes": 90,
+    "cooking_tips": [
+      "For best results, let the dough cold-ferment in the refrigerator overnight for deeper flavor.",
+      "Use a pizza stone preheated for at least 30 minutes to achieve a crispy bottom.",
+      "Less is more with toppings - overloading will result in a soggy center."
+    ],
     "difficulty": "medium",
-    "tags": ["italian", "pizza", "vegetarian", "baked"],
+    "tags": ["italian", "pizza", "vegetarian", "baked", "classic", "dinner"],
     "nutrition": {
       "per_serving_kcal": 550,
       "protein_g": 22,
       "fat_g": 18,
       "carbs_g": 70
-    }
+    },
+    "nutrition_benefits": "This pizza provides a good balance of carbohydrates for energy, protein from the mozzarella cheese, and lycopene from the tomatoes which is a powerful antioxidant. The olive oil adds heart-healthy monounsaturated fats. Fresh basil contains vitamins K, A, and C, plus essential oils with anti-inflammatory properties."
   },
   {
     "id": "it-spaghetti-carbonara",
@@ -40,34 +53,47 @@
     "country": "Italy",
     "country_slug": "italy",
     "name_en": "Spaghetti Carbonara",
-    "name_local": "Spaghetti alla Carbonara",
     "image": "assets/img/recipes/spaghetti-carbonara.jpg",
-    "short_description": "Creamy Roman pasta with eggs, pecorino cheese, guanciale, and black pepper.",
+    "short_description": "An authentic Roman treasure featuring al dente spaghetti coated in a luxuriously silky sauce of eggs, aged Pecorino Romano, crispy guanciale, and freshly cracked black pepper. This dish showcases Italian cuisine's genius for transforming simple ingredients into extraordinary flavors.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
     "ingredients": [
       { "name": "spaghetti", "amount": 400, "unit": "g" },
       { "name": "guanciale", "amount": 200, "unit": "g" },
       { "name": "egg yolks", "amount": 6, "unit": "pc" },
       { "name": "whole eggs", "amount": 2, "unit": "pc" },
-      { "name": "pecorino romano", "amount": 100, "unit": "g" },
-      { "name": "black pepper", "amount": 2, "unit": "tsp" },
+      { "name": "Pecorino Romano cheese", "amount": 100, "unit": "g" },
+      { "name": "freshly ground black pepper", "amount": 2, "unit": "tsp" },
       { "name": "salt", "amount": 1, "unit": "tsp" }
     ],
     "steps": [
-      "Bring a large pot of salted water to boil and cook spaghetti until al dente.",
-      "Cut guanciale into small strips and cook in a pan until crispy.",
-      "Whisk egg yolks, whole eggs, and grated pecorino together with pepper.",
-      "Drain pasta, reserving some cooking water. Add pasta to guanciale pan (off heat).",
-      "Pour egg mixture over pasta, tossing quickly to create a creamy sauce. Add pasta water if needed."
+      "Bring a large pot of generously salted water to a rolling boil.",
+      "Cut the guanciale into small strips or cubes, about 1cm thick.",
+      "In a bowl, whisk together the egg yolks, whole eggs, and finely grated Pecorino Romano until smooth.",
+      "Add generous amounts of freshly ground black pepper to the egg mixture and set aside.",
+      "Cook the guanciale in a large cold pan over medium heat, letting the fat render slowly for 8-10 minutes until crispy.",
+      "Cook the spaghetti until al dente, reserving 1 cup of pasta water before draining.",
+      "Remove the guanciale pan from heat and let it cool for 1 minute.",
+      "Add the hot drained pasta to the guanciale pan and toss to coat in the rendered fat.",
+      "Working quickly off the heat, pour the egg mixture over the pasta while tossing continuously.",
+      "Add small splashes of pasta water while tossing to create a creamy, glossy sauce.",
+      "Serve immediately with extra Pecorino and black pepper on top."
     ],
-    "cooking_time_minutes": 30,
+    "cooking_tips": [
+      "Never add the egg mixture to a hot pan on the heat, or you will get scrambled eggs instead of a silky sauce.",
+      "The residual heat from the pasta and pan is what gently cooks the eggs into a creamy coating.",
+      "Authentic carbonara never includes cream, garlic, or onions."
+    ],
     "difficulty": "medium",
-    "tags": ["italian", "pasta", "quick", "creamy"],
+    "tags": ["italian", "pasta", "quick", "high-protein", "classic", "dinner"],
     "nutrition": {
       "per_serving_kcal": 650,
       "protein_g": 28,
       "fat_g": 32,
       "carbs_g": 58
-    }
+    },
+    "nutrition_benefits": "Carbonara is an excellent source of complete protein from eggs and cheese, providing all essential amino acids. The eggs contain choline, vital for brain health, and the Pecorino Romano offers calcium for bone strength. The dish provides sustained energy from complex carbohydrates in the pasta."
   },
   {
     "id": "in-butter-chicken",
@@ -75,36 +101,52 @@
     "country": "India",
     "country_slug": "india",
     "name_en": "Butter Chicken",
-    "name_local": "Murgh Makhani",
     "image": "assets/img/recipes/butter-chicken.jpg",
-    "short_description": "Tender chicken in a rich, creamy tomato-based curry sauce.",
+    "short_description": "An indulgent North Indian classic featuring tender, smoky tandoori-style chicken swimming in a velvety tomato cream sauce infused with aromatic spices. This restaurant-favorite dish delivers the perfect balance of richness, warmth, and comfort in every spoonful.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
     "ingredients": [
-      { "name": "chicken thighs", "amount": 800, "unit": "g" },
-      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "boneless chicken thighs", "amount": 800, "unit": "g" },
+      { "name": "plain yogurt", "amount": 200, "unit": "g" },
       { "name": "tomato puree", "amount": 400, "unit": "g" },
       { "name": "butter", "amount": 100, "unit": "g" },
       { "name": "heavy cream", "amount": 200, "unit": "ml" },
       { "name": "garam masala", "amount": 2, "unit": "tbsp" },
-      { "name": "garlic", "amount": 6, "unit": "cloves" },
-      { "name": "ginger", "amount": 2, "unit": "inch" },
-      { "name": "kashmiri red chili powder", "amount": 1, "unit": "tbsp" }
+      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
+      { "name": "fresh ginger", "amount": 2, "unit": "inch" },
+      { "name": "Kashmiri red chili powder", "amount": 1, "unit": "tbsp" },
+      { "name": "ground cumin", "amount": 1, "unit": "tsp" },
+      { "name": "dried fenugreek leaves", "amount": 1, "unit": "tbsp" },
+      { "name": "sugar", "amount": 1, "unit": "tsp" }
     ],
     "steps": [
-      "Marinate chicken in yogurt, garam masala, and chili powder for at least 2 hours.",
-      "Grill or pan-fry the marinated chicken until charred and cooked through.",
-      "In a pan, melt butter and sauté garlic and ginger until fragrant.",
-      "Add tomato puree and simmer for 15 minutes. Add garam masala and chili powder.",
-      "Stir in cream, add cooked chicken, and simmer for 10 more minutes."
+      "Cut chicken into bite-sized pieces and place in a large bowl.",
+      "Mix yogurt with half the garam masala, chili powder, and cumin to create the marinade.",
+      "Coat the chicken thoroughly in the marinade and refrigerate for at least 2 hours or overnight.",
+      "Grill or pan-sear the marinated chicken pieces until charred on the edges and cooked through.",
+      "In a large pan, melt the butter over medium heat.",
+      "Add minced garlic and grated ginger, sauteing for 2 minutes until fragrant.",
+      "Pour in the tomato puree and simmer for 15 minutes, stirring occasionally.",
+      "Add the remaining garam masala, chili powder, and sugar to the sauce.",
+      "Stir in the heavy cream and crushed fenugreek leaves.",
+      "Add the grilled chicken pieces to the sauce and simmer for 10 minutes.",
+      "Adjust seasoning with salt, garnish with a swirl of cream, and serve with naan or rice."
     ],
-    "cooking_time_minutes": 60,
+    "cooking_tips": [
+      "Marinating overnight dramatically improves the depth of flavor and tenderness of the chicken.",
+      "Kashmiri chili powder provides vibrant color without excessive heat.",
+      "Crushing dried fenugreek leaves between your palms before adding releases their aromatic oils."
+    ],
     "difficulty": "medium",
-    "tags": ["indian", "curry", "creamy", "spicy", "chicken"],
+    "tags": ["indian", "curry", "creamy", "mild-spicy", "chicken", "dinner", "gluten-free"],
     "nutrition": {
       "per_serving_kcal": 580,
       "protein_g": 42,
       "fat_g": 38,
       "carbs_g": 15
-    }
+    },
+    "nutrition_benefits": "Butter chicken is packed with high-quality protein essential for muscle building and repair. The tomatoes provide lycopene and vitamin C, while the spices like ginger, garlic, and turmeric offer anti-inflammatory and immune-boosting properties. Garam masala spices aid digestion and metabolism."
   },
   {
     "id": "in-vegetable-biryani",
@@ -112,36 +154,51 @@
     "country": "India",
     "country_slug": "india",
     "name_en": "Vegetable Biryani",
-    "name_local": "Sabzi Biryani",
     "image": "assets/img/recipes/vegetable-biryani.jpg",
-    "short_description": "Fragrant layered rice dish with spiced vegetables and aromatic herbs.",
+    "short_description": "A majestic one-pot masterpiece featuring layers of fluffy saffron-kissed basmati rice and aromatic spiced vegetables, slow-cooked to perfection. This festive Mughlai dish delivers an intoxicating blend of flavors and textures that makes every bite a celebration.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 6,
     "ingredients": [
       { "name": "basmati rice", "amount": 500, "unit": "g" },
-      { "name": "mixed vegetables", "amount": 400, "unit": "g" },
-      { "name": "onions", "amount": 3, "unit": "large" },
-      { "name": "yogurt", "amount": 150, "unit": "g" },
+      { "name": "mixed vegetables (carrots, peas, beans, potatoes)", "amount": 400, "unit": "g" },
+      { "name": "large onions", "amount": 3, "unit": "pc" },
+      { "name": "plain yogurt", "amount": 150, "unit": "g" },
       { "name": "biryani masala", "amount": 2, "unit": "tbsp" },
-      { "name": "saffron", "amount": 1, "unit": "pinch" },
+      { "name": "saffron strands", "amount": 1, "unit": "pinch" },
+      { "name": "warm milk", "amount": 4, "unit": "tbsp" },
       { "name": "ghee", "amount": 4, "unit": "tbsp" },
-      { "name": "fresh mint", "amount": 1, "unit": "bunch" },
-      { "name": "fresh cilantro", "amount": 1, "unit": "bunch" }
+      { "name": "fresh mint leaves", "amount": 1, "unit": "cup" },
+      { "name": "fresh cilantro", "amount": 1, "unit": "cup" },
+      { "name": "green chilies", "amount": 4, "unit": "pc" }
     ],
     "steps": [
-      "Soak basmati rice for 30 minutes, then parboil until 70% cooked.",
-      "Fry sliced onions until golden brown and crispy. Set aside.",
-      "Sauté vegetables with biryani masala and yogurt until tender.",
-      "Layer rice and vegetable mixture in a heavy pot. Add fried onions, mint, and cilantro.",
-      "Drizzle saffron milk over the top, cover tightly, and cook on low heat for 25 minutes."
+      "Rinse basmati rice thoroughly and soak in cold water for 30 minutes.",
+      "Soak saffron strands in warm milk and set aside to bloom.",
+      "Slice onions thinly and fry in ghee until deep golden brown and crispy. Remove half for garnish.",
+      "Add mixed vegetables to the remaining onions and saute for 5 minutes.",
+      "Stir in yogurt, biryani masala, half the mint, and half the cilantro. Cook for 10 minutes.",
+      "Parboil the soaked rice in salted water until 70% cooked (grains should still have a bite).",
+      "Drain the rice and layer it over the vegetable mixture in the same heavy-bottomed pot.",
+      "Top with remaining mint, cilantro, fried onions, slit green chilies, and drizzle the saffron milk.",
+      "Cover with a tight-fitting lid, seal edges with dough if needed, and cook on very low heat for 25 minutes.",
+      "Let the biryani rest for 5 minutes, then gently mix layers from the bottom.",
+      "Serve hot with raita and fried papadum."
     ],
-    "cooking_time_minutes": 75,
+    "cooking_tips": [
+      "The dum cooking method (slow steaming) is essential - never lift the lid during cooking.",
+      "Parboiling rice to 70% doneness prevents mushy biryani as it finishes cooking in steam.",
+      "Quality saffron makes a noticeable difference in both color and aroma."
+    ],
     "difficulty": "hard",
-    "tags": ["indian", "rice", "vegetarian", "aromatic", "festive"],
+    "tags": ["indian", "rice", "vegetarian", "aromatic", "festive", "vegan-adaptable", "dinner"],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 10,
       "fat_g": 14,
       "carbs_g": 65
-    }
+    },
+    "nutrition_benefits": "Vegetable biryani provides a complete meal with complex carbohydrates from basmati rice for sustained energy. The variety of vegetables offers fiber, vitamins, and minerals. Saffron has antioxidant properties, while the aromatic spices like cardamom and cloves aid digestion and have antimicrobial properties."
   },
   {
     "id": "jp-ramen",
@@ -149,36 +206,51 @@
     "country": "Japan",
     "country_slug": "japan",
     "name_en": "Shoyu Ramen",
-    "name_local": "醤油ラーメン",
     "image": "assets/img/recipes/ramen.jpg",
-    "short_description": "Japanese noodle soup with soy sauce broth, chashu pork, and soft-boiled egg.",
+    "short_description": "A soul-warming Japanese noodle soup featuring a crystal-clear soy-based broth, springy wheat noodles, melt-in-your-mouth chashu pork, and a perfectly jammy marinated egg. This beloved comfort food represents the pinnacle of Japanese culinary craftsmanship.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 4,
     "ingredients": [
-      { "name": "ramen noodles", "amount": 400, "unit": "g" },
+      { "name": "fresh ramen noodles", "amount": 400, "unit": "g" },
       { "name": "pork belly", "amount": 500, "unit": "g" },
       { "name": "soy sauce", "amount": 100, "unit": "ml" },
+      { "name": "mirin", "amount": 50, "unit": "ml" },
+      { "name": "sake", "amount": 50, "unit": "ml" },
       { "name": "chicken stock", "amount": 2, "unit": "L" },
       { "name": "eggs", "amount": 4, "unit": "pc" },
       { "name": "green onions", "amount": 4, "unit": "stalks" },
-      { "name": "nori seaweed", "amount": 8, "unit": "sheets" },
-      { "name": "garlic", "amount": 4, "unit": "cloves" },
-      { "name": "ginger", "amount": 2, "unit": "inch" }
+      { "name": "nori seaweed sheets", "amount": 8, "unit": "sheets" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "fresh ginger", "amount": 2, "unit": "inch" }
     ],
     "steps": [
-      "Braise pork belly in soy sauce, mirin, and sake for 2 hours until tender. Slice for chashu.",
-      "Make soft-boiled eggs (6 minutes), peel and marinate in soy sauce mixture.",
-      "Simmer chicken stock with garlic, ginger, and soy sauce to create the broth.",
-      "Cook ramen noodles according to package instructions.",
-      "Assemble bowls: noodles, hot broth, sliced chashu, marinated egg, nori, and green onions."
+      "For the chashu: Roll and tie the pork belly, then sear all sides in a hot pan until golden.",
+      "Combine soy sauce, mirin, sake, and 1 cup water in a pot. Add the seared pork.",
+      "Braise the pork covered on low heat for 2 hours, turning occasionally, until tender.",
+      "For the eggs: Boil eggs for exactly 6 minutes 30 seconds, then immediately ice bath.",
+      "Peel the eggs and marinate in the chashu braising liquid for at least 2 hours.",
+      "For the broth: Simmer chicken stock with sliced garlic and ginger for 30 minutes.",
+      "Strain the broth and season with 2 tablespoons soy sauce per bowl.",
+      "Slice the chashu pork into 1/4 inch rounds.",
+      "Cook the ramen noodles according to package directions, drain well.",
+      "Assemble each bowl: noodles first, then hot broth, 3-4 chashu slices, halved egg, nori, and sliced green onions.",
+      "Serve immediately while steaming hot."
     ],
-    "cooking_time_minutes": 180,
+    "cooking_tips": [
+      "Fresh ramen noodles from Asian markets make a significant difference in texture.",
+      "The 6.5-minute egg timing is crucial for the perfect jammy yolk - adjust for altitude if needed.",
+      "Make the chashu and eggs a day ahead so the flavors can develop."
+    ],
     "difficulty": "hard",
-    "tags": ["japanese", "soup", "noodles", "pork", "comfort-food"],
+    "tags": ["japanese", "soup", "noodles", "pork", "comfort-food", "dinner", "high-protein"],
     "nutrition": {
       "per_serving_kcal": 720,
       "protein_g": 45,
       "fat_g": 35,
       "carbs_g": 55
-    }
+    },
+    "nutrition_benefits": "Shoyu ramen delivers substantial protein from both the pork and egg, supporting muscle maintenance and satiety. The slow-simmered broth extracts collagen from the pork, beneficial for skin and joint health. Ginger and garlic provide immune-boosting compounds, while the nori adds iodine essential for thyroid function."
   },
   {
     "id": "jp-teriyaki-salmon",
@@ -186,34 +258,47 @@
     "country": "Japan",
     "country_slug": "japan",
     "name_en": "Teriyaki Salmon",
-    "name_local": "鮭の照り焼き",
     "image": "assets/img/recipes/teriyaki-salmon.jpg",
-    "short_description": "Glazed salmon fillets with sweet and savory teriyaki sauce.",
+    "short_description": "Perfectly seared salmon fillets glazed with a glistening homemade teriyaki sauce that balances sweet, savory, and umami notes. This elegant yet simple dish showcases the Japanese art of bringing out the natural beauty of premium ingredients.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
     "ingredients": [
-      { "name": "salmon fillets", "amount": 4, "unit": "pc" },
+      { "name": "salmon fillets (skin-on)", "amount": 4, "unit": "pc (150g each)" },
       { "name": "soy sauce", "amount": 4, "unit": "tbsp" },
       { "name": "mirin", "amount": 3, "unit": "tbsp" },
       { "name": "sake", "amount": 2, "unit": "tbsp" },
       { "name": "sugar", "amount": 2, "unit": "tbsp" },
       { "name": "vegetable oil", "amount": 2, "unit": "tbsp" },
-      { "name": "sesame seeds", "amount": 1, "unit": "tbsp" }
+      { "name": "toasted sesame seeds", "amount": 1, "unit": "tbsp" },
+      { "name": "green onion", "amount": 2, "unit": "stalks" }
     ],
     "steps": [
-      "Mix soy sauce, mirin, sake, and sugar to make the teriyaki sauce.",
-      "Pat salmon fillets dry and season with a pinch of salt.",
-      "Heat oil in a pan and sear salmon skin-side down for 3 minutes.",
-      "Flip salmon, pour teriyaki sauce over, and cook for another 3-4 minutes while basting.",
-      "Serve glazed salmon with sesame seeds sprinkled on top."
+      "Combine soy sauce, mirin, sake, and sugar in a small bowl to make the teriyaki sauce.",
+      "Pat salmon fillets completely dry with paper towels and season lightly with salt.",
+      "Heat vegetable oil in a non-stick pan over medium-high heat until shimmering.",
+      "Place salmon skin-side down and press gently to ensure even contact with the pan.",
+      "Cook for 3-4 minutes until the skin is crispy and golden.",
+      "Flip the salmon and reduce heat to medium.",
+      "Pour the teriyaki sauce into the pan around the salmon.",
+      "Cook for 3-4 minutes while spooning the bubbling sauce over the salmon repeatedly.",
+      "The sauce should reduce to a glossy, thick glaze coating the fish.",
+      "Transfer to plates, drizzle with remaining pan sauce, and top with sesame seeds and sliced green onions."
     ],
-    "cooking_time_minutes": 20,
+    "cooking_tips": [
+      "Starting with the skin side down and not moving the fish creates the crispiest skin.",
+      "Reduce the heat when adding the sauce to prevent burning the sugars.",
+      "The sauce continues to thicken after removing from heat, so remove slightly before desired consistency."
+    ],
     "difficulty": "easy",
-    "tags": ["japanese", "fish", "quick", "gluten-free", "healthy"],
+    "tags": ["japanese", "seafood", "quick", "healthy", "dinner", "high-protein", "omega-3"],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 35,
       "fat_g": 18,
       "carbs_g": 15
-    }
+    },
+    "nutrition_benefits": "Salmon is one of the best sources of omega-3 fatty acids, which support heart health, brain function, and reduce inflammation. It provides high-quality complete protein and is rich in B vitamins, particularly B12 for energy metabolism. The fish also offers selenium and vitamin D, often lacking in modern diets."
   },
   {
     "id": "mx-tacos-al-pastor",
@@ -221,35 +306,51 @@
     "country": "Mexico",
     "country_slug": "mexico",
     "name_en": "Tacos al Pastor",
-    "name_local": "Tacos al Pastor",
     "image": "assets/img/recipes/tacos-al-pastor.jpg",
-    "short_description": "Marinated pork tacos with pineapple, onion, and cilantro.",
+    "short_description": "Mexico City's iconic street food featuring smoky, chile-marinated pork with caramelized pineapple, fresh cilantro, and tangy lime on warm corn tortillas. This beloved taco style brings together Lebanese and Mexican culinary traditions in perfect harmony.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 8,
     "ingredients": [
       { "name": "pork shoulder", "amount": 1, "unit": "kg" },
       { "name": "dried guajillo chilies", "amount": 6, "unit": "pc" },
-      { "name": "pineapple", "amount": 1, "unit": "whole" },
+      { "name": "dried ancho chilies", "amount": 2, "unit": "pc" },
+      { "name": "fresh pineapple", "amount": 1, "unit": "whole" },
       { "name": "corn tortillas", "amount": 16, "unit": "pc" },
       { "name": "white onion", "amount": 1, "unit": "large" },
       { "name": "fresh cilantro", "amount": 1, "unit": "bunch" },
       { "name": "achiote paste", "amount": 100, "unit": "g" },
-      { "name": "lime", "amount": 4, "unit": "pc" }
+      { "name": "limes", "amount": 4, "unit": "pc" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "white vinegar", "amount": 3, "unit": "tbsp" }
     ],
     "steps": [
-      "Blend rehydrated guajillo chilies with achiote paste, pineapple juice, and spices.",
-      "Slice pork thinly and marinate in the sauce for at least 4 hours or overnight.",
-      "Grill or pan-fry pork slices until charred and caramelized. Dice pineapple and grill.",
-      "Warm corn tortillas on a dry pan.",
-      "Assemble tacos with pork, grilled pineapple, diced onion, cilantro, and lime juice."
+      "Remove stems and seeds from dried chilies, then toast briefly in a dry pan until fragrant.",
+      "Soak the toasted chilies in hot water for 20 minutes until softened.",
+      "Blend the rehydrated chilies with achiote paste, garlic, vinegar, and 1/2 cup pineapple juice until smooth.",
+      "Slice the pork shoulder into thin steaks, about 1/4 inch thick.",
+      "Coat the pork thoroughly in the marinade and refrigerate for at least 4 hours or overnight.",
+      "Cut pineapple into 1/2 inch thick rings or chunks.",
+      "Grill or pan-fry the marinated pork over high heat until charred and caramelized on edges.",
+      "Grill the pineapple pieces alongside until caramelized with grill marks.",
+      "Dice the grilled pork and pineapple into small pieces.",
+      "Warm the corn tortillas on a dry skillet until soft and pliable.",
+      "Assemble tacos with pork, pineapple, diced raw onion, fresh cilantro, and a generous squeeze of lime."
     ],
-    "cooking_time_minutes": 45,
+    "cooking_tips": [
+      "Marinating overnight allows the acidic marinade to tenderize and flavor the meat deeply.",
+      "High heat is essential for achieving the characteristic charred, crispy edges.",
+      "Warm your tortillas just before serving to prevent them from cracking."
+    ],
     "difficulty": "medium",
-    "tags": ["mexican", "tacos", "pork", "spicy", "street-food"],
+    "tags": ["mexican", "tacos", "pork", "spicy", "street-food", "dinner", "gluten-free"],
     "nutrition": {
       "per_serving_kcal": 450,
       "protein_g": 32,
       "fat_g": 18,
       "carbs_g": 42
-    }
+    },
+    "nutrition_benefits": "Tacos al pastor provide excellent protein from pork, essential for muscle repair and immune function. The pineapple contains bromelain, an enzyme that aids protein digestion. Dried chilies are rich in vitamins A and C plus capsaicin, which may boost metabolism. The corn tortillas offer fiber and are naturally gluten-free."
   },
   {
     "id": "mx-guacamole",
@@ -257,35 +358,45 @@
     "country": "Mexico",
     "country_slug": "mexico",
     "name_en": "Guacamole",
-    "name_local": "Guacamole",
     "image": "assets/img/recipes/guacamole.jpg",
-    "short_description": "Fresh avocado dip with lime, cilantro, and jalapeño.",
+    "short_description": "A vibrant, chunky Mexican dip showcasing perfectly ripe avocados brightened with fresh lime, aromatic cilantro, and just enough heat from fresh jalapeno. This ancient Aztec creation remains the ultimate crowd-pleasing appetizer and the perfect companion to crispy tortilla chips.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 0,
+    "servings": 6,
     "ingredients": [
-      { "name": "ripe avocados", "amount": 4, "unit": "pc" },
-      { "name": "lime juice", "amount": 3, "unit": "tbsp" },
-      { "name": "white onion", "amount": 0.5, "unit": "pc" },
-      { "name": "fresh cilantro", "amount": 0.5, "unit": "bunch" },
-      { "name": "jalapeño", "amount": 1, "unit": "pc" },
-      { "name": "tomato", "amount": 1, "unit": "medium" },
-      { "name": "salt", "amount": 1, "unit": "tsp" },
-      { "name": "garlic", "amount": 1, "unit": "clove" }
+      { "name": "ripe Hass avocados", "amount": 4, "unit": "pc" },
+      { "name": "fresh lime juice", "amount": 3, "unit": "tbsp" },
+      { "name": "white onion (finely diced)", "amount": 0.5, "unit": "pc" },
+      { "name": "fresh cilantro (chopped)", "amount": 0.5, "unit": "cup" },
+      { "name": "fresh jalapeno (seeded, minced)", "amount": 1, "unit": "pc" },
+      { "name": "Roma tomato (seeded, diced)", "amount": 1, "unit": "pc" },
+      { "name": "sea salt", "amount": 1, "unit": "tsp" },
+      { "name": "garlic (minced)", "amount": 1, "unit": "clove" }
     ],
     "steps": [
-      "Cut avocados in half, remove pit, and scoop flesh into a bowl.",
-      "Mash avocados with a fork to desired consistency (chunky or smooth).",
-      "Finely dice onion, jalapeño, tomato, and cilantro.",
-      "Add diced vegetables, lime juice, minced garlic, and salt to avocado. Mix well.",
-      "Taste and adjust seasoning. Serve immediately with tortilla chips."
+      "Cut avocados in half lengthwise, remove the pit, and score the flesh in a crosshatch pattern.",
+      "Scoop the avocado flesh into a mixing bowl using a large spoon.",
+      "Add the lime juice and salt immediately to prevent browning.",
+      "Mash the avocado with a fork to your preferred consistency (chunky or smooth).",
+      "Fold in the diced onion, minced jalapeno, minced garlic, and diced tomato.",
+      "Stir in the fresh chopped cilantro and mix gently.",
+      "Taste and adjust seasoning with more salt or lime juice as needed.",
+      "Serve immediately with fresh tortilla chips, or cover with plastic wrap pressed directly on the surface to prevent browning."
     ],
-    "cooking_time_minutes": 10,
+    "cooking_tips": [
+      "Choose avocados that yield to gentle pressure - not too soft, not too firm.",
+      "Removing jalapeno seeds significantly reduces the heat while maintaining flavor.",
+      "Pressing plastic wrap directly onto the guacamole surface prevents oxidation."
+    ],
     "difficulty": "easy",
-    "tags": ["mexican", "dip", "vegan", "quick", "gluten-free", "appetizer"],
+    "tags": ["mexican", "dip", "vegan", "quick", "gluten-free", "appetizer", "healthy", "no-cook"],
     "nutrition": {
       "per_serving_kcal": 180,
       "protein_g": 2,
       "fat_g": 15,
       "carbs_g": 12
-    }
+    },
+    "nutrition_benefits": "Guacamole is a nutritional powerhouse thanks to avocados, which provide heart-healthy monounsaturated fats that help lower bad cholesterol. They are rich in potassium (more than bananas), fiber for digestive health, and vitamin K for bone health. Lime juice adds vitamin C, while cilantro offers detoxifying properties."
   },
   {
     "id": "sy-kibbeh",
@@ -293,35 +404,52 @@
     "country": "Syria",
     "country_slug": "syria",
     "name_en": "Kibbeh",
-    "name_local": "كبة",
     "image": "assets/img/recipes/kibbeh.jpg",
-    "short_description": "Crispy bulgur shells stuffed with spiced lamb and pine nuts.",
+    "short_description": "A cherished Levantine delicacy featuring a crispy shell of fine bulgur wheat encasing a fragrant filling of spiced lamb and toasted pine nuts. This labor of love represents centuries of Syrian culinary artistry and is considered the national dish by many.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 8,
     "ingredients": [
       { "name": "fine bulgur wheat", "amount": 400, "unit": "g" },
       { "name": "ground lamb", "amount": 500, "unit": "g" },
-      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "large onions", "amount": 2, "unit": "pc" },
       { "name": "pine nuts", "amount": 100, "unit": "g" },
-      { "name": "allspice", "amount": 2, "unit": "tsp" },
-      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "vegetable oil", "amount": 500, "unit": "ml" }
+      { "name": "ground allspice", "amount": 2, "unit": "tsp" },
+      { "name": "ground cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "ground cumin", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 2, "unit": "tsp" },
+      { "name": "black pepper", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable oil for frying", "amount": 500, "unit": "ml" }
     ],
     "steps": [
-      "Soak bulgur in water for 30 minutes, then drain and squeeze out excess water.",
-      "For the shell: blend bulgur with half the lamb, grated onion, and spices until smooth.",
-      "For the filling: sauté remaining lamb with diced onion, pine nuts, and spices.",
-      "Shape small portions of shell into oval cups, fill with meat mixture, and seal.",
-      "Deep fry kibbeh in hot oil until golden brown and crispy. Serve with yogurt."
+      "Rinse bulgur wheat thoroughly and soak in cold water for 30 minutes.",
+      "Drain the bulgur and squeeze out all excess water using a clean kitchen towel.",
+      "For the shell: Combine the bulgur, half the lamb (250g), one grated onion, half the spices, and 1 tsp salt in a food processor.",
+      "Process until the mixture forms a smooth, pliable dough. Refrigerate for 30 minutes.",
+      "For the filling: Toast pine nuts in a dry pan until golden, then set aside.",
+      "Finely dice the remaining onion and saute in 2 tbsp oil until softened.",
+      "Add the remaining lamb and cook until browned, breaking it up with a spoon.",
+      "Season the filling with remaining spices and salt, then stir in the pine nuts. Let cool.",
+      "Wet your hands and take a golf ball-sized portion of the shell dough.",
+      "Shape it into an oval cup, fill with 1 tablespoon of the meat filling.",
+      "Pinch the opening closed and form into a pointed oval shape (like a football).",
+      "Heat oil to 350°F (175°C) and deep fry kibbeh in batches until deep golden brown, about 4-5 minutes.",
+      "Drain on paper towels and serve hot with yogurt sauce."
     ],
-    "cooking_time_minutes": 90,
+    "cooking_tips": [
+      "Keep your hands wet while shaping to prevent the dough from sticking.",
+      "Ensure the shell dough has no cracks before frying or it will absorb oil.",
+      "Kibbeh can also be baked in a tray (kibbeh bil sanieh) for a lighter version."
+    ],
     "difficulty": "hard",
-    "tags": ["syrian", "fried", "lamb", "appetizer", "traditional"],
+    "tags": ["syrian", "fried", "lamb", "appetizer", "traditional", "middle-eastern", "festive"],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 18,
       "fat_g": 22,
       "carbs_g": 28
-    }
+    },
+    "nutrition_benefits": "Kibbeh offers a balanced combination of protein from lamb, complex carbohydrates from bulgur wheat, and healthy fats from pine nuts. Bulgur is high in fiber and has a low glycemic index. Lamb provides iron, zinc, and B vitamins, particularly B12. The warming spices like cinnamon and allspice have anti-inflammatory properties."
   },
   {
     "id": "sy-fattoush",
@@ -329,37 +457,52 @@
     "country": "Syria",
     "country_slug": "syria",
     "name_en": "Fattoush Salad",
-    "name_local": "فتوش",
     "image": "assets/img/recipes/fattoush.jpg",
-    "short_description": "Refreshing Levantine salad with crispy pita, vegetables, and sumac dressing.",
+    "short_description": "A vibrant Levantine salad bursting with crisp vegetables, aromatic herbs, and golden fried pita pieces, all tossed in a tangy sumac and pomegranate molasses dressing. This refreshing dish celebrates the bounty of Middle Eastern gardens in every colorful bite.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 5,
+    "servings": 4,
     "ingredients": [
       { "name": "romaine lettuce", "amount": 1, "unit": "head" },
       { "name": "cucumber", "amount": 2, "unit": "medium" },
-      { "name": "tomatoes", "amount": 3, "unit": "medium" },
-      { "name": "radishes", "amount": 6, "unit": "pc" },
+      { "name": "ripe tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "red radishes", "amount": 6, "unit": "pc" },
       { "name": "pita bread", "amount": 2, "unit": "pc" },
-      { "name": "sumac", "amount": 2, "unit": "tbsp" },
-      { "name": "olive oil", "amount": 80, "unit": "ml" },
-      { "name": "lemon juice", "amount": 60, "unit": "ml" },
-      { "name": "fresh mint", "amount": 0.5, "unit": "bunch" },
-      { "name": "pomegranate molasses", "amount": 1, "unit": "tbsp" }
+      { "name": "ground sumac", "amount": 2, "unit": "tbsp" },
+      { "name": "extra virgin olive oil", "amount": 80, "unit": "ml" },
+      { "name": "fresh lemon juice", "amount": 60, "unit": "ml" },
+      { "name": "fresh mint leaves", "amount": 0.5, "unit": "cup" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "pomegranate molasses", "amount": 1, "unit": "tbsp" },
+      { "name": "garlic", "amount": 1, "unit": "clove" }
     ],
     "steps": [
-      "Toast or fry pita bread pieces until golden and crispy.",
-      "Chop lettuce, dice cucumber and tomatoes, slice radishes thinly.",
-      "Whisk olive oil, lemon juice, sumac, and pomegranate molasses for dressing.",
-      "Combine all vegetables in a large bowl with fresh mint leaves.",
-      "Add crispy pita and dressing just before serving. Toss well and serve immediately."
+      "Split the pita bread into two thin rounds and cut or tear into bite-sized pieces.",
+      "Fry the pita pieces in olive oil until golden and crispy, or bake at 400°F until crunchy. Set aside.",
+      "Tear the romaine lettuce into bite-sized pieces and place in a large salad bowl.",
+      "Dice the cucumber and tomatoes into similar-sized cubes.",
+      "Slice the radishes into thin rounds.",
+      "Chop the fresh mint and parsley leaves.",
+      "Add all the vegetables and herbs to the bowl with the lettuce.",
+      "For the dressing: Whisk together olive oil, lemon juice, minced garlic, sumac, pomegranate molasses, and salt.",
+      "Just before serving, add the crispy pita pieces to the salad.",
+      "Pour the dressing over the salad and toss everything together thoroughly.",
+      "Serve immediately while the pita is still crispy, with extra sumac sprinkled on top."
     ],
-    "cooking_time_minutes": 20,
+    "cooking_tips": [
+      "Always add the pita and dressing at the last moment to maintain the crucial crispy texture.",
+      "Sumac can be found at Middle Eastern grocery stores and provides the signature tangy flavor.",
+      "For extra flavor, add a handful of pomegranate seeds when in season."
+    ],
     "difficulty": "easy",
-    "tags": ["syrian", "salad", "vegan", "quick", "healthy", "refreshing"],
+    "tags": ["syrian", "salad", "vegan", "quick", "healthy", "refreshing", "middle-eastern", "lunch"],
     "nutrition": {
       "per_serving_kcal": 220,
       "protein_g": 5,
       "fat_g": 14,
       "carbs_g": 22
-    }
+    },
+    "nutrition_benefits": "Fattoush is packed with vitamins and antioxidants from the rainbow of fresh vegetables. Sumac is exceptionally high in antioxidants and has natural antibacterial properties. The olive oil provides heart-healthy fats, while the variety of raw vegetables ensures maximum vitamin retention. This salad is excellent for digestive health due to its high fiber content."
   }
 ]
 

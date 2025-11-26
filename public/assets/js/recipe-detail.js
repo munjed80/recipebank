@@ -80,6 +80,15 @@ function getDifficultyClass(difficulty) {
 }
 
 /**
+ * Calculate total time from prep and cooking time
+ */
+function getTotalTime(recipe) {
+  const prepTime = recipe.prep_time_minutes || 0;
+  const cookTime = recipe.cooking_time_minutes || 0;
+  return prepTime + cookTime;
+}
+
+/**
  * Render modern recipe layout
  */
 function renderRecipeModern(container, recipe) {
@@ -105,12 +114,25 @@ function renderRecipeModern(container, recipe) {
     `<a href="#" class="tag-pill" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)}</a>`
   ).join('');
 
-  // Generate nutrition section HTML
-  const nutritionHtml = recipe.nutrition ? `
+  // Generate cooking tips HTML if available
+  const cookingTipsHtml = recipe.cooking_tips && recipe.cooking_tips.length > 0 ? `
+    <section class="cooking-tips-section">
+      <h3 class="section-title-modern">
+        <span class="icon">💡</span>
+        Cooking Tips
+      </h3>
+      <ul class="cooking-tips-list">
+        ${recipe.cooking_tips.map(tip => `<li>${escapeHtml(tip)}</li>`).join('')}
+      </ul>
+    </section>
+  ` : '';
+
+  // Generate nutrition and benefits section HTML
+  const nutritionBenefitsHtml = recipe.nutrition ? `
     <section class="nutrition-section">
       <h3 class="nutrition-title">
         <span class="icon">📊</span>
-        Nutrition Facts / القيم الغذائية
+        Nutrition Facts
         <span class="section-subtitle">(per serving)</span>
       </h3>
       <div class="nutrition-grid-modern">
@@ -135,12 +157,23 @@ function renderRecipeModern(container, recipe) {
           <div class="nutrition-label-modern">Carbs</div>
         </div>
       </div>
+      ${recipe.nutrition_benefits ? `
+        <div class="nutrition-benefits">
+          <h4 class="benefits-title">
+            <span class="icon">🌿</span>
+            Nutrition & Benefits
+          </h4>
+          <p class="benefits-text">${escapeHtml(recipe.nutrition_benefits)}</p>
+        </div>
+      ` : ''}
     </section>
   ` : '';
 
-  // Determine text direction for local name (RTL for Arabic)
-  const isArabic = /[\u0600-\u06FF]/.test(recipe.name_local);
-  const localNameDir = isArabic ? 'rtl' : 'ltr';
+  // Calculate times
+  const prepTime = recipe.prep_time_minutes || 0;
+  const cookTime = recipe.cooking_time_minutes || 0;
+  const totalTime = getTotalTime(recipe);
+  const servings = recipe.servings || 4;
 
   container.classList.add('recipe-page');
   container.innerHTML = `
@@ -148,7 +181,7 @@ function renderRecipeModern(container, recipe) {
     <div class="recipe-actions-bar">
       <a href="${RecipeBank.CONFIG.basePath}/public/countries/${escapeHtml(recipe.country_slug)}.html" class="recipe-action-btn">
         <span class="icon">←</span>
-        <span>Back to ${escapeHtml(recipe.country)}</span>
+        <span>Back to ${escapeHtml(recipe.country)} Recipes</span>
       </a>
       <button type="button" id="btn-print-recipe" class="recipe-action-btn">
         <span class="icon">🖨️</span>
@@ -171,7 +204,6 @@ function renderRecipeModern(container, recipe) {
       <header class="recipe-header-modern">
         <div class="recipe-header-content">
           <h1 class="recipe-title-modern">${escapeHtml(recipe.name_en)}</h1>
-          <p class="recipe-local-name-modern" dir="${localNameDir}">${escapeHtml(recipe.name_local)}</p>
           
           <!-- Rating Stars Placeholder -->
           <div class="recipe-rating">
@@ -186,8 +218,16 @@ function renderRecipeModern(container, recipe) {
               ${escapeHtml(recipe.country)}
             </span>
             <span class="meta-pill">
+              <span class="icon">🥣</span>
+              Prep: ${RecipeBank.formatTime(prepTime)}
+            </span>
+            <span class="meta-pill">
+              <span class="icon">🔥</span>
+              Cook: ${RecipeBank.formatTime(cookTime)}
+            </span>
+            <span class="meta-pill">
               <span class="icon">⏱️</span>
-              ${RecipeBank.formatTime(recipe.cooking_time_minutes)}
+              Total: ${RecipeBank.formatTime(totalTime)}
             </span>
             <span class="meta-pill ${getDifficultyClass(recipe.difficulty)}">
               <span class="icon">📊</span>
@@ -195,7 +235,7 @@ function renderRecipeModern(container, recipe) {
             </span>
             <span class="meta-pill">
               <span class="icon">🍽️</span>
-              4 servings
+              ${servings} servings
             </span>
           </div>
 
@@ -216,23 +256,26 @@ function renderRecipeModern(container, recipe) {
           <div class="ingredients-section">
             <h2 class="section-title-modern">
               <span class="icon">🥘</span>
-              Ingredients / المكونات
+              Ingredients
+              <span class="section-subtitle">(${recipe.ingredients.length} items)</span>
             </h2>
             <ul class="ingredients-checklist">
               ${ingredientsHtml}
             </ul>
-            ${nutritionHtml}
+            ${nutritionBenefitsHtml}
           </div>
 
           <!-- Right Column: Steps -->
           <div class="steps-section">
             <h2 class="section-title-modern">
               <span class="icon">👨‍🍳</span>
-              Steps / خطوات التحضير
+              Method
+              <span class="section-subtitle">(${recipe.steps.length} steps)</span>
             </h2>
             <ol class="steps-list-modern">
               ${stepsHtml}
             </ol>
+            ${cookingTipsHtml}
           </div>
         </div>
       </div>
@@ -242,7 +285,7 @@ function renderRecipeModern(container, recipe) {
     <div class="recipe-footer-actions">
       <a href="${RecipeBank.CONFIG.basePath}/public/countries/${escapeHtml(recipe.country_slug)}.html" class="btn-back-country">
         <span class="icon">←</span>
-        More ${escapeHtml(recipe.country)} Recipes
+        Back to ${escapeHtml(recipe.country)} Recipes
       </a>
     </div>
   `;

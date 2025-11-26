@@ -131,6 +131,11 @@ function createRecipeCard(recipe) {
     `<span class="tag">${tag}</span>`
   ).join('');
 
+  // Calculate total time
+  const prepTime = recipe.prep_time_minutes || 0;
+  const cookTime = recipe.cooking_time_minutes || 0;
+  const totalTime = prepTime + cookTime;
+
   return `
     <article class="recipe-card">
       <a href="${CONFIG.basePath}/public/recipes/recipe.html?slug=${recipe.slug}">
@@ -139,10 +144,9 @@ function createRecipeCard(recipe) {
         </div>
         <div class="recipe-card-content">
           <h3 class="recipe-card-title">${recipe.name_en}</h3>
-          <p class="recipe-card-local-name">${recipe.name_local}</p>
           <p class="recipe-card-description">${recipe.short_description}</p>
           <div class="recipe-card-meta">
-            <span>⏱️ ${formatTime(recipe.cooking_time_minutes)}</span>
+            <span>⏱️ ${formatTime(totalTime)}</span>
             <span>📊 ${recipe.difficulty}</span>
             <span>${getCountryFlag(recipe.country_slug)} ${recipe.country}</span>
           </div>
