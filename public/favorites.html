@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your saved favorite recipes from RecipeBank">
+  <title>Favorites | RecipeBank</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/chat.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🍳</span>
+        <span>RecipeBank</span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="favorites.html" class="active">Favorites</a></li>
+        <li><a href="assistant.html">AI Assistant</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="favorites-header">
+    <div class="container">
+      <div class="favorites-header-icon">❤️</div>
+      <h1>My Favorite Recipes</h1>
+      <p>Your saved recipes are stored locally in your browser</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container">
+      <div id="favorites-container">
+        <div class="loading">Loading favorites...</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 RecipeBank. A free, open-source recipe library. 
+        <a href="https://github.com/munjed80/recipebank" target="_blank" rel="noopener">View on GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/search-helper.js"></script>
+  <script src="assets/js/favorites.js"></script>
+  <script>
+    // Initialize favorites page
+    document.addEventListener('DOMContentLoaded', async () => {
+      const container = document.getElementById('favorites-container');
+      const allRecipes = await RecipeBank.fetchRecipes();
+      
+      renderFavorites(container, allRecipes);
+      
+      // Listen for favorites changes
+      window.addEventListener('favoritesChanged', () => {
+        renderFavorites(container, allRecipes);
+      });
+    });
+
+    function renderFavorites(container, allRecipes) {
+      const favoriteSlugs = Favorites.getAll();
+      
+      if (favoriteSlugs.length === 0) {
+        container.innerHTML = `
+          <div class="empty-favorites">
+            <div class="empty-icon">🤍</div>
+            <h3>No favorites yet</h3>
+            <p>Browse recipes and click the heart icon to save your favorites</p>
+            <a href="index.html" class="btn">Explore Recipes</a>
+          </div>
+        `;
+        return;
+      }
+
+      const favoriteRecipes = allRecipes.filter(r => favoriteSlugs.includes(r.slug));
+      
+      const recipesHtml = favoriteRecipes.map(recipe => createFavoriteCard(recipe)).join('');
+      
+      container.innerHTML = `
+        <div class="favorites-count">
+          <span class="count-number">${favoriteRecipes.length}</span> saved recipe${favoriteRecipes.length > 1 ? 's' : ''}
+        </div>
+        <div class="recipe-grid">${recipesHtml}</div>
+      `;
+      
+      // Add event listeners for remove buttons
+      container.querySelectorAll('.remove-favorite-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const slug = btn.getAttribute('data-slug');
+          Favorites.remove(slug);
+        });
+      });
+    }
+
+    function createFavoriteCard(recipe) {
+      const tagsHtml = recipe.tags.slice(0, 3).map(tag => 
+        `<span class="tag">${tag}</span>`
+      ).join('');
+
+      const prepTime = recipe.prep_time_minutes || 0;
+      const cookTime = recipe.cooking_time_minutes || 0;
+      const totalTime = prepTime + cookTime;
+
+      return `
+        <article class="recipe-card favorite-card">
+          <button type="button" class="remove-favorite-btn" data-slug="${recipe.slug}" aria-label="Remove from favorites">
+            ❤️
+          </button>
+          <a href="recipes/recipe.html?slug=${recipe.slug}">
+            <div class="recipe-card-image">
+              <span>🍽️</span>
+            </div>
+            <div class="recipe-card-content">
+              <h3 class="recipe-card-title">${recipe.name_en}</h3>
+              <p class="recipe-card-description">${recipe.short_description}</p>
+              <div class="recipe-card-meta">
+                <span>⏱️ ${RecipeBank.formatTime(totalTime)}</span>
+                <span>📊 ${recipe.difficulty}</span>
+                <span>${RecipeBank.getCountryFlag(recipe.country_slug)} ${recipe.country}</span>
+              </div>
+              <div class="recipe-card-tags">
+                ${tagsHtml}
+              </div>
+            </div>
+          </a>
+        </article>
+      `;
+    }
+  </script>
+  <style>
+    .favorites-header {
+      background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .favorites-header-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+
+    .favorites-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .favorites-header p {
+      opacity: 0.9;
+      margin: 0;
+    }
+
+    .empty-favorites {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: var(--card-background);
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+    }
+
+    .empty-icon {
+      font-size: 5rem;
+      margin-bottom: 1rem;
+    }
+
+    .empty-favorites h3 {
+      color: var(--secondary-color);
+      margin-bottom: 0.5rem;
+    }
+
+    .empty-favorites p {
+      color: var(--text-light);
+      margin-bottom: 1.5rem;
+    }
+
+    .favorites-count {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: var(--text-light);
+    }
+
+    .count-number {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+
+    .favorite-card {
+      position: relative;
+    }
+
+    .remove-favorite-btn {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      z-index: 10;
+      background: var(--card-background);
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 1.25rem;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+    }
+
+    .remove-favorite-btn:hover {
+      transform: scale(1.1);
+      box-shadow: var(--shadow-hover);
+    }
+  </style>
+</body>
+</html>

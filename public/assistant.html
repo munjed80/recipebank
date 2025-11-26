@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="AI Chef Assistant - Find the perfect recipe based on your ingredients">
+  <meta name="description" content="AI Chef Assistant - Get cooking help, recipe guidance, and cooking tips">
   <title>AI Chef Assistant | RecipeBank</title>
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/chat.css">
 </head>
 <body>
   <header>
@@ -17,54 +18,43 @@
       <button class="menu-toggle" aria-label="Toggle menu">☰</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
         <li><a href="assistant.html" class="active">AI Assistant</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="assistant-container">
-    <div class="assistant-header">
-      <h1>🤖 AI Chef Assistant</h1>
-      <p>Tell me what ingredients you have, and I'll suggest the perfect recipe for you!</p>
+  <main class="chat-container" id="chat-container">
+    <div class="chat-header">
+      <div class="chat-header-icon">🤖</div>
+      <div class="chat-header-info">
+        <h1>AI Chef Assistant</h1>
+        <p>Ask me about recipes, cooking tips, and nutrition</p>
+      </div>
     </div>
 
-    <form id="search-form" class="search-form">
-      <div class="form-group">
-        <label for="query">What ingredients do you have?</label>
-        <textarea 
-          id="query" 
-          name="query" 
-          rows="3" 
-          placeholder="e.g., chicken, rice, tomato, onion..."
-        ></textarea>
-        <small>Enter ingredients separated by commas, or type keywords like "vegetarian", "quick", "pasta"</small>
+    <div class="chat-messages" id="chat-messages">
+      <!-- Messages will be added dynamically -->
+    </div>
+
+    <div class="chat-input-area">
+      <div class="chat-input-wrapper">
+        <input 
+          type="text" 
+          id="chat-input" 
+          placeholder="Ask about a recipe, ingredient, or cooking technique..."
+          autocomplete="off"
+        >
+        <button type="button" id="send-button" class="send-button" aria-label="Send message">
+          <span>➤</span>
+        </button>
       </div>
-
-      <div class="form-group">
-        <label for="country-filter">Filter by Country</label>
-        <select id="country-filter" name="country">
-          <option value="">All Countries</option>
-          <!-- Options populated by JavaScript -->
-        </select>
+      <div class="chat-suggestions">
+        <button type="button" class="suggestion-chip" data-query="What recipes do you have from Italy?">Italian recipes</button>
+        <button type="button" class="suggestion-chip" data-query="Show me vegetarian dishes">Vegetarian</button>
+        <button type="button" class="suggestion-chip" data-query="What quick recipes can I make?">Quick meals</button>
+        <button type="button" class="suggestion-chip" data-query="What are my favorite recipes?">My favorites</button>
       </div>
-
-      <div class="form-group">
-        <label for="difficulty-filter">Filter by Difficulty</label>
-        <select id="difficulty-filter" name="difficulty">
-          <option value="">Any Difficulty</option>
-          <option value="easy">Easy</option>
-          <option value="medium">Medium</option>
-          <option value="hard">Hard</option>
-        </select>
-      </div>
-
-      <button type="submit" class="btn btn-block">
-        🔍 Find Recipes
-      </button>
-    </form>
-
-    <div id="results-container" class="assistant-results">
-      <div class="loading">Loading recipes...</div>
     </div>
   </main>
 
@@ -77,6 +67,24 @@
   </footer>
 
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/assistant.js"></script>
+  <script src="assets/js/search-helper.js"></script>
+  <script src="assets/js/favorites.js"></script>
+  <script src="assets/js/ai-assistant.js"></script>
+  <script>
+    // Initialize AI Assistant when DOM is ready
+    document.addEventListener('DOMContentLoaded', () => {
+      AIAssistant.init();
+      
+      // Handle suggestion chips
+      document.querySelectorAll('.suggestion-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+          const query = chip.getAttribute('data-query');
+          const input = document.getElementById('chat-input');
+          input.value = query;
+          document.getElementById('send-button').click();
+        });
+      });
+    });
+  </script>
 </body>
 </html>

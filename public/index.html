@@ -6,6 +6,7 @@
   <meta name="description" content="RecipeBank - Explore authentic recipes from countries around the world. A free, global recipe library.">
   <title>RecipeBank - Global Recipe Library</title>
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/chat.css">
 </head>
 <body>
   <header>
@@ -17,6 +18,7 @@
       <button class="menu-toggle" aria-label="Toggle menu">☰</button>
       <ul class="nav-links">
         <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
         <li><a href="assistant.html">AI Assistant</a></li>
       </ul>
     </nav>
@@ -26,6 +28,21 @@
     <div class="container">
       <h1>🌍 RecipeBank</h1>
       <p>Explore authentic recipes from countries around the world. From Italian pasta to Syrian kibbeh, discover the flavors of global cuisine.</p>
+      
+      <!-- Global Search Bar -->
+      <div class="global-search-wrapper hero-search">
+        <div class="search-input-container">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="global-search" 
+            class="global-search-input" 
+            placeholder="Search recipes, ingredients, or cuisines..."
+            autocomplete="off"
+          >
+        </div>
+        <div id="global-search-results" class="global-search-results"></div>
+      </div>
     </div>
   </section>
 
@@ -81,12 +98,11 @@
     <div class="container">
       <h2 class="section-title">Try Our <span>AI Chef Assistant</span></h2>
       <p class="text-center" style="max-width: 600px; margin: 0 auto 2rem;">
-        Tell us what ingredients you have, and we'll suggest the perfect recipe for you. 
-        Filter by country, difficulty, or dietary preferences.
+        Chat with our AI assistant to get cooking help, recipe guidance, ingredient substitutions, and nutrition information.
       </p>
       <div class="text-center">
         <a href="assistant.html" class="btn">
-          🤖 Open AI Assistant
+          🤖 Chat with AI Assistant
         </a>
       </div>
     </div>
@@ -101,5 +117,7 @@
   </footer>
 
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/search-helper.js"></script>
+  <script src="assets/js/favorites.js"></script>
 </body>
 </html>

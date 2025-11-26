@@ -41,6 +41,7 @@ async function initRecipeDetail() {
 
     renderRecipeModern(container, recipe);
     updatePageTitle(recipe.name_en);
+    initFavoriteButton(recipe.slug);
     
   } catch (error) {
     console.error('Error loading recipe:', error);
@@ -297,3 +298,37 @@ document.addEventListener('DOMContentLoaded', () => {
     initRecipeDetail();
   }
 });
+
+/**
+ * Initialize favorite button after recipe is rendered
+ */
+function initFavoriteButton(slug) {
+  const saveBtn = document.getElementById('btn-save-favorite');
+  if (!saveBtn || !window.Favorites) return;
+
+  const isFavorite = Favorites.isFavorite(slug);
+  updateFavoriteButton(saveBtn, isFavorite);
+
+  saveBtn.addEventListener('click', () => {
+    const newStatus = Favorites.toggle(slug);
+    updateFavoriteButton(saveBtn, newStatus);
+  });
+}
+
+/**
+ * Update favorite button appearance
+ */
+function updateFavoriteButton(btn, isFavorite) {
+  const icon = btn.querySelector('.icon');
+  const text = btn.querySelector('span:not(.icon)');
+  
+  if (isFavorite) {
+    btn.classList.add('is-favorite');
+    if (icon) icon.textContent = '❤️';
+    if (text) text.textContent = 'Saved';
+  } else {
+    btn.classList.remove('is-favorite');
+    if (icon) icon.textContent = '🤍';
+    if (text) text.textContent = 'Save';
+  }
+}
