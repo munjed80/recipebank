@@ -9,6 +9,32 @@
 let countryRecipes = [];
 
 /**
+ * Country names mapping
+ */
+const COUNTRY_NAMES = {
+  italy: 'Italy',
+  india: 'India',
+  japan: 'Japan',
+  mexico: 'Mexico',
+  syria: 'Syria',
+  france: 'France',
+  thailand: 'Thailand',
+  morocco: 'Morocco',
+  lebanon: 'Lebanon',
+  china: 'China',
+  greece: 'Greece',
+  spain: 'Spain',
+  turkey: 'Turkey',
+  korea: 'Korea',
+  vietnam: 'Vietnam',
+  brazil: 'Brazil',
+  ethiopia: 'Ethiopia',
+  peru: 'Peru',
+  indonesia: 'Indonesia',
+  egypt: 'Egypt'
+};
+
+/**
  * Initialize country page
  */
 async function initCountryPage() {
@@ -22,8 +48,16 @@ async function initCountryPage() {
 
   container.innerHTML = '<div class="loading">Loading recipes...</div>';
 
+  // Get country name for SEO
+  const countryName = COUNTRY_NAMES[countrySlug] || countrySlug.charAt(0).toUpperCase() + countrySlug.slice(1);
+
   try {
     countryRecipes = await RecipeBank.getRecipesByCountry(countrySlug);
+    
+    // Apply SEO for country page
+    if (window.SEO) {
+      window.SEO.applyCountrySEO(countrySlug, countryName, countryRecipes.length);
+    }
     
     if (countryRecipes.length === 0) {
       container.innerHTML = `

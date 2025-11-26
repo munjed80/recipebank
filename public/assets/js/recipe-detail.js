@@ -41,6 +41,7 @@ async function initRecipeDetail() {
 
     renderRecipeModern(container, recipe);
     updatePageTitle(recipe.name_en);
+    applyRecipeSEO(recipe);
     initFavoriteButton(recipe.slug);
     
   } catch (error) {
@@ -62,10 +63,19 @@ function getRecipeSlugFromUrl() {
 }
 
 /**
- * Update page title
+ * Update page title and apply SEO
  */
 function updatePageTitle(recipeName) {
   document.title = `${recipeName} | RecipeBank`;
+}
+
+/**
+ * Apply SEO meta tags and structured data for the recipe
+ */
+function applyRecipeSEO(recipe) {
+  if (window.SEO) {
+    window.SEO.applyRecipeSEO(recipe);
+  }
 }
 
 /**
@@ -197,8 +207,8 @@ function renderRecipeModern(container, recipe) {
     <!-- Print Area -->
     <div class="recipe-print-area">
       <!-- Hero Image -->
-      <div class="recipe-hero-image">
-        <div class="recipe-hero-placeholder">🍽️</div>
+      <div class="recipe-hero-image" role="img" aria-label="${escapeHtml(recipe.name_en)} - ${escapeHtml(recipe.country)} dish">
+        <div class="recipe-hero-placeholder" aria-hidden="true">🍽️</div>
       </div>
 
       <!-- Recipe Header -->

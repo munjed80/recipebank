@@ -151,6 +151,9 @@ function createRecipeCard(recipe, options = {}) {
   const favIcon = isFavorite ? '❤️' : '🤍';
   const favClass = isFavorite ? 'is-favorite' : '';
 
+  // Generate image alt text
+  const altText = `${recipe.name_en} - ${recipe.country} ${recipe.difficulty} recipe`;
+
   return `
     <article class="recipe-card">
       <button type="button" 
@@ -160,16 +163,16 @@ function createRecipeCard(recipe, options = {}) {
               onclick="toggleFavorite(event, '${recipe.slug}')">
         ${favIcon}
       </button>
-      <a href="${CONFIG.basePath}/public/recipes/recipe.html?slug=${recipe.slug}">
-        <div class="recipe-card-image">
-          <span>🍽️</span>
+      <a href="${CONFIG.basePath}/public/recipes/recipe.html?slug=${recipe.slug}" aria-label="View ${recipe.name_en} recipe">
+        <div class="recipe-card-image" role="img" aria-label="${altText}">
+          <span aria-hidden="true">🍽️</span>
         </div>
         <div class="recipe-card-content">
           <h3 class="recipe-card-title">${recipe.name_en}</h3>
           <p class="recipe-card-description">${recipe.short_description}</p>
           <div class="recipe-card-meta">
-            <span>⏱️ ${formatTime(totalTime)}</span>
-            <span>📊 ${recipe.difficulty}</span>
+            <span><span aria-hidden="true">⏱️</span> ${formatTime(totalTime)}</span>
+            <span><span aria-hidden="true">📊</span> ${recipe.difficulty}</span>
             <span>${getCountryFlag(recipe.country_slug)} ${recipe.country}</span>
           </div>
           <div class="recipe-card-tags">
