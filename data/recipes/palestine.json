@@ -1,0 +1,265 @@
+[
+  {
+    "id": "ps-maqluba",
+    "slug": "maqluba",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Maqluba",
+    "image": "assets/img/recipes/maqluba.jpg",
+    "short_description": "The iconic Palestinian upside-down rice dish, featuring layers of meat, vegetables, and aromatic rice that is dramatically flipped onto a platter. The name literally means 'upside down' in Arabic.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      { "name": "chicken pieces", "amount": 1, "unit": "kg" },
+      { "name": "basmati rice", "amount": 500, "unit": "g" },
+      { "name": "eggplant", "amount": 2, "unit": "large" },
+      { "name": "cauliflower", "amount": 1, "unit": "head" },
+      { "name": "potatoes", "amount": 3, "unit": "medium" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomatoes", "amount": 2, "unit": "pc" },
+      { "name": "baharat spice", "amount": 2, "unit": "tbsp" },
+      { "name": "turmeric", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable oil", "amount": 200, "unit": "ml" },
+      { "name": "pine nuts", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Slice eggplant and potatoes, salt and let drain for 30 minutes.",
+      "Fry eggplant and potatoes until golden, set aside.",
+      "Fry cauliflower florets until golden, set aside.",
+      "Brown chicken pieces with onion and spices.",
+      "Add water and simmer until chicken is cooked, reserve broth.",
+      "Rinse rice and soak for 30 minutes.",
+      "In a large pot, layer: chicken, fried vegetables, then rice.",
+      "Pour seasoned broth over (should cover rice by 1 inch).",
+      "Cover tightly and cook on low heat for 30 minutes.",
+      "Let rest 10 minutes, then flip onto a large platter.",
+      "Garnish with toasted pine nuts and serve with yogurt."
+    ],
+    "cooking_tips": [
+      "The dramatic flip is crucial - use a platter slightly larger than the pot.",
+      "Don't peek during cooking - the steam is essential.",
+      "Serve immediately to maintain the tower shape."
+    ],
+    "difficulty": "hard",
+    "tags": ["palestinian", "rice", "chicken", "festive", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 32,
+      "fat_g": 26,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "A complete meal with protein, carbs, and vegetables. Cauliflower is rich in vitamin C and antioxidants. Pine nuts provide healthy fats and minerals.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "ps-musakhan",
+    "slug": "musakhan",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Musakhan",
+    "image": "assets/img/recipes/musakhan.jpg",
+    "short_description": "Palestine's national dish featuring roasted chicken on taboon bread, smothered with caramelized onions, sumac, and toasted pine nuts. A stunning celebration of simple, powerful flavors.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "whole chicken", "amount": 1.5, "unit": "kg" },
+      { "name": "large onions", "amount": 6, "unit": "pc" },
+      { "name": "sumac", "amount": 4, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 150, "unit": "ml" },
+      { "name": "taboon or pita bread", "amount": 4, "unit": "large" },
+      { "name": "pine nuts", "amount": 100, "unit": "g" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 2, "unit": "tsp" },
+      { "name": "black pepper", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Quarter the chicken and season with salt, pepper, and allspice.",
+      "Roast chicken at 200°C (400°F) for 45 minutes until golden.",
+      "Slice onions thinly and cook slowly in olive oil until deeply caramelized.",
+      "Add half the sumac to onions, stir well.",
+      "Toast pine nuts until golden.",
+      "Place bread on baking tray, spread with olive oil.",
+      "Top bread with generous amounts of caramelized onions.",
+      "Place roasted chicken pieces on top.",
+      "Sprinkle remaining sumac over everything.",
+      "Bake for 10 minutes until bread is crispy.",
+      "Garnish with pine nuts and serve."
+    ],
+    "cooking_tips": [
+      "The onions must be very well caramelized - don't rush this step.",
+      "Sumac provides the signature tangy flavor.",
+      "Traditionally eaten with hands, pulling apart the bread."
+    ],
+    "difficulty": "medium",
+    "tags": ["palestinian", "chicken", "sumac", "traditional", "national-dish", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 38,
+      "fat_g": 35,
+      "carbs_g": 40
+    },
+    "nutrition_benefits": "Olive oil provides heart-healthy monounsaturated fats. Sumac is high in antioxidants. Onions offer prebiotic benefits for gut health.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "ps-maftoul",
+    "slug": "maftoul",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Maftoul",
+    "image": "assets/img/recipes/maftoul.jpg",
+    "short_description": "Palestinian giant couscous pearls, hand-rolled from bulgur and flour, served with a hearty chicken and chickpea stew. This labor of love is typically prepared for special occasions.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "maftoul (Palestinian couscous)", "amount": 400, "unit": "g" },
+      { "name": "chicken thighs", "amount": 6, "unit": "pc" },
+      { "name": "chickpeas (cooked)", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "carrots", "amount": 2, "unit": "pc" },
+      { "name": "cinnamon stick", "amount": 1, "unit": "pc" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "chicken broth", "amount": 1, "unit": "L" }
+    ],
+    "steps": [
+      "Brown chicken thighs in olive oil, set aside.",
+      "Sauté onion until golden in the same pot.",
+      "Add spices and cook until fragrant.",
+      "Return chicken, add broth, and simmer for 40 minutes.",
+      "Add carrots and chickpeas, continue cooking.",
+      "Meanwhile, steam maftoul until tender (about 20 minutes).",
+      "Fluff maftoul with olive oil and salt.",
+      "Serve maftoul in bowls, topped with chicken and vegetables.",
+      "Ladle broth over everything.",
+      "Serve with extra broth on the side."
+    ],
+    "cooking_tips": [
+      "Maftoul can be found in Middle Eastern stores or online.",
+      "The grains should be separate and fluffy, not mushy.",
+      "Squeeze lemon over before eating for brightness."
+    ],
+    "difficulty": "medium",
+    "tags": ["palestinian", "couscous", "chicken", "chickpeas", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 55
+    },
+    "nutrition_benefits": "Chickpeas add fiber and plant protein. The combination of grains and legumes provides complete protein. Warming spices aid digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "ps-knafeh",
+    "slug": "knafeh-nablusia",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Knafeh Nablusia",
+    "image": "assets/img/recipes/knafeh-nablusia.jpg",
+    "short_description": "The legendary Palestinian cheese dessert from Nablus, featuring crispy shredded phyllo pastry and stretchy cheese, soaked in sweet syrup and colored with orange food coloring.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      { "name": "kataifi (shredded phyllo)", "amount": 500, "unit": "g" },
+      { "name": "Nabulsi or mozzarella cheese", "amount": 500, "unit": "g" },
+      { "name": "butter", "amount": 200, "unit": "g" },
+      { "name": "sugar", "amount": 400, "unit": "g" },
+      { "name": "water", "amount": 300, "unit": "ml" },
+      { "name": "orange food coloring", "amount": 1, "unit": "tsp" },
+      { "name": "rose water", "amount": 1, "unit": "tbsp" },
+      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
+      { "name": "crushed pistachios", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Make syrup: boil sugar and water until dissolved, add lemon juice.",
+      "Simmer 10 minutes, add rose water, cool completely.",
+      "Mix shredded pastry with melted butter and food coloring.",
+      "If using Nabulsi cheese, soak in water to remove salt.",
+      "Press half the pastry into a round pan.",
+      "Slice or crumble cheese evenly over pastry.",
+      "Top with remaining pastry, pressing down firmly.",
+      "Bake at 180°C (350°F) for 25-30 minutes until golden.",
+      "Flip onto serving plate immediately.",
+      "Pour cold syrup over hot knafeh.",
+      "Sprinkle with crushed pistachios and serve warm."
+    ],
+    "cooking_tips": [
+      "The syrup must be cold when poured on hot knafeh.",
+      "Traditional Nabulsi cheese stretches beautifully.",
+      "Best served immediately while cheese is still stretchy."
+    ],
+    "difficulty": "medium",
+    "tags": ["palestinian", "dessert", "cheese", "sweet", "traditional", "nablus"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 10,
+      "fat_g": 20,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Cheese provides calcium and protein. Rose water has calming properties. A rich treat best enjoyed on special occasions.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ps-mansaf",
+    "slug": "mansaf",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Mansaf",
+    "image": "assets/img/recipes/mansaf.jpg",
+    "short_description": "A festive Levantine rice and lamb dish served in fermented dried yogurt (jameed) sauce. This ceremonial dish is traditionally served at weddings and important gatherings.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 1.5, "unit": "kg" },
+      { "name": "basmati rice", "amount": 500, "unit": "g" },
+      { "name": "jameed (dried yogurt)", "amount": 400, "unit": "g" },
+      { "name": "pine nuts", "amount": 100, "unit": "g" },
+      { "name": "almonds", "amount": 50, "unit": "g" },
+      { "name": "shrak bread", "amount": 4, "unit": "sheets" },
+      { "name": "allspice", "amount": 1, "unit": "tbsp" },
+      { "name": "turmeric", "amount": 1, "unit": "tsp" },
+      { "name": "ghee", "amount": 4, "unit": "tbsp" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak jameed in water for several hours, then blend until smooth.",
+      "Boil lamb with spices until very tender, about 1.5 hours.",
+      "Reserve broth and shred some meat.",
+      "Heat jameed sauce, add some lamb broth, simmer 30 minutes.",
+      "Cook rice in remaining broth until fluffy.",
+      "Toast pine nuts and almonds in ghee.",
+      "Line a large platter with shrak bread.",
+      "Layer rice over bread, then lamb pieces.",
+      "Pour jameed sauce over everything.",
+      "Garnish with toasted nuts.",
+      "Traditionally eaten with the right hand in a group."
+    ],
+    "cooking_tips": [
+      "Jameed can be found at Middle Eastern stores.",
+      "The sauce should be tangy and creamy.",
+      "Traditionally served on a large communal platter."
+    ],
+    "difficulty": "hard",
+    "tags": ["palestinian", "lamb", "rice", "festive", "traditional", "ceremonial"],
+    "nutrition": {
+      "per_serving_kcal": 680,
+      "protein_g": 42,
+      "fat_g": 32,
+      "carbs_g": 55
+    },
+    "nutrition_benefits": "Lamb is rich in iron and B12. Jameed provides probiotics from fermentation. A complete celebratory meal with protein, carbs, and fats.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  }
+]

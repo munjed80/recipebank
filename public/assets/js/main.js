@@ -1,6 +1,7 @@
 /**
  * RecipeBank - Main JavaScript
  * Shared utilities and navigation functionality
+ * Optimized for performance with caching and minimal DOM operations
  */
 
 // Configuration
@@ -135,36 +136,74 @@ async function getCountries() {
 }
 
 /**
- * Country flag emojis mapping
+ * Country flag emojis and names mapping
+ * Single source of truth for all country data
  */
-const COUNTRY_FLAGS = {
-  italy: '🇮🇹',
-  india: '🇮🇳',
-  japan: '🇯🇵',
-  mexico: '🇲🇽',
-  syria: '🇸🇾',
-  turkey: '🇹🇷',
-  france: '🇫🇷',
-  thailand: '🇹🇭',
-  morocco: '🇲🇦',
-  lebanon: '🇱🇧',
-  china: '🇨🇳',
-  greece: '🇬🇷',
-  spain: '🇪🇸',
-  korea: '🇰🇷',
-  vietnam: '🇻🇳',
-  brazil: '🇧🇷',
-  ethiopia: '🇪🇹',
-  peru: '🇵🇪',
-  indonesia: '🇮🇩',
-  egypt: '🇪🇬'
+const COUNTRY_DATA = {
+  italy: { flag: '🇮🇹', name: 'Italy' },
+  india: { flag: '🇮🇳', name: 'India' },
+  japan: { flag: '🇯🇵', name: 'Japan' },
+  mexico: { flag: '🇲🇽', name: 'Mexico' },
+  syria: { flag: '🇸🇾', name: 'Syria' },
+  turkey: { flag: '🇹🇷', name: 'Turkey' },
+  france: { flag: '🇫🇷', name: 'France' },
+  thailand: { flag: '🇹🇭', name: 'Thailand' },
+  morocco: { flag: '🇲🇦', name: 'Morocco' },
+  lebanon: { flag: '🇱🇧', name: 'Lebanon' },
+  china: { flag: '🇨🇳', name: 'China' },
+  greece: { flag: '🇬🇷', name: 'Greece' },
+  spain: { flag: '🇪🇸', name: 'Spain' },
+  korea: { flag: '🇰🇷', name: 'Korea' },
+  vietnam: { flag: '🇻🇳', name: 'Vietnam' },
+  brazil: { flag: '🇧🇷', name: 'Brazil' },
+  ethiopia: { flag: '🇪🇹', name: 'Ethiopia' },
+  peru: { flag: '🇵🇪', name: 'Peru' },
+  indonesia: { flag: '🇮🇩', name: 'Indonesia' },
+  egypt: { flag: '🇪🇬', name: 'Egypt' },
+  yemen: { flag: '🇾🇪', name: 'Yemen' },
+  'saudi-arabia': { flag: '🇸🇦', name: 'Saudi Arabia' },
+  algeria: { flag: '🇩🇿', name: 'Algeria' },
+  tunisia: { flag: '🇹🇳', name: 'Tunisia' },
+  palestine: { flag: '🇵🇸', name: 'Palestine' },
+  scandinavia: { flag: '🇸🇪', name: 'Scandinavia' },
+  armenia: { flag: '🇦🇲', name: 'Armenia' },
+  russia: { flag: '🇷🇺', name: 'Russia' },
+  uzbekistan: { flag: '🇺🇿', name: 'Uzbekistan' },
+  'united-states': { flag: '🇺🇸', name: 'United States' }
 };
+
+// Legacy COUNTRY_FLAGS map for backwards compatibility
+const COUNTRY_FLAGS = Object.fromEntries(
+  Object.entries(COUNTRY_DATA).map(([slug, data]) => [slug, data.flag])
+);
 
 /**
  * Get flag emoji for a country
  */
 function getCountryFlag(countrySlug) {
-  return COUNTRY_FLAGS[countrySlug] || '🌍';
+  return COUNTRY_DATA[countrySlug]?.flag || '🌍';
+}
+
+/**
+ * Get country name from slug
+ */
+function getCountryName(countrySlug) {
+  return COUNTRY_DATA[countrySlug]?.name || 
+    countrySlug.charAt(0).toUpperCase() + countrySlug.slice(1).replace(/-/g, ' ');
+}
+
+/**
+ * Optimized debounce function
+ * @param {Function} func - Function to debounce
+ * @param {number} wait - Milliseconds to wait
+ * @returns {Function} Debounced function
+ */
+function debounce(func, wait) {
+  let timeout;
+  return function executedFunction(...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), wait);
+  };
 }
 
 /**
@@ -312,6 +351,7 @@ function setActiveNavLink() {
 
 /**
  * Initialize global search functionality
+ * Optimized with debounce and cached recipes
  */
 function initGlobalSearch() {
   const searchInput = document.getElementById('global-search');
@@ -320,34 +360,33 @@ function initGlobalSearch() {
   if (!searchInput) return;
   
   let allRecipes = [];
-  let debounceTimer;
   
-  // Load recipes
+  // Load recipes once
   fetchRecipes().then(recipes => {
     allRecipes = recipes;
   });
   
-  // Handle search input
-  searchInput.addEventListener('input', (e) => {
-    clearTimeout(debounceTimer);
-    const query = e.target.value.trim();
-    
+  // Debounced search handler
+  const handleSearch = debounce((query) => {
     if (query.length < 2) {
       if (searchResults) searchResults.innerHTML = '';
       searchResults?.classList.remove('show');
       return;
     }
     
-    debounceTimer = setTimeout(() => {
-      const results = window.RecipeSearch ? 
-        window.RecipeSearch.search(allRecipes, query) :
-        allRecipes.filter(r => r.name_en.toLowerCase().includes(query.toLowerCase()));
-      
-      displaySearchResults(results.slice(0, 5), searchResults);
-    }, 300);
+    const results = window.RecipeSearch ? 
+      window.RecipeSearch.search(allRecipes, query) :
+      allRecipes.filter(r => r.name_en.toLowerCase().includes(query.toLowerCase()));
+    
+    displaySearchResults(results.slice(0, 5), searchResults);
+  }, 250);
+  
+  // Handle search input
+  searchInput.addEventListener('input', (e) => {
+    handleSearch(e.target.value.trim());
   });
   
-  // Close results when clicking outside
+  // Close results when clicking outside (use event delegation)
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.global-search-wrapper')) {
       searchResults?.classList.remove('show');
@@ -356,7 +395,7 @@ function initGlobalSearch() {
 }
 
 /**
- * Display search results in dropdown
+ * Display search results in dropdown with rich card format
  */
 function displaySearchResults(results, container) {
   if (!container) return;
@@ -371,13 +410,39 @@ function displaySearchResults(results, container) {
     const isFav = window.Favorites ? window.Favorites.isFavorite(recipe.slug) : false;
     const favIcon = isFav ? ' ❤️' : '';
     
+    // Get classification badges
+    const { mealTypeBadge, dietaryBadge } = getClassificationBadges(recipe);
+    
+    // Truncate description for search results
+    const shortDesc = recipe.short_description.length > 100 
+      ? recipe.short_description.substring(0, 100) + '...'
+      : recipe.short_description;
+    
+    // Get top tags (max 3)
+    const tagsHtml = recipe.tags.slice(0, 3).map(tag => 
+      `<span class="search-result-tag">${tag}</span>`
+    ).join('');
+    
+    // Calculate total time
+    const totalTime = (recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0);
+    
     return `
-      <a href="${CONFIG.basePath}/public/recipes/recipe.html?slug=${recipe.slug}" class="search-result-item">
-        <div class="search-result-icon">🍽️</div>
-        <div class="search-result-info">
+      <a href="${CONFIG.basePath}/public/recipes/recipe.html?slug=${recipe.slug}" class="search-result-card">
+        <div class="search-result-header">
+          <span class="search-result-flag">${getCountryFlag(recipe.country_slug)}</span>
           <span class="search-result-name">${recipe.name_en}${favIcon}</span>
-          <span class="search-result-meta">${getCountryFlag(recipe.country_slug)} ${recipe.country} • ${recipe.difficulty}</span>
         </div>
+        <p class="search-result-desc">${shortDesc}</p>
+        <div class="search-result-badges">
+          ${mealTypeBadge}
+          ${dietaryBadge}
+        </div>
+        <div class="search-result-meta">
+          <span class="search-result-country">${recipe.country}</span>
+          <span class="search-result-time">⏱️ ${formatTime(totalTime)}</span>
+          <span class="search-result-difficulty">${recipe.difficulty}</span>
+        </div>
+        <div class="search-result-tags">${tagsHtml}</div>
       </a>
     `;
   }).join('');
@@ -405,9 +470,12 @@ window.RecipeBank = {
   getRecipeById,
   getCountries,
   getCountryFlag,
+  getCountryName,
   formatTime,
   getDifficultyClass,
   getClassificationBadges,
   createRecipeCard,
+  debounce,
+  COUNTRY_DATA,
   CONFIG
 };

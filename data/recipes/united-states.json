@@ -1,0 +1,270 @@
+[
+  {
+    "id": "us-mac-cheese",
+    "slug": "mac-and-cheese",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Southern Mac and Cheese",
+    "image": "assets/img/recipes/mac-and-cheese.jpg",
+    "short_description": "The ultimate American comfort food - creamy, cheesy pasta baked until golden and bubbling. This Southern-style version uses a blend of cheeses for the richest, most indulgent result.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 35,
+    "servings": 8,
+    "ingredients": [
+      { "name": "elbow macaroni", "amount": 450, "unit": "g" },
+      { "name": "sharp cheddar cheese", "amount": 400, "unit": "g" },
+      { "name": "mild cheddar cheese", "amount": 200, "unit": "g" },
+      { "name": "butter", "amount": 60, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 45, "unit": "g" },
+      { "name": "whole milk", "amount": 600, "unit": "ml" },
+      { "name": "heavy cream", "amount": 200, "unit": "ml" },
+      { "name": "eggs", "amount": 2, "unit": "pc" },
+      { "name": "dry mustard", "amount": 1, "unit": "tsp" },
+      { "name": "cayenne pepper", "amount": 0.5, "unit": "tsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook macaroni until just al dente, drain.",
+      "Melt butter in a large pot, whisk in flour.",
+      "Cook roux for 2 minutes until golden.",
+      "Gradually whisk in milk and cream until smooth.",
+      "Simmer until thickened, about 5 minutes.",
+      "Remove from heat, stir in most of the cheese until melted.",
+      "Beat eggs, temper with some hot sauce, then stir into pot.",
+      "Add mustard, cayenne, salt, and pepper.",
+      "Fold in cooked macaroni.",
+      "Pour into buttered baking dish.",
+      "Top with remaining cheese.",
+      "Bake at 180°C (350°F) for 30 minutes until bubbly and golden."
+    ],
+    "cooking_tips": [
+      "Use a mix of cheese for depth of flavor.",
+      "The eggs make the texture extra creamy.",
+      "Let rest 5 minutes before serving for best texture."
+    ],
+    "difficulty": "medium",
+    "tags": ["american", "comfort-food", "cheese", "pasta", "southern", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 24,
+      "fat_g": 35,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "High in calcium and protein from cheese. Provides energy from carbohydrates. An indulgent treat best enjoyed in moderation.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "us-bbq-ribs",
+    "slug": "bbq-ribs",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "BBQ Baby Back Ribs",
+    "image": "assets/img/recipes/bbq-ribs.jpg",
+    "short_description": "Fall-off-the-bone tender pork ribs slathered in tangy-sweet BBQ sauce. This American BBQ classic features a spice rub and slow cooking for maximum flavor and tenderness.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 4,
+    "ingredients": [
+      { "name": "baby back ribs", "amount": 2, "unit": "racks" },
+      { "name": "brown sugar", "amount": 60, "unit": "g" },
+      { "name": "paprika", "amount": 2, "unit": "tbsp" },
+      { "name": "garlic powder", "amount": 1, "unit": "tbsp" },
+      { "name": "onion powder", "amount": 1, "unit": "tbsp" },
+      { "name": "chili powder", "amount": 1, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "BBQ sauce", "amount": 300, "unit": "ml" },
+      { "name": "apple cider vinegar", "amount": 60, "unit": "ml" },
+      { "name": "salt and pepper", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Remove membrane from back of ribs.",
+      "Mix brown sugar with all dry spices for the rub.",
+      "Coat ribs generously with the spice rub.",
+      "Let sit at room temperature for 30 minutes.",
+      "Wrap ribs tightly in foil with a splash of vinegar.",
+      "Bake at 150°C (300°F) for 2.5 hours.",
+      "Unwrap ribs and increase oven to 200°C (400°F).",
+      "Brush generously with BBQ sauce.",
+      "Bake uncovered for 20-30 minutes, basting twice.",
+      "Let rest 10 minutes before cutting.",
+      "Serve with extra sauce on the side."
+    ],
+    "cooking_tips": [
+      "Removing the membrane is essential for tenderness.",
+      "Low and slow is the key to fall-off-the-bone ribs.",
+      "Make your own BBQ sauce for best results."
+    ],
+    "difficulty": "medium",
+    "tags": ["american", "bbq", "pork", "ribs", "summer", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 680,
+      "protein_g": 45,
+      "fat_g": 45,
+      "carbs_g": 25
+    },
+    "nutrition_benefits": "High in protein and B vitamins from pork. The slow cooking makes the meat easy to digest. A celebratory meal for special occasions.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "us-clam-chowder",
+    "slug": "clam-chowder",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "New England Clam Chowder",
+    "image": "assets/img/recipes/clam-chowder.jpg",
+    "short_description": "A rich, creamy soup from New England featuring tender clams, diced potatoes, and smoky bacon in a velvety broth. This iconic regional dish warms hearts on cold coastal days.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      { "name": "fresh clams", "amount": 1.5, "unit": "kg" },
+      { "name": "bacon", "amount": 150, "unit": "g" },
+      { "name": "potatoes", "amount": 4, "unit": "medium" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "celery stalks", "amount": 2, "unit": "pc" },
+      { "name": "butter", "amount": 45, "unit": "g" },
+      { "name": "flour", "amount": 45, "unit": "g" },
+      { "name": "heavy cream", "amount": 400, "unit": "ml" },
+      { "name": "bay leaves", "amount": 2, "unit": "pc" },
+      { "name": "fresh thyme", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Steam clams until opened, reserve liquid. Chop clam meat.",
+      "Dice bacon and fry until crispy, set aside.",
+      "In bacon fat, sauté onion and celery until soft.",
+      "Add butter, then flour to make a roux.",
+      "Gradually add clam liquid (strained) and water.",
+      "Add diced potatoes, bay leaves, and thyme.",
+      "Simmer until potatoes are tender.",
+      "Stir in cream and chopped clams.",
+      "Heat through but don't boil.",
+      "Season with salt and white pepper.",
+      "Serve in bread bowls with crispy bacon on top."
+    ],
+    "cooking_tips": [
+      "Use fresh clams for the best flavor.",
+      "White pepper is traditional - it doesn't show in the cream.",
+      "Bread bowls make it extra special."
+    ],
+    "difficulty": "medium",
+    "tags": ["american", "soup", "seafood", "clams", "new-england", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 22,
+      "fat_g": 30,
+      "carbs_g": 25
+    },
+    "nutrition_benefits": "Clams are rich in iron, B12, and zinc. The cream provides calcium. A hearty, satisfying meal perfect for cold weather.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "us-buttermilk-pancakes",
+    "slug": "buttermilk-pancakes",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Fluffy Buttermilk Pancakes",
+    "image": "assets/img/recipes/buttermilk-pancakes.jpg",
+    "short_description": "Quintessential American breakfast pancakes that are impossibly fluffy and light. The buttermilk creates a tender crumb while adding a subtle tang that pairs perfectly with maple syrup.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 250, "unit": "g" },
+      { "name": "buttermilk", "amount": 350, "unit": "ml" },
+      { "name": "eggs", "amount": 2, "unit": "pc" },
+      { "name": "butter", "amount": 60, "unit": "g" },
+      { "name": "sugar", "amount": 30, "unit": "g" },
+      { "name": "baking powder", "amount": 2, "unit": "tsp" },
+      { "name": "baking soda", "amount": 1, "unit": "tsp" },
+      { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+      { "name": "maple syrup", "amount": 120, "unit": "ml" },
+      { "name": "salt", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Mix flour, sugar, baking powder, baking soda, and salt.",
+      "In another bowl, whisk buttermilk, eggs, melted butter, and vanilla.",
+      "Pour wet ingredients into dry and mix until just combined.",
+      "Don't overmix - lumps are okay!",
+      "Let batter rest 5 minutes.",
+      "Heat a griddle or pan over medium heat.",
+      "Lightly butter the cooking surface.",
+      "Pour ¼ cup batter per pancake.",
+      "Cook until bubbles form and edges set.",
+      "Flip and cook until golden.",
+      "Serve stacked with butter and warm maple syrup."
+    ],
+    "cooking_tips": [
+      "Lumpy batter makes the fluffiest pancakes.",
+      "Wait for bubbles before flipping.",
+      "Keep cooked pancakes warm in a low oven."
+    ],
+    "difficulty": "easy",
+    "tags": ["american", "breakfast", "pancakes", "brunch", "classic"],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 60
+    },
+    "nutrition_benefits": "A hearty breakfast providing energy for the day. Eggs add protein. Pair with fruit for added nutrition.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "us-apple-pie",
+    "slug": "apple-pie",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Classic Apple Pie",
+    "image": "assets/img/recipes/apple-pie.jpg",
+    "short_description": "The iconic American dessert - a buttery, flaky crust filled with cinnamon-spiced apples. Nothing says home quite like a warm slice of apple pie, especially with a scoop of vanilla ice cream.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 55,
+    "servings": 8,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 350, "unit": "g" },
+      { "name": "cold butter", "amount": 230, "unit": "g" },
+      { "name": "ice water", "amount": 80, "unit": "ml" },
+      { "name": "apples (mixed varieties)", "amount": 1.2, "unit": "kg" },
+      { "name": "sugar", "amount": 150, "unit": "g" },
+      { "name": "cinnamon", "amount": 2, "unit": "tsp" },
+      { "name": "nutmeg", "amount": 0.25, "unit": "tsp" },
+      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
+      { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
+      { "name": "egg", "amount": 1, "unit": "pc" }
+    ],
+    "steps": [
+      "Make crust: pulse flour, salt, and cold butter until pea-sized.",
+      "Add ice water and form into two disks. Chill 1 hour.",
+      "Peel, core, and slice apples thinly.",
+      "Toss apples with sugar, spices, lemon juice, and cornstarch.",
+      "Roll one disk and fit into 9-inch pie dish.",
+      "Add apple filling, mounding in center.",
+      "Roll second disk for top crust. Cut vents.",
+      "Place over filling, crimp edges decoratively.",
+      "Brush with beaten egg.",
+      "Bake at 220°C (425°F) for 15 minutes.",
+      "Reduce to 180°C (350°F) and bake 40 more minutes.",
+      "Cool before slicing. Serve with ice cream."
+    ],
+    "cooking_tips": [
+      "Use a mix of sweet and tart apples.",
+      "Keep butter very cold for flaky crust.",
+      "Shield edges with foil if browning too fast."
+    ],
+    "difficulty": "hard",
+    "tags": ["american", "dessert", "apple", "pie", "baking", "classic"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 5,
+      "fat_g": 22,
+      "carbs_g": 54
+    },
+    "nutrition_benefits": "Apples provide fiber and vitamin C. The spices have anti-inflammatory properties. A beloved treat for celebrations.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  }
+]

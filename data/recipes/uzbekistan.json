@@ -1,0 +1,268 @@
+[
+  {
+    "id": "uz-plov",
+    "slug": "plov",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Uzbek Plov",
+    "image": "assets/img/recipes/plov.jpg",
+    "short_description": "The crown jewel of Uzbek cuisine - fragrant rice cooked with tender lamb, carrots, and aromatic spices. This ceremonial dish is prepared in a large kazan and is central to all Uzbek celebrations.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 1, "unit": "kg" },
+      { "name": "long-grain rice", "amount": 700, "unit": "g" },
+      { "name": "carrots", "amount": 700, "unit": "g" },
+      { "name": "onions", "amount": 3, "unit": "large" },
+      { "name": "vegetable oil", "amount": 200, "unit": "ml" },
+      { "name": "cumin seeds", "amount": 2, "unit": "tbsp" },
+      { "name": "coriander seeds", "amount": 1, "unit": "tbsp" },
+      { "name": "whole garlic heads", "amount": 2, "unit": "pc" },
+      { "name": "dried barberries", "amount": 50, "unit": "g" },
+      { "name": "salt", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Soak rice in warm salted water for at least 1 hour.",
+      "Cut lamb into large chunks, slice carrots into matchsticks.",
+      "Heat oil in a kazan or heavy pot until very hot.",
+      "Brown lamb pieces on all sides, remove.",
+      "Fry onions until deeply caramelized.",
+      "Return meat, add carrots, and cook 10 minutes.",
+      "Add spices, salt, and water to cover by 2 inches.",
+      "Nestle whole garlic heads into the meat.",
+      "Simmer until meat is nearly tender.",
+      "Drain rice and spread evenly over the meat.",
+      "Add hot water to just cover rice.",
+      "Cover tightly and cook without stirring until rice is done.",
+      "Let rest, then gently mix and mound on platter."
+    ],
+    "cooking_tips": [
+      "The order of layering is crucial - never stir once rice is added.",
+      "High heat at the start creates the 'zirvak' flavor base.",
+      "Barberries add a distinctive tartness."
+    ],
+    "difficulty": "hard",
+    "tags": ["uzbek", "plov", "rice", "lamb", "festive", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 680,
+      "protein_g": 35,
+      "fat_g": 32,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "A complete meal with protein, carbohydrates, and vegetables. Carrots provide beta-carotene. The spices aid digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "uz-shashlik",
+    "slug": "uzbek-shashlik",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Uzbek Shashlik",
+    "image": "assets/img/recipes/shashlik.jpg",
+    "short_description": "Succulent marinated lamb kebabs grilled over charcoal, a cornerstone of Uzbek outdoor dining. Served with raw onions, fresh herbs, and warm bread, it's a carnivore's delight.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      { "name": "lamb leg or shoulder", "amount": 1, "unit": "kg" },
+      { "name": "onions", "amount": 4, "unit": "large" },
+      { "name": "vinegar", "amount": 3, "unit": "tbsp" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "coriander", "amount": 1, "unit": "tsp" },
+      { "name": "lamb fat", "amount": 100, "unit": "g" },
+      { "name": "salt", "amount": 2, "unit": "tsp" },
+      { "name": "black pepper", "amount": 1, "unit": "tsp" },
+      { "name": "fresh herbs", "amount": 1, "unit": "bunch" }
+    ],
+    "steps": [
+      "Cut lamb into 2-inch cubes with some fat attached.",
+      "Grate 2 onions and mix with vinegar and spices.",
+      "Marinate meat for at least 4 hours, preferably overnight.",
+      "Cut lamb fat into small pieces for skewering between meat.",
+      "Thread meat and fat alternately on wide flat skewers.",
+      "Prepare a charcoal grill with hot coals.",
+      "Grill skewers, turning frequently, until charred outside.",
+      "Meat should be slightly pink inside.",
+      "Slice remaining onions into rings.",
+      "Serve immediately with raw onion and fresh herbs.",
+      "Accompany with warm flatbread."
+    ],
+    "cooking_tips": [
+      "The lamb fat is essential for flavor and moisture.",
+      "Wide flat skewers prevent meat from spinning.",
+      "Let the charcoal form a white ash before grilling."
+    ],
+    "difficulty": "medium",
+    "tags": ["uzbek", "kebab", "lamb", "grilled", "bbq", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 35,
+      "carbs_g": 5
+    },
+    "nutrition_benefits": "High in protein and iron from lamb. Grilling keeps the dish relatively lean. Raw onions provide prebiotic benefits.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "uz-manti",
+    "slug": "manti",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Manti",
+    "image": "assets/img/recipes/manti.jpg",
+    "short_description": "Large Uzbek steamed dumplings filled with spiced lamb and onion. These generous parcels are steamed in special tiered steamers and served with yogurt and chili oil.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "ground lamb", "amount": 500, "unit": "g" },
+      { "name": "onions", "amount": 3, "unit": "large" },
+      { "name": "lamb fat", "amount": 50, "unit": "g" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "garlic", "amount": 2, "unit": "cloves" },
+      { "name": "dried mint", "amount": 1, "unit": "tsp" },
+      { "name": "chili oil", "amount": 2, "unit": "tbsp" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make a firm dough with flour, salt, and water. Rest 30 minutes.",
+      "Finely dice onions and lamb fat.",
+      "Mix lamb with onions, fat, cumin, and salt.",
+      "Roll dough thin and cut into 10cm squares.",
+      "Place filling in center of each square.",
+      "Bring corners together and pinch to seal.",
+      "Create pleats around the filling.",
+      "Oil steamer trays to prevent sticking.",
+      "Steam for 40-45 minutes until dough is cooked.",
+      "Meanwhile, mix yogurt with garlic and mint.",
+      "Serve hot with yogurt sauce and chili oil drizzle."
+    ],
+    "cooking_tips": [
+      "The dumplings are quite large - about 8cm across.",
+      "Don't rush the steaming - they need full time to cook through.",
+      "Make extra and freeze before steaming."
+    ],
+    "difficulty": "hard",
+    "tags": ["uzbek", "dumplings", "lamb", "steamed", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 25,
+      "fat_g": 22,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Steaming is a healthy cooking method. Lamb provides iron and B12. Yogurt adds calcium and probiotics.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "uz-lagman",
+    "slug": "lagman",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Lagman",
+    "image": "assets/img/recipes/lagman.jpg",
+    "short_description": "Hand-pulled noodles in a rich lamb and vegetable broth, reflecting the Silk Road fusion of Chinese and Central Asian cuisines. The chewy noodles swim in a spiced, savory soup.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "lamb", "amount": 400, "unit": "g" },
+      { "name": "tomatoes", "amount": 3, "unit": "pc" },
+      { "name": "bell peppers", "amount": 2, "unit": "pc" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "radish", "amount": 1, "unit": "large" },
+      { "name": "celery", "amount": 2, "unit": "stalks" },
+      { "name": "garlic", "amount": 4, "unit": "cloves" },
+      { "name": "vegetable oil", "amount": 4, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "star anise", "amount": 2, "unit": "pc" }
+    ],
+    "steps": [
+      "Make a smooth dough, rest covered for 1 hour.",
+      "Coat dough with oil and stretch into thin ropes.",
+      "Let noodles rest while making the sauce.",
+      "Cut lamb into small pieces, brown in oil.",
+      "Add diced onion, cook until soft.",
+      "Add chopped vegetables and garlic.",
+      "Add tomatoes, spices, and water to make a brothy sauce.",
+      "Simmer until vegetables are tender.",
+      "Boil water, stretch noodles further by hand.",
+      "Cook noodles until chewy, drain.",
+      "Serve noodles in bowls topped with the lamb sauce."
+    ],
+    "cooking_tips": [
+      "Hand-pulling takes practice - the dough must be very smooth.",
+      "Store-bought noodles can be substituted.",
+      "The dish should be soupy, not dry."
+    ],
+    "difficulty": "hard",
+    "tags": ["uzbek", "noodles", "lamb", "soup", "silk-road", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 16,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "A balanced meal with protein, carbs, and vegetables. The broth provides hydration. Vegetables add vitamins and fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "uz-samsa",
+    "slug": "samsa",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Samsa",
+    "image": "assets/img/recipes/samsa.jpg",
+    "short_description": "Flaky, triangular meat pastries baked in a tandoor oven. These savory snacks are filled with spiced lamb and onion, with a crispy exterior and juicy interior.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 25,
+    "servings": 12,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "butter or lamb fat", "amount": 150, "unit": "g" },
+      { "name": "ground lamb", "amount": 500, "unit": "g" },
+      { "name": "onions", "amount": 3, "unit": "large" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "black pepper", "amount": 1, "unit": "tsp" },
+      { "name": "sesame seeds", "amount": 2, "unit": "tbsp" },
+      { "name": "egg", "amount": 1, "unit": "pc" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make dough with flour, salt, and cold water. Rest 30 minutes.",
+      "Finely dice onions and mix with lamb, cumin, pepper, and salt.",
+      "Roll dough thin and brush with melted butter.",
+      "Fold and roll multiple times to create layers.",
+      "Cut into squares about 12cm each.",
+      "Place generous filling in center.",
+      "Fold corners to create triangular shape, seal edges.",
+      "Place on baking sheet, brush with beaten egg.",
+      "Sprinkle with sesame seeds.",
+      "Bake at 220°C (425°F) for 20-25 minutes until golden.",
+      "Serve hot as a snack or with soup."
+    ],
+    "cooking_tips": [
+      "The layering technique creates the flaky texture.",
+      "Work with cold butter for best layers.",
+      "Don't overfill or they'll burst while baking."
+    ],
+    "difficulty": "medium",
+    "tags": ["uzbek", "pastry", "lamb", "snack", "baked", "appetizer"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 14,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "A satisfying protein-rich snack. The flaky layers come from butter. Best enjoyed fresh from the oven.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "High Protein"
+  }
+]

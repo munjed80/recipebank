@@ -1,0 +1,261 @@
+[
+  {
+    "id": "am-dolma",
+    "slug": "armenian-dolma",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Dolma",
+    "image": "assets/img/recipes/armenian-dolma.jpg",
+    "short_description": "Armenia's beloved grape leaf rolls stuffed with spiced meat and rice. These tender parcels are simmered in a tangy broth and served with cool yogurt - a dish central to Armenian identity.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 75,
+    "servings": 6,
+    "ingredients": [
+      { "name": "grape leaves (jarred)", "amount": 50, "unit": "leaves" },
+      { "name": "ground lamb", "amount": 400, "unit": "g" },
+      { "name": "ground beef", "amount": 200, "unit": "g" },
+      { "name": "short-grain rice", "amount": 150, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "medium" },
+      { "name": "fresh dill", "amount": 0.5, "unit": "cup" },
+      { "name": "fresh mint", "amount": 0.25, "unit": "cup" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "lemon juice", "amount": 3, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "yogurt", "amount": 200, "unit": "g" }
+    ],
+    "steps": [
+      "Rinse grape leaves, blanch if using fresh, drain well.",
+      "Mix meats with rice, grated onion, herbs, tomato paste, salt, and pepper.",
+      "Lay grape leaf shiny-side down, vein-side up.",
+      "Place 1 tbsp filling near the stem end.",
+      "Fold sides in, then roll tightly.",
+      "Line pot with torn or imperfect leaves.",
+      "Arrange dolmas seam-side down in layers.",
+      "Add lemon juice, olive oil, and water to cover.",
+      "Place a plate on top to prevent unrolling.",
+      "Simmer covered for 1 hour.",
+      "Serve warm or room temperature with yogurt."
+    ],
+    "cooking_tips": [
+      "Don't roll too tight - rice needs room to expand.",
+      "The plate on top is essential for maintaining shape.",
+      "Leftover dolmas taste even better the next day."
+    ],
+    "difficulty": "hard",
+    "tags": ["armenian", "dolma", "grape-leaves", "lamb", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 26,
+      "fat_g": 24,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Grape leaves are rich in antioxidants and vitamins A, C, K. The combination of lamb and beef provides iron and B vitamins. Fresh herbs add digestive benefits.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "am-khorovats",
+    "slug": "khorovats",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Khorovats",
+    "image": "assets/img/recipes/khorovats.jpg",
+    "short_description": "Armenia's legendary barbecue tradition featuring marinated meat grilled over charcoal. More than just food, khorovats is a social ritual that brings families and friends together.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      { "name": "pork shoulder or lamb", "amount": 1, "unit": "kg" },
+      { "name": "onions", "amount": 3, "unit": "large" },
+      { "name": "red wine vinegar", "amount": 3, "unit": "tbsp" },
+      { "name": "vegetable oil", "amount": 4, "unit": "tbsp" },
+      { "name": "fresh basil", "amount": 0.5, "unit": "cup" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "tomatoes", "amount": 4, "unit": "pc" },
+      { "name": "eggplant", "amount": 2, "unit": "medium" },
+      { "name": "bell peppers", "amount": 3, "unit": "pc" },
+      { "name": "salt", "amount": 2, "unit": "tsp" },
+      { "name": "black pepper", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cut meat into 2-inch cubes.",
+      "Grate one onion and mix with vinegar, oil, salt, and pepper.",
+      "Marinate meat for at least 4 hours or overnight.",
+      "Thread meat onto wide flat skewers.",
+      "Slice vegetables for grilling.",
+      "Grill meat over hot charcoal, turning frequently.",
+      "Grill vegetables alongside until charred.",
+      "Slice remaining onions into rings.",
+      "Serve meat with grilled vegetables, fresh herbs, and raw onion.",
+      "Accompany with lavash bread and fresh herbs."
+    ],
+    "cooking_tips": [
+      "Flat skewers prevent meat from spinning when turning.",
+      "The charcoal fire should be hot with no flames.",
+      "Don't over-marinate pork - 4-6 hours is ideal."
+    ],
+    "difficulty": "medium",
+    "tags": ["armenian", "bbq", "grilled", "pork", "lamb", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High-protein meal with grilled vegetables for vitamins. Charcoal grilling adds no extra fat. Fresh herbs provide antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "am-harissa",
+    "slug": "armenian-harissa",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Harissa",
+    "image": "assets/img/recipes/armenian-harissa.jpg",
+    "short_description": "A sacred Armenian dish of slowly cooked wheat and meat, beaten to a porridge-like consistency. This ancient comfort food has ceremonial significance and is traditionally prepared for Easter.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 480,
+    "servings": 8,
+    "ingredients": [
+      { "name": "whole wheat berries", "amount": 500, "unit": "g" },
+      { "name": "lamb shoulder", "amount": 1, "unit": "kg" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "salt", "amount": 2, "unit": "tsp" },
+      { "name": "water", "amount": 4, "unit": "L" }
+    ],
+    "steps": [
+      "Soak wheat overnight, drain.",
+      "Place lamb and wheat in a large pot.",
+      "Cover with water and bring to boil.",
+      "Reduce heat and simmer for 6-8 hours.",
+      "Stir frequently to prevent sticking.",
+      "When meat falls off the bone, remove bones.",
+      "Beat vigorously with a wooden paddle.",
+      "Continue cooking and beating until smooth and porridge-like.",
+      "The mixture should be thick and homogeneous.",
+      "Serve in bowls with melted butter pooled on top.",
+      "Traditionally eaten with hands, scooping with bread."
+    ],
+    "cooking_tips": [
+      "Low and slow is the key - don't rush the process.",
+      "The beating is essential for proper texture.",
+      "Traditionally cooked overnight in large communal pots."
+    ],
+    "difficulty": "hard",
+    "tags": ["armenian", "porridge", "wheat", "lamb", "traditional", "ceremonial", "easter"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Whole wheat provides fiber and B vitamins. Slow-cooked lamb is easy to digest. A sustaining, comforting meal rich in nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "am-lahmajun",
+    "slug": "armenian-lahmajun",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Lahmajun",
+    "image": "assets/img/recipes/armenian-lahmajun.jpg",
+    "short_description": "Paper-thin flatbread topped with spiced minced meat, vegetables, and herbs. Often called Armenian pizza, this crispy creation is rolled up with fresh vegetables and herbs.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 10,
+    "servings": 8,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "ground lamb or beef", "amount": 400, "unit": "g" },
+      { "name": "tomatoes", "amount": 2, "unit": "medium" },
+      { "name": "green bell pepper", "amount": 1, "unit": "pc" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "paprika", "amount": 1, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "Aleppo pepper", "amount": 1, "unit": "tsp" },
+      { "name": "lemon", "amount": 1, "unit": "pc" }
+    ],
+    "steps": [
+      "Make a simple dough with flour, salt, and water. Rest 30 minutes.",
+      "Finely mince all vegetables and herbs.",
+      "Mix meat with vegetables, tomato paste, and spices.",
+      "The topping should be spreadable but not wet.",
+      "Divide dough into 8 balls.",
+      "Roll each very thin, almost translucent.",
+      "Spread a thin layer of meat topping to edges.",
+      "Bake at 250°C (480°F) for 5-7 minutes until edges crisp.",
+      "Serve immediately with lemon wedges and fresh vegetables.",
+      "Roll up with herbs, onion, and squeeze of lemon to eat."
+    ],
+    "cooking_tips": [
+      "The thinner the dough, the crispier the result.",
+      "The topping should be thin - don't overload.",
+      "Must be eaten immediately while crispy."
+    ],
+    "difficulty": "medium",
+    "tags": ["armenian", "flatbread", "lamb", "quick", "lunch", "street-food"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 16,
+      "fat_g": 12,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "A balanced meal with protein from meat and carbs from thin bread. Fresh vegetables add fiber and vitamins. Lemon juice aids iron absorption.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "am-gata",
+    "slug": "gata",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Gata",
+    "image": "assets/img/recipes/gata.jpg",
+    "short_description": "A beloved Armenian sweet bread filled with a buttery sugar and flour mixture called khoriz. Often decorated with traditional patterns, gata is essential for celebrations and holidays.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 35,
+    "servings": 12,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "butter", "amount": 200, "unit": "g" },
+      { "name": "sour cream", "amount": 200, "unit": "g" },
+      { "name": "sugar", "amount": 200, "unit": "g" },
+      { "name": "egg yolks", "amount": 2, "unit": "pc" },
+      { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+      { "name": "baking powder", "amount": 1, "unit": "tsp" },
+      { "name": "egg for glazing", "amount": 1, "unit": "pc" }
+    ],
+    "steps": [
+      "Make dough: mix flour, half the soft butter, sour cream, 1 yolk, vanilla, and baking powder.",
+      "Knead until smooth, refrigerate 1 hour.",
+      "Make khoriz filling: mix remaining butter with sugar and 3 tbsp flour.",
+      "Divide dough into portions.",
+      "Roll each into a circle.",
+      "Spread khoriz filling in center.",
+      "Fold edges to center, then roll gently into a round.",
+      "Score decorative pattern on top with fork.",
+      "Brush with beaten egg.",
+      "Bake at 180°C (350°F) for 30-35 minutes until golden.",
+      "Cool before slicing - the filling will be molten when hot."
+    ],
+    "cooking_tips": [
+      "The khoriz should be cold but spreadable.",
+      "Traditional patterns have regional variations.",
+      "Gata keeps well for several days."
+    ],
+    "difficulty": "medium",
+    "tags": ["armenian", "dessert", "sweet-bread", "festive", "traditional", "holiday"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 5,
+      "fat_g": 18,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "A rich treat providing quick energy. Sour cream adds calcium. Best enjoyed in moderation as a special occasion dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  }
+]
