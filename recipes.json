@@ -10378,5 +10378,2579 @@
     "nutrition_benefits": "Apples provide fiber and vitamin C. The spices have anti-inflammatory properties. A beloved treat for celebrations.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-masgouf",
+    "slug": "masgouf",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Masgouf",
+    "image": "assets/img/recipes/masgouf.jpg",
+    "short_description": "Iraq's national dish featuring freshwater carp butterflied and slow-grilled over an open flame with tamarind and tomato. This ancient Mesopotamian specialty showcases the country's riverine culinary traditions along the Tigris and Euphrates.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole carp or similar freshwater fish",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "curry powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Clean the fish thoroughly and butterfly it by cutting along the belly, keeping the back intact.",
+      "Open the fish flat and score the flesh diagonally to allow seasonings to penetrate.",
+      "Mix tamarind paste, tomato paste, olive oil, turmeric, curry powder, and salt into a marinade.",
+      "Generously coat the fish with the marinade, ensuring it gets into the scored cuts.",
+      "Prepare a wood or charcoal fire and let it burn down to hot embers.",
+      "Secure the fish on wooden stakes or a special masgouf stand, flesh side facing the fire.",
+      "Grill slowly for 60-90 minutes, adjusting distance from heat as needed.",
+      "Slice tomatoes and onions, placing them around the fish during the last 20 minutes.",
+      "The fish is ready when the flesh is golden and slightly charred at the edges.",
+      "Serve immediately with Iraqi flatbread, pickled vegetables, and fresh salad."
+    ],
+    "cooking_tips": [
+      "Traditional masgouf uses wood from citrus or palm trees for authentic smoky flavor.",
+      "The fish should be positioned about 30cm from the heat source for slow cooking.",
+      "Keep a spray bottle of water nearby to control any flare-ups."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iraqi",
+      "fish",
+      "grilled",
+      "traditional",
+      "dinner",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 45,
+      "fat_g": 22,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Masgouf is rich in omega-3 fatty acids and high-quality protein from freshwater fish. The slow grilling method preserves nutrients while adding no extra fat. Tamarind provides antioxidants and aids digestion, while turmeric offers anti-inflammatory benefits.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "iq-dolma",
+    "slug": "iraqi-dolma",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Dolma",
+    "image": "assets/img/recipes/iraqi-dolma.jpg",
+    "short_description": "A beloved Iraqi feast dish of vegetables stuffed with seasoned rice and meat, featuring grape leaves, zucchini, peppers, tomatoes, and onions. This labor of love is traditionally prepared for family gatherings and celebrations.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 40,
+        "unit": "leaves"
+      },
+      {
+        "name": "medium zucchini",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bell peppers",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "onions",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "short grain rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "baharat spice mix",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Rinse rice and soak for 30 minutes, then drain well.",
+      "Mix rice with ground lamb, tomato paste, mint, baharat, and salt.",
+      "Core the vegetables, reserving the insides to chop into the stuffing.",
+      "Blanch grape leaves in boiling water for 2 minutes, then drain.",
+      "Stuff each vegetable three-quarters full to allow rice expansion.",
+      "Roll grape leaves tightly around small portions of filling.",
+      "Arrange stuffed vegetables in a large pot, grape leaves on top.",
+      "Add lemon juice and enough water to just cover the dolma.",
+      "Place a heavy plate on top to keep everything in place.",
+      "Bring to boil, then simmer covered for 2 hours until rice is tender.",
+      "Let rest 15 minutes before carefully inverting onto a serving platter."
+    ],
+    "cooking_tips": [
+      "Use a mix of vegetables for variety in each bite.",
+      "The plate weight prevents dolma from floating and falling apart.",
+      "Leftover dolma tastes even better the next day as flavors meld."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iraqi",
+      "stuffed-vegetables",
+      "rice",
+      "lamb",
+      "dinner",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Iraqi Dolma provides a balanced meal with protein from lamb, complex carbohydrates from rice, and vitamins from various vegetables. Grape leaves are rich in vitamins A and K, while the combination of vegetables offers fiber and antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-tashreeb",
+    "slug": "tashreeb",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Tashreeb",
+    "image": "assets/img/recipes/tashreeb.jpg",
+    "short_description": "A hearty Iraqi stew served over torn pieces of flatbread that soak up the rich, aromatic broth. Made with lamb or chicken, chickpeas, and warming spices, this comfort dish is especially popular during Ramadan.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "chickpeas (soaked overnight)",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "baharat spice mix",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "Iraqi flatbread (khubz)",
+        "amount": 4,
+        "unit": "loaves"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut lamb into large chunks, keeping some on the bone for flavor.",
+      "Place lamb in a large pot, cover with water, and bring to boil.",
+      "Skim any foam that rises, then add chickpeas and cinnamon stick.",
+      "Simmer for 1 hour until lamb is nearly tender.",
+      "Saute onions until golden, then add chopped tomatoes and garlic.",
+      "Add the onion mixture to the pot with baharat and turmeric.",
+      "Continue simmering for 30 more minutes until everything is tender.",
+      "Tear flatbread into pieces and arrange in a deep serving dish.",
+      "Ladle the stew generously over the bread.",
+      "Garnish with fresh parsley and serve with extra bread on the side."
+    ],
+    "cooking_tips": [
+      "The bread should be day-old for best texture absorption.",
+      "Some families add a splash of pomegranate molasses for tanginess.",
+      "Let the bread soak for a few minutes before serving for ultimate comfort."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "stew",
+      "lamb",
+      "comfort-food",
+      "dinner",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Tashreeb is a protein-rich dish with lamb providing iron and B vitamins. Chickpeas add fiber and plant protein, while the bread provides sustained energy. The warming spices like turmeric and cinnamon have anti-inflammatory properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "iq-kubba-mosul",
+    "slug": "kubba-mosul",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Kubba Mosul",
+    "image": "assets/img/recipes/kubba-mosul.jpg",
+    "short_description": "Elegant torpedo-shaped dumplings from Mosul featuring a thin bulgur shell filled with spiced lamb and onions. These delicate kubba are fried until golden and served with tangy yogurt sauce.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "fine bulgur wheat",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "semolina",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "baharat spice mix",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Soak bulgur in warm water for 30 minutes until softened, then drain well.",
+      "Knead bulgur with semolina, salt, and just enough water to form smooth dough.",
+      "Saute finely chopped onion until golden, add lamb and cook until browned.",
+      "Season the filling with baharat and cumin, add pine nuts, then cool.",
+      "Take a portion of dough and shape it into a thin-walled cup.",
+      "Fill the cup with meat mixture, then pinch closed into torpedo shape.",
+      "Ensure the shell is thin and even with no cracks.",
+      "Heat oil to 180\u00b0C and fry kubba until deep golden, about 4-5 minutes.",
+      "Drain on paper towels and serve hot with cool yogurt sauce.",
+      "Garnish with dried mint if desired."
+    ],
+    "cooking_tips": [
+      "Keep your hands wet while shaping to prevent sticking.",
+      "The shell should be paper-thin - practice makes perfect.",
+      "Freeze shaped kubba for up to a month before frying."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iraqi",
+      "dumplings",
+      "fried",
+      "lamb",
+      "appetizer",
+      "mosul"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 22,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Kubba Mosul provides protein from lamb and dairy, complex carbohydrates from bulgur wheat which is high in fiber. Pine nuts add healthy fats and vitamin E. Bulgur is a whole grain that supports digestive health.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-kleicha",
+    "slug": "kleicha",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Kleicha",
+    "image": "assets/img/recipes/kleicha.jpg",
+    "short_description": "Traditional Iraqi date-filled cookies essential to Eid celebrations. These aromatic pastries feature a tender, cardamom-scented dough wrapped around a sweet date paste filling, symbolizing Iraqi hospitality.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 25,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "butter (softened)",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "milk",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "instant yeast",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cardamom powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "date paste",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "nigella seeds",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Warm milk slightly and dissolve yeast with a pinch of sugar.",
+      "Mix flour, sugar, cardamom, and rose water in a large bowl.",
+      "Add softened butter and rub into flour until crumbly.",
+      "Add yeast mixture and knead into a soft, pliable dough.",
+      "Rest dough covered for 30 minutes.",
+      "Mix date paste with a tablespoon of butter until smooth.",
+      "Roll dough into logs and flatten into long strips.",
+      "Place date paste in a line down the center of each strip.",
+      "Fold dough over filling and seal, then cut into pieces.",
+      "Shape each piece and stamp with a decorative mold if available.",
+      "Sprinkle with sesame and nigella seeds.",
+      "Bake at 180\u00b0C for 20-25 minutes until lightly golden."
+    ],
+    "cooking_tips": [
+      "Don't overbake - kleicha should be pale with just golden edges.",
+      "Store in airtight containers, they keep well for weeks.",
+      "Walnuts can replace dates for a variation called kleicha bil-joz."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "dessert",
+      "cookies",
+      "dates",
+      "eid",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Kleicha offers natural sweetness from dates, which are high in fiber, potassium, and iron. Dates provide quick energy and support digestive health. Cardamom aids digestion and adds antioxidant properties.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ir-chelow-kabab",
+    "slug": "chelow-kabab",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Chelow Kabab",
+    "image": "assets/img/recipes/chelow-kabab.jpg",
+    "short_description": "Iran's national dish featuring succulent grilled lamb or beef kebabs served atop saffron-infused buttered rice with a raw egg yolk and grilled tomatoes. This regal Persian feast represents the pinnacle of Iranian culinary tradition.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb tenderloin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion (grated)",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "saffron threads",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "sumac",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak rice in salted water for at least 2 hours, then rinse until water runs clear.",
+      "Grind saffron and bloom in 2 tablespoons hot water.",
+      "Mix ground lamb with grated onion, salt, and knead for 10 minutes until sticky.",
+      "Form into long flat kebabs around flat skewers.",
+      "Cut lamb tenderloin into cubes and marinate with onion juice and saffron.",
+      "Parboil rice in boiling salted water until just al dente, then drain.",
+      "Layer rice in pot, add butter, cover tightly and steam on low for 45 minutes.",
+      "Grill kubideh and barg kebabs over hot coals until charred and cooked through.",
+      "Grill tomatoes until blistered.",
+      "Mix some saffron water into a portion of rice for golden color.",
+      "Serve rice topped with kebabs, grilled tomato, butter, raw egg yolk, and sumac."
+    ],
+    "cooking_tips": [
+      "The tahdig (crispy rice bottom) is the most prized part - let it get golden.",
+      "Traditional kubideh should be kneaded until the meat is very smooth and holds shape.",
+      "The raw egg yolk is mixed into the hot rice at the table for richness."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iranian",
+      "persian",
+      "kebab",
+      "rice",
+      "saffron",
+      "dinner",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 780,
+      "protein_g": 45,
+      "fat_g": 38,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Chelow Kabab is rich in high-quality protein from lamb. Saffron contains antioxidants including crocin and safranal with mood-enhancing properties. Basmati rice provides sustained energy, while the raw egg yolk adds vitamins A, D, and E.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-ghormeh-sabzi",
+    "slug": "ghormeh-sabzi",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Ghormeh Sabzi",
+    "image": "assets/img/recipes/ghormeh-sabzi.jpg",
+    "short_description": "Persian herb stew considered by many to be Iran's most beloved dish. A vibrant medley of fresh herbs, kidney beans, and tender lamb cubes slow-cooked with dried limes creates an unforgettable aromatic experience.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder (cubed)",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 3,
+        "unit": "bunches"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "fresh chives",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "fresh fenugreek leaves",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "dried limes (limoo amani)",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "kidney beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak kidney beans overnight, then cook until tender and set aside.",
+      "Wash and finely chop all fresh herbs - this is crucial for texture.",
+      "Saute herbs in oil until dark green and fragrant, about 30 minutes.",
+      "In a separate pot, brown lamb cubes with sliced onion and turmeric.",
+      "Add water to cover the meat and simmer for 1 hour.",
+      "Pierce dried limes several times and add to the stew.",
+      "Add the sauteed herbs and continue simmering for another 1.5 hours.",
+      "Add cooked kidney beans in the last 30 minutes.",
+      "The stew should be thick and the meat fork-tender.",
+      "Serve hot over fluffy Persian rice with tahdig."
+    ],
+    "cooking_tips": [
+      "Frying the herbs until very dark is essential for authentic flavor.",
+      "Dried fenugreek (shambalileh) can substitute fresh if needed.",
+      "Crush the dried limes slightly before adding for more intense flavor."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iranian",
+      "persian",
+      "stew",
+      "herbs",
+      "lamb",
+      "dinner",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 24,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Ghormeh Sabzi is exceptionally rich in vitamins and minerals from the abundance of fresh herbs. Parsley and cilantro provide vitamin K, C, and iron. Fenugreek aids blood sugar control, and kidney beans add fiber and plant protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-tahchin",
+    "slug": "tahchin",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Tahchin",
+    "image": "assets/img/recipes/tahchin.jpg",
+    "short_description": "An elegant Persian rice cake with layers of saffron yogurt rice encasing tender chicken or lamb. When inverted, it reveals a stunning golden crust that is the hallmark of this celebratory dish.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken thighs",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "saffron threads",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "barberries (zereshk)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Poach chicken with onion until cooked, then shred and set aside.",
+      "Soak rice for 2 hours, then parboil until just al dente and drain.",
+      "Bloom saffron in 3 tablespoons hot water.",
+      "Mix yogurt with egg yolks, half the saffron water, and salt.",
+      "Fold two-thirds of the yogurt mixture into the rice.",
+      "Generously butter a non-stick pot and add a layer of rice mixture.",
+      "Add shredded chicken as middle layer, then top with remaining rice.",
+      "Press down firmly and make holes with a spoon handle for steam.",
+      "Drizzle remaining butter on top, cover with towel-wrapped lid.",
+      "Cook on medium-low for 1.5 hours until bottom is golden and crispy.",
+      "Invert onto a platter, garnish with sauteed barberries and saffron."
+    ],
+    "cooking_tips": [
+      "The yogurt mixture ensures the rice holds together when inverted.",
+      "Low and slow cooking is key to achieving the perfect golden tahdig.",
+      "Let it rest 5 minutes before inverting to help it release cleanly."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iranian",
+      "persian",
+      "rice",
+      "chicken",
+      "saffron",
+      "dinner",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 550,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Tahchin provides lean protein from chicken and probiotics from yogurt. Saffron has mood-boosting properties and antioxidants. Barberries are rich in vitamin C and berberine, which supports heart health.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-fesenjan",
+    "slug": "fesenjan",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Fesenjan",
+    "image": "assets/img/recipes/fesenjan.jpg",
+    "short_description": "A luxurious Persian stew of chicken or duck simmered in a rich sauce of ground walnuts and pomegranate molasses. This sweet-sour masterpiece balances earthy, tangy, and savory notes in perfect harmony.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "walnuts",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pomegranate molasses",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pomegranate seeds",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Toast walnuts lightly, then grind to a fine meal in a food processor.",
+      "Saute thinly sliced onions until deeply caramelized and golden.",
+      "Add ground walnuts to onions and toast for 5 minutes, stirring constantly.",
+      "Add 3 cups water and bring to a simmer.",
+      "Season chicken with turmeric and salt, then brown in a separate pan.",
+      "Add browned chicken to the walnut sauce.",
+      "Stir in pomegranate molasses, sugar, and cinnamon.",
+      "Cover and simmer on low for 1.5-2 hours, stirring occasionally.",
+      "The sauce should become thick and release oil on the surface.",
+      "Adjust sweet-sour balance with more molasses or sugar as needed.",
+      "Serve over Persian rice, garnished with fresh pomegranate seeds."
+    ],
+    "cooking_tips": [
+      "Slow cooking develops the deep, complex flavor - don't rush it.",
+      "The sauce should be thick enough to coat a spoon heavily.",
+      "Duck or game birds are traditional for special occasions."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iranian",
+      "persian",
+      "stew",
+      "chicken",
+      "walnuts",
+      "pomegranate",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 32,
+      "fat_g": 48,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Fesenjan is rich in omega-3 fatty acids from walnuts, which support brain and heart health. Pomegranate molasses provides powerful antioxidants. The dish offers protein and B vitamins from chicken, while walnuts add vitamin E and magnesium.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-ash-reshteh",
+    "slug": "ash-reshteh",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Ash Reshteh",
+    "image": "assets/img/recipes/ash-reshteh.jpg",
+    "short_description": "A hearty Persian noodle soup brimming with herbs, legumes, and reshteh noodles, topped with kashk, fried onions, and mint oil. Traditionally served for Nowruz to symbolize good fortune in the new year.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "reshteh noodles (or linguine)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas (soaked)",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "kidney beans (soaked)",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lentils",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh spinach",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fresh dill",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "kashk (whey sauce)",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "onion",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "dried mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook chickpeas and kidney beans until almost tender, about 1 hour.",
+      "Add lentils and continue cooking for 20 minutes.",
+      "Finely chop all fresh herbs and add to the pot with spinach.",
+      "Add turmeric and enough water to make a thick soup consistency.",
+      "Simmer for 30 minutes until herbs are tender.",
+      "Add noodles and cook until just done, about 10 minutes.",
+      "Meanwhile, slice onions thinly and fry until deep golden brown.",
+      "Fry dried mint in a little oil until fragrant for the topping.",
+      "Ladle soup into bowls and drizzle generously with kashk.",
+      "Top with fried onions and mint oil, serve immediately."
+    ],
+    "cooking_tips": [
+      "Break noodles into shorter pieces for easier eating.",
+      "The soup thickens as it sits - add water when reheating.",
+      "Kashk is essential - sour cream is not a true substitute but works in a pinch."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iranian",
+      "persian",
+      "soup",
+      "noodles",
+      "vegetarian",
+      "nowruz",
+      "lunch"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 16,
+      "fat_g": 18,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Ash Reshteh is nutritionally dense with plant proteins from multiple legumes. The abundance of fresh herbs provides vitamins K, C, and A. Lentils offer iron and folate, while the combination of beans creates complete protein.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-kabuli-pulao",
+    "slug": "kabuli-pulao",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Kabuli Pulao",
+    "image": "assets/img/recipes/kabuli-pulao.jpg",
+    "short_description": "Afghanistan's national dish featuring fragrant basmati rice cooked with tender lamb, sweet carrots, raisins, and caramelized onions. This celebratory pilaf showcases the Central Asian love for rice dishes with a perfect balance of savory and sweet.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb shoulder (bone-in)",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "carrots",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "raisins",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom pods",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak rice in salted water for 2 hours, then rinse thoroughly.",
+      "Boil lamb with one sliced onion and salt until tender, about 1 hour.",
+      "Remove lamb and reserve the broth.",
+      "Julienne carrots into thin matchsticks.",
+      "Saute carrots with sugar until caramelized and slightly crispy.",
+      "Add raisins to carrots and set aside.",
+      "Fry remaining sliced onion until deeply golden.",
+      "Parboil rice until just al dente, then drain.",
+      "Layer rice in pot with cumin and cardamom, add lamb in center.",
+      "Pour hot lamb broth over rice, cover tightly.",
+      "Cook on low heat for 30 minutes until rice is fluffy and bottom is crispy.",
+      "Serve with lamb in center, topped with carrot-raisin mixture."
+    ],
+    "cooking_tips": [
+      "The caramelized carrot topping is called zardak and should be sweet but not burnt.",
+      "Using lamb broth instead of water makes the rice incredibly flavorful.",
+      "The crusty bottom (tah-dig) is considered the best part."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "rice",
+      "lamb",
+      "pilaf",
+      "dinner",
+      "festive",
+      "national-dish"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 680,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 72
+    },
+    "nutrition_benefits": "Kabuli Pulao provides complete protein from lamb along with iron and B12. Carrots add beta-carotene for eye health. Raisins provide natural sugars and iron. The combination offers sustained energy from complex carbohydrates.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-mantu",
+    "slug": "afghan-mantu",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Afghan Mantu",
+    "image": "assets/img/recipes/afghan-mantu.jpg",
+    "short_description": "Steamed Afghan dumplings filled with spiced beef and onions, served with a tangy tomato-lentil sauce and cooling yogurt-garlic topping. These labor-intensive parcels are the centerpiece of special occasions.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "split yellow lentils",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Greek yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "coriander powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried mint",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make dough with flour, water, and salt; knead until smooth and rest 30 minutes.",
+      "Finely dice onions; mix half with ground beef, coriander, and salt for filling.",
+      "Roll dough very thin and cut into 3-inch squares.",
+      "Place filling in center of each square, fold corners up and pinch closed.",
+      "Steam dumplings in batches for 40-45 minutes until dough is cooked.",
+      "Cook lentils until soft, then saute remaining onion until golden.",
+      "Add tomato paste and lentils to onions, simmer to make sauce.",
+      "Mix yogurt with minced garlic and a pinch of salt.",
+      "Arrange dumplings on a platter, top with meat sauce.",
+      "Drizzle generously with garlic yogurt and sprinkle with dried mint."
+    ],
+    "cooking_tips": [
+      "The dough must be paper-thin for the best texture.",
+      "Make dumplings in advance and freeze before steaming.",
+      "The sauce should be thick enough to coat the dumplings."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "afghan",
+      "dumplings",
+      "beef",
+      "steamed",
+      "dinner",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 26,
+      "fat_g": 18,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Mantu provides protein from beef and lentils, making it nutritionally complete. Yogurt adds probiotics and calcium. Lentils are rich in fiber and iron, supporting digestive health and energy levels.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-bolani",
+    "slug": "bolani",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Bolani",
+    "image": "assets/img/recipes/bolani.jpg",
+    "short_description": "Crispy Afghan flatbreads stuffed with savory fillings like spiced potatoes, leeks, or pumpkin. These golden pan-fried breads are a beloved street food and appetizer throughout Afghanistan.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "leeks",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "green onions",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "chili flakes",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make soft dough with flour, water, and salt; rest for 30 minutes.",
+      "Boil and mash potatoes, keeping them slightly chunky.",
+      "Finely chop leeks, green onions, and cilantro.",
+      "Mix vegetables into potatoes with cumin, coriander, and chili.",
+      "Divide dough into 8 balls; roll each into a thin circle.",
+      "Place filling on one half, fold over, and seal edges well.",
+      "Roll gently to flatten and distribute filling evenly.",
+      "Pan-fry in oil until golden brown on both sides, about 3-4 minutes per side.",
+      "Drain on paper towels and keep warm.",
+      "Serve hot with yogurt sauce or Afghan chutney."
+    ],
+    "cooking_tips": [
+      "Don't overfill or the bolani will burst during cooking.",
+      "The dough should be soft and pliable for easy rolling.",
+      "Serve immediately for best crispy texture."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "flatbread",
+      "vegetarian",
+      "appetizer",
+      "street-food",
+      "potato"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Bolani provides carbohydrates for energy from potatoes and flour. Leeks contain prebiotics supporting gut health. The dish offers vitamin C from fresh vegetables and antioxidants from herbs and spices.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-ashak",
+    "slug": "ashak",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Ashak",
+    "image": "assets/img/recipes/ashak.jpg",
+    "short_description": "Delicate Afghan leek-filled dumplings served with a spiced meat sauce and cooling yogurt-mint topping. Lighter than mantu, these elegant parcels showcase Afghanistan's refined dumpling traditions.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "leeks",
+        "amount": 6,
+        "unit": "large"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "coriander powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make smooth dough with flour, water, and salt; rest covered for 30 minutes.",
+      "Clean leeks thoroughly and chop very finely.",
+      "Salt the leeks and let sit 15 minutes, then squeeze out excess water.",
+      "Roll dough very thin and cut into 3-inch circles.",
+      "Place a spoonful of leeks on each circle, fold and crimp edges.",
+      "Boil dumplings in salted water for 8-10 minutes until they float.",
+      "Brown ground beef with onion, coriander, and tomato paste.",
+      "Mix yogurt with minced garlic and salt.",
+      "Arrange cooked dumplings on a platter, top with meat sauce.",
+      "Drizzle with garlic yogurt and finish with dried mint."
+    ],
+    "cooking_tips": [
+      "Removing water from leeks prevents soggy dumplings.",
+      "These can be boiled ahead and reheated in the sauce.",
+      "The meat sauce should be chunky, not too saucy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "dumplings",
+      "leeks",
+      "boiled",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Ashak is rich in prebiotics from leeks, supporting gut health. The yogurt topping provides probiotics and calcium. Leeks also offer vitamin K for bone health and antioxidants including kaempferol.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "af-firni",
+    "slug": "firni",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Firni",
+    "image": "assets/img/recipes/firni.jpg",
+    "short_description": "A silky Afghan milk pudding thickened with cornstarch and delicately perfumed with rose water and cardamom. Topped with crushed pistachios and almonds, this cooling dessert is essential at celebrations.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "whole milk",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "cornstarch",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "pistachios (crushed)",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "almonds (slivered)",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "ground cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Dissolve cornstarch in 1 cup of cold milk until smooth.",
+      "Heat remaining milk in a heavy pot over medium heat.",
+      "Add sugar and stir until dissolved.",
+      "Slowly pour cornstarch mixture into hot milk while stirring constantly.",
+      "Continue stirring over medium heat until mixture thickens, about 15 minutes.",
+      "Add cardamom and rose water, stir well.",
+      "Pour into individual serving bowls.",
+      "Let cool to room temperature, then refrigerate until set.",
+      "Before serving, top with crushed pistachios, almonds, and a dust of cinnamon.",
+      "Serve chilled as a refreshing end to a meal."
+    ],
+    "cooking_tips": [
+      "Constant stirring prevents lumps and burning.",
+      "Traditional firni is served in special shallow clay bowls.",
+      "Adjust sugar to taste - some prefer it less sweet."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "dessert",
+      "pudding",
+      "milk",
+      "rose-water",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 12,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Firni provides calcium and protein from milk for bone health. Pistachios and almonds add healthy fats, vitamin E, and minerals. Cardamom aids digestion and has antibacterial properties.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "my-nasi-lemak",
+    "slug": "nasi-lemak",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Nasi Lemak",
+    "image": "assets/img/recipes/nasi-lemak.jpg",
+    "short_description": "Malaysia's beloved national dish featuring fragrant coconut rice served with spicy sambal, crispy anchovies, roasted peanuts, cucumber slices, and boiled egg. This iconic breakfast has become a symbol of Malaysian food culture.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "jasmine rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "pandan leaves",
+        "amount": 3,
+        "unit": "leaves"
+      },
+      {
+        "name": "dried anchovies (ikan bilis)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "roasted peanuts",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 15,
+        "unit": "pc"
+      },
+      {
+        "name": "shallots",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "belacan (shrimp paste)",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Rinse rice and cook with coconut milk, pandan leaves, and salt in rice cooker.",
+      "Soak dried chilies in hot water until soft, then blend with shallots.",
+      "Fry chili paste with belacan until fragrant and oil separates.",
+      "Add tamarind, sugar, and salt to make sambal; cook until thick and glossy.",
+      "Rinse anchovies, pat dry, and deep-fry until golden and crispy.",
+      "Hard-boil eggs and halve them.",
+      "Slice cucumber into thin rounds.",
+      "Fluff the coconut rice and remove pandan leaves.",
+      "Arrange rice on plate with sambal, anchovies, peanuts, cucumber, and egg.",
+      "Traditionally wrapped in banana leaf for portable eating."
+    ],
+    "cooking_tips": [
+      "The sambal is the heart of nasi lemak - make it spicy and slightly sweet.",
+      "Pandan leaves are essential for authentic fragrance.",
+      "Serve with rendang or fried chicken for a complete meal."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "rice",
+      "coconut",
+      "breakfast",
+      "national-dish",
+      "sambal"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 18,
+      "fat_g": 32,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Nasi Lemak provides healthy fats from coconut milk and peanuts. Anchovies are rich in calcium and omega-3 fatty acids. Eggs add complete protein and vitamins. The dish offers balanced macronutrients for sustained energy.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-rendang",
+    "slug": "beef-rendang",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Beef Rendang",
+    "image": "assets/img/recipes/beef-rendang.jpg",
+    "short_description": "A rich and aromatic dry curry where beef is slowly braised in coconut milk and a complex spice paste until the sauce caramelizes into a thick coating. This ceremonial dish is prized for its deep, layered flavors.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef chuck (cubed)",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "toasted coconut (kerisik)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 15,
+        "unit": "pc"
+      },
+      {
+        "name": "shallots",
+        "amount": 10,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 8,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "turmeric powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "kaffir lime leaves",
+        "amount": 6,
+        "unit": "leaves"
+      }
+    ],
+    "steps": [
+      "Blend soaked chilies, shallots, garlic, ginger, and galangal into smooth paste.",
+      "Bruise lemongrass stalks with back of knife.",
+      "Toast grated coconut until golden to make kerisik.",
+      "Brown beef cubes in batches and set aside.",
+      "Fry spice paste until fragrant and oil separates, about 15 minutes.",
+      "Return beef to pot, add coconut milk, lemongrass, and lime leaves.",
+      "Simmer uncovered on low heat, stirring occasionally.",
+      "After 2 hours, add kerisik and palm sugar.",
+      "Continue cooking until liquid evaporates and oil separates from meat.",
+      "The rendang is ready when the meat is dark and coated in thick, caramelized sauce."
+    ],
+    "cooking_tips": [
+      "True rendang is 'dry' - the sauce should coat the meat, not pool on the plate.",
+      "Kerisik adds texture and depth - don't skip it.",
+      "Rendang improves with time - it's even better the next day."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "malaysian",
+      "beef",
+      "curry",
+      "coconut",
+      "dinner",
+      "festive",
+      "slow-cooked"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 42,
+      "fat_g": 45,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Rendang is high in protein and iron from beef. Coconut provides medium-chain triglycerides for quick energy. The spices including galangal and turmeric offer anti-inflammatory benefits. Lemongrass aids digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "my-laksa",
+    "slug": "curry-laksa",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Curry Laksa",
+    "image": "assets/img/recipes/curry-laksa.jpg",
+    "short_description": "A beloved Malaysian noodle soup with a rich, spicy coconut curry broth swimming with rice noodles, tofu puffs, shrimp, and cockles. Each region has its own version, but all share an addictive creamy heat.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice noodles (laksa noodles)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "chicken stock",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "shrimp",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tofu puffs",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "laksa paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried shrimp",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "hard-boiled eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "Vietnamese mint (laksa leaves)",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak dried shrimp in hot water, then blend into paste.",
+      "Fry laksa paste with dried shrimp paste until fragrant.",
+      "Add chicken stock and bring to a simmer.",
+      "Stir in coconut milk and season with fish sauce and palm sugar.",
+      "Simmer for 20 minutes to develop flavors.",
+      "Blanch noodles and divide among serving bowls.",
+      "Add shrimp to soup and cook until pink, about 3 minutes.",
+      "Ladle hot soup and shrimp over noodles.",
+      "Top with tofu puffs, bean sprouts, and halved eggs.",
+      "Garnish with laksa leaves and sambal on the side."
+    ],
+    "cooking_tips": [
+      "Homemade laksa paste makes a world of difference.",
+      "Don't boil the soup after adding coconut milk to prevent separation.",
+      "Adjust spiciness with sambal at the table."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "soup",
+      "noodles",
+      "coconut",
+      "curry",
+      "lunch",
+      "seafood"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Laksa provides protein from shrimp and tofu. Coconut milk offers healthy fats. Bean sprouts add vitamin C and fiber. The aromatic herbs contain antioxidants and aid digestion.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-satay",
+    "slug": "chicken-satay",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Chicken Satay",
+    "image": "assets/img/recipes/chicken-satay.jpg",
+    "short_description": "Tender marinated chicken skewers grilled over charcoal and served with rich peanut sauce, cucumber, onion, and compressed rice cakes. These aromatic kebabs are a beloved street food throughout Malaysia.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken thigh (boneless)",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "turmeric powder",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "roasted peanuts",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 5,
+        "unit": "pc"
+      },
+      {
+        "name": "shallots",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bamboo skewers",
+        "amount": 20,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Soak bamboo skewers in water for 30 minutes.",
+      "Cut chicken into 1-inch cubes.",
+      "Blend lemongrass, shallots, turmeric, coriander, and cumin into paste.",
+      "Marinate chicken in spice paste for at least 2 hours.",
+      "Thread 4-5 pieces onto each skewer.",
+      "Blend peanuts coarsely, then cook with coconut milk, palm sugar, and tamarind.",
+      "Add fried shallots and chilies to peanut sauce, simmer until thick.",
+      "Grill skewers over hot charcoal, basting with oil.",
+      "Turn frequently until charred and cooked through, about 10 minutes.",
+      "Serve with warm peanut sauce, cucumber, onion wedges, and ketupat."
+    ],
+    "cooking_tips": [
+      "Charcoal grilling gives the best smoky flavor.",
+      "The peanut sauce should be thick enough to coat a spoon.",
+      "Keep some marinade aside for basting while grilling."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "chicken",
+      "grilled",
+      "peanut",
+      "street-food",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 32,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Satay provides lean protein from chicken. Peanuts add healthy fats, protein, and minerals including magnesium. Turmeric has anti-inflammatory properties. The dish is low in carbs but satisfying.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "my-roti-canai",
+    "slug": "roti-canai",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Roti Canai",
+    "image": "assets/img/recipes/roti-canai.jpg",
+    "short_description": "Flaky, buttery Malaysian flatbread that is stretched paper-thin, folded into layers, and pan-fried until crispy outside and soft inside. Served with dhal curry for dipping, it is a breakfast institution.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "condensed milk",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ghee or butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "yellow lentils (for dhal)",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "curry powder",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix flour, salt, condensed milk, and enough water to form soft dough.",
+      "Knead well for 10 minutes until smooth and elastic.",
+      "Divide into balls, coat generously with ghee, and rest 4 hours or overnight.",
+      "For dhal: cook lentils until soft, then mash slightly.",
+      "Saute onion and garlic, add curry powder, then add lentils and coconut milk.",
+      "Stretch each dough ball on an oiled surface until paper-thin.",
+      "Fold into a square or roll into a spiral.",
+      "Pan-fry on a hot griddle with ghee until golden and crispy.",
+      "Clap the cooked roti between hands to separate layers.",
+      "Serve immediately with warm dhal curry."
+    ],
+    "cooking_tips": [
+      "The dough must rest long enough to become very stretchy.",
+      "Stretch carefully - holes are fine, they add crispness.",
+      "A hot griddle is essential for the crispy-soft texture."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "malaysian",
+      "flatbread",
+      "breakfast",
+      "vegetarian",
+      "indian-influence"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 54
+    },
+    "nutrition_benefits": "Roti Canai paired with dhal provides complete protein. Lentils add fiber, iron, and B vitamins. The dish offers sustained energy from complex carbohydrates. Coconut milk provides medium-chain triglycerides.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sr-roti",
+    "slug": "surinamese-roti",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Surinamese Roti",
+    "image": "assets/img/recipes/surinamese-roti.jpg",
+    "short_description": "Suriname's most beloved dish featuring soft, layered flatbread wrapped around curried chicken, potatoes, and long beans. This Indo-Caribbean fusion reflects the country's unique multicultural heritage.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "baking powder",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "chicken thighs (bone-in)",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "long beans (yard beans)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "masala powder",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "hot pepper",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make dough with flour, baking powder, salt, oil, and water; rest 30 minutes.",
+      "Season chicken with masala, cumin, garlic, and salt; marinate 1 hour.",
+      "Brown chicken in oil, then add water and simmer until tender.",
+      "Peel and cube potatoes, add to chicken curry.",
+      "Cut long beans into 2-inch pieces and add to pot.",
+      "Simmer until vegetables are tender and sauce is thick.",
+      "Divide dough into balls; roll thin, brush with oil, fold into layers.",
+      "Cook on dry griddle, flipping until golden spots appear.",
+      "Clap roti between hands to soften and separate layers.",
+      "Serve curry over roti or wrapped inside like a burrito."
+    ],
+    "cooking_tips": [
+      "The roti should be soft and pliable, not crispy.",
+      "Bone-in chicken adds more flavor to the curry.",
+      "Adjust hot pepper according to your spice tolerance."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "surinamese",
+      "roti",
+      "curry",
+      "chicken",
+      "dinner",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Surinamese Roti provides complete protein from chicken. Potatoes offer potassium and vitamin C. Long beans add fiber and folate. The warming spices like cumin aid digestion and have anti-inflammatory properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "sr-pom",
+    "slug": "pom",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Pom",
+    "image": "assets/img/recipes/pom.jpg",
+    "short_description": "A unique Surinamese casserole made from grated tayer root (pomtajer) mixed with chicken in a tangy citrus sauce. This Creole-Jewish fusion dish is the centerpiece of every Surinamese celebration.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "tayer root (pomtajer)",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "chicken thighs",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "sour oranges (or orange/lemon mix)",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "celery",
+        "amount": 3,
+        "unit": "stalks"
+      },
+      {
+        "name": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "brown sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Season chicken with salt, pepper, and half the citrus juice; marinate 2 hours.",
+      "Peel and grate the tayer root, mix immediately with remaining citrus juice.",
+      "Saute onion and celery in butter until soft.",
+      "Add tomato paste, nutmeg, and brown sugar to vegetables.",
+      "Brown marinated chicken pieces and set aside.",
+      "Mix grated tayer with the sauteed aromatics and half the butter.",
+      "Layer half the tayer mixture in a buttered baking dish.",
+      "Arrange chicken pieces on top, then cover with remaining tayer.",
+      "Dot with remaining butter and bake at 180\u00b0C for 1.5 hours.",
+      "The top should be golden brown and crispy, interior soft and savory."
+    ],
+    "cooking_tips": [
+      "Work quickly with tayer root as it discolors when exposed to air.",
+      "The citrus prevents browning and adds essential tangy flavor.",
+      "Pom tastes even better the next day when flavors meld."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "surinamese",
+      "casserole",
+      "chicken",
+      "festive",
+      "creole",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Pom provides protein from chicken and unique complex carbohydrates from tayer root. Tayer is rich in fiber and potassium. The citrus adds vitamin C, while celery provides vitamins K and folate.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-moksi-alesi",
+    "slug": "moksi-alesi",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Moksi Alesi",
+    "image": "assets/img/recipes/moksi-alesi.jpg",
+    "short_description": "Surinamese mixed rice cooked with beans, salted meat, and vegetables in one pot. This Creole comfort dish translates to 'mixed rice' and represents the diverse cultural influences of Suriname.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "long grain rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "kidney beans (cooked)",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "salted pork or bacon",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "thyme",
+        "amount": 2,
+        "unit": "sprigs"
+      },
+      {
+        "name": "hot pepper",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak salted meat overnight if very salty, then dice.",
+      "Render fat from salted pork in a heavy pot.",
+      "Saute onion and garlic until golden.",
+      "Add diced tomatoes and cook until soft.",
+      "Add rice and stir to coat in the oils and aromatics.",
+      "Pour in coconut milk and enough water to cover rice by 1 inch.",
+      "Add beans, thyme, and whole hot pepper (don't burst it).",
+      "Bring to boil, then cover and simmer on low for 25 minutes.",
+      "Let rest covered for 10 minutes before fluffing.",
+      "Serve as a main dish or alongside other Surinamese specialties."
+    ],
+    "cooking_tips": [
+      "Don't burst the hot pepper unless you want serious heat.",
+      "The rice should be fluffy with each grain separate.",
+      "Substitute smoked turkey for a lighter version."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "surinamese",
+      "rice",
+      "one-pot",
+      "beans",
+      "dinner",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 22,
+      "fat_g": 24,
+      "carbs_g": 54
+    },
+    "nutrition_benefits": "Moksi Alesi combines rice and beans for complete plant protein. Kidney beans provide fiber, iron, and folate. Coconut milk adds healthy fats. The dish offers balanced nutrition in one satisfying pot.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-bara",
+    "slug": "bara",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Bara",
+    "image": "assets/img/recipes/bara.jpg",
+    "short_description": "Crispy fried split pea fritters seasoned with cumin and garlic, a beloved Indo-Surinamese street snack. Often served topped with pom or curried vegetables for a satisfying sandwich.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "yellow split peas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "hot pepper",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak split peas in water for at least 8 hours or overnight.",
+      "Drain peas and grind with garlic and hot pepper into thick paste.",
+      "Add cumin seeds, baking powder, salt, and flour to paste.",
+      "Mix well; batter should be thick but spreadable.",
+      "Heat oil to 180\u00b0C in a deep pan.",
+      "Drop spoonfuls of batter into hot oil.",
+      "Flatten slightly with back of spoon.",
+      "Fry until deep golden on both sides, about 4 minutes total.",
+      "Drain on paper towels.",
+      "Serve hot as a snack or split and fill with curry."
+    ],
+    "cooking_tips": [
+      "Longer soaking makes grinding easier and texture better.",
+      "Test one bara first to check seasoning and oil temperature.",
+      "Best eaten fresh and hot from the fryer."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "surinamese",
+      "fritters",
+      "street-food",
+      "appetizer",
+      "vegan",
+      "split-peas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 8,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Bara provides plant-based protein from split peas. Split peas are high in fiber and B vitamins. The dish offers iron and zinc. Cumin aids digestion and has antioxidant properties.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sr-bojo",
+    "slug": "bojo",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Bojo",
+    "image": "assets/img/recipes/bojo.jpg",
+    "short_description": "A beloved Surinamese cassava cake made with grated cassava, coconut, and condensed milk. This chewy, sweet treat with its caramelized top is essential at every birthday and celebration.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 60,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "cassava (yuca)",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "grated coconut",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "condensed milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "rum or rum extract",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "raisins",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Peel cassava and grate finely, then squeeze out excess moisture.",
+      "Melt butter and mix with condensed milk.",
+      "Beat eggs and add to butter mixture with vanilla and rum.",
+      "Combine grated cassava with coconut, cinnamon, and nutmeg.",
+      "Pour wet ingredients into dry and mix thoroughly.",
+      "Fold in raisins.",
+      "Grease a 9x13 inch baking pan well.",
+      "Pour batter into pan and smooth top.",
+      "Bake at 180\u00b0C for 1 hour until top is golden brown.",
+      "Let cool completely before cutting into squares."
+    ],
+    "cooking_tips": [
+      "Squeeze cassava very well - too much moisture makes it gummy.",
+      "The top should be golden but inside should be chewy, not dry.",
+      "Bojo keeps well at room temperature for several days."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "surinamese",
+      "dessert",
+      "cake",
+      "cassava",
+      "coconut",
+      "celebration"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 4,
+      "fat_g": 16,
+      "carbs_g": 46
+    },
+    "nutrition_benefits": "Bojo provides energy from cassava carbohydrates. Coconut adds fiber and healthy fats. Eggs contribute protein and vitamins. The dish is naturally gluten-free, suitable for those with gluten sensitivity.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   }
 ]

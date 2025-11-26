@@ -824,3 +824,265 @@
     transform: translateX(-50%) translateY(20px);
   }
 }
+
+/* =========================================
+   Interactive Rating System
+   ========================================= */
+.recipe-rating-interactive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.star-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ddd;
+  transition: all 0.2s ease;
+  padding: 0.25rem;
+}
+
+.star-btn:hover,
+.star-btn.hover {
+  color: #ffc107;
+  transform: scale(1.2);
+}
+
+.star-btn.filled {
+  color: #ffc107;
+}
+
+.rating-label {
+  font-size: 0.9rem;
+  color: var(--recipe-text-light);
+}
+
+/* =========================================
+   Allergen & Dietary Badges
+   ========================================= */
+.allergen-badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.allergen-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.allergen-badge.vegan {
+  background: #27ae60;
+  color: white;
+}
+
+.allergen-badge.vegetarian {
+  background: #2ecc71;
+  color: white;
+}
+
+.allergen-badge.gluten-free {
+  background: #3498db;
+  color: white;
+}
+
+.allergen-badge.contains-gluten {
+  background: #f39c12;
+  color: white;
+}
+
+.allergen-badge.contains-dairy {
+  background: #9b59b6;
+  color: white;
+}
+
+.allergen-badge.contains-eggs {
+  background: #e67e22;
+  color: white;
+}
+
+.allergen-badge.contains-nuts {
+  background: #c0392b;
+  color: white;
+}
+
+.allergen-badge.contains-shellfish {
+  background: #e74c3c;
+  color: white;
+}
+
+.allergen-badge.contains-soy {
+  background: #8e44ad;
+  color: white;
+}
+
+/* =========================================
+   Enhanced Nutrition Grid (6 items)
+   ========================================= */
+.nutrition-grid-enhanced {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.75rem;
+}
+
+.nutrition-item-modern.highlight {
+  background: linear-gradient(135deg, var(--recipe-accent) 0%, var(--recipe-accent-dark) 100%);
+  color: white;
+}
+
+.nutrition-item-modern.highlight .nutrition-value-modern,
+.nutrition-item-modern.highlight .nutrition-label-modern {
+  color: white;
+}
+
+/* =========================================
+   Step Type Badges and Icons
+   ========================================= */
+.steps-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--recipe-bg);
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--recipe-text-light);
+}
+
+.legend-icon {
+  font-size: 1rem;
+}
+
+.step-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.step-action-icon {
+  font-size: 1rem;
+}
+
+.step-type-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.step-type-badge.prep {
+  background: #3498db;
+  color: white;
+}
+
+.step-type-badge.cook {
+  background: #e74c3c;
+  color: white;
+}
+
+.step-type-badge.general {
+  background: #95a5a6;
+  color: white;
+}
+
+.step-card.step-prep {
+  border-left: 4px solid #3498db;
+}
+
+.step-card.step-cook {
+  border-left: 4px solid #e74c3c;
+}
+
+.step-card.step-general {
+  border-left: 4px solid #95a5a6;
+}
+
+/* =========================================
+   Mobile Responsive Enhancements
+   ========================================= */
+@media (max-width: 900px) {
+  .nutrition-grid-enhanced {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .allergen-badges-container {
+    gap: 0.4rem;
+  }
+  
+  .allergen-badge {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .star-btn {
+    font-size: 1.75rem;
+    padding: 0.2rem;
+  }
+  
+  .steps-legend {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .nutrition-grid-enhanced {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .star-btn {
+    font-size: 1.5rem;
+  }
+  
+  .allergen-badge {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+  }
+  
+  .step-type-badge {
+    font-size: 0.6rem;
+    padding: 0.15rem 0.4rem;
+  }
+  
+  .nutrition-grid-enhanced {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  
+  .nutrition-item-modern {
+    padding: 0.6rem;
+  }
+  
+  .nutrition-value-modern {
+    font-size: 1.1rem;
+  }
+}

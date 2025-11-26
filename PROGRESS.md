@@ -1,6 +1,56 @@
 # RecipeBank Progress Log
 
-## Iteration 8 - Expanded Cuisine Collection (Current)
+## Iteration 9 - Additional Cuisines Expansion (Current)
+
+### What Was Built
+
+#### New Cuisines Added (5 new countries, 25 new recipes)
+- ✅ **Iraq** (5 recipes): Masgouf, Iraqi Dolma, Tashreeb, Kubba Mosul, Kleicha
+- ✅ **Iran** (5 recipes): Chelow Kabab, Ghormeh Sabzi, Tahchin, Fesenjan, Ash Reshteh
+- ✅ **Afghanistan** (5 recipes): Kabuli Pulao, Afghan Mantu, Bolani, Ashak, Firni
+- ✅ **Malaysia** (5 recipes): Nasi Lemak, Beef Rendang, Curry Laksa, Chicken Satay, Roti Canai
+- ✅ **Suriname** (5 recipes): Surinamese Roti, Pom, Moksi Alesi, Bara, Bojo
+
+#### Each recipe includes:
+- English name and slug
+- Detailed description
+- Complete ingredient list with amounts
+- Step-by-step instructions
+- Cooking tips
+- Nutritional information
+- Health benefits
+- Meal type and dietary style classification
+- Tags for search
+
+#### Updated Infrastructure
+- ✅ Created 5 new country HTML pages with proper SEO meta tags
+- ✅ Updated homepage country grid with all 35 countries
+- ✅ Added 5 new country flags to COUNTRY_DATA mapping
+- ✅ Merged 25 new recipes into main recipes.json (now 166 total)
+- ✅ All new recipes work with global search and favorites
+- ✅ AI Assistant can suggest new recipes
+
+### Recipe Count by Region
+| Region | Countries | Recipes |
+|--------|-----------|---------|
+| Mediterranean | Italy, France, Greece, Spain | ~20 |
+| Middle East | Syria, Lebanon, Turkey, Egypt, Iraq, Iran | ~26 |
+| Arabian Peninsula | Yemen, Saudi Arabia | 10 |
+| North Africa | Morocco, Algeria, Tunisia | ~14 |
+| Levant | Palestine | 5 |
+| East Asia | Japan, China, Korea, Vietnam | ~20 |
+| South/SE Asia | India, Thailand, Indonesia, Malaysia | ~20 |
+| Central/West Asia | Afghanistan, Uzbekistan | 10 |
+| Americas | Mexico, Brazil, Peru, USA, Suriname | ~21 |
+| Eastern Europe | Russia, Armenia | 10 |
+| Nordic | Scandinavia | 5 |
+| East Africa | Ethiopia | 5 |
+
+**Total: 35 countries, 166 recipes**
+
+---
+
+## Iteration 8 - Expanded Cuisine Collection
 
 ### What Was Built
 

@@ -1,0 +1,270 @@
+[
+  {
+    "id": "ir-chelow-kabab",
+    "slug": "chelow-kabab",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Chelow Kabab",
+    "image": "assets/img/recipes/chelow-kabab.jpg",
+    "short_description": "Iran's national dish featuring succulent grilled lamb or beef kebabs served atop saffron-infused buttered rice with a raw egg yolk and grilled tomatoes. This regal Persian feast represents the pinnacle of Iranian culinary tradition.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {"name": "basmati rice", "amount": 3, "unit": "cups"},
+      {"name": "ground lamb", "amount": 500, "unit": "g"},
+      {"name": "lamb tenderloin", "amount": 500, "unit": "g"},
+      {"name": "onion (grated)", "amount": 2, "unit": "large"},
+      {"name": "saffron threads", "amount": 1, "unit": "g"},
+      {"name": "butter", "amount": 100, "unit": "g"},
+      {"name": "egg yolks", "amount": 4, "unit": "pc"},
+      {"name": "sumac", "amount": 2, "unit": "tbsp"},
+      {"name": "tomatoes", "amount": 4, "unit": "medium"},
+      {"name": "salt", "amount": 2, "unit": "tsp"}
+    ],
+    "steps": [
+      "Soak rice in salted water for at least 2 hours, then rinse until water runs clear.",
+      "Grind saffron and bloom in 2 tablespoons hot water.",
+      "Mix ground lamb with grated onion, salt, and knead for 10 minutes until sticky.",
+      "Form into long flat kebabs around flat skewers.",
+      "Cut lamb tenderloin into cubes and marinate with onion juice and saffron.",
+      "Parboil rice in boiling salted water until just al dente, then drain.",
+      "Layer rice in pot, add butter, cover tightly and steam on low for 45 minutes.",
+      "Grill kubideh and barg kebabs over hot coals until charred and cooked through.",
+      "Grill tomatoes until blistered.",
+      "Mix some saffron water into a portion of rice for golden color.",
+      "Serve rice topped with kebabs, grilled tomato, butter, raw egg yolk, and sumac."
+    ],
+    "cooking_tips": [
+      "The tahdig (crispy rice bottom) is the most prized part - let it get golden.",
+      "Traditional kubideh should be kneaded until the meat is very smooth and holds shape.",
+      "The raw egg yolk is mixed into the hot rice at the table for richness."
+    ],
+    "difficulty": "hard",
+    "tags": ["iranian", "persian", "kebab", "rice", "saffron", "dinner", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 780,
+      "protein_g": 45,
+      "fat_g": 38,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Chelow Kabab is rich in high-quality protein from lamb. Saffron contains antioxidants including crocin and safranal with mood-enhancing properties. Basmati rice provides sustained energy, while the raw egg yolk adds vitamins A, D, and E.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-ghormeh-sabzi",
+    "slug": "ghormeh-sabzi",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Ghormeh Sabzi",
+    "image": "assets/img/recipes/ghormeh-sabzi.jpg",
+    "short_description": "Persian herb stew considered by many to be Iran's most beloved dish. A vibrant medley of fresh herbs, kidney beans, and tender lamb cubes slow-cooked with dried limes creates an unforgettable aromatic experience.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {"name": "lamb shoulder (cubed)", "amount": 700, "unit": "g"},
+      {"name": "fresh parsley", "amount": 3, "unit": "bunches"},
+      {"name": "fresh cilantro", "amount": 2, "unit": "bunches"},
+      {"name": "fresh chives", "amount": 2, "unit": "bunches"},
+      {"name": "fresh fenugreek leaves", "amount": 1, "unit": "bunch"},
+      {"name": "dried limes (limoo amani)", "amount": 4, "unit": "pc"},
+      {"name": "kidney beans", "amount": 1, "unit": "cup"},
+      {"name": "onion", "amount": 1, "unit": "large"},
+      {"name": "turmeric", "amount": 1, "unit": "tsp"},
+      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"},
+      {"name": "salt", "amount": 2, "unit": "tsp"}
+    ],
+    "steps": [
+      "Soak kidney beans overnight, then cook until tender and set aside.",
+      "Wash and finely chop all fresh herbs - this is crucial for texture.",
+      "Saute herbs in oil until dark green and fragrant, about 30 minutes.",
+      "In a separate pot, brown lamb cubes with sliced onion and turmeric.",
+      "Add water to cover the meat and simmer for 1 hour.",
+      "Pierce dried limes several times and add to the stew.",
+      "Add the sauteed herbs and continue simmering for another 1.5 hours.",
+      "Add cooked kidney beans in the last 30 minutes.",
+      "The stew should be thick and the meat fork-tender.",
+      "Serve hot over fluffy Persian rice with tahdig."
+    ],
+    "cooking_tips": [
+      "Frying the herbs until very dark is essential for authentic flavor.",
+      "Dried fenugreek (shambalileh) can substitute fresh if needed.",
+      "Crush the dried limes slightly before adding for more intense flavor."
+    ],
+    "difficulty": "medium",
+    "tags": ["iranian", "persian", "stew", "herbs", "lamb", "dinner", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 24,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Ghormeh Sabzi is exceptionally rich in vitamins and minerals from the abundance of fresh herbs. Parsley and cilantro provide vitamin K, C, and iron. Fenugreek aids blood sugar control, and kidney beans add fiber and plant protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-tahchin",
+    "slug": "tahchin",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Tahchin",
+    "image": "assets/img/recipes/tahchin.jpg",
+    "short_description": "An elegant Persian rice cake with layers of saffron yogurt rice encasing tender chicken or lamb. When inverted, it reveals a stunning golden crust that is the hallmark of this celebratory dish.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {"name": "basmati rice", "amount": 3, "unit": "cups"},
+      {"name": "chicken thighs", "amount": 600, "unit": "g"},
+      {"name": "Greek yogurt", "amount": 2, "unit": "cups"},
+      {"name": "egg yolks", "amount": 3, "unit": "pc"},
+      {"name": "saffron threads", "amount": 1, "unit": "g"},
+      {"name": "butter", "amount": 100, "unit": "g"},
+      {"name": "barberries (zereshk)", "amount": 100, "unit": "g"},
+      {"name": "onion", "amount": 1, "unit": "large"},
+      {"name": "salt", "amount": 2, "unit": "tsp"},
+      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Poach chicken with onion until cooked, then shred and set aside.",
+      "Soak rice for 2 hours, then parboil until just al dente and drain.",
+      "Bloom saffron in 3 tablespoons hot water.",
+      "Mix yogurt with egg yolks, half the saffron water, and salt.",
+      "Fold two-thirds of the yogurt mixture into the rice.",
+      "Generously butter a non-stick pot and add a layer of rice mixture.",
+      "Add shredded chicken as middle layer, then top with remaining rice.",
+      "Press down firmly and make holes with a spoon handle for steam.",
+      "Drizzle remaining butter on top, cover with towel-wrapped lid.",
+      "Cook on medium-low for 1.5 hours until bottom is golden and crispy.",
+      "Invert onto a platter, garnish with sauteed barberries and saffron."
+    ],
+    "cooking_tips": [
+      "The yogurt mixture ensures the rice holds together when inverted.",
+      "Low and slow cooking is key to achieving the perfect golden tahdig.",
+      "Let it rest 5 minutes before inverting to help it release cleanly."
+    ],
+    "difficulty": "hard",
+    "tags": ["iranian", "persian", "rice", "chicken", "saffron", "dinner", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 550,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Tahchin provides lean protein from chicken and probiotics from yogurt. Saffron has mood-boosting properties and antioxidants. Barberries are rich in vitamin C and berberine, which supports heart health.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-fesenjan",
+    "slug": "fesenjan",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Fesenjan",
+    "image": "assets/img/recipes/fesenjan.jpg",
+    "short_description": "A luxurious Persian stew of chicken or duck simmered in a rich sauce of ground walnuts and pomegranate molasses. This sweet-sour masterpiece balances earthy, tangy, and savory notes in perfect harmony.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {"name": "chicken thighs", "amount": 8, "unit": "pc"},
+      {"name": "walnuts", "amount": 400, "unit": "g"},
+      {"name": "pomegranate molasses", "amount": 150, "unit": "ml"},
+      {"name": "onion", "amount": 2, "unit": "large"},
+      {"name": "sugar", "amount": 2, "unit": "tbsp"},
+      {"name": "turmeric", "amount": 1, "unit": "tsp"},
+      {"name": "cinnamon", "amount": 0.5, "unit": "tsp"},
+      {"name": "salt", "amount": 1.5, "unit": "tsp"},
+      {"name": "vegetable oil", "amount": 3, "unit": "tbsp"},
+      {"name": "pomegranate seeds", "amount": 0.5, "unit": "cup"}
+    ],
+    "steps": [
+      "Toast walnuts lightly, then grind to a fine meal in a food processor.",
+      "Saute thinly sliced onions until deeply caramelized and golden.",
+      "Add ground walnuts to onions and toast for 5 minutes, stirring constantly.",
+      "Add 3 cups water and bring to a simmer.",
+      "Season chicken with turmeric and salt, then brown in a separate pan.",
+      "Add browned chicken to the walnut sauce.",
+      "Stir in pomegranate molasses, sugar, and cinnamon.",
+      "Cover and simmer on low for 1.5-2 hours, stirring occasionally.",
+      "The sauce should become thick and release oil on the surface.",
+      "Adjust sweet-sour balance with more molasses or sugar as needed.",
+      "Serve over Persian rice, garnished with fresh pomegranate seeds."
+    ],
+    "cooking_tips": [
+      "Slow cooking develops the deep, complex flavor - don't rush it.",
+      "The sauce should be thick enough to coat a spoon heavily.",
+      "Duck or game birds are traditional for special occasions."
+    ],
+    "difficulty": "medium",
+    "tags": ["iranian", "persian", "stew", "chicken", "walnuts", "pomegranate", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 32,
+      "fat_g": 48,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Fesenjan is rich in omega-3 fatty acids from walnuts, which support brain and heart health. Pomegranate molasses provides powerful antioxidants. The dish offers protein and B vitamins from chicken, while walnuts add vitamin E and magnesium.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-ash-reshteh",
+    "slug": "ash-reshteh",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Ash Reshteh",
+    "image": "assets/img/recipes/ash-reshteh.jpg",
+    "short_description": "A hearty Persian noodle soup brimming with herbs, legumes, and reshteh noodles, topped with kashk, fried onions, and mint oil. Traditionally served for Nowruz to symbolize good fortune in the new year.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {"name": "reshteh noodles (or linguine)", "amount": 200, "unit": "g"},
+      {"name": "chickpeas (soaked)", "amount": 0.5, "unit": "cup"},
+      {"name": "kidney beans (soaked)", "amount": 0.5, "unit": "cup"},
+      {"name": "lentils", "amount": 0.5, "unit": "cup"},
+      {"name": "fresh spinach", "amount": 200, "unit": "g"},
+      {"name": "fresh parsley", "amount": 1, "unit": "bunch"},
+      {"name": "fresh cilantro", "amount": 1, "unit": "bunch"},
+      {"name": "fresh dill", "amount": 1, "unit": "bunch"},
+      {"name": "kashk (whey sauce)", "amount": 200, "unit": "ml"},
+      {"name": "onion", "amount": 3, "unit": "large"},
+      {"name": "dried mint", "amount": 2, "unit": "tbsp"},
+      {"name": "turmeric", "amount": 1, "unit": "tsp"},
+      {"name": "salt", "amount": 2, "unit": "tsp"},
+      {"name": "vegetable oil", "amount": 100, "unit": "ml"}
+    ],
+    "steps": [
+      "Cook chickpeas and kidney beans until almost tender, about 1 hour.",
+      "Add lentils and continue cooking for 20 minutes.",
+      "Finely chop all fresh herbs and add to the pot with spinach.",
+      "Add turmeric and enough water to make a thick soup consistency.",
+      "Simmer for 30 minutes until herbs are tender.",
+      "Add noodles and cook until just done, about 10 minutes.",
+      "Meanwhile, slice onions thinly and fry until deep golden brown.",
+      "Fry dried mint in a little oil until fragrant for the topping.",
+      "Ladle soup into bowls and drizzle generously with kashk.",
+      "Top with fried onions and mint oil, serve immediately."
+    ],
+    "cooking_tips": [
+      "Break noodles into shorter pieces for easier eating.",
+      "The soup thickens as it sits - add water when reheating.",
+      "Kashk is essential - sour cream is not a true substitute but works in a pinch."
+    ],
+    "difficulty": "medium",
+    "tags": ["iranian", "persian", "soup", "noodles", "vegetarian", "nowruz", "lunch"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 16,
+      "fat_g": 18,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Ash Reshteh is nutritionally dense with plant proteins from multiple legumes. The abundance of fresh herbs provides vitamins K, C, and A. Lentils offer iron and folate, while the combination of beans creates complete protein.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  }
+]

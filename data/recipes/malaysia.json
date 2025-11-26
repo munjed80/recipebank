@@ -1,0 +1,272 @@
+[
+  {
+    "id": "my-nasi-lemak",
+    "slug": "nasi-lemak",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Nasi Lemak",
+    "image": "assets/img/recipes/nasi-lemak.jpg",
+    "short_description": "Malaysia's beloved national dish featuring fragrant coconut rice served with spicy sambal, crispy anchovies, roasted peanuts, cucumber slices, and boiled egg. This iconic breakfast has become a symbol of Malaysian food culture.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {"name": "jasmine rice", "amount": 2, "unit": "cups"},
+      {"name": "coconut milk", "amount": 400, "unit": "ml"},
+      {"name": "pandan leaves", "amount": 3, "unit": "leaves"},
+      {"name": "dried anchovies (ikan bilis)", "amount": 100, "unit": "g"},
+      {"name": "roasted peanuts", "amount": 100, "unit": "g"},
+      {"name": "cucumber", "amount": 1, "unit": "medium"},
+      {"name": "eggs", "amount": 4, "unit": "pc"},
+      {"name": "dried chilies", "amount": 15, "unit": "pc"},
+      {"name": "shallots", "amount": 6, "unit": "pc"},
+      {"name": "belacan (shrimp paste)", "amount": 1, "unit": "tbsp"},
+      {"name": "tamarind paste", "amount": 1, "unit": "tbsp"},
+      {"name": "sugar", "amount": 2, "unit": "tbsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Rinse rice and cook with coconut milk, pandan leaves, and salt in rice cooker.",
+      "Soak dried chilies in hot water until soft, then blend with shallots.",
+      "Fry chili paste with belacan until fragrant and oil separates.",
+      "Add tamarind, sugar, and salt to make sambal; cook until thick and glossy.",
+      "Rinse anchovies, pat dry, and deep-fry until golden and crispy.",
+      "Hard-boil eggs and halve them.",
+      "Slice cucumber into thin rounds.",
+      "Fluff the coconut rice and remove pandan leaves.",
+      "Arrange rice on plate with sambal, anchovies, peanuts, cucumber, and egg.",
+      "Traditionally wrapped in banana leaf for portable eating."
+    ],
+    "cooking_tips": [
+      "The sambal is the heart of nasi lemak - make it spicy and slightly sweet.",
+      "Pandan leaves are essential for authentic fragrance.",
+      "Serve with rendang or fried chicken for a complete meal."
+    ],
+    "difficulty": "medium",
+    "tags": ["malaysian", "rice", "coconut", "breakfast", "national-dish", "sambal"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 18,
+      "fat_g": 32,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Nasi Lemak provides healthy fats from coconut milk and peanuts. Anchovies are rich in calcium and omega-3 fatty acids. Eggs add complete protein and vitamins. The dish offers balanced macronutrients for sustained energy.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-rendang",
+    "slug": "beef-rendang",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Beef Rendang",
+    "image": "assets/img/recipes/beef-rendang.jpg",
+    "short_description": "A rich and aromatic dry curry where beef is slowly braised in coconut milk and a complex spice paste until the sauce caramelizes into a thick coating. This ceremonial dish is prized for its deep, layered flavors.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {"name": "beef chuck (cubed)", "amount": 1, "unit": "kg"},
+      {"name": "coconut milk", "amount": 800, "unit": "ml"},
+      {"name": "toasted coconut (kerisik)", "amount": 100, "unit": "g"},
+      {"name": "lemongrass", "amount": 4, "unit": "stalks"},
+      {"name": "galangal", "amount": 50, "unit": "g"},
+      {"name": "dried chilies", "amount": 15, "unit": "pc"},
+      {"name": "shallots", "amount": 10, "unit": "pc"},
+      {"name": "garlic", "amount": 8, "unit": "cloves"},
+      {"name": "ginger", "amount": 30, "unit": "g"},
+      {"name": "turmeric powder", "amount": 1, "unit": "tbsp"},
+      {"name": "palm sugar", "amount": 3, "unit": "tbsp"},
+      {"name": "salt", "amount": 2, "unit": "tsp"},
+      {"name": "kaffir lime leaves", "amount": 6, "unit": "leaves"}
+    ],
+    "steps": [
+      "Blend soaked chilies, shallots, garlic, ginger, and galangal into smooth paste.",
+      "Bruise lemongrass stalks with back of knife.",
+      "Toast grated coconut until golden to make kerisik.",
+      "Brown beef cubes in batches and set aside.",
+      "Fry spice paste until fragrant and oil separates, about 15 minutes.",
+      "Return beef to pot, add coconut milk, lemongrass, and lime leaves.",
+      "Simmer uncovered on low heat, stirring occasionally.",
+      "After 2 hours, add kerisik and palm sugar.",
+      "Continue cooking until liquid evaporates and oil separates from meat.",
+      "The rendang is ready when the meat is dark and coated in thick, caramelized sauce."
+    ],
+    "cooking_tips": [
+      "True rendang is 'dry' - the sauce should coat the meat, not pool on the plate.",
+      "Kerisik adds texture and depth - don't skip it.",
+      "Rendang improves with time - it's even better the next day."
+    ],
+    "difficulty": "hard",
+    "tags": ["malaysian", "beef", "curry", "coconut", "dinner", "festive", "slow-cooked"],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 42,
+      "fat_g": 45,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Rendang is high in protein and iron from beef. Coconut provides medium-chain triglycerides for quick energy. The spices including galangal and turmeric offer anti-inflammatory benefits. Lemongrass aids digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "my-laksa",
+    "slug": "curry-laksa",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Curry Laksa",
+    "image": "assets/img/recipes/curry-laksa.jpg",
+    "short_description": "A beloved Malaysian noodle soup with a rich, spicy coconut curry broth swimming with rice noodles, tofu puffs, shrimp, and cockles. Each region has its own version, but all share an addictive creamy heat.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {"name": "rice noodles (laksa noodles)", "amount": 400, "unit": "g"},
+      {"name": "coconut milk", "amount": 400, "unit": "ml"},
+      {"name": "chicken stock", "amount": 1, "unit": "liter"},
+      {"name": "shrimp", "amount": 300, "unit": "g"},
+      {"name": "tofu puffs", "amount": 200, "unit": "g"},
+      {"name": "bean sprouts", "amount": 200, "unit": "g"},
+      {"name": "laksa paste", "amount": 4, "unit": "tbsp"},
+      {"name": "dried shrimp", "amount": 50, "unit": "g"},
+      {"name": "hard-boiled eggs", "amount": 4, "unit": "pc"},
+      {"name": "Vietnamese mint (laksa leaves)", "amount": 1, "unit": "bunch"},
+      {"name": "fish sauce", "amount": 2, "unit": "tbsp"},
+      {"name": "palm sugar", "amount": 1, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Soak dried shrimp in hot water, then blend into paste.",
+      "Fry laksa paste with dried shrimp paste until fragrant.",
+      "Add chicken stock and bring to a simmer.",
+      "Stir in coconut milk and season with fish sauce and palm sugar.",
+      "Simmer for 20 minutes to develop flavors.",
+      "Blanch noodles and divide among serving bowls.",
+      "Add shrimp to soup and cook until pink, about 3 minutes.",
+      "Ladle hot soup and shrimp over noodles.",
+      "Top with tofu puffs, bean sprouts, and halved eggs.",
+      "Garnish with laksa leaves and sambal on the side."
+    ],
+    "cooking_tips": [
+      "Homemade laksa paste makes a world of difference.",
+      "Don't boil the soup after adding coconut milk to prevent separation.",
+      "Adjust spiciness with sambal at the table."
+    ],
+    "difficulty": "medium",
+    "tags": ["malaysian", "soup", "noodles", "coconut", "curry", "lunch", "seafood"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Laksa provides protein from shrimp and tofu. Coconut milk offers healthy fats. Bean sprouts add vitamin C and fiber. The aromatic herbs contain antioxidants and aid digestion.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-satay",
+    "slug": "chicken-satay",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Chicken Satay",
+    "image": "assets/img/recipes/chicken-satay.jpg",
+    "short_description": "Tender marinated chicken skewers grilled over charcoal and served with rich peanut sauce, cucumber, onion, and compressed rice cakes. These aromatic kebabs are a beloved street food throughout Malaysia.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {"name": "chicken thigh (boneless)", "amount": 600, "unit": "g"},
+      {"name": "lemongrass", "amount": 2, "unit": "stalks"},
+      {"name": "turmeric powder", "amount": 2, "unit": "tsp"},
+      {"name": "coriander powder", "amount": 1, "unit": "tbsp"},
+      {"name": "cumin powder", "amount": 1, "unit": "tsp"},
+      {"name": "roasted peanuts", "amount": 200, "unit": "g"},
+      {"name": "coconut milk", "amount": 200, "unit": "ml"},
+      {"name": "palm sugar", "amount": 3, "unit": "tbsp"},
+      {"name": "tamarind paste", "amount": 2, "unit": "tbsp"},
+      {"name": "dried chilies", "amount": 5, "unit": "pc"},
+      {"name": "shallots", "amount": 4, "unit": "pc"},
+      {"name": "bamboo skewers", "amount": 20, "unit": "pc"}
+    ],
+    "steps": [
+      "Soak bamboo skewers in water for 30 minutes.",
+      "Cut chicken into 1-inch cubes.",
+      "Blend lemongrass, shallots, turmeric, coriander, and cumin into paste.",
+      "Marinate chicken in spice paste for at least 2 hours.",
+      "Thread 4-5 pieces onto each skewer.",
+      "Blend peanuts coarsely, then cook with coconut milk, palm sugar, and tamarind.",
+      "Add fried shallots and chilies to peanut sauce, simmer until thick.",
+      "Grill skewers over hot charcoal, basting with oil.",
+      "Turn frequently until charred and cooked through, about 10 minutes.",
+      "Serve with warm peanut sauce, cucumber, onion wedges, and ketupat."
+    ],
+    "cooking_tips": [
+      "Charcoal grilling gives the best smoky flavor.",
+      "The peanut sauce should be thick enough to coat a spoon.",
+      "Keep some marinade aside for basting while grilling."
+    ],
+    "difficulty": "medium",
+    "tags": ["malaysian", "chicken", "grilled", "peanut", "street-food", "appetizer"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 32,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Satay provides lean protein from chicken. Peanuts add healthy fats, protein, and minerals including magnesium. Turmeric has anti-inflammatory properties. The dish is low in carbs but satisfying.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "my-roti-canai",
+    "slug": "roti-canai",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Roti Canai",
+    "image": "assets/img/recipes/roti-canai.jpg",
+    "short_description": "Flaky, buttery Malaysian flatbread that is stretched paper-thin, folded into layers, and pan-fried until crispy outside and soft inside. Served with dhal curry for dipping, it is a breakfast institution.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {"name": "all-purpose flour", "amount": 3, "unit": "cups"},
+      {"name": "condensed milk", "amount": 2, "unit": "tbsp"},
+      {"name": "ghee or butter", "amount": 100, "unit": "g"},
+      {"name": "salt", "amount": 1, "unit": "tsp"},
+      {"name": "yellow lentils (for dhal)", "amount": 1, "unit": "cup"},
+      {"name": "coconut milk", "amount": 200, "unit": "ml"},
+      {"name": "curry powder", "amount": 2, "unit": "tbsp"},
+      {"name": "onion", "amount": 1, "unit": "medium"},
+      {"name": "garlic", "amount": 3, "unit": "cloves"},
+      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Mix flour, salt, condensed milk, and enough water to form soft dough.",
+      "Knead well for 10 minutes until smooth and elastic.",
+      "Divide into balls, coat generously with ghee, and rest 4 hours or overnight.",
+      "For dhal: cook lentils until soft, then mash slightly.",
+      "Saute onion and garlic, add curry powder, then add lentils and coconut milk.",
+      "Stretch each dough ball on an oiled surface until paper-thin.",
+      "Fold into a square or roll into a spiral.",
+      "Pan-fry on a hot griddle with ghee until golden and crispy.",
+      "Clap the cooked roti between hands to separate layers.",
+      "Serve immediately with warm dhal curry."
+    ],
+    "cooking_tips": [
+      "The dough must rest long enough to become very stretchy.",
+      "Stretch carefully - holes are fine, they add crispness.",
+      "A hot griddle is essential for the crispy-soft texture."
+    ],
+    "difficulty": "hard",
+    "tags": ["malaysian", "flatbread", "breakfast", "vegetarian", "indian-influence"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 54
+    },
+    "nutrition_benefits": "Roti Canai paired with dhal provides complete protein. Lentils add fiber, iron, and B vitamins. The dish offers sustained energy from complex carbohydrates. Coconut milk provides medium-chain triglycerides.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  }
+]
