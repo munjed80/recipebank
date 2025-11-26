@@ -94,11 +94,10 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     // Store in conversation history
     this.conversationHistory.push({ role: 'user', content: message });
 
-    // Check for different intents
+    // Check for different intents - order matters!
+    // Check specific intents before general search
     if (this.isGreeting(lowerMessage)) {
       response = this.handleGreeting();
-    } else if (this.isRecipeSearch(lowerMessage)) {
-      response = this.handleRecipeSearch(lowerMessage);
     } else if (this.isAskingHowToMake(lowerMessage)) {
       response = this.handleHowToMake(lowerMessage);
     } else if (this.isAskingAboutIngredients(lowerMessage)) {
@@ -113,10 +112,14 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
       response = this.handleFollowUp(lowerMessage);
     } else if (this.isAskingAboutSubstitutions(lowerMessage)) {
       response = this.handleSubstitutionQuestion(lowerMessage);
+    } else if (this.isAskingAboutMealType(lowerMessage)) {
+      response = this.handleMealTypeQuestion(lowerMessage);
     } else if (this.isAskingAboutDietary(lowerMessage)) {
       response = this.handleDietaryQuestion(lowerMessage);
     } else if (this.isAskingAboutFavorites(lowerMessage)) {
       response = this.handleFavoritesQuestion(lowerMessage);
+    } else if (this.isRecipeSearch(lowerMessage)) {
+      response = this.handleRecipeSearch(lowerMessage);
     } else {
       response = this.handleUnknown(message);
     }
@@ -173,7 +176,11 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
   },
 
   isAskingAboutDietary(msg) {
-    return /(vegan|vegetarian|gluten.free|dairy.free|keto|low.carb|halal|kosher)/i.test(msg);
+    return /(vegan|vegetarian|gluten.free|dairy.free|keto|low.carb|halal|kosher|high.protein)/i.test(msg);
+  },
+
+  isAskingAboutMealType(msg) {
+    return /(breakfast|lunch|dinner|appetizer|dessert|drink|snack)/i.test(msg);
   },
 
   isAskingAboutFavorites(msg) {
@@ -219,8 +226,9 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     searchResults.slice(0, 5).forEach((recipe, index) => {
       const isFav = Favorites.isFavorite(recipe.slug);
       const favIcon = isFav ? ' ❤️' : '';
+      const dietary = recipe.dietaryStyle && recipe.dietaryStyle !== 'None' ? ` • ${recipe.dietaryStyle}` : '';
       response += `**${index + 1}. ${recipe.name_en}${favIcon}** (${recipe.country})\n`;
-      response += `   ⏱️ ${(recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0)} min | ${recipe.difficulty}\n`;
+      response += `   🍽️ ${recipe.mealType}${dietary} | ⏱️ ${(recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0)} min | ${recipe.difficulty}\n`;
       response += `   ${recipe.short_description.substring(0, 100)}...\n\n`;
     });
 
@@ -431,40 +439,94 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     return response;
   },
 
-  handleDietaryQuestion(msg) {
-    const dietaryTags = {
-      'vegan': 'vegan',
-      'vegetarian': 'vegetarian',
-      'gluten-free': 'gluten-free',
-      'gluten free': 'gluten-free',
-      'low-carb': 'healthy',
-      'keto': 'healthy'
+  handleMealTypeQuestion(msg) {
+    const mealTypes = {
+      'breakfast': 'Breakfast',
+      'brunch': 'Breakfast',
+      'lunch': 'Lunch',
+      'dinner': 'Dinner',
+      'supper': 'Dinner',
+      'appetizer': 'Appetizer',
+      'starter': 'Appetizer',
+      'snack': 'Appetizer',
+      'dessert': 'Dessert',
+      'sweet': 'Dessert',
+      'drink': 'Drink',
+      'beverage': 'Drink'
     };
 
-    let tag = null;
-    for (const [keyword, tagName] of Object.entries(dietaryTags)) {
+    let mealType = null;
+    for (const [keyword, type] of Object.entries(mealTypes)) {
       if (msg.toLowerCase().includes(keyword)) {
-        tag = tagName;
+        mealType = type;
         break;
       }
     }
 
-    if (tag) {
-      const recipes = RecipeSearch.getByTag(this.allRecipes, tag);
+    if (mealType) {
+      const recipes = this.allRecipes.filter(r => r.mealType === mealType);
       if (recipes.length > 0) {
-        let response = `Here are ${tag} recipes:\n\n`;
-        recipes.forEach((r, i) => {
+        let response = `Here are ${mealType.toLowerCase()} recipes:\n\n`;
+        recipes.slice(0, 10).forEach((r, i) => {
           const isFav = Favorites.isFavorite(r.slug);
           const favIcon = isFav ? ' ❤️' : '';
-          response += `${i + 1}. **${r.name_en}${favIcon}** (${r.country}) - ${r.difficulty}\n`;
+          const dietary = r.dietaryStyle && r.dietaryStyle !== 'None' ? ` • ${r.dietaryStyle}` : '';
+          response += `${i + 1}. **${r.name_en}${favIcon}** (${r.country})${dietary}\n`;
         });
+        if (recipes.length > 10) {
+          response += `\n...and ${recipes.length - 10} more!\n`;
+        }
         response += `\nWould you like instructions for any of these?`;
         return response;
       }
-      return `I don't have any ${tag} recipes at the moment, but you can adapt many recipes with ingredient substitutions!`;
+      return `I don't have any ${mealType.toLowerCase()} recipes at the moment.`;
     }
 
-    return "I can help you find vegetarian, vegan, or gluten-free recipes. What dietary preference are you looking for?";
+    return "I can help you find recipes for breakfast, lunch, dinner, appetizers, desserts, or drinks. What are you looking for?";
+  },
+
+  handleDietaryQuestion(msg) {
+    const dietaryStyles = {
+      'vegan': 'Vegan',
+      'vegetarian': 'Vegetarian',
+      'gluten-free': 'Gluten Free',
+      'gluten free': 'Gluten Free',
+      'dairy-free': 'Dairy Free',
+      'dairy free': 'Dairy Free',
+      'high-protein': 'High Protein',
+      'high protein': 'High Protein',
+      'low-carb': 'Low Carb',
+      'low carb': 'Low Carb',
+      'keto': 'Low Carb'
+    };
+
+    let dietaryStyle = null;
+    for (const [keyword, style] of Object.entries(dietaryStyles)) {
+      if (msg.toLowerCase().includes(keyword)) {
+        dietaryStyle = style;
+        break;
+      }
+    }
+
+    if (dietaryStyle) {
+      const recipes = this.allRecipes.filter(r => r.dietaryStyle === dietaryStyle);
+      if (recipes.length > 0) {
+        let response = `Here are ${dietaryStyle.toLowerCase()} recipes:\n\n`;
+        recipes.slice(0, 10).forEach((r, i) => {
+          const isFav = Favorites.isFavorite(r.slug);
+          const favIcon = isFav ? ' ❤️' : '';
+          response += `${i + 1}. **${r.name_en}${favIcon}** (${r.country}) - ${r.mealType}\n`;
+        });
+        if (recipes.length > 10) {
+          response += `\n...and ${recipes.length - 10} more!\n`;
+        }
+        response += `\nWould you like instructions for any of these?`;
+        return response;
+      }
+      return `I don't have any ${dietaryStyle.toLowerCase()} recipes at the moment, but you can adapt many recipes with ingredient substitutions!`;
+    }
+
+    return "I can help you find Vegan, Vegetarian, Gluten Free, Dairy Free, High Protein, or Low Carb recipes. What dietary preference are you looking for?";
   },
 
   handleFavoritesQuestion(msg) {

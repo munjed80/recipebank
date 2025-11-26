@@ -158,28 +158,17 @@ const SEO = {
       };
     }
 
-    // Build keywords from tags
-    const keywords = recipe.tags ? recipe.tags.join(', ') : '';
-
-    // Determine recipe category based on tags
-    const categoryMap = {
-      'breakfast': 'Breakfast',
-      'lunch': 'Lunch',
-      'dinner': 'Dinner',
-      'dessert': 'Dessert',
-      'appetizer': 'Appetizer',
-      'snack': 'Snack',
-      'drink': 'Beverage',
-      'soup': 'Soup',
-      'salad': 'Salad'
-    };
-    let recipeCategory = 'Main Course';
-    for (const tag of (recipe.tags || [])) {
-      if (categoryMap[tag.toLowerCase()]) {
-        recipeCategory = categoryMap[tag.toLowerCase()];
-        break;
-      }
+    // Build keywords from tags and dietary info
+    let keywords = recipe.tags ? recipe.tags.join(', ') : '';
+    if (recipe.mealType) {
+      keywords += `, ${recipe.mealType}`;
     }
+    if (recipe.dietaryStyle && recipe.dietaryStyle !== 'None') {
+      keywords += `, ${recipe.dietaryStyle}`;
+    }
+
+    // Use mealType for recipe category if available, otherwise determine from tags
+    let recipeCategory = recipe.mealType || 'Main Course';
 
     const schema = {
       '@context': 'https://schema.org/',

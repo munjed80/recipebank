@@ -216,6 +216,12 @@ function renderRecipeModern(container, recipe) {
         <div class="recipe-header-content">
           <h1 class="recipe-title-modern">${escapeHtml(recipe.name_en)}</h1>
           
+          <!-- Classification Badges -->
+          <div class="recipe-classification">
+            ${recipe.mealType ? `<span class="classification-badge meal-type-badge meal-${recipe.mealType.toLowerCase()}">${escapeHtml(recipe.mealType)}</span>` : ''}
+            ${recipe.dietaryStyle && recipe.dietaryStyle !== 'None' ? `<span class="classification-badge dietary-badge dietary-${recipe.dietaryStyle.toLowerCase().replace(/\s+/g, '-')}">${escapeHtml(recipe.dietaryStyle)}</span>` : ''}
+          </div>
+          
           <!-- Rating Stars Placeholder -->
           <div class="recipe-rating">
             <span class="stars">★★★★☆</span>

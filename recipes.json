@@ -84,7 +84,9 @@
       "fat_g": 18,
       "carbs_g": 70
     },
-    "nutrition_benefits": "This pizza provides a good balance of carbohydrates for energy, protein from the mozzarella cheese, and lycopene from the tomatoes which is a powerful antioxidant. The olive oil adds heart-healthy monounsaturated fats. Fresh basil contains vitamins K, A, and C, plus essential oils with anti-inflammatory properties."
+    "nutrition_benefits": "This pizza provides a good balance of carbohydrates for energy, protein from the mozzarella cheese, and lycopene from the tomatoes which is a powerful antioxidant. The olive oil adds heart-healthy monounsaturated fats. Fresh basil contains vitamins K, A, and C, plus essential oils with anti-inflammatory properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "it-spaghetti-carbonara",
@@ -167,7 +169,9 @@
       "fat_g": 32,
       "carbs_g": 58
     },
-    "nutrition_benefits": "Carbonara is an excellent source of complete protein from eggs and cheese, providing all essential amino acids. The eggs contain choline, vital for brain health, and the Pecorino Romano offers calcium for bone strength. The dish provides sustained energy from complex carbohydrates in the pasta."
+    "nutrition_benefits": "Carbonara is an excellent source of complete protein from eggs and cheese, providing all essential amino acids. The eggs contain choline, vital for brain health, and the Pecorino Romano offers calcium for bone strength. The dish provides sustained energy from complex carbohydrates in the pasta.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
   },
   {
     "id": "in-butter-chicken",
@@ -276,7 +280,9 @@
       "fat_g": 38,
       "carbs_g": 15
     },
-    "nutrition_benefits": "Butter chicken is packed with high-quality protein essential for muscle building and repair. The tomatoes provide lycopene and vitamin C, while the spices like ginger, garlic, and turmeric offer anti-inflammatory and immune-boosting properties. Garam masala spices aid digestion and metabolism."
+    "nutrition_benefits": "Butter chicken is packed with high-quality protein essential for muscle building and repair. The tomatoes provide lycopene and vitamin C, while the spices like ginger, garlic, and turmeric offer anti-inflammatory and immune-boosting properties. Garam masala spices aid digestion and metabolism.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "in-vegetable-biryani",
@@ -380,7 +386,9 @@
       "fat_g": 14,
       "carbs_g": 65
     },
-    "nutrition_benefits": "Vegetable biryani provides a complete meal with complex carbohydrates from basmati rice for sustained energy. The variety of vegetables offers fiber, vitamins, and minerals. Saffron has antioxidant properties, while the aromatic spices like cardamom and cloves aid digestion and have antimicrobial properties."
+    "nutrition_benefits": "Vegetable biryani provides a complete meal with complex carbohydrates from basmati rice for sustained energy. The variety of vegetables offers fiber, vitamins, and minerals. Saffron has antioxidant properties, while the aromatic spices like cardamom and cloves aid digestion and have antimicrobial properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "jp-ramen",
@@ -484,7 +492,9 @@
       "fat_g": 35,
       "carbs_g": 55
     },
-    "nutrition_benefits": "Shoyu ramen delivers substantial protein from both the pork and egg, supporting muscle maintenance and satiety. The slow-simmered broth extracts collagen from the pork, beneficial for skin and joint health. Ginger and garlic provide immune-boosting compounds, while the nori adds iodine essential for thyroid function."
+    "nutrition_benefits": "Shoyu ramen delivers substantial protein from both the pork and egg, supporting muscle maintenance and satiety. The slow-simmered broth extracts collagen from the pork, beneficial for skin and joint health. Ginger and garlic provide immune-boosting compounds, while the nori adds iodine essential for thyroid function.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
   },
   {
     "id": "jp-teriyaki-salmon",
@@ -572,7 +582,9 @@
       "fat_g": 18,
       "carbs_g": 15
     },
-    "nutrition_benefits": "Salmon is one of the best sources of omega-3 fatty acids, which support heart health, brain function, and reduce inflammation. It provides high-quality complete protein and is rich in B vitamins, particularly B12 for energy metabolism. The fish also offers selenium and vitamin D, often lacking in modern diets."
+    "nutrition_benefits": "Salmon is one of the best sources of omega-3 fatty acids, which support heart health, brain function, and reduce inflammation. It provides high-quality complete protein and is rich in B vitamins, particularly B12 for energy metabolism. The fish also offers selenium and vitamin D, often lacking in modern diets.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
   },
   {
     "id": "mx-tacos-al-pastor",
@@ -676,7 +688,9 @@
       "fat_g": 18,
       "carbs_g": 42
     },
-    "nutrition_benefits": "Tacos al pastor provide excellent protein from pork, essential for muscle repair and immune function. The pineapple contains bromelain, an enzyme that aids protein digestion. Dried chilies are rich in vitamins A and C plus capsaicin, which may boost metabolism. The corn tortillas offer fiber and are naturally gluten-free."
+    "nutrition_benefits": "Tacos al pastor provide excellent protein from pork, essential for muscle repair and immune function. The pineapple contains bromelain, an enzyme that aids protein digestion. Dried chilies are rich in vitamins A and C plus capsaicin, which may boost metabolism. The corn tortillas offer fiber and are naturally gluten-free.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "mx-guacamole",
@@ -763,7 +777,9 @@
       "fat_g": 15,
       "carbs_g": 12
     },
-    "nutrition_benefits": "Guacamole is a nutritional powerhouse thanks to avocados, which provide heart-healthy monounsaturated fats that help lower bad cholesterol. They are rich in potassium (more than bananas), fiber for digestive health, and vitamin K for bone health. Lime juice adds vitamin C, while cilantro offers detoxifying properties."
+    "nutrition_benefits": "Guacamole is a nutritional powerhouse thanks to avocados, which provide heart-healthy monounsaturated fats that help lower bad cholesterol. They are rich in potassium (more than bananas), fiber for digestive health, and vitamin K for bone health. Lime juice adds vitamin C, while cilantro offers detoxifying properties.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "sy-kibbeh",
@@ -864,7 +880,9 @@
       "fat_g": 22,
       "carbs_g": 28
     },
-    "nutrition_benefits": "Kibbeh offers a balanced combination of protein from lamb, complex carbohydrates from bulgur wheat, and healthy fats from pine nuts. Bulgur is high in fiber and has a low glycemic index. Lamb provides iron, zinc, and B vitamins, particularly B12. The warming spices like cinnamon and allspice have anti-inflammatory properties."
+    "nutrition_benefits": "Kibbeh offers a balanced combination of protein from lamb, complex carbohydrates from bulgur wheat, and healthy fats from pine nuts. Bulgur is high in fiber and has a low glycemic index. Lamb provides iron, zinc, and B vitamins, particularly B12. The warming spices like cinnamon and allspice have anti-inflammatory properties.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "sy-fattoush",
@@ -974,7 +992,9 @@
       "fat_g": 14,
       "carbs_g": 22
     },
-    "nutrition_benefits": "Fattoush is packed with vitamins and antioxidants from the rainbow of fresh vegetables. Sumac is exceptionally high in antioxidants and has natural antibacterial properties. The olive oil provides heart-healthy fats, while the variety of raw vegetables ensures maximum vitamin retention. This salad is excellent for digestive health due to its high fiber content."
+    "nutrition_benefits": "Fattoush is packed with vitamins and antioxidants from the rainbow of fresh vegetables. Sumac is exceptionally high in antioxidants and has natural antibacterial properties. The olive oil provides heart-healthy fats, while the variety of raw vegetables ensures maximum vitamin retention. This salad is excellent for digestive health due to its high fiber content.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "fr-coq-au-vin",
@@ -1032,7 +1052,9 @@
       "fat_g": 28,
       "carbs_g": 12
     },
-    "nutrition_benefits": "High protein, antioxidants from wine."
+    "nutrition_benefits": "High protein, antioxidants from wine.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "fr-croissant",
@@ -1083,7 +1105,9 @@
       "fat_g": 16,
       "carbs_g": 28
     },
-    "nutrition_benefits": "Energy from carbs, best in moderation."
+    "nutrition_benefits": "Energy from carbs, best in moderation.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "fr-ratatouille",
@@ -1134,7 +1158,9 @@
       "fat_g": 6,
       "carbs_g": 16
     },
-    "nutrition_benefits": "Low calorie, high fiber, vitamin-rich."
+    "nutrition_benefits": "Low calorie, high fiber, vitamin-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "fr-onion-soup",
@@ -1186,7 +1212,9 @@
       "fat_g": 20,
       "carbs_g": 32
     },
-    "nutrition_benefits": "Quercetin from onions, calcium from cheese."
+    "nutrition_benefits": "Quercetin from onions, calcium from cheese.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "fr-crepes",
@@ -1238,7 +1266,9 @@
       "fat_g": 7,
       "carbs_g": 24
     },
-    "nutrition_benefits": "Protein from eggs, versatile base."
+    "nutrition_benefits": "Protein from eggs, versatile base.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "fr-quiche",
@@ -1295,7 +1325,9 @@
       "fat_g": 32,
       "carbs_g": 18
     },
-    "nutrition_benefits": "Protein from eggs and bacon."
+    "nutrition_benefits": "Protein from eggs and bacon.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "None"
   },
   {
     "id": "th-pad-thai",
@@ -1354,7 +1386,9 @@
       "fat_g": 16,
       "carbs_g": 58
     },
-    "nutrition_benefits": "Protein from shrimp, healthy fats from peanuts."
+    "nutrition_benefits": "Protein from shrimp, healthy fats from peanuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "th-green-curry",
@@ -1413,7 +1447,9 @@
       "fat_g": 30,
       "carbs_g": 12
     },
-    "nutrition_benefits": "MCTs from coconut, protein, anti-inflammatory spices."
+    "nutrition_benefits": "MCTs from coconut, protein, anti-inflammatory spices.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "th-tom-yum",
@@ -1471,7 +1507,9 @@
       "fat_g": 4,
       "carbs_g": 12
     },
-    "nutrition_benefits": "Low calorie, high protein, immune-boosting aromatics."
+    "nutrition_benefits": "Low calorie, high protein, immune-boosting aromatics.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Low Carb"
   },
   {
     "id": "th-mango-rice",
@@ -1529,7 +1567,9 @@
       "fat_g": 12,
       "carbs_g": 65
     },
-    "nutrition_benefits": "Vitamin A and C from mango, energy from rice."
+    "nutrition_benefits": "Vitamin A and C from mango, energy from rice.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "th-satay",
@@ -1587,7 +1627,9 @@
       "fat_g": 18,
       "carbs_g": 10
     },
-    "nutrition_benefits": "High protein, healthy fats from peanuts."
+    "nutrition_benefits": "High protein, healthy fats from peanuts.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "th-papaya-salad",
@@ -1645,7 +1687,9 @@
       "fat_g": 1,
       "carbs_g": 18
     },
-    "nutrition_benefits": "Very low calorie, high vitamin C, digestive enzymes from papaya."
+    "nutrition_benefits": "Very low calorie, high vitamin C, digestive enzymes from papaya.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "ma-tagine",
@@ -1698,7 +1742,9 @@
       "fat_g": 24,
       "carbs_g": 28
     },
-    "nutrition_benefits": "Iron-rich lamb, antioxidant spices, natural sweetness from fruit."
+    "nutrition_benefits": "Iron-rich lamb, antioxidant spices, natural sweetness from fruit.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "ma-couscous",
@@ -1749,7 +1795,9 @@
       "fat_g": 14,
       "carbs_g": 52
     },
-    "nutrition_benefits": "Balanced meal with protein, fiber, and complex carbs."
+    "nutrition_benefits": "Balanced meal with protein, fiber, and complex carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "ma-harira",
@@ -1801,7 +1849,9 @@
       "fat_g": 4,
       "carbs_g": 38
     },
-    "nutrition_benefits": "High fiber, plant protein, low fat."
+    "nutrition_benefits": "High fiber, plant protein, low fat.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "ma-bastilla",
@@ -1854,7 +1904,9 @@
       "fat_g": 26,
       "carbs_g": 34
     },
-    "nutrition_benefits": "Protein from chicken, healthy fats from almonds."
+    "nutrition_benefits": "Protein from chicken, healthy fats from almonds.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "ma-mint-tea",
@@ -1907,7 +1959,9 @@
       "fat_g": 0,
       "carbs_g": 15
     },
-    "nutrition_benefits": "Antioxidants from tea, digestive mint."
+    "nutrition_benefits": "Antioxidants from tea, digestive mint.",
+    "mealType": "Drink",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "ma-zaalouk",
@@ -1959,7 +2013,9 @@
       "fat_g": 5,
       "carbs_g": 10
     },
-    "nutrition_benefits": "Low calorie, fiber-rich, antioxidants."
+    "nutrition_benefits": "Low calorie, fiber-rich, antioxidants.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "lb-shawarma",
@@ -2011,7 +2067,9 @@
       "fat_g": 28,
       "carbs_g": 32
     },
-    "nutrition_benefits": "High protein, iron from beef, calcium from tahini."
+    "nutrition_benefits": "High protein, iron from beef, calcium from tahini.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "lb-falafel",
@@ -2064,7 +2122,9 @@
       "fat_g": 14,
       "carbs_g": 28
     },
-    "nutrition_benefits": "Plant protein, fiber, herbs provide vitamins."
+    "nutrition_benefits": "Plant protein, fiber, herbs provide vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "lb-baba-ganoush",
@@ -2117,7 +2177,9 @@
       "fat_g": 9,
       "carbs_g": 10
     },
-    "nutrition_benefits": "Low calorie, healthy fats from tahini."
+    "nutrition_benefits": "Low calorie, healthy fats from tahini.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "lb-manousheh",
@@ -2170,7 +2232,9 @@
       "fat_g": 16,
       "carbs_g": 38
     },
-    "nutrition_benefits": "Energy from carbs, antioxidants from zaatar."
+    "nutrition_benefits": "Energy from carbs, antioxidants from zaatar.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "lb-kebbeh",
@@ -2223,7 +2287,9 @@
       "fat_g": 10,
       "carbs_g": 12
     },
-    "nutrition_benefits": "High protein, iron, zinc from raw lamb."
+    "nutrition_benefits": "High protein, iron, zinc from raw lamb.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "lb-tabbouleh",
@@ -2276,7 +2342,9 @@
       "fat_g": 8,
       "carbs_g": 12
     },
-    "nutrition_benefits": "Iron from parsley, vitamin K, antioxidants."
+    "nutrition_benefits": "Iron from parsley, vitamin K, antioxidants.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "cn-kung-pao",
@@ -2329,7 +2397,9 @@
       "fat_g": 22,
       "carbs_g": 14
     },
-    "nutrition_benefits": "High protein, healthy fats from peanuts."
+    "nutrition_benefits": "High protein, healthy fats from peanuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "cn-dumplings",
@@ -2380,7 +2450,9 @@
       "fat_g": 14,
       "carbs_g": 28
     },
-    "nutrition_benefits": "Protein from pork, fiber from cabbage."
+    "nutrition_benefits": "Protein from pork, fiber from cabbage.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "cn-fried-rice",
@@ -2433,7 +2505,9 @@
       "fat_g": 12,
       "carbs_g": 52
     },
-    "nutrition_benefits": "Balanced meal, protein from shrimp and eggs."
+    "nutrition_benefits": "Balanced meal, protein from shrimp and eggs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "cn-mapo-tofu",
@@ -2486,7 +2560,9 @@
       "fat_g": 14,
       "carbs_g": 8
     },
-    "nutrition_benefits": "Plant protein from tofu, low carb."
+    "nutrition_benefits": "Plant protein from tofu, low carb.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "cn-spring-rolls",
@@ -2537,7 +2613,9 @@
       "fat_g": 10,
       "carbs_g": 20
     },
-    "nutrition_benefits": "Vegetables provide fiber and vitamins."
+    "nutrition_benefits": "Vegetables provide fiber and vitamins.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "cn-char-siu",
@@ -2589,7 +2667,9 @@
       "fat_g": 20,
       "carbs_g": 18
     },
-    "nutrition_benefits": "High protein from pork."
+    "nutrition_benefits": "High protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "gr-moussaka",
@@ -2643,7 +2723,9 @@
       "fat_g": 32,
       "carbs_g": 24
     },
-    "nutrition_benefits": "Protein from lamb, fiber from eggplant."
+    "nutrition_benefits": "Protein from lamb, fiber from eggplant.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "gr-souvlaki",
@@ -2696,7 +2778,9 @@
       "fat_g": 18,
       "carbs_g": 16
     },
-    "nutrition_benefits": "Lean protein, probiotics from tzatziki."
+    "nutrition_benefits": "Lean protein, probiotics from tzatziki.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "gr-spanakopita",
@@ -2749,7 +2833,9 @@
       "fat_g": 18,
       "carbs_g": 18
     },
-    "nutrition_benefits": "Iron from spinach, calcium from feta."
+    "nutrition_benefits": "Iron from spinach, calcium from feta.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "gr-tzatziki",
@@ -2801,7 +2887,9 @@
       "fat_g": 4,
       "carbs_g": 6
     },
-    "nutrition_benefits": "Probiotics from yogurt, low calorie."
+    "nutrition_benefits": "Probiotics from yogurt, low calorie.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "gr-greek-salad",
@@ -2853,7 +2941,9 @@
       "fat_g": 18,
       "carbs_g": 10
     },
-    "nutrition_benefits": "Healthy fats from olives and olive oil, calcium from feta."
+    "nutrition_benefits": "Healthy fats from olives and olive oil, calcium from feta.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "gr-baklava",
@@ -2906,7 +2996,9 @@
       "fat_g": 16,
       "carbs_g": 32
     },
-    "nutrition_benefits": "Healthy fats from nuts, antioxidants from honey."
+    "nutrition_benefits": "Healthy fats from nuts, antioxidants from honey.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "es-paella",
@@ -2959,7 +3051,9 @@
       "fat_g": 18,
       "carbs_g": 58
     },
-    "nutrition_benefits": "Balanced meal with protein and carbs."
+    "nutrition_benefits": "Balanced meal with protein and carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "es-gazpacho",
@@ -3012,7 +3106,9 @@
       "fat_g": 4,
       "carbs_g": 12
     },
-    "nutrition_benefits": "Low calorie, vitamin C, lycopene."
+    "nutrition_benefits": "Low calorie, vitamin C, lycopene.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "es-tortilla",
@@ -3065,7 +3161,9 @@
       "fat_g": 16,
       "carbs_g": 24
     },
-    "nutrition_benefits": "Protein from eggs, potassium from potatoes."
+    "nutrition_benefits": "Protein from eggs, potassium from potatoes.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "es-patatas-bravas",
@@ -3117,7 +3215,9 @@
       "fat_g": 18,
       "carbs_g": 38
     },
-    "nutrition_benefits": "Energy from potatoes, garlic benefits from aioli."
+    "nutrition_benefits": "Energy from potatoes, garlic benefits from aioli.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "es-churros",
@@ -3169,7 +3269,9 @@
       "fat_g": 18,
       "carbs_g": 48
     },
-    "nutrition_benefits": "Antioxidants from dark chocolate."
+    "nutrition_benefits": "Antioxidants from dark chocolate.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "tr-kebab",
@@ -3222,7 +3324,9 @@
       "fat_g": 32,
       "carbs_g": 2
     },
-    "nutrition_benefits": "High protein, iron from lamb."
+    "nutrition_benefits": "High protein, iron from lamb.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "tr-lahmacun",
@@ -3273,7 +3377,9 @@
       "fat_g": 12,
       "carbs_g": 38
     },
-    "nutrition_benefits": "Protein from lamb, balanced meal."
+    "nutrition_benefits": "Protein from lamb, balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "tr-dolma",
@@ -3325,7 +3431,9 @@
       "fat_g": 8,
       "carbs_g": 26
     },
-    "nutrition_benefits": "Fiber, healthy fats from pine nuts."
+    "nutrition_benefits": "Fiber, healthy fats from pine nuts.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "tr-pide",
@@ -3378,7 +3486,9 @@
       "fat_g": 18,
       "carbs_g": 52
     },
-    "nutrition_benefits": "Complete meal with protein and carbs."
+    "nutrition_benefits": "Complete meal with protein and carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "tr-baklava",
@@ -3432,7 +3542,9 @@
       "fat_g": 20,
       "carbs_g": 32
     },
-    "nutrition_benefits": "Healthy fats from pistachios."
+    "nutrition_benefits": "Healthy fats from pistachios.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "kr-bibimbap",
@@ -3486,7 +3598,9 @@
       "fat_g": 16,
       "carbs_g": 68
     },
-    "nutrition_benefits": "Balanced with protein, vegetables, grains."
+    "nutrition_benefits": "Balanced with protein, vegetables, grains.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "kr-bulgogi",
@@ -3539,7 +3653,9 @@
       "fat_g": 18,
       "carbs_g": 16
     },
-    "nutrition_benefits": "High protein, iron from beef."
+    "nutrition_benefits": "High protein, iron from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "kr-kimchi-jjigae",
@@ -3593,7 +3709,9 @@
       "fat_g": 22,
       "carbs_g": 12
     },
-    "nutrition_benefits": "Probiotics from kimchi, protein from pork and tofu."
+    "nutrition_benefits": "Probiotics from kimchi, protein from pork and tofu.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "kr-japchae",
@@ -3645,7 +3763,9 @@
       "fat_g": 10,
       "carbs_g": 58
     },
-    "nutrition_benefits": "Gluten-free noodles, iron from spinach."
+    "nutrition_benefits": "Gluten-free noodles, iron from spinach.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "kr-fried-chicken",
@@ -3697,7 +3817,9 @@
       "fat_g": 32,
       "carbs_g": 22
     },
-    "nutrition_benefits": "High protein from chicken."
+    "nutrition_benefits": "High protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "vn-pho",
@@ -3750,7 +3872,9 @@
       "fat_g": 12,
       "carbs_g": 52
     },
-    "nutrition_benefits": "Collagen from bones, herbs provide vitamins."
+    "nutrition_benefits": "Collagen from bones, herbs provide vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "vn-banh-mi",
@@ -3802,7 +3926,9 @@
       "fat_g": 24,
       "carbs_g": 44
     },
-    "nutrition_benefits": "Balanced meal, pickled vegetables aid digestion."
+    "nutrition_benefits": "Balanced meal, pickled vegetables aid digestion.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "vn-spring-rolls",
@@ -3854,7 +3980,9 @@
       "fat_g": 2,
       "carbs_g": 26
     },
-    "nutrition_benefits": "Low fat, high protein, fresh vegetables."
+    "nutrition_benefits": "Low fat, high protein, fresh vegetables.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "vn-bun-cha",
@@ -3907,7 +4035,9 @@
       "fat_g": 18,
       "carbs_g": 44
     },
-    "nutrition_benefits": "Protein from pork, herbs provide vitamins."
+    "nutrition_benefits": "Protein from pork, herbs provide vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "vn-ca-phe",
@@ -3960,7 +4090,9 @@
       "fat_g": 4,
       "carbs_g": 26
     },
-    "nutrition_benefits": "Antioxidants from coffee, energy boost."
+    "nutrition_benefits": "Antioxidants from coffee, energy boost.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "br-feijoada",
@@ -4012,7 +4144,9 @@
       "fat_g": 28,
       "carbs_g": 32
     },
-    "nutrition_benefits": "High protein, fiber from beans."
+    "nutrition_benefits": "High protein, fiber from beans.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "br-picanha",
@@ -4059,7 +4193,9 @@
       "fat_g": 32,
       "carbs_g": 0
     },
-    "nutrition_benefits": "High protein, iron, zinc from beef."
+    "nutrition_benefits": "High protein, iron, zinc from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "br-coxinha",
@@ -4113,7 +4249,9 @@
       "fat_g": 10,
       "carbs_g": 16
     },
-    "nutrition_benefits": "Protein from chicken."
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
   },
   {
     "id": "br-acai-bowl",
@@ -4165,7 +4303,9 @@
       "fat_g": 10,
       "carbs_g": 46
     },
-    "nutrition_benefits": "Antioxidants from acai, fiber, vitamins."
+    "nutrition_benefits": "Antioxidants from acai, fiber, vitamins.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "br-pao-de-queijo",
@@ -4218,7 +4358,9 @@
       "fat_g": 6,
       "carbs_g": 14
     },
-    "nutrition_benefits": "Gluten-free, protein from cheese."
+    "nutrition_benefits": "Gluten-free, protein from cheese.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "et-doro-wat",
@@ -4271,7 +4413,9 @@
       "fat_g": 24,
       "carbs_g": 12
     },
-    "nutrition_benefits": "High protein, anti-inflammatory spices."
+    "nutrition_benefits": "High protein, anti-inflammatory spices.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "et-injera",
@@ -4318,7 +4462,9 @@
       "fat_g": 1,
       "carbs_g": 26
     },
-    "nutrition_benefits": "High iron teff, probiotics from fermentation."
+    "nutrition_benefits": "High iron teff, probiotics from fermentation.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "et-kitfo",
@@ -4370,7 +4516,9 @@
       "fat_g": 22,
       "carbs_g": 2
     },
-    "nutrition_benefits": "High protein, iron, B vitamins."
+    "nutrition_benefits": "High protein, iron, B vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "et-shiro",
@@ -4422,7 +4570,9 @@
       "fat_g": 10,
       "carbs_g": 26
     },
-    "nutrition_benefits": "Plant protein, fiber, healthy fats."
+    "nutrition_benefits": "Plant protein, fiber, healthy fats.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "et-tibs",
@@ -4474,7 +4624,9 @@
       "fat_g": 18,
       "carbs_g": 8
     },
-    "nutrition_benefits": "High protein, iron from beef."
+    "nutrition_benefits": "High protein, iron from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "pe-ceviche",
@@ -4527,7 +4679,9 @@
       "fat_g": 4,
       "carbs_g": 10
     },
-    "nutrition_benefits": "High protein, omega-3, vitamin C from lime."
+    "nutrition_benefits": "High protein, omega-3, vitamin C from lime.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "pe-lomo-saltado",
@@ -4580,7 +4734,9 @@
       "fat_g": 24,
       "carbs_g": 40
     },
-    "nutrition_benefits": "High protein, Chinese-Peruvian fusion."
+    "nutrition_benefits": "High protein, Chinese-Peruvian fusion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "pe-causa",
@@ -4633,7 +4789,9 @@
       "fat_g": 14,
       "carbs_g": 38
     },
-    "nutrition_benefits": "Potassium from potatoes, healthy fats from avocado."
+    "nutrition_benefits": "Potassium from potatoes, healthy fats from avocado.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "pe-anticuchos",
@@ -4686,7 +4844,9 @@
       "fat_g": 10,
       "carbs_g": 4
     },
-    "nutrition_benefits": "Very high protein, iron, B vitamins."
+    "nutrition_benefits": "Very high protein, iron, B vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "pe-aji-gallina",
@@ -4738,7 +4898,9 @@
       "fat_g": 22,
       "carbs_g": 14
     },
-    "nutrition_benefits": "Protein, healthy fats from walnuts."
+    "nutrition_benefits": "Protein, healthy fats from walnuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "id-nasi-goreng",
@@ -4791,7 +4953,9 @@
       "fat_g": 12,
       "carbs_g": 62
     },
-    "nutrition_benefits": "Energy from rice, protein from egg."
+    "nutrition_benefits": "Energy from rice, protein from egg.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "id-satay",
@@ -4843,7 +5007,9 @@
       "fat_g": 22,
       "carbs_g": 12
     },
-    "nutrition_benefits": "High protein, healthy fats from peanuts."
+    "nutrition_benefits": "High protein, healthy fats from peanuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "id-rendang",
@@ -4896,7 +5062,9 @@
       "fat_g": 36,
       "carbs_g": 8
     },
-    "nutrition_benefits": "High protein, MCTs from coconut."
+    "nutrition_benefits": "High protein, MCTs from coconut.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "id-gado-gado",
@@ -4949,7 +5117,9 @@
       "fat_g": 20,
       "carbs_g": 24
     },
-    "nutrition_benefits": "Varied vegetables, plant protein."
+    "nutrition_benefits": "Varied vegetables, plant protein.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "id-soto",
@@ -5002,7 +5172,9 @@
       "fat_g": 14,
       "carbs_g": 22
     },
-    "nutrition_benefits": "High protein, anti-inflammatory turmeric."
+    "nutrition_benefits": "High protein, anti-inflammatory turmeric.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "eg-koshari",
@@ -5055,7 +5227,9 @@
       "fat_g": 8,
       "carbs_g": 68
     },
-    "nutrition_benefits": "Complete plant protein, high fiber."
+    "nutrition_benefits": "Complete plant protein, high fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "eg-ful-medames",
@@ -5108,7 +5282,9 @@
       "fat_g": 12,
       "carbs_g": 30
     },
-    "nutrition_benefits": "High protein and fiber, iron-rich."
+    "nutrition_benefits": "High protein and fiber, iron-rich.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
   },
   {
     "id": "eg-molokhia",
@@ -5160,7 +5336,9 @@
       "fat_g": 8,
       "carbs_g": 8
     },
-    "nutrition_benefits": "High vitamins A and C, antioxidants."
+    "nutrition_benefits": "High vitamins A and C, antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "eg-shawarma",
@@ -5212,7 +5390,9 @@
       "fat_g": 22,
       "carbs_g": 32
     },
-    "nutrition_benefits": "High protein, balanced meal."
+    "nutrition_benefits": "High protein, balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   },
   {
     "id": "eg-basbousa",
@@ -5265,6 +5445,8 @@
       "fat_g": 6,
       "carbs_g": 38
     },
-    "nutrition_benefits": "Energy from semolina."
+    "nutrition_benefits": "Energy from semolina.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   }
 ]

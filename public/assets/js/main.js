@@ -154,6 +154,13 @@ function createRecipeCard(recipe, options = {}) {
   // Generate image alt text
   const altText = `${recipe.name_en} - ${recipe.country} ${recipe.difficulty} recipe`;
 
+  // Generate meal type and dietary style badges
+  const mealTypeBadge = recipe.mealType ? 
+    `<span class="classification-badge meal-type-badge meal-${recipe.mealType.toLowerCase()}">${recipe.mealType}</span>` : '';
+  
+  const dietaryBadge = recipe.dietaryStyle && recipe.dietaryStyle !== 'None' ? 
+    `<span class="classification-badge dietary-badge dietary-${recipe.dietaryStyle.toLowerCase().replace(/\s+/g, '-')}">${recipe.dietaryStyle}</span>` : '';
+
   return `
     <article class="recipe-card">
       <button type="button" 
@@ -168,6 +175,10 @@ function createRecipeCard(recipe, options = {}) {
           <span aria-hidden="true">🍽️</span>
         </div>
         <div class="recipe-card-content">
+          <div class="recipe-card-badges">
+            ${mealTypeBadge}
+            ${dietaryBadge}
+          </div>
           <h3 class="recipe-card-title">${recipe.name_en}</h3>
           <p class="recipe-card-description">${recipe.short_description}</p>
           <div class="recipe-card-meta">

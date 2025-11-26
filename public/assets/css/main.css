@@ -999,3 +999,117 @@ footer a {
     padding: 1.5rem;
   }
 }
+
+/* ============================================
+   Classification Badges (Meal Type & Dietary)
+   ============================================ */
+
+.recipe-card-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.classification-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.6rem;
+  border-radius: 1rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* Meal Type Badges */
+.meal-type-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.meal-breakfast {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  color: #333;
+}
+
+.meal-lunch {
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+  color: #333;
+}
+
+.meal-dinner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.meal-appetizer {
+  background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+  color: #333;
+}
+
+.meal-dessert {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+  color: #333;
+}
+
+.meal-drink {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  color: #333;
+}
+
+/* Dietary Style Badges */
+.dietary-badge {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+}
+
+.dietary-vegan {
+  background: linear-gradient(135deg, #56ab2f 0%, #a8e6cf 100%);
+  color: white;
+  border: none;
+}
+
+.dietary-vegetarian {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  color: white;
+  border: none;
+}
+
+.dietary-gluten-free {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border: none;
+}
+
+.dietary-high-protein {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  border: none;
+}
+
+.dietary-low-carb {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  color: #333;
+  border: none;
+}
+
+.dietary-dairy-free {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  color: #333;
+  border: none;
+}
+
+/* Recipe Detail Page Classification */
+.recipe-classification {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.recipe-classification .classification-badge {
+  font-size: 0.8rem;
+  padding: 0.35rem 0.8rem;
+}
