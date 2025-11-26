@@ -76,6 +76,65 @@
 }
 
 /* =========================================
+   Share Buttons Group
+   ========================================= */
+.share-buttons-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--recipe-border);
+}
+
+.share-btn:hover {
+  border-color: #1da1f2;
+  color: #1da1f2;
+}
+
+#btn-share-twitter:hover {
+  border-color: #000;
+  color: #000;
+}
+
+#btn-share-whatsapp:hover {
+  border-color: #25d366;
+  color: #25d366;
+}
+
+/* Copy Toast Notification */
+.copy-toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  z-index: 1000;
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.copy-toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+.copy-toast.success {
+  background: var(--success-color, #27ae60);
+  color: white;
+  box-shadow: 0 4px 16px rgba(39, 174, 96, 0.3);
+}
+
+.copy-toast.error {
+  background: var(--recipe-accent, #e74c3c);
+  color: white;
+  box-shadow: 0 4px 16px rgba(231, 76, 60, 0.3);
+}
+
+/* =========================================
    Recipe Hero Image
    ========================================= */
 .recipe-hero-image {
@@ -680,6 +739,17 @@
   
   .recipe-action-btn span:not(.icon) {
     display: none;
+  }
+  
+  .share-buttons-group {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--recipe-border);
   }
   
   .recipe-hero-placeholder {

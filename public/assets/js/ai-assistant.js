@@ -48,15 +48,26 @@ const AIAssistant = {
    * Show welcome message
    */
   showWelcome() {
-    const welcomeMessage = `Hello! I'm your AI Chef Assistant. I can help you with:
+    const welcomeMessage = `## 👋 Welcome to RecipeBank AI Chef!
 
-• **Finding recipes** - Ask me about dishes from any country
-• **Cooking instructions** - Get step-by-step guidance
-• **Ingredient substitutions** - Find alternatives for ingredients
-• **Nutrition info** - Learn about health benefits
-• **Recipe tips** - Get cooking tips and tricks
+I'm your personal cooking assistant with access to **${this.allRecipes.length} recipes** from around the world. Here's what I can help you with:
 
-Try asking: "What recipes do you have from Italy?" or "How do I make butter chicken?"`;
+### What I Can Do:
+• **🔍 Find Recipes** - Search by country, ingredient, meal type, or dietary preference
+• **📝 Step-by-Step Instructions** - Get detailed cooking guidance with numbered steps
+• **🥗 Nutrition Info** - Learn about calories, protein, and health benefits
+• **🔄 Ingredient Substitutions** - Find alternatives when you're missing something
+• **💡 Cooking Tips** - Get pro tips to improve your dishes
+• **❤️ Your Favorites** - Ask about your saved recipes
+
+### Try These Examples:
+→ "What Italian recipes do you have?"
+→ "How do I make butter chicken?"
+→ "Show me vegetarian dinner ideas"
+→ "What can I substitute for butter?"
+→ "What are my favorite recipes?"
+
+**Just type your question below and I'll help you cook something amazing!**`;
 
     this.addMessage('assistant', welcomeMessage);
   },
@@ -681,13 +692,31 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
              `Would you like the full instructions? Just ask "How do I make ${r.name_en}?"`;
     }
 
-    return `I'm not sure how to help with that. You can ask me:\n\n` +
-           `• "What recipes do you have from [country]?"\n` +
-           `• "How do I make [recipe name]?"\n` +
-           `• "What are the ingredients for [dish]?"\n` +
-           `• "Give me cooking tips for [recipe]"\n` +
-           `• "What's the nutrition info for [dish]?"\n` +
-           `• "Show me vegetarian/vegan recipes"`;
+    // Provide a friendly clarification message
+    return `### 🤔 I'm not quite sure what you're looking for!
+
+No worries, I'm here to help! Here are some things you can ask me:
+
+**🔍 Find Recipes:**
+• "What recipes do you have from Italy?"
+• "Show me Japanese dinner recipes"
+• "Find me something with chicken"
+
+**📝 Get Cooking Help:**
+• "How do I make butter chicken?"
+• "What are the ingredients for carbonara?"
+• "Give me cooking tips for risotto"
+
+**🥗 Nutrition & Dietary:**
+• "What's the nutrition info for pad thai?"
+• "Show me vegetarian recipes"
+• "Find gluten-free options"
+
+**🔄 Substitutions:**
+• "What can I use instead of butter?"
+• "Substitute for cream?"
+
+Just rephrase your question and I'll do my best to help!`;
   },
 
   /**
