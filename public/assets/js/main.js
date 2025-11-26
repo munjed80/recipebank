@@ -356,7 +356,7 @@ function initGlobalSearch() {
 }
 
 /**
- * Display search results in dropdown
+ * Display search results in dropdown with rich card format
  */
 function displaySearchResults(results, container) {
   if (!container) return;
@@ -371,13 +371,39 @@ function displaySearchResults(results, container) {
     const isFav = window.Favorites ? window.Favorites.isFavorite(recipe.slug) : false;
     const favIcon = isFav ? ' ❤️' : '';
     
+    // Get classification badges
+    const { mealTypeBadge, dietaryBadge } = getClassificationBadges(recipe);
+    
+    // Truncate description for search results
+    const shortDesc = recipe.short_description.length > 100 
+      ? recipe.short_description.substring(0, 100) + '...'
+      : recipe.short_description;
+    
+    // Get top tags (max 3)
+    const tagsHtml = recipe.tags.slice(0, 3).map(tag => 
+      `<span class="search-result-tag">${tag}</span>`
+    ).join('');
+    
+    // Calculate total time
+    const totalTime = (recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0);
+    
     return `
-      <a href="${CONFIG.basePath}/public/recipes/recipe.html?slug=${recipe.slug}" class="search-result-item">
-        <div class="search-result-icon">🍽️</div>
-        <div class="search-result-info">
+      <a href="${CONFIG.basePath}/public/recipes/recipe.html?slug=${recipe.slug}" class="search-result-card">
+        <div class="search-result-header">
+          <span class="search-result-flag">${getCountryFlag(recipe.country_slug)}</span>
           <span class="search-result-name">${recipe.name_en}${favIcon}</span>
-          <span class="search-result-meta">${getCountryFlag(recipe.country_slug)} ${recipe.country} • ${recipe.difficulty}</span>
         </div>
+        <p class="search-result-desc">${shortDesc}</p>
+        <div class="search-result-badges">
+          ${mealTypeBadge}
+          ${dietaryBadge}
+        </div>
+        <div class="search-result-meta">
+          <span class="search-result-country">${recipe.country}</span>
+          <span class="search-result-time">⏱️ ${formatTime(totalTime)}</span>
+          <span class="search-result-difficulty">${recipe.difficulty}</span>
+        </div>
+        <div class="search-result-tags">${tagsHtml}</div>
       </a>
     `;
   }).join('');

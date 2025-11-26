@@ -94,10 +94,26 @@
       const recipesHtml = favoriteRecipes.map(recipe => createFavoriteCard(recipe)).join('');
       
       container.innerHTML = `
-        <div class="favorites-count">
-          <span class="count-number">${favoriteRecipes.length}</span> saved recipe${favoriteRecipes.length > 1 ? 's' : ''}
+        <div class="favorites-actions">
+          <div class="favorites-count">
+            <span class="count-number">${favoriteRecipes.length}</span> saved recipe${favoriteRecipes.length > 1 ? 's' : ''}
+          </div>
+          <div class="favorites-buttons">
+            <button type="button" id="print-favorites-btn" class="favorites-action-btn">
+              <span>🖨️</span> Print Favorites
+            </button>
+            <button type="button" id="clear-all-btn" class="favorites-action-btn btn-danger">
+              <span>🗑️</span> Clear All
+            </button>
+          </div>
         </div>
-        <div class="recipe-grid">${recipesHtml}</div>
+        <div class="favorites-print-area">
+          <div class="print-header">
+            <h2>My Favorite Recipes</h2>
+            <p>Saved from RecipeBank</p>
+          </div>
+          <div class="recipe-grid">${recipesHtml}</div>
+        </div>
       `;
       
       // Add event listeners for remove buttons
@@ -109,6 +125,24 @@
           Favorites.remove(slug);
         });
       });
+      
+      // Add event listener for clear all button
+      const clearAllBtn = document.getElementById('clear-all-btn');
+      if (clearAllBtn) {
+        clearAllBtn.addEventListener('click', () => {
+          if (confirm('Are you sure you want to remove all favorites?')) {
+            Favorites.clear();
+          }
+        });
+      }
+      
+      // Add event listener for print button
+      const printBtn = document.getElementById('print-favorites-btn');
+      if (printBtn) {
+        printBtn.addEventListener('click', () => {
+          window.print();
+        });
+      }
     }
 
     function createFavoriteCard(recipe) {
@@ -119,6 +153,9 @@
       const prepTime = recipe.prep_time_minutes || 0;
       const cookTime = recipe.cooking_time_minutes || 0;
       const totalTime = prepTime + cookTime;
+      
+      // Get classification badges
+      const { mealTypeBadge, dietaryBadge } = RecipeBank.getClassificationBadges(recipe);
 
       return `
         <article class="recipe-card favorite-card">
@@ -130,6 +167,10 @@
               <span>🍽️</span>
             </div>
             <div class="recipe-card-content">
+              <div class="recipe-card-badges">
+                ${mealTypeBadge}
+                ${dietaryBadge}
+              </div>
               <h3 class="recipe-card-title">${recipe.name_en}</h3>
               <p class="recipe-card-description">${recipe.short_description}</p>
               <div class="recipe-card-meta">
@@ -192,9 +233,20 @@
       margin-bottom: 1.5rem;
     }
 
-    .favorites-count {
-      text-align: center;
+    .favorites-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
       margin-bottom: 1.5rem;
+      padding: 1rem;
+      background: var(--card-background);
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+    }
+
+    .favorites-count {
       color: var(--text-light);
     }
 
@@ -202,6 +254,44 @@
       font-size: 1.5rem;
       font-weight: 700;
       color: var(--primary-color);
+    }
+
+    .favorites-buttons {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .favorites-action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      border: 2px solid var(--border-color);
+      border-radius: 25px;
+      background: var(--card-background);
+      color: var(--text-color);
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .favorites-action-btn:hover {
+      border-color: var(--primary-color);
+      color: var(--primary-color);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+
+    .favorites-action-btn.btn-danger {
+      border-color: #dc3545;
+      color: #dc3545;
+    }
+
+    .favorites-action-btn.btn-danger:hover {
+      background: #dc3545;
+      color: white;
     }
 
     .favorite-card {
@@ -227,6 +317,91 @@
     .remove-favorite-btn:hover {
       transform: scale(1.1);
       box-shadow: var(--shadow-hover);
+    }
+
+    /* Print header - hidden on screen, visible in print */
+    .print-header {
+      display: none;
+    }
+
+    /* Print styles for favorites */
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+      
+      .favorites-print-area,
+      .favorites-print-area * {
+        visibility: visible;
+      }
+      
+      .favorites-print-area {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 1rem;
+      }
+
+      .print-header {
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #333;
+      }
+
+      .print-header h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.25rem;
+      }
+
+      .print-header p {
+        color: #666;
+        font-size: 0.9rem;
+      }
+      
+      .favorites-header,
+      .favorites-actions,
+      header,
+      footer,
+      .remove-favorite-btn {
+        display: none !important;
+      }
+      
+      .recipe-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      }
+      
+      .recipe-card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ddd;
+      }
+
+      .recipe-card-image {
+        height: 80px;
+      }
+
+      .recipe-card-description {
+        font-size: 0.8rem;
+        line-height: 1.4;
+        max-height: 4.2em;
+        overflow: hidden;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .favorites-actions {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .favorites-buttons {
+        justify-content: center;
+      }
     }
   </style>
 </body>
