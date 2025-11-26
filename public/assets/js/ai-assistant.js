@@ -95,7 +95,9 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     this.conversationHistory.push({ role: 'user', content: message });
 
     // Check for different intents - order matters!
-    // Check specific intents before general search
+    // Specific intents (meal type, dietary) must be checked before general recipe search
+    // to properly handle queries like "show me breakfast recipes" without falling through
+    // to the general search which would match the word "breakfast" less precisely.
     if (this.isGreeting(lowerMessage)) {
       response = this.handleGreeting();
     } else if (this.isAskingHowToMake(lowerMessage)) {

@@ -218,8 +218,8 @@ function renderRecipeModern(container, recipe) {
           
           <!-- Classification Badges -->
           <div class="recipe-classification">
-            ${recipe.mealType ? `<span class="classification-badge meal-type-badge meal-${recipe.mealType.toLowerCase()}">${escapeHtml(recipe.mealType)}</span>` : ''}
-            ${recipe.dietaryStyle && recipe.dietaryStyle !== 'None' ? `<span class="classification-badge dietary-badge dietary-${recipe.dietaryStyle.toLowerCase().replace(/\s+/g, '-')}">${escapeHtml(recipe.dietaryStyle)}</span>` : ''}
+            ${RecipeBank.getClassificationBadges(recipe).mealTypeBadge}
+            ${RecipeBank.getClassificationBadges(recipe).dietaryBadge}
           </div>
           
           <!-- Rating Stars Placeholder -->

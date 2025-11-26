@@ -290,13 +290,13 @@ function applyFilters() {
       return false;
     }
 
-    // Meal type filter
-    if (mealType && recipe.mealType !== mealType) {
+    // Meal type filter (with null check)
+    if (mealType && (!recipe.mealType || recipe.mealType !== mealType)) {
       return false;
     }
 
-    // Dietary style filter
-    if (dietary && recipe.dietaryStyle !== dietary) {
+    // Dietary style filter (with null check)
+    if (dietary && (!recipe.dietaryStyle || recipe.dietaryStyle !== dietary)) {
       return false;
     }
 

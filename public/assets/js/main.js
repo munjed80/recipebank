@@ -134,6 +134,21 @@ function getDifficultyClass(difficulty) {
 }
 
 /**
+ * Generate classification badge HTML for a recipe
+ * @param {Object} recipe - Recipe object with mealType and dietaryStyle
+ * @returns {Object} Object with mealTypeBadge and dietaryBadge HTML strings
+ */
+function getClassificationBadges(recipe) {
+  const mealTypeBadge = recipe.mealType ? 
+    `<span class="classification-badge meal-type-badge meal-${recipe.mealType.toLowerCase()}">${recipe.mealType}</span>` : '';
+  
+  const dietaryBadge = recipe.dietaryStyle && recipe.dietaryStyle !== 'None' ? 
+    `<span class="classification-badge dietary-badge dietary-${recipe.dietaryStyle.toLowerCase().replace(/\s+/g, '-')}">${recipe.dietaryStyle}</span>` : '';
+  
+  return { mealTypeBadge, dietaryBadge };
+}
+
+/**
  * Create a recipe card HTML with favorite button
  */
 function createRecipeCard(recipe, options = {}) {
@@ -154,12 +169,8 @@ function createRecipeCard(recipe, options = {}) {
   // Generate image alt text
   const altText = `${recipe.name_en} - ${recipe.country} ${recipe.difficulty} recipe`;
 
-  // Generate meal type and dietary style badges
-  const mealTypeBadge = recipe.mealType ? 
-    `<span class="classification-badge meal-type-badge meal-${recipe.mealType.toLowerCase()}">${recipe.mealType}</span>` : '';
-  
-  const dietaryBadge = recipe.dietaryStyle && recipe.dietaryStyle !== 'None' ? 
-    `<span class="classification-badge dietary-badge dietary-${recipe.dietaryStyle.toLowerCase().replace(/\s+/g, '-')}">${recipe.dietaryStyle}</span>` : '';
+  // Generate meal type and dietary style badges using utility function
+  const { mealTypeBadge, dietaryBadge } = getClassificationBadges(recipe);
 
   return `
     <article class="recipe-card">
@@ -336,6 +347,7 @@ window.RecipeBank = {
   getCountryFlag,
   formatTime,
   getDifficultyClass,
+  getClassificationBadges,
   createRecipeCard,
   CONFIG
 };

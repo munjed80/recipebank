@@ -167,8 +167,8 @@ const SEO = {
       keywords += `, ${recipe.dietaryStyle}`;
     }
 
-    // Use mealType for recipe category if available, otherwise determine from tags
-    let recipeCategory = recipe.mealType || 'Main Course';
+    // Use mealType for recipe category if available, otherwise default to Dinner
+    let recipeCategory = recipe.mealType || 'Dinner';
 
     const schema = {
       '@context': 'https://schema.org/',
