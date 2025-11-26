@@ -5,34 +5,86 @@
     "country": "Italy",
     "country_slug": "italy",
     "name_en": "Margherita Pizza",
-    "name_local": "Pizza Margherita",
     "image": "assets/img/recipes/margherita-pizza.jpg",
-    "short_description": "Classic Neapolitan-style pizza with tomato, mozzarella, and basil.",
+    "short_description": "A timeless Neapolitan masterpiece featuring a pillowy crust, vibrant San Marzano tomato sauce, creamy fresh mozzarella, and fragrant basil leaves. This iconic pizza represents the colors of the Italian flag and delivers pure Mediterranean simplicity at its finest.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 4,
     "ingredients": [
-      { "name": "00 flour", "amount": 500, "unit": "g" },
-      { "name": "water", "amount": 320, "unit": "ml" },
-      { "name": "fresh yeast", "amount": 3, "unit": "g" },
-      { "name": "salt", "amount": 10, "unit": "g" },
-      { "name": "tomato sauce", "amount": 200, "unit": "g" },
-      { "name": "mozzarella", "amount": 200, "unit": "g" },
-      { "name": "fresh basil leaves", "amount": 8, "unit": "pc" }
+      {
+        "name": "00 flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 320,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh yeast",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "San Marzano tomato sauce",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fresh mozzarella",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fresh basil leaves",
+        "amount": 12,
+        "unit": "leaves"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 2,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
-      "Mix flour, yeast, water, and salt. Knead until smooth.",
-      "Let the dough rise until doubled in size.",
-      "Preheat oven to highest temperature with a pizza stone if possible.",
-      "Shape the dough into rounds, spread tomato sauce, add mozzarella and basil.",
-      "Bake until crust is browned and cheese is melted."
+      "Dissolve the yeast in lukewarm water and let it activate for 5 minutes until slightly foamy.",
+      "In a large bowl, combine the flour and salt, then gradually add the yeast water while mixing.",
+      "Knead the dough on a floured surface for 10 minutes until smooth and elastic.",
+      "Place the dough in an oiled bowl, cover with a damp cloth, and let rise for 2 hours until doubled.",
+      "Preheat your oven to the highest setting (250\u00b0C/480\u00b0F) with a pizza stone or baking sheet inside.",
+      "Divide the dough into 4 portions and stretch each into a thin round, leaving edges slightly thicker.",
+      "Spread a thin layer of tomato sauce, leaving a 1-inch border for the crust.",
+      "Tear the mozzarella into pieces and distribute evenly over the sauce.",
+      "Bake for 8-10 minutes until the crust is golden and cheese is bubbling.",
+      "Remove from oven, top with fresh basil leaves, drizzle with olive oil, and serve immediately."
     ],
-    "cooking_time_minutes": 90,
+    "cooking_tips": [
+      "For best results, let the dough cold-ferment in the refrigerator overnight for deeper flavor.",
+      "Use a pizza stone preheated for at least 30 minutes to achieve a crispy bottom.",
+      "Less is more with toppings - overloading will result in a soggy center."
+    ],
     "difficulty": "medium",
-    "tags": ["italian", "pizza", "vegetarian", "baked"],
+    "tags": [
+      "italian",
+      "pizza",
+      "vegetarian",
+      "baked",
+      "classic",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 550,
       "protein_g": 22,
       "fat_g": 18,
       "carbs_g": 70
-    }
+    },
+    "nutrition_benefits": "This pizza provides a good balance of carbohydrates for energy, protein from the mozzarella cheese, and lycopene from the tomatoes which is a powerful antioxidant. The olive oil adds heart-healthy monounsaturated fats. Fresh basil contains vitamins K, A, and C, plus essential oils with anti-inflammatory properties."
   },
   {
     "id": "it-spaghetti-carbonara",
@@ -40,34 +92,82 @@
     "country": "Italy",
     "country_slug": "italy",
     "name_en": "Spaghetti Carbonara",
-    "name_local": "Spaghetti alla Carbonara",
     "image": "assets/img/recipes/spaghetti-carbonara.jpg",
-    "short_description": "Creamy Roman pasta with eggs, pecorino cheese, guanciale, and black pepper.",
+    "short_description": "An authentic Roman treasure featuring al dente spaghetti coated in a luxuriously silky sauce of eggs, aged Pecorino Romano, crispy guanciale, and freshly cracked black pepper. This dish showcases Italian cuisine's genius for transforming simple ingredients into extraordinary flavors.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
     "ingredients": [
-      { "name": "spaghetti", "amount": 400, "unit": "g" },
-      { "name": "guanciale", "amount": 200, "unit": "g" },
-      { "name": "egg yolks", "amount": 6, "unit": "pc" },
-      { "name": "whole eggs", "amount": 2, "unit": "pc" },
-      { "name": "pecorino romano", "amount": 100, "unit": "g" },
-      { "name": "black pepper", "amount": 2, "unit": "tsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "spaghetti",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "guanciale",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "whole eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "Pecorino Romano cheese",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "freshly ground black pepper",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
-      "Bring a large pot of salted water to boil and cook spaghetti until al dente.",
-      "Cut guanciale into small strips and cook in a pan until crispy.",
-      "Whisk egg yolks, whole eggs, and grated pecorino together with pepper.",
-      "Drain pasta, reserving some cooking water. Add pasta to guanciale pan (off heat).",
-      "Pour egg mixture over pasta, tossing quickly to create a creamy sauce. Add pasta water if needed."
+      "Bring a large pot of generously salted water to a rolling boil.",
+      "Cut the guanciale into small strips or cubes, about 1cm thick.",
+      "In a bowl, whisk together the egg yolks, whole eggs, and finely grated Pecorino Romano until smooth.",
+      "Add generous amounts of freshly ground black pepper to the egg mixture and set aside.",
+      "Cook the guanciale in a large cold pan over medium heat, letting the fat render slowly for 8-10 minutes until crispy.",
+      "Cook the spaghetti until al dente, reserving 1 cup of pasta water before draining.",
+      "Remove the guanciale pan from heat and let it cool for 1 minute.",
+      "Add the hot drained pasta to the guanciale pan and toss to coat in the rendered fat.",
+      "Working quickly off the heat, pour the egg mixture over the pasta while tossing continuously.",
+      "Add small splashes of pasta water while tossing to create a creamy, glossy sauce.",
+      "Serve immediately with extra Pecorino and black pepper on top."
     ],
-    "cooking_time_minutes": 30,
+    "cooking_tips": [
+      "Never add the egg mixture to a hot pan on the heat, or you will get scrambled eggs instead of a silky sauce.",
+      "The residual heat from the pasta and pan is what gently cooks the eggs into a creamy coating.",
+      "Authentic carbonara never includes cream, garlic, or onions."
+    ],
     "difficulty": "medium",
-    "tags": ["italian", "pasta", "quick", "creamy"],
+    "tags": [
+      "italian",
+      "pasta",
+      "quick",
+      "high-protein",
+      "classic",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 650,
       "protein_g": 28,
       "fat_g": 32,
       "carbs_g": 58
-    }
+    },
+    "nutrition_benefits": "Carbonara is an excellent source of complete protein from eggs and cheese, providing all essential amino acids. The eggs contain choline, vital for brain health, and the Pecorino Romano offers calcium for bone strength. The dish provides sustained energy from complex carbohydrates in the pasta."
   },
   {
     "id": "in-butter-chicken",
@@ -75,36 +175,108 @@
     "country": "India",
     "country_slug": "india",
     "name_en": "Butter Chicken",
-    "name_local": "Murgh Makhani",
     "image": "assets/img/recipes/butter-chicken.jpg",
-    "short_description": "Tender chicken in a rich, creamy tomato-based curry sauce.",
+    "short_description": "An indulgent North Indian classic featuring tender, smoky tandoori-style chicken swimming in a velvety tomato cream sauce infused with aromatic spices. This restaurant-favorite dish delivers the perfect balance of richness, warmth, and comfort in every spoonful.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
     "ingredients": [
-      { "name": "chicken thighs", "amount": 800, "unit": "g" },
-      { "name": "yogurt", "amount": 200, "unit": "g" },
-      { "name": "tomato puree", "amount": 400, "unit": "g" },
-      { "name": "butter", "amount": 100, "unit": "g" },
-      { "name": "heavy cream", "amount": 200, "unit": "ml" },
-      { "name": "garam masala", "amount": 2, "unit": "tbsp" },
-      { "name": "garlic", "amount": 6, "unit": "cloves" },
-      { "name": "ginger", "amount": 2, "unit": "inch" },
-      { "name": "kashmiri red chili powder", "amount": 1, "unit": "tbsp" }
+      {
+        "name": "boneless chicken thighs",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tomato puree",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "garam masala",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": 2,
+        "unit": "inch"
+      },
+      {
+        "name": "Kashmiri red chili powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ground cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried fenugreek leaves",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
-      "Marinate chicken in yogurt, garam masala, and chili powder for at least 2 hours.",
-      "Grill or pan-fry the marinated chicken until charred and cooked through.",
-      "In a pan, melt butter and sauté garlic and ginger until fragrant.",
-      "Add tomato puree and simmer for 15 minutes. Add garam masala and chili powder.",
-      "Stir in cream, add cooked chicken, and simmer for 10 more minutes."
+      "Cut chicken into bite-sized pieces and place in a large bowl.",
+      "Mix yogurt with half the garam masala, chili powder, and cumin to create the marinade.",
+      "Coat the chicken thoroughly in the marinade and refrigerate for at least 2 hours or overnight.",
+      "Grill or pan-sear the marinated chicken pieces until charred on the edges and cooked through.",
+      "In a large pan, melt the butter over medium heat.",
+      "Add minced garlic and grated ginger, sauteing for 2 minutes until fragrant.",
+      "Pour in the tomato puree and simmer for 15 minutes, stirring occasionally.",
+      "Add the remaining garam masala, chili powder, and sugar to the sauce.",
+      "Stir in the heavy cream and crushed fenugreek leaves.",
+      "Add the grilled chicken pieces to the sauce and simmer for 10 minutes.",
+      "Adjust seasoning with salt, garnish with a swirl of cream, and serve with naan or rice."
     ],
-    "cooking_time_minutes": 60,
+    "cooking_tips": [
+      "Marinating overnight dramatically improves the depth of flavor and tenderness of the chicken.",
+      "Kashmiri chili powder provides vibrant color without excessive heat.",
+      "Crushing dried fenugreek leaves between your palms before adding releases their aromatic oils."
+    ],
     "difficulty": "medium",
-    "tags": ["indian", "curry", "creamy", "spicy", "chicken"],
+    "tags": [
+      "indian",
+      "curry",
+      "creamy",
+      "mild-spicy",
+      "chicken",
+      "dinner",
+      "gluten-free"
+    ],
     "nutrition": {
       "per_serving_kcal": 580,
       "protein_g": 42,
       "fat_g": 38,
       "carbs_g": 15
-    }
+    },
+    "nutrition_benefits": "Butter chicken is packed with high-quality protein essential for muscle building and repair. The tomatoes provide lycopene and vitamin C, while the spices like ginger, garlic, and turmeric offer anti-inflammatory and immune-boosting properties. Garam masala spices aid digestion and metabolism."
   },
   {
     "id": "in-vegetable-biryani",
@@ -112,36 +284,103 @@
     "country": "India",
     "country_slug": "india",
     "name_en": "Vegetable Biryani",
-    "name_local": "Sabzi Biryani",
     "image": "assets/img/recipes/vegetable-biryani.jpg",
-    "short_description": "Fragrant layered rice dish with spiced vegetables and aromatic herbs.",
+    "short_description": "A majestic one-pot masterpiece featuring layers of fluffy saffron-kissed basmati rice and aromatic spiced vegetables, slow-cooked to perfection. This festive Mughlai dish delivers an intoxicating blend of flavors and textures that makes every bite a celebration.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 6,
     "ingredients": [
-      { "name": "basmati rice", "amount": 500, "unit": "g" },
-      { "name": "mixed vegetables", "amount": 400, "unit": "g" },
-      { "name": "onions", "amount": 3, "unit": "large" },
-      { "name": "yogurt", "amount": 150, "unit": "g" },
-      { "name": "biryani masala", "amount": 2, "unit": "tbsp" },
-      { "name": "saffron", "amount": 1, "unit": "pinch" },
-      { "name": "ghee", "amount": 4, "unit": "tbsp" },
-      { "name": "fresh mint", "amount": 1, "unit": "bunch" },
-      { "name": "fresh cilantro", "amount": 1, "unit": "bunch" }
+      {
+        "name": "basmati rice",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mixed vegetables (carrots, peas, beans, potatoes)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "large onions",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "biryani masala",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "saffron strands",
+        "amount": 1,
+        "unit": "pinch"
+      },
+      {
+        "name": "warm milk",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ghee",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh mint leaves",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "green chilies",
+        "amount": 4,
+        "unit": "pc"
+      }
     ],
     "steps": [
-      "Soak basmati rice for 30 minutes, then parboil until 70% cooked.",
-      "Fry sliced onions until golden brown and crispy. Set aside.",
-      "Sauté vegetables with biryani masala and yogurt until tender.",
-      "Layer rice and vegetable mixture in a heavy pot. Add fried onions, mint, and cilantro.",
-      "Drizzle saffron milk over the top, cover tightly, and cook on low heat for 25 minutes."
+      "Rinse basmati rice thoroughly and soak in cold water for 30 minutes.",
+      "Soak saffron strands in warm milk and set aside to bloom.",
+      "Slice onions thinly and fry in ghee until deep golden brown and crispy. Remove half for garnish.",
+      "Add mixed vegetables to the remaining onions and saute for 5 minutes.",
+      "Stir in yogurt, biryani masala, half the mint, and half the cilantro. Cook for 10 minutes.",
+      "Parboil the soaked rice in salted water until 70% cooked (grains should still have a bite).",
+      "Drain the rice and layer it over the vegetable mixture in the same heavy-bottomed pot.",
+      "Top with remaining mint, cilantro, fried onions, slit green chilies, and drizzle the saffron milk.",
+      "Cover with a tight-fitting lid, seal edges with dough if needed, and cook on very low heat for 25 minutes.",
+      "Let the biryani rest for 5 minutes, then gently mix layers from the bottom.",
+      "Serve hot with raita and fried papadum."
     ],
-    "cooking_time_minutes": 75,
+    "cooking_tips": [
+      "The dum cooking method (slow steaming) is essential - never lift the lid during cooking.",
+      "Parboiling rice to 70% doneness prevents mushy biryani as it finishes cooking in steam.",
+      "Quality saffron makes a noticeable difference in both color and aroma."
+    ],
     "difficulty": "hard",
-    "tags": ["indian", "rice", "vegetarian", "aromatic", "festive"],
+    "tags": [
+      "indian",
+      "rice",
+      "vegetarian",
+      "aromatic",
+      "festive",
+      "vegan-adaptable",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 10,
       "fat_g": 14,
       "carbs_g": 65
-    }
+    },
+    "nutrition_benefits": "Vegetable biryani provides a complete meal with complex carbohydrates from basmati rice for sustained energy. The variety of vegetables offers fiber, vitamins, and minerals. Saffron has antioxidant properties, while the aromatic spices like cardamom and cloves aid digestion and have antimicrobial properties."
   },
   {
     "id": "jp-ramen",
@@ -149,36 +388,103 @@
     "country": "Japan",
     "country_slug": "japan",
     "name_en": "Shoyu Ramen",
-    "name_local": "醤油ラーメン",
     "image": "assets/img/recipes/ramen.jpg",
-    "short_description": "Japanese noodle soup with soy sauce broth, chashu pork, and soft-boiled egg.",
+    "short_description": "A soul-warming Japanese noodle soup featuring a crystal-clear soy-based broth, springy wheat noodles, melt-in-your-mouth chashu pork, and a perfectly jammy marinated egg. This beloved comfort food represents the pinnacle of Japanese culinary craftsmanship.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 4,
     "ingredients": [
-      { "name": "ramen noodles", "amount": 400, "unit": "g" },
-      { "name": "pork belly", "amount": 500, "unit": "g" },
-      { "name": "soy sauce", "amount": 100, "unit": "ml" },
-      { "name": "chicken stock", "amount": 2, "unit": "L" },
-      { "name": "eggs", "amount": 4, "unit": "pc" },
-      { "name": "green onions", "amount": 4, "unit": "stalks" },
-      { "name": "nori seaweed", "amount": 8, "unit": "sheets" },
-      { "name": "garlic", "amount": 4, "unit": "cloves" },
-      { "name": "ginger", "amount": 2, "unit": "inch" }
+      {
+        "name": "fresh ramen noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pork belly",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "sake",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "chicken stock",
+        "amount": 2,
+        "unit": "L"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "green onions",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "nori seaweed sheets",
+        "amount": 8,
+        "unit": "sheets"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": 2,
+        "unit": "inch"
+      }
     ],
     "steps": [
-      "Braise pork belly in soy sauce, mirin, and sake for 2 hours until tender. Slice for chashu.",
-      "Make soft-boiled eggs (6 minutes), peel and marinate in soy sauce mixture.",
-      "Simmer chicken stock with garlic, ginger, and soy sauce to create the broth.",
-      "Cook ramen noodles according to package instructions.",
-      "Assemble bowls: noodles, hot broth, sliced chashu, marinated egg, nori, and green onions."
+      "For the chashu: Roll and tie the pork belly, then sear all sides in a hot pan until golden.",
+      "Combine soy sauce, mirin, sake, and 1 cup water in a pot. Add the seared pork.",
+      "Braise the pork covered on low heat for 2 hours, turning occasionally, until tender.",
+      "For the eggs: Boil eggs for exactly 6 minutes 30 seconds, then immediately ice bath.",
+      "Peel the eggs and marinate in the chashu braising liquid for at least 2 hours.",
+      "For the broth: Simmer chicken stock with sliced garlic and ginger for 30 minutes.",
+      "Strain the broth and season with 2 tablespoons soy sauce per bowl.",
+      "Slice the chashu pork into 1/4 inch rounds.",
+      "Cook the ramen noodles according to package directions, drain well.",
+      "Assemble each bowl: noodles first, then hot broth, 3-4 chashu slices, halved egg, nori, and sliced green onions.",
+      "Serve immediately while steaming hot."
     ],
-    "cooking_time_minutes": 180,
+    "cooking_tips": [
+      "Fresh ramen noodles from Asian markets make a significant difference in texture.",
+      "The 6.5-minute egg timing is crucial for the perfect jammy yolk - adjust for altitude if needed.",
+      "Make the chashu and eggs a day ahead so the flavors can develop."
+    ],
     "difficulty": "hard",
-    "tags": ["japanese", "soup", "noodles", "pork", "comfort-food"],
+    "tags": [
+      "japanese",
+      "soup",
+      "noodles",
+      "pork",
+      "comfort-food",
+      "dinner",
+      "high-protein"
+    ],
     "nutrition": {
       "per_serving_kcal": 720,
       "protein_g": 45,
       "fat_g": 35,
       "carbs_g": 55
-    }
+    },
+    "nutrition_benefits": "Shoyu ramen delivers substantial protein from both the pork and egg, supporting muscle maintenance and satiety. The slow-simmered broth extracts collagen from the pork, beneficial for skin and joint health. Ginger and garlic provide immune-boosting compounds, while the nori adds iodine essential for thyroid function."
   },
   {
     "id": "jp-teriyaki-salmon",
@@ -186,34 +492,87 @@
     "country": "Japan",
     "country_slug": "japan",
     "name_en": "Teriyaki Salmon",
-    "name_local": "鮭の照り焼き",
     "image": "assets/img/recipes/teriyaki-salmon.jpg",
-    "short_description": "Glazed salmon fillets with sweet and savory teriyaki sauce.",
+    "short_description": "Perfectly seared salmon fillets glazed with a glistening homemade teriyaki sauce that balances sweet, savory, and umami notes. This elegant yet simple dish showcases the Japanese art of bringing out the natural beauty of premium ingredients.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
     "ingredients": [
-      { "name": "salmon fillets", "amount": 4, "unit": "pc" },
-      { "name": "soy sauce", "amount": 4, "unit": "tbsp" },
-      { "name": "mirin", "amount": 3, "unit": "tbsp" },
-      { "name": "sake", "amount": 2, "unit": "tbsp" },
-      { "name": "sugar", "amount": 2, "unit": "tbsp" },
-      { "name": "vegetable oil", "amount": 2, "unit": "tbsp" },
-      { "name": "sesame seeds", "amount": 1, "unit": "tbsp" }
+      {
+        "name": "salmon fillets (skin-on)",
+        "amount": 4,
+        "unit": "pc (150g each)"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "mirin",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sake",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "toasted sesame seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "green onion",
+        "amount": 2,
+        "unit": "stalks"
+      }
     ],
     "steps": [
-      "Mix soy sauce, mirin, sake, and sugar to make the teriyaki sauce.",
-      "Pat salmon fillets dry and season with a pinch of salt.",
-      "Heat oil in a pan and sear salmon skin-side down for 3 minutes.",
-      "Flip salmon, pour teriyaki sauce over, and cook for another 3-4 minutes while basting.",
-      "Serve glazed salmon with sesame seeds sprinkled on top."
+      "Combine soy sauce, mirin, sake, and sugar in a small bowl to make the teriyaki sauce.",
+      "Pat salmon fillets completely dry with paper towels and season lightly with salt.",
+      "Heat vegetable oil in a non-stick pan over medium-high heat until shimmering.",
+      "Place salmon skin-side down and press gently to ensure even contact with the pan.",
+      "Cook for 3-4 minutes until the skin is crispy and golden.",
+      "Flip the salmon and reduce heat to medium.",
+      "Pour the teriyaki sauce into the pan around the salmon.",
+      "Cook for 3-4 minutes while spooning the bubbling sauce over the salmon repeatedly.",
+      "The sauce should reduce to a glossy, thick glaze coating the fish.",
+      "Transfer to plates, drizzle with remaining pan sauce, and top with sesame seeds and sliced green onions."
     ],
-    "cooking_time_minutes": 20,
+    "cooking_tips": [
+      "Starting with the skin side down and not moving the fish creates the crispiest skin.",
+      "Reduce the heat when adding the sauce to prevent burning the sugars.",
+      "The sauce continues to thicken after removing from heat, so remove slightly before desired consistency."
+    ],
     "difficulty": "easy",
-    "tags": ["japanese", "fish", "quick", "gluten-free", "healthy"],
+    "tags": [
+      "japanese",
+      "seafood",
+      "quick",
+      "healthy",
+      "dinner",
+      "high-protein",
+      "omega-3"
+    ],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 35,
       "fat_g": 18,
       "carbs_g": 15
-    }
+    },
+    "nutrition_benefits": "Salmon is one of the best sources of omega-3 fatty acids, which support heart health, brain function, and reduce inflammation. It provides high-quality complete protein and is rich in B vitamins, particularly B12 for energy metabolism. The fish also offers selenium and vitamin D, often lacking in modern diets."
   },
   {
     "id": "mx-tacos-al-pastor",
@@ -221,35 +580,103 @@
     "country": "Mexico",
     "country_slug": "mexico",
     "name_en": "Tacos al Pastor",
-    "name_local": "Tacos al Pastor",
     "image": "assets/img/recipes/tacos-al-pastor.jpg",
-    "short_description": "Marinated pork tacos with pineapple, onion, and cilantro.",
+    "short_description": "Mexico City's iconic street food featuring smoky, chile-marinated pork with caramelized pineapple, fresh cilantro, and tangy lime on warm corn tortillas. This beloved taco style brings together Lebanese and Mexican culinary traditions in perfect harmony.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 8,
     "ingredients": [
-      { "name": "pork shoulder", "amount": 1, "unit": "kg" },
-      { "name": "dried guajillo chilies", "amount": 6, "unit": "pc" },
-      { "name": "pineapple", "amount": 1, "unit": "whole" },
-      { "name": "corn tortillas", "amount": 16, "unit": "pc" },
-      { "name": "white onion", "amount": 1, "unit": "large" },
-      { "name": "fresh cilantro", "amount": 1, "unit": "bunch" },
-      { "name": "achiote paste", "amount": 100, "unit": "g" },
-      { "name": "lime", "amount": 4, "unit": "pc" }
+      {
+        "name": "pork shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "dried guajillo chilies",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "dried ancho chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh pineapple",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "corn tortillas",
+        "amount": 16,
+        "unit": "pc"
+      },
+      {
+        "name": "white onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "achiote paste",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "limes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "white vinegar",
+        "amount": 3,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
-      "Blend rehydrated guajillo chilies with achiote paste, pineapple juice, and spices.",
-      "Slice pork thinly and marinate in the sauce for at least 4 hours or overnight.",
-      "Grill or pan-fry pork slices until charred and caramelized. Dice pineapple and grill.",
-      "Warm corn tortillas on a dry pan.",
-      "Assemble tacos with pork, grilled pineapple, diced onion, cilantro, and lime juice."
+      "Remove stems and seeds from dried chilies, then toast briefly in a dry pan until fragrant.",
+      "Soak the toasted chilies in hot water for 20 minutes until softened.",
+      "Blend the rehydrated chilies with achiote paste, garlic, vinegar, and 1/2 cup pineapple juice until smooth.",
+      "Slice the pork shoulder into thin steaks, about 1/4 inch thick.",
+      "Coat the pork thoroughly in the marinade and refrigerate for at least 4 hours or overnight.",
+      "Cut pineapple into 1/2 inch thick rings or chunks.",
+      "Grill or pan-fry the marinated pork over high heat until charred and caramelized on edges.",
+      "Grill the pineapple pieces alongside until caramelized with grill marks.",
+      "Dice the grilled pork and pineapple into small pieces.",
+      "Warm the corn tortillas on a dry skillet until soft and pliable.",
+      "Assemble tacos with pork, pineapple, diced raw onion, fresh cilantro, and a generous squeeze of lime."
     ],
-    "cooking_time_minutes": 45,
+    "cooking_tips": [
+      "Marinating overnight allows the acidic marinade to tenderize and flavor the meat deeply.",
+      "High heat is essential for achieving the characteristic charred, crispy edges.",
+      "Warm your tortillas just before serving to prevent them from cracking."
+    ],
     "difficulty": "medium",
-    "tags": ["mexican", "tacos", "pork", "spicy", "street-food"],
+    "tags": [
+      "mexican",
+      "tacos",
+      "pork",
+      "spicy",
+      "street-food",
+      "dinner",
+      "gluten-free"
+    ],
     "nutrition": {
       "per_serving_kcal": 450,
       "protein_g": 32,
       "fat_g": 18,
       "carbs_g": 42
-    }
+    },
+    "nutrition_benefits": "Tacos al pastor provide excellent protein from pork, essential for muscle repair and immune function. The pineapple contains bromelain, an enzyme that aids protein digestion. Dried chilies are rich in vitamins A and C plus capsaicin, which may boost metabolism. The corn tortillas offer fiber and are naturally gluten-free."
   },
   {
     "id": "mx-guacamole",
@@ -257,35 +684,86 @@
     "country": "Mexico",
     "country_slug": "mexico",
     "name_en": "Guacamole",
-    "name_local": "Guacamole",
     "image": "assets/img/recipes/guacamole.jpg",
-    "short_description": "Fresh avocado dip with lime, cilantro, and jalapeño.",
+    "short_description": "A vibrant, chunky Mexican dip showcasing perfectly ripe avocados brightened with fresh lime, aromatic cilantro, and just enough heat from fresh jalapeno. This ancient Aztec creation remains the ultimate crowd-pleasing appetizer and the perfect companion to crispy tortilla chips.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 0,
+    "servings": 6,
     "ingredients": [
-      { "name": "ripe avocados", "amount": 4, "unit": "pc" },
-      { "name": "lime juice", "amount": 3, "unit": "tbsp" },
-      { "name": "white onion", "amount": 0.5, "unit": "pc" },
-      { "name": "fresh cilantro", "amount": 0.5, "unit": "bunch" },
-      { "name": "jalapeño", "amount": 1, "unit": "pc" },
-      { "name": "tomato", "amount": 1, "unit": "medium" },
-      { "name": "salt", "amount": 1, "unit": "tsp" },
-      { "name": "garlic", "amount": 1, "unit": "clove" }
+      {
+        "name": "ripe Hass avocados",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh lime juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "white onion (finely diced)",
+        "amount": 0.5,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh cilantro (chopped)",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh jalapeno (seeded, minced)",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "Roma tomato (seeded, diced)",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "sea salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic (minced)",
+        "amount": 1,
+        "unit": "clove"
+      }
     ],
     "steps": [
-      "Cut avocados in half, remove pit, and scoop flesh into a bowl.",
-      "Mash avocados with a fork to desired consistency (chunky or smooth).",
-      "Finely dice onion, jalapeño, tomato, and cilantro.",
-      "Add diced vegetables, lime juice, minced garlic, and salt to avocado. Mix well.",
-      "Taste and adjust seasoning. Serve immediately with tortilla chips."
+      "Cut avocados in half lengthwise, remove the pit, and score the flesh in a crosshatch pattern.",
+      "Scoop the avocado flesh into a mixing bowl using a large spoon.",
+      "Add the lime juice and salt immediately to prevent browning.",
+      "Mash the avocado with a fork to your preferred consistency (chunky or smooth).",
+      "Fold in the diced onion, minced jalapeno, minced garlic, and diced tomato.",
+      "Stir in the fresh chopped cilantro and mix gently.",
+      "Taste and adjust seasoning with more salt or lime juice as needed.",
+      "Serve immediately with fresh tortilla chips, or cover with plastic wrap pressed directly on the surface to prevent browning."
     ],
-    "cooking_time_minutes": 10,
+    "cooking_tips": [
+      "Choose avocados that yield to gentle pressure - not too soft, not too firm.",
+      "Removing jalapeno seeds significantly reduces the heat while maintaining flavor.",
+      "Pressing plastic wrap directly onto the guacamole surface prevents oxidation."
+    ],
     "difficulty": "easy",
-    "tags": ["mexican", "dip", "vegan", "quick", "gluten-free", "appetizer"],
+    "tags": [
+      "mexican",
+      "dip",
+      "vegan",
+      "quick",
+      "gluten-free",
+      "appetizer",
+      "healthy",
+      "no-cook"
+    ],
     "nutrition": {
       "per_serving_kcal": 180,
       "protein_g": 2,
       "fat_g": 15,
       "carbs_g": 12
-    }
+    },
+    "nutrition_benefits": "Guacamole is a nutritional powerhouse thanks to avocados, which provide heart-healthy monounsaturated fats that help lower bad cholesterol. They are rich in potassium (more than bananas), fiber for digestive health, and vitamin K for bone health. Lime juice adds vitamin C, while cilantro offers detoxifying properties."
   },
   {
     "id": "sy-kibbeh",
@@ -293,35 +771,100 @@
     "country": "Syria",
     "country_slug": "syria",
     "name_en": "Kibbeh",
-    "name_local": "كبة",
     "image": "assets/img/recipes/kibbeh.jpg",
-    "short_description": "Crispy bulgur shells stuffed with spiced lamb and pine nuts.",
+    "short_description": "A cherished Levantine delicacy featuring a crispy shell of fine bulgur wheat encasing a fragrant filling of spiced lamb and toasted pine nuts. This labor of love represents centuries of Syrian culinary artistry and is considered the national dish by many.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 8,
     "ingredients": [
-      { "name": "fine bulgur wheat", "amount": 400, "unit": "g" },
-      { "name": "ground lamb", "amount": 500, "unit": "g" },
-      { "name": "onions", "amount": 2, "unit": "large" },
-      { "name": "pine nuts", "amount": 100, "unit": "g" },
-      { "name": "allspice", "amount": 2, "unit": "tsp" },
-      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "vegetable oil", "amount": 500, "unit": "ml" }
+      {
+        "name": "fine bulgur wheat",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "large onions",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "ground allspice",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      }
     ],
     "steps": [
-      "Soak bulgur in water for 30 minutes, then drain and squeeze out excess water.",
-      "For the shell: blend bulgur with half the lamb, grated onion, and spices until smooth.",
-      "For the filling: sauté remaining lamb with diced onion, pine nuts, and spices.",
-      "Shape small portions of shell into oval cups, fill with meat mixture, and seal.",
-      "Deep fry kibbeh in hot oil until golden brown and crispy. Serve with yogurt."
+      "Rinse bulgur wheat thoroughly and soak in cold water for 30 minutes.",
+      "Drain the bulgur and squeeze out all excess water using a clean kitchen towel.",
+      "For the shell: Combine the bulgur, half the lamb (250g), one grated onion, half the spices, and 1 tsp salt in a food processor.",
+      "Process until the mixture forms a smooth, pliable dough. Refrigerate for 30 minutes.",
+      "For the filling: Toast pine nuts in a dry pan until golden, then set aside.",
+      "Finely dice the remaining onion and saute in 2 tbsp oil until softened.",
+      "Add the remaining lamb and cook until browned, breaking it up with a spoon.",
+      "Season the filling with remaining spices and salt, then stir in the pine nuts. Let cool.",
+      "Wet your hands and take a golf ball-sized portion of the shell dough.",
+      "Shape it into an oval cup, fill with 1 tablespoon of the meat filling.",
+      "Pinch the opening closed and form into a pointed oval shape (like a football).",
+      "Heat oil to 350\u00b0F (175\u00b0C) and deep fry kibbeh in batches until deep golden brown, about 4-5 minutes.",
+      "Drain on paper towels and serve hot with yogurt sauce."
     ],
-    "cooking_time_minutes": 90,
+    "cooking_tips": [
+      "Keep your hands wet while shaping to prevent the dough from sticking.",
+      "Ensure the shell dough has no cracks before frying or it will absorb oil.",
+      "Kibbeh can also be baked in a tray (kibbeh bil sanieh) for a lighter version."
+    ],
     "difficulty": "hard",
-    "tags": ["syrian", "fried", "lamb", "appetizer", "traditional"],
+    "tags": [
+      "syrian",
+      "fried",
+      "lamb",
+      "appetizer",
+      "traditional",
+      "middle-eastern",
+      "festive"
+    ],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 18,
       "fat_g": 22,
       "carbs_g": 28
-    }
+    },
+    "nutrition_benefits": "Kibbeh offers a balanced combination of protein from lamb, complex carbohydrates from bulgur wheat, and healthy fats from pine nuts. Bulgur is high in fiber and has a low glycemic index. Lamb provides iron, zinc, and B vitamins, particularly B12. The warming spices like cinnamon and allspice have anti-inflammatory properties."
   },
   {
     "id": "sy-fattoush",
@@ -329,37 +872,4399 @@
     "country": "Syria",
     "country_slug": "syria",
     "name_en": "Fattoush Salad",
-    "name_local": "فتوش",
     "image": "assets/img/recipes/fattoush.jpg",
-    "short_description": "Refreshing Levantine salad with crispy pita, vegetables, and sumac dressing.",
+    "short_description": "A vibrant Levantine salad bursting with crisp vegetables, aromatic herbs, and golden fried pita pieces, all tossed in a tangy sumac and pomegranate molasses dressing. This refreshing dish celebrates the bounty of Middle Eastern gardens in every colorful bite.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 5,
+    "servings": 4,
     "ingredients": [
-      { "name": "romaine lettuce", "amount": 1, "unit": "head" },
-      { "name": "cucumber", "amount": 2, "unit": "medium" },
-      { "name": "tomatoes", "amount": 3, "unit": "medium" },
-      { "name": "radishes", "amount": 6, "unit": "pc" },
-      { "name": "pita bread", "amount": 2, "unit": "pc" },
-      { "name": "sumac", "amount": 2, "unit": "tbsp" },
-      { "name": "olive oil", "amount": 80, "unit": "ml" },
-      { "name": "lemon juice", "amount": 60, "unit": "ml" },
-      { "name": "fresh mint", "amount": 0.5, "unit": "bunch" },
-      { "name": "pomegranate molasses", "amount": 1, "unit": "tbsp" }
+      {
+        "name": "romaine lettuce",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "cucumber",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "ripe tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "red radishes",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "pita bread",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "ground sumac",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh lemon juice",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh mint leaves",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "pomegranate molasses",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 1,
+        "unit": "clove"
+      }
     ],
     "steps": [
-      "Toast or fry pita bread pieces until golden and crispy.",
-      "Chop lettuce, dice cucumber and tomatoes, slice radishes thinly.",
-      "Whisk olive oil, lemon juice, sumac, and pomegranate molasses for dressing.",
-      "Combine all vegetables in a large bowl with fresh mint leaves.",
-      "Add crispy pita and dressing just before serving. Toss well and serve immediately."
+      "Split the pita bread into two thin rounds and cut or tear into bite-sized pieces.",
+      "Fry the pita pieces in olive oil until golden and crispy, or bake at 400\u00b0F until crunchy. Set aside.",
+      "Tear the romaine lettuce into bite-sized pieces and place in a large salad bowl.",
+      "Dice the cucumber and tomatoes into similar-sized cubes.",
+      "Slice the radishes into thin rounds.",
+      "Chop the fresh mint and parsley leaves.",
+      "Add all the vegetables and herbs to the bowl with the lettuce.",
+      "For the dressing: Whisk together olive oil, lemon juice, minced garlic, sumac, pomegranate molasses, and salt.",
+      "Just before serving, add the crispy pita pieces to the salad.",
+      "Pour the dressing over the salad and toss everything together thoroughly.",
+      "Serve immediately while the pita is still crispy, with extra sumac sprinkled on top."
     ],
-    "cooking_time_minutes": 20,
+    "cooking_tips": [
+      "Always add the pita and dressing at the last moment to maintain the crucial crispy texture.",
+      "Sumac can be found at Middle Eastern grocery stores and provides the signature tangy flavor.",
+      "For extra flavor, add a handful of pomegranate seeds when in season."
+    ],
     "difficulty": "easy",
-    "tags": ["syrian", "salad", "vegan", "quick", "healthy", "refreshing"],
+    "tags": [
+      "syrian",
+      "salad",
+      "vegan",
+      "quick",
+      "healthy",
+      "refreshing",
+      "middle-eastern",
+      "lunch"
+    ],
     "nutrition": {
       "per_serving_kcal": 220,
       "protein_g": 5,
       "fat_g": 14,
       "carbs_g": 22
-    }
+    },
+    "nutrition_benefits": "Fattoush is packed with vitamins and antioxidants from the rainbow of fresh vegetables. Sumac is exceptionally high in antioxidants and has natural antibacterial properties. The olive oil provides heart-healthy fats, while the variety of raw vegetables ensures maximum vitamin retention. This salad is excellent for digestive health due to its high fiber content."
+  },
+  {
+    "id": "fr-coq-au-vin",
+    "slug": "coq-au-vin",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Coq au Vin",
+    "short_description": "Classic French chicken braised in red wine with mushrooms and pearl onions.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "red wine",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "bacon",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "mushrooms",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Brown chicken.",
+      "Cook bacon.",
+      "Deglaze with wine.",
+      "Braise 90 minutes."
+    ],
+    "cooking_tips": [
+      "Quality wine.",
+      "Marinate overnight."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "chicken",
+      "braised",
+      "classic",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 42,
+      "fat_g": 28,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein, antioxidants from wine."
+  },
+  {
+    "id": "fr-croissant",
+    "slug": "croissant",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Croissant",
+    "short_description": "Flaky, buttery French pastry with perfectly laminated layers.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 20,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 280,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Laminate with butter.",
+      "Shape and bake."
+    ],
+    "cooking_tips": [
+      "Cold butter.",
+      "Patient folding."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "pastry",
+      "breakfast",
+      "baked"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 16,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Energy from carbs, best in moderation."
+  },
+  {
+    "id": "fr-ratatouille",
+    "slug": "ratatouille",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Ratatouille",
+    "short_description": "Provencal vegetable stew with eggplant, zucchini, and tomatoes.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Slice vegetables.",
+      "Layer in dish.",
+      "Bake until tender."
+    ],
+    "cooking_tips": [
+      "Uniform slices.",
+      "Low and slow."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "french",
+      "vegetarian",
+      "vegan",
+      "healthy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 6,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Low calorie, high fiber, vitamin-rich."
+  },
+  {
+    "id": "fr-onion-soup",
+    "slug": "french-onion-soup",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "French Onion Soup",
+    "short_description": "Rich caramelized onion soup topped with crusty bread and melted Gruyere.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "onions",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "beef stock",
+        "amount": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "gruyere",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Caramelize onions.",
+      "Add stock.",
+      "Top with bread and cheese.",
+      "Broil."
+    ],
+    "cooking_tips": [
+      "Low heat for onions.",
+      "Don't rush."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "soup",
+      "comfort-food",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 20,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Quercetin from onions, calcium from cheese."
+  },
+  {
+    "id": "fr-crepes",
+    "slug": "crepes",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Crepes",
+    "short_description": "Thin French pancakes perfect for sweet or savory fillings.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "milk",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Blend batter.",
+      "Rest.",
+      "Cook thin.",
+      "Fill and fold."
+    ],
+    "cooking_tips": [
+      "Smooth batter.",
+      "Swirl pan."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "french",
+      "breakfast",
+      "dessert",
+      "versatile"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 7,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein from eggs, versatile base."
+  },
+  {
+    "id": "fr-quiche",
+    "slug": "quiche-lorraine",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Quiche Lorraine",
+    "short_description": "Savory custard tart with bacon, cheese, and buttery crust.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "pie crust",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cream",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "bacon",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Blind bake crust.",
+      "Cook bacon.",
+      "Whisk custard.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Blind bake essential.",
+      "Don't overbake."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "brunch",
+      "baked",
+      "eggs"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 16,
+      "fat_g": 32,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Protein from eggs and bacon."
+  },
+  {
+    "id": "th-pad-thai",
+    "slug": "pad-thai",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Pad Thai",
+    "short_description": "Iconic stir-fried rice noodles with tamarind, peanuts, and lime.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice noodles",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "peanuts",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak noodles.",
+      "Make sauce.",
+      "Stir-fry.",
+      "Add noodles.",
+      "Garnish."
+    ],
+    "cooking_tips": [
+      "High heat.",
+      "Don't overcook noodles."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "noodles",
+      "stir-fry",
+      "quick",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Protein from shrimp, healthy fats from peanuts."
+  },
+  {
+    "id": "th-green-curry",
+    "slug": "thai-green-curry",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Thai Green Curry",
+    "short_description": "Aromatic coconut curry with green chilies, Thai basil, and vegetables.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "green curry paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Thai basil",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Fry curry paste.",
+      "Add coconut milk.",
+      "Add chicken.",
+      "Simmer.",
+      "Add basil."
+    ],
+    "cooking_tips": [
+      "Quality paste.",
+      "Don't boil coconut."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "curry",
+      "coconut",
+      "spicy",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 30,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "MCTs from coconut, protein, anti-inflammatory spices."
+  },
+  {
+    "id": "th-tom-yum",
+    "slug": "tom-yum-soup",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Tom Yum Soup",
+    "short_description": "Hot and sour soup with shrimp, lemongrass, and galangal.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 3,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "lime leaves",
+        "amount": 6,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make aromatic broth.",
+      "Add mushrooms.",
+      "Add shrimp.",
+      "Season with lime and fish sauce."
+    ],
+    "cooking_tips": [
+      "Fresh aromatics.",
+      "Don't overcook shrimp."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "soup",
+      "seafood",
+      "spicy",
+      "healthy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 24,
+      "fat_g": 4,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Low calorie, high protein, immune-boosting aromatics."
+  },
+  {
+    "id": "th-mango-rice",
+    "slug": "mango-sticky-rice",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Mango Sticky Rice",
+    "short_description": "Sweet coconut sticky rice with fresh ripe mango.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "sticky rice",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "mango",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak and steam rice.",
+      "Make coconut sauce.",
+      "Combine.",
+      "Serve with mango."
+    ],
+    "cooking_tips": [
+      "Ripe mangoes.",
+      "Soak rice overnight."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "dessert",
+      "sweet",
+      "coconut",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 5,
+      "fat_g": 12,
+      "carbs_g": 65
+    },
+    "nutrition_benefits": "Vitamin A and C from mango, energy from rice."
+  },
+  {
+    "id": "th-satay",
+    "slug": "chicken-satay",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Chicken Satay",
+    "short_description": "Grilled marinated chicken skewers with peanut dipping sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "peanut butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "curry powder",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Skewer.",
+      "Grill.",
+      "Make peanut sauce."
+    ],
+    "cooking_tips": [
+      "Soak bamboo skewers.",
+      "Baste while grilling."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "appetizer",
+      "grilled",
+      "peanut",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 350,
+      "protein_g": 38,
+      "fat_g": 18,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "High protein, healthy fats from peanuts."
+  },
+  {
+    "id": "th-papaya-salad",
+    "slug": "som-tam",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Som Tam (Papaya Salad)",
+    "short_description": "Spicy green papaya salad with lime, chilies, and dried shrimp.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "green papaya",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "long beans",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "lime",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Shred papaya.",
+      "Pound garlic and chilies.",
+      "Add vegetables.",
+      "Dress with lime."
+    ],
+    "cooking_tips": [
+      "Use mortar and pestle.",
+      "Adjust spice level."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "salad",
+      "spicy",
+      "healthy",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 3,
+      "fat_g": 1,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Very low calorie, high vitamin C, digestive enzymes from papaya."
+  },
+  {
+    "id": "ma-tagine",
+    "slug": "lamb-tagine",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Lamb Tagine",
+    "short_description": "Slow-cooked Moroccan stew with lamb, apricots, and warming spices.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "dried apricots",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb.",
+      "Add spices.",
+      "Slow cook.",
+      "Add fruit."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Tagine pot ideal."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "lamb",
+      "stew",
+      "aromatic",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Iron-rich lamb, antioxidant spices, natural sweetness from fruit."
+  },
+  {
+    "id": "ma-couscous",
+    "slug": "couscous-royale",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Couscous Royale",
+    "short_description": "Fluffy semolina with seven vegetables and tender meat.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "couscous",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mixed vegetables",
+        "amount": 800,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Steam couscous.",
+      "Make vegetable stew.",
+      "Layer and serve."
+    ],
+    "cooking_tips": [
+      "Fluff couscous.",
+      "Seven vegetables traditional."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "couscous",
+      "traditional",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 14,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Balanced meal with protein, fiber, and complex carbs."
+  },
+  {
+    "id": "ma-harira",
+    "slug": "harira",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Harira",
+    "short_description": "Hearty Moroccan soup with lentils, chickpeas, and tomatoes.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lentils",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Simmer lentils.",
+      "Add chickpeas.",
+      "Thicken with flour."
+    ],
+    "cooking_tips": [
+      "Ramadan staple.",
+      "Dates on the side."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "soup",
+      "lentils",
+      "healthy",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 12,
+      "fat_g": 4,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "High fiber, plant protein, low fat."
+  },
+  {
+    "id": "ma-bastilla",
+    "slug": "bastilla",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Bastilla",
+    "short_description": "Sweet and savory pie with chicken, almonds, and cinnamon in phyllo.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "phyllo dough",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Poach chicken.",
+      "Make filling.",
+      "Layer phyllo.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Brush phyllo well.",
+      "Dust with sugar."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "moroccan",
+      "pastry",
+      "chicken",
+      "festive",
+      "elegant"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Protein from chicken, healthy fats from almonds."
+  },
+  {
+    "id": "ma-mint-tea",
+    "slug": "moroccan-mint-tea",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Moroccan Mint Tea",
+    "short_description": "Sweet green tea with fresh mint, poured from a height.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 5,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "gunpowder green tea",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh mint",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "sugar",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Rinse tea.",
+      "Add mint and sugar.",
+      "Steep.",
+      "Pour from height."
+    ],
+    "cooking_tips": [
+      "Pour from height for foam.",
+      "Fresh mint essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "drink",
+      "tea",
+      "refreshing",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 0,
+      "fat_g": 0,
+      "carbs_g": 15
+    },
+    "nutrition_benefits": "Antioxidants from tea, digestive mint."
+  },
+  {
+    "id": "ma-zaalouk",
+    "slug": "zaalouk",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Zaalouk",
+    "short_description": "Smoky eggplant and tomato dip with cumin and paprika.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Roast eggplant.",
+      "Cook with tomatoes.",
+      "Mash and season."
+    ],
+    "cooking_tips": [
+      "Char eggplant.",
+      "Serve warm or cold."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "dip",
+      "vegan",
+      "healthy",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 2,
+      "fat_g": 5,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Low calorie, fiber-rich, antioxidants."
+  },
+  {
+    "id": "lb-shawarma",
+    "slug": "beef-shawarma",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Beef Shawarma",
+    "short_description": "Spiced beef wrapped in pita with tahini and pickles.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "pita",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tahini",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Marinate beef.",
+      "Grill or roast.",
+      "Slice thin.",
+      "Wrap with toppings."
+    ],
+    "cooking_tips": [
+      "Thin slices.",
+      "Stack and slice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lebanese",
+      "beef",
+      "wrap",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "High protein, iron from beef, calcium from tahini."
+  },
+  {
+    "id": "lb-falafel",
+    "slug": "falafel",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Falafel",
+    "short_description": "Crispy chickpea fritters with herbs and spices.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "dried chickpeas",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "parsley",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak chickpeas overnight.",
+      "Blend with herbs.",
+      "Shape.",
+      "Deep fry."
+    ],
+    "cooking_tips": [
+      "Never use canned chickpeas.",
+      "Hot oil."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lebanese",
+      "vegetarian",
+      "vegan",
+      "fried",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Plant protein, fiber, herbs provide vitamins."
+  },
+  {
+    "id": "lb-baba-ganoush",
+    "slug": "baba-ganoush",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Baba Ganoush",
+    "short_description": "Smoky roasted eggplant dip with tahini and garlic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "tahini",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Char eggplant.",
+      "Scoop flesh.",
+      "Blend with tahini.",
+      "Season."
+    ],
+    "cooking_tips": [
+      "Direct flame best.",
+      "Drain liquid."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "lebanese",
+      "dip",
+      "vegan",
+      "healthy",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 9,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Low calorie, healthy fats from tahini."
+  },
+  {
+    "id": "lb-manousheh",
+    "slug": "manousheh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Manousheh",
+    "short_description": "Lebanese flatbread topped with zaatar and olive oil.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "zaatar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Rise.",
+      "Stretch.",
+      "Top with zaatar oil.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Hot oven.",
+      "Fresh zaatar."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lebanese",
+      "breakfast",
+      "baked",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 8,
+      "fat_g": 16,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Energy from carbs, antioxidants from zaatar."
+  },
+  {
+    "id": "lb-kebbeh",
+    "slug": "kebbeh-nayeh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Kebbeh Nayeh",
+    "short_description": "Lebanese steak tartare with bulgur, onion, and spices.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lean lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "fine bulgur",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      }
+    ],
+    "steps": [
+      "Soak bulgur.",
+      "Process lamb.",
+      "Combine.",
+      "Serve raw."
+    ],
+    "cooking_tips": [
+      "Freshest lamb.",
+      "Chill all equipment."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "lebanese",
+      "raw",
+      "lamb",
+      "traditional",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 22,
+      "fat_g": 10,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein, iron, zinc from raw lamb."
+  },
+  {
+    "id": "lb-tabbouleh",
+    "slug": "lebanese-tabbouleh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Lebanese Tabbouleh",
+    "short_description": "Fresh herb salad dominated by parsley with bulgur and lemon.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "parsley",
+        "amount": 4,
+        "unit": "bunches"
+      },
+      {
+        "name": "bulgur",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      }
+    ],
+    "steps": [
+      "Soak bulgur.",
+      "Chop parsley fine.",
+      "Combine.",
+      "Dress with lemon oil."
+    ],
+    "cooking_tips": [
+      "More parsley than bulgur.",
+      "Very fine chop."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "lebanese",
+      "salad",
+      "vegan",
+      "healthy",
+      "refreshing"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Iron from parsley, vitamin K, antioxidants."
+  },
+  {
+    "id": "cn-kung-pao",
+    "slug": "kung-pao-chicken",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Kung Pao Chicken",
+    "short_description": "Spicy stir-fried chicken with peanuts and dried chilies.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "peanuts",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 10,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Stir-fry.",
+      "Add sauce.",
+      "Add peanuts."
+    ],
+    "cooking_tips": [
+      "Hot wok.",
+      "Velvet chicken."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "chicken",
+      "spicy",
+      "stir-fry",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "High protein, healthy fats from peanuts."
+  },
+  {
+    "id": "cn-dumplings",
+    "slug": "pork-dumplings",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Pork Dumplings",
+    "short_description": "Delicate wrappers filled with seasoned pork and cabbage.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "dumpling wrappers",
+        "amount": 50,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make filling.",
+      "Wrap dumplings.",
+      "Steam or pan-fry."
+    ],
+    "cooking_tips": [
+      "Pleat edges.",
+      "Don't overfill."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "dumplings",
+      "pork",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Protein from pork, fiber from cabbage."
+  },
+  {
+    "id": "cn-fried-rice",
+    "slug": "yangzhou-fried-rice",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Yangzhou Fried Rice",
+    "short_description": "Classic Chinese fried rice with shrimp, ham, and eggs.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "day-old rice",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Scramble eggs.",
+      "Stir-fry rice.",
+      "Add proteins.",
+      "Season."
+    ],
+    "cooking_tips": [
+      "Day-old rice.",
+      "High heat.",
+      "Quick movements."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "rice",
+      "quick",
+      "versatile"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 16,
+      "fat_g": 12,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Balanced meal, protein from shrimp and eggs."
+  },
+  {
+    "id": "cn-mapo-tofu",
+    "slug": "mapo-tofu",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Mapo Tofu",
+    "short_description": "Sichuan tofu in spicy, numbing bean sauce with ground pork.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "silken tofu",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "doubanjiang",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook pork.",
+      "Add bean paste.",
+      "Add tofu.",
+      "Thicken."
+    ],
+    "cooking_tips": [
+      "Silken tofu.",
+      "Sichuan peppercorns."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "tofu",
+      "spicy",
+      "sichuan",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Plant protein from tofu, low carb."
+  },
+  {
+    "id": "cn-spring-rolls",
+    "slug": "spring-rolls",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Spring Rolls",
+    "short_description": "Crispy rolls filled with vegetables and sometimes meat.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "spring roll wrappers",
+        "amount": 20,
+        "unit": "pc"
+      },
+      {
+        "name": "cabbage",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Prep filling.",
+      "Wrap tightly.",
+      "Deep fry."
+    ],
+    "cooking_tips": [
+      "Squeeze out moisture.",
+      "Seal well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "appetizer",
+      "fried",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Vegetables provide fiber and vitamins."
+  },
+  {
+    "id": "cn-char-siu",
+    "slug": "char-siu",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Char Siu (BBQ Pork)",
+    "short_description": "Cantonese honey-glazed barbecue pork with red edges.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "hoisin sauce",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "honey",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Marinate pork.",
+      "Roast.",
+      "Glaze.",
+      "Rest and slice."
+    ],
+    "cooking_tips": [
+      "Char edges.",
+      "Baste often."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "pork",
+      "bbq",
+      "cantonese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 20,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "High protein from pork."
+  },
+  {
+    "id": "gr-moussaka",
+    "slug": "moussaka",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Moussaka",
+    "short_description": "Layered eggplant, spiced lamb, and bechamel casserole.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "bechamel",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Salt and fry eggplant.",
+      "Make meat sauce.",
+      "Layer.",
+      "Top with bechamel.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Salt eggplant.",
+      "Rest before cutting."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "lamb",
+      "baked",
+      "classic",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 26,
+      "fat_g": 32,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein from lamb, fiber from eggplant."
+  },
+  {
+    "id": "gr-souvlaki",
+    "slug": "souvlaki",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Souvlaki",
+    "short_description": "Grilled pork skewers with oregano, lemon, and tzatziki.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork tenderloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "lemon",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "tzatziki",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Marinate pork.",
+      "Skewer.",
+      "Grill.",
+      "Serve with pita."
+    ],
+    "cooking_tips": [
+      "Room temp meat.",
+      "Hot grill."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "greek",
+      "pork",
+      "grilled",
+      "street-food",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 38,
+      "fat_g": 18,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Lean protein, probiotics from tzatziki."
+  },
+  {
+    "id": "gr-spanakopita",
+    "slug": "spanakopita",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Spanakopita",
+    "short_description": "Flaky phyllo pie with spinach and feta cheese.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "spinach",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "feta cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "phyllo dough",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook spinach.",
+      "Mix with feta.",
+      "Layer phyllo.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Squeeze spinach dry.",
+      "Brush phyllo well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "vegetarian",
+      "baked",
+      "pie",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Iron from spinach, calcium from feta."
+  },
+  {
+    "id": "gr-tzatziki",
+    "slug": "tzatziki",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Tzatziki",
+    "short_description": "Cool yogurt dip with cucumber, garlic, and dill.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "greek yogurt",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Grate and drain cucumber.",
+      "Mix with yogurt.",
+      "Add garlic and dill."
+    ],
+    "cooking_tips": [
+      "Drain cucumber well.",
+      "Rest for flavor."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "greek",
+      "dip",
+      "vegetarian",
+      "healthy",
+      "refreshing"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 6,
+      "fat_g": 4,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Probiotics from yogurt, low calorie."
+  },
+  {
+    "id": "gr-greek-salad",
+    "slug": "greek-salad",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Greek Salad",
+    "short_description": "Fresh tomatoes, cucumber, olives, and feta with oregano.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "feta",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Chop vegetables.",
+      "Add feta.",
+      "Dress with olive oil."
+    ],
+    "cooking_tips": [
+      "Ripe tomatoes.",
+      "Quality olive oil."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "greek",
+      "salad",
+      "vegetarian",
+      "healthy",
+      "summer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 8,
+      "fat_g": 18,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Healthy fats from olives and olive oil, calcium from feta."
+  },
+  {
+    "id": "gr-baklava",
+    "slug": "baklava",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Baklava",
+    "short_description": "Layered phyllo pastry with nuts and honey syrup.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 50,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "phyllo dough",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "walnuts",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Layer phyllo and nuts.",
+      "Cut.",
+      "Bake.",
+      "Pour hot syrup."
+    ],
+    "cooking_tips": [
+      "Cold syrup on hot baklava.",
+      "Sharp knife."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "dessert",
+      "pastry",
+      "nuts",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 16,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Healthy fats from nuts, antioxidants from honey."
+  },
+  {
+    "id": "es-paella",
+    "slug": "paella-valenciana",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Paella Valenciana",
+    "short_description": "Saffron rice with chicken, rabbit, and green beans from Valencia.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "bomba rice",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "saffron",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Brown meats.",
+      "Add vegetables.",
+      "Add rice and stock.",
+      "Cook without stirring."
+    ],
+    "cooking_tips": [
+      "Wide shallow pan.",
+      "Socarrat is key."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "spanish",
+      "rice",
+      "chicken",
+      "classic",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Balanced meal with protein and carbs."
+  },
+  {
+    "id": "es-gazpacho",
+    "slug": "gazpacho",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Gazpacho",
+    "short_description": "Chilled Andalusian tomato soup with cucumber and peppers.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "sherry vinegar",
+        "amount": 30,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Blend all.",
+      "Strain.",
+      "Chill.",
+      "Serve cold."
+    ],
+    "cooking_tips": [
+      "Ripe tomatoes.",
+      "Chill overnight."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "spanish",
+      "soup",
+      "vegan",
+      "cold",
+      "summer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Low calorie, vitamin C, lycopene."
+  },
+  {
+    "id": "es-tortilla",
+    "slug": "tortilla-espanola",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Tortilla Espanola",
+    "short_description": "Classic Spanish potato omelette with onions.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Slow fry potatoes.",
+      "Mix with eggs.",
+      "Cook low.",
+      "Flip."
+    ],
+    "cooking_tips": [
+      "Low heat.",
+      "Runny center optional."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "spanish",
+      "eggs",
+      "potatoes",
+      "classic",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 16,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein from eggs, potassium from potatoes."
+  },
+  {
+    "id": "es-patatas-bravas",
+    "slug": "patatas-bravas",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Patatas Bravas",
+    "short_description": "Crispy potatoes with spicy tomato sauce and aioli.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "aioli",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Fry potatoes.",
+      "Make bravas sauce.",
+      "Drizzle sauces."
+    ],
+    "cooking_tips": [
+      "Twice-fried best.",
+      "Hot sauce."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "spanish",
+      "appetizer",
+      "potatoes",
+      "vegetarian",
+      "tapas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 5,
+      "fat_g": 18,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Energy from potatoes, garlic benefits from aioli."
+  },
+  {
+    "id": "es-churros",
+    "slug": "churros-con-chocolate",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Churros con Chocolate",
+    "short_description": "Crispy fried dough with thick hot chocolate for dipping.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "dark chocolate",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 400,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Fry churros.",
+      "Make thick chocolate."
+    ],
+    "cooking_tips": [
+      "Star tip.",
+      "Hot oil."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "spanish",
+      "dessert",
+      "fried",
+      "chocolate",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 6,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Antioxidants from dark chocolate."
+  },
+  {
+    "id": "tr-kebab",
+    "slug": "adana-kebab",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Adana Kebab",
+    "short_description": "Spicy hand-minced lamb kebabs on wide skewers.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "lamb fat",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "urfa pepper",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Hand-mince meat.",
+      "Add fat and spices.",
+      "Shape on skewers.",
+      "Grill."
+    ],
+    "cooking_tips": [
+      "Hand-minced.",
+      "Flat skewers."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "lamb",
+      "grilled",
+      "spicy",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 32,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "High protein, iron from lamb."
+  },
+  {
+    "id": "tr-lahmacun",
+    "slug": "lahmacun",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Lahmacun",
+    "short_description": "Thin crispy flatbread with spiced lamb and vegetables.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make thin dough.",
+      "Spread lamb topping.",
+      "Bake hot."
+    ],
+    "cooking_tips": [
+      "Very thin.",
+      "Hot oven."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "lamb",
+      "baked",
+      "flatbread"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Protein from lamb, balanced meal."
+  },
+  {
+    "id": "tr-dolma",
+    "slug": "dolma",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Dolma",
+    "short_description": "Stuffed grape leaves with rice, pine nuts, and herbs.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 50,
+        "unit": "pc"
+      },
+      {
+        "name": "rice",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make rice filling.",
+      "Roll leaves.",
+      "Stack and cook."
+    ],
+    "cooking_tips": [
+      "Tight rolls.",
+      "Weight down."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "appetizer",
+      "vegetarian",
+      "vegan",
+      "rice"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Fiber, healthy fats from pine nuts."
+  },
+  {
+    "id": "tr-pide",
+    "slug": "pide",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Pide",
+    "short_description": "Turkish boat-shaped flatbread with various toppings.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "minced meat",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "egg",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Shape boats.",
+      "Add filling.",
+      "Bake.",
+      "Add egg."
+    ],
+    "cooking_tips": [
+      "Hot oven.",
+      "Egg at end."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "baked",
+      "flatbread",
+      "versatile"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 24,
+      "fat_g": 18,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete meal with protein and carbs."
+  },
+  {
+    "id": "tr-baklava",
+    "slug": "turkish-baklava",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Turkish Baklava",
+    "short_description": "Paper-thin phyllo layers with pistachios and syrup.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "phyllo",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pistachios",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 250,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Layer phyllo and butter.",
+      "Add nuts.",
+      "Cut.",
+      "Bake.",
+      "Add syrup."
+    ],
+    "cooking_tips": [
+      "Hot syrup cold baklava.",
+      "Very thin layers."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "turkish",
+      "dessert",
+      "pastry",
+      "nuts",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 6,
+      "fat_g": 20,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Healthy fats from pistachios."
+  },
+  {
+    "id": "kr-bibimbap",
+    "slug": "bibimbap",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Bibimbap",
+    "short_description": "Rice bowl with assorted vegetables, meat, and gochujang.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "beef",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "gochujang",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook rice.",
+      "Prep vegetables.",
+      "Cook beef.",
+      "Arrange in bowl.",
+      "Top with egg."
+    ],
+    "cooking_tips": [
+      "Mix before eating.",
+      "Stone bowl for crispy rice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "rice",
+      "beef",
+      "healthy",
+      "colorful"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 24,
+      "fat_g": 16,
+      "carbs_g": 68
+    },
+    "nutrition_benefits": "Balanced with protein, vegetables, grains."
+  },
+  {
+    "id": "kr-bulgogi",
+    "slug": "bulgogi",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Bulgogi",
+    "short_description": "Sweet and savory marinated beef, grilled to perfection.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "asian pear",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Slice beef thin.",
+      "Marinate.",
+      "Grill.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Pear tenderizes.",
+      "High heat."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "beef",
+      "grilled",
+      "bbq",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 36,
+      "fat_g": 18,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "High protein, iron from beef."
+  },
+  {
+    "id": "kr-kimchi-jjigae",
+    "slug": "kimchi-jjigae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Kimchi Jjigae",
+    "short_description": "Spicy fermented cabbage stew with pork and tofu.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "kimchi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pork belly",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Saut\u00e9 pork.",
+      "Add kimchi.",
+      "Add water.",
+      "Simmer.",
+      "Add tofu."
+    ],
+    "cooking_tips": [
+      "Aged kimchi best.",
+      "Don't overcook tofu."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "soup",
+      "spicy",
+      "fermented",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Probiotics from kimchi, protein from pork and tofu."
+  },
+  {
+    "id": "kr-japchae",
+    "slug": "japchae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Japchae",
+    "short_description": "Sweet potato noodles stir-fried with vegetables and beef.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "sweet potato noodles",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "beef",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook noodles.",
+      "Stir-fry vegetables separately.",
+      "Combine with sauce."
+    ],
+    "cooking_tips": [
+      "Don't overcook noodles.",
+      "Sesame oil finish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "noodles",
+      "vegetable",
+      "gluten-free",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 10,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Gluten-free noodles, iron from spinach."
+  },
+  {
+    "id": "kr-fried-chicken",
+    "slug": "korean-fried-chicken",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Korean Fried Chicken",
+    "short_description": "Extra crispy double-fried chicken with gochujang glaze.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken wings",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "gochujang",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "rice flour",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Season chicken.",
+      "Double fry.",
+      "Toss in sauce."
+    ],
+    "cooking_tips": [
+      "Double fry.",
+      "Light coating."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "chicken",
+      "fried",
+      "spicy",
+      "crispy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "High protein from chicken."
+  },
+  {
+    "id": "vn-pho",
+    "slug": "pho-bo",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Pho Bo",
+    "short_description": "Aromatic beef noodle soup with star anise and fresh herbs.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef bones",
+        "amount": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "star anise",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Char aromatics.",
+      "Simmer broth.",
+      "Prepare toppings.",
+      "Assemble bowls."
+    ],
+    "cooking_tips": [
+      "Long simmer.",
+      "Fresh herbs essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "vietnamese",
+      "soup",
+      "beef",
+      "noodles",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 12,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Collagen from bones, herbs provide vitamins."
+  },
+  {
+    "id": "vn-banh-mi",
+    "slug": "banh-mi",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Banh Mi",
+    "short_description": "Crispy Vietnamese baguette with pate, pork, and pickled vegetables.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "baguette",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "pork belly",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pate",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Prep fillings.",
+      "Toast bread.",
+      "Layer ingredients."
+    ],
+    "cooking_tips": [
+      "Crispy bread.",
+      "Balance flavors."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "sandwich",
+      "pork",
+      "quick",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 22,
+      "fat_g": 24,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Balanced meal, pickled vegetables aid digestion."
+  },
+  {
+    "id": "vn-spring-rolls",
+    "slug": "goi-cuon",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Fresh Spring Rolls",
+    "short_description": "Fresh rice paper rolls with shrimp, pork, and herbs.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice paper",
+        "amount": 12,
+        "unit": "sheets"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Prep fillings.",
+      "Soften rice paper.",
+      "Roll tightly."
+    ],
+    "cooking_tips": [
+      "Don't oversoak paper.",
+      "Tight rolls."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "appetizer",
+      "healthy",
+      "fresh",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 14,
+      "fat_g": 2,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Low fat, high protein, fresh vegetables."
+  },
+  {
+    "id": "vn-bun-cha",
+    "slug": "bun-cha",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Bun Cha",
+    "short_description": "Grilled pork patties with rice noodles and dipping sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice vermicelli",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make patties.",
+      "Grill.",
+      "Make dipping sauce.",
+      "Serve with noodles."
+    ],
+    "cooking_tips": [
+      "Charred edges.",
+      "Balance dipping sauce."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "pork",
+      "grilled",
+      "noodles",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Protein from pork, herbs provide vitamins."
+  },
+  {
+    "id": "vn-ca-phe",
+    "slug": "vietnamese-coffee",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Vietnamese Coffee",
+    "short_description": "Strong dark roast dripped over sweetened condensed milk.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 5,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "dark roast coffee",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "condensed milk",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "hot water",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Add condensed milk.",
+      "Set up phin filter.",
+      "Drip slowly.",
+      "Stir and enjoy."
+    ],
+    "cooking_tips": [
+      "Patience.",
+      "Adjust sweetness."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "drink",
+      "coffee",
+      "sweet",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 150,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Antioxidants from coffee, energy boost."
+  },
+  {
+    "id": "br-feijoada",
+    "slug": "feijoada",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Feijoada",
+    "short_description": "Black bean stew with pork and beef, Brazil's national dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "black beans",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pork ribs",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "smoked sausage",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak beans overnight.",
+      "Simmer meats.",
+      "Cook beans with meats."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Multiple meats."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "beans",
+      "pork",
+      "traditional",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "High protein, fiber from beans."
+  },
+  {
+    "id": "br-picanha",
+    "slug": "picanha",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Picanha",
+    "short_description": "Prime cut beef grilled churrasco-style with rock salt.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "picanha",
+        "amount": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "coarse salt",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Salt generously.",
+      "Skewer.",
+      "Grill over charcoal."
+    ],
+    "cooking_tips": [
+      "Fat cap up.",
+      "Medium-rare."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "beef",
+      "grilled",
+      "bbq",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 42,
+      "fat_g": 32,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "High protein, iron, zinc from beef."
+  },
+  {
+    "id": "br-coxinha",
+    "slug": "coxinha",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Coxinha",
+    "short_description": "Teardrop-shaped chicken croquettes with creamy filling.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cream cheese",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Shred chicken.",
+      "Shape.",
+      "Bread.",
+      "Fry."
+    ],
+    "cooking_tips": [
+      "Chill dough.",
+      "Hot oil."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "brazilian",
+      "appetizer",
+      "chicken",
+      "fried",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Protein from chicken."
+  },
+  {
+    "id": "br-acai-bowl",
+    "slug": "acai-bowl",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Acai Bowl",
+    "short_description": "Frozen acai berry bowl topped with granola and fresh fruits.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 0,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "frozen acai",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "banana",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "granola",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Blend acai with banana.",
+      "Pour into bowl.",
+      "Top with fruit and granola."
+    ],
+    "cooking_tips": [
+      "Thick consistency.",
+      "Eat immediately."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "breakfast",
+      "healthy",
+      "vegan",
+      "fruit"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 46
+    },
+    "nutrition_benefits": "Antioxidants from acai, fiber, vitamins."
+  },
+  {
+    "id": "br-pao-de-queijo",
+    "slug": "pao-de-queijo",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Pao de Queijo",
+    "short_description": "Chewy cheese bread balls made with tapioca flour.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "tapioca flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Heat milk and oil.",
+      "Add flour.",
+      "Mix in cheese and eggs.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Don't overmix.",
+      "Best warm."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "bread",
+      "cheese",
+      "gluten-free",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 6,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Gluten-free, protein from cheese."
+  },
+  {
+    "id": "et-doro-wat",
+    "slug": "doro-wat",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Doro Wat",
+    "short_description": "Spicy chicken stew with berbere spice and boiled eggs.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "berbere spice",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook onions long.",
+      "Add berbere.",
+      "Add chicken.",
+      "Add eggs."
+    ],
+    "cooking_tips": [
+      "Dry cook onions.",
+      "Score eggs."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "chicken",
+      "spicy",
+      "stew",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein, anti-inflammatory spices."
+  },
+  {
+    "id": "et-injera",
+    "slug": "injera",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Injera",
+    "short_description": "Spongy sourdough flatbread made from teff flour.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "teff flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 600,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mix batter.",
+      "Ferment 2-3 days.",
+      "Cook like crepe."
+    ],
+    "cooking_tips": [
+      "Fermentation key.",
+      "Bubbles essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "ethiopian",
+      "bread",
+      "fermented",
+      "vegan",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 1,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "High iron teff, probiotics from fermentation."
+  },
+  {
+    "id": "et-kitfo",
+    "slug": "kitfo",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Kitfo",
+    "short_description": "Ethiopian steak tartare with mitmita spice and butter.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "lean beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mitmita spice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mince beef fine.",
+      "Mix with spiced butter.",
+      "Serve raw or lightly warmed."
+    ],
+    "cooking_tips": [
+      "Very fresh meat.",
+      "Room temperature."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "beef",
+      "raw",
+      "traditional",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "High protein, iron, B vitamins."
+  },
+  {
+    "id": "et-shiro",
+    "slug": "shiro",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Shiro",
+    "short_description": "Spiced chickpea flour stew, a fasting-day staple.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shiro powder",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook onions.",
+      "Add water and shiro.",
+      "Simmer until thick."
+    ],
+    "cooking_tips": [
+      "Stir constantly.",
+      "Adjust thickness."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "vegan",
+      "chickpeas",
+      "fasting",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 12,
+      "fat_g": 10,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Plant protein, fiber, healthy fats."
+  },
+  {
+    "id": "et-tibs",
+    "slug": "tibs",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Tibs",
+    "short_description": "Saut\u00e9ed beef cubes with onions, peppers, and rosemary.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "jalape\u00f1o",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cube beef.",
+      "Saut\u00e9 on high heat.",
+      "Add vegetables."
+    ],
+    "cooking_tips": [
+      "Very hot pan.",
+      "Don't overcrowd."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "beef",
+      "quick",
+      "saut\u00e9ed",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 350,
+      "protein_g": 38,
+      "fat_g": 18,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High protein, iron from beef."
+  },
+  {
+    "id": "pe-ceviche",
+    "slug": "ceviche",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Ceviche",
+    "short_description": "Fresh fish cured in lime juice with onions and chili.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "white fish",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lime juice",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "red onion",
+        "amount": 1,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Cube fish.",
+      "Add lime juice.",
+      "Rest 15 minutes.",
+      "Add onion and chili."
+    ],
+    "cooking_tips": [
+      "Fresh fish only.",
+      "Don't over-cure."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "peruvian",
+      "seafood",
+      "raw",
+      "citrus",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 28,
+      "fat_g": 4,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "High protein, omega-3, vitamin C from lime."
+  },
+  {
+    "id": "pe-lomo-saltado",
+    "slug": "lomo-saltado",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Lomo Saltado",
+    "short_description": "Stir-fried beef with tomatoes, onions, and french fries.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "french fries",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Sear beef.",
+      "Add vegetables.",
+      "Add fries.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "High heat.",
+      "Crispy fries."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "peruvian",
+      "beef",
+      "fusion",
+      "stir-fry",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 36,
+      "fat_g": 24,
+      "carbs_g": 40
+    },
+    "nutrition_benefits": "High protein, Chinese-Peruvian fusion."
+  },
+  {
+    "id": "pe-causa",
+    "slug": "causa",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Causa Rellena",
+    "short_description": "Layered potato terrine with avocado and chicken.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "yellow potatoes",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "avocado",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "chicken",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Mash potatoes with aji amarillo.",
+      "Layer with fillings.",
+      "Chill.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Yellow potatoes best.",
+      "Chill well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "appetizer",
+      "potato",
+      "chicken",
+      "elegant"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Potassium from potatoes, healthy fats from avocado."
+  },
+  {
+    "id": "pe-anticuchos",
+    "slug": "anticuchos",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Anticuchos",
+    "short_description": "Grilled beef heart skewers with aji panca marinade.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef heart",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "aji panca paste",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cube heart.",
+      "Marinate.",
+      "Skewer.",
+      "Grill hot."
+    ],
+    "cooking_tips": [
+      "Remove membrane.",
+      "High heat."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "beef",
+      "grilled",
+      "street-food",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 28,
+      "fat_g": 10,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Very high protein, iron, B vitamins."
+  },
+  {
+    "id": "pe-aji-gallina",
+    "slug": "aji-de-gallina",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Aji de Gallina",
+    "short_description": "Creamy shredded chicken in walnut and aji amarillo sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "aji amarillo",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "walnuts",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Poach and shred chicken.",
+      "Blend sauce.",
+      "Combine.",
+      "Serve over rice."
+    ],
+    "cooking_tips": [
+      "Toast walnuts.",
+      "Adjust spice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "chicken",
+      "creamy",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Protein, healthy fats from walnuts."
+  },
+  {
+    "id": "id-nasi-goreng",
+    "slug": "nasi-goreng",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Nasi Goreng",
+    "short_description": "Indonesian fried rice with sweet soy sauce and egg.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "day-old rice",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Stir-fry aromatics.",
+      "Add rice.",
+      "Add kecap manis.",
+      "Top with fried egg."
+    ],
+    "cooking_tips": [
+      "Day-old rice.",
+      "High heat."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "rice",
+      "quick",
+      "breakfast",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Energy from rice, protein from egg."
+  },
+  {
+    "id": "id-satay",
+    "slug": "sate-ayam",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Sate Ayam",
+    "short_description": "Chicken skewers with spicy peanut sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "peanuts",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 40,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cube and skewer chicken.",
+      "Grill.",
+      "Make peanut sauce."
+    ],
+    "cooking_tips": [
+      "Soak skewers.",
+      "Baste while grilling."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "chicken",
+      "grilled",
+      "peanut",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 36,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein, healthy fats from peanuts."
+  },
+  {
+    "id": "id-rendang",
+    "slug": "rendang",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Rendang",
+    "short_description": "Slow-cooked spiced beef in coconut, often called world's most delicious.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 240,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "galangal",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make spice paste.",
+      "Add beef and coconut.",
+      "Cook until dry.",
+      "Fry in rendered oil."
+    ],
+    "cooking_tips": [
+      "Very slow cook.",
+      "Stir often at end."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "indonesian",
+      "beef",
+      "coconut",
+      "slow-cooked",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 36,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High protein, MCTs from coconut."
+  },
+  {
+    "id": "id-gado-gado",
+    "slug": "gado-gado",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Gado Gado",
+    "short_description": "Indonesian salad with vegetables, tofu, and peanut dressing.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mixed vegetables",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "peanut sauce",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Blanch vegetables.",
+      "Fry tofu.",
+      "Arrange on plate.",
+      "Drizzle peanut sauce."
+    ],
+    "cooking_tips": [
+      "Cook vegetables separately.",
+      "Thick sauce."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "salad",
+      "vegetarian",
+      "peanut",
+      "healthy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 20,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Varied vegetables, plant protein."
+  },
+  {
+    "id": "id-soto",
+    "slug": "soto-ayam",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Soto Ayam",
+    "short_description": "Turmeric chicken soup with glass noodles and boiled eggs.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "turmeric",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "glass noodles",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Simmer chicken.",
+      "Make spice paste.",
+      "Combine.",
+      "Add noodles."
+    ],
+    "cooking_tips": [
+      "Golden color from turmeric.",
+      "Fresh herbs topping."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "soup",
+      "chicken",
+      "comfort-food",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 14,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "High protein, anti-inflammatory turmeric."
+  },
+  {
+    "id": "eg-koshari",
+    "slug": "koshari",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Koshari",
+    "short_description": "Egypt's national dish with rice, lentils, pasta, and spiced tomato sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "lentils",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pasta",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook grains separately.",
+      "Make tomato sauce.",
+      "Fry onions.",
+      "Layer and top."
+    ],
+    "cooking_tips": [
+      "Crispy onions.",
+      "Spicy sauce optional."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "egyptian",
+      "vegetarian",
+      "vegan",
+      "carbs",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 68
+    },
+    "nutrition_benefits": "Complete plant protein, high fiber."
+  },
+  {
+    "id": "eg-ful-medames",
+    "slug": "ful-medames",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Ful Medames",
+    "short_description": "Slow-cooked fava beans with cumin, olive oil, and lemon.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 120,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fava beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook beans until soft.",
+      "Mash partially.",
+      "Season.",
+      "Drizzle oil."
+    ],
+    "cooking_tips": [
+      "Long cooking.",
+      "Runny texture."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "egyptian",
+      "breakfast",
+      "vegan",
+      "beans",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "High protein and fiber, iron-rich."
+  },
+  {
+    "id": "eg-molokhia",
+    "slug": "molokhia",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Molokhia",
+    "short_description": "Jute leaf soup with garlic and coriander, served over rice.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "molokhia leaves",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 10,
+        "unit": "cloves"
+      },
+      {
+        "name": "chicken stock",
+        "amount": 1000,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Chop leaves fine.",
+      "Make garlic tadka.",
+      "Simmer in stock."
+    ],
+    "cooking_tips": [
+      "Don't boil.",
+      "Fresh garlic."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "egyptian",
+      "soup",
+      "greens",
+      "healthy",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High vitamins A and C, antioxidants."
+  },
+  {
+    "id": "eg-shawarma",
+    "slug": "egyptian-shawarma",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Egyptian Shawarma",
+    "short_description": "Spiced meat wrapped in pita with tahini and pickles.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef or chicken",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Egyptian spices",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pita",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Marinate meat.",
+      "Grill.",
+      "Slice.",
+      "Wrap with toppings."
+    ],
+    "cooking_tips": [
+      "Thin slices.",
+      "Fresh pita."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "egyptian",
+      "wrap",
+      "street-food",
+      "meat"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 36,
+      "fat_g": 22,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "High protein, balanced meal."
+  },
+  {
+    "id": "eg-basbousa",
+    "slug": "basbousa",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Basbousa",
+    "short_description": "Semolina cake soaked in rose water syrup with almonds.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yogurt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sugar syrup",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mix batter.",
+      "Bake.",
+      "Pour cold syrup.",
+      "Garnish with almonds."
+    ],
+    "cooking_tips": [
+      "Cold syrup hot cake.",
+      "Score before baking."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "egyptian",
+      "dessert",
+      "semolina",
+      "sweet",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 6,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Energy from semolina."
   }
 ]
-

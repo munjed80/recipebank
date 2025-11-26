@@ -6,6 +6,7 @@
   <meta name="description" content="RecipeBank - Explore authentic recipes from countries around the world. A free, global recipe library.">
   <title>RecipeBank - Global Recipe Library</title>
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/chat.css">
 </head>
 <body>
   <header>
@@ -17,6 +18,7 @@
       <button class="menu-toggle" aria-label="Toggle menu">☰</button>
       <ul class="nav-links">
         <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
         <li><a href="assistant.html">AI Assistant</a></li>
       </ul>
     </nav>
@@ -26,6 +28,21 @@
     <div class="container">
       <h1>🌍 RecipeBank</h1>
       <p>Explore authentic recipes from countries around the world. From Italian pasta to Syrian kibbeh, discover the flavors of global cuisine.</p>
+      
+      <!-- Global Search Bar -->
+      <div class="global-search-wrapper hero-search">
+        <div class="search-input-container">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="global-search" 
+            class="global-search-input" 
+            placeholder="Search recipes, ingredients, or cuisines..."
+            autocomplete="off"
+          >
+        </div>
+        <div id="global-search-results" class="global-search-results"></div>
+      </div>
     </div>
   </section>
 
@@ -34,45 +51,26 @@
       <h2 class="section-title">Explore by <span>Country</span></h2>
       
       <div class="country-grid">
-        <article class="country-card">
-          <a href="countries/italy.html">
-            <div class="country-flag">🇮🇹</div>
-            <h3 class="country-name">Italy</h3>
-            <p class="country-count">Classic Mediterranean cuisine</p>
-          </a>
-        </article>
-
-        <article class="country-card">
-          <a href="countries/india.html">
-            <div class="country-flag">🇮🇳</div>
-            <h3 class="country-name">India</h3>
-            <p class="country-count">Rich spices & flavors</p>
-          </a>
-        </article>
-
-        <article class="country-card">
-          <a href="countries/japan.html">
-            <div class="country-flag">🇯🇵</div>
-            <h3 class="country-name">Japan</h3>
-            <p class="country-count">Elegant & umami-rich</p>
-          </a>
-        </article>
-
-        <article class="country-card">
-          <a href="countries/mexico.html">
-            <div class="country-flag">🇲🇽</div>
-            <h3 class="country-name">Mexico</h3>
-            <p class="country-count">Bold & vibrant dishes</p>
-          </a>
-        </article>
-
-        <article class="country-card">
-          <a href="countries/syria.html">
-            <div class="country-flag">🇸🇾</div>
-            <h3 class="country-name">Syria</h3>
-            <p class="country-count">Levantine traditions</p>
-          </a>
-        </article>
+        <article class="country-card"><a href="countries/italy.html"><div class="country-flag">🇮🇹</div><h3 class="country-name">Italy</h3><p class="country-count">Classic Mediterranean</p></a></article>
+        <article class="country-card"><a href="countries/india.html"><div class="country-flag">🇮🇳</div><h3 class="country-name">India</h3><p class="country-count">Rich spices & flavors</p></a></article>
+        <article class="country-card"><a href="countries/japan.html"><div class="country-flag">🇯🇵</div><h3 class="country-name">Japan</h3><p class="country-count">Elegant & umami-rich</p></a></article>
+        <article class="country-card"><a href="countries/mexico.html"><div class="country-flag">🇲🇽</div><h3 class="country-name">Mexico</h3><p class="country-count">Bold & vibrant dishes</p></a></article>
+        <article class="country-card"><a href="countries/syria.html"><div class="country-flag">🇸🇾</div><h3 class="country-name">Syria</h3><p class="country-count">Levantine traditions</p></a></article>
+        <article class="country-card"><a href="countries/france.html"><div class="country-flag">🇫🇷</div><h3 class="country-name">France</h3><p class="country-count">Elegant gastronomy</p></a></article>
+        <article class="country-card"><a href="countries/thailand.html"><div class="country-flag">🇹🇭</div><h3 class="country-name">Thailand</h3><p class="country-count">Bold & aromatic</p></a></article>
+        <article class="country-card"><a href="countries/morocco.html"><div class="country-flag">🇲🇦</div><h3 class="country-name">Morocco</h3><p class="country-count">Aromatic tagines</p></a></article>
+        <article class="country-card"><a href="countries/lebanon.html"><div class="country-flag">🇱🇧</div><h3 class="country-name">Lebanon</h3><p class="country-count">Fresh mezze</p></a></article>
+        <article class="country-card"><a href="countries/china.html"><div class="country-flag">🇨🇳</div><h3 class="country-name">China</h3><p class="country-count">Ancient traditions</p></a></article>
+        <article class="country-card"><a href="countries/greece.html"><div class="country-flag">🇬🇷</div><h3 class="country-name">Greece</h3><p class="country-count">Mediterranean sun</p></a></article>
+        <article class="country-card"><a href="countries/spain.html"><div class="country-flag">🇪🇸</div><h3 class="country-name">Spain</h3><p class="country-count">Tapas & paella</p></a></article>
+        <article class="country-card"><a href="countries/turkey.html"><div class="country-flag">🇹🇷</div><h3 class="country-name">Turkey</h3><p class="country-count">Kebabs & baklava</p></a></article>
+        <article class="country-card"><a href="countries/korea.html"><div class="country-flag">🇰🇷</div><h3 class="country-name">Korea</h3><p class="country-count">Fermented & BBQ</p></a></article>
+        <article class="country-card"><a href="countries/vietnam.html"><div class="country-flag">🇻🇳</div><h3 class="country-name">Vietnam</h3><p class="country-count">Fresh & aromatic</p></a></article>
+        <article class="country-card"><a href="countries/brazil.html"><div class="country-flag">🇧🇷</div><h3 class="country-name">Brazil</h3><p class="country-count">Churrasco & more</p></a></article>
+        <article class="country-card"><a href="countries/ethiopia.html"><div class="country-flag">🇪🇹</div><h3 class="country-name">Ethiopia</h3><p class="country-count">Unique & spiced</p></a></article>
+        <article class="country-card"><a href="countries/peru.html"><div class="country-flag">🇵🇪</div><h3 class="country-name">Peru</h3><p class="country-count">Ceviche & fusion</p></a></article>
+        <article class="country-card"><a href="countries/indonesia.html"><div class="country-flag">🇮🇩</div><h3 class="country-name">Indonesia</h3><p class="country-count">Spice islands</p></a></article>
+        <article class="country-card"><a href="countries/egypt.html"><div class="country-flag">🇪🇬</div><h3 class="country-name">Egypt</h3><p class="country-count">Ancient flavors</p></a></article>
       </div>
     </div>
   </main>
@@ -81,12 +79,11 @@
     <div class="container">
       <h2 class="section-title">Try Our <span>AI Chef Assistant</span></h2>
       <p class="text-center" style="max-width: 600px; margin: 0 auto 2rem;">
-        Tell us what ingredients you have, and we'll suggest the perfect recipe for you. 
-        Filter by country, difficulty, or dietary preferences.
+        Chat with our AI assistant to get cooking help, recipe guidance, ingredient substitutions, and nutrition information.
       </p>
       <div class="text-center">
         <a href="assistant.html" class="btn">
-          🤖 Open AI Assistant
+          🤖 Chat with AI Assistant
         </a>
       </div>
     </div>
@@ -101,5 +98,7 @@
   </footer>
 
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/search-helper.js"></script>
+  <script src="assets/js/favorites.js"></script>
 </body>
 </html>
