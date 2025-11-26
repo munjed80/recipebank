@@ -14,14 +14,37 @@ const CONFIG = {
 // Determine base path based on current location
 (function setBasePath() {
   const path = window.location.pathname;
-  if (path.includes('/public/countries/') || path.includes('/public/recipes/')) {
-    CONFIG.basePath = '../..';
-    CONFIG.recipesJsonPath = '../../recipes.json';
-    CONFIG.recipesDataPath = '../../data/recipes';
-  } else if (path.includes('/public/')) {
-    CONFIG.basePath = '..';
-    CONFIG.recipesJsonPath = '../recipes.json';
-    CONFIG.recipesDataPath = '../data/recipes';
+  
+  // Check if we're in a subdirectory (countries/ or recipes/)
+  const isInCountries = path.includes('/countries/');
+  const isInRecipes = path.includes('/recipes/');
+  const isInSubdir = isInCountries || isInRecipes;
+  
+  // Check if /public/ is in the path (GitHub Pages deployment)
+  const hasPublicInPath = path.includes('/public/');
+  
+  if (hasPublicInPath) {
+    // GitHub Pages deployment: /recipebank/public/...
+    if (isInSubdir) {
+      CONFIG.basePath = '../..';
+      CONFIG.recipesJsonPath = '../../recipes.json';
+      CONFIG.recipesDataPath = '../../data/recipes';
+    } else {
+      CONFIG.basePath = '..';
+      CONFIG.recipesJsonPath = '../recipes.json';
+      CONFIG.recipesDataPath = '../data/recipes';
+    }
+  } else {
+    // Local development: serving from public folder directly
+    if (isInSubdir) {
+      CONFIG.basePath = '..';
+      CONFIG.recipesJsonPath = '../recipes.json';
+      CONFIG.recipesDataPath = '../data/recipes';
+    } else {
+      CONFIG.basePath = '';
+      CONFIG.recipesJsonPath = '../recipes.json';
+      CONFIG.recipesDataPath = '../data/recipes';
+    }
   }
 })();
 
