@@ -404,6 +404,8 @@ function updateFavoriteButton(btn, isFavorite) {
 
 /**
  * Initialize print button to only print recipe content
+ * Note: CSS print media query in recipe.css hides non-recipe elements
+ * and uses `.recipe-print-area` to isolate the printable content
  */
 function initPrintButton() {
   const printBtn = document.getElementById('btn-print-recipe');

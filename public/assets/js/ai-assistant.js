@@ -310,9 +310,8 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
     
     response += `\n### Step-by-Step Instructions:\n`;
     recipe.steps.forEach((step, index) => {
-      // Format each step with a bold numbered header
-      const shortTitle = this.getStepTitle(step);
-      response += `**${index + 1}. ${shortTitle}**\n${step}\n\n`;
+      // Format each step as a numbered item with the full text
+      response += `**${index + 1}.** ${step}\n\n`;
     });
 
     // Add nutritional breakdown
@@ -336,11 +335,12 @@ Try asking: "What recipes do you have from Italy?" or "How do I make butter chic
 
   /**
    * Extract a short title from a step instruction
+   * Returns a preview of the step for the numbered header
    */
   getStepTitle(step) {
-    if (!step || step.length <= 30) return '';
+    if (!step || step.length <= 40) return step;
     
-    // Try to extract first verb phrase
+    // Extract first few words as preview
     const words = step.split(/\s+/).slice(0, 4);
     return words.join(' ') + '...';
   },
