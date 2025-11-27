@@ -271,5 +271,1296 @@
     "nutrition_benefits": "Healthy fats from pistachios.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-iskender",
+    "slug": "iskender-kebab",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Iskender Kebab",
+    "image": "assets/img/recipes/iskender-kebab.jpg",
+    "short_description": "Tender slices of doner meat served over cubed pita bread, drizzled with tomato sauce and melted butter, with a side of tangy yogurt. This Bursa specialty is Turkish comfort food at its finest.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "lamb or beef doner meat",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "pita bread",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cut pita bread into 1-inch cubes and toast until slightly crisp.",
+      "Prepare tomato sauce with garlic, paprika, and a pinch of sugar.",
+      "Slice doner meat thinly or use pre-sliced doner.",
+      "Arrange toasted pita cubes on serving plates.",
+      "Top with sliced meat and drizzle with hot tomato sauce.",
+      "Melt butter until it begins to foam.",
+      "Pour sizzling butter over the meat.",
+      "Serve immediately with a generous dollop of cold yogurt on the side."
+    ],
+    "cooking_tips": [
+      "The butter must be sizzling hot when poured over the meat.",
+      "Use authentic doner meat for best results.",
+      "The contrast of hot butter and cold yogurt is essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "turkish",
+      "kebab",
+      "lamb",
+      "dinner",
+      "bursa",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 680,
+      "protein_g": 42,
+      "fat_g": 45,
+      "carbs_g": 35
+    },
+    "nutrition_benefits": "Iskender provides high-quality protein from lamb. Yogurt adds probiotics and calcium. The dish offers B vitamins and iron from the meat.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "tr-manti",
+    "slug": "manti",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Turkish Manti",
+    "image": "assets/img/recipes/manti.jpg",
+    "short_description": "Tiny handmade dumplings filled with spiced meat, served with garlic yogurt and sumac-paprika butter. These bite-sized parcels from Kayseri showcase Turkish culinary patience and skill.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "butter",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sumac",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried mint",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make dough with flour, egg, salt and water; rest 30 minutes.",
+      "Mix beef with grated onion, salt, and pepper for filling.",
+      "Roll dough very thin and cut into 1-inch squares.",
+      "Place tiny amount of filling in each, fold corners up to create a package.",
+      "Boil dumplings in salted water until they float and are cooked, about 10 minutes.",
+      "Whisk yogurt with minced garlic and salt.",
+      "Melt butter with paprika and sumac.",
+      "Serve dumplings with garlic yogurt and spiced butter drizzled on top."
+    ],
+    "cooking_tips": [
+      "The smaller the manti, the more impressive - true Kayseri manti fits 40 on a spoon.",
+      "Freeze uncooked manti on a tray before transferring to bags.",
+      "Never skip the garlic yogurt - it makes the dish."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "turkish",
+      "dumplings",
+      "beef",
+      "dinner",
+      "kayseri",
+      "handmade"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Manti provides protein from beef and yogurt. The dish offers probiotics from yogurt and iron from the meat. Sumac adds antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "tr-kofte",
+    "slug": "kofte",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Turkish Kofte",
+    "image": "assets/img/recipes/kofte.jpg",
+    "short_description": "Juicy grilled meatballs seasoned with cumin and shaped by hand. These beloved Turkish patties are served at every gathering from picnics to weddings.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ground beef and lamb mix",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "bread crumbs",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Grate onion and squeeze out excess liquid.",
+      "Mix meat with grated onion, parsley, cumin, bread crumbs, egg, salt and pepper.",
+      "Knead mixture well for several minutes until it becomes sticky.",
+      "Refrigerate for 30 minutes to firm up.",
+      "Shape into oval patties or elongated logs.",
+      "Grill over charcoal or pan-fry until cooked through with nice char marks.",
+      "Rest for a few minutes before serving.",
+      "Serve with flatbread, grilled vegetables, and onion salad."
+    ],
+    "cooking_tips": [
+      "Kneading the meat mixture well is crucial for the right texture.",
+      "Don't press down on kofte while cooking - let them cook undisturbed.",
+      "A mix of beef and lamb gives the best flavor."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "turkish",
+      "meatballs",
+      "grilled",
+      "beef",
+      "lamb",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Kofte provides high-quality protein and iron from the meat. Cumin aids digestion. Parsley adds vitamins K and C.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "tr-menemen",
+    "slug": "menemen",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Menemen",
+    "image": "assets/img/recipes/menemen.jpg",
+    "short_description": "Scrambled eggs with tomatoes, peppers, and onions cooked together in a skillet. This hearty Turkish breakfast is simple yet satisfying, traditionally eaten straight from the pan with crusty bread.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "ripe tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "green peppers",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "small"
+      },
+      {
+        "name": "olive oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Turkish red pepper flakes",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Dice onion, tomatoes, and peppers into small pieces.",
+      "Heat olive oil in a shallow pan over medium heat.",
+      "Saute onion until softened, about 3 minutes.",
+      "Add peppers and cook for another 2 minutes.",
+      "Add diced tomatoes and cook until they break down and release juices.",
+      "Season with salt and pepper flakes.",
+      "Crack eggs directly into the pan and stir gently to scramble.",
+      "Remove from heat while eggs are still slightly runny - they will continue cooking.",
+      "Serve immediately in the pan with crusty bread."
+    ],
+    "cooking_tips": [
+      "Use ripe, flavorful tomatoes for the best result.",
+      "The eggs should be soft and creamy, not dry.",
+      "Some prefer to add the eggs whole and let the yolks remain intact."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "turkish",
+      "breakfast",
+      "eggs",
+      "vegetarian",
+      "quick",
+      "one-pan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 24,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Menemen provides complete protein from eggs. Tomatoes offer lycopene, and peppers add vitamin C. The dish is naturally low in carbs.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-gozleme",
+    "slug": "gozleme",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Gozleme",
+    "image": "assets/img/recipes/gozleme.jpg",
+    "short_description": "Hand-rolled flatbreads stuffed with various fillings and cooked on a domed griddle. These Turkish stuffed breads are street food favorites, typically filled with spinach, cheese, or spiced meat.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "feta cheese",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "yogurt",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make soft dough with flour, yogurt, salt and water; rest 30 minutes.",
+      "Cook spinach until wilted, squeeze out all water.",
+      "Mix spinach with crumbled feta and diced onion.",
+      "Divide dough into 4 balls and roll each very thin.",
+      "Spread filling over half the dough, fold over to create a half-moon.",
+      "Heat a large flat pan or griddle.",
+      "Cook gozleme on both sides until golden brown and crispy.",
+      "Brush with butter while still hot.",
+      "Cut into triangles and serve immediately."
+    ],
+    "cooking_tips": [
+      "The dough should be rolled paper-thin for the crispiest result.",
+      "Press down while cooking to ensure even browning.",
+      "Squeeze spinach very well to prevent soggy gozleme."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "flatbread",
+      "spinach",
+      "cheese",
+      "vegetarian",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 18,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Gozleme provides iron from spinach and calcium from feta. The dish offers fiber and complex carbohydrates from the dough.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-mercimek-corbasi",
+    "slug": "mercimek-corbasi",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Mercimek Corbasi",
+    "image": "assets/img/recipes/mercimek-corbasi.jpg",
+    "short_description": "Velvety red lentil soup seasoned with cumin and served with a squeeze of lemon. This beloved Turkish soup appears on almost every restaurant menu and is the ultimate comfort food.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "red lentils",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "potato",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "vegetable stock",
+        "amount": 1.5,
+        "unit": "L"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Dice onion, carrot, and potato.",
+      "Saute vegetables in butter until softened.",
+      "Add rinsed lentils and stock, bring to a boil.",
+      "Reduce heat and simmer until lentils are completely soft, about 25 minutes.",
+      "Blend soup until smooth using immersion blender.",
+      "Season with cumin, salt, and pepper.",
+      "Make paprika butter by melting butter with paprika.",
+      "Serve hot with a drizzle of paprika butter and lemon wedges."
+    ],
+    "cooking_tips": [
+      "Red lentils cook quickly and don't need soaking.",
+      "The soup thickens as it sits - add more stock when reheating.",
+      "A squeeze of lemon before eating is traditional and essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "turkish",
+      "soup",
+      "lentils",
+      "vegan",
+      "comfort-food",
+      "healthy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 12,
+      "fat_g": 6,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Red lentil soup is high in plant protein and fiber. Lentils provide iron, folate, and B vitamins. Cumin aids digestion.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tr-imam-bayildi",
+    "slug": "imam-bayildi",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Imam Bayildi",
+    "image": "assets/img/recipes/imam-bayildi.jpg",
+    "short_description": "Tender eggplant stuffed with tomatoes, onions, and garlic, braised in olive oil until meltingly soft. Legend says an imam fainted from the deliciousness of this dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "medium eggplants",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "olive oil",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Peel eggplants in stripes and cut a deep pocket lengthwise.",
+      "Salt eggplants and let them sit to draw out bitterness, then rinse.",
+      "Fry eggplants in olive oil until lightly golden.",
+      "Slice onions thinly and saute until very soft.",
+      "Add diced tomatoes, garlic, parsley, and seasonings to onions.",
+      "Stuff the fried eggplants with the onion-tomato mixture.",
+      "Arrange in a baking dish, pour remaining sauce and olive oil over.",
+      "Cover and bake at 350°F for 45 minutes until very tender.",
+      "Let cool to room temperature before serving."
+    ],
+    "cooking_tips": [
+      "This dish is traditionally served at room temperature or cold.",
+      "Don't skimp on the olive oil - it's essential for the silky texture.",
+      "Make it a day ahead for even better flavor."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "eggplant",
+      "vegan",
+      "vegetarian",
+      "dinner",
+      "olive-oil"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 4,
+      "fat_g": 26,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Imam bayildi is rich in heart-healthy olive oil. Eggplant provides fiber and antioxidants. Tomatoes offer lycopene and vitamin C.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tr-simit",
+    "slug": "simit",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Simit",
+    "image": "assets/img/recipes/simit.jpg",
+    "short_description": "Circular bread rings coated in sesame seeds and baked until golden. These iconic Turkish street breads are sold from carts throughout Istanbul and eaten for breakfast or as snacks.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 25,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "bread flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "instant yeast",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "grape molasses (pekmez)",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "water",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mix flour, yeast, sugar, and salt.",
+      "Add water and knead until smooth and elastic, about 10 minutes.",
+      "Let dough rise until doubled, about 1 hour.",
+      "Divide into 8 pieces and roll each into a long rope.",
+      "Twist rope into a circular ring, joining ends firmly.",
+      "Mix grape molasses with equal parts water.",
+      "Dip each ring in molasses mixture, then coat generously with sesame seeds.",
+      "Let rest 20 minutes, then bake at 425°F for 20-25 minutes until deep golden."
+    ],
+    "cooking_tips": [
+      "The molasses helps the sesame seeds stick and adds flavor.",
+      "Authentic simit has a chewy crust and soft interior.",
+      "Best eaten the day they're made - ideally still warm."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "bread",
+      "sesame",
+      "breakfast",
+      "street-food",
+      "vegan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 8,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Simit provides complex carbohydrates for sustained energy. Sesame seeds add calcium, iron, and healthy fats. The bread is a good source of fiber.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tr-borek",
+    "slug": "borek",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Su Boregi",
+    "image": "assets/img/recipes/borek.jpg",
+    "short_description": "Layers of handmade yufka pastry filled with cheese or meat, creating a tender and flaky layered pie. This beloved Turkish pastry is a staple at breakfast tables and special occasions.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "yufka or phyllo sheets",
+        "amount": 10,
+        "unit": "pc"
+      },
+      {
+        "name": "feta cheese",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "milk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "butter (melted)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Crumble feta cheese and mix with 1 egg and chopped parsley.",
+      "Whisk remaining eggs with milk and a little salt for the soaking mixture.",
+      "Boil yufka sheets briefly if using traditional method, or use them fresh.",
+      "Layer yufka in a buttered baking pan, brushing each with butter.",
+      "After 5 sheets, spread cheese filling evenly.",
+      "Continue layering remaining sheets with butter.",
+      "Pour egg-milk mixture evenly over the top.",
+      "Let sit 10 minutes to absorb, then bake at 375°F until golden."
+    ],
+    "cooking_tips": [
+      "The egg-milk soak creates the characteristic tender layers.",
+      "Let the borek rest before cutting for cleaner slices.",
+      "Serve warm for the best texture."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "pastry",
+      "cheese",
+      "breakfast",
+      "vegetarian",
+      "baked"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 10,
+      "fat_g": 18,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Borek provides calcium and protein from feta cheese. The eggs add complete protein and B vitamins. The dish offers a good balance of macronutrients.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-pilav",
+    "slug": "turkish-pilav",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Turkish Pilav",
+    "image": "assets/img/recipes/turkish-pilav.jpg",
+    "short_description": "Buttery rice cooked to fluffy perfection with thin vermicelli noodles. This seemingly simple side dish is a test of Turkish culinary skill and accompanies almost every main course.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "long grain rice",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "vermicelli noodles",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "chicken stock",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Rinse rice well and soak in warm salted water for 30 minutes, then drain.",
+      "Melt butter in a heavy pot over medium heat.",
+      "Break vermicelli into small pieces and fry in butter until golden.",
+      "Add drained rice and stir to coat in butter.",
+      "Add hot stock and salt, bring to a boil.",
+      "Reduce heat to very low, cover, and cook for 15-18 minutes.",
+      "Remove from heat and place a clean towel under the lid.",
+      "Let rest for 10 minutes before fluffing with a fork."
+    ],
+    "cooking_tips": [
+      "Soaking the rice helps achieve separate, fluffy grains.",
+      "The towel absorbs excess steam and prevents soggy rice.",
+      "The vermicelli should be golden, not burnt."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "turkish",
+      "rice",
+      "side-dish",
+      "vegetarian",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Turkish pilav provides complex carbohydrates for sustained energy. The butter adds fat-soluble vitamins. Rice is easily digestible and gentle on the stomach.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-cacik",
+    "slug": "cacik",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Cacik",
+    "image": "assets/img/recipes/cacik.jpg",
+    "short_description": "Cool and creamy yogurt dip with cucumber, garlic, and fresh mint. This refreshing Turkish mezze is perfect alongside grilled meats or as a cooling accompaniment to spicy dishes.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Greek yogurt",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "fresh mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried mint",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Grate cucumber and squeeze out excess water thoroughly.",
+      "Mince garlic cloves very finely.",
+      "Combine yogurt with cucumber, garlic, and salt.",
+      "Chop fresh mint and add to the mixture.",
+      "Stir well and adjust seasoning to taste.",
+      "Drizzle with olive oil and sprinkle with dried mint.",
+      "Refrigerate for at least 30 minutes before serving.",
+      "Serve cold as a dip or side dish."
+    ],
+    "cooking_tips": [
+      "Squeezing water from the cucumber is essential for proper consistency.",
+      "Can be thinned with water to make a cold soup for hot days.",
+      "Flavors improve after resting in the refrigerator."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "turkish",
+      "dip",
+      "yogurt",
+      "vegetarian",
+      "mezze",
+      "refreshing"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 8,
+      "fat_g": 7,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Cacik is rich in probiotics from yogurt supporting gut health. Cucumber adds hydration and vitamins. Garlic provides immune-boosting compounds.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-karniyarik",
+    "slug": "karniyarik",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Karniyarik",
+    "image": "assets/img/recipes/karniyarik.jpg",
+    "short_description": "Fried eggplants split open and stuffed with a savory mixture of ground meat, tomatoes, and peppers. Unlike imam bayildi, this version includes meat and is served hot as a main course.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "medium eggplants",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "green pepper",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Peel eggplants in stripes and fry in oil until golden and soft.",
+      "Drain on paper towels and make a deep slit lengthwise.",
+      "Saute onion until soft, add ground beef and cook until browned.",
+      "Add diced peppers, garlic, tomato paste, and half the tomatoes.",
+      "Season with salt and pepper, cook until sauce thickens.",
+      "Stuff eggplants with the meat mixture.",
+      "Arrange in a baking dish, top with remaining tomato slices.",
+      "Add a little water to the dish and bake at 375°F for 25 minutes."
+    ],
+    "cooking_tips": [
+      "The eggplants should be fully cooked before stuffing.",
+      "Don't overstuff - they should close loosely.",
+      "Serve with rice pilav for a complete meal."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "eggplant",
+      "beef",
+      "stuffed",
+      "dinner",
+      "main-course"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 30,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Karniyarik provides protein and iron from beef. Eggplant offers fiber and antioxidants. The dish is rich in vitamins from tomatoes and peppers.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "tr-kunefe",
+    "slug": "kunefe",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Kunefe",
+    "image": "assets/img/recipes/kunefe.jpg",
+    "short_description": "Crispy shredded pastry layered with melted cheese, soaked in sweet syrup and topped with pistachios. This irresistible dessert from Hatay is served sizzling hot from the pan.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "kadayif (shredded phyllo)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "unsalted cheese (dil peyniri)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter (melted)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "pistachios (crushed)",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make syrup by boiling sugar and water with lemon juice until slightly thick.",
+      "Let syrup cool completely.",
+      "Loosen kadayif strands and mix thoroughly with melted butter.",
+      "Press half the kadayif into a round pan.",
+      "Slice cheese thinly and spread over kadayif.",
+      "Top with remaining kadayif and press down firmly.",
+      "Cook on stovetop over medium heat, rotating pan for even cooking.",
+      "When bottom is golden and crispy, flip onto a plate and return to pan.",
+      "Cook second side until golden, pour cold syrup over, and top with pistachios."
+    ],
+    "cooking_tips": [
+      "Use unsalted, stretchy cheese for authentic results.",
+      "The syrup must be cold when poured on the hot kunefe.",
+      "Serve immediately while the cheese is still stretchy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "dessert",
+      "cheese",
+      "sweet",
+      "hatay",
+      "pastry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 12,
+      "fat_g": 28,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Kunefe provides calcium and protein from cheese. Pistachios add healthy fats and antioxidants. The dessert offers quick energy from carbohydrates.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-lokum",
+    "slug": "turkish-delight",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Turkish Delight (Lokum)",
+    "image": "assets/img/recipes/lokum.jpg",
+    "short_description": "Soft, chewy confections flavored with rose water and studded with pistachios. These iconic sweets have been made in Istanbul for centuries and remain beloved worldwide.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 36,
+    "ingredients": [
+      {
+        "name": "sugar",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "cornstarch",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "cream of tartar",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pistachios",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "red food coloring",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Dissolve sugar in 300ml water over medium heat with cream of tartar.",
+      "Boil to 240°F (soft ball stage).",
+      "In another pot, mix cornstarch with remaining water until smooth.",
+      "Cook cornstarch mixture, stirring constantly, until very thick.",
+      "Gradually add sugar syrup to cornstarch, stirring vigorously.",
+      "Continue cooking on low heat for 1 hour, stirring often.",
+      "Add rose water, food coloring, and pistachios near the end.",
+      "Pour into a greased pan and let set overnight.",
+      "Cut into cubes and dust generously with powdered sugar."
+    ],
+    "cooking_tips": [
+      "Patience is key - the long cooking time creates the right texture.",
+      "The mixture is ready when it pulls away from the pan cleanly.",
+      "Store between layers of powdered sugar to prevent sticking."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "dessert",
+      "candy",
+      "rose",
+      "pistachios",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 1,
+      "fat_g": 2,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Lokum is primarily a source of quick energy from sugar. Pistachios add a small amount of protein and healthy fats. Rose water has calming properties.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tr-yaprak-sarma",
+    "slug": "yaprak-sarma",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Yaprak Sarma",
+    "image": "assets/img/recipes/yaprak-sarma.jpg",
+    "short_description": "Delicate grape leaves wrapped around a fragrant rice filling with currants, pine nuts, and fresh herbs. This vegetarian version is served cold as part of the mezze spread.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 50,
+        "unit": "pc"
+      },
+      {
+        "name": "short-grain rice",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "currants",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh dill",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh mint",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Rinse grape leaves and blanch briefly if fresh.",
+      "Saute finely diced onions in olive oil until soft.",
+      "Add rice, pine nuts, currants, and spices; stir to coat.",
+      "Add chopped herbs and mix well.",
+      "Place a spoonful of filling on each leaf and roll tightly.",
+      "Line pot bottom with extra leaves and arrange rolls seam-side down.",
+      "Add water to barely cover, lemon juice, and remaining olive oil.",
+      "Place a plate on top to keep rolls submerged.",
+      "Simmer on low for 45 minutes until rice is cooked.",
+      "Let cool in the pot, then serve at room temperature."
+    ],
+    "cooking_tips": [
+      "Roll tightly but not too tight - rice needs room to expand.",
+      "The cold version is called zeytinyagli sarma (with olive oil).",
+      "These keep well refrigerated for several days."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "turkish",
+      "appetizer",
+      "vegan",
+      "grape-leaves",
+      "rice",
+      "mezze"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 10,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Yaprak sarma provides heart-healthy fats from olive oil. Grape leaves are rich in vitamins A and K. Pine nuts add protein and minerals.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
   }
 ]
