@@ -194,5 +194,276 @@
     "nutrition_benefits": "Salmon is one of the best sources of omega-3 fatty acids, which support heart health, brain function, and reduce inflammation. It provides high-quality complete protein and is rich in B vitamins, particularly B12 for energy metabolism. The fish also offers selenium and vitamin D, often lacking in modern diets.",
     "mealType": "Dinner",
     "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "jp-tonkatsu",
+    "slug": "tonkatsu",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Tonkatsu",
+    "image": "assets/img/recipes/tonkatsu.jpg",
+    "short_description": "Golden, crispy breaded pork cutlet with a tender, juicy interior. This beloved Japanese comfort food is served with shredded cabbage and tangy tonkatsu sauce, making it the perfect satisfying meal.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork loin cutlets",
+        "amount": 4,
+        "unit": "pc (150g each)"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "panko breadcrumbs",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "cabbage",
+        "amount": 0.25,
+        "unit": "head"
+      },
+      {
+        "name": "tonkatsu sauce",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Tenderize pork cutlets by scoring the fat and connective tissue around the edges.",
+      "Season both sides with salt and pepper.",
+      "Set up breading station: flour, beaten eggs, and panko in separate dishes.",
+      "Coat each cutlet in flour, shaking off excess.",
+      "Dip in beaten egg, then press firmly into panko breadcrumbs.",
+      "Heat oil to 340°F (170°C) in a deep pan.",
+      "Fry cutlets for 4-5 minutes until golden brown.",
+      "Flip and fry another 3-4 minutes until cooked through.",
+      "Rest on a wire rack for 2 minutes to stay crispy.",
+      "Slice into strips and serve with shredded cabbage and tonkatsu sauce."
+    ],
+    "cooking_tips": [
+      "Pressing panko firmly onto the meat creates an extra crispy coating.",
+      "Let the oil temperature recover between batches.",
+      "The resting time is crucial for maintaining crispiness."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "pork",
+      "fried",
+      "comfort-food",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Tonkatsu provides high-quality protein from pork. The cabbage side provides fiber and vitamin C. Pork is rich in B vitamins, especially thiamine.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "jp-gyoza",
+    "slug": "gyoza",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Gyoza",
+    "image": "assets/img/recipes/gyoza.jpg",
+    "short_description": "Pan-fried Japanese dumplings with a crispy golden bottom and juicy pork and cabbage filling. These addictive little parcels are served with a tangy dipping sauce of soy sauce, vinegar, and chili oil.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "napa cabbage",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "green onions",
+        "amount": 3,
+        "unit": "stalks"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sesame oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "gyoza wrappers",
+        "amount": 40,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rice vinegar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chili oil",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Finely chop cabbage, salt it, and squeeze out excess water.",
+      "Mix pork with cabbage, minced garlic, grated ginger, chopped green onions, soy sauce, and sesame oil.",
+      "Place a teaspoon of filling in the center of each wrapper.",
+      "Wet the edges and fold in half, creating pleats on one side.",
+      "Heat oil in a non-stick pan over medium-high heat.",
+      "Arrange gyoza in the pan with flat sides down.",
+      "Fry for 2 minutes until bottoms are golden.",
+      "Add 1/4 cup water and cover immediately.",
+      "Steam for 5-6 minutes until water evaporates.",
+      "Remove lid and fry until bottoms are crispy again.",
+      "Make dipping sauce by mixing soy sauce, rice vinegar, and chili oil.",
+      "Serve hot with dipping sauce."
+    ],
+    "cooking_tips": [
+      "Squeezing water from cabbage prevents soggy gyoza.",
+      "The steam-fry method creates the signature crispy bottom.",
+      "Gyoza can be frozen before cooking for later use."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "dumplings",
+      "pork",
+      "appetizer",
+      "pan-fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 20,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Gyoza provides protein from pork and fiber from cabbage. Ginger and garlic offer anti-inflammatory properties. The dish is a balanced combination of protein, carbs, and vegetables.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "jp-miso-soup",
+    "slug": "miso-soup",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Miso Soup",
+    "image": "assets/img/recipes/miso-soup.jpg",
+    "short_description": "A light and nourishing Japanese soup made with fermented soybean paste, silken tofu, and wakame seaweed. This essential component of Japanese cuisine is served with nearly every meal.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "dashi stock",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "white miso paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "silken tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "dried wakame seaweed",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "green onions",
+        "amount": 2,
+        "unit": "stalks"
+      }
+    ],
+    "steps": [
+      "Soak dried wakame in cold water for 5 minutes until rehydrated, then drain.",
+      "Cut silken tofu into small cubes.",
+      "Bring dashi stock to a gentle simmer in a pot.",
+      "Add tofu cubes and wakame to the broth.",
+      "Place miso paste in a small bowl and whisk with some hot broth to dissolve.",
+      "Remove pot from heat and stir in the dissolved miso.",
+      "Never boil the soup after adding miso to preserve the live cultures.",
+      "Ladle into bowls and garnish with sliced green onions.",
+      "Serve immediately as a side dish or breakfast item."
+    ],
+    "cooking_tips": [
+      "Never boil miso soup after adding the miso - it destroys the beneficial probiotics.",
+      "Instant dashi granules can be used if homemade dashi is not available.",
+      "Adjust miso amount to taste - some prefer it stronger or milder."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "soup",
+      "vegetarian",
+      "healthy",
+      "quick",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 6,
+      "fat_g": 3,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Miso soup is rich in probiotics from fermented miso, supporting gut health. Tofu provides plant protein and calcium. Wakame seaweed adds iodine and minerals essential for thyroid function.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
   }
 ]

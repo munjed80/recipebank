@@ -215,5 +215,326 @@
     "nutrition_benefits": "Vegetable biryani provides a complete meal with complex carbohydrates from basmati rice for sustained energy. The variety of vegetables offers fiber, vitamins, and minerals. Saffron has antioxidant properties, while the aromatic spices like cardamom and cloves aid digestion and have antimicrobial properties.",
     "mealType": "Dinner",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-palak-paneer",
+    "slug": "palak-paneer",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Palak Paneer",
+    "image": "assets/img/recipes/palak-paneer.jpg",
+    "short_description": "Creamy spinach curry with cubes of fresh paneer cheese, a beloved vegetarian dish from Punjab. The vibrant green sauce is subtly spiced and pairs perfectly with warm naan or rice.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh spinach",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "paneer cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "green chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garam masala",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ghee or butter",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Blanch spinach in boiling water for 2 minutes, then transfer to ice water.",
+      "Blend blanched spinach with green chilies into a smooth puree.",
+      "Cut paneer into cubes and lightly fry until golden on all sides, set aside.",
+      "Heat ghee in a pan and add cumin seeds until they splutter.",
+      "Add diced onion and saute until soft and lightly golden.",
+      "Add minced garlic and grated ginger, cook for 2 minutes.",
+      "Pour in the spinach puree and cook for 8-10 minutes.",
+      "Add salt, garam masala, and cream, stir well.",
+      "Gently fold in the fried paneer cubes.",
+      "Simmer for 5 minutes and serve hot with naan or rice."
+    ],
+    "cooking_tips": [
+      "Blanching and immediately cooling spinach preserves its bright green color.",
+      "Don't overcook the spinach puree or it will turn brown.",
+      "Frying paneer first prevents it from crumbling in the curry."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indian",
+      "vegetarian",
+      "curry",
+      "paneer",
+      "spinach",
+      "dinner",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 28,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Palak paneer is rich in iron and calcium from spinach and paneer. Spinach provides vitamins A, C, and K. The dish is an excellent source of vegetarian protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-samosa",
+    "slug": "samosa",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Samosa",
+    "image": "assets/img/recipes/samosa.jpg",
+    "short_description": "Crispy golden pastries stuffed with spiced potatoes and peas, the most iconic Indian street food. These triangular treats are perfect as an appetizer or snack, served with tangy chutneys.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "green peas",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garam masala",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "amchur (dried mango powder)",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "green chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "ghee",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make dough with flour, ghee, salt, and water; knead until smooth and rest for 30 minutes.",
+      "Boil potatoes until tender, peel and roughly mash them.",
+      "Heat oil in a pan, add cumin seeds until they splutter.",
+      "Add minced ginger, green chilies, and peas; cook for 3 minutes.",
+      "Add mashed potatoes, coriander, garam masala, amchur, and salt; mix well.",
+      "Divide dough into balls, roll into ovals, and cut in half.",
+      "Form cones from each half, fill with potato mixture, and seal edges with water.",
+      "Heat oil to 325°F (165°C) for deep frying.",
+      "Fry samosas on medium-low heat until golden and crispy, about 8-10 minutes.",
+      "Drain on paper towels and serve hot with mint chutney and tamarind chutney."
+    ],
+    "cooking_tips": [
+      "Low and slow frying ensures crispy layers throughout.",
+      "The dough should be stiff, not soft, for the best texture.",
+      "Seal edges well to prevent them from opening during frying."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indian",
+      "appetizer",
+      "street-food",
+      "vegetarian",
+      "vegan",
+      "fried",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 12,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Samosas provide carbohydrates for energy from potatoes and flour. Peas add plant protein and fiber. The spices like cumin aid digestion.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "in-dal-tadka",
+    "slug": "dal-tadka",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Dal Tadka",
+    "image": "assets/img/recipes/dal-tadka.jpg",
+    "short_description": "Comforting yellow lentils tempered with aromatic spices, garlic, and dried chilies. This everyday Indian staple is the soul of home cooking, served in every household across the subcontinent.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "yellow lentils (toor dal)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "turmeric powder",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried red chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "ghee",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "asafoetida (hing)",
+        "amount": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Wash lentils thoroughly and soak for 15 minutes.",
+      "Cook lentils with turmeric and salt in a pressure cooker or pot until soft.",
+      "Mash the cooked lentils lightly with a whisk for creamy consistency.",
+      "Add chopped tomatoes to the dal and simmer for 5 minutes.",
+      "For the tadka: heat ghee in a small pan until very hot.",
+      "Add cumin seeds and let them splutter.",
+      "Add sliced garlic and fry until golden.",
+      "Add dried red chilies and asafoetida, stir for 10 seconds.",
+      "Pour the hot tadka over the dal - it should sizzle.",
+      "Garnish with fresh cilantro and a squeeze of lemon juice.",
+      "Serve hot with steamed rice or roti."
+    ],
+    "cooking_tips": [
+      "The tadka oil must be very hot for the spices to release their aroma.",
+      "Adding asafoetida helps reduce the gassy effects of lentils.",
+      "Adjust consistency by adding water - some prefer thick, others soupy."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indian",
+      "lentils",
+      "vegetarian",
+      "vegan",
+      "healthy",
+      "comfort-food",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 10,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Dal is an excellent source of plant protein and fiber. Lentils provide iron, folate, and B vitamins. The dish is naturally low in fat and very heart-healthy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
   }
 ]
