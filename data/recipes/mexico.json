@@ -512,5 +512,62 @@
     "nutrition_benefits": "Chiles rellenos provide protein and calcium from cheese. Poblano peppers are rich in vitamins A and C. Eggs add complete protein and B vitamins.",
     "mealType": "Dinner",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "mx-tamales",
+    "slug": "tamales",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Tamales",
+    "image": "assets/img/recipes/tamales.jpg",
+    "short_description": "Traditional Mexican corn masa parcels filled with savory pork in red chile sauce, wrapped in corn husks and steamed to perfection. This ancient dish has been a festive staple since pre-Hispanic times.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 90,
+    "servings": 24,
+    "ingredients": [
+      {"name": "masa harina", "amount": 500, "unit": "g"},
+      {"name": "lard or vegetable shortening", "amount": 250, "unit": "g"},
+      {"name": "chicken or pork broth", "amount": 400, "unit": "ml"},
+      {"name": "baking powder", "amount": 1, "unit": "tbsp"},
+      {"name": "pork shoulder", "amount": 800, "unit": "g"},
+      {"name": "dried guajillo chilies", "amount": 8, "unit": "pc"},
+      {"name": "dried ancho chilies", "amount": 4, "unit": "pc"},
+      {"name": "garlic cloves", "amount": 4, "unit": "pc"},
+      {"name": "cumin", "amount": 1, "unit": "tsp"},
+      {"name": "dried corn husks", "amount": 30, "unit": "pc"},
+      {"name": "salt", "amount": 1, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Soak corn husks in warm water for at least 2 hours until pliable.",
+      "Simmer pork shoulder in salted water until very tender, about 2 hours. Shred and reserve broth.",
+      "Toast and soak dried chilies; blend with garlic, cumin, salt, and some broth.",
+      "Strain chile sauce and simmer with shredded pork for 20 minutes.",
+      "Beat lard with an electric mixer until fluffy, about 5 minutes.",
+      "Gradually add masa harina, baking powder, salt, and warm broth while mixing.",
+      "Beat until a small ball of dough floats in water - this ensures proper texture.",
+      "Spread 2 tablespoons of masa on each softened corn husk.",
+      "Add a spoonful of pork filling down the center.",
+      "Fold the sides over the filling, then fold the bottom up.",
+      "Tie with thin strips of corn husk if desired.",
+      "Steam tamales standing up in a steamer for 60-90 minutes.",
+      "Tamales are done when the masa pulls away cleanly from the husk.",
+      "Rest for 10 minutes before serving."
+    ],
+    "cooking_tips": [
+      "Whipping the lard until very fluffy is the key to light tamales.",
+      "The float test ensures the masa has enough fat for proper texture.",
+      "Making tamales is traditionally a family affair - get help with assembly!"
+    ],
+    "difficulty": "hard",
+    "tags": ["mexican", "pork", "traditional", "festive", "steamed", "dinner", "gluten-free"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 16,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Tamales provide protein from pork and complex carbohydrates from masa. The corn masa is naturally gluten-free. Dried chilies add vitamins A and C plus antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   }
 ]

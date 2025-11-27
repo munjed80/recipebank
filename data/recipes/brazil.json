@@ -266,5 +266,56 @@
     "nutrition_benefits": "Gluten-free, protein from cheese.",
     "mealType": "Appetizer",
     "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "br-moqueca",
+    "slug": "moqueca",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Moqueca",
+    "image": "assets/img/recipes/moqueca.jpg",
+    "short_description": "A vibrant Brazilian fish stew from Bahia, featuring fresh fish, shrimp, coconut milk, dendê (palm oil), and colorful bell peppers. This aromatic dish showcases the African influences in Brazilian cuisine.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {"name": "white fish fillets", "amount": 800, "unit": "g"},
+      {"name": "shrimp", "amount": 300, "unit": "g"},
+      {"name": "coconut milk", "amount": 400, "unit": "ml"},
+      {"name": "dendê oil", "amount": 3, "unit": "tbsp"},
+      {"name": "onion", "amount": 2, "unit": "large"},
+      {"name": "bell peppers", "amount": 2, "unit": "pc"},
+      {"name": "tomatoes", "amount": 3, "unit": "medium"},
+      {"name": "garlic", "amount": 4, "unit": "cloves"},
+      {"name": "lime juice", "amount": 3, "unit": "tbsp"},
+      {"name": "fresh cilantro", "amount": 0.5, "unit": "cup"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Marinate fish and shrimp in lime juice, garlic, and salt for 30 minutes.",
+      "Layer sliced onions, bell peppers, and tomatoes in a clay pot or heavy pan.",
+      "Place marinated seafood on top of the vegetables.",
+      "Pour coconut milk over everything.",
+      "Drizzle dendê oil on top for color and flavor.",
+      "Cover and simmer on low heat for 25-30 minutes until fish is cooked.",
+      "Garnish generously with fresh cilantro.",
+      "Serve hot with white rice and farofa."
+    ],
+    "cooking_tips": [
+      "Use a traditional clay pot (panela de barro) for authentic flavor.",
+      "Don't stir too much - let the layers cook together gently.",
+      "Dendê oil is essential for authentic Bahian flavor and color."
+    ],
+    "difficulty": "medium",
+    "tags": ["brazilian", "seafood", "fish", "stew", "bahian", "dinner", "gluten-free"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Moqueca is rich in omega-3 fatty acids from fish and healthy fats from coconut milk. Dendê oil provides vitamin A and antioxidants. The combination of seafood and vegetables makes it a nutritionally complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   }
 ]

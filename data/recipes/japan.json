@@ -465,5 +465,63 @@
     "nutrition_benefits": "Miso soup is rich in probiotics from fermented miso, supporting gut health. Tofu provides plant protein and calcium. Wakame seaweed adds iodine and minerals essential for thyroid function.",
     "mealType": "Breakfast",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "jp-okonomiyaki",
+    "slug": "okonomiyaki",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Okonomiyaki",
+    "image": "assets/img/recipes/okonomiyaki.jpg",
+    "short_description": "A savory Japanese pancake loaded with cabbage, meat or seafood, and topped with sweet-savory sauce, mayonnaise, and bonito flakes. This Osaka street food favorite means 'grilled as you like it.'",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {"name": "all-purpose flour", "amount": 150, "unit": "g"},
+      {"name": "dashi stock", "amount": 150, "unit": "ml"},
+      {"name": "eggs", "amount": 4, "unit": "pc"},
+      {"name": "cabbage", "amount": 400, "unit": "g"},
+      {"name": "pork belly slices", "amount": 200, "unit": "g"},
+      {"name": "green onions", "amount": 4, "unit": "stalks"},
+      {"name": "tenkasu (tempura scraps)", "amount": 50, "unit": "g"},
+      {"name": "okonomiyaki sauce", "amount": 100, "unit": "ml"},
+      {"name": "Japanese mayonnaise", "amount": 60, "unit": "ml"},
+      {"name": "bonito flakes", "amount": 10, "unit": "g"},
+      {"name": "aonori (seaweed flakes)", "amount": 2, "unit": "tbsp"},
+      {"name": "vegetable oil", "amount": 3, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Shred cabbage finely and chop green onions.",
+      "Mix flour with dashi stock until smooth.",
+      "Add eggs and whisk until combined.",
+      "Fold in cabbage, green onions, and tenkasu.",
+      "Heat oil in a flat pan or griddle over medium heat.",
+      "Pour batter to form a thick round pancake about 1 inch thick.",
+      "Lay pork belly slices on top of the pancake.",
+      "Cook for 5-6 minutes until the bottom is golden.",
+      "Flip carefully and cook for another 5-6 minutes.",
+      "Flip again to crisp the pork side.",
+      "Top with okonomiyaki sauce in zigzag pattern.",
+      "Add mayonnaise in a crisscross pattern.",
+      "Sprinkle with bonito flakes and aonori seaweed.",
+      "Serve hot and watch the bonito flakes dance from the heat."
+    ],
+    "cooking_tips": [
+      "Don't press down on the pancake - it should stay fluffy.",
+      "The dancing bonito flakes are part of the presentation.",
+      "Add any toppings you like - shrimp, squid, or cheese are popular."
+    ],
+    "difficulty": "medium",
+    "tags": ["japanese", "street-food", "savory-pancake", "osaka", "dinner", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 18,
+      "fat_g": 24,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Okonomiyaki provides a good amount of protein from eggs and pork. Cabbage is rich in vitamin C and fiber. The dish offers a balanced combination of macronutrients in one satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
   }
 ]

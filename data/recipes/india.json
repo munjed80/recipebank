@@ -536,5 +536,59 @@
     "nutrition_benefits": "Dal is an excellent source of plant protein and fiber. Lentils provide iron, folate, and B vitamins. The dish is naturally low in fat and very heart-healthy.",
     "mealType": "Dinner",
     "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "in-masala-dosa",
+    "slug": "masala-dosa",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Masala Dosa",
+    "image": "assets/img/recipes/masala-dosa.jpg",
+    "short_description": "A crispy, golden fermented rice and lentil crepe from South India, filled with spiced potato masala. This iconic breakfast dish is served with coconut chutney and sambar for a complete meal.",
+    "prep_time_minutes": 480,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {"name": "rice", "amount": 300, "unit": "g"},
+      {"name": "urad dal (black gram)", "amount": 100, "unit": "g"},
+      {"name": "fenugreek seeds", "amount": 1, "unit": "tsp"},
+      {"name": "potatoes", "amount": 500, "unit": "g"},
+      {"name": "onions", "amount": 2, "unit": "medium"},
+      {"name": "mustard seeds", "amount": 1, "unit": "tsp"},
+      {"name": "curry leaves", "amount": 10, "unit": "leaves"},
+      {"name": "green chilies", "amount": 2, "unit": "pc"},
+      {"name": "turmeric powder", "amount": 0.5, "unit": "tsp"},
+      {"name": "oil", "amount": 4, "unit": "tbsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Soak rice and urad dal separately with fenugreek seeds for 6 hours.",
+      "Grind rice and dal separately into smooth batters, then combine.",
+      "Add salt and let the batter ferment overnight in a warm place.",
+      "For filling: boil and roughly mash potatoes.",
+      "Heat oil, add mustard seeds, curry leaves, and green chilies.",
+      "Add sliced onions and cook until translucent.",
+      "Add turmeric and mashed potatoes, mix well and season with salt.",
+      "Heat a cast iron griddle, spread a ladleful of batter into a thin circle.",
+      "Drizzle oil around edges and cook until golden and crispy.",
+      "Place potato filling in the center and fold the dosa.",
+      "Serve immediately with coconut chutney and sambar."
+    ],
+    "cooking_tips": [
+      "Fermentation is key - the batter should double in size and smell slightly sour.",
+      "A well-seasoned cast iron pan gives the best results.",
+      "Spread the batter quickly in one circular motion for thin, crispy dosas."
+    ],
+    "difficulty": "hard",
+    "tags": ["indian", "south-indian", "breakfast", "fermented", "vegan", "crispy", "gluten-free"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Dosa is naturally gluten-free and the fermentation process increases the bioavailability of nutrients. The combination of rice and lentils provides complete protein. It's light yet satisfying and easily digestible.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
   }
 ]
