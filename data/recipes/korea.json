@@ -273,5 +273,58 @@
     "nutrition_benefits": "High protein from chicken.",
     "mealType": "Dinner",
     "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "kr-dakdoritang",
+    "slug": "dakdoritang",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Dakdoritang",
+    "image": "assets/img/recipes/dakdoritang.jpg",
+    "short_description": "A hearty Korean spicy chicken stew with potatoes and vegetables in a fiery gochugaru-based broth. This comforting one-pot dish is a Korean home cooking favorite.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {"name": "chicken pieces", "amount": 1, "unit": "kg"},
+      {"name": "potatoes", "amount": 3, "unit": "medium"},
+      {"name": "carrots", "amount": 2, "unit": "medium"},
+      {"name": "onion", "amount": 1, "unit": "large"},
+      {"name": "gochugaru (Korean chili flakes)", "amount": 3, "unit": "tbsp"},
+      {"name": "soy sauce", "amount": 4, "unit": "tbsp"},
+      {"name": "gochujang", "amount": 2, "unit": "tbsp"},
+      {"name": "garlic cloves", "amount": 5, "unit": "pc"},
+      {"name": "ginger", "amount": 1, "unit": "tbsp"},
+      {"name": "green onions", "amount": 3, "unit": "stalks"},
+      {"name": "sesame oil", "amount": 1, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Cut chicken into pieces, leaving bone in for flavor.",
+      "Cube potatoes and carrots, slice onion.",
+      "Mix gochugaru, gochujang, soy sauce, minced garlic, and ginger for the sauce.",
+      "Add chicken to a pot with the sauce mixture, toss to coat.",
+      "Add 2 cups water and bring to a boil.",
+      "Add potatoes, carrots, and onion.",
+      "Reduce heat and simmer for 30-35 minutes until chicken is cooked.",
+      "The potatoes will help thicken the stew.",
+      "Drizzle with sesame oil and garnish with sliced green onions.",
+      "Serve hot with steamed rice."
+    ],
+    "cooking_tips": [
+      "Bone-in chicken gives the best flavor.",
+      "Adjust gochugaru to your spice preference.",
+      "The starchy potatoes naturally thicken the broth."
+    ],
+    "difficulty": "easy",
+    "tags": ["korean", "chicken", "spicy", "stew", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 36,
+      "fat_g": 18,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "High protein from chicken. Gochugaru contains capsaicin which may boost metabolism. Potatoes provide potassium and fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   }
 ]

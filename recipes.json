@@ -2401,6 +2401,58 @@
     "dietaryStyle": "Vegetarian"
   },
   {
+    "id": "eg-fattah",
+    "slug": "chicken-fattah",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Chicken Fattah",
+    "image": "assets/img/recipes/chicken-fattah.jpg",
+    "short_description": "A grand Egyptian festive dish featuring layers of crispy pita bread, spiced rice, tender chicken, and a garlicky vinegar sauce. Traditionally served during Eid celebrations.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {"name": "whole chicken", "amount": 1.5, "unit": "kg"},
+      {"name": "basmati rice", "amount": 400, "unit": "g"},
+      {"name": "pita bread", "amount": 4, "unit": "pc"},
+      {"name": "garlic cloves", "amount": 8, "unit": "pc"},
+      {"name": "white vinegar", "amount": 4, "unit": "tbsp"},
+      {"name": "butter", "amount": 60, "unit": "g"},
+      {"name": "cumin", "amount": 2, "unit": "tsp"},
+      {"name": "cardamom pods", "amount": 4, "unit": "pc"},
+      {"name": "bay leaves", "amount": 2, "unit": "pc"},
+      {"name": "salt", "amount": 2, "unit": "tsp"}
+    ],
+    "steps": [
+      "Boil chicken with cardamom, bay leaves, and salt until tender, about 45 minutes.",
+      "Remove chicken and shred the meat, reserve the broth.",
+      "Cook rice in the chicken broth with butter.",
+      "Toast or fry pita bread until crispy, then break into pieces.",
+      "Make the sauce: sauté crushed garlic until golden, add vinegar and some broth.",
+      "Layer in a deep dish: crispy bread on bottom, soaked with broth.",
+      "Add rice layer, then the shredded chicken on top.",
+      "Pour garlic-vinegar sauce over everything.",
+      "Sprinkle with toasted pine nuts if desired.",
+      "Serve immediately while warm."
+    ],
+    "cooking_tips": [
+      "The bread should absorb the broth but stay slightly crispy on edges.",
+      "Use good quality vinegar for the sauce - it's key to the flavor.",
+      "This dish is traditionally served family-style on a large platter."
+    ],
+    "difficulty": "medium",
+    "tags": ["egyptian", "chicken", "festive", "rice", "dinner", "eid"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "High in protein from chicken. Garlic has immune-boosting properties. A complete and satisfying celebratory meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
     "id": "et-doro-wat",
     "slug": "doro-wat",
     "country": "Ethiopia",
@@ -7378,6 +7430,59 @@
     "dietaryStyle": "Dairy Free"
   },
   {
+    "id": "kr-dakdoritang",
+    "slug": "dakdoritang",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Dakdoritang",
+    "image": "assets/img/recipes/dakdoritang.jpg",
+    "short_description": "A hearty Korean spicy chicken stew with potatoes and vegetables in a fiery gochugaru-based broth. This comforting one-pot dish is a Korean home cooking favorite.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {"name": "chicken pieces", "amount": 1, "unit": "kg"},
+      {"name": "potatoes", "amount": 3, "unit": "medium"},
+      {"name": "carrots", "amount": 2, "unit": "medium"},
+      {"name": "onion", "amount": 1, "unit": "large"},
+      {"name": "gochugaru (Korean chili flakes)", "amount": 3, "unit": "tbsp"},
+      {"name": "soy sauce", "amount": 4, "unit": "tbsp"},
+      {"name": "gochujang", "amount": 2, "unit": "tbsp"},
+      {"name": "garlic cloves", "amount": 5, "unit": "pc"},
+      {"name": "ginger", "amount": 1, "unit": "tbsp"},
+      {"name": "green onions", "amount": 3, "unit": "stalks"},
+      {"name": "sesame oil", "amount": 1, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Cut chicken into pieces, leaving bone in for flavor.",
+      "Cube potatoes and carrots, slice onion.",
+      "Mix gochugaru, gochujang, soy sauce, minced garlic, and ginger for the sauce.",
+      "Add chicken to a pot with the sauce mixture, toss to coat.",
+      "Add 2 cups water and bring to a boil.",
+      "Add potatoes, carrots, and onion.",
+      "Reduce heat and simmer for 30-35 minutes until chicken is cooked.",
+      "The potatoes will help thicken the stew.",
+      "Drizzle with sesame oil and garnish with sliced green onions.",
+      "Serve hot with steamed rice."
+    ],
+    "cooking_tips": [
+      "Bone-in chicken gives the best flavor.",
+      "Adjust gochugaru to your spice preference.",
+      "The starchy potatoes naturally thicken the broth."
+    ],
+    "difficulty": "easy",
+    "tags": ["korean", "chicken", "spicy", "stew", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 36,
+      "fat_g": 18,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "High protein from chicken. Gochugaru contains capsaicin which may boost metabolism. Potatoes provide potassium and fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
     "id": "lb-shawarma",
     "slug": "beef-shawarma",
     "country": "Lebanon",
@@ -10475,6 +10580,60 @@
     "dietaryStyle": "Vegetarian"
   },
   {
+    "id": "ru-chicken-kiev",
+    "slug": "chicken-kiev",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Chicken Kiev",
+    "image": "assets/img/recipes/chicken-kiev.jpg",
+    "short_description": "A legendary Russian dish of breaded chicken breast stuffed with herb butter that flows out when cut. This elegant classic has become an international favorite.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {"name": "chicken breasts", "amount": 4, "unit": "large"},
+      {"name": "butter", "amount": 150, "unit": "g"},
+      {"name": "fresh dill", "amount": 3, "unit": "tbsp"},
+      {"name": "fresh parsley", "amount": 2, "unit": "tbsp"},
+      {"name": "garlic cloves", "amount": 3, "unit": "pc"},
+      {"name": "eggs", "amount": 2, "unit": "pc"},
+      {"name": "breadcrumbs", "amount": 200, "unit": "g"},
+      {"name": "flour", "amount": 100, "unit": "g"},
+      {"name": "vegetable oil", "amount": 500, "unit": "ml"},
+      {"name": "lemon zest", "amount": 1, "unit": "tsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Mix soft butter with minced garlic, dill, parsley, lemon zest, salt, and pepper.",
+      "Shape herb butter into 4 logs and freeze until firm.",
+      "Butterfly each chicken breast and pound thin between plastic wrap.",
+      "Place a frozen butter log on each chicken piece.",
+      "Roll tightly, tucking in edges to seal completely.",
+      "Refrigerate rolled chicken for 30 minutes.",
+      "Set up breading: flour, beaten eggs, breadcrumbs.",
+      "Coat each roll in flour, egg, breadcrumbs, then egg and breadcrumbs again.",
+      "Deep fry at 160°C (320°F) for 12-15 minutes until golden.",
+      "Rest 3 minutes before serving.",
+      "Serve with mashed potatoes - warn diners about the hot butter!"
+    ],
+    "cooking_tips": [
+      "Freezing the butter is essential - it prevents leaking during cooking.",
+      "Double breading creates a crispier, more secure seal.",
+      "Don't pierce the chicken when checking doneness - use a thermometer from the side."
+    ],
+    "difficulty": "hard",
+    "tags": ["russian", "chicken", "fried", "elegant", "dinner", "butter"],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 42,
+      "fat_g": 38,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "High in protein from chicken. The herbs provide antioxidants. An indulgent dish best enjoyed occasionally.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
     "id": "sa-kabsa",
     "slug": "kabsa",
     "country": "Saudi Arabia",
@@ -11421,6 +11580,60 @@
     "dietaryStyle": "Vegetarian"
   },
   {
+    "id": "se-chicken-fricassee",
+    "slug": "swedish-chicken-fricassee",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Swedish Chicken Fricassee",
+    "image": "assets/img/recipes/swedish-chicken-fricassee.jpg",
+    "short_description": "A comforting Swedish cream-based chicken stew with tender vegetables. Known as Hönsköttssoppa, this gentle, nourishing dish is a beloved home-style classic in Sweden.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {"name": "chicken thighs", "amount": 800, "unit": "g"},
+      {"name": "carrots", "amount": 3, "unit": "medium"},
+      {"name": "leeks", "amount": 2, "unit": "medium"},
+      {"name": "celery stalks", "amount": 2, "unit": "pc"},
+      {"name": "chicken broth", "amount": 800, "unit": "ml"},
+      {"name": "heavy cream", "amount": 200, "unit": "ml"},
+      {"name": "butter", "amount": 50, "unit": "g"},
+      {"name": "flour", "amount": 3, "unit": "tbsp"},
+      {"name": "fresh dill", "amount": 0.25, "unit": "cup"},
+      {"name": "white pepper", "amount": 0.5, "unit": "tsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Cut chicken thighs into bite-sized pieces.",
+      "Dice carrots, slice leeks, and chop celery.",
+      "Melt butter in a large pot over medium heat.",
+      "Add flour and stir to make a roux, cook 2 minutes.",
+      "Gradually whisk in chicken broth until smooth.",
+      "Add chicken pieces and vegetables to the pot.",
+      "Simmer covered for 30-35 minutes until chicken is cooked.",
+      "Stir in heavy cream and heat through.",
+      "Season with salt and white pepper.",
+      "Garnish generously with fresh dill.",
+      "Serve with rice or boiled potatoes."
+    ],
+    "cooking_tips": [
+      "White pepper is traditional - it adds warmth without black specks.",
+      "Don't skimp on the dill - it's essential to the Swedish flavor.",
+      "This tastes even better the next day."
+    ],
+    "difficulty": "easy",
+    "tags": ["scandinavian", "swedish", "chicken", "creamy", "stew", "dinner", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 26,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "High in protein from chicken. Leeks and carrots provide vitamins and fiber. A warming, nourishing meal for cold days.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
     "id": "es-paella",
     "slug": "paella-valenciana",
     "country": "Spain",
@@ -11692,6 +11905,57 @@
     "nutrition_benefits": "Antioxidants from dark chocolate.",
     "mealType": "Breakfast",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "es-pollo-ajillo",
+    "slug": "pollo-al-ajillo",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Pollo al Ajillo",
+    "image": "assets/img/recipes/pollo-al-ajillo.jpg",
+    "short_description": "Classic Spanish garlic chicken with crispy skin and a fragrant sauce of olive oil, garlic, and white wine. A beloved tapas dish that's simple yet incredibly flavorful.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {"name": "chicken pieces", "amount": 1, "unit": "kg"},
+      {"name": "garlic cloves", "amount": 12, "unit": "pc"},
+      {"name": "olive oil", "amount": 100, "unit": "ml"},
+      {"name": "dry white wine", "amount": 150, "unit": "ml"},
+      {"name": "bay leaves", "amount": 2, "unit": "pc"},
+      {"name": "fresh parsley", "amount": 3, "unit": "tbsp"},
+      {"name": "dried chili flakes", "amount": 0.5, "unit": "tsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"},
+      {"name": "black pepper", "amount": 0.5, "unit": "tsp"}
+    ],
+    "steps": [
+      "Season chicken pieces generously with salt and pepper.",
+      "Heat olive oil in a large skillet over medium-high heat.",
+      "Brown chicken on all sides until golden, about 10 minutes. Remove.",
+      "Reduce heat, add whole peeled garlic cloves and fry until golden.",
+      "Add bay leaves and chili flakes.",
+      "Pour in white wine and let it bubble for 2 minutes.",
+      "Return chicken to the pan.",
+      "Cover and simmer for 20 minutes until chicken is cooked through.",
+      "Sprinkle with fresh parsley.",
+      "Serve with crusty bread to soak up the garlicky sauce."
+    ],
+    "cooking_tips": [
+      "Don't burn the garlic - golden, not brown.",
+      "Use a mix of chicken pieces for variety.",
+      "The sauce with bread is the best part!"
+    ],
+    "difficulty": "easy",
+    "tags": ["spanish", "chicken", "garlic", "tapas", "dinner", "gluten-free"],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 35,
+      "fat_g": 30,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "High protein from chicken. Garlic is known for its immune-boosting and heart-healthy properties. Olive oil provides healthy monounsaturated fats.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "sr-roti",

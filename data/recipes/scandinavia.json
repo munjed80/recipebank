@@ -252,5 +252,59 @@
     "nutrition_benefits": "Rye provides fiber and has a low glycemic index. Rice offers easily digestible carbohydrates. Eggs add protein and nutrients.",
     "mealType": "Breakfast",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "se-chicken-fricassee",
+    "slug": "swedish-chicken-fricassee",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Swedish Chicken Fricassee",
+    "image": "assets/img/recipes/swedish-chicken-fricassee.jpg",
+    "short_description": "A comforting Swedish cream-based chicken stew with tender vegetables. Known as Hönsköttssoppa, this gentle, nourishing dish is a beloved home-style classic in Sweden.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {"name": "chicken thighs", "amount": 800, "unit": "g"},
+      {"name": "carrots", "amount": 3, "unit": "medium"},
+      {"name": "leeks", "amount": 2, "unit": "medium"},
+      {"name": "celery stalks", "amount": 2, "unit": "pc"},
+      {"name": "chicken broth", "amount": 800, "unit": "ml"},
+      {"name": "heavy cream", "amount": 200, "unit": "ml"},
+      {"name": "butter", "amount": 50, "unit": "g"},
+      {"name": "flour", "amount": 3, "unit": "tbsp"},
+      {"name": "fresh dill", "amount": 0.25, "unit": "cup"},
+      {"name": "white pepper", "amount": 0.5, "unit": "tsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Cut chicken thighs into bite-sized pieces.",
+      "Dice carrots, slice leeks, and chop celery.",
+      "Melt butter in a large pot over medium heat.",
+      "Add flour and stir to make a roux, cook 2 minutes.",
+      "Gradually whisk in chicken broth until smooth.",
+      "Add chicken pieces and vegetables to the pot.",
+      "Simmer covered for 30-35 minutes until chicken is cooked.",
+      "Stir in heavy cream and heat through.",
+      "Season with salt and white pepper.",
+      "Garnish generously with fresh dill.",
+      "Serve with rice or boiled potatoes."
+    ],
+    "cooking_tips": [
+      "White pepper is traditional - it adds warmth without black specks.",
+      "Don't skimp on the dill - it's essential to the Swedish flavor.",
+      "This tastes even better the next day."
+    ],
+    "difficulty": "easy",
+    "tags": ["scandinavian", "swedish", "chicken", "creamy", "stew", "dinner", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 26,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "High in protein from chicken. Leeks and carrots provide vitamins and fiber. A warming, nourishing meal for cold days.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   }
 ]

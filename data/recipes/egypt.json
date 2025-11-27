@@ -271,5 +271,57 @@
     "nutrition_benefits": "Energy from semolina.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "eg-fattah",
+    "slug": "chicken-fattah",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Chicken Fattah",
+    "image": "assets/img/recipes/chicken-fattah.jpg",
+    "short_description": "A grand Egyptian festive dish featuring layers of crispy pita bread, spiced rice, tender chicken, and a garlicky vinegar sauce. Traditionally served during Eid celebrations.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {"name": "whole chicken", "amount": 1.5, "unit": "kg"},
+      {"name": "basmati rice", "amount": 400, "unit": "g"},
+      {"name": "pita bread", "amount": 4, "unit": "pc"},
+      {"name": "garlic cloves", "amount": 8, "unit": "pc"},
+      {"name": "white vinegar", "amount": 4, "unit": "tbsp"},
+      {"name": "butter", "amount": 60, "unit": "g"},
+      {"name": "cumin", "amount": 2, "unit": "tsp"},
+      {"name": "cardamom pods", "amount": 4, "unit": "pc"},
+      {"name": "bay leaves", "amount": 2, "unit": "pc"},
+      {"name": "salt", "amount": 2, "unit": "tsp"}
+    ],
+    "steps": [
+      "Boil chicken with cardamom, bay leaves, and salt until tender, about 45 minutes.",
+      "Remove chicken and shred the meat, reserve the broth.",
+      "Cook rice in the chicken broth with butter.",
+      "Toast or fry pita bread until crispy, then break into pieces.",
+      "Make the sauce: sauté crushed garlic until golden, add vinegar and some broth.",
+      "Layer in a deep dish: crispy bread on bottom, soaked with broth.",
+      "Add rice layer, then the shredded chicken on top.",
+      "Pour garlic-vinegar sauce over everything.",
+      "Sprinkle with toasted pine nuts if desired.",
+      "Serve immediately while warm."
+    ],
+    "cooking_tips": [
+      "The bread should absorb the broth but stay slightly crispy on edges.",
+      "Use good quality vinegar for the sauce - it's key to the flavor.",
+      "This dish is traditionally served family-style on a large platter."
+    ],
+    "difficulty": "medium",
+    "tags": ["egyptian", "chicken", "festive", "rice", "dinner", "eid"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "High in protein from chicken. Garlic has immune-boosting properties. A complete and satisfying celebratory meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   }
 ]

@@ -262,5 +262,59 @@
     "nutrition_benefits": "Apples provide fiber and vitamin C. A relatively light cake with no added fat in the batter. Perfect with tea.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-chicken-kiev",
+    "slug": "chicken-kiev",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Chicken Kiev",
+    "image": "assets/img/recipes/chicken-kiev.jpg",
+    "short_description": "A legendary Russian dish of breaded chicken breast stuffed with herb butter that flows out when cut. This elegant classic has become an international favorite.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {"name": "chicken breasts", "amount": 4, "unit": "large"},
+      {"name": "butter", "amount": 150, "unit": "g"},
+      {"name": "fresh dill", "amount": 3, "unit": "tbsp"},
+      {"name": "fresh parsley", "amount": 2, "unit": "tbsp"},
+      {"name": "garlic cloves", "amount": 3, "unit": "pc"},
+      {"name": "eggs", "amount": 2, "unit": "pc"},
+      {"name": "breadcrumbs", "amount": 200, "unit": "g"},
+      {"name": "flour", "amount": 100, "unit": "g"},
+      {"name": "vegetable oil", "amount": 500, "unit": "ml"},
+      {"name": "lemon zest", "amount": 1, "unit": "tsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Mix soft butter with minced garlic, dill, parsley, lemon zest, salt, and pepper.",
+      "Shape herb butter into 4 logs and freeze until firm.",
+      "Butterfly each chicken breast and pound thin between plastic wrap.",
+      "Place a frozen butter log on each chicken piece.",
+      "Roll tightly, tucking in edges to seal completely.",
+      "Refrigerate rolled chicken for 30 minutes.",
+      "Set up breading: flour, beaten eggs, breadcrumbs.",
+      "Coat each roll in flour, egg, breadcrumbs, then egg and breadcrumbs again.",
+      "Deep fry at 160°C (320°F) for 12-15 minutes until golden.",
+      "Rest 3 minutes before serving.",
+      "Serve with mashed potatoes - warn diners about the hot butter!"
+    ],
+    "cooking_tips": [
+      "Freezing the butter is essential - it prevents leaking during cooking.",
+      "Double breading creates a crispier, more secure seal.",
+      "Don't pierce the chicken when checking doneness - use a thermometer from the side."
+    ],
+    "difficulty": "hard",
+    "tags": ["russian", "chicken", "fried", "elegant", "dinner", "butter"],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 42,
+      "fat_g": 38,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "High in protein from chicken. The herbs provide antioxidants. An indulgent dish best enjoyed occasionally.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
   }
 ]

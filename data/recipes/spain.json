@@ -271,5 +271,56 @@
     "nutrition_benefits": "Antioxidants from dark chocolate.",
     "mealType": "Breakfast",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "es-pollo-ajillo",
+    "slug": "pollo-al-ajillo",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Pollo al Ajillo",
+    "image": "assets/img/recipes/pollo-al-ajillo.jpg",
+    "short_description": "Classic Spanish garlic chicken with crispy skin and a fragrant sauce of olive oil, garlic, and white wine. A beloved tapas dish that's simple yet incredibly flavorful.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {"name": "chicken pieces", "amount": 1, "unit": "kg"},
+      {"name": "garlic cloves", "amount": 12, "unit": "pc"},
+      {"name": "olive oil", "amount": 100, "unit": "ml"},
+      {"name": "dry white wine", "amount": 150, "unit": "ml"},
+      {"name": "bay leaves", "amount": 2, "unit": "pc"},
+      {"name": "fresh parsley", "amount": 3, "unit": "tbsp"},
+      {"name": "dried chili flakes", "amount": 0.5, "unit": "tsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"},
+      {"name": "black pepper", "amount": 0.5, "unit": "tsp"}
+    ],
+    "steps": [
+      "Season chicken pieces generously with salt and pepper.",
+      "Heat olive oil in a large skillet over medium-high heat.",
+      "Brown chicken on all sides until golden, about 10 minutes. Remove.",
+      "Reduce heat, add whole peeled garlic cloves and fry until golden.",
+      "Add bay leaves and chili flakes.",
+      "Pour in white wine and let it bubble for 2 minutes.",
+      "Return chicken to the pan.",
+      "Cover and simmer for 20 minutes until chicken is cooked through.",
+      "Sprinkle with fresh parsley.",
+      "Serve with crusty bread to soak up the garlicky sauce."
+    ],
+    "cooking_tips": [
+      "Don't burn the garlic - golden, not brown.",
+      "Use a mix of chicken pieces for variety.",
+      "The sauce with bread is the best part!"
+    ],
+    "difficulty": "easy",
+    "tags": ["spanish", "chicken", "garlic", "tapas", "dinner", "gluten-free"],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 35,
+      "fat_g": 30,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "High protein from chicken. Garlic is known for its immune-boosting and heart-healthy properties. Olive oil provides healthy monounsaturated fats.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   }
 ]
