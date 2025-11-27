@@ -57,7 +57,7 @@
       "In a large bowl, combine the flour and salt, then gradually add the yeast water while mixing.",
       "Knead the dough on a floured surface for 10 minutes until smooth and elastic.",
       "Place the dough in an oiled bowl, cover with a damp cloth, and let rise for 2 hours until doubled.",
-      "Preheat your oven to the highest setting (250°C/480°F) with a pizza stone or baking sheet inside.",
+      "Preheat your oven to the highest setting (250\u00b0C/480\u00b0F) with a pizza stone or baking sheet inside.",
       "Divide the dough into 4 portions and stretch each into a thin round, leaving edges slightly thicker.",
       "Spread a thin layer of tomato sauce, leaving a 1-inch border for the crust.",
       "Tear the mozzarella into pieces and distribute evenly over the sauce.",
@@ -171,6 +171,779 @@
     },
     "nutrition_benefits": "Carbonara is an excellent source of complete protein from eggs and cheese, providing all essential amino acids. The eggs contain choline, vital for brain health, and the Pecorino Romano offers calcium for bone strength. The dish provides sustained energy from complex carbohydrates in the pasta.",
     "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "it-lasagna",
+    "slug": "lasagna-bolognese",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Lasagna Bolognese",
+    "image": "assets/img/recipes/lasagna.jpg",
+    "short_description": "Layers of silky pasta sheets, rich meat ragu, creamy bechamel, and melted Parmigiano. This iconic dish from Bologna represents Italian comfort food at its finest.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lasagna sheets",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 1,
+        "unit": "stalk"
+      },
+      {
+        "name": "tomato passata",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Finely chop onion, carrot, and celery for soffritto.",
+      "Brown meats with soffritto, add wine, then tomato passata.",
+      "Simmer ragu for at least 2 hours until rich and thick.",
+      "Make bechamel: melt butter, whisk in flour, gradually add warm milk.",
+      "Cook bechamel until thick, add nutmeg and half the Parmigiano.",
+      "Cook lasagna sheets if using fresh, or use no-boil sheets.",
+      "Layer: bechamel, pasta, ragu, bechamel, Parmigiano. Repeat.",
+      "Finish with bechamel and plenty of Parmigiano on top.",
+      "Bake at 375F for 40-45 minutes until golden and bubbling.",
+      "Rest 15 minutes before serving."
+    ],
+    "cooking_tips": [
+      "A slow-cooked ragu is the key to exceptional lasagna.",
+      "The bechamel should be thick enough to coat a spoon.",
+      "Let the lasagna rest before cutting for clean slices."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "italian",
+      "pasta",
+      "baked",
+      "beef",
+      "comfort-food",
+      "dinner",
+      "bologna"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 32,
+      "fat_g": 32,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Lasagna provides complete protein from meat and dairy. The dish offers calcium from cheese and milk. Tomatoes add lycopene, a powerful antioxidant.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "it-risotto",
+    "slug": "risotto-alla-milanese",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Risotto alla Milanese",
+    "image": "assets/img/recipes/risotto.jpg",
+    "short_description": "Creamy saffron-infused rice that is the pride of Milan. This golden dish showcases the Italian technique of slowly building flavor through patient stirring.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Arborio rice",
+        "amount": 320,
+        "unit": "g"
+      },
+      {
+        "name": "saffron threads",
+        "amount": 0.5,
+        "unit": "g"
+      },
+      {
+        "name": "beef or chicken stock",
+        "amount": 1.2,
+        "unit": "L"
+      },
+      {
+        "name": "butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "small"
+      },
+      {
+        "name": "white wine",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Steep saffron in 1/4 cup warm stock for 10 minutes.",
+      "Heat remaining stock and keep warm.",
+      "Saute finely diced onion in half the butter until soft.",
+      "Add rice and toast for 2 minutes until edges are translucent.",
+      "Add wine and stir until absorbed.",
+      "Add warm stock one ladle at a time, stirring constantly.",
+      "When almost done, stir in saffron with its liquid.",
+      "Continue until rice is creamy and al dente, about 18 minutes.",
+      "Remove from heat, add remaining butter and Parmigiano.",
+      "Cover and rest 2 minutes before serving."
+    ],
+    "cooking_tips": [
+      "The stock must be warm to maintain cooking temperature.",
+      "Constant stirring releases starch for creamy texture.",
+      "The final mantecatura (adding butter and cheese) is essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "rice",
+      "saffron",
+      "milan",
+      "dinner",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 12,
+      "fat_g": 22,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Risotto provides complex carbohydrates for sustained energy. Saffron contains antioxidants and may improve mood. Parmigiano adds calcium and protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-ossobuco",
+    "slug": "ossobuco",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Ossobuco alla Milanese",
+    "image": "assets/img/recipes/ossobuco.jpg",
+    "short_description": "Braised veal shanks in a rich wine and vegetable sauce, finished with bright gremolata. This Milanese specialty is traditionally served with saffron risotto.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 150,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "veal shanks",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "white wine",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "beef stock",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "canned tomatoes",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "lemon zest",
+        "amount": 1,
+        "unit": "lemon"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "flour",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Tie string around veal shanks to keep meat attached to bone.",
+      "Dredge shanks in flour and brown in butter on all sides.",
+      "Remove meat, add diced vegetables and cook until soft.",
+      "Return meat to pot, add wine and reduce by half.",
+      "Add stock and tomatoes, bring to a simmer.",
+      "Cover and braise in 325F oven for 2-2.5 hours until very tender.",
+      "Make gremolata by mixing lemon zest, minced garlic, and parsley.",
+      "Carefully transfer shanks to serving plates.",
+      "Reduce sauce if needed and spoon over meat.",
+      "Top with gremolata and serve immediately."
+    ],
+    "cooking_tips": [
+      "The marrow inside the bone is a delicacy - provide small spoons.",
+      "Low and slow braising is key to tender meat.",
+      "Gremolata should be added at the last minute for freshness."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "veal",
+      "braised",
+      "milan",
+      "dinner",
+      "special-occasion"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 18,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Ossobuco provides high-quality protein and iron from veal. Bone marrow offers healthy fats and collagen. The gremolata adds vitamin C and antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "it-tiramisu",
+    "slug": "tiramisu",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Tiramisu",
+    "image": "assets/img/recipes/tiramisu.jpg",
+    "short_description": "Layers of espresso-soaked ladyfingers and silky mascarpone cream, dusted with cocoa. This beloved Italian dessert from the Veneto region is a perfect ending to any meal.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "mascarpone cheese",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "espresso (cooled)",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "ladyfinger biscuits (savoiardi)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "unsweetened cocoa powder",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Marsala wine or rum",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Separate egg yolks and whites.",
+      "Whisk yolks with sugar until pale and fluffy.",
+      "Add mascarpone and mix until smooth.",
+      "Beat egg whites to stiff peaks and fold into mascarpone mixture.",
+      "Mix espresso with Marsala or rum.",
+      "Quickly dip each ladyfinger in espresso - don't soak too long.",
+      "Layer soaked ladyfingers in a dish.",
+      "Spread half the mascarpone cream over ladyfingers.",
+      "Repeat layers, ending with cream.",
+      "Refrigerate at least 4 hours or overnight. Dust with cocoa before serving."
+    ],
+    "cooking_tips": [
+      "Use room temperature mascarpone for easier mixing.",
+      "The ladyfingers should be moist but not soggy.",
+      "Tiramisu is best made a day ahead for flavors to meld."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "dessert",
+      "coffee",
+      "no-bake",
+      "mascarpone",
+      "classic"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 24,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Tiramisu provides protein from eggs and cheese. Mascarpone offers calcium and vitamin A. Coffee contains antioxidants and may boost metabolism.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-pesto",
+    "slug": "pesto-alla-genovese",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Pesto alla Genovese",
+    "image": "assets/img/recipes/pesto.jpg",
+    "short_description": "Fresh basil pounded with pine nuts, garlic, Parmigiano, and olive oil into a vibrant green sauce. This Ligurian classic transforms simple pasta into a celebration of summer.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh basil leaves",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Pecorino Sardo",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "coarse salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "pasta (trofie or trenette)",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Toast pine nuts lightly in a dry pan.",
+      "In a mortar, crush garlic with coarse salt.",
+      "Add pine nuts and pound to a paste.",
+      "Add basil leaves a handful at a time, grinding against the sides.",
+      "Add grated cheeses and mix well.",
+      "Slowly drizzle in olive oil while stirring.",
+      "Cook pasta in well-salted water.",
+      "Reserve 1/2 cup pasta water before draining.",
+      "Loosen pesto with some pasta water.",
+      "Toss pasta with pesto and serve immediately."
+    ],
+    "cooking_tips": [
+      "A mortar and pestle yields the best texture, but a food processor works.",
+      "Don't over-process or basil will oxidize and turn dark.",
+      "Pasta water helps the pesto coat the pasta evenly."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "sauce",
+      "basil",
+      "pasta",
+      "genoa",
+      "vegetarian",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 16,
+      "fat_g": 28,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Pesto is rich in heart-healthy olive oil and antioxidants from basil. Pine nuts provide protein and minerals. The cheeses add calcium and protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-bruschetta",
+    "slug": "bruschetta",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Bruschetta al Pomodoro",
+    "image": "assets/img/recipes/bruschetta.jpg",
+    "short_description": "Grilled bread rubbed with garlic and topped with ripe tomatoes, fresh basil, and olive oil. This simple Tuscan appetizer celebrates the quality of Italian ingredients.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 5,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Italian bread",
+        "amount": 1,
+        "unit": "loaf"
+      },
+      {
+        "name": "ripe tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "fresh basil",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "balsamic vinegar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Dice tomatoes and place in a bowl.",
+      "Add torn basil, olive oil, balsamic, salt, and pepper.",
+      "Let marinate for 15-30 minutes.",
+      "Slice bread into 1/2 inch thick slices.",
+      "Grill or toast bread until golden with char marks.",
+      "While still hot, rub one side of each slice with cut garlic.",
+      "Drizzle with a little olive oil.",
+      "Top with tomato mixture just before serving.",
+      "Serve immediately while bread is still warm and crispy."
+    ],
+    "cooking_tips": [
+      "Use the ripest, most flavorful tomatoes you can find.",
+      "The bread must be served immediately - it goes soggy quickly.",
+      "Quality olive oil makes all the difference."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "appetizer",
+      "tomato",
+      "quick",
+      "vegan",
+      "summer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Bruschetta provides lycopene from tomatoes. Olive oil offers heart-healthy monounsaturated fats. Garlic has natural antimicrobial properties.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "it-minestrone",
+    "slug": "minestrone",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Minestrone",
+    "image": "assets/img/recipes/minestrone.jpg",
+    "short_description": "A hearty vegetable soup that varies by season and region. This Italian classic features beans, pasta, and whatever vegetables are freshest, simmered into a nourishing meal.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "cannellini beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "small pasta (ditalini)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "potatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "canned tomatoes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable stock",
+        "amount": 2,
+        "unit": "L"
+      },
+      {
+        "name": "Parmigiano rind",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh basil",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Dice all vegetables into similar-sized pieces.",
+      "Saute onion, carrot, and celery in olive oil until soft.",
+      "Add remaining vegetables except zucchini.",
+      "Add tomatoes, stock, and Parmigiano rind.",
+      "Simmer for 30 minutes until vegetables are almost tender.",
+      "Add zucchini, beans, and pasta.",
+      "Cook until pasta is done, about 10 more minutes.",
+      "Remove Parmigiano rind (it will have melted mostly).",
+      "Season with salt and pepper, stir in fresh basil.",
+      "Serve with a drizzle of olive oil and grated Parmigiano."
+    ],
+    "cooking_tips": [
+      "The Parmigiano rind adds umami depth - don't skip it.",
+      "Minestrone is better the next day after flavors meld.",
+      "Add leafy greens like spinach or kale in the last few minutes."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "soup",
+      "vegetable",
+      "beans",
+      "healthy",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 8,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Minestrone is rich in fiber from vegetables and beans. The variety of vegetables provides diverse vitamins and minerals. Beans add plant protein and iron.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-arancini",
+    "slug": "arancini",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Arancini",
+    "image": "assets/img/recipes/arancini.jpg",
+    "short_description": "Golden fried rice balls stuffed with ragu and mozzarella. These Sicilian street food favorites are named for their resemblance to small oranges.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "Arborio rice",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable stock",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "saffron threads",
+        "amount": 0.25,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "mozzarella",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "peas",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "breadcrumbs",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 1,
+        "unit": "L"
+      }
+    ],
+    "steps": [
+      "Cook rice in stock with saffron until done. Spread on tray to cool.",
+      "Mix cooled rice with 2 beaten eggs and Parmigiano.",
+      "Make filling: brown beef, add tomato sauce and peas, cook until thick.",
+      "Cut mozzarella into small cubes.",
+      "Take a handful of rice, form into a cup, add filling and mozzarella.",
+      "Close rice around filling to form a ball.",
+      "Beat remaining eggs. Dip balls in egg, then coat in breadcrumbs.",
+      "Heat oil to 350F. Fry arancini until deep golden, about 4 minutes.",
+      "Drain on paper towels.",
+      "Serve hot with marinara sauce for dipping."
+    ],
+    "cooking_tips": [
+      "The rice must be completely cool before shaping.",
+      "Wet hands help prevent sticking when forming balls.",
+      "Can be made ahead and reheated in the oven."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "fried",
+      "rice",
+      "sicily",
+      "street-food",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Arancini provide protein from beef and cheese. Saffron contains antioxidants. The dish offers carbohydrates for energy and calcium from cheese.",
+    "mealType": "Appetizer",
     "dietaryStyle": "High Protein"
   }
 ]

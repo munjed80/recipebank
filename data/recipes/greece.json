@@ -327,5 +327,405 @@
     "nutrition_benefits": "Healthy fats from nuts, antioxidants from honey.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "gr-pastitsio",
+    "slug": "pastitsio",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Pastitsio",
+    "image": "assets/img/recipes/pastitsio.jpg",
+    "short_description": "Greek baked pasta with layers of tubular pasta, spiced meat sauce, and creamy bechamel. Often called Greek lasagna, this comfort food classic is a staple at family gatherings.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "bucatini or penne pasta",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "kefalotiri cheese",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook pasta until al dente, drain and toss with a little butter.",
+      "Brown ground beef with onion, add tomato sauce and cinnamon.",
+      "Make bechamel: melt butter, add flour, cook 2 minutes.",
+      "Gradually whisk in warm milk until thick and smooth.",
+      "Add nutmeg and half the cheese, let cool slightly, then whisk in eggs.",
+      "Mix half the pasta with the meat sauce.",
+      "Layer plain pasta on the bottom of a buttered baking dish.",
+      "Add meat and pasta layer on top.",
+      "Pour bechamel over everything and sprinkle with remaining cheese.",
+      "Bake at 350F for 45-50 minutes until golden brown."
+    ],
+    "cooking_tips": [
+      "Let the pastitsio rest 15 minutes before cutting for cleaner slices.",
+      "The bechamel should be thick enough to coat a spoon.",
+      "Kefalotiri can be substituted with pecorino romano."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "pasta",
+      "baked",
+      "beef",
+      "comfort-food",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 26,
+      "fat_g": 28,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Pastitsio provides complete protein from beef and dairy. The dish offers calcium from cheese and milk. Cinnamon may help regulate blood sugar.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "gr-dolmades",
+    "slug": "dolmades",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Dolmades",
+    "image": "assets/img/recipes/dolmades.jpg",
+    "short_description": "Tender grape leaves stuffed with herbed rice, pine nuts, and fresh dill, served with lemon. These bite-sized parcels are a beloved mezze that showcase Greek hospitality.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 50,
+        "unit": "pc"
+      },
+      {
+        "name": "short-grain rice",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "fresh dill",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh mint",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Rinse grape leaves and blanch in boiling water for 2 minutes.",
+      "Saute finely chopped onions in olive oil until soft.",
+      "Add rice, pine nuts, herbs, salt, and pepper to onions.",
+      "Add 1/2 cup water and cook partially for 10 minutes.",
+      "Place a tablespoon of filling on each grape leaf and roll tightly.",
+      "Line a pot with extra grape leaves.",
+      "Arrange dolmades seam-side down in tight layers.",
+      "Add water to cover, lemon juice, and remaining olive oil.",
+      "Place a plate on top to prevent unrolling.",
+      "Simmer on low for 45 minutes. Serve at room temperature."
+    ],
+    "cooking_tips": [
+      "Use the vein side of the leaf facing up when rolling.",
+      "Don't roll too tightly - rice needs room to expand.",
+      "These are best made a day ahead for flavors to develop."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "appetizer",
+      "vegan",
+      "rice",
+      "grape-leaves",
+      "mezze"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Dolmades are rich in antioxidants from grape leaves. Olive oil provides heart-healthy fats. The herbs add vitamins and digestive benefits.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "gr-gyros",
+    "slug": "gyros",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Gyros",
+    "image": "assets/img/recipes/gyros.jpg",
+    "short_description": "Seasoned meat stacked and roasted on a vertical spit, shaved thin and wrapped in warm pita with tzatziki, tomatoes, and onions. This iconic Greek street food is loved worldwide.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pork shoulder or chicken",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "oregano",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 45,
+        "unit": "ml"
+      },
+      {
+        "name": "pita bread",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "tzatziki",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "red onion",
+        "amount": 1,
+        "unit": "medium"
+      }
+    ],
+    "steps": [
+      "Slice meat into thin strips.",
+      "Mix yogurt, garlic, oregano, paprika, olive oil, and lemon juice.",
+      "Marinate meat in mixture for at least 2 hours, preferably overnight.",
+      "Stack marinated meat on skewers or cook in a hot pan.",
+      "Cook until charred on edges and cooked through.",
+      "Slice tomatoes and red onion.",
+      "Warm pita bread on a grill or pan.",
+      "Spread tzatziki on pita, add meat, vegetables, and wrap.",
+      "Serve immediately with extra tzatziki on the side."
+    ],
+    "cooking_tips": [
+      "High heat is essential for the characteristic crispy edges.",
+      "Let meat rest briefly before slicing.",
+      "Authentic gyros use a vertical rotisserie, but home methods work well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "street-food",
+      "pork",
+      "chicken",
+      "wrap",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Gyros provides high-quality protein from meat. Tzatziki adds probiotics and calcium. The dish offers B vitamins and iron.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "gr-galaktoboureko",
+    "slug": "galaktoboureko",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Galaktoboureko",
+    "image": "assets/img/recipes/galaktoboureko.jpg",
+    "short_description": "Crispy phyllo pastry filled with creamy semolina custard and soaked in lemon-scented syrup. This beloved Greek dessert offers the perfect contrast of textures.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 50,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "phyllo dough",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "sugar",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fine semolina",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "butter",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon zest",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "honey",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Heat milk with half the sugar until simmering.",
+      "Gradually whisk in semolina, stirring until thick.",
+      "Remove from heat, add butter, vanilla, and lemon zest.",
+      "Beat eggs and fold into cooled custard.",
+      "Make syrup by boiling remaining sugar with water and honey.",
+      "Layer half the phyllo sheets in a buttered pan, brushing each with melted butter.",
+      "Pour custard over phyllo layers.",
+      "Top with remaining phyllo sheets, brushing each with butter.",
+      "Score top layers into portions and bake at 350F for 45 minutes.",
+      "Pour cold syrup over hot galaktoboureko immediately."
+    ],
+    "cooking_tips": [
+      "The custard should be warm, not hot, when adding eggs.",
+      "Score only the top layers before baking for easier cutting.",
+      "Cold syrup on hot pastry is essential for proper absorption."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "dessert",
+      "phyllo",
+      "custard",
+      "sweet",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 6,
+      "fat_g": 16,
+      "carbs_g": 40
+    },
+    "nutrition_benefits": "Galaktoboureko provides calcium from milk. Eggs add protein and B vitamins. The dessert offers quick energy from carbohydrates.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   }
 ]

@@ -74,7 +74,7 @@
       "Wet your hands and take a golf ball-sized portion of the shell dough.",
       "Shape it into an oval cup, fill with 1 tablespoon of the meat filling.",
       "Pinch the opening closed and form into a pointed oval shape (like a football).",
-      "Heat oil to 350°F (175°C) and deep fry kibbeh in batches until deep golden brown, about 4-5 minutes.",
+      "Heat oil to 350F (175C) and deep fry kibbeh in batches until deep golden brown, about 4-5 minutes.",
       "Drain on paper towels and serve hot with yogurt sauce."
     ],
     "cooking_tips": [
@@ -98,7 +98,7 @@
       "fat_g": 22,
       "carbs_g": 28
     },
-    "nutrition_benefits": "Kibbeh offers a balanced combination of protein from lamb, complex carbohydrates from bulgur wheat, and healthy fats from pine nuts. Bulgur is high in fiber and has a low glycemic index. Lamb provides iron, zinc, and B vitamins, particularly B12. The warming spices like cinnamon and allspice have anti-inflammatory properties.",
+    "nutrition_benefits": "Kibbeh offers a balanced combination of protein from lamb, complex carbohydrates from bulgur wheat, and healthy fats from pine nuts. Bulgur is high in fiber and has a low glycemic index. Lamb provides iron, zinc, and B vitamins, particularly B12.",
     "mealType": "Appetizer",
     "dietaryStyle": "Dairy Free"
   },
@@ -109,7 +109,7 @@
     "country_slug": "syria",
     "name_en": "Fattoush Salad",
     "image": "assets/img/recipes/fattoush.jpg",
-    "short_description": "A vibrant Levantine salad bursting with crisp vegetables, aromatic herbs, and golden fried pita pieces, all tossed in a tangy sumac and pomegranate molasses dressing. This refreshing dish celebrates the bounty of Middle Eastern gardens in every colorful bite.",
+    "short_description": "A vibrant Levantine salad bursting with crisp vegetables, aromatic herbs, and golden fried pita pieces, all tossed in a tangy sumac and pomegranate molasses dressing.",
     "prep_time_minutes": 15,
     "cooking_time_minutes": 5,
     "servings": 4,
@@ -177,7 +177,7 @@
     ],
     "steps": [
       "Split the pita bread into two thin rounds and cut or tear into bite-sized pieces.",
-      "Fry the pita pieces in olive oil until golden and crispy, or bake at 400°F until crunchy. Set aside.",
+      "Fry the pita pieces in olive oil until golden and crispy. Set aside.",
       "Tear the romaine lettuce into bite-sized pieces and place in a large salad bowl.",
       "Dice the cucumber and tomatoes into similar-sized cubes.",
       "Slice the radishes into thin rounds.",
@@ -185,8 +185,7 @@
       "Add all the vegetables and herbs to the bowl with the lettuce.",
       "For the dressing: Whisk together olive oil, lemon juice, minced garlic, sumac, pomegranate molasses, and salt.",
       "Just before serving, add the crispy pita pieces to the salad.",
-      "Pour the dressing over the salad and toss everything together thoroughly.",
-      "Serve immediately while the pita is still crispy, with extra sumac sprinkled on top."
+      "Pour the dressing over the salad and toss everything together thoroughly."
     ],
     "cooking_tips": [
       "Always add the pita and dressing at the last moment to maintain the crucial crispy texture.",
@@ -210,7 +209,1726 @@
       "fat_g": 14,
       "carbs_g": 22
     },
-    "nutrition_benefits": "Fattoush is packed with vitamins and antioxidants from the rainbow of fresh vegetables. Sumac is exceptionally high in antioxidants and has natural antibacterial properties. The olive oil provides heart-healthy fats, while the variety of raw vegetables ensures maximum vitamin retention. This salad is excellent for digestive health due to its high fiber content.",
+    "nutrition_benefits": "Fattoush is packed with vitamins and antioxidants from the rainbow of fresh vegetables. Sumac is exceptionally high in antioxidants and has natural antibacterial properties.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-muhammara",
+    "slug": "muhammara",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Muhammara",
+    "image": "assets/img/recipes/muhammara.jpg",
+    "short_description": "A rich and smoky Aleppan dip made from roasted red peppers, walnuts, and pomegranate molasses. This jewel-toned spread offers a perfect balance of sweet, tangy, and spicy flavors.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "red bell peppers",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "walnuts",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "breadcrumbs",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "pomegranate molasses",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Aleppo pepper",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Roast red bell peppers over an open flame or under a broiler until charred on all sides.",
+      "Place roasted peppers in a bowl, cover with plastic wrap, and let steam for 15 minutes.",
+      "Peel off the charred skin, remove seeds, and roughly chop the peppers.",
+      "Toast walnuts in a dry pan until fragrant, about 3-4 minutes.",
+      "In a food processor, blend walnuts until finely ground.",
+      "Add roasted peppers, breadcrumbs, garlic, pomegranate molasses, and lemon juice.",
+      "Pulse until combined but still slightly chunky.",
+      "With processor running, drizzle in olive oil until smooth.",
+      "Add cumin, Aleppo pepper, and salt; pulse to combine.",
+      "Transfer to a serving bowl, drizzle with olive oil, and garnish with pomegranate seeds."
+    ],
+    "cooking_tips": [
+      "Aleppo pepper can be substituted with a mix of paprika and cayenne.",
+      "The dip thickens as it sits; add more olive oil if needed.",
+      "Muhammara tastes even better the next day after flavors meld."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "syrian",
+      "dip",
+      "vegan",
+      "appetizer",
+      "aleppo",
+      "walnuts",
+      "middle-eastern"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 240,
+      "protein_g": 5,
+      "fat_g": 20,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Muhammara is rich in heart-healthy fats from walnuts, which provide omega-3 fatty acids. Red peppers are excellent sources of vitamin C and antioxidants.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-shawarma",
+    "slug": "syrian-shawarma",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Syrian Shawarma",
+    "image": "assets/img/recipes/syrian-shawarma.jpg",
+    "short_description": "Tender, aromatic slices of marinated meat wrapped in warm flatbread with pickles, garlic sauce, and fresh vegetables. This beloved street food from Damascus showcases the Syrian mastery of spice blends.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "pita bread",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "pickled turnips",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Slice chicken thighs into thin strips.",
+      "Mix yogurt, minced garlic, lemon juice, and all spices to create the marinade.",
+      "Coat chicken strips thoroughly and marinate for at least 4 hours or overnight.",
+      "Heat a large skillet or grill pan over high heat.",
+      "Cook marinated chicken in batches until charred and cooked through.",
+      "Prepare garlic sauce by blending garlic, oil, and lemon juice until creamy.",
+      "Warm pita bread on the grill or in a pan.",
+      "Slice cooked chicken into thin pieces.",
+      "Assemble shawarma with chicken, garlic sauce, pickled turnips, and fresh vegetables.",
+      "Roll tightly and serve immediately."
+    ],
+    "cooking_tips": [
+      "Marinating overnight yields the most flavorful and tender meat.",
+      "High heat is essential for achieving the characteristic charred edges.",
+      "Traditional garlic sauce (toum) should be very thick and pungent."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "syrian",
+      "street-food",
+      "chicken",
+      "grilled",
+      "wrap",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 35
+    },
+    "nutrition_benefits": "Syrian shawarma provides lean protein from chicken and probiotics from yogurt marinade. The spice blend including turmeric and cumin offers anti-inflammatory benefits.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "sy-makdous",
+    "slug": "makdous",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Makdous",
+    "image": "assets/img/recipes/makdous.jpg",
+    "short_description": "Baby eggplants stuffed with walnuts, red pepper, and garlic, then preserved in olive oil. This traditional Syrian delicacy is a breakfast staple and demonstrates the ancient art of preserving summer's bounty.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "baby eggplants",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "walnuts",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "red bell pepper",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "heads"
+      },
+      {
+        "name": "salt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Aleppo pepper",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Boil baby eggplants until tender but still firm, about 10 minutes.",
+      "Drain and press under weight overnight to remove excess moisture.",
+      "Prepare the stuffing by finely chopping walnuts, roasted red pepper, and garlic.",
+      "Season stuffing with salt and Aleppo pepper.",
+      "Make a lengthwise slit in each eggplant without cutting through.",
+      "Stuff each eggplant generously with the walnut mixture.",
+      "Pack stuffed eggplants tightly into sterilized jars.",
+      "Cover completely with olive oil, ensuring no air bubbles.",
+      "Seal jars and store in a cool, dark place for 2-3 weeks before eating.",
+      "Once opened, keep refrigerated and consume within a month."
+    ],
+    "cooking_tips": [
+      "Use small, firm eggplants for the best texture.",
+      "Pressing overnight is crucial to prevent the oil from becoming cloudy.",
+      "The makdous improves in flavor the longer it ages."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "syrian",
+      "preserved",
+      "breakfast",
+      "vegan",
+      "eggplant",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 4,
+      "fat_g": 26,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Makdous provides healthy monounsaturated fats from olive oil and omega-3s from walnuts. Eggplant offers fiber and antioxidants.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-freekeh",
+    "slug": "freekeh-with-chicken",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Freekeh with Chicken",
+    "image": "assets/img/recipes/freekeh.jpg",
+    "short_description": "Smoky roasted green wheat cooked with tender chicken and aromatic spices. This ancient Levantine grain dish offers a nutty, earthy flavor that has been a Syrian staple for thousands of years.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "freekeh",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "whole chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cardamom pods",
+        "amount": 5,
+        "unit": "pc"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Rinse freekeh well and soak in water for 30 minutes.",
+      "Place whole chicken in a large pot, cover with water, and add aromatics.",
+      "Simmer chicken for 45 minutes until cooked through.",
+      "Remove chicken and strain the broth, reserving 4 cups.",
+      "Saute diced onion in butter until golden.",
+      "Add drained freekeh and toast for 2-3 minutes.",
+      "Pour in reserved chicken broth and bring to a boil.",
+      "Reduce heat, cover, and simmer for 25-30 minutes until freekeh is tender.",
+      "Shred or portion the chicken.",
+      "Toast pine nuts and almonds in butter until golden.",
+      "Serve freekeh topped with chicken and toasted nuts."
+    ],
+    "cooking_tips": [
+      "Use the chicken cooking liquid for the most flavorful freekeh.",
+      "Freekeh should be chewy but not crunchy when done.",
+      "This dish is traditionally served at celebrations and feasts."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "syrian",
+      "grain",
+      "chicken",
+      "dinner",
+      "traditional",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Freekeh is a nutritional powerhouse with high fiber and protein content. It has a low glycemic index, making it suitable for blood sugar management.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sy-mujaddara",
+    "slug": "mujaddara",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Mujaddara",
+    "image": "assets/img/recipes/mujaddara.jpg",
+    "short_description": "A humble yet deeply satisfying dish of lentils and rice crowned with crispy caramelized onions. This beloved comfort food has nourished Syrians for generations.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "green or brown lentils",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "basmati rice",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "large onions",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "olive oil",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Slice onions into thin half-moons.",
+      "Heat olive oil in a large pan and fry onions until deep golden and crispy, about 25 minutes.",
+      "Remove most onions and set aside for topping, leaving some oil in the pan.",
+      "Rinse lentils and cook in salted water until almost tender, about 15 minutes.",
+      "Rinse rice and add to lentils along with remaining caramelized onion oil.",
+      "Add cumin, salt, and pepper.",
+      "Cover and cook on low heat until rice is tender and liquid is absorbed.",
+      "Fluff gently with a fork.",
+      "Top generously with reserved crispy onions.",
+      "Serve with yogurt and fresh salad."
+    ],
+    "cooking_tips": [
+      "Don't rush the onion caramelization - it's the soul of this dish.",
+      "Crispy onions can be made ahead and stored in an airtight container.",
+      "The ratio of lentils to rice can be adjusted to preference."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "syrian",
+      "vegan",
+      "lentils",
+      "rice",
+      "comfort-food",
+      "dinner",
+      "budget-friendly"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 16,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Mujaddara is a complete protein source combining lentils and rice. Lentils are rich in iron, folate, and fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-ful-medames",
+    "slug": "ful-medames",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Ful Medames",
+    "image": "assets/img/recipes/ful-medames.jpg",
+    "short_description": "Slow-cooked fava beans mashed with garlic, lemon, and olive oil, served as a hearty breakfast. This ancient dish has been enjoyed in the Levant for millennia.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 120,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "dried fava beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "olive oil",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      }
+    ],
+    "steps": [
+      "Soak dried fava beans overnight in plenty of water.",
+      "Drain and rinse beans, then cover with fresh water in a pot.",
+      "Simmer beans for 2 hours until very tender.",
+      "Drain beans, reserving some cooking liquid.",
+      "Mash beans with a fork, leaving some whole for texture.",
+      "Mince garlic and add to beans with lemon juice and cumin.",
+      "Drizzle generously with olive oil and season with salt.",
+      "Dice tomatoes and chop parsley for garnish.",
+      "Serve warm with pita bread, fresh vegetables, and a drizzle of olive oil.",
+      "Sprinkle with additional cumin and parsley."
+    ],
+    "cooking_tips": [
+      "For creamier ful, blend half the beans and mix with the whole ones.",
+      "Canned fava beans can be used for a quicker version.",
+      "The dish should be served warm, not hot."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "syrian",
+      "breakfast",
+      "vegan",
+      "beans",
+      "traditional",
+      "healthy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Ful medames is rich in plant protein and fiber from fava beans. It provides iron, folate, and B vitamins essential for energy.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-mansaf",
+    "slug": "syrian-mansaf",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Syrian Mansaf",
+    "image": "assets/img/recipes/mansaf.jpg",
+    "short_description": "Tender lamb cooked in fermented dried yogurt sauce served over spiced rice. This ceremonial dish represents Syrian hospitality at its finest.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "jameed (dried yogurt)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "basmati rice",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "ghee",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "flatbread",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Soak jameed in warm water for several hours until softened.",
+      "Blend soaked jameed until smooth and strain.",
+      "Cut lamb into large pieces and boil until tender, about 90 minutes.",
+      "Add jameed liquid to the lamb and simmer until sauce thickens.",
+      "Cook rice with turmeric and spices until fluffy.",
+      "Toast pine nuts and almonds in ghee until golden.",
+      "Layer flatbread on a large serving platter.",
+      "Spread rice over the bread, then arrange lamb pieces on top.",
+      "Pour warm jameed sauce over everything.",
+      "Garnish with toasted nuts and serve communally."
+    ],
+    "cooking_tips": [
+      "Jameed can be substituted with thick Greek yogurt mixed with sour cream.",
+      "The sauce should be pourable but not watery.",
+      "Traditionally eaten with the right hand from a communal platter."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "syrian",
+      "lamb",
+      "festive",
+      "rice",
+      "dinner",
+      "ceremonial"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 680,
+      "protein_g": 42,
+      "fat_g": 32,
+      "carbs_g": 55
+    },
+    "nutrition_benefits": "Mansaf provides high-quality protein from lamb and probiotics from fermented yogurt. The dish is rich in B vitamins, iron, and zinc.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "sy-baba-ghanoush",
+    "slug": "baba-ghanoush",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Baba Ghanoush",
+    "image": "assets/img/recipes/baba-ghanoush.jpg",
+    "short_description": "Smoky roasted eggplant blended with tahini, garlic, and lemon juice into a creamy, addictive dip. This mezze classic captures the essence of Syrian cooking.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "large eggplants",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "tahini",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 45,
+        "unit": "ml"
+      },
+      {
+        "name": "olive oil",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pomegranate seeds",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Pierce eggplants with a fork several times.",
+      "Roast over open flame or under broiler, turning frequently, until completely charred and collapsed.",
+      "Let cool slightly, then peel off charred skin.",
+      "Drain eggplant flesh in a colander to remove excess liquid.",
+      "Mash eggplant with a fork for chunky texture or blend for smooth.",
+      "Add tahini, minced garlic, lemon juice, and salt.",
+      "Mix well and adjust seasoning to taste.",
+      "Transfer to serving bowl and create a well in the center.",
+      "Drizzle with olive oil and garnish with parsley and pomegranate seeds.",
+      "Serve with warm pita bread."
+    ],
+    "cooking_tips": [
+      "Charring over an open flame gives the best smoky flavor.",
+      "Drain the eggplant well to prevent a watery dip.",
+      "Let flavors meld for 30 minutes before serving for best taste."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "syrian",
+      "dip",
+      "vegan",
+      "eggplant",
+      "appetizer",
+      "mezze"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 9,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Baba ghanoush is low in calories but rich in fiber from eggplant. Tahini provides calcium and healthy fats.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-shish-barak",
+    "slug": "shish-barak",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Shish Barak",
+    "image": "assets/img/recipes/shish-barak.jpg",
+    "short_description": "Delicate meat-filled dumplings simmered in creamy yogurt sauce with garlic and mint. This elegant dish showcases Syrian culinary sophistication.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "dried mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make dough with flour, water, and salt; knead until smooth and rest for 30 minutes.",
+      "Prepare filling by sauteing onion, adding beef, pine nuts, and seasonings.",
+      "Roll dough very thin and cut into 2-inch circles.",
+      "Place small amount of filling in center, fold into half-moons, then bring corners together.",
+      "Arrange dumplings on a baking sheet and bake at 400F until lightly golden.",
+      "Whisk yogurt with egg and cornstarch to prevent curdling.",
+      "Heat yogurt mixture gently, stirring constantly, until it comes to a simmer.",
+      "Add baked dumplings to the yogurt sauce.",
+      "Fry garlic and dried mint in butter until fragrant.",
+      "Serve dumplings in yogurt sauce topped with the garlic-mint butter."
+    ],
+    "cooking_tips": [
+      "Baking dumplings before adding to yogurt prevents them from falling apart.",
+      "Stir yogurt sauce constantly to prevent curdling.",
+      "The dumplings can be frozen before baking for later use."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "syrian",
+      "dumplings",
+      "beef",
+      "yogurt",
+      "dinner",
+      "winter",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Shish barak provides complete protein from beef and yogurt. Yogurt offers probiotics for gut health and calcium for bones.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "sy-kabab-hindi",
+    "slug": "kabab-hindi",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Kabab Hindi",
+    "image": "assets/img/recipes/kabab-hindi.jpg",
+    "short_description": "Succulent meatballs simmered in a spiced tomato and potato stew with a hint of tamarind. This hearty Syrian dish combines Middle Eastern spices with comfort food appeal.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mix ground beef with grated onion, parsley, allspice, and salt.",
+      "Form into small meatballs about 1 inch in diameter.",
+      "Peel and cube potatoes into bite-sized pieces.",
+      "Fry potatoes until golden brown and set aside.",
+      "Brown meatballs in the same oil and set aside.",
+      "Saute remaining onion and garlic until softened.",
+      "Add diced tomatoes and cook until they break down.",
+      "Stir in tamarind paste and spices.",
+      "Add meatballs and potatoes to the sauce.",
+      "Simmer for 20 minutes until flavors meld. Serve with rice."
+    ],
+    "cooking_tips": [
+      "The tamarind adds a subtle tang that balances the richness.",
+      "Don't skip browning the meatballs for best flavor.",
+      "Adjust tamarind to taste - start with less if unsure."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "syrian",
+      "meatballs",
+      "stew",
+      "beef",
+      "dinner",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 22,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Kabab Hindi provides iron and protein from beef. Potatoes offer potassium and vitamin C. Tamarind is rich in antioxidants and aids digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sy-lahm-bi-ajeen",
+    "slug": "lahm-bi-ajeen",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Lahm bi Ajeen",
+    "image": "assets/img/recipes/lahm-bi-ajeen.jpg",
+    "short_description": "Thin, crispy flatbreads topped with spiced minced meat, tomatoes, and pine nuts. Often called Syrian pizza, these individual-sized treats are perfect for sharing.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Aleppo pepper",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried yeast",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.25,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Mix flour, yeast, salt, and warm water to form soft dough. Let rise for 1 hour.",
+      "Finely chop onion and tomatoes.",
+      "Mix lamb with vegetables, tomato paste, spices, and parsley.",
+      "Divide dough into 8 portions and roll each very thin.",
+      "Spread meat mixture thinly over each round, going to the edges.",
+      "Top with pine nuts.",
+      "Bake at 475F on a preheated baking stone for 8-10 minutes.",
+      "The edges should be crispy and meat cooked through.",
+      "Squeeze fresh lemon juice over the top.",
+      "Roll up and eat, or serve flat with yogurt for dipping."
+    ],
+    "cooking_tips": [
+      "The dough should be paper-thin for the characteristic crispy texture.",
+      "A very hot oven is essential for quick cooking.",
+      "Fresh lemon juice squeezed on top is traditional."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "syrian",
+      "flatbread",
+      "lamb",
+      "baked",
+      "appetizer",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Lahm bi ajeen provides protein from lamb and complex carbohydrates from the dough. Pine nuts add healthy fats and minerals.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sy-mloukhieh",
+    "slug": "mloukhieh",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Mloukhieh",
+    "image": "assets/img/recipes/mloukhieh.jpg",
+    "short_description": "A distinctive green soup made from jute leaves cooked with chicken and served over rice with crunchy pita. This ancient dish has a unique texture and flavor that Syrians hold dear.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "dried mloukhieh leaves",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "garlic",
+        "amount": 10,
+        "unit": "cloves"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chicken stock",
+        "amount": 1.5,
+        "unit": "L"
+      },
+      {
+        "name": "butter",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "basmati rice",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pita bread",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "lemon",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Boil chicken in water with aromatics until cooked through, about 45 minutes.",
+      "Remove chicken and shred the meat. Reserve the broth.",
+      "If using dried mloukhieh, rehydrate according to package instructions.",
+      "Add mloukhieh to the hot chicken broth and simmer for 20 minutes.",
+      "Crush garlic with coriander and salt.",
+      "Fry the garlic mixture in butter until fragrant.",
+      "Add the garlic butter to the mloukhieh soup and stir well.",
+      "Cook rice separately until fluffy.",
+      "Cut pita into small pieces and toast until crispy.",
+      "Serve mloukhieh over rice with chicken, crispy pita, and lemon wedges."
+    ],
+    "cooking_tips": [
+      "The signature move is adding sizzling garlic butter to the soup.",
+      "Mloukhieh should have a slightly viscous texture.",
+      "Vinegar or lemon is essential to cut through the richness."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "syrian",
+      "soup",
+      "chicken",
+      "dinner",
+      "traditional",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Mloukhieh leaves are exceptionally high in iron, calcium, and vitamins A and C. The dish provides lean protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "sy-warak-enab",
+    "slug": "warak-enab",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Warak Enab",
+    "image": "assets/img/recipes/warak-enab.jpg",
+    "short_description": "Tender grape leaves rolled around a fragrant rice and herb filling, slowly cooked with lamb and lemon. This labor-intensive dish is a testament to Syrian patience and culinary artistry.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 60,
+        "unit": "pc"
+      },
+      {
+        "name": "short-grain rice",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh mint",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "lamb chops",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Blanch fresh grape leaves or rinse jarred ones well.",
+      "Mix rice with ground lamb, diced tomatoes, herbs, spices, and half the lemon juice.",
+      "Place a grape leaf shiny side down, add 1 tablespoon of filling near the stem.",
+      "Fold in the sides and roll tightly toward the tip.",
+      "Line pot bottom with lamb chops or extra grape leaves.",
+      "Arrange rolled grape leaves seam-side down in tight rows.",
+      "Add water to cover, remaining lemon juice, and a heavy plate on top.",
+      "Simmer on low heat for 60 minutes until rice is cooked.",
+      "Let rest for 10 minutes before carefully inverting onto a platter.",
+      "Serve warm or at room temperature with yogurt."
+    ],
+    "cooking_tips": [
+      "Roll tightly but not too tight - rice expands during cooking.",
+      "The lamb chops on the bottom add flavor and prevent sticking.",
+      "Warak enab tastes even better the next day."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "syrian",
+      "stuffed",
+      "lamb",
+      "rice",
+      "appetizer",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 10,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Grape leaves are rich in vitamins A, K, and antioxidants. The combination of rice and lamb provides complete protein.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sy-knafeh",
+    "slug": "syrian-knafeh",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Syrian Knafeh",
+    "image": "assets/img/recipes/knafeh.jpg",
+    "short_description": "Crispy shredded phyllo dough encasing stretchy melted cheese, soaked in rose-scented syrup and topped with pistachios. This legendary dessert from Damascus is the crown jewel of Syrian sweets.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "kataifi (shredded phyllo)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "akkawi cheese",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter (melted)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pistachios (ground)",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak akkawi cheese in water for several hours, changing water often to reduce saltiness.",
+      "Make syrup by boiling sugar, water, and lemon juice until slightly thickened.",
+      "Add rose water to syrup and let cool completely.",
+      "Shred or loosen the kataifi and mix thoroughly with melted butter.",
+      "Press half the kataifi into a round baking pan.",
+      "Slice or shred the desalted cheese and spread over the kataifi.",
+      "Top with remaining kataifi and press down firmly.",
+      "Bake at 375F for 35-40 minutes until golden and crispy.",
+      "Pour cold syrup over hot knafeh immediately.",
+      "Top with ground pistachios and serve warm."
+    ],
+    "cooking_tips": [
+      "Cold syrup on hot knafeh prevents it from becoming soggy.",
+      "Desalting the cheese is crucial - taste before using.",
+      "Knafeh is best eaten within hours of making."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "syrian",
+      "dessert",
+      "cheese",
+      "pastry",
+      "sweet",
+      "traditional",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 12,
+      "fat_g": 28,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Knafeh provides calcium and protein from cheese. Pistachios add healthy fats, fiber, and antioxidants.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sy-maamoul",
+    "slug": "maamoul",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Ma'amoul",
+    "image": "assets/img/recipes/maamoul.jpg",
+    "short_description": "Delicate semolina cookies filled with dates, walnuts, or pistachios, shaped in ornate wooden molds. These treasured sweets are essential for Syrian holidays and celebrations.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "fine semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "dates (pitted)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "walnuts",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "mahlab",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix semolina with melted butter and let rest overnight.",
+      "Add rose water, orange blossom water, and a splash of warm water to form soft dough.",
+      "For date filling: blend dates with a little butter and cinnamon.",
+      "For walnut filling: chop walnuts and mix with sugar and cinnamon.",
+      "Take a ball of dough and shape into a cup.",
+      "Add filling, seal, and press into a decorative mold.",
+      "Tap out onto a baking sheet.",
+      "Bake at 350F for 15-20 minutes until lightly golden.",
+      "Cool completely before dusting with powdered sugar.",
+      "Store in airtight container for up to 2 weeks."
+    ],
+    "cooking_tips": [
+      "Resting the dough overnight allows the butter to be absorbed properly.",
+      "Traditional molds create beautiful patterns but a fork works too.",
+      "Ma'amoul should be pale, not browned."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "syrian",
+      "cookies",
+      "dessert",
+      "dates",
+      "nuts",
+      "festive",
+      "eid"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 10,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Ma'amoul provides energy from complex carbohydrates. Dates are rich in fiber, potassium, and natural sugars. Walnuts add omega-3 fatty acids.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sy-halawet-el-jibn",
+    "slug": "halawet-el-jibn",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Halawet el Jibn",
+    "image": "assets/img/recipes/halawet-el-jibn.jpg",
+    "short_description": "Sweet cheese rolls made from stretchy mozzarella-like cheese mixed with semolina, filled with clotted cream, and drizzled with rose syrup. This Homs specialty is uniquely Syrian.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "akkawi cheese (desalted)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "fine semolina",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "ashta (clotted cream)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sugar syrup",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "pistachios (ground)",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak akkawi cheese in water overnight, changing water several times.",
+      "Heat cheese in a pot until it melts and becomes stretchy.",
+      "Gradually add sugar and semolina while stirring constantly.",
+      "Continue cooking until mixture forms a smooth, pliable dough.",
+      "Add rose water and mix well.",
+      "Roll out cheese dough on a flat surface into a thin rectangle.",
+      "Cut into strips about 3 inches wide.",
+      "Place a line of ashta along each strip and roll up.",
+      "Cut rolls into 2-inch pieces.",
+      "Drizzle with rose syrup and garnish with ground pistachios."
+    ],
+    "cooking_tips": [
+      "Work quickly while the cheese is still warm and pliable.",
+      "Desalting the cheese thoroughly is essential for this sweet.",
+      "Best served fresh and cold."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "syrian",
+      "dessert",
+      "cheese",
+      "sweet",
+      "cream",
+      "homs"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 10,
+      "fat_g": 18,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Halawet el jibn provides calcium and protein from cheese. Ashta offers healthy fats. The dessert is a good source of energy.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sy-fatteh",
+    "slug": "syrian-fatteh",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Syrian Fatteh",
+    "image": "assets/img/recipes/fatteh.jpg",
+    "short_description": "Layers of toasted pita, chickpeas, and tender meat crowned with garlicky yogurt and toasted pine nuts. This festive dish is a study in contrasting textures and the epitome of Syrian comfort food.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb or beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas (cooked)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pita bread",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tahini",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Boil meat with aromatics until very tender, about 1 hour. Reserve broth.",
+      "Toast or fry pita pieces until golden and crispy.",
+      "Warm chickpeas in some of the meat broth.",
+      "Whisk yogurt with tahini, minced garlic, and salt.",
+      "Toast pine nuts in butter until golden.",
+      "Layer crispy pita on a serving platter.",
+      "Spoon chickpeas and some broth over pita.",
+      "Add shredded or sliced meat.",
+      "Pour yogurt sauce generously over everything.",
+      "Top with pine nuts, melted butter, and a sprinkle of cumin and paprika."
+    ],
+    "cooking_tips": [
+      "Assemble just before serving to keep pita crispy.",
+      "The meat broth should be well-seasoned and flavorful.",
+      "Fatteh is traditionally a breakfast dish for special occasions."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "syrian",
+      "breakfast",
+      "lamb",
+      "chickpeas",
+      "yogurt",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Fatteh combines protein from meat and chickpeas with probiotics from yogurt. Chickpeas provide fiber and iron. Tahini adds healthy fats and calcium.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "sy-tabbouleh",
+    "slug": "tabbouleh",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Tabbouleh",
+    "image": "assets/img/recipes/tabbouleh.jpg",
+    "short_description": "A refreshing herb salad bursting with finely chopped parsley, mint, tomatoes, and bulgur wheat dressed in lemon and olive oil. This quintessential Levantine dish showcases the Syrian love for fresh herbs.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "fresh parsley",
+        "amount": 4,
+        "unit": "bunches"
+      },
+      {
+        "name": "fresh mint",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fine bulgur wheat",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "ripe tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "green onions",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "allspice",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak bulgur in cold water for 15-20 minutes until softened, then drain well.",
+      "Wash and thoroughly dry all herbs - excess water will make the salad soggy.",
+      "Finely chop parsley, including tender stems, until you have about 4 cups.",
+      "Chop mint leaves finely - about 1/2 cup.",
+      "Dice tomatoes into small cubes, removing seeds if very juicy.",
+      "Slice green onions finely, including some of the green parts.",
+      "Combine herbs, tomatoes, onions, and bulgur in a large bowl.",
+      "Whisk together lemon juice, olive oil, salt, and allspice.",
+      "Pour dressing over salad and toss gently to combine.",
+      "Let rest for 15 minutes before serving to allow flavors to meld."
+    ],
+    "cooking_tips": [
+      "Parsley should be the star - use much more parsley than bulgur.",
+      "Dry the herbs completely for the best texture.",
+      "Traditionally served on a bed of romaine lettuce leaves for scooping."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "syrian",
+      "salad",
+      "vegan",
+      "herbs",
+      "healthy",
+      "refreshing",
+      "mezze"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 150,
+      "protein_g": 3,
+      "fat_g": 12,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Tabbouleh is extremely rich in vitamin K and vitamin C from the abundance of fresh parsley. The herbs provide antioxidants and anti-inflammatory compounds. Olive oil adds heart-healthy monounsaturated fats.",
     "mealType": "Lunch",
     "dietaryStyle": "Vegan"
   }
