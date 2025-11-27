@@ -272,5 +272,62 @@
     "nutrition_benefits": "Protein, healthy fats from walnuts.",
     "mealType": "Dinner",
     "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "pe-arroz-con-pollo",
+    "slug": "arroz-con-pollo",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Arroz con Pollo",
+    "image": "assets/img/recipes/arroz-con-pollo.jpg",
+    "short_description": "A vibrant Peruvian rice dish made green with cilantro and aji amarillo, cooked together with tender chicken pieces. This beloved comfort food is a staple of Peruvian home cooking.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {"name": "chicken thighs and drumsticks", "amount": 1, "unit": "kg"},
+      {"name": "long-grain rice", "amount": 400, "unit": "g"},
+      {"name": "fresh cilantro", "amount": 2, "unit": "bunches"},
+      {"name": "spinach leaves", "amount": 100, "unit": "g"},
+      {"name": "aji amarillo paste", "amount": 2, "unit": "tbsp"},
+      {"name": "garlic cloves", "amount": 6, "unit": "pc"},
+      {"name": "onion", "amount": 1, "unit": "large"},
+      {"name": "peas", "amount": 150, "unit": "g"},
+      {"name": "carrots", "amount": 2, "unit": "medium"},
+      {"name": "chicken broth", "amount": 600, "unit": "ml"},
+      {"name": "cumin", "amount": 1, "unit": "tsp"},
+      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Season chicken pieces with salt, cumin, and minced garlic.",
+      "Brown chicken in hot oil until golden on all sides, then set aside.",
+      "Blend cilantro and spinach with 1 cup of broth until smooth - this creates the green color.",
+      "Sauté diced onion until soft, add aji amarillo paste.",
+      "Add rice and toast for 2 minutes, stirring constantly.",
+      "Pour in remaining broth and the green cilantro mixture.",
+      "Add diced carrots and the browned chicken pieces.",
+      "Bring to a boil, then reduce heat to low.",
+      "Cover and cook for 20 minutes without lifting the lid.",
+      "Add peas on top during the last 5 minutes of cooking.",
+      "Let rest for 5 minutes before fluffing and serving.",
+      "Garnish with extra cilantro and serve with salsa criolla."
+    ],
+    "cooking_tips": [
+      "The cilantro and spinach mixture gives the rice its signature green color.",
+      "Don't lift the lid while the rice is cooking to ensure proper steam.",
+      "Aji amarillo adds authentic Peruvian flavor - don't skip it."
+    ],
+    "difficulty": "medium",
+    "tags": ["peruvian", "chicken", "rice", "comfort-food", "dinner", "gluten-free"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Arroz con Pollo provides lean protein from chicken and complex carbohydrates from rice. Cilantro is rich in antioxidants and aids digestion. Peas and carrots add fiber and vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   }
 ]

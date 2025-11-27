@@ -1752,6 +1752,57 @@
     "dietaryStyle": "Gluten Free"
   },
   {
+    "id": "br-moqueca",
+    "slug": "moqueca",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Moqueca",
+    "image": "assets/img/recipes/moqueca.jpg",
+    "short_description": "A vibrant Brazilian fish stew from Bahia, featuring fresh fish, shrimp, coconut milk, dendê (palm oil), and colorful bell peppers. This aromatic dish showcases the African influences in Brazilian cuisine.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {"name": "white fish fillets", "amount": 800, "unit": "g"},
+      {"name": "shrimp", "amount": 300, "unit": "g"},
+      {"name": "coconut milk", "amount": 400, "unit": "ml"},
+      {"name": "dendê oil", "amount": 3, "unit": "tbsp"},
+      {"name": "onion", "amount": 2, "unit": "large"},
+      {"name": "bell peppers", "amount": 2, "unit": "pc"},
+      {"name": "tomatoes", "amount": 3, "unit": "medium"},
+      {"name": "garlic", "amount": 4, "unit": "cloves"},
+      {"name": "lime juice", "amount": 3, "unit": "tbsp"},
+      {"name": "fresh cilantro", "amount": 0.5, "unit": "cup"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Marinate fish and shrimp in lime juice, garlic, and salt for 30 minutes.",
+      "Layer sliced onions, bell peppers, and tomatoes in a clay pot or heavy pan.",
+      "Place marinated seafood on top of the vegetables.",
+      "Pour coconut milk over everything.",
+      "Drizzle dendê oil on top for color and flavor.",
+      "Cover and simmer on low heat for 25-30 minutes until fish is cooked.",
+      "Garnish generously with fresh cilantro.",
+      "Serve hot with white rice and farofa."
+    ],
+    "cooking_tips": [
+      "Use a traditional clay pot (panela de barro) for authentic flavor.",
+      "Don't stir too much - let the layers cook together gently.",
+      "Dendê oil is essential for authentic Bahian flavor and color."
+    ],
+    "difficulty": "medium",
+    "tags": ["brazilian", "seafood", "fish", "stew", "bahian", "dinner", "gluten-free"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Moqueca is rich in omega-3 fatty acids from fish and healthy fats from coconut milk. Dendê oil provides vitamin A and antioxidants. The combination of seafood and vegetables makes it a nutritionally complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
     "id": "cn-kung-pao",
     "slug": "kung-pao-chicken",
     "country": "China",
@@ -4213,6 +4264,60 @@
     },
     "nutrition_benefits": "Dal is an excellent source of plant protein and fiber. Lentils provide iron, folate, and B vitamins. The dish is naturally low in fat and very heart-healthy.",
     "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "in-masala-dosa",
+    "slug": "masala-dosa",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Masala Dosa",
+    "image": "assets/img/recipes/masala-dosa.jpg",
+    "short_description": "A crispy, golden fermented rice and lentil crepe from South India, filled with spiced potato masala. This iconic breakfast dish is served with coconut chutney and sambar for a complete meal.",
+    "prep_time_minutes": 480,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {"name": "rice", "amount": 300, "unit": "g"},
+      {"name": "urad dal (black gram)", "amount": 100, "unit": "g"},
+      {"name": "fenugreek seeds", "amount": 1, "unit": "tsp"},
+      {"name": "potatoes", "amount": 500, "unit": "g"},
+      {"name": "onions", "amount": 2, "unit": "medium"},
+      {"name": "mustard seeds", "amount": 1, "unit": "tsp"},
+      {"name": "curry leaves", "amount": 10, "unit": "leaves"},
+      {"name": "green chilies", "amount": 2, "unit": "pc"},
+      {"name": "turmeric powder", "amount": 0.5, "unit": "tsp"},
+      {"name": "oil", "amount": 4, "unit": "tbsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Soak rice and urad dal separately with fenugreek seeds for 6 hours.",
+      "Grind rice and dal separately into smooth batters, then combine.",
+      "Add salt and let the batter ferment overnight in a warm place.",
+      "For filling: boil and roughly mash potatoes.",
+      "Heat oil, add mustard seeds, curry leaves, and green chilies.",
+      "Add sliced onions and cook until translucent.",
+      "Add turmeric and mashed potatoes, mix well and season with salt.",
+      "Heat a cast iron griddle, spread a ladleful of batter into a thin circle.",
+      "Drizzle oil around edges and cook until golden and crispy.",
+      "Place potato filling in the center and fold the dosa.",
+      "Serve immediately with coconut chutney and sambar."
+    ],
+    "cooking_tips": [
+      "Fermentation is key - the batter should double in size and smell slightly sour.",
+      "A well-seasoned cast iron pan gives the best results.",
+      "Spread the batter quickly in one circular motion for thin, crispy dosas."
+    ],
+    "difficulty": "hard",
+    "tags": ["indian", "south-indian", "breakfast", "fermented", "vegan", "crispy", "gluten-free"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Dosa is naturally gluten-free and the fermentation process increases the bioavailability of nutrients. The combination of rice and lentils provides complete protein. It's light yet satisfying and easily digestible.",
+    "mealType": "Breakfast",
     "dietaryStyle": "Vegan"
   },
   {
@@ -6940,6 +7045,64 @@
     "dietaryStyle": "Vegetarian"
   },
   {
+    "id": "jp-okonomiyaki",
+    "slug": "okonomiyaki",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Okonomiyaki",
+    "image": "assets/img/recipes/okonomiyaki.jpg",
+    "short_description": "A savory Japanese pancake loaded with cabbage, meat or seafood, and topped with sweet-savory sauce, mayonnaise, and bonito flakes. This Osaka street food favorite means 'grilled as you like it.'",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {"name": "all-purpose flour", "amount": 150, "unit": "g"},
+      {"name": "dashi stock", "amount": 150, "unit": "ml"},
+      {"name": "eggs", "amount": 4, "unit": "pc"},
+      {"name": "cabbage", "amount": 400, "unit": "g"},
+      {"name": "pork belly slices", "amount": 200, "unit": "g"},
+      {"name": "green onions", "amount": 4, "unit": "stalks"},
+      {"name": "tenkasu (tempura scraps)", "amount": 50, "unit": "g"},
+      {"name": "okonomiyaki sauce", "amount": 100, "unit": "ml"},
+      {"name": "Japanese mayonnaise", "amount": 60, "unit": "ml"},
+      {"name": "bonito flakes", "amount": 10, "unit": "g"},
+      {"name": "aonori (seaweed flakes)", "amount": 2, "unit": "tbsp"},
+      {"name": "vegetable oil", "amount": 3, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Shred cabbage finely and chop green onions.",
+      "Mix flour with dashi stock until smooth.",
+      "Add eggs and whisk until combined.",
+      "Fold in cabbage, green onions, and tenkasu.",
+      "Heat oil in a flat pan or griddle over medium heat.",
+      "Pour batter to form a thick round pancake about 1 inch thick.",
+      "Lay pork belly slices on top of the pancake.",
+      "Cook for 5-6 minutes until the bottom is golden.",
+      "Flip carefully and cook for another 5-6 minutes.",
+      "Flip again to crisp the pork side.",
+      "Top with okonomiyaki sauce in zigzag pattern.",
+      "Add mayonnaise in a crisscross pattern.",
+      "Sprinkle with bonito flakes and aonori seaweed.",
+      "Serve hot and watch the bonito flakes dance from the heat."
+    ],
+    "cooking_tips": [
+      "Don't press down on the pancake - it should stay fluffy.",
+      "The dancing bonito flakes are part of the presentation.",
+      "Add any toppings you like - shrimp, squid, or cheese are popular."
+    ],
+    "difficulty": "medium",
+    "tags": ["japanese", "street-food", "savory-pancake", "osaka", "dinner", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 18,
+      "fat_g": 24,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Okonomiyaki provides a good amount of protein from eggs and pork. Cabbage is rich in vitamin C and fiber. The dish offers a balanced combination of macronutrients in one satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
     "id": "kr-bibimbap",
     "slug": "bibimbap",
     "country": "Korea",
@@ -8604,6 +8767,63 @@
     "dietaryStyle": "Vegetarian"
   },
   {
+    "id": "mx-tamales",
+    "slug": "tamales",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Tamales",
+    "image": "assets/img/recipes/tamales.jpg",
+    "short_description": "Traditional Mexican corn masa parcels filled with savory pork in red chile sauce, wrapped in corn husks and steamed to perfection. This ancient dish has been a festive staple since pre-Hispanic times.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 90,
+    "servings": 24,
+    "ingredients": [
+      {"name": "masa harina", "amount": 500, "unit": "g"},
+      {"name": "lard or vegetable shortening", "amount": 250, "unit": "g"},
+      {"name": "chicken or pork broth", "amount": 400, "unit": "ml"},
+      {"name": "baking powder", "amount": 1, "unit": "tbsp"},
+      {"name": "pork shoulder", "amount": 800, "unit": "g"},
+      {"name": "dried guajillo chilies", "amount": 8, "unit": "pc"},
+      {"name": "dried ancho chilies", "amount": 4, "unit": "pc"},
+      {"name": "garlic cloves", "amount": 4, "unit": "pc"},
+      {"name": "cumin", "amount": 1, "unit": "tsp"},
+      {"name": "dried corn husks", "amount": 30, "unit": "pc"},
+      {"name": "salt", "amount": 1, "unit": "tbsp"}
+    ],
+    "steps": [
+      "Soak corn husks in warm water for at least 2 hours until pliable.",
+      "Simmer pork shoulder in salted water until very tender, about 2 hours. Shred and reserve broth.",
+      "Toast and soak dried chilies; blend with garlic, cumin, salt, and some broth.",
+      "Strain chile sauce and simmer with shredded pork for 20 minutes.",
+      "Beat lard with an electric mixer until fluffy, about 5 minutes.",
+      "Gradually add masa harina, baking powder, salt, and warm broth while mixing.",
+      "Beat until a small ball of dough floats in water - this ensures proper texture.",
+      "Spread 2 tablespoons of masa on each softened corn husk.",
+      "Add a spoonful of pork filling down the center.",
+      "Fold the sides over the filling, then fold the bottom up.",
+      "Tie with thin strips of corn husk if desired.",
+      "Steam tamales standing up in a steamer for 60-90 minutes.",
+      "Tamales are done when the masa pulls away cleanly from the husk.",
+      "Rest for 10 minutes before serving."
+    ],
+    "cooking_tips": [
+      "Whipping the lard until very fluffy is the key to light tamales.",
+      "The float test ensures the masa has enough fat for proper texture.",
+      "Making tamales is traditionally a family affair - get help with assembly!"
+    ],
+    "difficulty": "hard",
+    "tags": ["mexican", "pork", "traditional", "festive", "steamed", "dinner", "gluten-free"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 16,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Tamales provide protein from pork and complex carbohydrates from masa. The corn masa is naturally gluten-free. Dried chilies add vitamins A and C plus antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
     "id": "ma-tagine",
     "slug": "lamb-tagine",
     "country": "Morocco",
@@ -9696,6 +9916,63 @@
     "nutrition_benefits": "Protein, healthy fats from walnuts.",
     "mealType": "Dinner",
     "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "pe-arroz-con-pollo",
+    "slug": "arroz-con-pollo",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Arroz con Pollo",
+    "image": "assets/img/recipes/arroz-con-pollo.jpg",
+    "short_description": "A vibrant Peruvian rice dish made green with cilantro and aji amarillo, cooked together with tender chicken pieces. This beloved comfort food is a staple of Peruvian home cooking.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {"name": "chicken thighs and drumsticks", "amount": 1, "unit": "kg"},
+      {"name": "long-grain rice", "amount": 400, "unit": "g"},
+      {"name": "fresh cilantro", "amount": 2, "unit": "bunches"},
+      {"name": "spinach leaves", "amount": 100, "unit": "g"},
+      {"name": "aji amarillo paste", "amount": 2, "unit": "tbsp"},
+      {"name": "garlic cloves", "amount": 6, "unit": "pc"},
+      {"name": "onion", "amount": 1, "unit": "large"},
+      {"name": "peas", "amount": 150, "unit": "g"},
+      {"name": "carrots", "amount": 2, "unit": "medium"},
+      {"name": "chicken broth", "amount": 600, "unit": "ml"},
+      {"name": "cumin", "amount": 1, "unit": "tsp"},
+      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"},
+      {"name": "salt", "amount": 1, "unit": "tsp"}
+    ],
+    "steps": [
+      "Season chicken pieces with salt, cumin, and minced garlic.",
+      "Brown chicken in hot oil until golden on all sides, then set aside.",
+      "Blend cilantro and spinach with 1 cup of broth until smooth - this creates the green color.",
+      "Sauté diced onion until soft, add aji amarillo paste.",
+      "Add rice and toast for 2 minutes, stirring constantly.",
+      "Pour in remaining broth and the green cilantro mixture.",
+      "Add diced carrots and the browned chicken pieces.",
+      "Bring to a boil, then reduce heat to low.",
+      "Cover and cook for 20 minutes without lifting the lid.",
+      "Add peas on top during the last 5 minutes of cooking.",
+      "Let rest for 5 minutes before fluffing and serving.",
+      "Garnish with extra cilantro and serve with salsa criolla."
+    ],
+    "cooking_tips": [
+      "The cilantro and spinach mixture gives the rice its signature green color.",
+      "Don't lift the lid while the rice is cooking to ensure proper steam.",
+      "Aji amarillo adds authentic Peruvian flavor - don't skip it."
+    ],
+    "difficulty": "medium",
+    "tags": ["peruvian", "chicken", "rice", "comfort-food", "dinner", "gluten-free"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Arroz con Pollo provides lean protein from chicken and complex carbohydrates from rice. Cilantro is rich in antioxidants and aids digestion. Peas and carrots add fiber and vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   },
   {
     "id": "ru-borscht",
