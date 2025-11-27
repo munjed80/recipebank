@@ -3895,6 +3895,327 @@
     "dietaryStyle": "Vegetarian"
   },
   {
+    "id": "in-palak-paneer",
+    "slug": "palak-paneer",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Palak Paneer",
+    "image": "assets/img/recipes/palak-paneer.jpg",
+    "short_description": "Creamy spinach curry with cubes of fresh paneer cheese, a beloved vegetarian dish from Punjab. The vibrant green sauce is subtly spiced and pairs perfectly with warm naan or rice.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh spinach",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "paneer cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "green chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garam masala",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ghee or butter",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Blanch spinach in boiling water for 2 minutes, then transfer to ice water.",
+      "Blend blanched spinach with green chilies into a smooth puree.",
+      "Cut paneer into cubes and lightly fry until golden on all sides, set aside.",
+      "Heat ghee in a pan and add cumin seeds until they splutter.",
+      "Add diced onion and saute until soft and lightly golden.",
+      "Add minced garlic and grated ginger, cook for 2 minutes.",
+      "Pour in the spinach puree and cook for 8-10 minutes.",
+      "Add salt, garam masala, and cream, stir well.",
+      "Gently fold in the fried paneer cubes.",
+      "Simmer for 5 minutes and serve hot with naan or rice."
+    ],
+    "cooking_tips": [
+      "Blanching and immediately cooling spinach preserves its bright green color.",
+      "Don't overcook the spinach puree or it will turn brown.",
+      "Frying paneer first prevents it from crumbling in the curry."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indian",
+      "vegetarian",
+      "curry",
+      "paneer",
+      "spinach",
+      "dinner",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 28,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Palak paneer is rich in iron and calcium from spinach and paneer. Spinach provides vitamins A, C, and K. The dish is an excellent source of vegetarian protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-samosa",
+    "slug": "samosa",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Samosa",
+    "image": "assets/img/recipes/samosa.jpg",
+    "short_description": "Crispy golden pastries stuffed with spiced potatoes and peas, the most iconic Indian street food. These triangular treats are perfect as an appetizer or snack, served with tangy chutneys.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "green peas",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garam masala",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "amchur (dried mango powder)",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "green chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "ghee",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make dough with flour, ghee, salt, and water; knead until smooth and rest for 30 minutes.",
+      "Boil potatoes until tender, peel and roughly mash them.",
+      "Heat oil in a pan, add cumin seeds until they splutter.",
+      "Add minced ginger, green chilies, and peas; cook for 3 minutes.",
+      "Add mashed potatoes, coriander, garam masala, amchur, and salt; mix well.",
+      "Divide dough into balls, roll into ovals, and cut in half.",
+      "Form cones from each half, fill with potato mixture, and seal edges with water.",
+      "Heat oil to 325\u00b0F (165\u00b0C) for deep frying.",
+      "Fry samosas on medium-low heat until golden and crispy, about 8-10 minutes.",
+      "Drain on paper towels and serve hot with mint chutney and tamarind chutney."
+    ],
+    "cooking_tips": [
+      "Low and slow frying ensures crispy layers throughout.",
+      "The dough should be stiff, not soft, for the best texture.",
+      "Seal edges well to prevent them from opening during frying."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indian",
+      "appetizer",
+      "street-food",
+      "vegetarian",
+      "vegan",
+      "fried",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 12,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Samosas provide carbohydrates for energy from potatoes and flour. Peas add plant protein and fiber. The spices like cumin aid digestion.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "in-dal-tadka",
+    "slug": "dal-tadka",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Dal Tadka",
+    "image": "assets/img/recipes/dal-tadka.jpg",
+    "short_description": "Comforting yellow lentils tempered with aromatic spices, garlic, and dried chilies. This everyday Indian staple is the soul of home cooking, served in every household across the subcontinent.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "yellow lentils (toor dal)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "turmeric powder",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried red chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "ghee",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "asafoetida (hing)",
+        "amount": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Wash lentils thoroughly and soak for 15 minutes.",
+      "Cook lentils with turmeric and salt in a pressure cooker or pot until soft.",
+      "Mash the cooked lentils lightly with a whisk for creamy consistency.",
+      "Add chopped tomatoes to the dal and simmer for 5 minutes.",
+      "For the tadka: heat ghee in a small pan until very hot.",
+      "Add cumin seeds and let them splutter.",
+      "Add sliced garlic and fry until golden.",
+      "Add dried red chilies and asafoetida, stir for 10 seconds.",
+      "Pour the hot tadka over the dal - it should sizzle.",
+      "Garnish with fresh cilantro and a squeeze of lemon juice.",
+      "Serve hot with steamed rice or roti."
+    ],
+    "cooking_tips": [
+      "The tadka oil must be very hot for the spices to release their aroma.",
+      "Adding asafoetida helps reduce the gassy effects of lentils.",
+      "Adjust consistency by adding water - some prefer thick, others soupy."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indian",
+      "lentils",
+      "vegetarian",
+      "vegan",
+      "healthy",
+      "comfort-food",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 10,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Dal is an excellent source of plant protein and fiber. Lentils provide iron, folate, and B vitamins. The dish is naturally low in fat and very heart-healthy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
     "id": "id-nasi-goreng",
     "slug": "nasi-goreng",
     "country": "Indonesia",
@@ -6348,6 +6669,277 @@
     "dietaryStyle": "High Protein"
   },
   {
+    "id": "jp-tonkatsu",
+    "slug": "tonkatsu",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Tonkatsu",
+    "image": "assets/img/recipes/tonkatsu.jpg",
+    "short_description": "Golden, crispy breaded pork cutlet with a tender, juicy interior. This beloved Japanese comfort food is served with shredded cabbage and tangy tonkatsu sauce, making it the perfect satisfying meal.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork loin cutlets",
+        "amount": 4,
+        "unit": "pc (150g each)"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "panko breadcrumbs",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "cabbage",
+        "amount": 0.25,
+        "unit": "head"
+      },
+      {
+        "name": "tonkatsu sauce",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Tenderize pork cutlets by scoring the fat and connective tissue around the edges.",
+      "Season both sides with salt and pepper.",
+      "Set up breading station: flour, beaten eggs, and panko in separate dishes.",
+      "Coat each cutlet in flour, shaking off excess.",
+      "Dip in beaten egg, then press firmly into panko breadcrumbs.",
+      "Heat oil to 340\u00b0F (170\u00b0C) in a deep pan.",
+      "Fry cutlets for 4-5 minutes until golden brown.",
+      "Flip and fry another 3-4 minutes until cooked through.",
+      "Rest on a wire rack for 2 minutes to stay crispy.",
+      "Slice into strips and serve with shredded cabbage and tonkatsu sauce."
+    ],
+    "cooking_tips": [
+      "Pressing panko firmly onto the meat creates an extra crispy coating.",
+      "Let the oil temperature recover between batches.",
+      "The resting time is crucial for maintaining crispiness."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "pork",
+      "fried",
+      "comfort-food",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Tonkatsu provides high-quality protein from pork. The cabbage side provides fiber and vitamin C. Pork is rich in B vitamins, especially thiamine.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "jp-gyoza",
+    "slug": "gyoza",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Gyoza",
+    "image": "assets/img/recipes/gyoza.jpg",
+    "short_description": "Pan-fried Japanese dumplings with a crispy golden bottom and juicy pork and cabbage filling. These addictive little parcels are served with a tangy dipping sauce of soy sauce, vinegar, and chili oil.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "napa cabbage",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "green onions",
+        "amount": 3,
+        "unit": "stalks"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sesame oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "gyoza wrappers",
+        "amount": 40,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rice vinegar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chili oil",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Finely chop cabbage, salt it, and squeeze out excess water.",
+      "Mix pork with cabbage, minced garlic, grated ginger, chopped green onions, soy sauce, and sesame oil.",
+      "Place a teaspoon of filling in the center of each wrapper.",
+      "Wet the edges and fold in half, creating pleats on one side.",
+      "Heat oil in a non-stick pan over medium-high heat.",
+      "Arrange gyoza in the pan with flat sides down.",
+      "Fry for 2 minutes until bottoms are golden.",
+      "Add 1/4 cup water and cover immediately.",
+      "Steam for 5-6 minutes until water evaporates.",
+      "Remove lid and fry until bottoms are crispy again.",
+      "Make dipping sauce by mixing soy sauce, rice vinegar, and chili oil.",
+      "Serve hot with dipping sauce."
+    ],
+    "cooking_tips": [
+      "Squeezing water from cabbage prevents soggy gyoza.",
+      "The steam-fry method creates the signature crispy bottom.",
+      "Gyoza can be frozen before cooking for later use."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "dumplings",
+      "pork",
+      "appetizer",
+      "pan-fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 20,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Gyoza provides protein from pork and fiber from cabbage. Ginger and garlic offer anti-inflammatory properties. The dish is a balanced combination of protein, carbs, and vegetables.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "jp-miso-soup",
+    "slug": "miso-soup",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Miso Soup",
+    "image": "assets/img/recipes/miso-soup.jpg",
+    "short_description": "A light and nourishing Japanese soup made with fermented soybean paste, silken tofu, and wakame seaweed. This essential component of Japanese cuisine is served with nearly every meal.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "dashi stock",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "white miso paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "silken tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "dried wakame seaweed",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "green onions",
+        "amount": 2,
+        "unit": "stalks"
+      }
+    ],
+    "steps": [
+      "Soak dried wakame in cold water for 5 minutes until rehydrated, then drain.",
+      "Cut silken tofu into small cubes.",
+      "Bring dashi stock to a gentle simmer in a pot.",
+      "Add tofu cubes and wakame to the broth.",
+      "Place miso paste in a small bowl and whisk with some hot broth to dissolve.",
+      "Remove pot from heat and stir in the dissolved miso.",
+      "Never boil the soup after adding miso to preserve the live cultures.",
+      "Ladle into bowls and garnish with sliced green onions.",
+      "Serve immediately as a side dish or breakfast item."
+    ],
+    "cooking_tips": [
+      "Never boil miso soup after adding the miso - it destroys the beneficial probiotics.",
+      "Instant dashi granules can be used if homemade dashi is not available.",
+      "Adjust miso amount to taste - some prefer it stronger or milder."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "soup",
+      "vegetarian",
+      "healthy",
+      "quick",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 6,
+      "fat_g": 3,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Miso soup is rich in probiotics from fermented miso, supporting gut health. Tofu provides plant protein and calcium. Wakame seaweed adds iodine and minerals essential for thyroid function.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
     "id": "kr-bibimbap",
     "slug": "bibimbap",
     "country": "Korea",
@@ -7691,6 +8283,325 @@
     "nutrition_benefits": "Guacamole is a nutritional powerhouse thanks to avocados, which provide heart-healthy monounsaturated fats that help lower bad cholesterol. They are rich in potassium (more than bananas), fiber for digestive health, and vitamin K for bone health. Lime juice adds vitamin C, while cilantro offers detoxifying properties.",
     "mealType": "Appetizer",
     "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "mx-enchiladas",
+    "slug": "enchiladas-rojas",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Enchiladas Rojas",
+    "image": "assets/img/recipes/enchiladas.jpg",
+    "short_description": "Corn tortillas filled with shredded chicken, rolled and smothered in a rich red chile sauce, then topped with melted cheese and crema. This classic comfort dish is a cornerstone of Mexican home cooking.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "corn tortillas",
+        "amount": 12,
+        "unit": "pc"
+      },
+      {
+        "name": "shredded chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "dried guajillo chilies",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "dried ancho chilies",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "queso fresco",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Mexican crema",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "white onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Remove stems and seeds from dried chilies; toast in a dry pan until fragrant.",
+      "Soak chilies in hot water for 20 minutes until soft.",
+      "Blend rehydrated chilies with garlic, cumin, salt, and 1 cup broth until smooth.",
+      "Strain the sauce through a fine mesh sieve for smoothness.",
+      "Simmer the sauce in a pan with a little oil for 10 minutes.",
+      "Quickly fry each tortilla in oil to soften, then dip in the warm sauce.",
+      "Fill each tortilla with shredded chicken and roll tightly.",
+      "Arrange rolls seam-side down in a baking dish.",
+      "Pour remaining sauce over the enchiladas.",
+      "Top with crumbled queso fresco and bake at 375\u00b0F for 15 minutes.",
+      "Drizzle with crema and garnish with sliced onion before serving."
+    ],
+    "cooking_tips": [
+      "Frying tortillas briefly prevents them from falling apart in the sauce.",
+      "The sauce can be made ahead and refrigerated for up to 3 days.",
+      "For extra flavor, use leftover roasted chicken."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "chicken",
+      "baked",
+      "comfort-food",
+      "dinner",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "Enchiladas provide lean protein from chicken. Dried chilies are rich in vitamins A and C. The dish offers complex carbohydrates from corn tortillas, which are naturally gluten-free.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "mx-pozole",
+    "slug": "pozole-rojo",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Pozole Rojo",
+    "image": "assets/img/recipes/pozole.jpg",
+    "short_description": "A hearty Mexican soup featuring tender pork and hominy corn in a rich red chile broth. This celebratory dish is traditionally served during holidays and special occasions, accompanied by an array of fresh garnishes.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "hominy (canned or dried)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "dried guajillo chilies",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "dried ancho chilies",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "white onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "oregano",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "radishes",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "cabbage",
+        "amount": 0.25,
+        "unit": "head"
+      },
+      {
+        "name": "limes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tostadas",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut pork shoulder into large chunks.",
+      "Simmer pork with half the onion and garlic in salted water for 2-3 hours until very tender.",
+      "Remove pork and shred; strain and reserve the broth.",
+      "Toast dried chilies in a dry pan until fragrant.",
+      "Soak chilies in hot water for 20 minutes until soft.",
+      "Blend rehydrated chilies with remaining garlic and some broth until smooth.",
+      "Strain the chile sauce into the pork broth.",
+      "Add drained hominy and shredded pork to the pot.",
+      "Simmer for 30 minutes to meld flavors.",
+      "Season with oregano and salt.",
+      "Serve in deep bowls with garnishes: sliced radishes, shredded cabbage, lime wedges, and tostadas."
+    ],
+    "cooking_tips": [
+      "Low and slow cooking makes the pork incredibly tender.",
+      "The garnishes are essential - they add freshness and texture.",
+      "Pozole tastes even better the next day after flavors meld."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "soup",
+      "pork",
+      "festive",
+      "dinner",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Pozole is rich in protein from pork. Hominy provides fiber and complex carbohydrates. The fresh garnishes add vitamins and raw enzymes for better digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "mx-chiles-rellenos",
+    "slug": "chiles-rellenos",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Chiles Rellenos",
+    "image": "assets/img/recipes/chiles-rellenos.jpg",
+    "short_description": "Roasted poblano peppers stuffed with melted cheese, dipped in fluffy egg batter, and fried until golden. Served in a light tomato sauce, this dish showcases the smoky flavor of poblano chiles.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "poblano peppers",
+        "amount": 6,
+        "unit": "large"
+      },
+      {
+        "name": "Oaxaca or Monterey Jack cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "white onion",
+        "amount": 0.5,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Roast poblanos directly over flame or under broiler until charred all over.",
+      "Place in a plastic bag to steam for 15 minutes, then peel off skin.",
+      "Make a small slit and carefully remove seeds, keeping peppers whole.",
+      "Stuff each pepper with strips of cheese.",
+      "Blend tomatoes, onion, and garlic; simmer in oil for 10 minutes to make sauce.",
+      "Separate eggs; beat whites to stiff peaks, then fold in yolks and a pinch of salt.",
+      "Dust stuffed peppers with flour.",
+      "Dip each pepper in egg batter to coat completely.",
+      "Fry in hot oil until golden on all sides.",
+      "Place fried chiles in the warm tomato sauce to serve.",
+      "Serve immediately with rice and beans."
+    ],
+    "cooking_tips": [
+      "Keep peppers whole and intact for the best presentation.",
+      "The egg batter should be used immediately while fluffy.",
+      "Oaxaca cheese melts beautifully but mozzarella works as a substitute."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "mexican",
+      "vegetarian",
+      "fried",
+      "cheese",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 28,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Chiles rellenos provide protein and calcium from cheese. Poblano peppers are rich in vitamins A and C. Eggs add complete protein and B vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
   },
   {
     "id": "ma-tagine",

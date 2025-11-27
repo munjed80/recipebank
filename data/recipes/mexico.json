@@ -193,5 +193,324 @@
     "nutrition_benefits": "Guacamole is a nutritional powerhouse thanks to avocados, which provide heart-healthy monounsaturated fats that help lower bad cholesterol. They are rich in potassium (more than bananas), fiber for digestive health, and vitamin K for bone health. Lime juice adds vitamin C, while cilantro offers detoxifying properties.",
     "mealType": "Appetizer",
     "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "mx-enchiladas",
+    "slug": "enchiladas-rojas",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Enchiladas Rojas",
+    "image": "assets/img/recipes/enchiladas.jpg",
+    "short_description": "Corn tortillas filled with shredded chicken, rolled and smothered in a rich red chile sauce, then topped with melted cheese and crema. This classic comfort dish is a cornerstone of Mexican home cooking.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "corn tortillas",
+        "amount": 12,
+        "unit": "pc"
+      },
+      {
+        "name": "shredded chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "dried guajillo chilies",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "dried ancho chilies",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "queso fresco",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Mexican crema",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "white onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Remove stems and seeds from dried chilies; toast in a dry pan until fragrant.",
+      "Soak chilies in hot water for 20 minutes until soft.",
+      "Blend rehydrated chilies with garlic, cumin, salt, and 1 cup broth until smooth.",
+      "Strain the sauce through a fine mesh sieve for smoothness.",
+      "Simmer the sauce in a pan with a little oil for 10 minutes.",
+      "Quickly fry each tortilla in oil to soften, then dip in the warm sauce.",
+      "Fill each tortilla with shredded chicken and roll tightly.",
+      "Arrange rolls seam-side down in a baking dish.",
+      "Pour remaining sauce over the enchiladas.",
+      "Top with crumbled queso fresco and bake at 375°F for 15 minutes.",
+      "Drizzle with crema and garnish with sliced onion before serving."
+    ],
+    "cooking_tips": [
+      "Frying tortillas briefly prevents them from falling apart in the sauce.",
+      "The sauce can be made ahead and refrigerated for up to 3 days.",
+      "For extra flavor, use leftover roasted chicken."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "chicken",
+      "baked",
+      "comfort-food",
+      "dinner",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "Enchiladas provide lean protein from chicken. Dried chilies are rich in vitamins A and C. The dish offers complex carbohydrates from corn tortillas, which are naturally gluten-free.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "mx-pozole",
+    "slug": "pozole-rojo",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Pozole Rojo",
+    "image": "assets/img/recipes/pozole.jpg",
+    "short_description": "A hearty Mexican soup featuring tender pork and hominy corn in a rich red chile broth. This celebratory dish is traditionally served during holidays and special occasions, accompanied by an array of fresh garnishes.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "hominy (canned or dried)",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "dried guajillo chilies",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "dried ancho chilies",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "white onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "oregano",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "radishes",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "cabbage",
+        "amount": 0.25,
+        "unit": "head"
+      },
+      {
+        "name": "limes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tostadas",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut pork shoulder into large chunks.",
+      "Simmer pork with half the onion and garlic in salted water for 2-3 hours until very tender.",
+      "Remove pork and shred; strain and reserve the broth.",
+      "Toast dried chilies in a dry pan until fragrant.",
+      "Soak chilies in hot water for 20 minutes until soft.",
+      "Blend rehydrated chilies with remaining garlic and some broth until smooth.",
+      "Strain the chile sauce into the pork broth.",
+      "Add drained hominy and shredded pork to the pot.",
+      "Simmer for 30 minutes to meld flavors.",
+      "Season with oregano and salt.",
+      "Serve in deep bowls with garnishes: sliced radishes, shredded cabbage, lime wedges, and tostadas."
+    ],
+    "cooking_tips": [
+      "Low and slow cooking makes the pork incredibly tender.",
+      "The garnishes are essential - they add freshness and texture.",
+      "Pozole tastes even better the next day after flavors meld."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "soup",
+      "pork",
+      "festive",
+      "dinner",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Pozole is rich in protein from pork. Hominy provides fiber and complex carbohydrates. The fresh garnishes add vitamins and raw enzymes for better digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "mx-chiles-rellenos",
+    "slug": "chiles-rellenos",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Chiles Rellenos",
+    "image": "assets/img/recipes/chiles-rellenos.jpg",
+    "short_description": "Roasted poblano peppers stuffed with melted cheese, dipped in fluffy egg batter, and fried until golden. Served in a light tomato sauce, this dish showcases the smoky flavor of poblano chiles.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "poblano peppers",
+        "amount": 6,
+        "unit": "large"
+      },
+      {
+        "name": "Oaxaca or Monterey Jack cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "white onion",
+        "amount": 0.5,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Roast poblanos directly over flame or under broiler until charred all over.",
+      "Place in a plastic bag to steam for 15 minutes, then peel off skin.",
+      "Make a small slit and carefully remove seeds, keeping peppers whole.",
+      "Stuff each pepper with strips of cheese.",
+      "Blend tomatoes, onion, and garlic; simmer in oil for 10 minutes to make sauce.",
+      "Separate eggs; beat whites to stiff peaks, then fold in yolks and a pinch of salt.",
+      "Dust stuffed peppers with flour.",
+      "Dip each pepper in egg batter to coat completely.",
+      "Fry in hot oil until golden on all sides.",
+      "Place fried chiles in the warm tomato sauce to serve.",
+      "Serve immediately with rice and beans."
+    ],
+    "cooking_tips": [
+      "Keep peppers whole and intact for the best presentation.",
+      "The egg batter should be used immediately while fluffy.",
+      "Oaxaca cheese melts beautifully but mozzarella works as a substitute."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "mexican",
+      "vegetarian",
+      "fried",
+      "cheese",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 28,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Chiles rellenos provide protein and calcium from cheese. Poblano peppers are rich in vitamins A and C. Eggs add complete protein and B vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
   }
 ]
