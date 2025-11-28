@@ -11,17 +11,61 @@
     "cooking_time_minutes": 180,
     "servings": 6,
     "ingredients": [
-      { "name": "lamb or chicken", "amount": 1.5, "unit": "kg" },
-      { "name": "basmati rice", "amount": 500, "unit": "g" },
-      { "name": "onions", "amount": 2, "unit": "large" },
-      { "name": "tomatoes", "amount": 3, "unit": "medium" },
-      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
-      { "name": "hawaij spice blend", "amount": 3, "unit": "tbsp" },
-      { "name": "cardamom pods", "amount": 6, "unit": "pc" },
-      { "name": "cinnamon sticks", "amount": 2, "unit": "pc" },
-      { "name": "bay leaves", "amount": 3, "unit": "pc" },
-      { "name": "ghee", "amount": 4, "unit": "tbsp" },
-      { "name": "salt", "amount": 2, "unit": "tsp" }
+      {
+        "name": "lamb or chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "basmati rice",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "hawaij spice blend",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom pods",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon sticks",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "ghee",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Marinate the meat with hawaij spice blend, crushed garlic, and salt for at least 2 hours or overnight.",
@@ -41,7 +85,15 @@
       "The longer you marinate the meat, the more flavorful it becomes."
     ],
     "difficulty": "hard",
-    "tags": ["yemeni", "rice", "lamb", "festive", "traditional", "dinner", "middle-eastern"],
+    "tags": [
+      "yemeni",
+      "rice",
+      "lamb",
+      "festive",
+      "traditional",
+      "dinner",
+      "middle-eastern"
+    ],
     "nutrition": {
       "per_serving_kcal": 650,
       "protein_g": 42,
@@ -64,17 +116,61 @@
     "cooking_time_minutes": 60,
     "servings": 4,
     "ingredients": [
-      { "name": "lamb or beef", "amount": 500, "unit": "g" },
-      { "name": "potatoes", "amount": 2, "unit": "medium" },
-      { "name": "tomatoes", "amount": 3, "unit": "medium" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "green chilies", "amount": 2, "unit": "pc" },
-      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
-      { "name": "fenugreek seeds", "amount": 2, "unit": "tbsp" },
-      { "name": "hawaij spice", "amount": 2, "unit": "tbsp" },
-      { "name": "fresh cilantro", "amount": 0.5, "unit": "cup" },
-      { "name": "vegetable oil", "amount": 3, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "lamb or beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "green chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fenugreek seeds",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "hawaij spice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Soak fenugreek seeds in water overnight or for at least 4 hours.",
@@ -94,7 +190,14 @@
       "Eat with your hands using flatbread to scoop up the stew."
     ],
     "difficulty": "medium",
-    "tags": ["yemeni", "stew", "traditional", "national-dish", "lunch", "dinner"],
+    "tags": [
+      "yemeni",
+      "stew",
+      "traditional",
+      "national-dish",
+      "lunch",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 35,
@@ -117,16 +220,56 @@
     "cooking_time_minutes": 90,
     "servings": 4,
     "ingredients": [
-      { "name": "lamb shoulder", "amount": 600, "unit": "g" },
-      { "name": "onions", "amount": 2, "unit": "medium" },
-      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
-      { "name": "garlic cloves", "amount": 5, "unit": "pc" },
-      { "name": "hawaij spice", "amount": 2, "unit": "tbsp" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "fenugreek seeds", "amount": 2, "unit": "tbsp" },
-      { "name": "green onions", "amount": 4, "unit": "stalks" },
-      { "name": "ghee", "amount": 3, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "lamb shoulder",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 5,
+        "unit": "pc"
+      },
+      {
+        "name": "hawaij spice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "fenugreek seeds",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "green onions",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "ghee",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Boil the lamb in salted water until very tender, about 1.5 hours.",
@@ -146,7 +289,13 @@
       "Best served in the traditional stone pot it's cooked in."
     ],
     "difficulty": "medium",
-    "tags": ["yemeni", "lamb", "stew", "traditional", "dinner"],
+    "tags": [
+      "yemeni",
+      "lamb",
+      "stew",
+      "traditional",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 38,
@@ -169,18 +318,66 @@
     "cooking_time_minutes": 120,
     "servings": 6,
     "ingredients": [
-      { "name": "chicken or lamb", "amount": 1, "unit": "kg" },
-      { "name": "basmati rice", "amount": 500, "unit": "g" },
-      { "name": "onions", "amount": 3, "unit": "large" },
-      { "name": "yogurt", "amount": 200, "unit": "g" },
-      { "name": "saffron threads", "amount": 1, "unit": "pinch" },
-      { "name": "cardamom pods", "amount": 8, "unit": "pc" },
-      { "name": "cloves", "amount": 6, "unit": "pc" },
-      { "name": "cinnamon sticks", "amount": 2, "unit": "pc" },
-      { "name": "hawaij spice", "amount": 3, "unit": "tbsp" },
-      { "name": "ghee", "amount": 6, "unit": "tbsp" },
-      { "name": "raisins", "amount": 50, "unit": "g" },
-      { "name": "almonds", "amount": 50, "unit": "g" }
+      {
+        "name": "chicken or lamb",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "basmati rice",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "yogurt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "saffron threads",
+        "amount": 1,
+        "unit": "pinch"
+      },
+      {
+        "name": "cardamom pods",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon sticks",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "hawaij spice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ghee",
+        "amount": 6,
+        "unit": "tbsp"
+      },
+      {
+        "name": "raisins",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 50,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Marinate meat in yogurt, hawaij spice, and salt for 2 hours.",
@@ -200,7 +397,14 @@
       "Use good quality saffron for authentic color and aroma."
     ],
     "difficulty": "hard",
-    "tags": ["yemeni", "rice", "festive", "biryani", "dinner", "celebration"],
+    "tags": [
+      "yemeni",
+      "rice",
+      "festive",
+      "biryani",
+      "dinner",
+      "celebration"
+    ],
     "nutrition": {
       "per_serving_kcal": 680,
       "protein_g": 35,
@@ -223,15 +427,51 @@
     "cooking_time_minutes": 30,
     "servings": 8,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
-      { "name": "eggs", "amount": 4, "unit": "pc" },
-      { "name": "ghee or butter", "amount": 200, "unit": "g" },
-      { "name": "yeast", "amount": 1, "unit": "tbsp" },
-      { "name": "warm milk", "amount": 150, "unit": "ml" },
-      { "name": "sugar", "amount": 2, "unit": "tbsp" },
-      { "name": "Yemeni honey", "amount": 200, "unit": "g" },
-      { "name": "nigella seeds", "amount": 1, "unit": "tbsp" },
-      { "name": "salt", "amount": 0.5, "unit": "tsp" }
+      {
+        "name": "all-purpose flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "ghee or butter",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "warm milk",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Yemeni honey",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "nigella seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Dissolve yeast and sugar in warm milk, let it foam for 10 minutes.",
@@ -251,7 +491,14 @@
       "Best enjoyed fresh and warm."
     ],
     "difficulty": "medium",
-    "tags": ["yemeni", "dessert", "sweet", "honey", "traditional", "festive"],
+    "tags": [
+      "yemeni",
+      "dessert",
+      "sweet",
+      "honey",
+      "traditional",
+      "festive"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 8,
@@ -260,6 +507,831 @@
     },
     "nutrition_benefits": "Honey provides natural antioxidants and has antibacterial properties. Eggs add protein. Nigella seeds are known for their immune-boosting benefits.",
     "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ye-saltah-1",
+    "slug": "saltah",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Saltah",
+    "image": "assets/img/recipes/saltah.jpg",
+    "short_description": "Meat stew with fenugreek froth. National dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "fenugreek",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make meat stew.",
+      "Whip fenugreek froth.",
+      "Combine in hot pot.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "Frothy top.",
+      "Very hot serving.",
+      "Eat with bread."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "yemeni",
+      "stew",
+      "fenugreek"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ye-mandi-1",
+    "slug": "mandi",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Yemeni Mandi",
+    "image": "assets/img/recipes/mandi.jpg",
+    "short_description": "Smoked rice with meat. Celebratory dish.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "baharat",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Smoke meat over wood.",
+      "Cook rice in broth.",
+      "Combine together.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Underground cooking.",
+      "Smoked flavor.",
+      "Special occasions."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "yemeni",
+      "rice",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 42,
+      "fat_g": 28,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Celebratory feast.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ye-zurbian-1",
+    "slug": "zurbian",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Zurbian",
+    "image": "assets/img/recipes/zurbian.jpg",
+    "short_description": "Spiced rice with meat. Hadhrami specialty.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook chicken with spices.",
+      "Make saffron rice.",
+      "Layer together.",
+      "Steam until done."
+    ],
+    "cooking_tips": [
+      "Yellow saffron color.",
+      "Aromatic spices.",
+      "Regional specialty."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "yemeni",
+      "rice",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Flavorful meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ye-fahsa-1",
+    "slug": "fahsa",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Fahsa",
+    "image": "assets/img/recipes/fahsa.jpg",
+    "short_description": "Shredded meat stew. Rich and hearty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "hilbeh",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Shred cooked meat.",
+      "Make tomato sauce.",
+      "Add fenugreek foam.",
+      "Serve bubbling."
+    ],
+    "cooking_tips": [
+      "Shredded texture.",
+      "Frothy fenugreek.",
+      "Eat with flatbread."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "yemeni",
+      "stew",
+      "meat"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ye-haradhah-1",
+    "slug": "haradhah",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Haradhah",
+    "image": "assets/img/recipes/haradhah.jpg",
+    "short_description": "Spiced mashed fava beans. Traditional breakfast.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fava beans",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook fava beans.",
+      "Mash with spices.",
+      "Add tomatoes.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "Smooth texture.",
+      "Spicy and tangy.",
+      "Breakfast staple."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "yemeni",
+      "beans",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 12,
+      "fat_g": 6,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Plant protein.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ye-lahoh-1",
+    "slug": "lahoh",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Lahoh",
+    "image": "assets/img/recipes/lahoh.jpg",
+    "short_description": "Spongy pancake. Yemeni bread.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make thin batter.",
+      "Rest until bubbly.",
+      "Cook one-sided.",
+      "Serve with honey."
+    ],
+    "cooking_tips": [
+      "Many bubbles.",
+      "Spongy texture.",
+      "Sweet or savory."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "yemeni",
+      "bread",
+      "pancake"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 5,
+      "fat_g": 2,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Essential bread.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ye-aseed-1",
+    "slug": "aseed",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Aseed",
+    "image": "assets/img/recipes/aseed.jpg",
+    "short_description": "Wheat flour dumpling. Traditional comfort.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "wheat flour",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "honey",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook flour with water.",
+      "Form into ball.",
+      "Make well in center.",
+      "Fill with honey and butter."
+    ],
+    "cooking_tips": [
+      "Dense texture.",
+      "Tear and dip.",
+      "Simple comfort."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "yemeni",
+      "dumpling",
+      "honey"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Sustained energy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ye-kabsa-1",
+    "slug": "kabsa-yemeni",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Yemeni Kabsa",
+    "image": "assets/img/recipes/kabsa-yemeni.jpg",
+    "short_description": "Spiced rice with meat. Festive dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook meat with spices.",
+      "Add rice.",
+      "Cook together.",
+      "Serve with salad."
+    ],
+    "cooking_tips": [
+      "Aromatic spices.",
+      "One-pot cooking.",
+      "Festive meal."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "yemeni",
+      "rice",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ye-bint-1",
+    "slug": "bint-al-sahn",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Bint al-Sahn",
+    "image": "assets/img/recipes/bint-al-sahn.jpg",
+    "short_description": "Layered honey bread. Dessert specialty.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make layered dough.",
+      "Brush with butter.",
+      "Bake until golden.",
+      "Drench in honey."
+    ],
+    "cooking_tips": [
+      "Many thin layers.",
+      "Generous butter.",
+      "Soak in honey."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "yemeni",
+      "dessert",
+      "honey"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 6,
+      "fat_g": 22,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Sweet celebration.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ye-shafout-1",
+    "slug": "shafout",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Shafout",
+    "image": "assets/img/recipes/shafout.jpg",
+    "short_description": "Bread and yogurt dish. Cooling and light.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "lahoh bread",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "yogurt",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Layer bread in dish.",
+      "Pour yogurt over.",
+      "Add garlic.",
+      "Chill and serve."
+    ],
+    "cooking_tips": [
+      "Cooling dish.",
+      "Tangy yogurt.",
+      "Summer food."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "yemeni",
+      "yogurt",
+      "bread"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 10,
+      "fat_g": 8,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Refreshing meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ye-ful-1",
+    "slug": "ful-mudammas-yemeni",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Yemeni Ful",
+    "image": "assets/img/recipes/ful-mudammas-yemeni.jpg",
+    "short_description": "Spiced fava beans. Breakfast staple.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fava beans",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook beans until soft.",
+      "Mash slightly.",
+      "Add tomatoes and oil.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "Creamy texture.",
+      "Fresh tomatoes.",
+      "Everyday breakfast."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "yemeni",
+      "beans",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Plant protein.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ye-saloona-1",
+    "slug": "saloona",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Saloona",
+    "image": "assets/img/recipes/saloona.jpg",
+    "short_description": "Vegetable meat stew. Everyday comfort.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "vegetables",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown meat.",
+      "Add vegetables.",
+      "Add tomato sauce.",
+      "Simmer until tender."
+    ],
+    "cooking_tips": [
+      "Mixed vegetables.",
+      "Tomato-based.",
+      "Serve with rice."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "yemeni",
+      "stew",
+      "vegetables"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ye-maraq-1",
+    "slug": "maraq",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Maraq",
+    "image": "assets/img/recipes/maraq.jpg",
+    "short_description": "Clear meat broth. Simple soup.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Simmer meat.",
+      "Season simply.",
+      "Strain if desired.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "Clear broth.",
+      "Healing properties.",
+      "Simple comfort."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "yemeni",
+      "soup",
+      "broth"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Light and nourishing.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ye-masoub-1",
+    "slug": "masoub-yemeni",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Yemeni Masoub",
+    "image": "assets/img/recipes/masoub-yemeni.jpg",
+    "short_description": "Banana bread dessert. Sweet breakfast.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 5,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "bread",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bananas",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mash bananas.",
+      "Tear bread.",
+      "Mix with cream.",
+      "Top with honey."
+    ],
+    "cooking_tips": [
+      "Ripe bananas.",
+      "Add dates.",
+      "Sweet comfort."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "yemeni",
+      "dessert",
+      "banana"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ye-jachnun-1",
+    "slug": "jachnun",
+    "country": "Yemen",
+    "country_slug": "yemen",
+    "name_en": "Jachnun",
+    "image": "assets/img/recipes/jachnun.jpg",
+    "short_description": "Slow-cooked pastry. Sabbath breakfast.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 720,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 8,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Roll with butter.",
+      "Cook overnight.",
+      "Serve with eggs."
+    ],
+    "cooking_tips": [
+      "Overnight cooking.",
+      "Caramelized layers.",
+      "Sabbath tradition."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "yemeni",
+      "pastry",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 22,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Festive breakfast.",
+    "mealType": "Breakfast",
     "dietaryStyle": "Vegetarian"
   }
 ]

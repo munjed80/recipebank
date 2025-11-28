@@ -11,18 +11,66 @@
     "cooking_time_minutes": 90,
     "servings": 6,
     "ingredients": [
-      { "name": "whole chicken or lamb", "amount": 1.5, "unit": "kg" },
-      { "name": "basmati rice", "amount": 500, "unit": "g" },
-      { "name": "onions", "amount": 2, "unit": "large" },
-      { "name": "tomatoes", "amount": 4, "unit": "medium" },
-      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
-      { "name": "kabsa spice mix", "amount": 3, "unit": "tbsp" },
-      { "name": "cardamom pods", "amount": 6, "unit": "pc" },
-      { "name": "cinnamon sticks", "amount": 2, "unit": "pc" },
-      { "name": "dried limes (loomi)", "amount": 2, "unit": "pc" },
-      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
-      { "name": "vegetable oil", "amount": 4, "unit": "tbsp" },
-      { "name": "almonds and raisins", "amount": 100, "unit": "g" }
+      {
+        "name": "whole chicken or lamb",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "basmati rice",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "kabsa spice mix",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom pods",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon sticks",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "dried limes (loomi)",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "almonds and raisins",
+        "amount": 100,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Season chicken or lamb with kabsa spice and salt, set aside.",
@@ -42,7 +90,15 @@
       "Traditionally served on a large communal platter."
     ],
     "difficulty": "medium",
-    "tags": ["saudi", "rice", "chicken", "lamb", "festive", "traditional", "dinner"],
+    "tags": [
+      "saudi",
+      "rice",
+      "chicken",
+      "lamb",
+      "festive",
+      "traditional",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 620,
       "protein_g": 38,
@@ -65,16 +121,56 @@
     "cooking_time_minutes": 120,
     "servings": 6,
     "ingredients": [
-      { "name": "crushed wheat (jareesh)", "amount": 400, "unit": "g" },
-      { "name": "lamb or chicken", "amount": 500, "unit": "g" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "tomatoes", "amount": 2, "unit": "medium" },
-      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
-      { "name": "chicken or meat broth", "amount": 2, "unit": "L" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "coriander", "amount": 1, "unit": "tsp" },
-      { "name": "ghee", "amount": 4, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "crushed wheat (jareesh)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "lamb or chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "chicken or meat broth",
+        "amount": 2,
+        "unit": "L"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ghee",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Soak the crushed wheat in water for 1 hour, then drain.",
@@ -94,7 +190,14 @@
       "Some prefer it smooth, others like a bit of texture."
     ],
     "difficulty": "medium",
-    "tags": ["saudi", "porridge", "comfort-food", "ramadan", "traditional", "dinner"],
+    "tags": [
+      "saudi",
+      "porridge",
+      "comfort-food",
+      "ramadan",
+      "traditional",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 450,
       "protein_g": 28,
@@ -117,16 +220,56 @@
     "cooking_time_minutes": 20,
     "servings": 4,
     "ingredients": [
-      { "name": "ready-made spring roll wrappers", "amount": 8, "unit": "sheets" },
-      { "name": "ground beef or lamb", "amount": 300, "unit": "g" },
-      { "name": "eggs", "amount": 4, "unit": "pc" },
-      { "name": "onion", "amount": 1, "unit": "medium" },
-      { "name": "green onions", "amount": 4, "unit": "stalks" },
-      { "name": "green chilies", "amount": 2, "unit": "pc" },
-      { "name": "curry powder", "amount": 1, "unit": "tsp" },
-      { "name": "cumin", "amount": 0.5, "unit": "tsp" },
-      { "name": "vegetable oil", "amount": 100, "unit": "ml" },
-      { "name": "salt and pepper", "amount": 1, "unit": "tsp" }
+      {
+        "name": "ready-made spring roll wrappers",
+        "amount": 8,
+        "unit": "sheets"
+      },
+      {
+        "name": "ground beef or lamb",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "green onions",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "green chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "curry powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "salt and pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Cook ground meat with diced onion and spices until browned.",
@@ -146,7 +289,14 @@
       "Traditional versions use a hand-stretched dough."
     ],
     "difficulty": "easy",
-    "tags": ["saudi", "street-food", "snack", "beef", "crispy", "appetizer"],
+    "tags": [
+      "saudi",
+      "street-food",
+      "snack",
+      "beef",
+      "crispy",
+      "appetizer"
+    ],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 22,
@@ -169,15 +319,51 @@
     "cooking_time_minutes": 60,
     "servings": 4,
     "ingredients": [
-      { "name": "whole chicken", "amount": 1, "unit": "kg" },
-      { "name": "Egyptian rice", "amount": 300, "unit": "g" },
-      { "name": "whole milk", "amount": 500, "unit": "ml" },
-      { "name": "chicken broth", "amount": 1, "unit": "L" },
-      { "name": "mastic gum", "amount": 3, "unit": "pieces" },
-      { "name": "cardamom pods", "amount": 4, "unit": "pc" },
-      { "name": "butter", "amount": 4, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" },
-      { "name": "white pepper", "amount": 0.5, "unit": "tsp" }
+      {
+        "name": "whole chicken",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Egyptian rice",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "whole milk",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "mastic gum",
+        "amount": 3,
+        "unit": "pieces"
+      },
+      {
+        "name": "cardamom pods",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "butter",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "white pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Boil chicken with cardamom and salt until fully cooked.",
@@ -197,7 +383,15 @@
       "Keep adding warm liquid if rice seems too thick."
     ],
     "difficulty": "medium",
-    "tags": ["saudi", "rice", "chicken", "creamy", "comfort-food", "hijazi", "dinner"],
+    "tags": [
+      "saudi",
+      "rice",
+      "chicken",
+      "creamy",
+      "comfort-food",
+      "hijazi",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 550,
       "protein_g": 35,
@@ -220,12 +414,36 @@
     "cooking_time_minutes": 240,
     "servings": 6,
     "ingredients": [
-      { "name": "whole wheat", "amount": 400, "unit": "g" },
-      { "name": "lamb or chicken", "amount": 500, "unit": "g" },
-      { "name": "ghee", "amount": 100, "unit": "g" },
-      { "name": "salt", "amount": 2, "unit": "tsp" },
-      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
-      { "name": "water", "amount": 3, "unit": "L" }
+      {
+        "name": "whole wheat",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "lamb or chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ghee",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "amount": 3,
+        "unit": "L"
+      }
     ],
     "steps": [
       "Soak wheat overnight in plenty of water.",
@@ -245,7 +463,14 @@
       "Some add sugar on top instead of cinnamon."
     ],
     "difficulty": "medium",
-    "tags": ["saudi", "porridge", "ramadan", "traditional", "comfort-food", "wheat"],
+    "tags": [
+      "saudi",
+      "porridge",
+      "ramadan",
+      "traditional",
+      "comfort-food",
+      "wheat"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 25,
@@ -268,16 +493,56 @@
     "cooking_time_minutes": 120,
     "servings": 6,
     "ingredients": [
-      { "name": "lamb shoulder", "amount": 1, "unit": "kg" },
-      { "name": "Arabic bread (khubz)", "amount": 4, "unit": "pc" },
-      { "name": "tomatoes", "amount": 4, "unit": "medium" },
-      { "name": "onions", "amount": 2, "unit": "large" },
-      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
-      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
-      { "name": "bezar spice mix", "amount": 2, "unit": "tbsp" },
-      { "name": "dried lime (loomi)", "amount": 2, "unit": "pc" },
-      { "name": "ghee", "amount": 4, "unit": "tbsp" },
-      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+      {
+        "name": "lamb shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Arabic bread (khubz)",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "bezar spice mix",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried lime (loomi)",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "ghee",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Boil lamb with onion, garlic, and dried limes until very tender.",
@@ -297,7 +562,14 @@
       "Dried limes add a distinctive tangy flavor to the broth."
     ],
     "difficulty": "medium",
-    "tags": ["saudi", "lamb", "bread", "traditional", "comfort-food", "dinner"],
+    "tags": [
+      "saudi",
+      "lamb",
+      "bread",
+      "traditional",
+      "comfort-food",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 38,
@@ -320,16 +592,56 @@
     "cooking_time_minutes": 180,
     "servings": 8,
     "ingredients": [
-      { "name": "lamb leg or chicken", "amount": 1.5, "unit": "kg" },
-      { "name": "basmati rice", "amount": 600, "unit": "g" },
-      { "name": "onions", "amount": 3, "unit": "large" },
-      { "name": "hawaij spice blend", "amount": 3, "unit": "tbsp" },
-      { "name": "cardamom pods", "amount": 8, "unit": "pc" },
-      { "name": "cinnamon sticks", "amount": 3, "unit": "pc" },
-      { "name": "cloves", "amount": 6, "unit": "pc" },
-      { "name": "bay leaves", "amount": 3, "unit": "pc" },
-      { "name": "ghee", "amount": 100, "unit": "g" },
-      { "name": "charcoal for smoking", "amount": 1, "unit": "piece" }
+      {
+        "name": "lamb leg or chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "basmati rice",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "hawaij spice blend",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom pods",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon sticks",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "ghee",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "charcoal for smoking",
+        "amount": 1,
+        "unit": "piece"
+      }
     ],
     "steps": [
       "Marinate meat with hawaij spice, salt, and some ghee.",
@@ -349,7 +661,14 @@
       "Home version uses the charcoal smoking technique."
     ],
     "difficulty": "hard",
-    "tags": ["saudi", "rice", "lamb", "smoked", "festive", "traditional"],
+    "tags": [
+      "saudi",
+      "rice",
+      "lamb",
+      "smoked",
+      "festive",
+      "traditional"
+    ],
     "nutrition": {
       "per_serving_kcal": 680,
       "protein_g": 42,
@@ -372,16 +691,56 @@
     "cooking_time_minutes": 90,
     "servings": 6,
     "ingredients": [
-      { "name": "whole chicken", "amount": 1.5, "unit": "kg" },
-      { "name": "basmati rice", "amount": 500, "unit": "g" },
-      { "name": "onions", "amount": 2, "unit": "large" },
-      { "name": "tomatoes", "amount": 3, "unit": "medium" },
-      { "name": "bezar spice mix", "amount": 2, "unit": "tbsp" },
-      { "name": "dried limes (loomi)", "amount": 2, "unit": "pc" },
-      { "name": "cardamom", "amount": 4, "unit": "pods" },
-      { "name": "vegetable oil", "amount": 80, "unit": "ml" },
-      { "name": "raisins", "amount": 50, "unit": "g" },
-      { "name": "almonds", "amount": 50, "unit": "g" }
+      {
+        "name": "whole chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "basmati rice",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "bezar spice mix",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried limes (loomi)",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "cardamom",
+        "amount": 4,
+        "unit": "pods"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "raisins",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 50,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Season chicken with bezar spice and salt.",
@@ -401,7 +760,14 @@
       "Let rest before serving for best texture."
     ],
     "difficulty": "medium",
-    "tags": ["saudi", "rice", "chicken", "one-pot", "dinner", "traditional"],
+    "tags": [
+      "saudi",
+      "rice",
+      "chicken",
+      "one-pot",
+      "dinner",
+      "traditional"
+    ],
     "nutrition": {
       "per_serving_kcal": 580,
       "protein_g": 35,
@@ -424,16 +790,56 @@
     "cooking_time_minutes": 20,
     "servings": 20,
     "ingredients": [
-      { "name": "samboosa wrappers", "amount": 20, "unit": "sheets" },
-      { "name": "ground beef", "amount": 400, "unit": "g" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "coriander", "amount": 1, "unit": "tsp" },
-      { "name": "chili powder", "amount": 0.5, "unit": "tsp" },
-      { "name": "vegetable oil for frying", "amount": 500, "unit": "ml" },
-      { "name": "flour paste for sealing", "amount": 2, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "samboosa wrappers",
+        "amount": 20,
+        "unit": "sheets"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "chili powder",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "flour paste for sealing",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Cook ground beef with diced onion and spices.",
@@ -452,7 +858,14 @@
       "Fry at medium heat for even cooking."
     ],
     "difficulty": "medium",
-    "tags": ["saudi", "appetizer", "fried", "ramadan", "snack", "beef"],
+    "tags": [
+      "saudi",
+      "appetizer",
+      "fried",
+      "ramadan",
+      "snack",
+      "beef"
+    ],
     "nutrition": {
       "per_serving_kcal": 120,
       "protein_g": 6,
@@ -475,16 +888,56 @@
     "cooking_time_minutes": 90,
     "servings": 6,
     "ingredients": [
-      { "name": "lamb or chicken", "amount": 600, "unit": "g" },
-      { "name": "all-purpose flour", "amount": 300, "unit": "g" },
-      { "name": "zucchini", "amount": 2, "unit": "medium" },
-      { "name": "tomatoes", "amount": 4, "unit": "medium" },
-      { "name": "potatoes", "amount": 2, "unit": "medium" },
-      { "name": "carrots", "amount": 2, "unit": "medium" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "bezar spice", "amount": 2, "unit": "tbsp" },
-      { "name": "ghee", "amount": 60, "unit": "g" },
-      { "name": "dried lime (loomi)", "amount": 2, "unit": "pc" }
+      {
+        "name": "lamb or chicken",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "potatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "bezar spice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ghee",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "dried lime (loomi)",
+        "amount": 2,
+        "unit": "pc"
+      }
     ],
     "steps": [
       "Make simple dough with flour, salt, and water, rest 30 minutes.",
@@ -504,7 +957,14 @@
       "The stew should be thick and hearty."
     ],
     "difficulty": "medium",
-    "tags": ["saudi", "stew", "lamb", "dumplings", "traditional", "dinner"],
+    "tags": [
+      "saudi",
+      "stew",
+      "lamb",
+      "dumplings",
+      "traditional",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 450,
       "protein_g": 28,
@@ -527,16 +987,56 @@
     "cooking_time_minutes": 90,
     "servings": 6,
     "ingredients": [
-      { "name": "lamb shoulder", "amount": 700, "unit": "g" },
-      { "name": "thin Arabic bread (regag)", "amount": 4, "unit": "pc" },
-      { "name": "tomatoes", "amount": 4, "unit": "medium" },
-      { "name": "onions", "amount": 2, "unit": "large" },
-      { "name": "potatoes", "amount": 2, "unit": "medium" },
-      { "name": "zucchini", "amount": 2, "unit": "medium" },
-      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
-      { "name": "bezar spice", "amount": 2, "unit": "tbsp" },
-      { "name": "vegetable oil", "amount": 60, "unit": "ml" },
-      { "name": "fresh cilantro", "amount": 0.5, "unit": "cup" }
+      {
+        "name": "lamb shoulder",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "thin Arabic bread (regag)",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "potatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bezar spice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      }
     ],
     "steps": [
       "Brown lamb pieces in oil.",
@@ -556,7 +1056,14 @@
       "Serve immediately for best texture."
     ],
     "difficulty": "easy",
-    "tags": ["saudi", "stew", "lamb", "bread", "traditional", "ramadan"],
+    "tags": [
+      "saudi",
+      "stew",
+      "lamb",
+      "bread",
+      "traditional",
+      "ramadan"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 32,
@@ -579,12 +1086,36 @@
     "cooking_time_minutes": 10,
     "servings": 6,
     "ingredients": [
-      { "name": "whole wheat bread", "amount": 400, "unit": "g" },
-      { "name": "dates (pitted)", "amount": 300, "unit": "g" },
-      { "name": "ghee", "amount": 100, "unit": "g" },
-      { "name": "cream", "amount": 200, "unit": "ml" },
-      { "name": "honey", "amount": 100, "unit": "g" },
-      { "name": "black seed (nigella)", "amount": 1, "unit": "tbsp" }
+      {
+        "name": "whole wheat bread",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "dates (pitted)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ghee",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cream",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "honey",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "black seed (nigella)",
+        "amount": 1,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Toast bread lightly and crumble it.",
@@ -603,7 +1134,14 @@
       "Best served warm for breakfast."
     ],
     "difficulty": "easy",
-    "tags": ["saudi", "dessert", "dates", "sweet", "traditional", "breakfast"],
+    "tags": [
+      "saudi",
+      "dessert",
+      "dates",
+      "sweet",
+      "traditional",
+      "breakfast"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 6,
@@ -626,15 +1164,51 @@
     "cooking_time_minutes": 20,
     "servings": 8,
     "ingredients": [
-      { "name": "red bell peppers", "amount": 4, "unit": "large" },
-      { "name": "walnuts", "amount": 150, "unit": "g" },
-      { "name": "breadcrumbs", "amount": 50, "unit": "g" },
-      { "name": "pomegranate molasses", "amount": 3, "unit": "tbsp" },
-      { "name": "olive oil", "amount": 80, "unit": "ml" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "chili flakes", "amount": 1, "unit": "tsp" },
-      { "name": "garlic cloves", "amount": 2, "unit": "pc" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "red bell peppers",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "walnuts",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "breadcrumbs",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "pomegranate molasses",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "chili flakes",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Roast peppers until charred, peel and seed.",
@@ -653,7 +1227,13 @@
       "Gets better after resting overnight."
     ],
     "difficulty": "easy",
-    "tags": ["saudi", "dip", "appetizer", "vegan", "mezze"],
+    "tags": [
+      "saudi",
+      "dip",
+      "appetizer",
+      "vegan",
+      "mezze"
+    ],
     "nutrition": {
       "per_serving_kcal": 180,
       "protein_g": 4,
@@ -676,14 +1256,46 @@
     "cooking_time_minutes": 45,
     "servings": 12,
     "ingredients": [
-      { "name": "kunafa dough (kataifi)", "amount": 500, "unit": "g" },
-      { "name": "akkawi cheese or ricotta", "amount": 500, "unit": "g" },
-      { "name": "butter", "amount": 200, "unit": "g" },
-      { "name": "sugar", "amount": 300, "unit": "g" },
-      { "name": "water", "amount": 250, "unit": "ml" },
-      { "name": "rose water", "amount": 2, "unit": "tbsp" },
-      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
-      { "name": "pistachios (crushed)", "amount": 50, "unit": "g" }
+      {
+        "name": "kunafa dough (kataifi)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "akkawi cheese or ricotta",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pistachios (crushed)",
+        "amount": 50,
+        "unit": "g"
+      }
     ],
     "steps": [
       "If using akkawi cheese, soak in water to remove salt.",
@@ -703,7 +1315,14 @@
       "Serve immediately for the crispiest texture."
     ],
     "difficulty": "medium",
-    "tags": ["saudi", "dessert", "cheese", "ramadan", "festive", "sweet"],
+    "tags": [
+      "saudi",
+      "dessert",
+      "cheese",
+      "ramadan",
+      "festive",
+      "sweet"
+    ],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 8,
@@ -712,6 +1331,666 @@
     },
     "nutrition_benefits": "Cheese provides calcium and protein. A celebratory treat best enjoyed in moderation. Rose water has calming properties.",
     "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sa-mathloothah",
+    "slug": "mathloothah",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Mathloothah",
+    "image": "assets/img/recipes/mathloothah.jpg",
+    "short_description": "Lamb and vegetable stew. Hearty Najdi dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "vegetables",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb.",
+      "Add vegetables.",
+      "Add water.",
+      "Simmer until tender."
+    ],
+    "cooking_tips": [
+      "Use bone-in lamb.",
+      "Many vegetables.",
+      "Serve with rice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "saudi",
+      "lamb",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Hearty stew.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sa-harees",
+    "slug": "harees-saudi",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Harees",
+    "image": "assets/img/recipes/harees-saudi.jpg",
+    "short_description": "Wheat and meat porridge. Traditional Ramadan dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 480,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "wheat",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak wheat.",
+      "Cook with lamb.",
+      "Blend until smooth.",
+      "Top with butter."
+    ],
+    "cooking_tips": [
+      "Very smooth texture.",
+      "Long cooking.",
+      "Ramadan essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "saudi",
+      "wheat",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Sustained energy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sa-jareesh",
+    "slug": "jareesh",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Jareesh",
+    "image": "assets/img/recipes/jareesh.jpg",
+    "short_description": "Crushed wheat dish. Traditional comfort food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "crushed wheat",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "yogurt",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Add wheat.",
+      "Stir until creamy.",
+      "Top with yogurt."
+    ],
+    "cooking_tips": [
+      "Creamy texture.",
+      "Constant stirring.",
+      "Traditional dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "saudi",
+      "wheat",
+      "comfort"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 28,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Fiber from wheat.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sa-saleeg",
+    "slug": "saleeg",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Saleeg",
+    "image": "assets/img/recipes/saleeg.jpg",
+    "short_description": "Creamy rice with chicken. Hejazi specialty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "milk",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Add rice to broth.",
+      "Add milk.",
+      "Cook until creamy."
+    ],
+    "cooking_tips": [
+      "Very creamy.",
+      "Use chicken fat.",
+      "Comfort food."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "saudi",
+      "rice",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sa-gursan",
+    "slug": "gursan",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Gursan",
+    "image": "assets/img/recipes/gursan.jpg",
+    "short_description": "Layered bread with vegetables. Traditional dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "zucchini",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Make thin breads.",
+      "Cook vegetables.",
+      "Layer bread with vegetables.",
+      "Simmer in sauce."
+    ],
+    "cooking_tips": [
+      "Thin bread.",
+      "Absorbs sauce.",
+      "Hearty dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "saudi",
+      "bread",
+      "vegetables"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 10,
+      "fat_g": 12,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Fiber-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sa-masoub",
+    "slug": "masoub",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Masoub",
+    "image": "assets/img/recipes/masoub.jpg",
+    "short_description": "Banana and bread dessert. Sweet breakfast.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 5,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "flatbread",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bananas",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mash bananas.",
+      "Tear bread.",
+      "Mix together.",
+      "Top with cream and honey."
+    ],
+    "cooking_tips": [
+      "Very ripe bananas.",
+      "Add dates.",
+      "Sweet breakfast."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "saudi",
+      "dessert",
+      "banana"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sa-mathloothah",
+    "slug": "mathloothah",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Mathloothah",
+    "image": "assets/img/recipes/mathloothah.jpg",
+    "short_description": "Lamb and vegetable stew. Hearty Najdi dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "vegetables",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb.",
+      "Add vegetables.",
+      "Add water.",
+      "Simmer until tender."
+    ],
+    "cooking_tips": [
+      "Use bone-in lamb.",
+      "Many vegetables.",
+      "Serve with rice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "saudi",
+      "lamb",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Hearty stew.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sa-harees",
+    "slug": "harees-saudi",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Harees",
+    "image": "assets/img/recipes/harees-saudi.jpg",
+    "short_description": "Wheat and meat porridge. Traditional Ramadan dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 480,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "wheat",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak wheat.",
+      "Cook with lamb.",
+      "Blend until smooth.",
+      "Top with butter."
+    ],
+    "cooking_tips": [
+      "Very smooth texture.",
+      "Long cooking.",
+      "Ramadan essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "saudi",
+      "wheat",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Sustained energy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sa-jareesh",
+    "slug": "jareesh",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Jareesh",
+    "image": "assets/img/recipes/jareesh.jpg",
+    "short_description": "Crushed wheat dish. Traditional comfort food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "crushed wheat",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "yogurt",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Add wheat.",
+      "Stir until creamy.",
+      "Top with yogurt."
+    ],
+    "cooking_tips": [
+      "Creamy texture.",
+      "Constant stirring.",
+      "Traditional dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "saudi",
+      "wheat",
+      "comfort"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 28,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Fiber from wheat.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sa-saleeg",
+    "slug": "saleeg",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Saleeg",
+    "image": "assets/img/recipes/saleeg.jpg",
+    "short_description": "Creamy rice with chicken. Hejazi specialty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "milk",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Add rice to broth.",
+      "Add milk.",
+      "Cook until creamy."
+    ],
+    "cooking_tips": [
+      "Very creamy.",
+      "Use chicken fat.",
+      "Comfort food."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "saudi",
+      "rice",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sa-gursan",
+    "slug": "gursan",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Gursan",
+    "image": "assets/img/recipes/gursan.jpg",
+    "short_description": "Layered bread with vegetables. Traditional dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "zucchini",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Make thin breads.",
+      "Cook vegetables.",
+      "Layer bread with vegetables.",
+      "Simmer in sauce."
+    ],
+    "cooking_tips": [
+      "Thin bread.",
+      "Absorbs sauce.",
+      "Hearty dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "saudi",
+      "bread",
+      "vegetables"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 10,
+      "fat_g": 12,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Fiber-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sa-masoub",
+    "slug": "masoub",
+    "country": "Saudi Arabia",
+    "country_slug": "saudi-arabia",
+    "name_en": "Masoub",
+    "image": "assets/img/recipes/masoub.jpg",
+    "short_description": "Banana and bread dessert. Sweet breakfast.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 5,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "flatbread",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bananas",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mash bananas.",
+      "Tear bread.",
+      "Mix together.",
+      "Top with cream and honey."
+    ],
+    "cooking_tips": [
+      "Very ripe bananas.",
+      "Add dates.",
+      "Sweet breakfast."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "saudi",
+      "dessert",
+      "banana"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Breakfast",
     "dietaryStyle": "Vegetarian"
   }
 ]

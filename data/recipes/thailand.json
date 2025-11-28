@@ -360,5 +360,1545 @@
     "nutrition_benefits": "Very low calorie, high vitamin C, digestive enzymes from papaya.",
     "mealType": "Lunch",
     "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "th-pad-thai-1",
+    "slug": "pad-thai",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Pad Thai",
+    "image": "assets/img/recipes/pad-thai.jpg",
+    "short_description": "Stir-fried rice noodles with shrimp. Thailand's signature dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tamarind",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak noodles.",
+      "Stir-fry shrimp.",
+      "Add eggs.",
+      "Toss with sauce."
+    ],
+    "cooking_tips": [
+      "High heat.",
+      "Balance flavors.",
+      "Serve with lime."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "noodles",
+      "shrimp"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Balanced flavors.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-tom-yum-2",
+    "slug": "tom-yum",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Tom Yum Goong",
+    "image": "assets/img/recipes/tom-yum.jpg",
+    "short_description": "Spicy and sour shrimp soup. Aromatic and comforting.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 3,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 2,
+        "unit": "inches"
+      }
+    ],
+    "steps": [
+      "Make aromatic broth.",
+      "Add shrimp.",
+      "Season with lime.",
+      "Add chili paste."
+    ],
+    "cooking_tips": [
+      "Fresh aromatics.",
+      "Balance sour and spicy.",
+      "Do not overcook shrimp."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "soup",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 24,
+      "fat_g": 6,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Low calorie, high protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-green-curry-3",
+    "slug": "green-curry",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Green Curry",
+    "image": "assets/img/recipes/green-curry.jpg",
+    "short_description": "Coconut curry with Thai basil. Aromatic and creamy.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "green curry paste",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Fry curry paste.",
+      "Add coconut milk.",
+      "Add chicken.",
+      "Simmer until done."
+    ],
+    "cooking_tips": [
+      "Crack the coconut milk.",
+      "Fresh Thai basil.",
+      "Adjust spice level."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "curry",
+      "coconut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-massaman-4",
+    "slug": "massaman-curry",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Massaman Curry",
+    "image": "assets/img/recipes/massaman-curry.jpg",
+    "short_description": "Rich curry with potatoes and peanuts. Mild and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "massaman paste",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown beef.",
+      "Fry paste.",
+      "Add coconut and broth.",
+      "Simmer with potatoes."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Add peanuts.",
+      "Rich and hearty."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "curry",
+      "beef"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Hearty and filling.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-som-tam-5",
+    "slug": "som-tam",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Som Tam",
+    "image": "assets/img/recipes/som-tam.jpg",
+    "short_description": "Green papaya salad. Spicy and refreshing.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "green papaya",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Shred papaya.",
+      "Pound in mortar.",
+      "Add tomatoes.",
+      "Season with lime."
+    ],
+    "cooking_tips": [
+      "Pound gently.",
+      "Balance flavors.",
+      "Adjust spice."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "salad",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Low calorie, refreshing.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "th-khao-pad-6",
+    "slug": "khao-pad",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Khao Pad",
+    "image": "assets/img/recipes/khao-pad.jpg",
+    "short_description": "Thai fried rice with egg. Simple and delicious.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Stir-fry rice.",
+      "Add eggs.",
+      "Season with fish sauce.",
+      "Serve with cucumber."
+    ],
+    "cooking_tips": [
+      "Day-old rice.",
+      "High heat.",
+      "Simple perfection."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "rice",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 10,
+      "fat_g": 12,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Quick meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "th-satay-7",
+    "slug": "thai-satay",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Thai Satay",
+    "image": "assets/img/recipes/thai-satay.jpg",
+    "short_description": "Grilled chicken skewers with peanut sauce. Street food classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "peanut sauce",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Thread on skewers.",
+      "Grill until done.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Marinate overnight.",
+      "Baste while grilling.",
+      "Peanut sauce essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "grilled",
+      "peanut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 24,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-larb-8",
+    "slug": "larb",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Larb",
+    "image": "assets/img/recipes/larb.jpg",
+    "short_description": "Spicy minced meat salad. Isaan specialty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "mint",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lime",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook pork.",
+      "Add lime and fish sauce.",
+      "Add herbs.",
+      "Serve with lettuce."
+    ],
+    "cooking_tips": [
+      "Do not overcook.",
+      "Toast rice powder.",
+      "Lots of herbs."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "salad",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "High protein, low carb.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-pad-kra-9",
+    "slug": "pad-kra-pao",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Pad Kra Pao",
+    "image": "assets/img/recipes/pad-kra-pao.jpg",
+    "short_description": "Stir-fried basil with meat. Street food staple.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Thai basil",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "chilies",
+        "amount": 5,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Stir-fry pork.",
+      "Add garlic and chilies.",
+      "Add basil at end.",
+      "Serve with fried egg."
+    ],
+    "cooking_tips": [
+      "Very high heat.",
+      "Lots of basil.",
+      "Fried egg on top."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "stir-fry",
+      "basil"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 20,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Quick and flavorful.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-panang-10",
+    "slug": "panang-curry",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Panang Curry",
+    "image": "assets/img/recipes/panang-curry.jpg",
+    "short_description": "Thick red curry with peanuts. Rich and aromatic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "panang paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "coconut cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Fry paste.",
+      "Add coconut cream.",
+      "Add chicken.",
+      "Simmer until done."
+    ],
+    "cooking_tips": [
+      "Thick consistency.",
+      "Kaffir lime leaves.",
+      "Less liquid than other curries."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "curry",
+      "peanut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Rich in protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-mango-11",
+    "slug": "mango-sticky-rice",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Mango Sticky Rice",
+    "image": "assets/img/recipes/mango-sticky-rice.jpg",
+    "short_description": "Sweet sticky rice with fresh mango. Classic dessert.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "sticky rice",
+        "amount": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "mango",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Steam sticky rice.",
+      "Make coconut sauce.",
+      "Pour over rice.",
+      "Serve with mango."
+    ],
+    "cooking_tips": [
+      "Ripe mango essential.",
+      "Warm rice.",
+      "Extra coconut on top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "dessert",
+      "mango"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 4,
+      "fat_g": 12,
+      "carbs_g": 66
+    },
+    "nutrition_benefits": "Natural sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "th-tod-mun-12",
+    "slug": "tod-mun-pla",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Tod Mun Pla",
+    "image": "assets/img/recipes/tod-mun-pla.jpg",
+    "short_description": "Thai fish cakes. Fragrant and bouncy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "fish",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "red curry paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "long beans",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Process fish.",
+      "Add curry paste.",
+      "Form patties.",
+      "Deep fry."
+    ],
+    "cooking_tips": [
+      "Bouncy texture.",
+      "Serve with cucumber sauce.",
+      "Not too thick."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "fish",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 6,
+      "fat_g": 3,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Protein snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-pad-see-13",
+    "slug": "pad-see-ew",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Pad See Ew",
+    "image": "assets/img/recipes/pad-see-ew.jpg",
+    "short_description": "Stir-fried flat noodles with soy sauce. Smoky and savory.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "wide rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Chinese broccoli",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Stir-fry noodles.",
+      "Add egg.",
+      "Add vegetables.",
+      "Season with soy."
+    ],
+    "cooking_tips": [
+      "Very high heat.",
+      "Wok hei essential.",
+      "Wide flat noodles."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "noodles",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 14,
+      "fat_g": 16,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Satisfying noodles.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-tom-kha-14",
+    "slug": "tom-kha-gai",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Tom Kha Gai",
+    "image": "assets/img/recipes/tom-kha-gai.jpg",
+    "short_description": "Coconut chicken soup. Creamy and aromatic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "galangal",
+        "amount": 2,
+        "unit": "inches"
+      }
+    ],
+    "steps": [
+      "Simmer coconut with aromatics.",
+      "Add chicken.",
+      "Season with lime.",
+      "Finish with herbs."
+    ],
+    "cooking_tips": [
+      "Do not boil.",
+      "Balance creamy and sour.",
+      "Fresh galangal key."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "soup",
+      "coconut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Comforting soup.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-pad-thai-1",
+    "slug": "pad-thai",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Pad Thai",
+    "image": "assets/img/recipes/pad-thai.jpg",
+    "short_description": "Stir-fried rice noodles with shrimp. Thailand's signature dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tamarind",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak noodles.",
+      "Stir-fry shrimp.",
+      "Add eggs.",
+      "Toss with sauce."
+    ],
+    "cooking_tips": [
+      "High heat.",
+      "Balance flavors.",
+      "Serve with lime."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "noodles",
+      "shrimp"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Balanced flavors.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-tom-yum-2",
+    "slug": "tom-yum",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Tom Yum Goong",
+    "image": "assets/img/recipes/tom-yum.jpg",
+    "short_description": "Spicy and sour shrimp soup. Aromatic and comforting.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 3,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 2,
+        "unit": "inches"
+      }
+    ],
+    "steps": [
+      "Make aromatic broth.",
+      "Add shrimp.",
+      "Season with lime.",
+      "Add chili paste."
+    ],
+    "cooking_tips": [
+      "Fresh aromatics.",
+      "Balance sour and spicy.",
+      "Do not overcook shrimp."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "soup",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 24,
+      "fat_g": 6,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Low calorie, high protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-green-curry-3",
+    "slug": "green-curry",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Green Curry",
+    "image": "assets/img/recipes/green-curry.jpg",
+    "short_description": "Coconut curry with Thai basil. Aromatic and creamy.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "green curry paste",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Fry curry paste.",
+      "Add coconut milk.",
+      "Add chicken.",
+      "Simmer until done."
+    ],
+    "cooking_tips": [
+      "Crack the coconut milk.",
+      "Fresh Thai basil.",
+      "Adjust spice level."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "curry",
+      "coconut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-massaman-4",
+    "slug": "massaman-curry",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Massaman Curry",
+    "image": "assets/img/recipes/massaman-curry.jpg",
+    "short_description": "Rich curry with potatoes and peanuts. Mild and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "massaman paste",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown beef.",
+      "Fry paste.",
+      "Add coconut and broth.",
+      "Simmer with potatoes."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Add peanuts.",
+      "Rich and hearty."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "curry",
+      "beef"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Hearty and filling.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-som-tam-5",
+    "slug": "som-tam",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Som Tam",
+    "image": "assets/img/recipes/som-tam.jpg",
+    "short_description": "Green papaya salad. Spicy and refreshing.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "green papaya",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Shred papaya.",
+      "Pound in mortar.",
+      "Add tomatoes.",
+      "Season with lime."
+    ],
+    "cooking_tips": [
+      "Pound gently.",
+      "Balance flavors.",
+      "Adjust spice."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "salad",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Low calorie, refreshing.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "th-khao-pad-6",
+    "slug": "khao-pad",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Khao Pad",
+    "image": "assets/img/recipes/khao-pad.jpg",
+    "short_description": "Thai fried rice with egg. Simple and delicious.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Stir-fry rice.",
+      "Add eggs.",
+      "Season with fish sauce.",
+      "Serve with cucumber."
+    ],
+    "cooking_tips": [
+      "Day-old rice.",
+      "High heat.",
+      "Simple perfection."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "rice",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 10,
+      "fat_g": 12,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Quick meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "th-satay-7",
+    "slug": "thai-satay",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Thai Satay",
+    "image": "assets/img/recipes/thai-satay.jpg",
+    "short_description": "Grilled chicken skewers with peanut sauce. Street food classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "peanut sauce",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Thread on skewers.",
+      "Grill until done.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Marinate overnight.",
+      "Baste while grilling.",
+      "Peanut sauce essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "grilled",
+      "peanut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 24,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-larb-8",
+    "slug": "larb",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Larb",
+    "image": "assets/img/recipes/larb.jpg",
+    "short_description": "Spicy minced meat salad. Isaan specialty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "mint",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lime",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook pork.",
+      "Add lime and fish sauce.",
+      "Add herbs.",
+      "Serve with lettuce."
+    ],
+    "cooking_tips": [
+      "Do not overcook.",
+      "Toast rice powder.",
+      "Lots of herbs."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "salad",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "High protein, low carb.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-pad-kra-9",
+    "slug": "pad-kra-pao",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Pad Kra Pao",
+    "image": "assets/img/recipes/pad-kra-pao.jpg",
+    "short_description": "Stir-fried basil with meat. Street food staple.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Thai basil",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "chilies",
+        "amount": 5,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Stir-fry pork.",
+      "Add garlic and chilies.",
+      "Add basil at end.",
+      "Serve with fried egg."
+    ],
+    "cooking_tips": [
+      "Very high heat.",
+      "Lots of basil.",
+      "Fried egg on top."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "thai",
+      "stir-fry",
+      "basil"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 20,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Quick and flavorful.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-panang-10",
+    "slug": "panang-curry",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Panang Curry",
+    "image": "assets/img/recipes/panang-curry.jpg",
+    "short_description": "Thick red curry with peanuts. Rich and aromatic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "panang paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "coconut cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Fry paste.",
+      "Add coconut cream.",
+      "Add chicken.",
+      "Simmer until done."
+    ],
+    "cooking_tips": [
+      "Thick consistency.",
+      "Kaffir lime leaves.",
+      "Less liquid than other curries."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "curry",
+      "peanut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Rich in protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-mango-11",
+    "slug": "mango-sticky-rice",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Mango Sticky Rice",
+    "image": "assets/img/recipes/mango-sticky-rice.jpg",
+    "short_description": "Sweet sticky rice with fresh mango. Classic dessert.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "sticky rice",
+        "amount": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "mango",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Steam sticky rice.",
+      "Make coconut sauce.",
+      "Pour over rice.",
+      "Serve with mango."
+    ],
+    "cooking_tips": [
+      "Ripe mango essential.",
+      "Warm rice.",
+      "Extra coconut on top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "dessert",
+      "mango"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 4,
+      "fat_g": 12,
+      "carbs_g": 66
+    },
+    "nutrition_benefits": "Natural sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "th-tod-mun-12",
+    "slug": "tod-mun-pla",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Tod Mun Pla",
+    "image": "assets/img/recipes/tod-mun-pla.jpg",
+    "short_description": "Thai fish cakes. Fragrant and bouncy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "fish",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "red curry paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "long beans",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Process fish.",
+      "Add curry paste.",
+      "Form patties.",
+      "Deep fry."
+    ],
+    "cooking_tips": [
+      "Bouncy texture.",
+      "Serve with cucumber sauce.",
+      "Not too thick."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "fish",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 6,
+      "fat_g": 3,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Protein snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-pad-see-13",
+    "slug": "pad-see-ew",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Pad See Ew",
+    "image": "assets/img/recipes/pad-see-ew.jpg",
+    "short_description": "Stir-fried flat noodles with soy sauce. Smoky and savory.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "wide rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Chinese broccoli",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Stir-fry noodles.",
+      "Add egg.",
+      "Add vegetables.",
+      "Season with soy."
+    ],
+    "cooking_tips": [
+      "Very high heat.",
+      "Wok hei essential.",
+      "Wide flat noodles."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "noodles",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 14,
+      "fat_g": 16,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Satisfying noodles.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "th-tom-kha-14",
+    "slug": "tom-kha-gai",
+    "country": "Thailand",
+    "country_slug": "thailand",
+    "name_en": "Tom Kha Gai",
+    "image": "assets/img/recipes/tom-kha-gai.jpg",
+    "short_description": "Coconut chicken soup. Creamy and aromatic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "galangal",
+        "amount": 2,
+        "unit": "inches"
+      }
+    ],
+    "steps": [
+      "Simmer coconut with aromatics.",
+      "Add chicken.",
+      "Season with lime.",
+      "Finish with herbs."
+    ],
+    "cooking_tips": [
+      "Do not boil.",
+      "Balance creamy and sour.",
+      "Fresh galangal key."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "thai",
+      "soup",
+      "coconut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Comforting soup.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
   }
 ]

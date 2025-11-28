@@ -11,17 +11,61 @@
     "cooking_time_minutes": 60,
     "servings": 6,
     "ingredients": [
-      { "name": "couscous", "amount": 500, "unit": "g" },
-      { "name": "sea bass or grouper", "amount": 1, "unit": "kg" },
-      { "name": "potatoes", "amount": 3, "unit": "medium" },
-      { "name": "carrots", "amount": 3, "unit": "pc" },
-      { "name": "zucchini", "amount": 2, "unit": "pc" },
-      { "name": "tomato paste", "amount": 3, "unit": "tbsp" },
-      { "name": "harissa paste", "amount": 2, "unit": "tbsp" },
-      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
-      { "name": "cumin", "amount": 1, "unit": "tbsp" },
-      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
-      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" }
+      {
+        "name": "couscous",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sea bass or grouper",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "carrots",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "harissa paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      }
     ],
     "steps": [
       "Clean and cut fish into large steaks, season with salt.",
@@ -41,7 +85,14 @@
       "Serve with extra harissa on the side for those who like it spicy."
     ],
     "difficulty": "medium",
-    "tags": ["tunisian", "couscous", "fish", "seafood", "spicy", "dinner"],
+    "tags": [
+      "tunisian",
+      "couscous",
+      "fish",
+      "seafood",
+      "spicy",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 38,
@@ -64,16 +115,56 @@
     "cooking_time_minutes": 10,
     "servings": 4,
     "ingredients": [
-      { "name": "malsouka or filo sheets", "amount": 4, "unit": "sheets" },
-      { "name": "eggs", "amount": 4, "unit": "pc" },
-      { "name": "canned tuna", "amount": 200, "unit": "g" },
-      { "name": "onion", "amount": 1, "unit": "small" },
-      { "name": "capers", "amount": 2, "unit": "tbsp" },
-      { "name": "fresh parsley", "amount": 0.25, "unit": "cup" },
-      { "name": "harissa", "amount": 1, "unit": "tsp" },
-      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
-      { "name": "vegetable oil for frying", "amount": 500, "unit": "ml" },
-      { "name": "salt and pepper", "amount": 1, "unit": "pinch" }
+      {
+        "name": "malsouka or filo sheets",
+        "amount": 4,
+        "unit": "sheets"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "canned tuna",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "small"
+      },
+      {
+        "name": "capers",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "harissa",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "salt and pepper",
+        "amount": 1,
+        "unit": "pinch"
+      }
     ],
     "steps": [
       "Drain tuna and mix with finely diced onion, capers, parsley, and harissa.",
@@ -93,7 +184,14 @@
       "Eat immediately - brik doesn't keep well."
     ],
     "difficulty": "medium",
-    "tags": ["tunisian", "appetizer", "fried", "egg", "tuna", "street-food"],
+    "tags": [
+      "tunisian",
+      "appetizer",
+      "fried",
+      "egg",
+      "tuna",
+      "street-food"
+    ],
     "nutrition": {
       "per_serving_kcal": 320,
       "protein_g": 18,
@@ -116,16 +214,56 @@
     "cooking_time_minutes": 30,
     "servings": 4,
     "ingredients": [
-      { "name": "chickpeas (cooked or canned)", "amount": 500, "unit": "g" },
-      { "name": "stale bread", "amount": 200, "unit": "g" },
-      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
-      { "name": "harissa paste", "amount": 2, "unit": "tbsp" },
-      { "name": "cumin", "amount": 2, "unit": "tsp" },
-      { "name": "extra virgin olive oil", "amount": 4, "unit": "tbsp" },
-      { "name": "eggs", "amount": 4, "unit": "pc" },
-      { "name": "preserved lemon", "amount": 1, "unit": "pc" },
-      { "name": "capers", "amount": 2, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "chickpeas (cooked or canned)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "stale bread",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "harissa paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "preserved lemon",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "capers",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Heat chickpeas in their cooking liquid or water until simmering.",
@@ -145,7 +283,14 @@
       "The broth should be quite soupy."
     ],
     "difficulty": "easy",
-    "tags": ["tunisian", "breakfast", "chickpeas", "street-food", "comfort-food", "vegetarian"],
+    "tags": [
+      "tunisian",
+      "breakfast",
+      "chickpeas",
+      "street-food",
+      "comfort-food",
+      "vegetarian"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 18,
@@ -168,16 +313,56 @@
     "cooking_time_minutes": 25,
     "servings": 4,
     "ingredients": [
-      { "name": "eggs", "amount": 6, "unit": "pc" },
-      { "name": "merguez sausages", "amount": 4, "unit": "pc" },
-      { "name": "tomatoes", "amount": 4, "unit": "large" },
-      { "name": "green peppers", "amount": 2, "unit": "pc" },
-      { "name": "onion", "amount": 1, "unit": "medium" },
-      { "name": "garlic cloves", "amount": 3, "unit": "pc" },
-      { "name": "harissa paste", "amount": 1, "unit": "tbsp" },
-      { "name": "caraway seeds", "amount": 1, "unit": "tsp" },
-      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "merguez sausages",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "green peppers",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "harissa paste",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "caraway seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Slice merguez and brown in a pan, set aside.",
@@ -196,7 +381,14 @@
       "Don't stir after adding the eggs."
     ],
     "difficulty": "easy",
-    "tags": ["tunisian", "eggs", "merguez", "spicy", "brunch", "dinner"],
+    "tags": [
+      "tunisian",
+      "eggs",
+      "merguez",
+      "spicy",
+      "brunch",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 24,
@@ -219,13 +411,41 @@
     "cooking_time_minutes": 20,
     "servings": 12,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
-      { "name": "instant yeast", "amount": 2, "unit": "tsp" },
-      { "name": "sugar", "amount": 2, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" },
-      { "name": "warm water", "amount": 300, "unit": "ml" },
-      { "name": "vegetable oil for frying", "amount": 1, "unit": "L" },
-      { "name": "granulated sugar for coating", "amount": 200, "unit": "g" }
+      {
+        "name": "all-purpose flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "instant yeast",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "warm water",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "granulated sugar for coating",
+        "amount": 200,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Mix flour, yeast, sugar, and salt in a large bowl.",
@@ -245,7 +465,14 @@
       "Eat within a few hours - they don't keep well."
     ],
     "difficulty": "easy",
-    "tags": ["tunisian", "dessert", "doughnut", "fried", "street-food", "sweet"],
+    "tags": [
+      "tunisian",
+      "dessert",
+      "doughnut",
+      "fried",
+      "street-food",
+      "sweet"
+    ],
     "nutrition": {
       "per_serving_kcal": 220,
       "protein_g": 4,
@@ -255,5 +482,1655 @@
     "nutrition_benefits": "A occasional treat providing quick energy. The simple ingredients make it a straightforward indulgence. Best enjoyed in moderation.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tn-brik-1",
+    "slug": "brik",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Brik",
+    "image": "assets/img/recipes/brik.jpg",
+    "short_description": "Crispy egg-filled pastry. Tunisian street food.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "brik pastry",
+        "amount": 4,
+        "unit": "sheets"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tuna",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Place filling.",
+      "Crack egg inside.",
+      "Fold triangle.",
+      "Fry until crispy."
+    ],
+    "cooking_tips": [
+      "Runny yolk.",
+      "Eat immediately.",
+      "Do not break yolk."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "tunisian",
+      "fried",
+      "eggs"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-couscous-1",
+    "slug": "couscous-tunisian",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Tunisian Couscous",
+    "image": "assets/img/recipes/couscous-tunisian.jpg",
+    "short_description": "Steamed couscous with lamb stew. National dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "couscous",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "vegetables",
+        "amount": 500,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Steam couscous.",
+      "Make lamb stew.",
+      "Add vegetables.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Steam multiple times.",
+      "Rich stew.",
+      "Friday tradition."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "tunisian",
+      "couscous",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-lablabi-1",
+    "slug": "lablabi",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Lablabi",
+    "image": "assets/img/recipes/lablabi.jpg",
+    "short_description": "Chickpea soup. Tunisian breakfast.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "bread",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "harissa",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook chickpeas in broth.",
+      "Tear bread in bowls.",
+      "Ladle soup over.",
+      "Add harissa and egg."
+    ],
+    "cooking_tips": [
+      "Stale bread best.",
+      "Very customizable.",
+      "Winter breakfast."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "soup",
+      "chickpeas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Plant protein.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tn-ojja-1",
+    "slug": "ojja",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Ojja",
+    "image": "assets/img/recipes/ojja.jpg",
+    "short_description": "Spicy tomato and egg dish. Tunisian shakshouka.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "harissa",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook tomatoes.",
+      "Add harissa.",
+      "Add eggs.",
+      "Cook until set."
+    ],
+    "cooking_tips": [
+      "Very spicy.",
+      "Runny yolks.",
+      "Serve with bread."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "eggs",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 12,
+      "fat_g": 12,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein from eggs.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tn-tajine-1",
+    "slug": "tajine-tunisian",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Tunisian Tajine",
+    "image": "assets/img/recipes/tajine-tunisian.jpg",
+    "short_description": "Baked egg and meat dish. Not a tagine pot.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "chicken",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook filling.",
+      "Mix with eggs.",
+      "Bake until set.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Like a frittata.",
+      "Many variations.",
+      "Serve cold too."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "tunisian",
+      "eggs",
+      "baked"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-chakchouka-1",
+    "slug": "chakchouka",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Chakchouka",
+    "image": "assets/img/recipes/chakchouka.jpg",
+    "short_description": "Pepper and tomato stew. Summer dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "bell peppers",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Roast peppers.",
+      "Cook with tomatoes.",
+      "Add eggs if desired.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "Smoky peppers.",
+      "Can add eggs.",
+      "Versatile dish."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "vegetables",
+      "summer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 6,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Vitamins from vegetables.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tn-mechouia-1",
+    "slug": "mechouia",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Mechouia",
+    "image": "assets/img/recipes/mechouia.jpg",
+    "short_description": "Grilled vegetable salad. Summer appetizer.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "peppers",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Grill vegetables.",
+      "Peel and chop.",
+      "Season with olive oil.",
+      "Top with tuna."
+    ],
+    "cooking_tips": [
+      "Char well.",
+      "Smoky flavor.",
+      "Serve cold."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "salad",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 8,
+      "fat_g": 8,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Antioxidants.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-mloukhia-1",
+    "slug": "mloukhia-tunisian",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Tunisian Mloukhia",
+    "image": "assets/img/recipes/mloukhia-tunisian.jpg",
+    "short_description": "Dried jute leaf stew. Unique flavor.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "dried mloukhia",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Rehydrate leaves.",
+      "Cook beef.",
+      "Add mloukhia.",
+      "Simmer long."
+    ],
+    "cooking_tips": [
+      "Dark green color.",
+      "Long cooking.",
+      "Serve over couscous."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "tunisian",
+      "stew",
+      "beef"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Iron-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-kamounia-1",
+    "slug": "kamounia",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Kamounia",
+    "image": "assets/img/recipes/kamounia.jpg",
+    "short_description": "Cumin liver stew. Traditional dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "liver",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Sear liver.",
+      "Add spices.",
+      "Add tomato paste.",
+      "Simmer briefly."
+    ],
+    "cooking_tips": [
+      "Do not overcook liver.",
+      "Lots of cumin.",
+      "Serve with bread."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "tunisian",
+      "liver",
+      "cumin"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 28,
+      "fat_g": 10,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Iron from liver.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-makroud-1",
+    "slug": "makroud",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Makroud",
+    "image": "assets/img/recipes/makroud.jpg",
+    "short_description": "Date-filled semolina cookies. Festive sweets.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "dates",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make semolina dough.",
+      "Fill with dates.",
+      "Shape and fry.",
+      "Soak in honey."
+    ],
+    "cooking_tips": [
+      "Roll thin.",
+      "Many shapes.",
+      "Traditional for Eid."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "tunisian",
+      "dessert",
+      "dates"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 160,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Natural sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tn-bambalouni-1",
+    "slug": "bambalouni",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Bambalouni",
+    "image": "assets/img/recipes/bambalouni.jpg",
+    "short_description": "Tunisian doughnuts. Street food sweet.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make yeasted dough.",
+      "Shape rings.",
+      "Deep fry.",
+      "Coat in sugar."
+    ],
+    "cooking_tips": [
+      "Hot oil.",
+      "Eat fresh.",
+      "Simple perfection."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "dessert",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Sweet treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tn-felfel-1",
+    "slug": "felfel-mahchi",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Felfel Mahchi",
+    "image": "assets/img/recipes/felfel-mahchi.jpg",
+    "short_description": "Stuffed peppers. Summer dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "bell peppers",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Hollow peppers.",
+      "Make meat filling.",
+      "Stuff peppers.",
+      "Bake in sauce."
+    ],
+    "cooking_tips": [
+      "Mix meat and rice.",
+      "Tomato sauce.",
+      "Family dinner."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "tunisian",
+      "stuffed",
+      "peppers"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-shorba-1",
+    "slug": "shorba-frik",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Shorba Frik",
+    "image": "assets/img/recipes/shorba-frik.jpg",
+    "short_description": "Freekeh soup. Ramadan soup.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "freekeh",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb.",
+      "Add freekeh.",
+      "Simmer until tender.",
+      "Season with herbs."
+    ],
+    "cooking_tips": [
+      "Smoky freekeh.",
+      "Hearty soup.",
+      "Ramadan tradition."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "tunisian",
+      "soup",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Fiber-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-asida-1",
+    "slug": "asida",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Asida",
+    "image": "assets/img/recipes/asida.jpg",
+    "short_description": "Semolina pudding. Simple dessert.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cook semolina.",
+      "Add butter.",
+      "Shape mound.",
+      "Drizzle honey."
+    ],
+    "cooking_tips": [
+      "Simple comfort.",
+      "Serve warm.",
+      "Traditional dessert."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "dessert",
+      "semolina"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 14,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tn-osban-1",
+    "slug": "osban",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Osban",
+    "image": "assets/img/recipes/osban.jpg",
+    "short_description": "Stuffed lamb tripe. Traditional dish.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lamb tripe",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "herbs",
+        "amount": 1,
+        "unit": "bunch"
+      }
+    ],
+    "steps": [
+      "Clean tripe.",
+      "Stuff with rice mixture.",
+      "Braise until tender.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Very thorough cleaning.",
+      "Traditional skill.",
+      "Special occasions."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "tunisian",
+      "offal",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Traditional protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-brik-1",
+    "slug": "brik",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Brik",
+    "image": "assets/img/recipes/brik.jpg",
+    "short_description": "Crispy egg-filled pastry. Tunisian street food.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "brik pastry",
+        "amount": 4,
+        "unit": "sheets"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tuna",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Place filling.",
+      "Crack egg inside.",
+      "Fold triangle.",
+      "Fry until crispy."
+    ],
+    "cooking_tips": [
+      "Runny yolk.",
+      "Eat immediately.",
+      "Do not break yolk."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "tunisian",
+      "fried",
+      "eggs"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-couscous-1",
+    "slug": "couscous-tunisian",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Tunisian Couscous",
+    "image": "assets/img/recipes/couscous-tunisian.jpg",
+    "short_description": "Steamed couscous with lamb stew. National dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "couscous",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "vegetables",
+        "amount": 500,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Steam couscous.",
+      "Make lamb stew.",
+      "Add vegetables.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Steam multiple times.",
+      "Rich stew.",
+      "Friday tradition."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "tunisian",
+      "couscous",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-lablabi-1",
+    "slug": "lablabi",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Lablabi",
+    "image": "assets/img/recipes/lablabi.jpg",
+    "short_description": "Chickpea soup. Tunisian breakfast.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "bread",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "harissa",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook chickpeas in broth.",
+      "Tear bread in bowls.",
+      "Ladle soup over.",
+      "Add harissa and egg."
+    ],
+    "cooking_tips": [
+      "Stale bread best.",
+      "Very customizable.",
+      "Winter breakfast."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "soup",
+      "chickpeas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Plant protein.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tn-ojja-1",
+    "slug": "ojja",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Ojja",
+    "image": "assets/img/recipes/ojja.jpg",
+    "short_description": "Spicy tomato and egg dish. Tunisian shakshouka.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "harissa",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook tomatoes.",
+      "Add harissa.",
+      "Add eggs.",
+      "Cook until set."
+    ],
+    "cooking_tips": [
+      "Very spicy.",
+      "Runny yolks.",
+      "Serve with bread."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "eggs",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 12,
+      "fat_g": 12,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein from eggs.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tn-tajine-1",
+    "slug": "tajine-tunisian",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Tunisian Tajine",
+    "image": "assets/img/recipes/tajine-tunisian.jpg",
+    "short_description": "Baked egg and meat dish. Not a tagine pot.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "chicken",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook filling.",
+      "Mix with eggs.",
+      "Bake until set.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Like a frittata.",
+      "Many variations.",
+      "Serve cold too."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "tunisian",
+      "eggs",
+      "baked"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-chakchouka-1",
+    "slug": "chakchouka",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Chakchouka",
+    "image": "assets/img/recipes/chakchouka.jpg",
+    "short_description": "Pepper and tomato stew. Summer dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "bell peppers",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Roast peppers.",
+      "Cook with tomatoes.",
+      "Add eggs if desired.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "Smoky peppers.",
+      "Can add eggs.",
+      "Versatile dish."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "vegetables",
+      "summer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 6,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Vitamins from vegetables.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tn-mechouia-1",
+    "slug": "mechouia",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Mechouia",
+    "image": "assets/img/recipes/mechouia.jpg",
+    "short_description": "Grilled vegetable salad. Summer appetizer.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "peppers",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Grill vegetables.",
+      "Peel and chop.",
+      "Season with olive oil.",
+      "Top with tuna."
+    ],
+    "cooking_tips": [
+      "Char well.",
+      "Smoky flavor.",
+      "Serve cold."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "salad",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 8,
+      "fat_g": 8,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Antioxidants.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-mloukhia-1",
+    "slug": "mloukhia-tunisian",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Tunisian Mloukhia",
+    "image": "assets/img/recipes/mloukhia-tunisian.jpg",
+    "short_description": "Dried jute leaf stew. Unique flavor.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "dried mloukhia",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Rehydrate leaves.",
+      "Cook beef.",
+      "Add mloukhia.",
+      "Simmer long."
+    ],
+    "cooking_tips": [
+      "Dark green color.",
+      "Long cooking.",
+      "Serve over couscous."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "tunisian",
+      "stew",
+      "beef"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Iron-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-kamounia-1",
+    "slug": "kamounia",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Kamounia",
+    "image": "assets/img/recipes/kamounia.jpg",
+    "short_description": "Cumin liver stew. Traditional dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "liver",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Sear liver.",
+      "Add spices.",
+      "Add tomato paste.",
+      "Simmer briefly."
+    ],
+    "cooking_tips": [
+      "Do not overcook liver.",
+      "Lots of cumin.",
+      "Serve with bread."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "tunisian",
+      "liver",
+      "cumin"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 28,
+      "fat_g": 10,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Iron from liver.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-makroud-1",
+    "slug": "makroud",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Makroud",
+    "image": "assets/img/recipes/makroud.jpg",
+    "short_description": "Date-filled semolina cookies. Festive sweets.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "dates",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make semolina dough.",
+      "Fill with dates.",
+      "Shape and fry.",
+      "Soak in honey."
+    ],
+    "cooking_tips": [
+      "Roll thin.",
+      "Many shapes.",
+      "Traditional for Eid."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "tunisian",
+      "dessert",
+      "dates"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 160,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Natural sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tn-bambalouni-1",
+    "slug": "bambalouni",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Bambalouni",
+    "image": "assets/img/recipes/bambalouni.jpg",
+    "short_description": "Tunisian doughnuts. Street food sweet.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make yeasted dough.",
+      "Shape rings.",
+      "Deep fry.",
+      "Coat in sugar."
+    ],
+    "cooking_tips": [
+      "Hot oil.",
+      "Eat fresh.",
+      "Simple perfection."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "dessert",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Sweet treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tn-felfel-1",
+    "slug": "felfel-mahchi",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Felfel Mahchi",
+    "image": "assets/img/recipes/felfel-mahchi.jpg",
+    "short_description": "Stuffed peppers. Summer dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "bell peppers",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Hollow peppers.",
+      "Make meat filling.",
+      "Stuff peppers.",
+      "Bake in sauce."
+    ],
+    "cooking_tips": [
+      "Mix meat and rice.",
+      "Tomato sauce.",
+      "Family dinner."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "tunisian",
+      "stuffed",
+      "peppers"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-shorba-1",
+    "slug": "shorba-frik",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Shorba Frik",
+    "image": "assets/img/recipes/shorba-frik.jpg",
+    "short_description": "Freekeh soup. Ramadan soup.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "freekeh",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb.",
+      "Add freekeh.",
+      "Simmer until tender.",
+      "Season with herbs."
+    ],
+    "cooking_tips": [
+      "Smoky freekeh.",
+      "Hearty soup.",
+      "Ramadan tradition."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "tunisian",
+      "soup",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Fiber-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tn-asida-1",
+    "slug": "asida",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Asida",
+    "image": "assets/img/recipes/asida.jpg",
+    "short_description": "Semolina pudding. Simple dessert.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cook semolina.",
+      "Add butter.",
+      "Shape mound.",
+      "Drizzle honey."
+    ],
+    "cooking_tips": [
+      "Simple comfort.",
+      "Serve warm.",
+      "Traditional dessert."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "tunisian",
+      "dessert",
+      "semolina"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 14,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tn-osban-1",
+    "slug": "osban",
+    "country": "Tunisia",
+    "country_slug": "tunisia",
+    "name_en": "Osban",
+    "image": "assets/img/recipes/osban.jpg",
+    "short_description": "Stuffed lamb tripe. Traditional dish.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lamb tripe",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "herbs",
+        "amount": 1,
+        "unit": "bunch"
+      }
+    ],
+    "steps": [
+      "Clean tripe.",
+      "Stuff with rice mixture.",
+      "Braise until tender.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Very thorough cleaning.",
+      "Traditional skill.",
+      "Special occasions."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "tunisian",
+      "offal",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Traditional protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
   }
 ]

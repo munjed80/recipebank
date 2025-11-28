@@ -285,19 +285,71 @@
     "cooking_time_minutes": 40,
     "servings": 6,
     "ingredients": [
-      {"name": "chicken thighs and drumsticks", "amount": 1, "unit": "kg"},
-      {"name": "long-grain rice", "amount": 400, "unit": "g"},
-      {"name": "fresh cilantro", "amount": 2, "unit": "bunches"},
-      {"name": "spinach leaves", "amount": 100, "unit": "g"},
-      {"name": "aji amarillo paste", "amount": 2, "unit": "tbsp"},
-      {"name": "garlic cloves", "amount": 6, "unit": "pc"},
-      {"name": "onion", "amount": 1, "unit": "large"},
-      {"name": "peas", "amount": 150, "unit": "g"},
-      {"name": "carrots", "amount": 2, "unit": "medium"},
-      {"name": "chicken broth", "amount": 600, "unit": "ml"},
-      {"name": "cumin", "amount": 1, "unit": "tsp"},
-      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"},
-      {"name": "salt", "amount": 1, "unit": "tsp"}
+      {
+        "name": "chicken thighs and drumsticks",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "long-grain rice",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "spinach leaves",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "aji amarillo paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "peas",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Season chicken pieces with salt, cumin, and minced garlic.",
@@ -319,7 +371,14 @@
       "Aji amarillo adds authentic Peruvian flavor - don't skip it."
     ],
     "difficulty": "medium",
-    "tags": ["peruvian", "chicken", "rice", "comfort-food", "dinner", "gluten-free"],
+    "tags": [
+      "peruvian",
+      "chicken",
+      "rice",
+      "comfort-food",
+      "dinner",
+      "gluten-free"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 32,
@@ -329,5 +388,1545 @@
     "nutrition_benefits": "Arroz con Pollo provides lean protein from chicken and complex carbohydrates from rice. Cilantro is rich in antioxidants and aids digestion. Peas and carrots add fiber and vitamins.",
     "mealType": "Dinner",
     "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "pe-ceviche-1",
+    "slug": "ceviche",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Ceviche",
+    "image": "assets/img/recipes/ceviche.jpg",
+    "short_description": "Fresh fish cured in lime juice. Peruvian national dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "white fish",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lime juice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "red onion",
+        "amount": 1,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Cube fresh fish.",
+      "Cover with lime juice.",
+      "Marinate briefly.",
+      "Add onion and chili."
+    ],
+    "cooking_tips": [
+      "Very fresh fish.",
+      "Quick marinate.",
+      "Serve immediately."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "fish",
+      "raw"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 28,
+      "fat_g": 2,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Lean protein.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-lomo-1",
+    "slug": "lomo-saltado",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Lomo Saltado",
+    "image": "assets/img/recipes/lomo-saltado.jpg",
+    "short_description": "Stir-fried beef with fries. Chifa fusion.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "french fries",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Stir-fry beef.",
+      "Add vegetables.",
+      "Add soy sauce.",
+      "Top with fries."
+    ],
+    "cooking_tips": [
+      "Very hot wok.",
+      "Quick cooking.",
+      "Peruvian-Chinese fusion."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "beef",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-aji-1",
+    "slug": "aji-de-gallina",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Aji de Gallina",
+    "image": "assets/img/recipes/aji-de-gallina.jpg",
+    "short_description": "Creamy chicken in aji sauce. Comfort classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "aji amarillo",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bread",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Poach chicken.",
+      "Make aji sauce.",
+      "Shred chicken.",
+      "Combine with sauce."
+    ],
+    "cooking_tips": [
+      "Creamy texture.",
+      "Mild heat.",
+      "Serve over rice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "chicken",
+      "creamy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Comfort food.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-causa-1",
+    "slug": "causa",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Causa Rellena",
+    "image": "assets/img/recipes/causa.jpg",
+    "short_description": "Layered potato terrine. Cold appetizer.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "aji amarillo",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tuna",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Mash potatoes.",
+      "Add aji and lime.",
+      "Layer with filling.",
+      "Chill and slice."
+    ],
+    "cooking_tips": [
+      "Yellow potatoes best.",
+      "Many fillings.",
+      "Serve cold."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "potato",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 10,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Potassium from potatoes.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-anticuchos-1",
+    "slug": "anticuchos",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Anticuchos",
+    "image": "assets/img/recipes/anticuchos.jpg",
+    "short_description": "Grilled beef heart skewers. Street food classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef heart",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "aji panca",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vinegar",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Marinate heart overnight.",
+      "Thread on skewers.",
+      "Grill over charcoal.",
+      "Baste while cooking."
+    ],
+    "cooking_tips": [
+      "Trim fat carefully.",
+      "Very hot grill.",
+      "Tender and flavorful."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "grilled",
+      "offal"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 32,
+      "fat_g": 8,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Iron-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-papa-1",
+    "slug": "papa-a-la-huancaina",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Papa a la Huancaina",
+    "image": "assets/img/recipes/papa-a-la-huancaina.jpg",
+    "short_description": "Potatoes with spicy cheese sauce. Classic appetizer.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "queso fresco",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "aji amarillo",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Boil potatoes.",
+      "Make cheese sauce.",
+      "Pour over potatoes.",
+      "Garnish with eggs."
+    ],
+    "cooking_tips": [
+      "Creamy sauce.",
+      "Yellow color.",
+      "Serve cold."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "peruvian",
+      "potato",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 16,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Calcium from cheese.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "pe-arroz-1",
+    "slug": "arroz-con-pollo",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Arroz con Pollo",
+    "image": "assets/img/recipes/arroz-con-pollo.jpg",
+    "short_description": "Green rice with chicken. Sunday lunch.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Blend cilantro.",
+      "Cook rice in green broth.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Bright green color.",
+      "Cilantro essential.",
+      "Family meal."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "rice",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 14,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-tacu-1",
+    "slug": "tacu-tacu",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Tacu Tacu",
+    "image": "assets/img/recipes/tacu-tacu.jpg",
+    "short_description": "Rice and beans pancake. Comfort food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Mix rice and beans.",
+      "Form patties.",
+      "Pan-fry until crispy.",
+      "Top with egg."
+    ],
+    "cooking_tips": [
+      "Use leftover rice.",
+      "Crispy outside.",
+      "Many toppings."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "peruvian",
+      "rice",
+      "beans"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "pe-pollo-1",
+    "slug": "pollo-a-la-brasa",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Pollo a la Brasa",
+    "image": "assets/img/recipes/pollo-a-la-brasa.jpg",
+    "short_description": "Peruvian rotisserie chicken. National treasure.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole chicken",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "aji panca",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 8,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Marinate overnight.",
+      "Rotisserie cook.",
+      "Baste frequently.",
+      "Serve with fries."
+    ],
+    "cooking_tips": [
+      "Charcoal adds flavor.",
+      "Crispy skin.",
+      "Green sauce essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "chicken",
+      "rotisserie"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 42,
+      "fat_g": 32,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-picarones-1",
+    "slug": "picarones",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Picarones",
+    "image": "assets/img/recipes/picarones.jpg",
+    "short_description": "Sweet potato doughnuts. Traditional dessert.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "sweet potato",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "squash",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chancaca",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook and mash vegetables.",
+      "Make dough.",
+      "Shape rings.",
+      "Fry and drizzle syrup."
+    ],
+    "cooking_tips": [
+      "Ring shape.",
+      "Hot syrup.",
+      "Street food."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "peruvian",
+      "dessert",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Natural sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "pe-seco-1",
+    "slug": "seco-de-res",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Seco de Res",
+    "image": "assets/img/recipes/seco-de-res.jpg",
+    "short_description": "Beef stew in cilantro sauce. Northern specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "cilantro",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "beer",
+        "amount": 1,
+        "unit": "bottle"
+      }
+    ],
+    "steps": [
+      "Brown beef.",
+      "Add cilantro and beer.",
+      "Simmer until tender.",
+      "Serve with beans."
+    ],
+    "cooking_tips": [
+      "Dark beer adds depth.",
+      "Lots of cilantro.",
+      "Serve with beans."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "beef",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Hearty and rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-suspiro-1",
+    "slug": "suspiro-limeno",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Suspiro Limeno",
+    "image": "assets/img/recipes/suspiro-limeno.jpg",
+    "short_description": "Caramel meringue dessert. Lima specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "condensed milk",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "port wine",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make dulce de leche.",
+      "Add yolks.",
+      "Make port meringue.",
+      "Top and chill."
+    ],
+    "cooking_tips": [
+      "Silky texture.",
+      "Light meringue.",
+      "Classic dessert."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "peruvian",
+      "dessert",
+      "caramel"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Sweet indulgence.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "pe-rocoto-1",
+    "slug": "rocoto-relleno",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Rocoto Relleno",
+    "image": "assets/img/recipes/rocoto-relleno.jpg",
+    "short_description": "Stuffed rocoto peppers. Arequipa specialty.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rocoto peppers",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "queso fresco",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Prepare peppers.",
+      "Make meat filling.",
+      "Stuff peppers.",
+      "Bake with cheese."
+    ],
+    "cooking_tips": [
+      "Very spicy peppers.",
+      "Soak to reduce heat.",
+      "Cheese melts on top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "stuffed",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-chicha-1",
+    "slug": "chicha-morada",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Chicha Morada",
+    "image": "assets/img/recipes/chicha-morada.jpg",
+    "short_description": "Purple corn drink. Traditional beverage.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "purple corn",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pineapple",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "sticks"
+      }
+    ],
+    "steps": [
+      "Boil corn with fruit.",
+      "Strain.",
+      "Add sugar.",
+      "Serve cold."
+    ],
+    "cooking_tips": [
+      "Deep purple color.",
+      "Antioxidant rich.",
+      "Refreshing."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "peruvian",
+      "drink",
+      "corn"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 1,
+      "fat_g": 0,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "Antioxidants.",
+    "mealType": "Beverage",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "pe-ceviche-1",
+    "slug": "ceviche",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Ceviche",
+    "image": "assets/img/recipes/ceviche.jpg",
+    "short_description": "Fresh fish cured in lime juice. Peruvian national dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "white fish",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lime juice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "red onion",
+        "amount": 1,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Cube fresh fish.",
+      "Cover with lime juice.",
+      "Marinate briefly.",
+      "Add onion and chili."
+    ],
+    "cooking_tips": [
+      "Very fresh fish.",
+      "Quick marinate.",
+      "Serve immediately."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "fish",
+      "raw"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 28,
+      "fat_g": 2,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Lean protein.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-lomo-1",
+    "slug": "lomo-saltado",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Lomo Saltado",
+    "image": "assets/img/recipes/lomo-saltado.jpg",
+    "short_description": "Stir-fried beef with fries. Chifa fusion.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "french fries",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Stir-fry beef.",
+      "Add vegetables.",
+      "Add soy sauce.",
+      "Top with fries."
+    ],
+    "cooking_tips": [
+      "Very hot wok.",
+      "Quick cooking.",
+      "Peruvian-Chinese fusion."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "beef",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-aji-1",
+    "slug": "aji-de-gallina",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Aji de Gallina",
+    "image": "assets/img/recipes/aji-de-gallina.jpg",
+    "short_description": "Creamy chicken in aji sauce. Comfort classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "aji amarillo",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bread",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Poach chicken.",
+      "Make aji sauce.",
+      "Shred chicken.",
+      "Combine with sauce."
+    ],
+    "cooking_tips": [
+      "Creamy texture.",
+      "Mild heat.",
+      "Serve over rice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "chicken",
+      "creamy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Comfort food.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-causa-1",
+    "slug": "causa",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Causa Rellena",
+    "image": "assets/img/recipes/causa.jpg",
+    "short_description": "Layered potato terrine. Cold appetizer.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "aji amarillo",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tuna",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Mash potatoes.",
+      "Add aji and lime.",
+      "Layer with filling.",
+      "Chill and slice."
+    ],
+    "cooking_tips": [
+      "Yellow potatoes best.",
+      "Many fillings.",
+      "Serve cold."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "potato",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 10,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Potassium from potatoes.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-anticuchos-1",
+    "slug": "anticuchos",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Anticuchos",
+    "image": "assets/img/recipes/anticuchos.jpg",
+    "short_description": "Grilled beef heart skewers. Street food classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef heart",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "aji panca",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vinegar",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Marinate heart overnight.",
+      "Thread on skewers.",
+      "Grill over charcoal.",
+      "Baste while cooking."
+    ],
+    "cooking_tips": [
+      "Trim fat carefully.",
+      "Very hot grill.",
+      "Tender and flavorful."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "grilled",
+      "offal"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 32,
+      "fat_g": 8,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Iron-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-papa-1",
+    "slug": "papa-a-la-huancaina",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Papa a la Huancaina",
+    "image": "assets/img/recipes/papa-a-la-huancaina.jpg",
+    "short_description": "Potatoes with spicy cheese sauce. Classic appetizer.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "queso fresco",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "aji amarillo",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Boil potatoes.",
+      "Make cheese sauce.",
+      "Pour over potatoes.",
+      "Garnish with eggs."
+    ],
+    "cooking_tips": [
+      "Creamy sauce.",
+      "Yellow color.",
+      "Serve cold."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "peruvian",
+      "potato",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 16,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Calcium from cheese.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "pe-arroz-1",
+    "slug": "arroz-con-pollo",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Arroz con Pollo",
+    "image": "assets/img/recipes/arroz-con-pollo.jpg",
+    "short_description": "Green rice with chicken. Sunday lunch.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Blend cilantro.",
+      "Cook rice in green broth.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Bright green color.",
+      "Cilantro essential.",
+      "Family meal."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "rice",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 14,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-tacu-1",
+    "slug": "tacu-tacu",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Tacu Tacu",
+    "image": "assets/img/recipes/tacu-tacu.jpg",
+    "short_description": "Rice and beans pancake. Comfort food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Mix rice and beans.",
+      "Form patties.",
+      "Pan-fry until crispy.",
+      "Top with egg."
+    ],
+    "cooking_tips": [
+      "Use leftover rice.",
+      "Crispy outside.",
+      "Many toppings."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "peruvian",
+      "rice",
+      "beans"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "pe-pollo-1",
+    "slug": "pollo-a-la-brasa",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Pollo a la Brasa",
+    "image": "assets/img/recipes/pollo-a-la-brasa.jpg",
+    "short_description": "Peruvian rotisserie chicken. National treasure.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole chicken",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "aji panca",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 8,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Marinate overnight.",
+      "Rotisserie cook.",
+      "Baste frequently.",
+      "Serve with fries."
+    ],
+    "cooking_tips": [
+      "Charcoal adds flavor.",
+      "Crispy skin.",
+      "Green sauce essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "chicken",
+      "rotisserie"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 42,
+      "fat_g": 32,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-picarones-1",
+    "slug": "picarones",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Picarones",
+    "image": "assets/img/recipes/picarones.jpg",
+    "short_description": "Sweet potato doughnuts. Traditional dessert.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "sweet potato",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "squash",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chancaca",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook and mash vegetables.",
+      "Make dough.",
+      "Shape rings.",
+      "Fry and drizzle syrup."
+    ],
+    "cooking_tips": [
+      "Ring shape.",
+      "Hot syrup.",
+      "Street food."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "peruvian",
+      "dessert",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Natural sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "pe-seco-1",
+    "slug": "seco-de-res",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Seco de Res",
+    "image": "assets/img/recipes/seco-de-res.jpg",
+    "short_description": "Beef stew in cilantro sauce. Northern specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "cilantro",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "beer",
+        "amount": 1,
+        "unit": "bottle"
+      }
+    ],
+    "steps": [
+      "Brown beef.",
+      "Add cilantro and beer.",
+      "Simmer until tender.",
+      "Serve with beans."
+    ],
+    "cooking_tips": [
+      "Dark beer adds depth.",
+      "Lots of cilantro.",
+      "Serve with beans."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "beef",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Hearty and rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-suspiro-1",
+    "slug": "suspiro-limeno",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Suspiro Limeno",
+    "image": "assets/img/recipes/suspiro-limeno.jpg",
+    "short_description": "Caramel meringue dessert. Lima specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "condensed milk",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "port wine",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make dulce de leche.",
+      "Add yolks.",
+      "Make port meringue.",
+      "Top and chill."
+    ],
+    "cooking_tips": [
+      "Silky texture.",
+      "Light meringue.",
+      "Classic dessert."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "peruvian",
+      "dessert",
+      "caramel"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Sweet indulgence.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "pe-rocoto-1",
+    "slug": "rocoto-relleno",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Rocoto Relleno",
+    "image": "assets/img/recipes/rocoto-relleno.jpg",
+    "short_description": "Stuffed rocoto peppers. Arequipa specialty.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rocoto peppers",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "queso fresco",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Prepare peppers.",
+      "Make meat filling.",
+      "Stuff peppers.",
+      "Bake with cheese."
+    ],
+    "cooking_tips": [
+      "Very spicy peppers.",
+      "Soak to reduce heat.",
+      "Cheese melts on top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "peruvian",
+      "stuffed",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "pe-chicha-1",
+    "slug": "chicha-morada",
+    "country": "Peru",
+    "country_slug": "peru",
+    "name_en": "Chicha Morada",
+    "image": "assets/img/recipes/chicha-morada.jpg",
+    "short_description": "Purple corn drink. Traditional beverage.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "purple corn",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pineapple",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "sticks"
+      }
+    ],
+    "steps": [
+      "Boil corn with fruit.",
+      "Strain.",
+      "Add sugar.",
+      "Serve cold."
+    ],
+    "cooking_tips": [
+      "Deep purple color.",
+      "Antioxidant rich.",
+      "Refreshing."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "peruvian",
+      "drink",
+      "corn"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 1,
+      "fat_g": 0,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "Antioxidants.",
+    "mealType": "Beverage",
+    "dietaryStyle": "Vegan"
   }
 ]

@@ -279,17 +279,61 @@
     "cooking_time_minutes": 30,
     "servings": 6,
     "ingredients": [
-      {"name": "white fish fillets", "amount": 800, "unit": "g"},
-      {"name": "shrimp", "amount": 300, "unit": "g"},
-      {"name": "coconut milk", "amount": 400, "unit": "ml"},
-      {"name": "dendê oil", "amount": 3, "unit": "tbsp"},
-      {"name": "onion", "amount": 2, "unit": "large"},
-      {"name": "bell peppers", "amount": 2, "unit": "pc"},
-      {"name": "tomatoes", "amount": 3, "unit": "medium"},
-      {"name": "garlic", "amount": 4, "unit": "cloves"},
-      {"name": "lime juice", "amount": 3, "unit": "tbsp"},
-      {"name": "fresh cilantro", "amount": 0.5, "unit": "cup"},
-      {"name": "salt", "amount": 1, "unit": "tsp"}
+      {
+        "name": "white fish fillets",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "dendê oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "bell peppers",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "lime juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Marinate fish and shrimp in lime juice, garlic, and salt for 30 minutes.",
@@ -307,7 +351,15 @@
       "Dendê oil is essential for authentic Bahian flavor and color."
     ],
     "difficulty": "medium",
-    "tags": ["brazilian", "seafood", "fish", "stew", "bahian", "dinner", "gluten-free"],
+    "tags": [
+      "brazilian",
+      "seafood",
+      "fish",
+      "stew",
+      "bahian",
+      "dinner",
+      "gluten-free"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 38,
@@ -317,5 +369,1535 @@
     "nutrition_benefits": "Moqueca is rich in omega-3 fatty acids from fish and healthy fats from coconut milk. Dendê oil provides vitamin A and antioxidants. The combination of seafood and vegetables makes it a nutritionally complete meal.",
     "mealType": "Dinner",
     "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "br-feijoada-1",
+    "slug": "feijoada",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Feijoada",
+    "image": "assets/img/recipes/feijoada.jpg",
+    "short_description": "Black bean stew with pork. Brazilian national dish.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 180,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "black beans",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "pork shoulder",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sausage",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak beans overnight.",
+      "Brown meats.",
+      "Simmer together.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Many meat cuts.",
+      "Saturday tradition.",
+      "Serve with farofa."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "brazilian",
+      "beans",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 26,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-picanha-2",
+    "slug": "picanha",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Picanha",
+    "image": "assets/img/recipes/picanha.jpg",
+    "short_description": "Top sirloin cap on skewers. Churrasco classic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "picanha",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "coarse salt",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cut into steaks.",
+      "Season with salt.",
+      "Grill to medium rare.",
+      "Slice thin."
+    ],
+    "cooking_tips": [
+      "Keep fat cap.",
+      "Grill over charcoal.",
+      "Rest before slicing."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "beef",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 45,
+      "fat_g": 28,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "Pure protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "br-pao-3",
+    "slug": "pao-de-queijo",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Pao de Queijo",
+    "image": "assets/img/recipes/pao-de-queijo.jpg",
+    "short_description": "Cheese bread balls. Minas Gerais specialty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "tapioca flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Scald flour with oil.",
+      "Add eggs and cheese.",
+      "Form balls.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Chewy texture.",
+      "Use queijo minas.",
+      "Serve warm."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "cheese",
+      "bread"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 3,
+      "fat_g": 4,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Gluten-free.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "br-moqueca-4",
+    "slug": "moqueca",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Moqueca",
+    "image": "assets/img/recipes/moqueca.jpg",
+    "short_description": "Fish stew in coconut milk. Bahian specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "fish",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "dende oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate fish.",
+      "Layer in pot.",
+      "Add coconut milk.",
+      "Cook gently."
+    ],
+    "cooking_tips": [
+      "Use dende oil.",
+      "Do not stir much.",
+      "Serve with rice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "fish",
+      "coconut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 24,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-coxinha-5",
+    "slug": "coxinha",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Coxinha",
+    "image": "assets/img/recipes/coxinha.jpg",
+    "short_description": "Chicken croquettes. Teardrop shaped.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Shred chicken.",
+      "Shape teardrops.",
+      "Bread and fry."
+    ],
+    "cooking_tips": [
+      "Smooth dough.",
+      "Shape like drumsticks.",
+      "Fry until golden."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "brazilian",
+      "chicken",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-acai-6",
+    "slug": "acai-bowl",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Acai Bowl",
+    "image": "assets/img/recipes/acai-bowl.jpg",
+    "short_description": "Frozen acai with toppings. Amazonian superfood.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 0,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "acai",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "banana",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "granola",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Blend acai.",
+      "Pour into bowl.",
+      "Add toppings.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Keep frozen.",
+      "Many topping options.",
+      "Nutrient dense."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "acai",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Antioxidant rich.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "br-acaraje-7",
+    "slug": "acaraje",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Acaraje",
+    "image": "assets/img/recipes/acaraje.jpg",
+    "short_description": "Fried black-eyed pea fritters. Bahian street food.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "black-eyed peas",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "dende oil",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Soak and peel peas.",
+      "Blend to paste.",
+      "Fry in dende oil.",
+      "Fill with vatapa."
+    ],
+    "cooking_tips": [
+      "Remove all skins.",
+      "Use dende oil.",
+      "Serve hot."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "brazilian",
+      "fried",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Plant protein.",
+    "mealType": "Snack",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-farofa-8",
+    "slug": "farofa",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Farofa",
+    "image": "assets/img/recipes/farofa.jpg",
+    "short_description": "Toasted cassava flour. Essential side dish.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "cassava flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "bacon",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook bacon.",
+      "Add butter.",
+      "Toast flour.",
+      "Season and serve."
+    ],
+    "cooking_tips": [
+      "Toast until golden.",
+      "Many variations.",
+      "Essential with feijoada."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "side",
+      "cassava"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Side",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-brigadeiro-9",
+    "slug": "brigadeiro",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Brigadeiro",
+    "image": "assets/img/recipes/brigadeiro.jpg",
+    "short_description": "Chocolate fudge balls. Birthday party essential.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "condensed milk",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cocoa powder",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "butter",
+        "amount": 30,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook mixture until thick.",
+      "Cool completely.",
+      "Roll into balls.",
+      "Coat with sprinkles."
+    ],
+    "cooking_tips": [
+      "Stir constantly.",
+      "Cool before rolling.",
+      "Roll with greased hands."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "dessert",
+      "chocolate"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 1,
+      "fat_g": 2,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Sweet treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "br-caipirinha-10",
+    "slug": "caipirinha",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Caipirinha",
+    "image": "assets/img/recipes/caipirinha.jpg",
+    "short_description": "Lime and cachaca cocktail. National drink.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 0,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "lime",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "cachaca",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Muddle lime with sugar.",
+      "Add cachaca.",
+      "Add ice.",
+      "Stir and serve."
+    ],
+    "cooking_tips": [
+      "Use cachaca.",
+      "Muddle well.",
+      "Fresh lime."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "cocktail",
+      "lime"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 0,
+      "fat_g": 0,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Refreshing cocktail.",
+    "mealType": "Beverage",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "br-vatapa-11",
+    "slug": "vatapa",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Vatapa",
+    "image": "assets/img/recipes/vatapa.jpg",
+    "short_description": "Shrimp and bread paste. Bahian specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "bread",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook shrimp.",
+      "Soak bread.",
+      "Blend together.",
+      "Simmer until thick."
+    ],
+    "cooking_tips": [
+      "Use dende oil.",
+      "Creamy texture.",
+      "Filling for acaraje."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "shrimp",
+      "bahian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Protein from shrimp.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-virado-12",
+    "slug": "virado-paulista",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Virado a Paulista",
+    "image": "assets/img/recipes/virado-paulista.jpg",
+    "short_description": "Sao Paulo beans and pork. Traditional plate.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beans",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pork chops",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook beans.",
+      "Fry pork chops.",
+      "Fry eggs.",
+      "Serve with cabbage."
+    ],
+    "cooking_tips": [
+      "Complete plate.",
+      "Many components.",
+      "Traditional lunch."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "beans",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-baiao-13",
+    "slug": "baiao-de-dois",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Baiao de Dois",
+    "image": "assets/img/recipes/baiao-de-dois.jpg",
+    "short_description": "Rice and beans with cheese. Northeastern comfort.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "cheese",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook rice and beans together.",
+      "Add cheese.",
+      "Stir until melted.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Use queijo coalho.",
+      "Creamy texture.",
+      "Add bacon."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "rice",
+      "beans"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "br-bobó-14",
+    "slug": "bobo-de-camarao",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Bobo de Camarao",
+    "image": "assets/img/recipes/bobo-de-camarao.jpg",
+    "short_description": "Shrimp in cassava cream. Bahian delicacy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "cassava",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook cassava.",
+      "Blend until smooth.",
+      "Saute shrimp.",
+      "Combine with cream."
+    ],
+    "cooking_tips": [
+      "Creamy base.",
+      "Large shrimp.",
+      "Use dende oil."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "shrimp",
+      "cassava"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Protein from shrimp.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-feijoada-1",
+    "slug": "feijoada",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Feijoada",
+    "image": "assets/img/recipes/feijoada.jpg",
+    "short_description": "Black bean stew with pork. Brazilian national dish.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 180,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "black beans",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "pork shoulder",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sausage",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak beans overnight.",
+      "Brown meats.",
+      "Simmer together.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Many meat cuts.",
+      "Saturday tradition.",
+      "Serve with farofa."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "brazilian",
+      "beans",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 26,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-picanha-2",
+    "slug": "picanha",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Picanha",
+    "image": "assets/img/recipes/picanha.jpg",
+    "short_description": "Top sirloin cap on skewers. Churrasco classic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "picanha",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "coarse salt",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cut into steaks.",
+      "Season with salt.",
+      "Grill to medium rare.",
+      "Slice thin."
+    ],
+    "cooking_tips": [
+      "Keep fat cap.",
+      "Grill over charcoal.",
+      "Rest before slicing."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "beef",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 45,
+      "fat_g": 28,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "Pure protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "br-pao-3",
+    "slug": "pao-de-queijo",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Pao de Queijo",
+    "image": "assets/img/recipes/pao-de-queijo.jpg",
+    "short_description": "Cheese bread balls. Minas Gerais specialty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "tapioca flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Scald flour with oil.",
+      "Add eggs and cheese.",
+      "Form balls.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Chewy texture.",
+      "Use queijo minas.",
+      "Serve warm."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "cheese",
+      "bread"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 3,
+      "fat_g": 4,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Gluten-free.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "br-moqueca-4",
+    "slug": "moqueca",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Moqueca",
+    "image": "assets/img/recipes/moqueca.jpg",
+    "short_description": "Fish stew in coconut milk. Bahian specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "fish",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "dende oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate fish.",
+      "Layer in pot.",
+      "Add coconut milk.",
+      "Cook gently."
+    ],
+    "cooking_tips": [
+      "Use dende oil.",
+      "Do not stir much.",
+      "Serve with rice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "fish",
+      "coconut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 24,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-coxinha-5",
+    "slug": "coxinha",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Coxinha",
+    "image": "assets/img/recipes/coxinha.jpg",
+    "short_description": "Chicken croquettes. Teardrop shaped.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Shred chicken.",
+      "Shape teardrops.",
+      "Bread and fry."
+    ],
+    "cooking_tips": [
+      "Smooth dough.",
+      "Shape like drumsticks.",
+      "Fry until golden."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "brazilian",
+      "chicken",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-acai-6",
+    "slug": "acai-bowl",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Acai Bowl",
+    "image": "assets/img/recipes/acai-bowl.jpg",
+    "short_description": "Frozen acai with toppings. Amazonian superfood.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 0,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "acai",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "banana",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "granola",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Blend acai.",
+      "Pour into bowl.",
+      "Add toppings.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Keep frozen.",
+      "Many topping options.",
+      "Nutrient dense."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "acai",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Antioxidant rich.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "br-acaraje-7",
+    "slug": "acaraje",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Acaraje",
+    "image": "assets/img/recipes/acaraje.jpg",
+    "short_description": "Fried black-eyed pea fritters. Bahian street food.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "black-eyed peas",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "dende oil",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Soak and peel peas.",
+      "Blend to paste.",
+      "Fry in dende oil.",
+      "Fill with vatapa."
+    ],
+    "cooking_tips": [
+      "Remove all skins.",
+      "Use dende oil.",
+      "Serve hot."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "brazilian",
+      "fried",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Plant protein.",
+    "mealType": "Snack",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-farofa-8",
+    "slug": "farofa",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Farofa",
+    "image": "assets/img/recipes/farofa.jpg",
+    "short_description": "Toasted cassava flour. Essential side dish.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "cassava flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "bacon",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook bacon.",
+      "Add butter.",
+      "Toast flour.",
+      "Season and serve."
+    ],
+    "cooking_tips": [
+      "Toast until golden.",
+      "Many variations.",
+      "Essential with feijoada."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "side",
+      "cassava"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Side",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-brigadeiro-9",
+    "slug": "brigadeiro",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Brigadeiro",
+    "image": "assets/img/recipes/brigadeiro.jpg",
+    "short_description": "Chocolate fudge balls. Birthday party essential.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "condensed milk",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cocoa powder",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "butter",
+        "amount": 30,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook mixture until thick.",
+      "Cool completely.",
+      "Roll into balls.",
+      "Coat with sprinkles."
+    ],
+    "cooking_tips": [
+      "Stir constantly.",
+      "Cool before rolling.",
+      "Roll with greased hands."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "dessert",
+      "chocolate"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 1,
+      "fat_g": 2,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Sweet treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "br-caipirinha-10",
+    "slug": "caipirinha",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Caipirinha",
+    "image": "assets/img/recipes/caipirinha.jpg",
+    "short_description": "Lime and cachaca cocktail. National drink.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 0,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "lime",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "cachaca",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Muddle lime with sugar.",
+      "Add cachaca.",
+      "Add ice.",
+      "Stir and serve."
+    ],
+    "cooking_tips": [
+      "Use cachaca.",
+      "Muddle well.",
+      "Fresh lime."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "cocktail",
+      "lime"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 0,
+      "fat_g": 0,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Refreshing cocktail.",
+    "mealType": "Beverage",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "br-vatapa-11",
+    "slug": "vatapa",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Vatapa",
+    "image": "assets/img/recipes/vatapa.jpg",
+    "short_description": "Shrimp and bread paste. Bahian specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "bread",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook shrimp.",
+      "Soak bread.",
+      "Blend together.",
+      "Simmer until thick."
+    ],
+    "cooking_tips": [
+      "Use dende oil.",
+      "Creamy texture.",
+      "Filling for acaraje."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "shrimp",
+      "bahian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Protein from shrimp.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-virado-12",
+    "slug": "virado-paulista",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Virado a Paulista",
+    "image": "assets/img/recipes/virado-paulista.jpg",
+    "short_description": "Sao Paulo beans and pork. Traditional plate.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beans",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pork chops",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook beans.",
+      "Fry pork chops.",
+      "Fry eggs.",
+      "Serve with cabbage."
+    ],
+    "cooking_tips": [
+      "Complete plate.",
+      "Many components.",
+      "Traditional lunch."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "beans",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "br-baiao-13",
+    "slug": "baiao-de-dois",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Baiao de Dois",
+    "image": "assets/img/recipes/baiao-de-dois.jpg",
+    "short_description": "Rice and beans with cheese. Northeastern comfort.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "cheese",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook rice and beans together.",
+      "Add cheese.",
+      "Stir until melted.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Use queijo coalho.",
+      "Creamy texture.",
+      "Add bacon."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "brazilian",
+      "rice",
+      "beans"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "br-bobó-14",
+    "slug": "bobo-de-camarao",
+    "country": "Brazil",
+    "country_slug": "brazil",
+    "name_en": "Bobo de Camarao",
+    "image": "assets/img/recipes/bobo-de-camarao.jpg",
+    "short_description": "Shrimp in cassava cream. Bahian delicacy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "cassava",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook cassava.",
+      "Blend until smooth.",
+      "Saute shrimp.",
+      "Combine with cream."
+    ],
+    "cooking_tips": [
+      "Creamy base.",
+      "Large shrimp.",
+      "Use dende oil."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "brazilian",
+      "shrimp",
+      "cassava"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Protein from shrimp.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
   }
 ]

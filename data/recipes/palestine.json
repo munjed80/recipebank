@@ -11,17 +11,61 @@
     "cooking_time_minutes": 90,
     "servings": 8,
     "ingredients": [
-      { "name": "chicken pieces", "amount": 1, "unit": "kg" },
-      { "name": "basmati rice", "amount": 500, "unit": "g" },
-      { "name": "eggplant", "amount": 2, "unit": "large" },
-      { "name": "cauliflower", "amount": 1, "unit": "head" },
-      { "name": "potatoes", "amount": 3, "unit": "medium" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "tomatoes", "amount": 2, "unit": "pc" },
-      { "name": "baharat spice", "amount": 2, "unit": "tbsp" },
-      { "name": "turmeric", "amount": 1, "unit": "tsp" },
-      { "name": "vegetable oil", "amount": 200, "unit": "ml" },
-      { "name": "pine nuts", "amount": 50, "unit": "g" }
+      {
+        "name": "chicken pieces",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "basmati rice",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "cauliflower",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "baharat spice",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 50,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Slice eggplant and potatoes, salt and let drain for 30 minutes.",
@@ -42,7 +86,14 @@
       "Serve immediately to maintain the tower shape."
     ],
     "difficulty": "hard",
-    "tags": ["palestinian", "rice", "chicken", "festive", "traditional", "dinner"],
+    "tags": [
+      "palestinian",
+      "rice",
+      "chicken",
+      "festive",
+      "traditional",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 580,
       "protein_g": 32,
@@ -65,15 +116,51 @@
     "cooking_time_minutes": 90,
     "servings": 6,
     "ingredients": [
-      { "name": "whole chicken", "amount": 1.5, "unit": "kg" },
-      { "name": "large onions", "amount": 6, "unit": "pc" },
-      { "name": "sumac", "amount": 4, "unit": "tbsp" },
-      { "name": "olive oil", "amount": 150, "unit": "ml" },
-      { "name": "taboon or pita bread", "amount": 4, "unit": "large" },
-      { "name": "pine nuts", "amount": 100, "unit": "g" },
-      { "name": "allspice", "amount": 1, "unit": "tsp" },
-      { "name": "salt", "amount": 2, "unit": "tsp" },
-      { "name": "black pepper", "amount": 1, "unit": "tsp" }
+      {
+        "name": "whole chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "large onions",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "sumac",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "taboon or pita bread",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Quarter the chicken and season with salt, pepper, and allspice.",
@@ -94,7 +181,14 @@
       "Traditionally eaten with hands, pulling apart the bread."
     ],
     "difficulty": "medium",
-    "tags": ["palestinian", "chicken", "sumac", "traditional", "national-dish", "dinner"],
+    "tags": [
+      "palestinian",
+      "chicken",
+      "sumac",
+      "traditional",
+      "national-dish",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 620,
       "protein_g": 38,
@@ -117,16 +211,56 @@
     "cooking_time_minutes": 60,
     "servings": 6,
     "ingredients": [
-      { "name": "maftoul (Palestinian couscous)", "amount": 400, "unit": "g" },
-      { "name": "chicken thighs", "amount": 6, "unit": "pc" },
-      { "name": "chickpeas (cooked)", "amount": 200, "unit": "g" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "carrots", "amount": 2, "unit": "pc" },
-      { "name": "cinnamon stick", "amount": 1, "unit": "pc" },
-      { "name": "allspice", "amount": 1, "unit": "tsp" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
-      { "name": "chicken broth", "amount": 1, "unit": "L" }
+      {
+        "name": "maftoul (Palestinian couscous)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chicken thighs",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "chickpeas (cooked)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 1,
+        "unit": "L"
+      }
     ],
     "steps": [
       "Brown chicken thighs in olive oil, set aside.",
@@ -146,7 +280,14 @@
       "Squeeze lemon over before eating for brightness."
     ],
     "difficulty": "medium",
-    "tags": ["palestinian", "couscous", "chicken", "chickpeas", "traditional", "dinner"],
+    "tags": [
+      "palestinian",
+      "couscous",
+      "chicken",
+      "chickpeas",
+      "traditional",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 35,
@@ -169,15 +310,51 @@
     "cooking_time_minutes": 30,
     "servings": 12,
     "ingredients": [
-      { "name": "kataifi (shredded phyllo)", "amount": 500, "unit": "g" },
-      { "name": "Nabulsi or mozzarella cheese", "amount": 500, "unit": "g" },
-      { "name": "butter", "amount": 200, "unit": "g" },
-      { "name": "sugar", "amount": 400, "unit": "g" },
-      { "name": "water", "amount": 300, "unit": "ml" },
-      { "name": "orange food coloring", "amount": 1, "unit": "tsp" },
-      { "name": "rose water", "amount": 1, "unit": "tbsp" },
-      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
-      { "name": "crushed pistachios", "amount": 50, "unit": "g" }
+      {
+        "name": "kataifi (shredded phyllo)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Nabulsi or mozzarella cheese",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "orange food coloring",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "rose water",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "crushed pistachios",
+        "amount": 50,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Make syrup: boil sugar and water until dissolved, add lemon juice.",
@@ -198,7 +375,14 @@
       "Best served immediately while cheese is still stretchy."
     ],
     "difficulty": "medium",
-    "tags": ["palestinian", "dessert", "cheese", "sweet", "traditional", "nablus"],
+    "tags": [
+      "palestinian",
+      "dessert",
+      "cheese",
+      "sweet",
+      "traditional",
+      "nablus"
+    ],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 10,
@@ -221,16 +405,56 @@
     "cooking_time_minutes": 120,
     "servings": 8,
     "ingredients": [
-      { "name": "lamb shoulder", "amount": 1.5, "unit": "kg" },
-      { "name": "basmati rice", "amount": 500, "unit": "g" },
-      { "name": "jameed (dried yogurt)", "amount": 400, "unit": "g" },
-      { "name": "pine nuts", "amount": 100, "unit": "g" },
-      { "name": "almonds", "amount": 50, "unit": "g" },
-      { "name": "shrak bread", "amount": 4, "unit": "sheets" },
-      { "name": "allspice", "amount": 1, "unit": "tbsp" },
-      { "name": "turmeric", "amount": 1, "unit": "tsp" },
-      { "name": "ghee", "amount": 4, "unit": "tbsp" },
-      { "name": "salt", "amount": 2, "unit": "tsp" }
+      {
+        "name": "lamb shoulder",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "basmati rice",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "jameed (dried yogurt)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "shrak bread",
+        "amount": 4,
+        "unit": "sheets"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ghee",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Soak jameed in water for several hours, then blend until smooth.",
@@ -251,7 +475,14 @@
       "Traditionally served on a large communal platter."
     ],
     "difficulty": "hard",
-    "tags": ["palestinian", "lamb", "rice", "festive", "traditional", "ceremonial"],
+    "tags": [
+      "palestinian",
+      "lamb",
+      "rice",
+      "festive",
+      "traditional",
+      "ceremonial"
+    ],
     "nutrition": {
       "per_serving_kcal": 680,
       "protein_g": 42,
@@ -261,5 +492,1655 @@
     "nutrition_benefits": "Lamb is rich in iron and B12. Jameed provides probiotics from fermentation. A complete celebratory meal with protein, carbs, and fats.",
     "mealType": "Dinner",
     "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ps-maqluba-1",
+    "slug": "maqluba",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Maqluba",
+    "image": "assets/img/recipes/maqluba.jpg",
+    "short_description": "Upside-down rice with meat and vegetables. Palestinian national dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Fry vegetables.",
+      "Layer meat, veggies, rice.",
+      "Cook covered.",
+      "Flip onto platter."
+    ],
+    "cooking_tips": [
+      "Press layers firmly.",
+      "Let rest before flipping.",
+      "Dramatic presentation."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "rice",
+      "layered"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-musakhan-1",
+    "slug": "musakhan",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Musakhan",
+    "image": "assets/img/recipes/musakhan.jpg",
+    "short_description": "Sumac chicken on taboon bread. Palestinian comfort food.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "sumac",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Caramelize onions.",
+      "Add sumac.",
+      "Roast chicken.",
+      "Serve on bread."
+    ],
+    "cooking_tips": [
+      "Lots of onions.",
+      "Deep purple color.",
+      "Olive oil essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "chicken",
+      "sumac"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Antioxidants from sumac.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-fatteh-1",
+    "slug": "fatteh-palestinian",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Palestinian Fatteh",
+    "image": "assets/img/recipes/fatteh-palestinian.jpg",
+    "short_description": "Layered bread, chickpeas, and yogurt. Breakfast favorite.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pita bread",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "yogurt",
+        "amount": 500,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Toast bread.",
+      "Warm chickpeas.",
+      "Make garlic yogurt.",
+      "Layer and serve."
+    ],
+    "cooking_tips": [
+      "Crispy bread.",
+      "Hot chickpeas on cold yogurt.",
+      "Pine nuts on top."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "palestinian",
+      "breakfast",
+      "yogurt"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 16,
+      "fat_g": 16,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Protein from chickpeas.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ps-freekeh-1",
+    "slug": "freekeh",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Freekeh",
+    "image": "assets/img/recipes/freekeh.jpg",
+    "short_description": "Roasted green wheat with chicken. Smoky grain dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "freekeh",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Toast freekeh.",
+      "Cook in chicken broth.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Smoky flavor.",
+      "Nutty texture.",
+      "Healthy grain."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "grains",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 14,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "High fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-maftoul-1",
+    "slug": "maftoul",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Maftoul",
+    "image": "assets/img/recipes/maftoul.jpg",
+    "short_description": "Palestinian giant couscous. Handmade grain.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "maftoul",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Steam maftoul.",
+      "Cook chicken in broth.",
+      "Add chickpeas.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Handrolled grains.",
+      "Steam, not boil.",
+      "Traditional dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "couscous",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 12,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-kanafeh-1",
+    "slug": "kanafeh",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Kanafeh",
+    "image": "assets/img/recipes/kanafeh.jpg",
+    "short_description": "Cheese pastry in syrup. Nablus specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "kataifi",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "nabulsi cheese",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sugar syrup",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Butter kataifi.",
+      "Layer with cheese.",
+      "Bake until golden.",
+      "Soak in syrup."
+    ],
+    "cooking_tips": [
+      "Desalt cheese.",
+      "Serve hot.",
+      "Stretchy cheese."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "palestinian",
+      "dessert",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Calcium from cheese.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ps-shakshouka-1",
+    "slug": "shakshouka-palestinian",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Palestinian Shakshouka",
+    "image": "assets/img/recipes/shakshouka-palestinian.jpg",
+    "short_description": "Eggs poached in tomato sauce. Breakfast classic.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook tomato sauce.",
+      "Make wells.",
+      "Add eggs.",
+      "Cover until set."
+    ],
+    "cooking_tips": [
+      "Runny yolks.",
+      "Serve with bread.",
+      "Quick meal."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "palestinian",
+      "eggs",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 14,
+      "fat_g": 14,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from eggs.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ps-hummus-kawareh",
+    "slug": "hummus-kawareh",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Hummus Kawareh",
+    "image": "assets/img/recipes/hummus-kawareh.jpg",
+    "short_description": "Hummus topped with lamb leg. Rich variation.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb leg",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tahini",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cook lamb until tender.",
+      "Make hummus.",
+      "Top hummus with lamb.",
+      "Garnish with pine nuts."
+    ],
+    "cooking_tips": [
+      "Fall-off-bone lamb.",
+      "Creamy hummus.",
+      "Festive dish."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "palestinian",
+      "hummus",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-rummaniyeh",
+    "slug": "rummaniyeh",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Rummaniyeh",
+    "image": "assets/img/recipes/rummaniyeh.jpg",
+    "short_description": "Lentils with pomegranate. Tart and earthy.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lentils",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "pomegranate molasses",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook lentils.",
+      "Fry eggplant.",
+      "Combine with pomegranate.",
+      "Simmer until thick."
+    ],
+    "cooking_tips": [
+      "Tart flavor.",
+      "Seasonal dish.",
+      "Vegan option."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "palestinian",
+      "lentils",
+      "vegan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "High fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ps-qatayef-1",
+    "slug": "qatayef",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Qatayef",
+    "image": "assets/img/recipes/qatayef.jpg",
+    "short_description": "Stuffed pancakes. Ramadan dessert.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "cheese",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sugar syrup",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make yeasted batter.",
+      "Cook one-sided pancakes.",
+      "Fill and fold.",
+      "Fry and soak."
+    ],
+    "cooking_tips": [
+      "Bubbles mean ready.",
+      "Many fillings.",
+      "Traditional Ramadan."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "dessert",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 4,
+      "fat_g": 6,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Sweet treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ps-qidra-1",
+    "slug": "qidra",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Qidra",
+    "image": "assets/img/recipes/qidra.jpg",
+    "short_description": "Rice with lamb in clay pot. Hebron specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Layer in clay pot.",
+      "Add broth and spices.",
+      "Bake very low.",
+      "Serve from pot."
+    ],
+    "cooking_tips": [
+      "Clay pot essential.",
+      "Very slow cooking.",
+      "Special occasion."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "palestinian",
+      "rice",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Hearty feast.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-sabanekh-1",
+    "slug": "sabanekh",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Sabanekh",
+    "image": "assets/img/recipes/sabanekh.jpg",
+    "short_description": "Spinach stew. Simple and healthy.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "spinach",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook onions.",
+      "Add spinach.",
+      "Simmer with water.",
+      "Finish with lemon."
+    ],
+    "cooking_tips": [
+      "Lots of olive oil.",
+      "Add sumac.",
+      "Healthy greens."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "palestinian",
+      "spinach",
+      "vegan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Iron from spinach.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ps-sfeeha-1",
+    "slug": "sfeeha-palestinian",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Palestinian Sfeeha",
+    "image": "assets/img/recipes/sfeeha-palestinian.jpg",
+    "short_description": "Open meat pies. Festive appetizer.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Make meat topping.",
+      "Shape pies.",
+      "Bake until done."
+    ],
+    "cooking_tips": [
+      "Diamond shape.",
+      "Generous topping.",
+      "Festive dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "pastry",
+      "meat"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-awarma-1",
+    "slug": "awarma",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Awarma",
+    "image": "assets/img/recipes/awarma.jpg",
+    "short_description": "Preserved lamb in fat. Traditional preserving.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "lamb fat",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cube meat and fat.",
+      "Render fat.",
+      "Cook meat in fat.",
+      "Preserve in jars."
+    ],
+    "cooking_tips": [
+      "Submerge in fat.",
+      "Lasts for months.",
+      "Use in cooking."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "palestinian",
+      "preserved",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "Preserved protein.",
+    "mealType": "Ingredient",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ps-makloubeh-veg",
+    "slug": "makloubeh-vegetarian",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Vegetarian Makloubeh",
+    "image": "assets/img/recipes/makloubeh-vegetarian.jpg",
+    "short_description": "Meatless version with vegetables. Healthy option.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "cauliflower",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Fry vegetables.",
+      "Layer with rice.",
+      "Cook covered.",
+      "Flip to serve."
+    ],
+    "cooking_tips": [
+      "Careful flipping.",
+      "Lots of vegetables.",
+      "Vegan feast."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "rice",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Fiber-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ps-maqluba-1",
+    "slug": "maqluba",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Maqluba",
+    "image": "assets/img/recipes/maqluba.jpg",
+    "short_description": "Upside-down rice with meat and vegetables. Palestinian national dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Fry vegetables.",
+      "Layer meat, veggies, rice.",
+      "Cook covered.",
+      "Flip onto platter."
+    ],
+    "cooking_tips": [
+      "Press layers firmly.",
+      "Let rest before flipping.",
+      "Dramatic presentation."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "rice",
+      "layered"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-musakhan-1",
+    "slug": "musakhan",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Musakhan",
+    "image": "assets/img/recipes/musakhan.jpg",
+    "short_description": "Sumac chicken on taboon bread. Palestinian comfort food.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "sumac",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Caramelize onions.",
+      "Add sumac.",
+      "Roast chicken.",
+      "Serve on bread."
+    ],
+    "cooking_tips": [
+      "Lots of onions.",
+      "Deep purple color.",
+      "Olive oil essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "chicken",
+      "sumac"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Antioxidants from sumac.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-fatteh-1",
+    "slug": "fatteh-palestinian",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Palestinian Fatteh",
+    "image": "assets/img/recipes/fatteh-palestinian.jpg",
+    "short_description": "Layered bread, chickpeas, and yogurt. Breakfast favorite.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pita bread",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "yogurt",
+        "amount": 500,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Toast bread.",
+      "Warm chickpeas.",
+      "Make garlic yogurt.",
+      "Layer and serve."
+    ],
+    "cooking_tips": [
+      "Crispy bread.",
+      "Hot chickpeas on cold yogurt.",
+      "Pine nuts on top."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "palestinian",
+      "breakfast",
+      "yogurt"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 16,
+      "fat_g": 16,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Protein from chickpeas.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ps-freekeh-1",
+    "slug": "freekeh",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Freekeh",
+    "image": "assets/img/recipes/freekeh.jpg",
+    "short_description": "Roasted green wheat with chicken. Smoky grain dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "freekeh",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Toast freekeh.",
+      "Cook in chicken broth.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Smoky flavor.",
+      "Nutty texture.",
+      "Healthy grain."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "grains",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 14,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "High fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-maftoul-1",
+    "slug": "maftoul",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Maftoul",
+    "image": "assets/img/recipes/maftoul.jpg",
+    "short_description": "Palestinian giant couscous. Handmade grain.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "maftoul",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Steam maftoul.",
+      "Cook chicken in broth.",
+      "Add chickpeas.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Handrolled grains.",
+      "Steam, not boil.",
+      "Traditional dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "couscous",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 12,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-kanafeh-1",
+    "slug": "kanafeh",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Kanafeh",
+    "image": "assets/img/recipes/kanafeh.jpg",
+    "short_description": "Cheese pastry in syrup. Nablus specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "kataifi",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "nabulsi cheese",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sugar syrup",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Butter kataifi.",
+      "Layer with cheese.",
+      "Bake until golden.",
+      "Soak in syrup."
+    ],
+    "cooking_tips": [
+      "Desalt cheese.",
+      "Serve hot.",
+      "Stretchy cheese."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "palestinian",
+      "dessert",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Calcium from cheese.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ps-shakshouka-1",
+    "slug": "shakshouka-palestinian",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Palestinian Shakshouka",
+    "image": "assets/img/recipes/shakshouka-palestinian.jpg",
+    "short_description": "Eggs poached in tomato sauce. Breakfast classic.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook tomato sauce.",
+      "Make wells.",
+      "Add eggs.",
+      "Cover until set."
+    ],
+    "cooking_tips": [
+      "Runny yolks.",
+      "Serve with bread.",
+      "Quick meal."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "palestinian",
+      "eggs",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 14,
+      "fat_g": 14,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from eggs.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ps-hummus-kawareh",
+    "slug": "hummus-kawareh",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Hummus Kawareh",
+    "image": "assets/img/recipes/hummus-kawareh.jpg",
+    "short_description": "Hummus topped with lamb leg. Rich variation.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb leg",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tahini",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cook lamb until tender.",
+      "Make hummus.",
+      "Top hummus with lamb.",
+      "Garnish with pine nuts."
+    ],
+    "cooking_tips": [
+      "Fall-off-bone lamb.",
+      "Creamy hummus.",
+      "Festive dish."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "palestinian",
+      "hummus",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-rummaniyeh",
+    "slug": "rummaniyeh",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Rummaniyeh",
+    "image": "assets/img/recipes/rummaniyeh.jpg",
+    "short_description": "Lentils with pomegranate. Tart and earthy.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lentils",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "pomegranate molasses",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook lentils.",
+      "Fry eggplant.",
+      "Combine with pomegranate.",
+      "Simmer until thick."
+    ],
+    "cooking_tips": [
+      "Tart flavor.",
+      "Seasonal dish.",
+      "Vegan option."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "palestinian",
+      "lentils",
+      "vegan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "High fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ps-qatayef-1",
+    "slug": "qatayef",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Qatayef",
+    "image": "assets/img/recipes/qatayef.jpg",
+    "short_description": "Stuffed pancakes. Ramadan dessert.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "cheese",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sugar syrup",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make yeasted batter.",
+      "Cook one-sided pancakes.",
+      "Fill and fold.",
+      "Fry and soak."
+    ],
+    "cooking_tips": [
+      "Bubbles mean ready.",
+      "Many fillings.",
+      "Traditional Ramadan."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "dessert",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 4,
+      "fat_g": 6,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Sweet treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ps-qidra-1",
+    "slug": "qidra",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Qidra",
+    "image": "assets/img/recipes/qidra.jpg",
+    "short_description": "Rice with lamb in clay pot. Hebron specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Layer in clay pot.",
+      "Add broth and spices.",
+      "Bake very low.",
+      "Serve from pot."
+    ],
+    "cooking_tips": [
+      "Clay pot essential.",
+      "Very slow cooking.",
+      "Special occasion."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "palestinian",
+      "rice",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Hearty feast.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-sabanekh-1",
+    "slug": "sabanekh",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Sabanekh",
+    "image": "assets/img/recipes/sabanekh.jpg",
+    "short_description": "Spinach stew. Simple and healthy.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "spinach",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook onions.",
+      "Add spinach.",
+      "Simmer with water.",
+      "Finish with lemon."
+    ],
+    "cooking_tips": [
+      "Lots of olive oil.",
+      "Add sumac.",
+      "Healthy greens."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "palestinian",
+      "spinach",
+      "vegan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Iron from spinach.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ps-sfeeha-1",
+    "slug": "sfeeha-palestinian",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Palestinian Sfeeha",
+    "image": "assets/img/recipes/sfeeha-palestinian.jpg",
+    "short_description": "Open meat pies. Festive appetizer.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Make meat topping.",
+      "Shape pies.",
+      "Bake until done."
+    ],
+    "cooking_tips": [
+      "Diamond shape.",
+      "Generous topping.",
+      "Festive dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "pastry",
+      "meat"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ps-awarma-1",
+    "slug": "awarma",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Awarma",
+    "image": "assets/img/recipes/awarma.jpg",
+    "short_description": "Preserved lamb in fat. Traditional preserving.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "lamb fat",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cube meat and fat.",
+      "Render fat.",
+      "Cook meat in fat.",
+      "Preserve in jars."
+    ],
+    "cooking_tips": [
+      "Submerge in fat.",
+      "Lasts for months.",
+      "Use in cooking."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "palestinian",
+      "preserved",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "Preserved protein.",
+    "mealType": "Ingredient",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ps-makloubeh-veg",
+    "slug": "makloubeh-vegetarian",
+    "country": "Palestine",
+    "country_slug": "palestine",
+    "name_en": "Vegetarian Makloubeh",
+    "image": "assets/img/recipes/makloubeh-vegetarian.jpg",
+    "short_description": "Meatless version with vegetables. Healthy option.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "cauliflower",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Fry vegetables.",
+      "Layer with rice.",
+      "Cook covered.",
+      "Flip to serve."
+    ],
+    "cooking_tips": [
+      "Careful flipping.",
+      "Lots of vegetables.",
+      "Vegan feast."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "palestinian",
+      "rice",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Fiber-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
   }
 ]

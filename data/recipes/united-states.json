@@ -11,17 +11,61 @@
     "cooking_time_minutes": 35,
     "servings": 8,
     "ingredients": [
-      { "name": "elbow macaroni", "amount": 450, "unit": "g" },
-      { "name": "sharp cheddar cheese", "amount": 400, "unit": "g" },
-      { "name": "mild cheddar cheese", "amount": 200, "unit": "g" },
-      { "name": "butter", "amount": 60, "unit": "g" },
-      { "name": "all-purpose flour", "amount": 45, "unit": "g" },
-      { "name": "whole milk", "amount": 600, "unit": "ml" },
-      { "name": "heavy cream", "amount": 200, "unit": "ml" },
-      { "name": "eggs", "amount": 2, "unit": "pc" },
-      { "name": "dry mustard", "amount": 1, "unit": "tsp" },
-      { "name": "cayenne pepper", "amount": 0.5, "unit": "tsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "elbow macaroni",
+        "amount": 450,
+        "unit": "g"
+      },
+      {
+        "name": "sharp cheddar cheese",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "mild cheddar cheese",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 45,
+        "unit": "g"
+      },
+      {
+        "name": "whole milk",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "dry mustard",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cayenne pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Cook macaroni until just al dente, drain.",
@@ -43,7 +87,14 @@
       "Let rest 5 minutes before serving for best texture."
     ],
     "difficulty": "medium",
-    "tags": ["american", "comfort-food", "cheese", "pasta", "southern", "dinner"],
+    "tags": [
+      "american",
+      "comfort-food",
+      "cheese",
+      "pasta",
+      "southern",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 580,
       "protein_g": 24,
@@ -66,16 +117,56 @@
     "cooking_time_minutes": 180,
     "servings": 4,
     "ingredients": [
-      { "name": "baby back ribs", "amount": 2, "unit": "racks" },
-      { "name": "brown sugar", "amount": 60, "unit": "g" },
-      { "name": "paprika", "amount": 2, "unit": "tbsp" },
-      { "name": "garlic powder", "amount": 1, "unit": "tbsp" },
-      { "name": "onion powder", "amount": 1, "unit": "tbsp" },
-      { "name": "chili powder", "amount": 1, "unit": "tbsp" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "BBQ sauce", "amount": 300, "unit": "ml" },
-      { "name": "apple cider vinegar", "amount": 60, "unit": "ml" },
-      { "name": "salt and pepper", "amount": 2, "unit": "tsp" }
+      {
+        "name": "baby back ribs",
+        "amount": 2,
+        "unit": "racks"
+      },
+      {
+        "name": "brown sugar",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "paprika",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chili powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "BBQ sauce",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "apple cider vinegar",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "salt and pepper",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Remove membrane from back of ribs.",
@@ -96,7 +187,14 @@
       "Make your own BBQ sauce for best results."
     ],
     "difficulty": "medium",
-    "tags": ["american", "bbq", "pork", "ribs", "summer", "dinner"],
+    "tags": [
+      "american",
+      "bbq",
+      "pork",
+      "ribs",
+      "summer",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 680,
       "protein_g": 45,
@@ -119,16 +217,56 @@
     "cooking_time_minutes": 40,
     "servings": 6,
     "ingredients": [
-      { "name": "fresh clams", "amount": 1.5, "unit": "kg" },
-      { "name": "bacon", "amount": 150, "unit": "g" },
-      { "name": "potatoes", "amount": 4, "unit": "medium" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "celery stalks", "amount": 2, "unit": "pc" },
-      { "name": "butter", "amount": 45, "unit": "g" },
-      { "name": "flour", "amount": 45, "unit": "g" },
-      { "name": "heavy cream", "amount": 400, "unit": "ml" },
-      { "name": "bay leaves", "amount": 2, "unit": "pc" },
-      { "name": "fresh thyme", "amount": 1, "unit": "tsp" }
+      {
+        "name": "fresh clams",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "bacon",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "celery stalks",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "butter",
+        "amount": 45,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 45,
+        "unit": "g"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh thyme",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Steam clams until opened, reserve liquid. Chop clam meat.",
@@ -149,7 +287,14 @@
       "Bread bowls make it extra special."
     ],
     "difficulty": "medium",
-    "tags": ["american", "soup", "seafood", "clams", "new-england", "dinner"],
+    "tags": [
+      "american",
+      "soup",
+      "seafood",
+      "clams",
+      "new-england",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 450,
       "protein_g": 22,
@@ -172,16 +317,56 @@
     "cooking_time_minutes": 20,
     "servings": 4,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 250, "unit": "g" },
-      { "name": "buttermilk", "amount": 350, "unit": "ml" },
-      { "name": "eggs", "amount": 2, "unit": "pc" },
-      { "name": "butter", "amount": 60, "unit": "g" },
-      { "name": "sugar", "amount": 30, "unit": "g" },
-      { "name": "baking powder", "amount": 2, "unit": "tsp" },
-      { "name": "baking soda", "amount": 1, "unit": "tsp" },
-      { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
-      { "name": "maple syrup", "amount": 120, "unit": "ml" },
-      { "name": "salt", "amount": 0.5, "unit": "tsp" }
+      {
+        "name": "all-purpose flour",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "buttermilk",
+        "amount": 350,
+        "unit": "ml"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "butter",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "baking powder",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "baking soda",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "maple syrup",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Mix flour, sugar, baking powder, baking soda, and salt.",
@@ -202,7 +387,13 @@
       "Keep cooked pancakes warm in a low oven."
     ],
     "difficulty": "easy",
-    "tags": ["american", "breakfast", "pancakes", "brunch", "classic"],
+    "tags": [
+      "american",
+      "breakfast",
+      "pancakes",
+      "brunch",
+      "classic"
+    ],
     "nutrition": {
       "per_serving_kcal": 450,
       "protein_g": 12,
@@ -225,16 +416,56 @@
     "cooking_time_minutes": 55,
     "servings": 8,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 350, "unit": "g" },
-      { "name": "cold butter", "amount": 230, "unit": "g" },
-      { "name": "ice water", "amount": 80, "unit": "ml" },
-      { "name": "apples (mixed varieties)", "amount": 1.2, "unit": "kg" },
-      { "name": "sugar", "amount": 150, "unit": "g" },
-      { "name": "cinnamon", "amount": 2, "unit": "tsp" },
-      { "name": "nutmeg", "amount": 0.25, "unit": "tsp" },
-      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
-      { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
-      { "name": "egg", "amount": 1, "unit": "pc" }
+      {
+        "name": "all-purpose flour",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "cold butter",
+        "amount": 230,
+        "unit": "g"
+      },
+      {
+        "name": "ice water",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "apples (mixed varieties)",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "sugar",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "nutmeg",
+        "amount": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cornstarch",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "pc"
+      }
     ],
     "steps": [
       "Make crust: pulse flour, salt, and cold butter until pea-sized.",
@@ -256,7 +487,14 @@
       "Shield edges with foil if browning too fast."
     ],
     "difficulty": "hard",
-    "tags": ["american", "dessert", "apple", "pie", "baking", "classic"],
+    "tags": [
+      "american",
+      "dessert",
+      "apple",
+      "pie",
+      "baking",
+      "classic"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 5,
@@ -279,16 +517,56 @@
     "cooking_time_minutes": 30,
     "servings": 6,
     "ingredients": [
-      { "name": "chicken pieces", "amount": 1.5, "unit": "kg" },
-      { "name": "buttermilk", "amount": 500, "unit": "ml" },
-      { "name": "all-purpose flour", "amount": 300, "unit": "g" },
-      { "name": "paprika", "amount": 2, "unit": "tbsp" },
-      { "name": "garlic powder", "amount": 1, "unit": "tbsp" },
-      { "name": "onion powder", "amount": 1, "unit": "tbsp" },
-      { "name": "cayenne pepper", "amount": 1, "unit": "tsp" },
-      { "name": "vegetable oil for frying", "amount": 1, "unit": "L" },
-      { "name": "salt", "amount": 2, "unit": "tsp" },
-      { "name": "black pepper", "amount": 1, "unit": "tsp" }
+      {
+        "name": "chicken pieces",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "buttermilk",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "paprika",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cayenne pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Soak chicken in buttermilk for at least 4 hours, preferably overnight.",
@@ -309,7 +587,14 @@
       "Cast iron gives the best results."
     ],
     "difficulty": "medium",
-    "tags": ["american", "southern", "fried", "chicken", "comfort-food", "dinner"],
+    "tags": [
+      "american",
+      "southern",
+      "fried",
+      "chicken",
+      "comfort-food",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 42,
@@ -332,16 +617,56 @@
     "cooking_time_minutes": 45,
     "servings": 4,
     "ingredients": [
-      { "name": "chicken wings", "amount": 1, "unit": "kg" },
-      { "name": "butter", "amount": 100, "unit": "g" },
-      { "name": "hot sauce (Frank's RedHot)", "amount": 120, "unit": "ml" },
-      { "name": "garlic powder", "amount": 0.5, "unit": "tsp" },
-      { "name": "blue cheese", "amount": 100, "unit": "g" },
-      { "name": "sour cream", "amount": 100, "unit": "ml" },
-      { "name": "mayonnaise", "amount": 60, "unit": "ml" },
-      { "name": "celery stalks", "amount": 6, "unit": "pc" },
-      { "name": "vegetable oil", "amount": 1, "unit": "L" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "chicken wings",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "hot sauce (Frank's RedHot)",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "garlic powder",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "blue cheese",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sour cream",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "mayonnaise",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "celery stalks",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Pat wings completely dry with paper towels.",
@@ -360,7 +685,14 @@
       "Traditional ratio is equal parts butter and hot sauce."
     ],
     "difficulty": "easy",
-    "tags": ["american", "appetizer", "spicy", "chicken", "game-day", "bar-food"],
+    "tags": [
+      "american",
+      "appetizer",
+      "spicy",
+      "chicken",
+      "game-day",
+      "bar-food"
+    ],
     "nutrition": {
       "per_serving_kcal": 580,
       "protein_g": 38,
@@ -383,14 +715,46 @@
     "cooking_time_minutes": 15,
     "servings": 4,
     "ingredients": [
-      { "name": "ribeye steak", "amount": 600, "unit": "g" },
-      { "name": "hoagie rolls", "amount": 4, "unit": "pc" },
-      { "name": "provolone cheese", "amount": 200, "unit": "g" },
-      { "name": "onion", "amount": 2, "unit": "large" },
-      { "name": "green bell pepper", "amount": 1, "unit": "pc" },
-      { "name": "vegetable oil", "amount": 60, "unit": "ml" },
-      { "name": "salt", "amount": 1, "unit": "tsp" },
-      { "name": "black pepper", "amount": 0.5, "unit": "tsp" }
+      {
+        "name": "ribeye steak",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "hoagie rolls",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "provolone cheese",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "green bell pepper",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Freeze steak for 30 minutes for easier slicing.",
@@ -411,7 +775,14 @@
       "Cheez Whiz is actually traditional!"
     ],
     "difficulty": "easy",
-    "tags": ["american", "sandwich", "beef", "cheese", "philadelphia", "lunch"],
+    "tags": [
+      "american",
+      "sandwich",
+      "beef",
+      "cheese",
+      "philadelphia",
+      "lunch"
+    ],
     "nutrition": {
       "per_serving_kcal": 620,
       "protein_g": 42,
@@ -434,16 +805,56 @@
     "cooking_time_minutes": 10,
     "servings": 4,
     "ingredients": [
-      { "name": "ground beef (80/20)", "amount": 600, "unit": "g" },
-      { "name": "hamburger buns", "amount": 4, "unit": "pc" },
-      { "name": "American cheese", "amount": 4, "unit": "slices" },
-      { "name": "lettuce", "amount": 4, "unit": "leaves" },
-      { "name": "tomato", "amount": 1, "unit": "large" },
-      { "name": "red onion", "amount": 0.5, "unit": "pc" },
-      { "name": "pickles", "amount": 8, "unit": "slices" },
-      { "name": "ketchup", "amount": 60, "unit": "ml" },
-      { "name": "mustard", "amount": 30, "unit": "ml" },
-      { "name": "salt and pepper", "amount": 2, "unit": "tsp" }
+      {
+        "name": "ground beef (80/20)",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "hamburger buns",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "American cheese",
+        "amount": 4,
+        "unit": "slices"
+      },
+      {
+        "name": "lettuce",
+        "amount": 4,
+        "unit": "leaves"
+      },
+      {
+        "name": "tomato",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "red onion",
+        "amount": 0.5,
+        "unit": "pc"
+      },
+      {
+        "name": "pickles",
+        "amount": 8,
+        "unit": "slices"
+      },
+      {
+        "name": "ketchup",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "mustard",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "salt and pepper",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Divide beef into 4 portions, form into patties slightly larger than buns.",
@@ -463,7 +874,14 @@
       "The indent prevents puffing in the center."
     ],
     "difficulty": "easy",
-    "tags": ["american", "burger", "beef", "classic", "lunch", "dinner"],
+    "tags": [
+      "american",
+      "burger",
+      "beef",
+      "classic",
+      "lunch",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 550,
       "protein_g": 35,
@@ -486,15 +904,51 @@
     "cooking_time_minutes": 25,
     "servings": 8,
     "ingredients": [
-      { "name": "yellow cornmeal", "amount": 200, "unit": "g" },
-      { "name": "all-purpose flour", "amount": 100, "unit": "g" },
-      { "name": "buttermilk", "amount": 300, "unit": "ml" },
-      { "name": "eggs", "amount": 2, "unit": "pc" },
-      { "name": "butter", "amount": 80, "unit": "g" },
-      { "name": "sugar", "amount": 60, "unit": "g" },
-      { "name": "baking powder", "amount": 1, "unit": "tbsp" },
-      { "name": "baking soda", "amount": 0.5, "unit": "tsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "yellow cornmeal",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "buttermilk",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "baking soda",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Preheat oven to 220°C (425°F).",
@@ -514,7 +968,13 @@
       "Southern style uses less sugar than Northern."
     ],
     "difficulty": "easy",
-    "tags": ["american", "southern", "bread", "side-dish", "vegetarian"],
+    "tags": [
+      "american",
+      "southern",
+      "bread",
+      "side-dish",
+      "vegetarian"
+    ],
     "nutrition": {
       "per_serving_kcal": 240,
       "protein_g": 5,
@@ -537,14 +997,46 @@
     "cooking_time_minutes": 30,
     "servings": 6,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 300, "unit": "g" },
-      { "name": "cold butter", "amount": 100, "unit": "g" },
-      { "name": "buttermilk", "amount": 200, "unit": "ml" },
-      { "name": "breakfast sausage", "amount": 450, "unit": "g" },
-      { "name": "whole milk", "amount": 500, "unit": "ml" },
-      { "name": "baking powder", "amount": 1, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" },
-      { "name": "black pepper", "amount": 1, "unit": "tsp" }
+      {
+        "name": "all-purpose flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "cold butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "buttermilk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "breakfast sausage",
+        "amount": 450,
+        "unit": "g"
+      },
+      {
+        "name": "whole milk",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "For biscuits: mix flour, baking powder, and salt.",
@@ -564,7 +1056,13 @@
       "Use sage-flavored sausage for best results."
     ],
     "difficulty": "medium",
-    "tags": ["american", "southern", "breakfast", "comfort-food", "sausage"],
+    "tags": [
+      "american",
+      "southern",
+      "breakfast",
+      "comfort-food",
+      "sausage"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 18,
@@ -587,16 +1085,56 @@
     "cooking_time_minutes": 45,
     "servings": 8,
     "ingredients": [
-      { "name": "chicken thighs", "amount": 500, "unit": "g" },
-      { "name": "andouille sausage", "amount": 400, "unit": "g" },
-      { "name": "shrimp", "amount": 300, "unit": "g" },
-      { "name": "long-grain rice", "amount": 400, "unit": "g" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "celery", "amount": 3, "unit": "stalks" },
-      { "name": "green bell pepper", "amount": 1, "unit": "pc" },
-      { "name": "diced tomatoes", "amount": 400, "unit": "g" },
-      { "name": "cajun seasoning", "amount": 2, "unit": "tbsp" },
-      { "name": "chicken broth", "amount": 600, "unit": "ml" }
+      {
+        "name": "chicken thighs",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "andouille sausage",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "long-grain rice",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "celery",
+        "amount": 3,
+        "unit": "stalks"
+      },
+      {
+        "name": "green bell pepper",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "diced tomatoes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cajun seasoning",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 600,
+        "unit": "ml"
+      }
     ],
     "steps": [
       "Season chicken with cajun seasoning, brown in a large pot.",
@@ -616,7 +1154,14 @@
       "Adjust spice level to your preference."
     ],
     "difficulty": "medium",
-    "tags": ["american", "cajun", "rice", "spicy", "louisiana", "dinner"],
+    "tags": [
+      "american",
+      "cajun",
+      "rice",
+      "spicy",
+      "louisiana",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 38,
@@ -639,16 +1184,56 @@
     "cooking_time_minutes": 480,
     "servings": 12,
     "ingredients": [
-      { "name": "pork shoulder (bone-in)", "amount": 4, "unit": "kg" },
-      { "name": "brown sugar", "amount": 100, "unit": "g" },
-      { "name": "paprika", "amount": 3, "unit": "tbsp" },
-      { "name": "apple cider vinegar", "amount": 250, "unit": "ml" },
-      { "name": "ketchup", "amount": 120, "unit": "ml" },
-      { "name": "hot sauce", "amount": 2, "unit": "tbsp" },
-      { "name": "garlic powder", "amount": 1, "unit": "tbsp" },
-      { "name": "onion powder", "amount": 1, "unit": "tbsp" },
-      { "name": "hamburger buns", "amount": 12, "unit": "pc" },
-      { "name": "salt and pepper", "amount": 2, "unit": "tbsp" }
+      {
+        "name": "pork shoulder (bone-in)",
+        "amount": 4,
+        "unit": "kg"
+      },
+      {
+        "name": "brown sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "paprika",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "apple cider vinegar",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "ketchup",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "hot sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "hamburger buns",
+        "amount": 12,
+        "unit": "pc"
+      },
+      {
+        "name": "salt and pepper",
+        "amount": 2,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Mix brown sugar with paprika, garlic, onion, salt, and pepper for rub.",
@@ -668,7 +1253,14 @@
       "Wrap in foil at 77°C (170°F) to push through the stall."
     ],
     "difficulty": "hard",
-    "tags": ["american", "bbq", "pork", "southern", "carolina", "dinner"],
+    "tags": [
+      "american",
+      "bbq",
+      "pork",
+      "southern",
+      "carolina",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 45,
@@ -691,14 +1283,46 @@
     "cooking_time_minutes": 20,
     "servings": 8,
     "ingredients": [
-      { "name": "graham crackers", "amount": 200, "unit": "g" },
-      { "name": "butter", "amount": 100, "unit": "g" },
-      { "name": "sweetened condensed milk", "amount": 400, "unit": "g" },
-      { "name": "key lime juice", "amount": 180, "unit": "ml" },
-      { "name": "key lime zest", "amount": 2, "unit": "tbsp" },
-      { "name": "egg yolks", "amount": 4, "unit": "pc" },
-      { "name": "heavy cream", "amount": 250, "unit": "ml" },
-      { "name": "sugar", "amount": 30, "unit": "g" }
+      {
+        "name": "graham crackers",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sweetened condensed milk",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "key lime juice",
+        "amount": 180,
+        "unit": "ml"
+      },
+      {
+        "name": "key lime zest",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "sugar",
+        "amount": 30,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Crush graham crackers finely.",
@@ -718,7 +1342,14 @@
       "Must be served cold for best texture."
     ],
     "difficulty": "easy",
-    "tags": ["american", "dessert", "pie", "florida", "citrus", "summer"],
+    "tags": [
+      "american",
+      "dessert",
+      "pie",
+      "florida",
+      "citrus",
+      "summer"
+    ],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 6,
@@ -727,6 +1358,666 @@
     },
     "nutrition_benefits": "Key limes provide vitamin C. Eggs add protein. A refreshing treat on hot days.",
     "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "us-clam-1",
+    "slug": "new-england-clam-chowder",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "New England Clam Chowder",
+    "image": "assets/img/recipes/new-england-clam-chowder.jpg",
+    "short_description": "Creamy clam soup. Boston classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "clams",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "cream",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Steam clams.",
+      "Cook potatoes.",
+      "Make cream base.",
+      "Combine all."
+    ],
+    "cooking_tips": [
+      "Fresh clams.",
+      "Creamy texture.",
+      "Serve with crackers."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "american",
+      "soup",
+      "seafood"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 22,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein from clams.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "us-ribs-2",
+    "slug": "bbq-ribs",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "BBQ Ribs",
+    "image": "assets/img/recipes/bbq-ribs.jpg",
+    "short_description": "Slow-smoked pork ribs. Southern BBQ.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 300,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pork ribs",
+        "amount": 2,
+        "unit": "racks"
+      },
+      {
+        "name": "BBQ rub",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "BBQ sauce",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Apply rub.",
+      "Smoke low and slow.",
+      "Baste with sauce.",
+      "Serve tender."
+    ],
+    "cooking_tips": [
+      "Low temperature.",
+      "Wood smoke.",
+      "Fall off bone."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "american",
+      "pork",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 36,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "us-lobster-3",
+    "slug": "lobster-roll",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Lobster Roll",
+    "image": "assets/img/recipes/lobster-roll.jpg",
+    "short_description": "Lobster salad in buttered bun. Maine specialty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "lobster",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "hot dog buns",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "mayo",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook lobster.",
+      "Chop meat.",
+      "Mix with mayo.",
+      "Serve in toasted bun."
+    ],
+    "cooking_tips": [
+      "Fresh lobster.",
+      "Light on mayo.",
+      "Butter the bun."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "american",
+      "lobster",
+      "sandwich"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Lean protein.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "us-gumbo-4",
+    "slug": "gumbo",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Gumbo",
+    "image": "assets/img/recipes/gumbo.jpg",
+    "short_description": "Cajun stew with okra. Louisiana classic.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sausage",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "okra",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dark roux.",
+      "Add holy trinity.",
+      "Add proteins.",
+      "Simmer long."
+    ],
+    "cooking_tips": [
+      "Dark roux essential.",
+      "File powder optional.",
+      "Serve over rice."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "american",
+      "cajun",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Flavorful stew.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "us-apple-5",
+    "slug": "apple-pie",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Apple Pie",
+    "image": "assets/img/recipes/apple-pie.jpg",
+    "short_description": "Classic American dessert. As American as...",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 55,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "apples",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "pie crust",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Slice apples.",
+      "Make filling.",
+      "Line pie dish.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Mix apple varieties.",
+      "Warm is best.",
+      "Serve with ice cream."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "american",
+      "dessert",
+      "apple"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 3,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Classic comfort.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "us-mac-6",
+    "slug": "mac-and-cheese",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Mac and Cheese",
+    "image": "assets/img/recipes/mac-and-cheese.jpg",
+    "short_description": "Creamy cheese pasta. Ultimate comfort.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "macaroni",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cheddar",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Cook pasta.",
+      "Make cheese sauce.",
+      "Combine.",
+      "Bake until bubbly."
+    ],
+    "cooking_tips": [
+      "Sharp cheddar.",
+      "Creamy sauce.",
+      "Breadcrumb topping."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "american",
+      "pasta",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 22,
+      "fat_g": 26,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Calcium from cheese.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "us-clam-1",
+    "slug": "new-england-clam-chowder",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "New England Clam Chowder",
+    "image": "assets/img/recipes/new-england-clam-chowder.jpg",
+    "short_description": "Creamy clam soup. Boston classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "clams",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "cream",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Steam clams.",
+      "Cook potatoes.",
+      "Make cream base.",
+      "Combine all."
+    ],
+    "cooking_tips": [
+      "Fresh clams.",
+      "Creamy texture.",
+      "Serve with crackers."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "american",
+      "soup",
+      "seafood"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 22,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein from clams.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "us-ribs-2",
+    "slug": "bbq-ribs",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "BBQ Ribs",
+    "image": "assets/img/recipes/bbq-ribs.jpg",
+    "short_description": "Slow-smoked pork ribs. Southern BBQ.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 300,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pork ribs",
+        "amount": 2,
+        "unit": "racks"
+      },
+      {
+        "name": "BBQ rub",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "BBQ sauce",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Apply rub.",
+      "Smoke low and slow.",
+      "Baste with sauce.",
+      "Serve tender."
+    ],
+    "cooking_tips": [
+      "Low temperature.",
+      "Wood smoke.",
+      "Fall off bone."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "american",
+      "pork",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 36,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "us-lobster-3",
+    "slug": "lobster-roll",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Lobster Roll",
+    "image": "assets/img/recipes/lobster-roll.jpg",
+    "short_description": "Lobster salad in buttered bun. Maine specialty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "lobster",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "hot dog buns",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "mayo",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook lobster.",
+      "Chop meat.",
+      "Mix with mayo.",
+      "Serve in toasted bun."
+    ],
+    "cooking_tips": [
+      "Fresh lobster.",
+      "Light on mayo.",
+      "Butter the bun."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "american",
+      "lobster",
+      "sandwich"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Lean protein.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "us-gumbo-4",
+    "slug": "gumbo",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Gumbo",
+    "image": "assets/img/recipes/gumbo.jpg",
+    "short_description": "Cajun stew with okra. Louisiana classic.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sausage",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "okra",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dark roux.",
+      "Add holy trinity.",
+      "Add proteins.",
+      "Simmer long."
+    ],
+    "cooking_tips": [
+      "Dark roux essential.",
+      "File powder optional.",
+      "Serve over rice."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "american",
+      "cajun",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Flavorful stew.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "us-apple-5",
+    "slug": "apple-pie",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Apple Pie",
+    "image": "assets/img/recipes/apple-pie.jpg",
+    "short_description": "Classic American dessert. As American as...",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 55,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "apples",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "pie crust",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Slice apples.",
+      "Make filling.",
+      "Line pie dish.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Mix apple varieties.",
+      "Warm is best.",
+      "Serve with ice cream."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "american",
+      "dessert",
+      "apple"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 3,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Classic comfort.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "us-mac-6",
+    "slug": "mac-and-cheese",
+    "country": "United States",
+    "country_slug": "united-states",
+    "name_en": "Mac and Cheese",
+    "image": "assets/img/recipes/mac-and-cheese.jpg",
+    "short_description": "Creamy cheese pasta. Ultimate comfort.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "macaroni",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cheddar",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Cook pasta.",
+      "Make cheese sauce.",
+      "Combine.",
+      "Bake until bubbly."
+    ],
+    "cooking_tips": [
+      "Sharp cheddar.",
+      "Creamy sauce.",
+      "Breadcrumb topping."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "american",
+      "pasta",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 22,
+      "fat_g": 26,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Calcium from cheese.",
+    "mealType": "Dinner",
     "dietaryStyle": "Vegetarian"
   }
 ]

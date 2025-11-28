@@ -11,17 +11,61 @@
     "cooking_time_minutes": 90,
     "servings": 6,
     "ingredients": [
-      {"name": "all-purpose flour", "amount": 4, "unit": "cups"},
-      {"name": "baking powder", "amount": 2, "unit": "tsp"},
-      {"name": "chicken thighs (bone-in)", "amount": 1, "unit": "kg"},
-      {"name": "potatoes", "amount": 500, "unit": "g"},
-      {"name": "long beans (yard beans)", "amount": 300, "unit": "g"},
-      {"name": "masala powder", "amount": 3, "unit": "tbsp"},
-      {"name": "cumin", "amount": 1, "unit": "tbsp"},
-      {"name": "garlic", "amount": 6, "unit": "cloves"},
-      {"name": "hot pepper", "amount": 1, "unit": "pc"},
-      {"name": "vegetable oil", "amount": 0.5, "unit": "cup"},
-      {"name": "salt", "amount": 2, "unit": "tsp"}
+      {
+        "name": "all-purpose flour",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "baking powder",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "chicken thighs (bone-in)",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "long beans (yard beans)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "masala powder",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "hot pepper",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Make dough with flour, baking powder, salt, oil, and water; rest 30 minutes.",
@@ -41,7 +85,14 @@
       "Adjust hot pepper according to your spice tolerance."
     ],
     "difficulty": "medium",
-    "tags": ["surinamese", "roti", "curry", "chicken", "dinner", "comfort-food"],
+    "tags": [
+      "surinamese",
+      "roti",
+      "curry",
+      "chicken",
+      "dinner",
+      "comfort-food"
+    ],
     "nutrition": {
       "per_serving_kcal": 580,
       "protein_g": 32,
@@ -64,17 +115,61 @@
     "cooking_time_minutes": 90,
     "servings": 8,
     "ingredients": [
-      {"name": "tayer root (pomtajer)", "amount": 2, "unit": "kg"},
-      {"name": "chicken thighs", "amount": 1, "unit": "kg"},
-      {"name": "sour oranges (or orange/lemon mix)", "amount": 4, "unit": "pc"},
-      {"name": "tomato paste", "amount": 3, "unit": "tbsp"},
-      {"name": "onion", "amount": 2, "unit": "large"},
-      {"name": "celery", "amount": 3, "unit": "stalks"},
-      {"name": "nutmeg", "amount": 0.5, "unit": "tsp"},
-      {"name": "butter", "amount": 100, "unit": "g"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "black pepper", "amount": 1, "unit": "tsp"},
-      {"name": "brown sugar", "amount": 2, "unit": "tbsp"}
+      {
+        "name": "tayer root (pomtajer)",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "chicken thighs",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "sour oranges (or orange/lemon mix)",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "celery",
+        "amount": 3,
+        "unit": "stalks"
+      },
+      {
+        "name": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "brown sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Season chicken with salt, pepper, and half the citrus juice; marinate 2 hours.",
@@ -94,7 +189,14 @@
       "Pom tastes even better the next day when flavors meld."
     ],
     "difficulty": "hard",
-    "tags": ["surinamese", "casserole", "chicken", "festive", "creole", "dinner"],
+    "tags": [
+      "surinamese",
+      "casserole",
+      "chicken",
+      "festive",
+      "creole",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 28,
@@ -117,17 +219,61 @@
     "cooking_time_minutes": 60,
     "servings": 6,
     "ingredients": [
-      {"name": "long grain rice", "amount": 2, "unit": "cups"},
-      {"name": "kidney beans (cooked)", "amount": 1, "unit": "cup"},
-      {"name": "salted pork or bacon", "amount": 300, "unit": "g"},
-      {"name": "coconut milk", "amount": 400, "unit": "ml"},
-      {"name": "tomatoes", "amount": 2, "unit": "medium"},
-      {"name": "onion", "amount": 1, "unit": "large"},
-      {"name": "garlic", "amount": 4, "unit": "cloves"},
-      {"name": "thyme", "amount": 2, "unit": "sprigs"},
-      {"name": "hot pepper", "amount": 1, "unit": "pc"},
-      {"name": "vegetable oil", "amount": 3, "unit": "tbsp"},
-      {"name": "salt", "amount": 1, "unit": "tsp"}
+      {
+        "name": "long grain rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "kidney beans (cooked)",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "salted pork or bacon",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "thyme",
+        "amount": 2,
+        "unit": "sprigs"
+      },
+      {
+        "name": "hot pepper",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Soak salted meat overnight if very salty, then dice.",
@@ -147,7 +293,14 @@
       "Substitute smoked turkey for a lighter version."
     ],
     "difficulty": "easy",
-    "tags": ["surinamese", "rice", "one-pot", "beans", "dinner", "comfort-food"],
+    "tags": [
+      "surinamese",
+      "rice",
+      "one-pot",
+      "beans",
+      "dinner",
+      "comfort-food"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 22,
@@ -170,14 +323,46 @@
     "cooking_time_minutes": 30,
     "servings": 12,
     "ingredients": [
-      {"name": "yellow split peas", "amount": 2, "unit": "cups"},
-      {"name": "cumin seeds", "amount": 1, "unit": "tbsp"},
-      {"name": "garlic", "amount": 6, "unit": "cloves"},
-      {"name": "hot pepper", "amount": 1, "unit": "pc"},
-      {"name": "baking powder", "amount": 1, "unit": "tsp"},
-      {"name": "salt", "amount": 1, "unit": "tsp"},
-      {"name": "vegetable oil for frying", "amount": 500, "unit": "ml"},
-      {"name": "all-purpose flour", "amount": 2, "unit": "tbsp"}
+      {
+        "name": "yellow split peas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "hot pepper",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 2,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Soak split peas in water for at least 8 hours or overnight.",
@@ -197,7 +382,14 @@
       "Best eaten fresh and hot from the fryer."
     ],
     "difficulty": "medium",
-    "tags": ["surinamese", "fritters", "street-food", "appetizer", "vegan", "split-peas"],
+    "tags": [
+      "surinamese",
+      "fritters",
+      "street-food",
+      "appetizer",
+      "vegan",
+      "split-peas"
+    ],
     "nutrition": {
       "per_serving_kcal": 180,
       "protein_g": 8,
@@ -220,16 +412,56 @@
     "cooking_time_minutes": 60,
     "servings": 12,
     "ingredients": [
-      {"name": "cassava (yuca)", "amount": 1, "unit": "kg"},
-      {"name": "grated coconut", "amount": 200, "unit": "g"},
-      {"name": "condensed milk", "amount": 400, "unit": "ml"},
-      {"name": "butter", "amount": 150, "unit": "g"},
-      {"name": "eggs", "amount": 3, "unit": "pc"},
-      {"name": "vanilla extract", "amount": 2, "unit": "tsp"},
-      {"name": "cinnamon", "amount": 1, "unit": "tsp"},
-      {"name": "nutmeg", "amount": 0.5, "unit": "tsp"},
-      {"name": "rum or rum extract", "amount": 2, "unit": "tbsp"},
-      {"name": "raisins", "amount": 100, "unit": "g"}
+      {
+        "name": "cassava (yuca)",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "grated coconut",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "condensed milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "rum or rum extract",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "raisins",
+        "amount": 100,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Peel cassava and grate finely, then squeeze out excess moisture.",
@@ -249,7 +481,14 @@
       "Bojo keeps well at room temperature for several days."
     ],
     "difficulty": "medium",
-    "tags": ["surinamese", "dessert", "cake", "cassava", "coconut", "celebration"],
+    "tags": [
+      "surinamese",
+      "dessert",
+      "cake",
+      "cassava",
+      "coconut",
+      "celebration"
+    ],
     "nutrition": {
       "per_serving_kcal": 340,
       "protein_g": 4,
@@ -259,5 +498,830 @@
     "nutrition_benefits": "Bojo provides energy from cassava carbohydrates. Coconut adds fiber and healthy fats. Eggs contribute protein and vitamins. The dish is naturally gluten-free, suitable for those with gluten sensitivity.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sr-roti-1",
+    "slug": "surinamese-roti",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Surinamese Roti",
+    "image": "assets/img/recipes/surinamese-roti.jpg",
+    "short_description": "Flatbread with curried filling. Indo-Surinamese staple.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chicken",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "curry powder",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make soft dough.",
+      "Cook curry.",
+      "Cook thin bread.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Thin and flexible.",
+      "Wrap the curry.",
+      "National dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "surinamese",
+      "roti",
+      "curry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-pom-1",
+    "slug": "pom",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Pom",
+    "image": "assets/img/recipes/pom.jpg",
+    "short_description": "Chicken casserole with pomtajer root. Creole specialty.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "pomtajer",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "citrus juice",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Grate pomtajer.",
+      "Layer in pan.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Unique root vegetable.",
+      "Tangy citrus.",
+      "Festive dish."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "surinamese",
+      "casserole",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-moksi-1",
+    "slug": "moksi-alesi",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Moksi Alesi",
+    "image": "assets/img/recipes/moksi-alesi.jpg",
+    "short_description": "Mixed rice with meat and beans. Creole comfort.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "salted meat",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook beans with meat.",
+      "Add rice.",
+      "Cook together.",
+      "Fluffy and mixed."
+    ],
+    "cooking_tips": [
+      "One-pot meal.",
+      "Salted meat flavor.",
+      "Everyday food."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "surinamese",
+      "rice",
+      "beans"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-bami-1",
+    "slug": "bami",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Bami",
+    "image": "assets/img/recipes/bami.jpg",
+    "short_description": "Javanese fried noodles. Surinamese street food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chicken",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook noodles.",
+      "Stir-fry meat.",
+      "Add vegetables.",
+      "Toss with sauce."
+    ],
+    "cooking_tips": [
+      "High heat.",
+      "Quick cooking.",
+      "Javanese influence."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "surinamese",
+      "noodles",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Quick meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-nasi-1",
+    "slug": "nasi-goreng-suriname",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Surinamese Nasi Goreng",
+    "image": "assets/img/recipes/nasi-goreng-suriname.jpg",
+    "short_description": "Javanese fried rice. Street food classic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Use cold rice.",
+      "Stir-fry quickly.",
+      "Add eggs.",
+      "Season with kecap."
+    ],
+    "cooking_tips": [
+      "Day-old rice.",
+      "High heat.",
+      "Quick and easy."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "surinamese",
+      "rice",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 14,
+      "fat_g": 16,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-saoto-1",
+    "slug": "saoto",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Saoto Soup",
+    "image": "assets/img/recipes/saoto.jpg",
+    "short_description": "Javanese chicken soup. Warming and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "noodles",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make chicken broth.",
+      "Shred chicken.",
+      "Prepare toppings.",
+      "Serve with spicy sauce."
+    ],
+    "cooking_tips": [
+      "Clear broth.",
+      "Many toppings.",
+      "Spicy sambal."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "surinamese",
+      "soup",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 10,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Comforting soup.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-bruine-1",
+    "slug": "bruine-bonen",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Bruine Bonen",
+    "image": "assets/img/recipes/bruine-bonen.jpg",
+    "short_description": "Brown beans with rice. Creole staple.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "brown beans",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "salted pork",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak beans.",
+      "Cook with pork.",
+      "Add tomato sauce.",
+      "Serve over rice."
+    ],
+    "cooking_tips": [
+      "Long cooking.",
+      "Salted pork adds flavor.",
+      "Comfort food."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "surinamese",
+      "beans",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 12,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "High fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-pastei-1",
+    "slug": "pastei",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Pastei",
+    "image": "assets/img/recipes/pastei.jpg",
+    "short_description": "Chicken pie. Creole celebration dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "puff pastry",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chicken",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "peas",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make chicken filling.",
+      "Line pan with pastry.",
+      "Add filling.",
+      "Cover and bake."
+    ],
+    "cooking_tips": [
+      "Creamy filling.",
+      "Golden crust.",
+      "Party dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "surinamese",
+      "pie",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 26,
+      "fat_g": 24,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Festive meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-bakabana-1",
+    "slug": "bakabana",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Bakabana",
+    "image": "assets/img/recipes/bakabana.jpg",
+    "short_description": "Fried plantain with peanut sauce. Sweet snack.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ripe plantains",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "peanut butter",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "oil",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Slice plantains.",
+      "Deep fry.",
+      "Make peanut sauce.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Very ripe plantains.",
+      "Sweet and savory.",
+      "Street food."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "surinamese",
+      "plantain",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 16,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sr-heri-1",
+    "slug": "heri-heri",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Heri Heri",
+    "image": "assets/img/recipes/heri-heri.jpg",
+    "short_description": "Root vegetable dish. Maroon traditional food.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "cassava",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "plantain",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "salted fish",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Boil root vegetables.",
+      "Cook salted fish.",
+      "Combine with sauce.",
+      "Serve together."
+    ],
+    "cooking_tips": [
+      "Traditional Maroon dish.",
+      "Simple ingredients.",
+      "Cultural heritage."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "surinamese",
+      "roots",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 8,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Sustained energy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-bara-1",
+    "slug": "bara",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Bara",
+    "image": "assets/img/recipes/bara.jpg",
+    "short_description": "Split pea fritters. Indo-Surinamese snack.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "split peas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "oil",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Soak and grind peas.",
+      "Season batter.",
+      "Deep fry.",
+      "Serve with chutney."
+    ],
+    "cooking_tips": [
+      "Soak overnight.",
+      "Crispy outside.",
+      "Roti accompaniment."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "surinamese",
+      "fritters",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 4,
+      "fat_g": 4,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein snack.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sr-tjauw-1",
+    "slug": "tjauw-min",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Tjauw Min",
+    "image": "assets/img/recipes/tjauw-min.jpg",
+    "short_description": "Chinese-Surinamese fried noodles. Fusion dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "egg noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook noodles.",
+      "Stir-fry pork.",
+      "Add vegetables.",
+      "Toss with sauce."
+    ],
+    "cooking_tips": [
+      "Chinese influence.",
+      "High heat.",
+      "Crispy noodles option."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "surinamese",
+      "noodles",
+      "chinese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 16,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Filling meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-pinda-1",
+    "slug": "pindakaas",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Surinamese Pindakaas",
+    "image": "assets/img/recipes/pindakaas.jpg",
+    "short_description": "Peanut sauce. Essential condiment.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "peanut butter",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Combine ingredients.",
+      "Heat gently.",
+      "Stir until smooth.",
+      "Serve with roti."
+    ],
+    "cooking_tips": [
+      "Creamy texture.",
+      "Adjust thickness.",
+      "Essential sauce."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "surinamese",
+      "sauce",
+      "peanut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Healthy fats.",
+    "mealType": "Condiment",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sr-kousenband-1",
+    "slug": "kousenband",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Kousenband",
+    "image": "assets/img/recipes/kousenband.jpg",
+    "short_description": "Long beans stir-fry. Simple side dish.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "long beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "shrimp paste",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut beans.",
+      "Stir-fry with garlic.",
+      "Add shrimp paste.",
+      "Serve as side."
+    ],
+    "cooking_tips": [
+      "Quick cooking.",
+      "Crispy beans.",
+      "Simple and tasty."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "surinamese",
+      "vegetables",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 4,
+      "fat_g": 4,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Fiber-rich.",
+    "mealType": "Side",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sr-dawet-1",
+    "slug": "dawet",
+    "country": "Suriname",
+    "country_slug": "suriname",
+    "name_en": "Dawet",
+    "image": "assets/img/recipes/dawet.jpg",
+    "short_description": "Coconut drink with jellies. Sweet beverage.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "rice flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make green jellies.",
+      "Make palm sugar syrup.",
+      "Combine with coconut.",
+      "Serve with ice."
+    ],
+    "cooking_tips": [
+      "Chewy jellies.",
+      "Sweet and creamy.",
+      "Refreshing drink."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "surinamese",
+      "drink",
+      "dessert"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 2,
+      "fat_g": 12,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Refreshing treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
   }
 ]

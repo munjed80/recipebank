@@ -525,17 +525,61 @@
     "cooking_time_minutes": 90,
     "servings": 24,
     "ingredients": [
-      {"name": "masa harina", "amount": 500, "unit": "g"},
-      {"name": "lard or vegetable shortening", "amount": 250, "unit": "g"},
-      {"name": "chicken or pork broth", "amount": 400, "unit": "ml"},
-      {"name": "baking powder", "amount": 1, "unit": "tbsp"},
-      {"name": "pork shoulder", "amount": 800, "unit": "g"},
-      {"name": "dried guajillo chilies", "amount": 8, "unit": "pc"},
-      {"name": "dried ancho chilies", "amount": 4, "unit": "pc"},
-      {"name": "garlic cloves", "amount": 4, "unit": "pc"},
-      {"name": "cumin", "amount": 1, "unit": "tsp"},
-      {"name": "dried corn husks", "amount": 30, "unit": "pc"},
-      {"name": "salt", "amount": 1, "unit": "tbsp"}
+      {
+        "name": "masa harina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lard or vegetable shortening",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "chicken or pork broth",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pork shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "dried guajillo chilies",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "dried ancho chilies",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried corn husks",
+        "amount": 30,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Soak corn husks in warm water for at least 2 hours until pliable.",
@@ -559,7 +603,15 @@
       "Making tamales is traditionally a family affair - get help with assembly!"
     ],
     "difficulty": "hard",
-    "tags": ["mexican", "pork", "traditional", "festive", "steamed", "dinner", "gluten-free"],
+    "tags": [
+      "mexican",
+      "pork",
+      "traditional",
+      "festive",
+      "steamed",
+      "dinner",
+      "gluten-free"
+    ],
     "nutrition": {
       "per_serving_kcal": 280,
       "protein_g": 12,
@@ -569,5 +621,1545 @@
     "nutrition_benefits": "Tamales provide protein from pork and complex carbohydrates from masa. The corn masa is naturally gluten-free. Dried chilies add vitamins A and C plus antioxidants.",
     "mealType": "Dinner",
     "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "mx-tacos-1",
+    "slug": "tacos-al-pastor",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Tacos al Pastor",
+    "image": "assets/img/recipes/tacos-al-pastor.jpg",
+    "short_description": "Marinated pork tacos with pineapple. Street food classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "pineapple",
+        "amount": 0.5,
+        "unit": "pc"
+      },
+      {
+        "name": "achiote",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate pork.",
+      "Grill with pineapple.",
+      "Slice thin.",
+      "Serve in tortillas."
+    ],
+    "cooking_tips": [
+      "Vertical spit traditional.",
+      "Char the pineapple.",
+      "Fresh cilantro and onion."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "tacos",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-enchiladas-2",
+    "slug": "enchiladas-verdes",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Enchiladas Verdes",
+    "image": "assets/img/recipes/enchiladas-verdes.jpg",
+    "short_description": "Chicken enchiladas in green sauce. Tangy and satisfying.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatillos",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tortillas",
+        "amount": 8,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make green sauce.",
+      "Shred chicken.",
+      "Roll enchiladas.",
+      "Bake with sauce."
+    ],
+    "cooking_tips": [
+      "Char tomatillos.",
+      "Roll tightly.",
+      "Top with cream."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "chicken",
+      "enchiladas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-pozole-3",
+    "slug": "pozole-rojo",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Pozole Rojo",
+    "image": "assets/img/recipes/pozole-rojo.jpg",
+    "short_description": "Hominy soup with pork. Celebratory dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "hominy",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "pork shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 6,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook pork until tender.",
+      "Make chili sauce.",
+      "Add hominy.",
+      "Simmer together."
+    ],
+    "cooking_tips": [
+      "Many garnishes.",
+      "Long cooking.",
+      "Festive dish."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "mexican",
+      "soup",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 16,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Hearty and traditional.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-mole-4",
+    "slug": "mole-negro",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Mole Negro",
+    "image": "assets/img/recipes/mole-negro.jpg",
+    "short_description": "Complex sauce with chocolate and chilies. Oaxacan specialty.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "chocolate",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Toast and blend chilies.",
+      "Add spices and nuts.",
+      "Add chocolate.",
+      "Simmer until thick."
+    ],
+    "cooking_tips": [
+      "Many ingredients.",
+      "Labor of love.",
+      "Worth the effort."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "mexican",
+      "sauce",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Complex flavors.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-carnitas-5",
+    "slug": "carnitas",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Carnitas",
+    "image": "assets/img/recipes/carnitas.jpg",
+    "short_description": "Braised pork in its own fat. Crispy and tender.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "orange",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "lard",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cut pork.",
+      "Braise in fat.",
+      "Shred when tender.",
+      "Crisp under broiler."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Crisp at end.",
+      "Serve in tacos."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "pork",
+      "braised"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Rich and satisfying.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-birria-6",
+    "slug": "birria",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Birria",
+    "image": "assets/img/recipes/birria.jpg",
+    "short_description": "Braised goat or beef stew. Rich and spiced.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 240,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "vinegar",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Toast chilies.",
+      "Braise meat.",
+      "Make consomme.",
+      "Serve with tortillas."
+    ],
+    "cooking_tips": [
+      "Long braise.",
+      "Save the consomme.",
+      "Dip tacos in broth."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "mexican",
+      "stew",
+      "beef"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 45,
+      "fat_g": 28,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Rich in protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-chiles-7",
+    "slug": "chiles-rellenos",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Chiles Rellenos",
+    "image": "assets/img/recipes/chiles-rellenos.jpg",
+    "short_description": "Stuffed poblano peppers. Cheese-filled and battered.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "poblano peppers",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Roast and peel peppers.",
+      "Stuff with cheese.",
+      "Batter and fry.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Char well.",
+      "Fluffy batter.",
+      "Light and eggy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "peppers",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 28,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from cheese.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "mx-tamales-8",
+    "slug": "tamales",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Tamales",
+    "image": "assets/img/recipes/tamales.jpg",
+    "short_description": "Corn masa steamed in husks. Traditional and festive.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 90,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "masa",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "pork",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "corn husks",
+        "amount": 30,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make masa.",
+      "Make filling.",
+      "Assemble tamales.",
+      "Steam until set."
+    ],
+    "cooking_tips": [
+      "Whip the masa.",
+      "Many filling options.",
+      "Festive tradition."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "mexican",
+      "corn",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Traditional treat.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-elote-9",
+    "slug": "elote",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Elote",
+    "image": "assets/img/recipes/elote.jpg",
+    "short_description": "Mexican street corn with mayo and cheese. Irresistible.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "corn on cob",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "mayonnaise",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cotija cheese",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Grill corn.",
+      "Coat with mayo.",
+      "Roll in cheese.",
+      "Add chili powder."
+    ],
+    "cooking_tips": [
+      "Char the corn.",
+      "Generous toppings.",
+      "Street food classic."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "mexican",
+      "corn",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Quick and delicious.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "mx-quesadillas-10",
+    "slug": "quesadillas",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Quesadillas",
+    "image": "assets/img/recipes/quesadillas.jpg",
+    "short_description": "Cheese-filled tortillas. Simple and satisfying.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tortillas",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "salsa",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Fill tortilla with cheese.",
+      "Fold and grill.",
+      "Flip when golden.",
+      "Serve with salsa."
+    ],
+    "cooking_tips": [
+      "Oaxaca cheese melts best.",
+      "Low heat.",
+      "Add meat or veggies."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "mexican",
+      "cheese",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 18,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Quick comfort food.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "mx-tostadas-11",
+    "slug": "tostadas",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Tostadas",
+    "image": "assets/img/recipes/tostadas.jpg",
+    "short_description": "Crispy tortillas with toppings. Crunchy and fresh.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "tostadas",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "refried beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "lettuce",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Spread beans on tostadas.",
+      "Add toppings.",
+      "Top with cream.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Many topping options.",
+      "Eat immediately.",
+      "Crunchy base."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "mexican",
+      "tostadas",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 240,
+      "protein_g": 10,
+      "fat_g": 10,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "Light and crunchy.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "mx-sopes-12",
+    "slug": "sopes",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Sopes",
+    "image": "assets/img/recipes/sopes.jpg",
+    "short_description": "Thick corn patties with toppings. Street food staple.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "masa",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "refried beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "meat",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Form masa patties.",
+      "Fry until golden.",
+      "Pinch edges up.",
+      "Add toppings."
+    ],
+    "cooking_tips": [
+      "Thick patties.",
+      "Pinch while warm.",
+      "Sturdy for toppings."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "street-food",
+      "corn"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Satisfying street food.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-horchata-13",
+    "slug": "horchata",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Horchata",
+    "image": "assets/img/recipes/horchata.jpg",
+    "short_description": "Rice and cinnamon drink. Refreshing and sweet.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "sticks"
+      },
+      {
+        "name": "sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Soak rice overnight.",
+      "Blend with cinnamon.",
+      "Strain well.",
+      "Sweeten and chill."
+    ],
+    "cooking_tips": [
+      "Strain thoroughly.",
+      "Serve very cold.",
+      "Add vanilla."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "mexican",
+      "drink",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 1,
+      "fat_g": 0,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Refreshing beverage.",
+    "mealType": "Beverage",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "mx-churros-14",
+    "slug": "churros",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Churros",
+    "image": "assets/img/recipes/churros.jpg",
+    "short_description": "Fried dough with cinnamon sugar. Sweet treat.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make choux dough.",
+      "Pipe and fry.",
+      "Roll in sugar.",
+      "Serve with chocolate."
+    ],
+    "cooking_tips": [
+      "Hot oil.",
+      "Pipe straight.",
+      "Eat fresh."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "dessert",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Sweet indulgence.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "mx-tacos-1",
+    "slug": "tacos-al-pastor",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Tacos al Pastor",
+    "image": "assets/img/recipes/tacos-al-pastor.jpg",
+    "short_description": "Marinated pork tacos with pineapple. Street food classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "pineapple",
+        "amount": 0.5,
+        "unit": "pc"
+      },
+      {
+        "name": "achiote",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate pork.",
+      "Grill with pineapple.",
+      "Slice thin.",
+      "Serve in tortillas."
+    ],
+    "cooking_tips": [
+      "Vertical spit traditional.",
+      "Char the pineapple.",
+      "Fresh cilantro and onion."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "tacos",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-enchiladas-2",
+    "slug": "enchiladas-verdes",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Enchiladas Verdes",
+    "image": "assets/img/recipes/enchiladas-verdes.jpg",
+    "short_description": "Chicken enchiladas in green sauce. Tangy and satisfying.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatillos",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tortillas",
+        "amount": 8,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make green sauce.",
+      "Shred chicken.",
+      "Roll enchiladas.",
+      "Bake with sauce."
+    ],
+    "cooking_tips": [
+      "Char tomatillos.",
+      "Roll tightly.",
+      "Top with cream."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "chicken",
+      "enchiladas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-pozole-3",
+    "slug": "pozole-rojo",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Pozole Rojo",
+    "image": "assets/img/recipes/pozole-rojo.jpg",
+    "short_description": "Hominy soup with pork. Celebratory dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "hominy",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "pork shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 6,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook pork until tender.",
+      "Make chili sauce.",
+      "Add hominy.",
+      "Simmer together."
+    ],
+    "cooking_tips": [
+      "Many garnishes.",
+      "Long cooking.",
+      "Festive dish."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "mexican",
+      "soup",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 16,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Hearty and traditional.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-mole-4",
+    "slug": "mole-negro",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Mole Negro",
+    "image": "assets/img/recipes/mole-negro.jpg",
+    "short_description": "Complex sauce with chocolate and chilies. Oaxacan specialty.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "chocolate",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Toast and blend chilies.",
+      "Add spices and nuts.",
+      "Add chocolate.",
+      "Simmer until thick."
+    ],
+    "cooking_tips": [
+      "Many ingredients.",
+      "Labor of love.",
+      "Worth the effort."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "mexican",
+      "sauce",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Complex flavors.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-carnitas-5",
+    "slug": "carnitas",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Carnitas",
+    "image": "assets/img/recipes/carnitas.jpg",
+    "short_description": "Braised pork in its own fat. Crispy and tender.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "orange",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "lard",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cut pork.",
+      "Braise in fat.",
+      "Shred when tender.",
+      "Crisp under broiler."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Crisp at end.",
+      "Serve in tacos."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "pork",
+      "braised"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Rich and satisfying.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-birria-6",
+    "slug": "birria",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Birria",
+    "image": "assets/img/recipes/birria.jpg",
+    "short_description": "Braised goat or beef stew. Rich and spiced.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 240,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "vinegar",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Toast chilies.",
+      "Braise meat.",
+      "Make consomme.",
+      "Serve with tortillas."
+    ],
+    "cooking_tips": [
+      "Long braise.",
+      "Save the consomme.",
+      "Dip tacos in broth."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "mexican",
+      "stew",
+      "beef"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 45,
+      "fat_g": 28,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Rich in protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-chiles-7",
+    "slug": "chiles-rellenos",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Chiles Rellenos",
+    "image": "assets/img/recipes/chiles-rellenos.jpg",
+    "short_description": "Stuffed poblano peppers. Cheese-filled and battered.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "poblano peppers",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Roast and peel peppers.",
+      "Stuff with cheese.",
+      "Batter and fry.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Char well.",
+      "Fluffy batter.",
+      "Light and eggy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "peppers",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 28,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from cheese.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "mx-tamales-8",
+    "slug": "tamales",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Tamales",
+    "image": "assets/img/recipes/tamales.jpg",
+    "short_description": "Corn masa steamed in husks. Traditional and festive.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 90,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "masa",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "pork",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "corn husks",
+        "amount": 30,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make masa.",
+      "Make filling.",
+      "Assemble tamales.",
+      "Steam until set."
+    ],
+    "cooking_tips": [
+      "Whip the masa.",
+      "Many filling options.",
+      "Festive tradition."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "mexican",
+      "corn",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Traditional treat.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-elote-9",
+    "slug": "elote",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Elote",
+    "image": "assets/img/recipes/elote.jpg",
+    "short_description": "Mexican street corn with mayo and cheese. Irresistible.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "corn on cob",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "mayonnaise",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cotija cheese",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Grill corn.",
+      "Coat with mayo.",
+      "Roll in cheese.",
+      "Add chili powder."
+    ],
+    "cooking_tips": [
+      "Char the corn.",
+      "Generous toppings.",
+      "Street food classic."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "mexican",
+      "corn",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Quick and delicious.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "mx-quesadillas-10",
+    "slug": "quesadillas",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Quesadillas",
+    "image": "assets/img/recipes/quesadillas.jpg",
+    "short_description": "Cheese-filled tortillas. Simple and satisfying.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tortillas",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "salsa",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Fill tortilla with cheese.",
+      "Fold and grill.",
+      "Flip when golden.",
+      "Serve with salsa."
+    ],
+    "cooking_tips": [
+      "Oaxaca cheese melts best.",
+      "Low heat.",
+      "Add meat or veggies."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "mexican",
+      "cheese",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 18,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Quick comfort food.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "mx-tostadas-11",
+    "slug": "tostadas",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Tostadas",
+    "image": "assets/img/recipes/tostadas.jpg",
+    "short_description": "Crispy tortillas with toppings. Crunchy and fresh.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "tostadas",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "refried beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "lettuce",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Spread beans on tostadas.",
+      "Add toppings.",
+      "Top with cream.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Many topping options.",
+      "Eat immediately.",
+      "Crunchy base."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "mexican",
+      "tostadas",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 240,
+      "protein_g": 10,
+      "fat_g": 10,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "Light and crunchy.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "mx-sopes-12",
+    "slug": "sopes",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Sopes",
+    "image": "assets/img/recipes/sopes.jpg",
+    "short_description": "Thick corn patties with toppings. Street food staple.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "masa",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "refried beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "meat",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Form masa patties.",
+      "Fry until golden.",
+      "Pinch edges up.",
+      "Add toppings."
+    ],
+    "cooking_tips": [
+      "Thick patties.",
+      "Pinch while warm.",
+      "Sturdy for toppings."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "street-food",
+      "corn"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Satisfying street food.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "mx-horchata-13",
+    "slug": "horchata",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Horchata",
+    "image": "assets/img/recipes/horchata.jpg",
+    "short_description": "Rice and cinnamon drink. Refreshing and sweet.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "sticks"
+      },
+      {
+        "name": "sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Soak rice overnight.",
+      "Blend with cinnamon.",
+      "Strain well.",
+      "Sweeten and chill."
+    ],
+    "cooking_tips": [
+      "Strain thoroughly.",
+      "Serve very cold.",
+      "Add vanilla."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "mexican",
+      "drink",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 1,
+      "fat_g": 0,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Refreshing beverage.",
+    "mealType": "Beverage",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "mx-churros-14",
+    "slug": "churros",
+    "country": "Mexico",
+    "country_slug": "mexico",
+    "name_en": "Churros",
+    "image": "assets/img/recipes/churros.jpg",
+    "short_description": "Fried dough with cinnamon sugar. Sweet treat.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make choux dough.",
+      "Pipe and fry.",
+      "Roll in sugar.",
+      "Serve with chocolate."
+    ],
+    "cooking_tips": [
+      "Hot oil.",
+      "Pipe straight.",
+      "Eat fresh."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "mexican",
+      "dessert",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Sweet indulgence.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   }
 ]
