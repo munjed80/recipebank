@@ -1931,5 +1931,1014 @@
     "nutrition_benefits": "Tabbouleh is extremely rich in vitamin K and vitamin C from the abundance of fresh parsley. The herbs provide antioxidants and anti-inflammatory compounds. Olive oil adds heart-healthy monounsaturated fats.",
     "mealType": "Lunch",
     "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-kabab-halabi",
+    "slug": "kabab-halabi",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Kabab Halabi",
+    "image": "assets/img/recipes/kabab-halabi.jpg",
+    "short_description": "Tender Aleppo-style lamb kebabs infused with cherry and pomegranate molasses. This signature dish from Syria's culinary capital showcases the sophisticated flavors of Aleppine cuisine.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      { "name": "ground lamb", "amount": 700, "unit": "g" },
+      { "name": "lamb fat", "amount": 100, "unit": "g" },
+      { "name": "sour cherries", "amount": 200, "unit": "g" },
+      { "name": "pomegranate molasses", "amount": 60, "unit": "ml" },
+      { "name": "Aleppo pepper", "amount": 2, "unit": "tbsp" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "pine nuts", "amount": 50, "unit": "g" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Hand-mince lamb with lamb fat until very smooth.",
+      "Grate onion and squeeze out excess liquid.",
+      "Mix meat with onion, Aleppo pepper, and salt.",
+      "Knead mixture for 5 minutes until sticky.",
+      "Shape onto flat skewers in long cylinders.",
+      "Grill over hot charcoal, turning frequently.",
+      "Simmer cherries with pomegranate molasses.",
+      "Toast pine nuts until golden.",
+      "Serve kebabs topped with cherry sauce and pine nuts.",
+      "Accompany with grilled tomatoes and flatbread."
+    ],
+    "cooking_tips": [
+      "The lamb must be very fresh for best results.",
+      "Aleppo pepper has a fruity heat - essential for this dish.",
+      "Can substitute sour cherries with dried barberries."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "aleppo", "grilled", "lamb", "kebab", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High in protein from lamb. Pomegranate molasses provides antioxidants. A signature dish of Syrian cuisine.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "sy-foul-nabet",
+    "slug": "foul-nabet",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Foul Nabet",
+    "image": "assets/img/recipes/foul-nabet.jpg",
+    "short_description": "Sprouted fava beans slowly cooked until tender and dressed with garlic, lemon, and olive oil. This nutritious Syrian breakfast staple is beloved throughout the country.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      { "name": "sprouted fava beans", "amount": 400, "unit": "g" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "lemon juice", "amount": 60, "unit": "ml" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" }
+    ],
+    "steps": [
+      "Rinse sprouted fava beans thoroughly.",
+      "Cover with water and bring to boil.",
+      "Simmer for 45-60 minutes until very tender.",
+      "Drain, reserving some cooking liquid.",
+      "Crush garlic with salt.",
+      "Mash some beans, leave others whole.",
+      "Mix with garlic, lemon juice, and cumin.",
+      "Drizzle generously with olive oil.",
+      "Garnish with fresh parsley.",
+      "Serve warm with bread."
+    ],
+    "cooking_tips": [
+      "Sprouted beans are more nutritious than dried.",
+      "The texture should be creamy with some whole beans.",
+      "Essential morning street food in Damascus."
+    ],
+    "difficulty": "easy",
+    "tags": ["syrian", "breakfast", "beans", "vegan", "healthy", "street-food"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 16,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Sprouted fava beans are high in protein and fiber. Olive oil provides healthy fats. A nutritious start to the day.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-fatayer",
+    "slug": "fatayer",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Fatayer",
+    "image": "assets/img/recipes/fatayer.jpg",
+    "short_description": "Triangular savory pastries filled with spinach, meat, or cheese. These beloved Syrian hand pies are perfect for breakfast, snacks, or part of a mezze spread.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "yeast", "amount": 7, "unit": "g" },
+      { "name": "spinach", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "lemon juice", "amount": 60, "unit": "ml" },
+      { "name": "sumac", "amount": 2, "unit": "tbsp" },
+      { "name": "pine nuts", "amount": 50, "unit": "g" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make dough with flour, yeast, oil, salt, and water.",
+      "Knead until smooth, let rise 1 hour.",
+      "Wash spinach, chop finely, salt and squeeze dry.",
+      "Mix spinach with diced onion, lemon juice, and sumac.",
+      "Add pine nuts and olive oil to filling.",
+      "Divide dough into small balls.",
+      "Roll each into a circle.",
+      "Add filling in center.",
+      "Fold into triangular shape, pinching edges.",
+      "Bake at 400°F for 15-20 minutes until golden."
+    ],
+    "cooking_tips": [
+      "Squeeze all water from spinach for best results.",
+      "The sumac adds essential tangy flavor.",
+      "Can also make with meat or cheese filling."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "pastry", "spinach", "appetizer", "vegan", "baked"],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 6,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Spinach provides iron and vitamins. Pine nuts add protein. A satisfying snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-kibbeh-labanieh",
+    "slug": "kibbeh-labanieh",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Kibbeh Labanieh",
+    "image": "assets/img/recipes/kibbeh-labanieh.jpg",
+    "short_description": "Kibbeh balls simmered in creamy yogurt sauce with garlic and mint. This comforting Syrian dish transforms fried kibbeh into an elegant main course.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      { "name": "prepared kibbeh balls", "amount": 24, "unit": "pc" },
+      { "name": "yogurt", "amount": 1, "unit": "kg" },
+      { "name": "egg", "amount": 1, "unit": "pc" },
+      { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "dried mint", "amount": 2, "unit": "tbsp" },
+      { "name": "butter", "amount": 30, "unit": "g" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Prepare and fry kibbeh balls, set aside.",
+      "Mix yogurt with egg and cornstarch until smooth.",
+      "Add salt and mix well.",
+      "Cook yogurt over medium heat, stirring constantly.",
+      "Stir in one direction only to prevent curdling.",
+      "Bring to a gentle boil, then simmer.",
+      "Add fried kibbeh balls to the sauce.",
+      "Simmer for 10 minutes.",
+      "Sauté crushed garlic and mint in butter.",
+      "Pour garlic-mint butter over the dish and serve."
+    ],
+    "cooking_tips": [
+      "Never stop stirring the yogurt or it will curdle.",
+      "The cornstarch and egg stabilize the yogurt.",
+      "Serve over rice for a complete meal."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "yogurt", "kibbeh", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 28,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Yogurt provides calcium and probiotics. Protein from lamb. A creamy, satisfying main course.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sy-sheikh-mahshi",
+    "slug": "sheikh-mahshi",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Sheikh al-Mahshi",
+    "image": "assets/img/recipes/sheikh-mahshi.jpg",
+    "short_description": "Baby eggplants stuffed with spiced meat and pine nuts, baked in tomato sauce. This regal Syrian dish earns its name 'the king of stuffed vegetables'.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "baby eggplants", "amount": 12, "unit": "pc" },
+      { "name": "ground beef or lamb", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "pine nuts", "amount": 60, "unit": "g" },
+      { "name": "tomato sauce", "amount": 400, "unit": "ml" },
+      { "name": "pomegranate molasses", "amount": 2, "unit": "tbsp" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Core eggplants leaving the stems attached.",
+      "Fry eggplants in oil until softened, drain.",
+      "Sauté onion until golden.",
+      "Add meat and brown with spices.",
+      "Toast pine nuts and add to filling.",
+      "Stuff each eggplant with meat mixture.",
+      "Arrange in baking dish.",
+      "Mix tomato sauce with pomegranate molasses.",
+      "Pour sauce over stuffed eggplants.",
+      "Bake at 375°F for 40 minutes."
+    ],
+    "cooking_tips": [
+      "Small eggplants are more tender and flavorful.",
+      "Pomegranate molasses adds sweet-tart depth.",
+      "Serve with rice or bread."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "stuffed", "eggplant", "meat", "baked", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 28,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Eggplant is low in calories and high in fiber. Pine nuts add protein. A balanced, satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sy-shakrieh",
+    "slug": "shakrieh",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Shakrieh",
+    "image": "assets/img/recipes/shakrieh.jpg",
+    "short_description": "Tender lamb chunks in a rich, tangy yogurt sauce. This beloved Syrian dish showcases the art of cooking meat in stabilized yogurt.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 800, "unit": "g" },
+      { "name": "yogurt", "amount": 1, "unit": "kg" },
+      { "name": "egg", "amount": 1, "unit": "pc" },
+      { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
+      { "name": "cardamom pods", "amount": 4, "unit": "pc" },
+      { "name": "ghee", "amount": 60, "unit": "g" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cut lamb into 2-inch chunks.",
+      "Boil lamb with onion and cardamom until tender.",
+      "Reserve cooking broth.",
+      "Mix yogurt with egg and cornstarch.",
+      "Heat yogurt slowly, stirring in one direction.",
+      "Add lamb broth to thin the sauce.",
+      "Add cooked lamb to the yogurt.",
+      "Simmer gently for 15 minutes.",
+      "Fry garlic in ghee until golden.",
+      "Pour garlic ghee over the dish and serve."
+    ],
+    "cooking_tips": [
+      "Constant stirring prevents curdling.",
+      "The yogurt sauce should coat a spoon.",
+      "Traditionally served with vermicelli rice."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "lamb", "yogurt", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein from lamb. Yogurt provides calcium and probiotics. A rich, comforting dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "sy-sambousek",
+    "slug": "syrian-sambousek",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Syrian Sambousek",
+    "image": "assets/img/recipes/syrian-sambousek.jpg",
+    "short_description": "Crispy half-moon pastries filled with spiced meat or cheese. These Syrian favorites are essential at celebrations and holiday gatherings.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "ground beef", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "pine nuts", "amount": 50, "unit": "g" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "vegetable oil for frying", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make dough with flour, melted butter, salt, and water.",
+      "Knead until smooth, rest 30 minutes.",
+      "Sauté onion until soft.",
+      "Add beef and cook with spices until browned.",
+      "Add toasted pine nuts to filling.",
+      "Roll dough thin and cut circles.",
+      "Place filling on half of each circle.",
+      "Fold and crimp edges decoratively.",
+      "Deep fry until golden brown.",
+      "Drain and serve hot."
+    ],
+    "cooking_tips": [
+      "The dough should be flaky and tender.",
+      "Seal edges well to prevent opening while frying.",
+      "Can also be filled with cheese or spinach."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "fried", "pastry", "appetizer", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 5,
+      "fat_g": 9,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from beef. Pine nuts add healthy fats. A festive treat best enjoyed in moderation.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sy-malfouf-mahshi",
+    "slug": "malfouf-mahshi",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Malfouf Mahshi",
+    "image": "assets/img/recipes/malfouf-mahshi.jpg",
+    "short_description": "Tender cabbage leaves wrapped around spiced rice and meat, slowly braised in lemony broth. This Syrian comfort food is perfect for gatherings.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      { "name": "cabbage", "amount": 1, "unit": "large head" },
+      { "name": "ground lamb or beef", "amount": 400, "unit": "g" },
+      { "name": "short-grain rice", "amount": 200, "unit": "g" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "garlic cloves", "amount": 8, "unit": "pc" },
+      { "name": "dried mint", "amount": 2, "unit": "tbsp" },
+      { "name": "lemon juice", "amount": 120, "unit": "ml" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Core cabbage and blanch until leaves separate easily.",
+      "Mix rice with meat, diced tomatoes, and spices.",
+      "Place filling on each leaf and roll tightly.",
+      "Line pot with tomato slices and garlic.",
+      "Arrange rolls seam-side down in layers.",
+      "Add water, lemon juice, and olive oil.",
+      "Place a plate on top to keep rolls submerged.",
+      "Simmer covered for 90 minutes.",
+      "Sprinkle with dried mint.",
+      "Serve warm with cooking liquid."
+    ],
+    "cooking_tips": [
+      "Remove thick cabbage ribs for easier rolling.",
+      "Pack rolls tightly so they don't unravel.",
+      "The garlic-lined pot adds flavor to the broth."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "stuffed", "cabbage", "meat", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Cabbage provides fiber and vitamins. Balanced combination of protein, carbs, and vegetables.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sy-mahlab-pudding",
+    "slug": "mahlab-pudding",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Muhallabieh",
+    "image": "assets/img/recipes/muhallabieh.jpg",
+    "short_description": "A silky milk pudding perfumed with rose water and topped with crushed pistachios. This elegant Syrian dessert is light yet satisfying.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      { "name": "whole milk", "amount": 1, "unit": "L" },
+      { "name": "cornstarch", "amount": 60, "unit": "g" },
+      { "name": "sugar", "amount": 100, "unit": "g" },
+      { "name": "rose water", "amount": 2, "unit": "tbsp" },
+      { "name": "orange blossom water", "amount": 1, "unit": "tbsp" },
+      { "name": "pistachios", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Mix cornstarch with a little cold milk.",
+      "Heat remaining milk with sugar.",
+      "Add cornstarch mixture, stirring constantly.",
+      "Cook until thickened, about 10 minutes.",
+      "Remove from heat, add rose and orange blossom water.",
+      "Pour into individual dishes.",
+      "Refrigerate until set, at least 2 hours.",
+      "Crush pistachios.",
+      "Top with pistachios before serving.",
+      "Can be served chilled or at room temperature."
+    ],
+    "cooking_tips": [
+      "Stir constantly to prevent lumps.",
+      "The pudding thickens more as it cools.",
+      "Don't add floral waters while still on heat."
+    ],
+    "difficulty": "easy",
+    "tags": ["syrian", "dessert", "pudding", "milk", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Milk provides calcium and protein. Pistachios add healthy fats. A light, elegant dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sy-mfatqa",
+    "slug": "mfatqa",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Mfatqa",
+    "image": "assets/img/recipes/mfatqa.jpg",
+    "short_description": "Tiny pasta pearls cooked in rich chicken broth with tender chicken pieces. This Syrian comfort soup is often served to new mothers and during recovery.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "whole chicken", "amount": 1.5, "unit": "kg" },
+      { "name": "maftoul or couscous", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "cinnamon stick", "amount": 1, "unit": "pc" },
+      { "name": "cardamom pods", "amount": 4, "unit": "pc" },
+      { "name": "bay leaves", "amount": 2, "unit": "pc" },
+      { "name": "ghee", "amount": 60, "unit": "g" },
+      { "name": "pine nuts", "amount": 50, "unit": "g" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Boil chicken with onion and spices until tender.",
+      "Remove chicken and shred the meat.",
+      "Strain broth and skim fat.",
+      "Toast maftoul in ghee until golden.",
+      "Add hot broth to maftoul.",
+      "Cook until pasta is tender.",
+      "Add shredded chicken.",
+      "Toast pine nuts until golden.",
+      "Serve soup topped with pine nuts.",
+      "Garnish with cinnamon if desired."
+    ],
+    "cooking_tips": [
+      "Toasting the pasta adds nutty flavor.",
+      "The broth should be rich and flavorful.",
+      "Considered a healing, nourishing dish."
+    ],
+    "difficulty": "easy",
+    "tags": ["syrian", "soup", "chicken", "comfort-food", "nourishing"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Protein-rich chicken broth. Easy to digest. Traditionally given for strength and recovery.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sy-mutabbal",
+    "slug": "mutabbal",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Mutabbal",
+    "image": "assets/img/recipes/mutabbal.jpg",
+    "short_description": "Smoky grilled eggplant blended with tahini, yogurt, and garlic. This creamy Syrian dip is richer than its cousin baba ganoush.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      { "name": "large eggplants", "amount": 3, "unit": "pc" },
+      { "name": "tahini", "amount": 80, "unit": "ml" },
+      { "name": "yogurt", "amount": 100, "unit": "g" },
+      { "name": "garlic cloves", "amount": 2, "unit": "pc" },
+      { "name": "lemon juice", "amount": 60, "unit": "ml" },
+      { "name": "olive oil", "amount": 30, "unit": "ml" },
+      { "name": "pomegranate seeds", "amount": 50, "unit": "g" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Char eggplants over open flame until skin is blackened.",
+      "Let cool, then peel off charred skin.",
+      "Drain eggplant flesh of excess liquid.",
+      "Mash eggplant or blend briefly.",
+      "Add tahini, yogurt, and crushed garlic.",
+      "Mix in lemon juice and salt.",
+      "Blend until creamy but not smooth.",
+      "Transfer to serving dish.",
+      "Drizzle with olive oil.",
+      "Garnish with pomegranate seeds."
+    ],
+    "cooking_tips": [
+      "Char directly on flame for smokiest flavor.",
+      "Drain well or dip will be watery.",
+      "The yogurt makes it creamier than baba ganoush."
+    ],
+    "difficulty": "easy",
+    "tags": ["syrian", "dip", "eggplant", "mezze", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 160,
+      "protein_g": 4,
+      "fat_g": 12,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Eggplant is low in calories. Tahini provides calcium. A healthy, flavorful dip.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sy-awamat",
+    "slug": "awamat",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Awamat",
+    "image": "assets/img/recipes/awamat.jpg",
+    "short_description": "Golden fried dough balls soaked in fragrant rose-scented sugar syrup. These Syrian treats are irresistibly crispy outside and soft inside.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 30,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 300, "unit": "g" },
+      { "name": "cornstarch", "amount": 50, "unit": "g" },
+      { "name": "yeast", "amount": 7, "unit": "g" },
+      { "name": "sugar", "amount": 400, "unit": "g" },
+      { "name": "water", "amount": 250, "unit": "ml" },
+      { "name": "rose water", "amount": 2, "unit": "tbsp" },
+      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
+      { "name": "vegetable oil", "amount": 1, "unit": "L" }
+    ],
+    "steps": [
+      "Make syrup by boiling sugar, water, lemon, until thick.",
+      "Add rose water to syrup, set aside.",
+      "Mix flour, cornstarch, yeast, and warm water.",
+      "Beat batter until smooth and stretchy.",
+      "Let rise for 1 hour until doubled.",
+      "Heat oil to 350°F.",
+      "Drop batter by teaspoonfuls into oil.",
+      "Fry until golden brown, turning once.",
+      "Drain briefly then dip in cold syrup.",
+      "Serve immediately while crispy."
+    ],
+    "cooking_tips": [
+      "Keep syrup cold for crispier results.",
+      "Drop batter with wet hands or two spoons.",
+      "Must be served immediately after frying."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "dessert", "fried", "sweet", "ramadan"],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 1,
+      "fat_g": 5,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "A traditional sweet treat. Rose water has calming properties. Best enjoyed in moderation.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-namoura",
+    "slug": "namoura",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Namoura",
+    "image": "assets/img/recipes/namoura.jpg",
+    "short_description": "A tender semolina cake soaked in sugar syrup and topped with almonds. This beloved Syrian dessert is simple yet irresistible.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 35,
+    "servings": 20,
+    "ingredients": [
+      { "name": "fine semolina", "amount": 400, "unit": "g" },
+      { "name": "sugar", "amount": 200, "unit": "g" },
+      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "butter", "amount": 150, "unit": "g" },
+      { "name": "baking powder", "amount": 1.5, "unit": "tsp" },
+      { "name": "tahini", "amount": 2, "unit": "tbsp" },
+      { "name": "blanched almonds", "amount": 20, "unit": "pc" },
+      { "name": "sugar syrup", "amount": 300, "unit": "ml" },
+      { "name": "rose water", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Mix semolina, sugar, and baking powder.",
+      "Add melted butter and yogurt.",
+      "Mix until combined, let rest 30 minutes.",
+      "Grease pan with tahini.",
+      "Spread batter evenly.",
+      "Score into diamond shapes.",
+      "Place an almond on each piece.",
+      "Bake at 350°F for 30-35 minutes until golden.",
+      "Pour cold rose syrup over hot cake.",
+      "Let absorb before serving."
+    ],
+    "cooking_tips": [
+      "Cold syrup on hot cake prevents sogginess.",
+      "The tahini creates a beautiful golden bottom.",
+      "Rest the batter for best texture."
+    ],
+    "difficulty": "easy",
+    "tags": ["syrian", "dessert", "semolina", "cake", "sweet"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Semolina provides carbohydrates. Almonds add protein. A satisfying sweet treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sy-adas-bil-hamod",
+    "slug": "adas-bil-hamod",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Adas bil Hamod",
+    "image": "assets/img/recipes/adas-bil-hamod.jpg",
+    "short_description": "A tangy lentil soup with Swiss chard and lemon. This healthy Syrian soup is flavored with a garlic-cilantro topping.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "brown lentils", "amount": 300, "unit": "g" },
+      { "name": "Swiss chard", "amount": 300, "unit": "g" },
+      { "name": "potatoes", "amount": 2, "unit": "medium" },
+      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
+      { "name": "fresh cilantro", "amount": 1, "unit": "bunch" },
+      { "name": "lemon juice", "amount": 120, "unit": "ml" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "flour", "amount": 30, "unit": "g" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook lentils in water until almost tender.",
+      "Add cubed potatoes and cook until done.",
+      "Add chopped chard and cook until wilted.",
+      "Crush garlic with salt.",
+      "Chop cilantro finely.",
+      "Sauté garlic and cilantro in olive oil.",
+      "Add flour and cook briefly.",
+      "Add garlic mixture to soup.",
+      "Stir in lemon juice.",
+      "Adjust seasoning and serve hot."
+    ],
+    "cooking_tips": [
+      "The soup should be thick with vegetables.",
+      "Add more lemon for tangier flavor.",
+      "A nourishing, healthy meal."
+    ],
+    "difficulty": "easy",
+    "tags": ["syrian", "soup", "lentils", "healthy", "vegan"],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 12,
+      "fat_g": 10,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Lentils provide plant protein and fiber. Swiss chard is rich in vitamins. A nutritious, filling soup.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-sfeeha",
+    "slug": "syrian-sfeeha",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Syrian Sfeeha",
+    "image": "assets/img/recipes/syrian-sfeeha.jpg",
+    "short_description": "Open-faced meat pies with a tangy lamb filling topped with pine nuts. These Syrian delicacies feature a distinctive square or round shape.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 20,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "yeast", "amount": 7, "unit": "g" },
+      { "name": "ground lamb", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomatoes", "amount": 2, "unit": "medium" },
+      { "name": "pomegranate molasses", "amount": 3, "unit": "tbsp" },
+      { "name": "pine nuts", "amount": 60, "unit": "g" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make dough with flour, yeast, oil, and water.",
+      "Let rise for 1 hour.",
+      "Mix lamb with finely diced onion and tomatoes.",
+      "Add pomegranate molasses and spices.",
+      "Divide dough into small balls.",
+      "Flatten each into a round.",
+      "Top with meat mixture.",
+      "Fold edges up slightly to form a boat shape.",
+      "Top with pine nuts.",
+      "Bake at 450°F for 10-12 minutes."
+    ],
+    "cooking_tips": [
+      "High heat creates the best crust.",
+      "Pomegranate molasses is essential for flavor.",
+      "Serve with yogurt on the side."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "meat-pie", "lamb", "baked", "appetizer"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Protein from lamb. Pine nuts add healthy fats. A delicious savory snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sy-bamya",
+    "slug": "syrian-bamya",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Syrian Bamya",
+    "image": "assets/img/recipes/syrian-bamya.jpg",
+    "short_description": "Tender okra stewed with lamb in a tangy tomato and garlic sauce. This Syrian classic is aromatic with coriander and pomegranate.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "fresh okra", "amount": 500, "unit": "g" },
+      { "name": "lamb shoulder", "amount": 600, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomatoes", "amount": 4, "unit": "medium" },
+      { "name": "garlic cloves", "amount": 10, "unit": "pc" },
+      { "name": "ground coriander", "amount": 2, "unit": "tbsp" },
+      { "name": "pomegranate molasses", "amount": 2, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "fresh cilantro", "amount": 0.5, "unit": "cup" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Trim okra tops without piercing the pods.",
+      "Fry okra briefly in oil, set aside.",
+      "Brown lamb pieces in the same oil.",
+      "Add diced onion and cook until soft.",
+      "Add chopped tomatoes and cook down.",
+      "Crush garlic with coriander and salt.",
+      "Add garlic paste to the pot.",
+      "Return lamb, add water to cover.",
+      "Simmer until lamb is tender.",
+      "Add okra and pomegranate molasses, cook 20 minutes."
+    ],
+    "cooking_tips": [
+      "Don't cut into the okra or it becomes slimy.",
+      "The sauce should be thick and rich.",
+      "Serve over vermicelli rice."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "stew", "okra", "lamb", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 28,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Okra provides fiber and vitamins. Lamb offers protein and iron. Garlic has health benefits.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "sy-harrak-isbaou",
+    "slug": "harrak-isbaou",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Harrak Isbaou",
+    "image": "assets/img/recipes/harrak-isbaou.jpg",
+    "short_description": "A hearty Aleppine lentil soup with pasta squares and tangy pomegranate. The name means 'burnt his finger' - it's that irresistible.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      { "name": "brown lentils", "amount": 250, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 200, "unit": "g" },
+      { "name": "onions", "amount": 3, "unit": "large" },
+      { "name": "garlic cloves", "amount": 8, "unit": "pc" },
+      { "name": "fresh cilantro", "amount": 1, "unit": "bunch" },
+      { "name": "pomegranate molasses", "amount": 80, "unit": "ml" },
+      { "name": "tamarind paste", "amount": 2, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 120, "unit": "ml" },
+      { "name": "Aleppo pepper", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook lentils until tender.",
+      "Make simple pasta dough, roll thin, cut into squares.",
+      "Slice onions and fry in oil until deeply caramelized.",
+      "Reserve most onions for topping.",
+      "Crush garlic with cilantro and salt.",
+      "Add to lentils with pomegranate molasses and tamarind.",
+      "Cook pasta squares in the soup.",
+      "Simmer until thick.",
+      "Serve topped with crispy onions.",
+      "Drizzle with olive oil."
+    ],
+    "cooking_tips": [
+      "Caramelized onions are key to the flavor.",
+      "The soup should be thick like porridge.",
+      "A signature dish of Aleppo."
+    ],
+    "difficulty": "medium",
+    "tags": ["syrian", "aleppo", "soup", "lentils", "vegan", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 40
+    },
+    "nutrition_benefits": "Lentils provide protein and fiber. Pomegranate molasses adds antioxidants. A hearty, nourishing dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "sy-jibneh-mashwi",
+    "slug": "jibneh-mashwi",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Jibneh Mashwi",
+    "image": "assets/img/recipes/jibneh-mashwi.jpg",
+    "short_description": "Grilled halloumi-style cheese with a crispy exterior and soft, squeaky interior. This beloved Syrian mezze is often served with mint and tomatoes.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      { "name": "Syrian grilling cheese", "amount": 400, "unit": "g" },
+      { "name": "olive oil", "amount": 30, "unit": "ml" },
+      { "name": "fresh mint", "amount": 0.25, "unit": "cup" },
+      { "name": "cherry tomatoes", "amount": 200, "unit": "g" },
+      { "name": "lemon wedges", "amount": 4, "unit": "pc" },
+      { "name": "za'atar", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Slice cheese into 1-inch thick slabs.",
+      "Heat a grill pan until very hot.",
+      "Brush cheese lightly with olive oil.",
+      "Grill until golden marks appear, 2 minutes per side.",
+      "Transfer to serving plate.",
+      "Drizzle with olive oil.",
+      "Sprinkle with za'atar.",
+      "Garnish with mint and tomatoes.",
+      "Serve with lemon wedges.",
+      "Eat immediately while warm."
+    ],
+    "cooking_tips": [
+      "The cheese must be eaten hot.",
+      "Don't move it while grilling or marks won't form.",
+      "Halloumi is a good substitute."
+    ],
+    "difficulty": "easy",
+    "tags": ["syrian", "cheese", "grilled", "mezze", "vegetarian", "quick"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "High in protein and calcium. Quick and satisfying. A beloved appetizer.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sy-riz-bil-haleeb",
+    "slug": "riz-bil-haleeb",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Riz bil Haleeb",
+    "image": "assets/img/recipes/riz-bil-haleeb.jpg",
+    "short_description": "Creamy Syrian rice pudding scented with rose water and topped with pistachios. This comforting dessert is loved across all ages.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "short-grain rice", "amount": 100, "unit": "g" },
+      { "name": "whole milk", "amount": 1, "unit": "L" },
+      { "name": "sugar", "amount": 100, "unit": "g" },
+      { "name": "rose water", "amount": 2, "unit": "tbsp" },
+      { "name": "ground cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "pistachios", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Rinse rice well.",
+      "Cook rice with water until half done.",
+      "Add milk and bring to gentle simmer.",
+      "Stir frequently to prevent sticking.",
+      "Cook until rice is very soft and creamy.",
+      "Add sugar and stir until dissolved.",
+      "Remove from heat, add rose water.",
+      "Pour into serving dishes.",
+      "Refrigerate until cold.",
+      "Top with pistachios and cinnamon."
+    ],
+    "cooking_tips": [
+      "Stir often to prevent a skin from forming.",
+      "Can be served warm or cold.",
+      "Orange blossom water is an alternative."
+    ],
+    "difficulty": "easy",
+    "tags": ["syrian", "dessert", "rice", "pudding", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Milk provides calcium and protein. Rice offers carbohydrates. A comforting, simple dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sy-lahem-meshwi",
+    "slug": "lahem-meshwi",
+    "country": "Syria",
+    "country_slug": "syria",
+    "name_en": "Lahem Meshwi",
+    "image": "assets/img/recipes/lahem-meshwi.jpg",
+    "short_description": "Tender lamb cubes marinated and grilled on skewers over charcoal. This Syrian BBQ classic is served with grilled vegetables and flatbread.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      { "name": "lamb leg", "amount": 800, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "cherry tomatoes", "amount": 12, "unit": "pc" },
+      { "name": "flatbread", "amount": 6, "unit": "pc" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cut lamb into 1.5-inch cubes.",
+      "Grate onion and squeeze out juice.",
+      "Marinate lamb in onion juice, oil, and spices.",
+      "Refrigerate for 2 hours or overnight.",
+      "Thread lamb onto metal skewers.",
+      "Grill over hot charcoal, turning frequently.",
+      "Cook until charred outside, pink inside.",
+      "Grill tomatoes alongside.",
+      "Warm flatbread on the grill.",
+      "Serve immediately with fresh vegetables."
+    ],
+    "cooking_tips": [
+      "The onion juice tenderizes the meat.",
+      "High heat creates the best char.",
+      "Lamb should be slightly pink inside."
+    ],
+    "difficulty": "easy",
+    "tags": ["syrian", "lamb", "grilled", "bbq", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 36,
+      "fat_g": 28,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High in protein and iron from lamb. Simple grilled preparation retains nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
   }
 ]

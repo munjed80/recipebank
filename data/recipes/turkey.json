@@ -1562,5 +1562,1015 @@
     "nutrition_benefits": "Yaprak sarma provides heart-healthy fats from olive oil. Grape leaves are rich in vitamins A and K. Pine nuts add protein and minerals.",
     "mealType": "Appetizer",
     "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tr-ali-nazik",
+    "slug": "ali-nazik",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Ali Nazik",
+    "image": "assets/img/recipes/ali-nazik.jpg",
+    "short_description": "Smoky eggplant purée with yogurt topped with sautéed lamb. This elegant Gaziantep specialty perfectly balances creamy, tangy, and savory flavors.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "large eggplants", "amount": 3, "unit": "pc" },
+      { "name": "ground lamb", "amount": 400, "unit": "g" },
+      { "name": "strained yogurt", "amount": 400, "unit": "g" },
+      { "name": "garlic cloves", "amount": 3, "unit": "pc" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "tomatoes", "amount": 2, "unit": "medium" },
+      { "name": "red pepper flakes", "amount": 1, "unit": "tsp" },
+      { "name": "Aleppo pepper", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Char eggplants over open flame until collapsed.",
+      "Peel and drain excess liquid from flesh.",
+      "Mash eggplant with crushed garlic and salt.",
+      "Mix mashed eggplant with yogurt until smooth.",
+      "Spread on serving platter.",
+      "Sauté lamb in butter with diced tomatoes.",
+      "Season with pepper flakes.",
+      "Spoon hot lamb over eggplant-yogurt base.",
+      "Drizzle with more melted butter.",
+      "Serve immediately with warm bread."
+    ],
+    "cooking_tips": [
+      "The smokier the eggplant, the better.",
+      "Use thick, strained yogurt for best results.",
+      "Named after a legendary cook from Gaziantep."
+    ],
+    "difficulty": "medium",
+    "tags": ["turkish", "gaziantep", "eggplant", "lamb", "yogurt", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 30,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "High in protein. Yogurt provides probiotics. Eggplant is low in calories.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "tr-hunkar-begendi",
+    "slug": "hunkar-begendi",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Hünkar Beğendi",
+    "image": "assets/img/recipes/hunkar-begendi.jpg",
+    "short_description": "Tender lamb stew served over creamy smoked eggplant béchamel. The name means 'the Sultan liked it' - and you will too.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 800, "unit": "g" },
+      { "name": "large eggplants", "amount": 4, "unit": "pc" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "butter", "amount": 80, "unit": "g" },
+      { "name": "flour", "amount": 40, "unit": "g" },
+      { "name": "milk", "amount": 300, "unit": "ml" },
+      { "name": "kaşar cheese", "amount": 100, "unit": "g" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cube lamb and brown in butter.",
+      "Add diced onion and cook until soft.",
+      "Add chopped tomatoes and water.",
+      "Simmer until lamb is tender, about 90 minutes.",
+      "Char eggplants and remove flesh.",
+      "Mash eggplant thoroughly.",
+      "Make béchamel with butter, flour, and milk.",
+      "Stir eggplant and cheese into béchamel.",
+      "Spread eggplant purée on plates.",
+      "Top with lamb stew and serve."
+    ],
+    "cooking_tips": [
+      "The eggplant purée should be creamy and rich.",
+      "A signature dish of Ottoman palace cuisine.",
+      "Can substitute kaşar with provolone."
+    ],
+    "difficulty": "hard",
+    "tags": ["turkish", "ottoman", "lamb", "eggplant", "elegant", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 34,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "High in protein from lamb. Eggplant provides fiber. A royal Ottoman dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tr-kofte-izmir",
+    "slug": "izmir-kofte",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "İzmir Köfte",
+    "image": "assets/img/recipes/izmir-kofte.jpg",
+    "short_description": "Juicy meatballs baked with potatoes and peppers in tomato sauce. This beloved Turkish casserole from İzmir is perfect comfort food.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "ground beef and lamb mix", "amount": 500, "unit": "g" },
+      { "name": "potatoes", "amount": 4, "unit": "medium" },
+      { "name": "green peppers", "amount": 3, "unit": "pc" },
+      { "name": "tomatoes", "amount": 4, "unit": "medium" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "breadcrumbs", "amount": 50, "unit": "g" },
+      { "name": "egg", "amount": 1, "unit": "pc" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "salt and pepper", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Mix ground meat with grated onion, breadcrumbs, and egg.",
+      "Season and shape into small oval meatballs.",
+      "Slice potatoes into rounds.",
+      "Slice peppers into rings.",
+      "Fry meatballs until browned, set aside.",
+      "Layer potatoes in a baking dish.",
+      "Add meatballs and peppers.",
+      "Top with sliced tomatoes.",
+      "Drizzle with olive oil, add a little water.",
+      "Bake at 375°F for 45 minutes until bubbly."
+    ],
+    "cooking_tips": [
+      "The potatoes should be tender and infused with sauce.",
+      "A one-dish meal perfect for families.",
+      "Serve with rice or bread."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "meatballs", "casserole", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 22,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Complete meal with protein, carbs, and vegetables. Potatoes provide potassium.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "tr-tas-kebabi",
+    "slug": "tas-kebabi",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Taş Kebabı",
+    "image": "assets/img/recipes/tas-kebabi.jpg",
+    "short_description": "Braised lamb cubes in a rich tomato sauce, a homestyle Turkish stew. Simple yet deeply flavorful, served over rice or with bread.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 800, "unit": "g" },
+      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "tomato paste", "amount": 3, "unit": "tbsp" },
+      { "name": "green peppers", "amount": 2, "unit": "pc" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "black pepper", "amount": 1, "unit": "tsp" },
+      { "name": "bay leaves", "amount": 2, "unit": "pc" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cut lamb into 2-inch cubes.",
+      "Brown lamb in butter on all sides.",
+      "Remove lamb, sauté sliced onions.",
+      "Add tomato paste and cook briefly.",
+      "Return lamb to pot.",
+      "Add peppers, bay leaves, and water to cover.",
+      "Season with salt and pepper.",
+      "Cover and simmer 90 minutes until tender.",
+      "The sauce should reduce and thicken.",
+      "Serve over Turkish pilav."
+    ],
+    "cooking_tips": [
+      "Low and slow creates the tenderest meat.",
+      "The sauce should coat the meat.",
+      "A classic Turkish comfort dish."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "lamb", "stew", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 34,
+      "fat_g": 24,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High in protein and iron from lamb. Simple, wholesome cooking.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "tr-borek-sigara",
+    "slug": "sigara-boregi",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Sigara Böreği",
+    "image": "assets/img/recipes/sigara-boregi.jpg",
+    "short_description": "Crispy cigar-shaped pastries filled with feta and parsley. These beloved Turkish böreks are perfect for breakfast or as mezze.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 20,
+    "ingredients": [
+      { "name": "yufka or phyllo pastry", "amount": 10, "unit": "sheets" },
+      { "name": "feta cheese", "amount": 300, "unit": "g" },
+      { "name": "fresh parsley", "amount": 1, "unit": "cup" },
+      { "name": "egg", "amount": 1, "unit": "pc" },
+      { "name": "vegetable oil for frying", "amount": 500, "unit": "ml" },
+      { "name": "black pepper", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Crumble feta and mix with chopped parsley.",
+      "Add egg and pepper to cheese mixture.",
+      "Cut yufka into triangles.",
+      "Place filling along the wide edge.",
+      "Roll tightly into cigar shapes.",
+      "Seal edges with water.",
+      "Heat oil to 350°F.",
+      "Fry until golden brown, turning once.",
+      "Drain on paper towels.",
+      "Serve hot with Turkish tea."
+    ],
+    "cooking_tips": [
+      "Keep phyllo covered while working.",
+      "Roll tightly for even cooking.",
+      "Best served immediately while crispy."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "pastry", "cheese", "fried", "breakfast", "appetizer"],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Feta provides calcium. A beloved Turkish breakfast item.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-kuzu-incik",
+    "slug": "kuzu-incik",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Kuzu İncik",
+    "image": "assets/img/recipes/kuzu-incik.jpg",
+    "short_description": "Slow-braised lamb shanks until fall-off-the-bone tender. This Turkish specialty is the ultimate comfort food for special occasions.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 4,
+    "ingredients": [
+      { "name": "lamb shanks", "amount": 4, "unit": "pc" },
+      { "name": "onion", "amount": 2, "unit": "large" },
+      { "name": "carrots", "amount": 2, "unit": "medium" },
+      { "name": "tomato paste", "amount": 3, "unit": "tbsp" },
+      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
+      { "name": "butter", "amount": 60, "unit": "g" },
+      { "name": "bay leaves", "amount": 2, "unit": "pc" },
+      { "name": "fresh thyme", "amount": 4, "unit": "sprigs" },
+      { "name": "salt and pepper", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Season lamb shanks generously.",
+      "Brown in butter on all sides.",
+      "Remove shanks, add sliced vegetables.",
+      "Cook until softened.",
+      "Add tomato paste and garlic.",
+      "Return shanks to pot.",
+      "Add bay leaves, thyme, and water to cover.",
+      "Cover and braise at 325°F for 3 hours.",
+      "Meat should fall off the bone.",
+      "Reduce sauce and serve."
+    ],
+    "cooking_tips": [
+      "Low temperature and patience are key.",
+      "The braising liquid becomes a rich sauce.",
+      "Often served over mashed potatoes."
+    ],
+    "difficulty": "medium",
+    "tags": ["turkish", "lamb", "braised", "special-occasion", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 48,
+      "fat_g": 38,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High in protein and iron. Slow cooking makes meat very tender and digestible.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "tr-cilbir",
+    "slug": "cilbir",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Çılbır",
+    "image": "assets/img/recipes/cilbir.jpg",
+    "short_description": "Poached eggs on garlicky yogurt with sizzling chili butter. This Ottoman-era Turkish breakfast is enjoying a global renaissance.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "ingredients": [
+      { "name": "eggs", "amount": 4, "unit": "pc" },
+      { "name": "strained yogurt", "amount": 300, "unit": "g" },
+      { "name": "garlic cloves", "amount": 2, "unit": "pc" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "Aleppo pepper", "amount": 1, "unit": "tsp" },
+      { "name": "fresh dill", "amount": 2, "unit": "tbsp" },
+      { "name": "white vinegar", "amount": 1, "unit": "tbsp" },
+      { "name": "salt", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Mix yogurt with crushed garlic and salt.",
+      "Spread yogurt on serving plates.",
+      "Bring water with vinegar to a gentle simmer.",
+      "Poach eggs until whites are set, yolks runny.",
+      "Place eggs on yogurt.",
+      "Melt butter until sizzling.",
+      "Add Aleppo pepper to butter.",
+      "Pour chili butter over eggs.",
+      "Garnish with dill.",
+      "Serve immediately with crusty bread."
+    ],
+    "cooking_tips": [
+      "Use room temperature yogurt.",
+      "The butter should sizzle and bloom the pepper.",
+      "Break the yolk into the yogurt for eating."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "eggs", "breakfast", "yogurt", "quick", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 32,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Eggs provide complete protein. Yogurt adds probiotics. A protein-rich breakfast.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-manti",
+    "slug": "kayseri-manti",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Kayseri Mantı",
+    "image": "assets/img/recipes/kayseri-manti.jpg",
+    "short_description": "Tiny hand-folded dumplings served with garlicky yogurt and spiced butter. These Turkish dumplings from Kayseri require patience but are worth every minute.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "eggs", "amount": 2, "unit": "pc" },
+      { "name": "ground lamb", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "small" },
+      { "name": "strained yogurt", "amount": 400, "unit": "g" },
+      { "name": "garlic cloves", "amount": 3, "unit": "pc" },
+      { "name": "butter", "amount": 80, "unit": "g" },
+      { "name": "dried mint", "amount": 2, "unit": "tbsp" },
+      { "name": "red pepper flakes", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make dough with flour, eggs, salt, and water.",
+      "Rest dough for 30 minutes.",
+      "Mix lamb with grated onion and seasoning.",
+      "Roll dough very thin.",
+      "Cut into 1.5-inch squares.",
+      "Place tiny amount of filling in center.",
+      "Fold corners to center, pinch to seal.",
+      "Boil in salted water until they float.",
+      "Mix yogurt with crushed garlic.",
+      "Melt butter with pepper flakes and mint."
+    ],
+    "cooking_tips": [
+      "The smaller the mantı, the more skilled the cook.",
+      "Traditional saying: '40 mantı should fit in one spoon.'",
+      "Serve immediately while hot."
+    ],
+    "difficulty": "hard",
+    "tags": ["turkish", "dumplings", "kayseri", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Protein from lamb and yogurt. A labor of love that feeds the soul.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "tr-patlicanli-kebab",
+    "slug": "patlicanli-kebab",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Patlıcanlı Kebab",
+    "image": "assets/img/recipes/patlicanli-kebab.jpg",
+    "short_description": "Layers of grilled meatballs and fried eggplant baked in tomato sauce. This kebab variation from southeastern Turkey is pure comfort.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 50,
+    "servings": 6,
+    "ingredients": [
+      { "name": "ground lamb and beef", "amount": 500, "unit": "g" },
+      { "name": "eggplants", "amount": 3, "unit": "large" },
+      { "name": "tomatoes", "amount": 4, "unit": "medium" },
+      { "name": "green peppers", "amount": 3, "unit": "pc" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "vegetable oil", "amount": 200, "unit": "ml" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "salt and pepper", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Mix meat with grated onion, parsley, and seasonings.",
+      "Shape into flat oval patties.",
+      "Slice eggplants and fry until golden.",
+      "Grill or fry the meatballs.",
+      "Layer eggplant and meatballs in baking dish.",
+      "Add sliced tomatoes and peppers.",
+      "Mix tomato paste with water, pour over.",
+      "Bake at 375°F for 30 minutes.",
+      "Let rest 10 minutes before serving.",
+      "Serve with rice or bread."
+    ],
+    "cooking_tips": [
+      "Salt eggplant first to remove bitterness.",
+      "The dish should be saucy but not soupy.",
+      "A favorite in Turkish homes."
+    ],
+    "difficulty": "medium",
+    "tags": ["turkish", "kebab", "eggplant", "casserole", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 30,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Protein from meat. Eggplant provides fiber. A satisfying one-dish meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "tr-ezogelin-corbasi",
+    "slug": "ezogelin-corbasi",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Ezogelin Çorbası",
+    "image": "assets/img/recipes/ezogelin-corbasi.jpg",
+    "short_description": "A hearty red lentil soup with bulgur, named after a legendary bride. Turkey's most beloved soup, served in every home and restaurant.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 40,
+    "servings": 8,
+    "ingredients": [
+      { "name": "red lentils", "amount": 200, "unit": "g" },
+      { "name": "fine bulgur", "amount": 50, "unit": "g" },
+      { "name": "rice", "amount": 30, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "red pepper paste", "amount": 1, "unit": "tbsp" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "dried mint", "amount": 2, "unit": "tsp" },
+      { "name": "chicken broth", "amount": 2, "unit": "L" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Rinse lentils, bulgur, and rice.",
+      "Sauté diced onion in half the butter.",
+      "Add tomato and pepper pastes, cook briefly.",
+      "Add lentils, bulgur, and rice.",
+      "Pour in broth and bring to boil.",
+      "Simmer until everything is very soft.",
+      "Blend partially for creamy texture.",
+      "Melt remaining butter with dried mint.",
+      "Serve soup with mint butter drizzled on top.",
+      "Accompany with lemon wedges."
+    ],
+    "cooking_tips": [
+      "Named after a bride named Ezo from Gaziantep.",
+      "The soup should be thick and hearty.",
+      "A squeeze of lemon brightens the flavor."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "soup", "lentils", "comfort-food", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 6,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Lentils provide protein and fiber. A warming, nourishing soup.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-zeytinyagli-fasulye",
+    "slug": "zeytinyagli-fasulye",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Zeytinyağlı Fasulye",
+    "image": "assets/img/recipes/zeytinyagli-fasulye.jpg",
+    "short_description": "Green beans braised in olive oil with tomatoes and onions. This cold Turkish vegetable dish is essential to summer mezze.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "green beans", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "sugar", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Trim beans and cut into 2-inch pieces.",
+      "Slice onion into half-moons.",
+      "Sauté onion in olive oil until soft.",
+      "Add chopped tomatoes and cook 5 minutes.",
+      "Add beans, sugar, and salt.",
+      "Add water to barely cover.",
+      "Cover and simmer until beans are very tender.",
+      "Let cool to room temperature.",
+      "Refrigerate until cold.",
+      "Serve cold with lemon wedges."
+    ],
+    "cooking_tips": [
+      "Turkish style prefers very soft vegetables.",
+      "Must be served cold or room temperature.",
+      "Generous olive oil is essential."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "vegetable", "cold", "vegan", "mezze", "summer"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 14,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Olive oil provides healthy fats. Green beans add fiber and vitamins. A light, healthy dish.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tr-tulumba",
+    "slug": "tulumba",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Tulumba",
+    "image": "assets/img/recipes/tulumba.jpg",
+    "short_description": "Ridged fried dough soaked in syrup until crunchy outside and soft inside. These beloved Turkish sweets are impossible to eat just one.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 30,
+    "ingredients": [
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "water", "amount": 250, "unit": "ml" },
+      { "name": "all-purpose flour", "amount": 200, "unit": "g" },
+      { "name": "eggs", "amount": 3, "unit": "pc" },
+      { "name": "sugar", "amount": 400, "unit": "g" },
+      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
+      { "name": "vegetable oil for frying", "amount": 1, "unit": "L" }
+    ],
+    "steps": [
+      "Make syrup by boiling sugar, water, and lemon.",
+      "Cool syrup completely.",
+      "Heat butter and water until boiling.",
+      "Add flour all at once and stir vigorously.",
+      "Cook until dough pulls away from pan.",
+      "Cool slightly, then beat in eggs one at a time.",
+      "Pipe dough into hot oil using star tip.",
+      "Cut into 2-inch pieces as you pipe.",
+      "Fry until deep golden.",
+      "Immediately soak in cold syrup for 3 minutes."
+    ],
+    "cooking_tips": [
+      "Cold syrup on hot pastry creates the best texture.",
+      "The ridges are made with a star piping tip.",
+      "Serve within a few hours for best crunch."
+    ],
+    "difficulty": "medium",
+    "tags": ["turkish", "dessert", "fried", "syrup", "sweet"],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 2,
+      "fat_g": 5,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "A sweet indulgence. Best enjoyed in moderation as a special treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-revani",
+    "slug": "revani",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Revani",
+    "image": "assets/img/recipes/revani.jpg",
+    "short_description": "A moist semolina cake soaked in lemon syrup. This beloved Turkish dessert is light, fragrant, and impossible to resist.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 35,
+    "servings": 16,
+    "ingredients": [
+      { "name": "fine semolina", "amount": 200, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 100, "unit": "g" },
+      { "name": "eggs", "amount": 4, "unit": "pc" },
+      { "name": "sugar", "amount": 200, "unit": "g" },
+      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "baking powder", "amount": 2, "unit": "tsp" },
+      { "name": "sugar for syrup", "amount": 400, "unit": "g" },
+      { "name": "water", "amount": 400, "unit": "ml" },
+      { "name": "lemon juice", "amount": 60, "unit": "ml" }
+    ],
+    "steps": [
+      "Make syrup by boiling sugar and water.",
+      "Add lemon juice, cool completely.",
+      "Beat eggs and sugar until fluffy.",
+      "Add yogurt and mix well.",
+      "Fold in semolina, flour, and baking powder.",
+      "Pour into greased 9x13 pan.",
+      "Bake at 350°F for 30-35 minutes until golden.",
+      "Cut into diamonds while hot.",
+      "Pour cold syrup over hot cake.",
+      "Let soak for at least 2 hours."
+    ],
+    "cooking_tips": [
+      "Cold syrup on hot cake prevents sogginess.",
+      "The cake absorbs a lot of syrup.",
+      "Often garnished with coconut or pistachios."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "dessert", "semolina", "cake", "syrup"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 3,
+      "carbs_g": 46
+    },
+    "nutrition_benefits": "Semolina provides carbohydrates. Yogurt adds protein. A traditional Turkish sweet.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-mucver",
+    "slug": "mucver",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Mücver",
+    "image": "assets/img/recipes/mucver.jpg",
+    "short_description": "Crispy zucchini fritters with feta and fresh herbs. These beloved Turkish pancakes are perfect as mezze, snacks, or a light meal.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      { "name": "zucchini", "amount": 500, "unit": "g" },
+      { "name": "feta cheese", "amount": 100, "unit": "g" },
+      { "name": "eggs", "amount": 2, "unit": "pc" },
+      { "name": "all-purpose flour", "amount": 80, "unit": "g" },
+      { "name": "fresh dill", "amount": 0.5, "unit": "cup" },
+      { "name": "fresh mint", "amount": 0.25, "unit": "cup" },
+      { "name": "green onions", "amount": 4, "unit": "pc" },
+      { "name": "olive oil for frying", "amount": 120, "unit": "ml" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Grate zucchini and salt heavily.",
+      "Let sit 15 minutes, then squeeze out all liquid.",
+      "Crumble feta into zucchini.",
+      "Add eggs, flour, and chopped herbs.",
+      "Mix until combined.",
+      "Heat olive oil in a frying pan.",
+      "Drop spoonfuls of batter into hot oil.",
+      "Flatten slightly and fry until golden.",
+      "Flip and cook other side.",
+      "Drain on paper towels and serve."
+    ],
+    "cooking_tips": [
+      "Squeezing zucchini is essential for crispy fritters.",
+      "Use lots of fresh herbs.",
+      "Serve with yogurt for dipping."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "fritter", "zucchini", "vegetarian", "appetizer", "mezze"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Zucchini provides vitamins and fiber. Feta adds calcium. A tasty way to eat vegetables.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-kofte-mercimek",
+    "slug": "mercimek-koftesi",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Mercimek Köftesi",
+    "image": "assets/img/recipes/mercimek-koftesi.jpg",
+    "short_description": "Spiced red lentil patties shaped by hand, served cold with lettuce leaves. These vegan Turkish 'meatballs' are a staple at every gathering.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 30,
+    "ingredients": [
+      { "name": "red lentils", "amount": 250, "unit": "g" },
+      { "name": "fine bulgur", "amount": 150, "unit": "g" },
+      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "red pepper paste", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "green onions", "amount": 6, "unit": "pc" },
+      { "name": "fresh parsley", "amount": 1, "unit": "cup" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook lentils in water until very soft.",
+      "While hot, stir in bulgur, cover, let sit 15 minutes.",
+      "Sauté diced onions in olive oil until golden.",
+      "Add tomato and pepper pastes to onions.",
+      "Mix onion mixture into lentil-bulgur.",
+      "Add cumin, salt, and chopped herbs.",
+      "Knead until mixture holds together.",
+      "Shape into small oval patties.",
+      "Arrange on platter.",
+      "Serve cold wrapped in lettuce leaves."
+    ],
+    "cooking_tips": [
+      "The mixture should be kneaded while warm.",
+      "Traditional to shape with three fingers.",
+      "Always served at room temperature or cold."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "vegan", "lentils", "appetizer", "cold", "party-food"],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 4,
+      "fat_g": 3,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Lentils provide plant protein. Whole grains from bulgur. A healthy vegan option.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tr-kabak-tatlisi",
+    "slug": "kabak-tatlisi",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Kabak Tatlısı",
+    "image": "assets/img/recipes/kabak-tatlisi.jpg",
+    "short_description": "Candied pumpkin slices baked in syrup until tender and caramelized. This rustic Turkish dessert is topped with crushed walnuts and clotted cream.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      { "name": "pumpkin or butternut squash", "amount": 1, "unit": "kg" },
+      { "name": "sugar", "amount": 400, "unit": "g" },
+      { "name": "walnuts", "amount": 100, "unit": "g" },
+      { "name": "kaymak (clotted cream)", "amount": 200, "unit": "g" }
+    ],
+    "steps": [
+      "Cut pumpkin into large wedges, leaving skin on.",
+      "Remove seeds.",
+      "Arrange in a baking dish.",
+      "Cover completely with sugar.",
+      "Let sit overnight (or at least 4 hours).",
+      "The sugar will draw out moisture.",
+      "Bake at 350°F for 90 minutes.",
+      "Baste occasionally with the syrup.",
+      "Pumpkin should be tender and translucent.",
+      "Serve cold with walnuts and kaymak."
+    ],
+    "cooking_tips": [
+      "The sugar creates its own syrup.",
+      "No water is needed.",
+      "Must be served cold with cream."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "dessert", "pumpkin", "sweet", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 4,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Pumpkin provides beta-carotene. Walnuts add omega-3s. A satisfying autumn dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "tr-cig-kofte",
+    "slug": "cig-kofte",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Çiğ Köfte",
+    "image": "assets/img/recipes/cig-kofte.jpg",
+    "short_description": "Spiced raw bulgur patties kneaded until smooth, served with fresh greens. This southeastern Turkish specialty is now made without meat for food safety.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 0,
+    "servings": 8,
+    "ingredients": [
+      { "name": "fine bulgur", "amount": 300, "unit": "g" },
+      { "name": "tomato paste", "amount": 3, "unit": "tbsp" },
+      { "name": "red pepper paste", "amount": 3, "unit": "tbsp" },
+      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "isot pepper", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "lettuce leaves", "amount": 1, "unit": "head" },
+      { "name": "lemon", "amount": 2, "unit": "pc" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak bulgur in hot water for 10 minutes.",
+      "Drain and squeeze out excess water.",
+      "Grate onions and squeeze out juice.",
+      "Add onion juice to bulgur.",
+      "Add pastes, spices, and olive oil.",
+      "Knead vigorously for 15-20 minutes.",
+      "Mixture should become smooth and hold together.",
+      "Shape into small ovals or balls.",
+      "Serve on lettuce leaves.",
+      "Squeeze lemon juice over before eating."
+    ],
+    "cooking_tips": [
+      "Kneading develops the texture.",
+      "Modern versions are always meatless.",
+      "The isot pepper is essential for authenticity."
+    ],
+    "difficulty": "medium",
+    "tags": ["turkish", "vegan", "bulgur", "spicy", "appetizer", "raw"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 5,
+      "fat_g": 8,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Bulgur provides whole grains. High in fiber. A popular vegan Turkish dish.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tr-kofte-bulgurlu",
+    "slug": "bulgurlu-kofte",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Bulgurlu Köfte",
+    "image": "assets/img/recipes/bulgurlu-kofte.jpg",
+    "short_description": "Bulgur and meat patties in a tangy tomato sauce. This Turkish comfort dish combines the best of köfte with a rich, flavorful sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "ground beef and lamb", "amount": 400, "unit": "g" },
+      { "name": "fine bulgur", "amount": 100, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "large" },
+      { "name": "tomato paste", "amount": 3, "unit": "tbsp" },
+      { "name": "red pepper paste", "amount": 2, "unit": "tbsp" },
+      { "name": "green peppers", "amount": 2, "unit": "pc" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "salt and pepper", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak bulgur in hot water until soft.",
+      "Mix meat with drained bulgur and grated onion.",
+      "Add chopped parsley and seasonings.",
+      "Knead well and shape into patties.",
+      "Brown patties in butter on both sides.",
+      "Remove patties.",
+      "Add sliced peppers and remaining onion.",
+      "Stir in tomato and pepper pastes.",
+      "Add water to make sauce.",
+      "Return patties, simmer 20 minutes."
+    ],
+    "cooking_tips": [
+      "The bulgur adds texture and nutrition.",
+      "The sauce should coat the patties.",
+      "Serve with rice or bread."
+    ],
+    "difficulty": "medium",
+    "tags": ["turkish", "meatballs", "bulgur", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 20,
+      "fat_g": 20,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Bulgur adds fiber. Protein from meat. A balanced, satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "tr-asure",
+    "slug": "asure",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Aşure",
+    "image": "assets/img/recipes/asure.jpg",
+    "short_description": "A sweet pudding with grains, legumes, dried fruits, and nuts. Known as Noah's Pudding, this ancient Turkish dessert contains at least 15 ingredients.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 20,
+    "ingredients": [
+      { "name": "wheat berries", "amount": 100, "unit": "g" },
+      { "name": "chickpeas", "amount": 50, "unit": "g" },
+      { "name": "white beans", "amount": 50, "unit": "g" },
+      { "name": "rice", "amount": 50, "unit": "g" },
+      { "name": "dried apricots", "amount": 100, "unit": "g" },
+      { "name": "raisins", "amount": 100, "unit": "g" },
+      { "name": "dried figs", "amount": 100, "unit": "g" },
+      { "name": "sugar", "amount": 300, "unit": "g" },
+      { "name": "walnuts", "amount": 100, "unit": "g" },
+      { "name": "pomegranate seeds", "amount": 100, "unit": "g" }
+    ],
+    "steps": [
+      "Soak wheat, chickpeas, and beans overnight.",
+      "Cook each separately until tender.",
+      "Cook rice until soft.",
+      "Chop dried fruits.",
+      "Combine all cooked grains and legumes.",
+      "Add sugar and enough water for pudding consistency.",
+      "Simmer for 30 minutes, stirring often.",
+      "Add chopped dried fruits.",
+      "Pour into bowls.",
+      "Top with walnuts and pomegranate seeds."
+    ],
+    "cooking_tips": [
+      "Traditionally contains at least 15 ingredients.",
+      "Made in large batches to share with neighbors.",
+      "Associated with Muharram, the first Islamic month."
+    ],
+    "difficulty": "medium",
+    "tags": ["turkish", "dessert", "pudding", "traditional", "vegan", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 5,
+      "fat_g": 4,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Whole grains and legumes provide fiber. Dried fruits add natural sweetness and minerals.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "tr-tavuk-sote",
+    "slug": "tavuk-sote",
+    "country": "Turkey",
+    "country_slug": "turkey",
+    "name_en": "Tavuk Sote",
+    "image": "assets/img/recipes/tavuk-sote.jpg",
+    "short_description": "Tender chicken pieces sautéed with peppers and tomatoes in a rich sauce. This everyday Turkish home-cooking classic is quick and satisfying.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "chicken breast", "amount": 600, "unit": "g" },
+      { "name": "green peppers", "amount": 3, "unit": "pc" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "butter", "amount": 40, "unit": "g" },
+      { "name": "olive oil", "amount": 30, "unit": "ml" },
+      { "name": "black pepper", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cube chicken into bite-sized pieces.",
+      "Season with salt and pepper.",
+      "Brown chicken in butter and oil.",
+      "Remove chicken, add sliced onion.",
+      "Cook until softened.",
+      "Add sliced peppers and cook 5 minutes.",
+      "Add tomato paste and stir.",
+      "Add chopped tomatoes.",
+      "Return chicken to pan.",
+      "Simmer until sauce thickens and chicken is cooked through."
+    ],
+    "cooking_tips": [
+      "Don't overcrowd the pan when browning chicken.",
+      "The sauce should coat the chicken.",
+      "Serve with rice or crusty bread."
+    ],
+    "difficulty": "easy",
+    "tags": ["turkish", "chicken", "quick", "homestyle", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 36,
+      "fat_g": 16,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Lean protein from chicken. Peppers provide vitamin C. A quick, healthy meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
   }
 ]
