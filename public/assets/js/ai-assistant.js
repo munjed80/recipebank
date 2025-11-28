@@ -17,6 +17,7 @@ const ChefSense = {
   anchor: null,
   modal: null,
   overlay: null,
+  lastAnalysis: null,
 
   async init() {
     await this.prepareChatContainer();
@@ -217,6 +218,14 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
   },
 
   processMessage(message) {
+    if (message.toLowerCase().startsWith('/debug last')) {
+      this.hideLoading();
+      const debug = this.buildDebugSummary();
+      this.addMessage('assistant', debug, 'en');
+      this.conversationHistory.push({ role: 'assistant', content: debug, lang: 'en', debug: true });
+      return;
+    }
+
     this.lang = this.detectLanguage(message);
     window.AppLang = this.lang;
     if (window.I18N) {
@@ -228,20 +237,37 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     const ingredientTokens = RecipeSearch.extractIngredientTokens ? RecipeSearch.extractIngredientTokens(message) : [];
     const pantryMode = this.isPantryQuery(message, ingredientTokens);
 
+    const searchResults = pantryMode ? [] : RecipeSearch.search(this.recipes, message);
+
     let recipe = null;
     let response = '';
+    let pantryMatches = [];
 
     if (pantryMode) {
-      response = this.buildPantryReply(ingredientTokens, message);
+      const pantryResult = this.buildPantryReply(ingredientTokens, message);
+      response = pantryResult.text;
+      pantryMatches = pantryResult.matches;
     } else {
-      recipe = this.findRecipeFromMessage(message);
+      recipe = searchResults.length ? searchResults[0] : this.findRecipeFromMessage(message);
       this.currentRecipe = recipe || this.currentRecipe;
-      response = this.buildStructuredReply(message, recipe);
+      response = this.buildStructuredReply(message, recipe, { searchResults });
     }
 
     this.conversationHistory.push({ role: 'assistant', content: response, lang: this.lang });
     this.hideLoading();
     this.addMessage('assistant', response, this.lang);
+
+    this.lastAnalysis = {
+      lastMessage: message,
+      lang: this.lang,
+      pantryMode,
+      ingredientTokens,
+      matchedCount: pantryMode ? pantryMatches.length : searchResults.length,
+      matchedNames: pantryMode
+        ? pantryMatches.map(m => m.name_en)
+        : searchResults.slice(0, 5).map(r => r.name_en),
+      lastRecipe: this.currentRecipe ? this.currentRecipe.name_en : null
+    };
   },
 
   detectLanguage(text) {
@@ -365,13 +391,13 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     return context;
   },
 
-  buildStructuredReply(message, recipe) {
+  buildStructuredReply(message, recipe, options = {}) {
     const pack = this.getLangPack(this.lang);
     const steps = recipe ? this.formatRecipeSteps(recipe) : this.buildGenericSteps(message);
     const nutrition = this.buildNutritionNotes(recipe, pack);
     const swaps = this.getHealthySwaps(recipe);
     const allergens = recipe ? this.getAllergens(recipe) : [];
-    const suggestions = this.buildRecipeSuggestions(message, recipe, pack);
+    const suggestions = this.buildRecipeSuggestions(message, recipe, pack, options.searchResults);
 
     let response = `${pack.greeting}\n\n`;
 
@@ -412,7 +438,7 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     const matches = RecipeSearch.findMatchesByIngredients(this.recipes, ingredientTokens, { context, limit: 5 });
 
     if (!matches.length) {
-      return this.buildPantryFallback(ingredientTokens, pack);
+      return { text: this.buildPantryFallback(ingredientTokens, pack), matches: [] };
     }
 
     const best = matches[0];
@@ -454,9 +480,9 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
       response += `  → [RECIPE_LINK:${match.slug}:Open recipe]\n`;
     });
 
-    response += `\n${pack.nutritionSummaryLead}: ${this.buildNutritionNotes(best, pack)}`;
+    response += `\n${pack.nutritionSummaryLead}: ${this.getHealthAdvice(best)}`;
     response += `\n${pack.askClarify}`;
-    return response;
+    return { text: response, matches };
   },
 
   buildPantryFallback(ingredientTokens, pack) {
@@ -470,7 +496,7 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     let response = `${pack.pantryIntro} ${baseList}, but ${pack.noMatches}\n\n`;
     response += `### ${pack.stepsTitle}:\n${genericIdea.join('\n')}\n\n`;
     response += `### ${pack.nutritionTitle}:\n`;
-    response += `${pack.nutritionSummaryLead}: aim for half vegetables, a lean protein, and whole grains if possible.\n`;
+    response += `${pack.nutritionSummaryLead}: ${this.getHealthAdvice()}\n`;
     response += `Allergen watch: if your list includes nuts, dairy, eggs, or wheat, keep substitutions handy.\n`;
     response += `${pack.askClarify}`;
     return response;
@@ -491,20 +517,47 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
   },
 
   buildNutritionNotes(recipe, pack) {
+    const lines = [];
+
     if (recipe?.nutrition) {
-      return [
+      lines.push(
         `• 🔥 ${pack.calories}: ${recipe.nutrition.per_serving_kcal} kcal`,
         `• 🥩 ${pack.protein}: ${recipe.nutrition.protein_g} g`,
         `• 🍞 ${pack.carbs}: ${recipe.nutrition.carbs_g} g`,
         `• 🧈 ${pack.fat}: ${recipe.nutrition.fat_g} g`
-      ].join('\n');
+      );
+    } else {
+      lines.push(`• ${pack.fallbackNutrition}`);
     }
 
-    return `• ${pack.fallbackNutrition}`;
+    lines.push(`• ${this.getHealthAdvice(recipe)}`);
+    return lines.join('\n');
   },
 
-  buildRecipeSuggestions(message, recipe, pack) {
-    const results = RecipeSearch.search(this.recipes, message);
+  getHealthAdvice(recipe) {
+    if (!recipe || !recipe.nutrition) {
+      return 'Balanced plate: load up on vegetables, lean protein, and whole grains when possible.';
+    }
+
+    const notes = [];
+    const calories = recipe.nutrition.per_serving_kcal;
+    if (calories >= 750) notes.push('Hearty calories—keep portions moderate and add a fresh salad.');
+    else if (calories >= 450) notes.push('Moderate calories—pair with vegetables for balance.');
+    else notes.push('Light plate—consider whole grains for fullness.');
+
+    const protein = recipe.nutrition.protein_g;
+    if (protein >= 25) notes.push('High protein supports muscle recovery.');
+    else if (protein < 12) notes.push('Add beans, lentils, or lean meat to boost protein.');
+
+    if (recipe.tags?.some(t => /vegetarian|vegan/i.test(t))) {
+      notes.push('Plant-forward—ensure varied proteins and B12 where relevant.');
+    }
+
+    return notes.join(' ');
+  },
+
+  buildRecipeSuggestions(message, recipe, pack, searchResults) {
+    const results = searchResults && searchResults.length ? searchResults : RecipeSearch.search(this.recipes, message);
     if (results.length) {
       return results.slice(0, 4).map(r => {
         const time = (r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0);
@@ -524,6 +577,26 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
 
     const pantryIdeas = this.recipes.slice(0, 2).map(r => `[RECIPE_CARD:${r.slug}:${r.name_en}:${r.country}:${r.mealType}:${(r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0)} min]`).join('\n');
     return pantryIdeas;
+  },
+
+  buildDebugSummary() {
+    if (!this.lastAnalysis || !this.lastAnalysis.lastMessage) {
+      return 'Debug summary: no prior user query captured yet.';
+    }
+
+    const info = this.lastAnalysis;
+    const names = info.matchedNames && info.matchedNames.length ? info.matchedNames.join(', ') : 'none';
+    const tokens = info.ingredientTokens && info.ingredientTokens.length ? info.ingredientTokens.join(', ') : 'none';
+
+    return [
+      'Debug summary (last request):',
+      `• Message: "${info.lastMessage}"`,
+      `• Detected language: ${info.lang}`,
+      `• Path: ${info.pantryMode ? 'Pantry mode' : 'Standard recipe guidance'}`,
+      `• Ingredient tokens: ${tokens}`,
+      `• Matched recipes: ${info.matchedCount} (${names})`,
+      `• Active recipe: ${info.lastRecipe || 'none'}`
+    ].join('\n');
   },
 
   findRecipeFromMessage(msg) {

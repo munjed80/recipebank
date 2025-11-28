@@ -70,10 +70,10 @@ const RecipeSearch = {
     if (!text) return [];
     const normalized = text
       .toLowerCase()
-      .replace(/[^a-z\s,]/g, ' ');
+      .replace(/[^\p{L}\s,]/gu, ' ');
 
     const parts = normalized
-      .split(/[,]|\band\b|\bwith\b|\bonly\b|\bplus\b|\busing\b|\bhave\b|\bhave got\b/)
+      .split(/[,]|\band\b|\bwith\b|\bonly\b|\bplus\b|\busing\b|\bhave\b|\bhave got\b|\bوال\b|\bمع\b/)
       .map(p => p.trim())
       .filter(Boolean);
 
@@ -82,7 +82,7 @@ const RecipeSearch = {
 
     parts.forEach(part => {
       part.split(/\s+/).forEach(token => {
-        if (token.length < 3 || stopwords.has(token)) return;
+        if (token.length < 2 || stopwords.has(token)) return;
         tokens.add(token);
       });
     });
