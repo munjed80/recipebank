@@ -945,5 +945,990 @@
     "nutrition_benefits": "Arancini provide protein from beef and cheese. Saffron contains antioxidants. The dish offers carbohydrates for energy and calcium from cheese.",
     "mealType": "Appetizer",
     "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "it-cacio-pepe",
+    "slug": "cacio-e-pepe",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Cacio e Pepe",
+    "image": "assets/img/recipes/cacio-e-pepe.jpg",
+    "short_description": "The ultimate Roman pasta with just three ingredients: pasta, Pecorino Romano, and black pepper. This deceptively simple dish requires perfect technique to achieve its creamy, peppery glory.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      { "name": "tonnarelli or spaghetti", "amount": 400, "unit": "g" },
+      { "name": "Pecorino Romano", "amount": 200, "unit": "g" },
+      { "name": "black peppercorns", "amount": 2, "unit": "tbsp" },
+      { "name": "salt", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Toast peppercorns in a dry pan, then crack coarsely.",
+      "Finely grate the Pecorino Romano.",
+      "Cook pasta in well-salted water until al dente.",
+      "Reserve 2 cups pasta water before draining.",
+      "Toast cracked pepper in a large pan.",
+      "Add a ladle of pasta water to the pepper.",
+      "Add drained pasta to the pan.",
+      "Remove from heat, add cheese gradually while tossing.",
+      "Add pasta water as needed for creamy consistency.",
+      "Serve immediately with extra cheese and pepper."
+    ],
+    "cooking_tips": [
+      "Work quickly off the heat to prevent clumping.",
+      "The starchy pasta water is essential for the sauce.",
+      "Use freshly cracked pepper, not pre-ground."
+    ],
+    "difficulty": "medium",
+    "tags": ["italian", "pasta", "roman", "quick", "vegetarian", "classic"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 65
+    },
+    "nutrition_benefits": "Pecorino provides calcium and protein. Simple ingredients in perfect balance. A satisfying, quick meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-amatriciana",
+    "slug": "amatriciana",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Bucatini all'Amatriciana",
+    "image": "assets/img/recipes/amatriciana.jpg",
+    "short_description": "A spicy tomato sauce with crispy guanciale and Pecorino Romano, tossed with bucatini pasta. This beloved Roman dish hails from the town of Amatrice.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "bucatini pasta", "amount": 400, "unit": "g" },
+      { "name": "guanciale", "amount": 200, "unit": "g" },
+      { "name": "San Marzano tomatoes", "amount": 400, "unit": "g" },
+      { "name": "Pecorino Romano", "amount": 100, "unit": "g" },
+      { "name": "dry white wine", "amount": 60, "unit": "ml" },
+      { "name": "red chili flakes", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cut guanciale into small strips.",
+      "Cook guanciale in a cold pan over medium heat until crispy.",
+      "Remove guanciale, leave the fat in the pan.",
+      "Add chili flakes to the fat briefly.",
+      "Add wine and let it evaporate.",
+      "Add crushed tomatoes and simmer 15 minutes.",
+      "Cook bucatini until al dente.",
+      "Add pasta to sauce with a splash of pasta water.",
+      "Toss with guanciale and grated Pecorino.",
+      "Serve with extra cheese on top."
+    ],
+    "cooking_tips": [
+      "Authentic amatriciana never has onion.",
+      "The guanciale should be crispy.",
+      "Bucatini's hollow center captures the sauce perfectly."
+    ],
+    "difficulty": "easy",
+    "tags": ["italian", "pasta", "roman", "tomato", "pork", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 24,
+      "fat_g": 28,
+      "carbs_g": 65
+    },
+    "nutrition_benefits": "Tomatoes provide lycopene. Protein from guanciale and cheese. A hearty, satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-saltimbocca",
+    "slug": "saltimbocca",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Saltimbocca alla Romana",
+    "image": "assets/img/recipes/saltimbocca.jpg",
+    "short_description": "Tender veal escalopes topped with sage and prosciutto, pan-fried and finished with a white wine butter sauce. The name means 'jumps in the mouth' for good reason.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      { "name": "veal escalopes", "amount": 8, "unit": "pc" },
+      { "name": "prosciutto", "amount": 8, "unit": "slices" },
+      { "name": "fresh sage leaves", "amount": 16, "unit": "leaves" },
+      { "name": "butter", "amount": 60, "unit": "g" },
+      { "name": "dry white wine", "amount": 120, "unit": "ml" },
+      { "name": "flour", "amount": 50, "unit": "g" },
+      { "name": "olive oil", "amount": 30, "unit": "ml" },
+      { "name": "salt and pepper", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Pound veal escalopes thin between plastic wrap.",
+      "Place a sage leaf on each escalope.",
+      "Top with a slice of prosciutto, press to adhere.",
+      "Secure with a toothpick if needed.",
+      "Dust lightly with flour on both sides.",
+      "Heat butter and oil in a pan.",
+      "Cook veal prosciutto-side down first, 2 minutes.",
+      "Flip and cook 2 more minutes.",
+      "Remove veal, add wine to deglaze.",
+      "Swirl in more butter, pour sauce over veal."
+    ],
+    "cooking_tips": [
+      "Don't overcook - veal should be tender.",
+      "The prosciutto crisps slightly in the pan.",
+      "Work in batches to avoid crowding."
+    ],
+    "difficulty": "easy",
+    "tags": ["italian", "veal", "quick", "roman", "elegant", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Lean protein from veal. Sage has antimicrobial properties. Quick-cooking preserves nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-caprese",
+    "slug": "caprese-salad",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Caprese Salad",
+    "image": "assets/img/recipes/caprese.jpg",
+    "short_description": "Fresh mozzarella, ripe tomatoes, and basil drizzled with olive oil. This iconic Capri salad showcases Italian simplicity and the importance of quality ingredients.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      { "name": "fresh mozzarella di bufala", "amount": 400, "unit": "g" },
+      { "name": "ripe tomatoes", "amount": 4, "unit": "large" },
+      { "name": "fresh basil", "amount": 1, "unit": "bunch" },
+      { "name": "extra virgin olive oil", "amount": 60, "unit": "ml" },
+      { "name": "flaky sea salt", "amount": 1, "unit": "tsp" },
+      { "name": "black pepper", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Slice tomatoes and mozzarella into thick rounds.",
+      "Arrange alternating on a platter.",
+      "Tuck basil leaves between slices.",
+      "Season with flaky salt and pepper.",
+      "Drizzle generously with olive oil.",
+      "Let sit 10 minutes to develop flavors.",
+      "Serve at room temperature."
+    ],
+    "cooking_tips": [
+      "Use the ripest tomatoes you can find.",
+      "Buffalo mozzarella is traditional, but fior di latte works too.",
+      "Quality olive oil is essential."
+    ],
+    "difficulty": "easy",
+    "tags": ["italian", "salad", "fresh", "summer", "vegetarian", "quick"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 26,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Fresh mozzarella provides calcium. Tomatoes add lycopene. Olive oil offers heart-healthy fats.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-gnocchi",
+    "slug": "gnocchi-di-patate",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Potato Gnocchi",
+    "image": "assets/img/recipes/gnocchi.jpg",
+    "short_description": "Pillowy potato dumplings that melt in your mouth. These light, fluffy gnocchi are traditionally served with butter and sage or tomato sauce.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      { "name": "floury potatoes", "amount": 1, "unit": "kg" },
+      { "name": "all-purpose flour", "amount": 250, "unit": "g" },
+      { "name": "egg", "amount": 1, "unit": "pc" },
+      { "name": "butter", "amount": 80, "unit": "g" },
+      { "name": "fresh sage", "amount": 12, "unit": "leaves" },
+      { "name": "Parmigiano Reggiano", "amount": 80, "unit": "g" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Bake potatoes until tender, about 1 hour.",
+      "While hot, scoop flesh and rice or mash thoroughly.",
+      "Spread on counter to cool and dry slightly.",
+      "Add egg and salt, then flour gradually.",
+      "Knead gently until smooth dough forms.",
+      "Roll into ropes, cut into small pieces.",
+      "Roll each piece over fork tines for ridges.",
+      "Cook in boiling salted water until they float.",
+      "Brown butter with sage leaves.",
+      "Toss gnocchi with sage butter and Parmigiano."
+    ],
+    "cooking_tips": [
+      "Use the minimum amount of flour needed.",
+      "Overworking makes gnocchi dense.",
+      "Baking potatoes keeps them drier than boiling."
+    ],
+    "difficulty": "medium",
+    "tags": ["italian", "pasta", "potato", "comfort-food", "vegetarian", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 54
+    },
+    "nutrition_benefits": "Potatoes provide potassium and vitamin C. Sage aids digestion. A comforting, satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-piccata",
+    "slug": "chicken-piccata",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Chicken Piccata",
+    "image": "assets/img/recipes/chicken-piccata.jpg",
+    "short_description": "Tender chicken cutlets in a bright lemon-caper butter sauce. This quick Italian-American classic is elegant enough for company yet simple for weeknights.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "chicken breast", "amount": 600, "unit": "g" },
+      { "name": "flour", "amount": 60, "unit": "g" },
+      { "name": "butter", "amount": 80, "unit": "g" },
+      { "name": "olive oil", "amount": 30, "unit": "ml" },
+      { "name": "lemon juice", "amount": 80, "unit": "ml" },
+      { "name": "capers", "amount": 60, "unit": "g" },
+      { "name": "chicken broth", "amount": 180, "unit": "ml" },
+      { "name": "fresh parsley", "amount": 0.25, "unit": "cup" },
+      { "name": "salt and pepper", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Slice chicken breasts horizontally into thin cutlets.",
+      "Pound between plastic to even thickness.",
+      "Season and dredge in flour.",
+      "Heat oil and half the butter in a pan.",
+      "Cook chicken 3 minutes per side until golden.",
+      "Remove chicken and keep warm.",
+      "Add broth and lemon juice to pan.",
+      "Add capers and simmer to reduce slightly.",
+      "Swirl in remaining butter.",
+      "Pour sauce over chicken, garnish with parsley."
+    ],
+    "cooking_tips": [
+      "Thin cutlets cook quickly and evenly.",
+      "Don't overcook - chicken should be juicy.",
+      "The sauce comes together in minutes."
+    ],
+    "difficulty": "easy",
+    "tags": ["italian", "chicken", "quick", "lemon", "dinner", "elegant"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Lean protein from chicken. Lemon adds vitamin C. Capers provide antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-ribollita",
+    "slug": "ribollita",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Ribollita",
+    "image": "assets/img/recipes/ribollita.jpg",
+    "short_description": "A hearty Tuscan bread soup thick with cannellini beans, cavolo nero, and vegetables. This peasant dish is even better when reheated the next day.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      { "name": "cannellini beans", "amount": 400, "unit": "g" },
+      { "name": "cavolo nero (Tuscan kale)", "amount": 500, "unit": "g" },
+      { "name": "stale crusty bread", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "large" },
+      { "name": "carrots", "amount": 2, "unit": "medium" },
+      { "name": "celery", "amount": 3, "unit": "stalks" },
+      { "name": "canned tomatoes", "amount": 400, "unit": "g" },
+      { "name": "vegetable broth", "amount": 1.5, "unit": "L" },
+      { "name": "extra virgin olive oil", "amount": 100, "unit": "ml" },
+      { "name": "fresh rosemary", "amount": 2, "unit": "sprigs" }
+    ],
+    "steps": [
+      "Sauté onion, carrots, and celery in olive oil.",
+      "Add tomatoes and cook 10 minutes.",
+      "Add broth, beans, and rosemary.",
+      "Simmer for 30 minutes.",
+      "Remove stems from kale, chop leaves.",
+      "Add kale and cook until tender.",
+      "Tear bread into chunks.",
+      "Stir bread into soup, let it thicken.",
+      "Refrigerate overnight, then reheat (ribollita means reboiled).",
+      "Serve with generous drizzle of olive oil."
+    ],
+    "cooking_tips": [
+      "Stale bread absorbs the broth perfectly.",
+      "The soup is meant to be very thick.",
+      "Always finish with excellent olive oil."
+    ],
+    "difficulty": "easy",
+    "tags": ["italian", "soup", "tuscan", "bread", "vegetarian", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 12,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Beans provide protein and fiber. Kale is nutrient-dense. A complete, nourishing meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "it-vitello-tonnato",
+    "slug": "vitello-tonnato",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Vitello Tonnato",
+    "image": "assets/img/recipes/vitello-tonnato.jpg",
+    "short_description": "Thin slices of cold poached veal draped with creamy tuna sauce. This elegant Piedmontese summer dish is a surprising and delicious combination.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      { "name": "veal eye round", "amount": 800, "unit": "g" },
+      { "name": "canned tuna in oil", "amount": 200, "unit": "g" },
+      { "name": "mayonnaise", "amount": 150, "unit": "g" },
+      { "name": "capers", "amount": 60, "unit": "g" },
+      { "name": "anchovy fillets", "amount": 4, "unit": "pc" },
+      { "name": "lemon juice", "amount": 30, "unit": "ml" },
+      { "name": "white wine", "amount": 250, "unit": "ml" },
+      { "name": "celery", "amount": 2, "unit": "stalks" },
+      { "name": "carrot", "amount": 1, "unit": "medium" },
+      { "name": "bay leaves", "amount": 2, "unit": "pc" }
+    ],
+    "steps": [
+      "Poach veal with wine, vegetables, and bay leaves until tender.",
+      "Cool veal in the poaching liquid.",
+      "Blend tuna, anchovy, half the capers, and lemon juice.",
+      "Mix with mayonnaise until smooth.",
+      "Thin sauce with some poaching liquid if needed.",
+      "Slice cold veal very thin.",
+      "Arrange slices on a platter.",
+      "Cover with tuna sauce.",
+      "Garnish with remaining capers.",
+      "Refrigerate 1 hour before serving."
+    ],
+    "cooking_tips": [
+      "The veal must be completely cold before slicing.",
+      "Sauce should coat the back of a spoon.",
+      "Can be made a day ahead."
+    ],
+    "difficulty": "medium",
+    "tags": ["italian", "veal", "cold", "summer", "elegant", "appetizer"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 32,
+      "fat_g": 20,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "High in protein from veal and tuna. Omega-3 from tuna. A light, summery dish.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "it-focaccia",
+    "slug": "focaccia",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Focaccia Genovese",
+    "image": "assets/img/recipes/focaccia.jpg",
+    "short_description": "Fluffy, olive oil-rich flatbread with a crispy bottom and dimpled top. This Ligurian classic is perfect on its own or as the ultimate sandwich bread.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 25,
+    "servings": 8,
+    "ingredients": [
+      { "name": "bread flour", "amount": 500, "unit": "g" },
+      { "name": "warm water", "amount": 350, "unit": "ml" },
+      { "name": "extra virgin olive oil", "amount": 100, "unit": "ml" },
+      { "name": "yeast", "amount": 7, "unit": "g" },
+      { "name": "sugar", "amount": 1, "unit": "tsp" },
+      { "name": "flaky sea salt", "amount": 2, "unit": "tsp" },
+      { "name": "fresh rosemary", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Dissolve yeast and sugar in warm water.",
+      "Add flour and half the olive oil, mix until dough forms.",
+      "Knead 10 minutes until smooth and elastic.",
+      "Let rise in oiled bowl for 1 hour.",
+      "Oil a baking pan generously.",
+      "Stretch dough to fit pan.",
+      "Let rise another 30 minutes.",
+      "Dimple dough with fingertips.",
+      "Drizzle remaining oil, sprinkle salt and rosemary.",
+      "Bake at 425°F for 20-25 minutes until golden."
+    ],
+    "cooking_tips": [
+      "Generous oil in the pan creates the crispy bottom.",
+      "Dimples hold pools of olive oil.",
+      "Best served warm the same day."
+    ],
+    "difficulty": "medium",
+    "tags": ["italian", "bread", "ligurian", "baked", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Olive oil provides healthy fats. Rosemary has antioxidants. A satisfying bread with better fats than most.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "it-aglio-olio",
+    "slug": "spaghetti-aglio-olio",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Spaghetti Aglio e Olio",
+    "image": "assets/img/recipes/aglio-olio.jpg",
+    "short_description": "Spaghetti tossed with golden garlic, olive oil, and chili flakes. This midnight pasta from Naples proves that simple ingredients, perfectly executed, create magic.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      { "name": "spaghetti", "amount": 400, "unit": "g" },
+      { "name": "garlic cloves", "amount": 8, "unit": "pc" },
+      { "name": "extra virgin olive oil", "amount": 120, "unit": "ml" },
+      { "name": "red chili flakes", "amount": 1, "unit": "tsp" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "salt", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Cook spaghetti in well-salted water until al dente.",
+      "Thinly slice the garlic.",
+      "Heat olive oil over medium-low heat.",
+      "Add garlic and cook until golden, not brown.",
+      "Add chili flakes.",
+      "Reserve pasta water, drain pasta.",
+      "Add pasta directly to the garlic oil.",
+      "Toss with some pasta water to emulsify.",
+      "Add chopped parsley.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Don't burn the garlic - it turns bitter.",
+      "The pasta water creates a silky sauce.",
+      "Work quickly once pasta is drained."
+    ],
+    "difficulty": "easy",
+    "tags": ["italian", "pasta", "quick", "vegan", "naples", "midnight-snack"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 10,
+      "fat_g": 24,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Garlic has antimicrobial properties. Olive oil provides healthy fats. A satisfying vegan option.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "it-panna-cotta",
+    "slug": "panna-cotta",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Panna Cotta",
+    "image": "assets/img/recipes/panna-cotta.jpg",
+    "short_description": "A silky, vanilla-scented cream pudding from Piedmont. This elegant dessert wobbles seductively and pairs perfectly with fresh berries or caramel.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      { "name": "heavy cream", "amount": 500, "unit": "ml" },
+      { "name": "whole milk", "amount": 200, "unit": "ml" },
+      { "name": "sugar", "amount": 80, "unit": "g" },
+      { "name": "vanilla bean", "amount": 1, "unit": "pc" },
+      { "name": "gelatin sheets", "amount": 3, "unit": "pc" },
+      { "name": "fresh berries", "amount": 200, "unit": "g" }
+    ],
+    "steps": [
+      "Soak gelatin in cold water until soft.",
+      "Split vanilla bean, scrape seeds.",
+      "Heat cream, milk, sugar, and vanilla until simmering.",
+      "Remove from heat.",
+      "Squeeze excess water from gelatin, add to cream.",
+      "Stir until dissolved.",
+      "Divide among ramekins or molds.",
+      "Refrigerate at least 4 hours until set.",
+      "Unmold onto plates or serve in glasses.",
+      "Top with fresh berries."
+    ],
+    "cooking_tips": [
+      "The perfect panna cotta barely holds its shape.",
+      "Use less gelatin for softer set.",
+      "Dip molds briefly in hot water to unmold."
+    ],
+    "difficulty": "easy",
+    "tags": ["italian", "dessert", "cream", "vanilla", "elegant", "no-bake"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 4,
+      "fat_g": 28,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Cream provides calcium. Berries add antioxidants and vitamin C. An indulgent treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-caponata",
+    "slug": "caponata",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Caponata",
+    "image": "assets/img/recipes/caponata.jpg",
+    "short_description": "A sweet and sour Sicilian eggplant dish with tomatoes, capers, and olives. This agrodolce vegetable medley is perfect as an appetizer or side dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 40,
+    "servings": 8,
+    "ingredients": [
+      { "name": "eggplant", "amount": 2, "unit": "large" },
+      { "name": "tomatoes", "amount": 6, "unit": "medium" },
+      { "name": "celery", "amount": 4, "unit": "stalks" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "capers", "amount": 60, "unit": "g" },
+      { "name": "green olives", "amount": 100, "unit": "g" },
+      { "name": "red wine vinegar", "amount": 60, "unit": "ml" },
+      { "name": "sugar", "amount": 30, "unit": "g" },
+      { "name": "olive oil", "amount": 120, "unit": "ml" },
+      { "name": "pine nuts", "amount": 40, "unit": "g" }
+    ],
+    "steps": [
+      "Cube eggplant, salt and drain for 30 minutes.",
+      "Fry eggplant in olive oil until golden, drain.",
+      "Sauté celery and onion until soft.",
+      "Add chopped tomatoes and cook 15 minutes.",
+      "Add capers, olives, vinegar, and sugar.",
+      "Simmer until sauce thickens.",
+      "Add fried eggplant and mix gently.",
+      "Toast pine nuts and stir in.",
+      "Let cool to room temperature.",
+      "Serve at room temperature with crusty bread."
+    ],
+    "cooking_tips": [
+      "Salting removes bitterness from eggplant.",
+      "Caponata improves after a day in the fridge.",
+      "Balance sweet and sour to your taste."
+    ],
+    "difficulty": "medium",
+    "tags": ["italian", "sicilian", "vegetable", "appetizer", "vegan", "summer"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 14,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Eggplant is low in calories. Olive oil provides healthy fats. Capers add antioxidants.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "it-bolognese",
+    "slug": "ragu-bolognese",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Ragù alla Bolognese",
+    "image": "assets/img/recipes/bolognese.jpg",
+    "short_description": "The authentic slow-simmered meat sauce from Bologna, nothing like quick imitations. This rich, complex ragù takes hours but rewards with depth of flavor.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 240,
+    "servings": 8,
+    "ingredients": [
+      { "name": "ground beef", "amount": 400, "unit": "g" },
+      { "name": "ground pork", "amount": 200, "unit": "g" },
+      { "name": "pancetta", "amount": 100, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "medium" },
+      { "name": "carrot", "amount": 1, "unit": "medium" },
+      { "name": "celery", "amount": 1, "unit": "stalk" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "whole milk", "amount": 250, "unit": "ml" },
+      { "name": "white wine", "amount": 150, "unit": "ml" },
+      { "name": "beef broth", "amount": 250, "unit": "ml" }
+    ],
+    "steps": [
+      "Finely dice onion, carrot, and celery (soffritto).",
+      "Dice pancetta and render in a heavy pot.",
+      "Add soffritto and cook until soft.",
+      "Add meats and brown, breaking up well.",
+      "Add wine and cook until evaporated.",
+      "Add tomato paste and stir well.",
+      "Add milk and simmer until absorbed.",
+      "Add broth, cover and simmer 3-4 hours.",
+      "Stir occasionally, adding liquid if needed.",
+      "Serve with fresh tagliatelle and Parmigiano."
+    ],
+    "cooking_tips": [
+      "Low and slow is essential for authentic ragù.",
+      "Milk tenderizes the meat and adds richness.",
+      "Traditional pairing is tagliatelle, not spaghetti."
+    ],
+    "difficulty": "medium",
+    "tags": ["italian", "sauce", "meat", "bologna", "slow-cook", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High in protein. The slow cooking develops complex flavors. A satisfying, hearty sauce.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-affogato",
+    "slug": "affogato",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Affogato",
+    "image": "assets/img/recipes/affogato.jpg",
+    "short_description": "A shot of hot espresso 'drowning' a scoop of cold vanilla gelato. This simple Italian dessert-meets-coffee is the perfect ending to any meal.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 2,
+    "servings": 2,
+    "ingredients": [
+      { "name": "vanilla gelato", "amount": 4, "unit": "scoops" },
+      { "name": "fresh espresso", "amount": 2, "unit": "shots" },
+      { "name": "amaretto liqueur (optional)", "amount": 30, "unit": "ml" }
+    ],
+    "steps": [
+      "Place scoops of gelato in chilled glasses or cups.",
+      "Pull fresh shots of espresso.",
+      "Pour hot espresso over the cold gelato.",
+      "Add a splash of amaretto if desired.",
+      "Serve immediately with a small spoon.",
+      "Enjoy as the gelato melts into the coffee."
+    ],
+    "cooking_tips": [
+      "Use the best quality gelato you can find.",
+      "The espresso must be freshly pulled.",
+      "Serve immediately - timing is everything."
+    ],
+    "difficulty": "easy",
+    "tags": ["italian", "dessert", "coffee", "gelato", "quick", "elegant"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Coffee provides antioxidants. Gelato offers calcium. A quick, satisfying dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-fritto-misto",
+    "slug": "fritto-misto",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Fritto Misto di Mare",
+    "image": "assets/img/recipes/fritto-misto.jpg",
+    "short_description": "A golden platter of lightly battered and fried seafood. This Italian coastal classic features whatever is freshest, from calamari to shrimp to small fish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      { "name": "calamari", "amount": 300, "unit": "g" },
+      { "name": "shrimp", "amount": 300, "unit": "g" },
+      { "name": "small fish (anchovies, whitebait)", "amount": 200, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 200, "unit": "g" },
+      { "name": "semolina", "amount": 100, "unit": "g" },
+      { "name": "sparkling water", "amount": 200, "unit": "ml" },
+      { "name": "vegetable oil", "amount": 1, "unit": "L" },
+      { "name": "lemons", "amount": 2, "unit": "pc" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Clean and prepare all seafood, pat dry.",
+      "Mix flour and semolina for dredging.",
+      "Make light batter with some flour and sparkling water.",
+      "Heat oil to 350°F.",
+      "Dredge small pieces in flour mixture only.",
+      "Dip larger pieces in batter.",
+      "Fry in batches until golden and crispy.",
+      "Drain on paper towels.",
+      "Season immediately with salt.",
+      "Serve hot with lemon wedges."
+    ],
+    "cooking_tips": [
+      "Keep seafood very cold until frying.",
+      "Don't overcrowd the oil.",
+      "Serve immediately - fritto misto waits for no one."
+    ],
+    "difficulty": "medium",
+    "tags": ["italian", "seafood", "fried", "coastal", "appetizer"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Seafood provides lean protein and omega-3s. A festive treat best enjoyed occasionally.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-cacciatore",
+    "slug": "pollo-alla-cacciatore",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Chicken Cacciatore",
+    "image": "assets/img/recipes/chicken-cacciatore.jpg",
+    "short_description": "Hunter-style braised chicken with tomatoes, wine, and herbs. This rustic Italian classic fills the kitchen with irresistible aromas as it simmers.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "chicken pieces", "amount": 1.5, "unit": "kg" },
+      { "name": "canned tomatoes", "amount": 800, "unit": "g" },
+      { "name": "red wine", "amount": 250, "unit": "ml" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "bell peppers", "amount": 2, "unit": "pc" },
+      { "name": "mushrooms", "amount": 200, "unit": "g" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "fresh rosemary", "amount": 2, "unit": "sprigs" },
+      { "name": "olives", "amount": 100, "unit": "g" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" }
+    ],
+    "steps": [
+      "Season chicken pieces with salt and pepper.",
+      "Brown chicken in olive oil on all sides.",
+      "Remove chicken, add onion and peppers.",
+      "Cook until softened, add garlic.",
+      "Add mushrooms and cook 5 minutes.",
+      "Pour in wine and reduce by half.",
+      "Add tomatoes, rosemary, and olives.",
+      "Return chicken to pot, nestling in sauce.",
+      "Cover and simmer 45 minutes until tender.",
+      "Serve with crusty bread or polenta."
+    ],
+    "cooking_tips": [
+      "Bone-in, skin-on chicken has the most flavor.",
+      "The sauce should coat the chicken.",
+      "Even better reheated the next day."
+    ],
+    "difficulty": "easy",
+    "tags": ["italian", "chicken", "braised", "rustic", "dinner", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Protein from chicken. Tomatoes provide lycopene. Mushrooms add B vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "it-cannoli",
+    "slug": "cannoli",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Cannoli",
+    "image": "assets/img/recipes/cannoli.jpg",
+    "short_description": "Crispy fried pastry tubes filled with sweet ricotta cream and studded with chocolate or pistachios. These Sicilian classics are a beloved Italian-American treasure.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 250, "unit": "g" },
+      { "name": "ricotta cheese", "amount": 500, "unit": "g" },
+      { "name": "powdered sugar", "amount": 150, "unit": "g" },
+      { "name": "marsala wine", "amount": 60, "unit": "ml" },
+      { "name": "butter", "amount": 30, "unit": "g" },
+      { "name": "egg", "amount": 1, "unit": "pc" },
+      { "name": "chocolate chips", "amount": 100, "unit": "g" },
+      { "name": "pistachios", "amount": 60, "unit": "g" },
+      { "name": "vegetable oil", "amount": 1, "unit": "L" },
+      { "name": "vanilla extract", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make dough with flour, butter, egg, Marsala, and sugar.",
+      "Knead until smooth, refrigerate 1 hour.",
+      "Drain ricotta overnight for thick consistency.",
+      "Mix ricotta with powdered sugar and vanilla.",
+      "Fold in chocolate chips.",
+      "Roll dough thin and cut circles.",
+      "Wrap around cannoli forms.",
+      "Seal with egg white.",
+      "Fry until golden and blistered.",
+      "Fill shells just before serving."
+    ],
+    "cooking_tips": [
+      "Never fill cannoli ahead - shells get soggy.",
+      "Strain ricotta well for proper texture.",
+      "Dip ends in pistachios or chocolate."
+    ],
+    "difficulty": "hard",
+    "tags": ["italian", "sicilian", "dessert", "pastry", "fried", "classic"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 14,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Ricotta provides calcium and protein. Pistachios add healthy fats. A celebratory treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-involtini",
+    "slug": "involtini",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Involtini di Melanzane",
+    "image": "assets/img/recipes/involtini.jpg",
+    "short_description": "Grilled eggplant slices rolled around ricotta and baked in tomato sauce. These vegetarian bundles are as beautiful as they are delicious.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      { "name": "eggplant", "amount": 2, "unit": "large" },
+      { "name": "ricotta cheese", "amount": 400, "unit": "g" },
+      { "name": "Parmigiano Reggiano", "amount": 100, "unit": "g" },
+      { "name": "tomato sauce", "amount": 500, "unit": "ml" },
+      { "name": "fresh basil", "amount": 0.25, "unit": "cup" },
+      { "name": "mozzarella", "amount": 200, "unit": "g" },
+      { "name": "egg", "amount": 1, "unit": "pc" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "salt and pepper", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Slice eggplant lengthwise into thin strips.",
+      "Brush with oil and grill or broil until pliable.",
+      "Mix ricotta with Parmigiano, egg, and basil.",
+      "Season with salt and pepper.",
+      "Spread filling on each eggplant strip.",
+      "Roll up and place seam-side down.",
+      "Spread tomato sauce in baking dish.",
+      "Arrange rolls on sauce.",
+      "Top with mozzarella slices.",
+      "Bake at 375°F for 25 minutes until bubbly."
+    ],
+    "cooking_tips": [
+      "Don't overfill or rolls will burst.",
+      "Eggplant should be flexible, not crispy.",
+      "Can be assembled ahead and baked later."
+    ],
+    "difficulty": "medium",
+    "tags": ["italian", "vegetarian", "eggplant", "baked", "dinner", "elegant"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Eggplant is low in calories. Ricotta provides protein and calcium. A satisfying vegetarian main.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-vitello-milanese",
+    "slug": "cotoletta-milanese",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Cotoletta alla Milanese",
+    "image": "assets/img/recipes/cotoletta-milanese.jpg",
+    "short_description": "A bone-in veal chop breaded and fried to golden perfection. This Milanese icon is the original schnitzel, served with just a wedge of lemon.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      { "name": "veal chops (bone-in)", "amount": 4, "unit": "pc" },
+      { "name": "eggs", "amount": 3, "unit": "pc" },
+      { "name": "breadcrumbs", "amount": 200, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "lemons", "amount": 2, "unit": "pc" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Pound veal chops to even thickness, leaving bone attached.",
+      "Season with salt.",
+      "Beat eggs in a shallow bowl.",
+      "Put breadcrumbs on a plate.",
+      "Dip veal in egg, then breadcrumbs, pressing well.",
+      "Heat butter and oil in a large pan.",
+      "Fry cutlets until golden, about 4 minutes per side.",
+      "The coating should be crispy, meat just cooked through.",
+      "Drain briefly on paper towels.",
+      "Serve immediately with lemon wedges."
+    ],
+    "cooking_tips": [
+      "The bone is traditional and adds flavor.",
+      "Use clarified butter to prevent burning.",
+      "Serve immediately - the coating gets soggy if left."
+    ],
+    "difficulty": "medium",
+    "tags": ["italian", "veal", "fried", "milan", "classic", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Veal provides lean protein and iron. A rich dish best enjoyed on special occasions.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-zabaglione",
+    "slug": "zabaglione",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Zabaglione",
+    "image": "assets/img/recipes/zabaglione.jpg",
+    "short_description": "A light, foamy Italian custard made by whisking egg yolks with sugar and Marsala wine over gentle heat. This elegant Piedmontese dessert is heaven in a glass.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      { "name": "egg yolks", "amount": 6, "unit": "pc" },
+      { "name": "sugar", "amount": 80, "unit": "g" },
+      { "name": "Marsala wine", "amount": 120, "unit": "ml" },
+      { "name": "fresh berries", "amount": 200, "unit": "g" }
+    ],
+    "steps": [
+      "Set up a double boiler with simmering water.",
+      "Whisk egg yolks and sugar until pale and thick.",
+      "Place bowl over simmering water.",
+      "Add Marsala gradually while whisking.",
+      "Whisk constantly for 8-10 minutes.",
+      "The mixture should triple in volume.",
+      "It's ready when it forms soft mounds.",
+      "Pour into glasses immediately.",
+      "Serve warm with fresh berries.",
+      "Can also be chilled for cold zabaglione."
+    ],
+    "cooking_tips": [
+      "Water should not touch the bowl.",
+      "Never stop whisking or eggs will scramble.",
+      "Serve immediately for best foam."
+    ],
+    "difficulty": "medium",
+    "tags": ["italian", "dessert", "eggs", "wine", "elegant", "quick"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 10,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Eggs provide protein and choline. Berries add antioxidants. A light, elegant dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   }
 ]

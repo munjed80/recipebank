@@ -324,5 +324,1210 @@
     "nutrition_benefits": "Low calorie, fiber-rich, antioxidants.",
     "mealType": "Appetizer",
     "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-chicken-tagine",
+    "slug": "chicken-tagine-olives",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Chicken Tagine with Olives and Preserved Lemons",
+    "image": "assets/img/recipes/chicken-tagine-olives.jpg",
+    "short_description": "Succulent chicken braised with tangy preserved lemons, briny olives, and aromatic spices. This iconic Moroccan dish showcases the perfect balance of savory, sour, and spiced flavors.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "whole chicken", "amount": 1.5, "unit": "kg" },
+      { "name": "preserved lemons", "amount": 2, "unit": "pc" },
+      { "name": "green olives", "amount": 200, "unit": "g" },
+      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "fresh cilantro", "amount": 0.5, "unit": "cup" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "ginger", "amount": 1, "unit": "tbsp" },
+      { "name": "turmeric", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" }
+    ],
+    "steps": [
+      "Cut chicken into pieces and season with salt, pepper, ginger, and turmeric.",
+      "Sauté grated onion in olive oil until soft.",
+      "Add chicken pieces and brown on all sides.",
+      "Add garlic, cilantro, parsley, and enough water to cover.",
+      "Simmer covered for 45 minutes until chicken is nearly done.",
+      "Cut preserved lemons, discard pulp, and slice the peel.",
+      "Add preserved lemon peel and olives.",
+      "Continue cooking uncovered for 15 minutes.",
+      "Reduce sauce until thick and flavorful.",
+      "Garnish with fresh cilantro and serve with bread."
+    ],
+    "cooking_tips": [
+      "Use ripe Moroccan olives for authentic flavor.",
+      "The preserved lemons are key - they add a unique tangy depth.",
+      "Serve in the tagine pot for traditional presentation."
+    ],
+    "difficulty": "medium",
+    "tags": ["moroccan", "chicken", "tagine", "olives", "traditional", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 26,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High protein from chicken. Olives provide healthy fats. Preserved lemons add probiotics from fermentation.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-kefta-tagine",
+    "slug": "kefta-tagine",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Kefta Tagine with Eggs",
+    "image": "assets/img/recipes/kefta-tagine.jpg",
+    "short_description": "Spiced meatballs simmered in a rich tomato sauce with eggs poached on top. This beloved Moroccan comfort food is perfect for sharing with warm bread.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "ground beef or lamb", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "tomatoes", "amount": 6, "unit": "medium" },
+      { "name": "eggs", "amount": 4, "unit": "pc" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "garlic cloves", "amount": 3, "unit": "pc" }
+    ],
+    "steps": [
+      "Mix ground meat with grated onion, parsley, cumin, and spices.",
+      "Form into small meatballs about 1 inch in diameter.",
+      "Grate tomatoes or blend them.",
+      "Cook tomatoes with olive oil, garlic, and remaining spices.",
+      "Simmer until sauce thickens, about 15 minutes.",
+      "Add meatballs to the sauce.",
+      "Cover and cook for 20 minutes until meatballs are done.",
+      "Make small wells in the sauce, crack eggs into them.",
+      "Cover and cook until egg whites are set.",
+      "Serve immediately with crusty bread."
+    ],
+    "cooking_tips": [
+      "Don't overcrowd the meatballs - cook in batches if needed.",
+      "The eggs should be runny for dipping the bread.",
+      "A tagine pot keeps everything warm at the table."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "meatballs", "eggs", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 32,
+      "fat_g": 30,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "High in protein from meat and eggs. Tomatoes provide lycopene. Spices have anti-inflammatory properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-rfissa",
+    "slug": "rfissa",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Rfissa",
+    "image": "assets/img/recipes/rfissa.jpg",
+    "short_description": "A ceremonial dish of shredded msemen pancakes with lentils and tender chicken in a fenugreek-spiced broth. Traditionally served for new mothers and special celebrations.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      { "name": "whole chicken", "amount": 1.5, "unit": "kg" },
+      { "name": "msemen or trid", "amount": 8, "unit": "pc" },
+      { "name": "brown lentils", "amount": 300, "unit": "g" },
+      { "name": "onions", "amount": 3, "unit": "large" },
+      { "name": "fenugreek", "amount": 2, "unit": "tbsp" },
+      { "name": "ras el hanout", "amount": 2, "unit": "tbsp" },
+      { "name": "saffron", "amount": 1, "unit": "pinch" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "fresh cilantro", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" }
+    ],
+    "steps": [
+      "Soak fenugreek seeds overnight, then drain.",
+      "Cook chicken with onions, spices, and fenugreek until tender.",
+      "Cook lentils separately until soft.",
+      "Remove chicken and shred the meat.",
+      "Add lentils to the chicken broth and simmer.",
+      "Tear msemen into pieces and arrange on a large platter.",
+      "Ladle the lentil broth over the bread to soak it.",
+      "Top with shredded chicken.",
+      "Drizzle with melted butter.",
+      "Serve immediately while hot."
+    ],
+    "cooking_tips": [
+      "Fenugreek is essential for authentic flavor but use sparingly.",
+      "The bread should absorb the broth but not become mushy.",
+      "Traditionally served communally from one platter."
+    ],
+    "difficulty": "hard",
+    "tags": ["moroccan", "chicken", "traditional", "festive", "ceremonial"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Fenugreek is known for boosting milk production in nursing mothers. Lentils provide iron and fiber. A nourishing, complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ma-pastilla-seafood",
+    "slug": "pastilla-seafood",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Seafood Pastilla",
+    "image": "assets/img/recipes/seafood-pastilla.jpg",
+    "short_description": "A modern coastal variation of the classic pastilla, featuring a delicate mix of shrimp, fish, and vermicelli wrapped in crispy warqa pastry.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 40,
+    "servings": 8,
+    "ingredients": [
+      { "name": "mixed seafood (shrimp, fish)", "amount": 600, "unit": "g" },
+      { "name": "Chinese vermicelli", "amount": 200, "unit": "g" },
+      { "name": "warqa or phyllo pastry", "amount": 12, "unit": "sheets" },
+      { "name": "onions", "amount": 2, "unit": "large" },
+      { "name": "fresh parsley", "amount": 1, "unit": "cup" },
+      { "name": "fresh cilantro", "amount": 0.5, "unit": "cup" },
+      { "name": "butter", "amount": 150, "unit": "g" },
+      { "name": "saffron", "amount": 1, "unit": "pinch" },
+      { "name": "ginger", "amount": 1, "unit": "tsp" },
+      { "name": "white pepper", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook vermicelli according to package directions, drain.",
+      "Sauté onions in butter until caramelized.",
+      "Add seafood, spices, and herbs. Cook until seafood is done.",
+      "Mix seafood with vermicelli.",
+      "Brush a pan with butter, layer phyllo sheets.",
+      "Add seafood filling in the center.",
+      "Fold phyllo over filling, brush with butter.",
+      "Flip onto a baking sheet and brush top with butter.",
+      "Bake at 375°F until golden, about 25 minutes.",
+      "Dust with powdered sugar if desired."
+    ],
+    "cooking_tips": [
+      "Don't overcook the seafood - it will cook more in the oven.",
+      "Keep phyllo covered with damp towel while working.",
+      "The sweet-savory combination is traditional."
+    ],
+    "difficulty": "hard",
+    "tags": ["moroccan", "seafood", "pastry", "elegant", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Seafood provides lean protein and omega-3 fatty acids. A lighter alternative to traditional meat pastilla.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ma-msemen",
+    "slug": "msemen",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Msemen",
+    "image": "assets/img/recipes/msemen.jpg",
+    "short_description": "Flaky, buttery square Moroccan pancakes with crispy layers. These versatile flatbreads are perfect for breakfast with honey or as an accompaniment to tagines.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "fine semolina", "amount": 100, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "vegetable oil", "amount": 100, "unit": "ml" },
+      { "name": "warm water", "amount": 250, "unit": "ml" },
+      { "name": "salt", "amount": 1, "unit": "tsp" },
+      { "name": "sugar", "amount": 1, "unit": "tbsp" },
+      { "name": "yeast", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Mix flour, semolina, salt, sugar, and yeast.",
+      "Add water and knead to a soft, smooth dough.",
+      "Divide into balls and let rest 15 minutes.",
+      "Mix softened butter with oil for brushing.",
+      "Flatten each ball on oiled surface very thin.",
+      "Brush with butter mixture, fold into thirds.",
+      "Fold again into a square, let rest.",
+      "Flatten each square gently.",
+      "Cook on a griddle until golden on both sides.",
+      "Serve warm with honey or jam."
+    ],
+    "cooking_tips": [
+      "The thinner you stretch, the flakier the result.",
+      "Oil your hands to prevent sticking.",
+      "Can be stuffed with meat or cheese before cooking."
+    ],
+    "difficulty": "medium",
+    "tags": ["moroccan", "breakfast", "bread", "pancake", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 14,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Provides carbohydrates for energy. Semolina adds texture and some protein. Best enjoyed in moderation due to butter content.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-baghrir",
+    "slug": "baghrir",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Baghrir",
+    "image": "assets/img/recipes/baghrir.jpg",
+    "short_description": "Spongy Moroccan pancakes covered in tiny holes, perfect for soaking up honey and butter. These one-sided crêpes are a beloved breakfast treat.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 10,
+    "ingredients": [
+      { "name": "fine semolina", "amount": 250, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 100, "unit": "g" },
+      { "name": "warm water", "amount": 500, "unit": "ml" },
+      { "name": "yeast", "amount": 2, "unit": "tsp" },
+      { "name": "baking powder", "amount": 1, "unit": "tsp" },
+      { "name": "sugar", "amount": 1, "unit": "tbsp" },
+      { "name": "salt", "amount": 0.5, "unit": "tsp" },
+      { "name": "honey", "amount": 100, "unit": "g" },
+      { "name": "butter", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Blend semolina, flour, yeast, baking powder, sugar, and salt.",
+      "Add warm water and blend until smooth batter forms.",
+      "Let rest 30 minutes until bubbles form on surface.",
+      "Heat a non-stick pan over medium heat.",
+      "Pour batter to form a thin pancake.",
+      "Cook only on one side until holes form and surface is dry.",
+      "Do not flip - the bottom should be smooth.",
+      "Melt butter with honey for serving.",
+      "Stack pancakes and drizzle with honey butter.",
+      "Serve warm."
+    ],
+    "cooking_tips": [
+      "The batter must be smooth - use a blender.",
+      "Don't flip - the holes are the defining feature.",
+      "Serve immediately for best texture."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "breakfast", "pancakes", "sweet", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 5,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Semolina provides complex carbohydrates. Honey adds natural sweetness with antioxidants. A traditional breakfast energy booster.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-mechoui",
+    "slug": "mechoui",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Mechoui",
+    "image": "assets/img/recipes/mechoui.jpg",
+    "short_description": "Whole roasted lamb seasoned with cumin and butter, cooked until the meat falls off the bone. This celebratory dish is the centerpiece of Moroccan feasts.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 300,
+    "servings": 20,
+    "ingredients": [
+      { "name": "whole lamb", "amount": 10, "unit": "kg" },
+      { "name": "butter", "amount": 500, "unit": "g" },
+      { "name": "cumin", "amount": 100, "unit": "g" },
+      { "name": "coarse salt", "amount": 100, "unit": "g" },
+      { "name": "garlic cloves", "amount": 20, "unit": "pc" },
+      { "name": "paprika", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Make slits in the lamb and insert garlic cloves.",
+      "Mix butter with cumin and paprika.",
+      "Rub the lamb inside and out with butter mixture.",
+      "Season generously with salt.",
+      "Roast over an open fire or in a large oven.",
+      "Baste frequently with butter mixture.",
+      "Cook for 4-5 hours until meat is falling off bone.",
+      "Let rest 30 minutes before serving.",
+      "Serve with small bowls of cumin and salt for dipping.",
+      "Guests eat by pulling meat with their hands."
+    ],
+    "cooking_tips": [
+      "Low and slow is the secret to tender meat.",
+      "Basting creates the crispy, flavorful exterior.",
+      "Traditionally cooked in a pit oven called tandir."
+    ],
+    "difficulty": "hard",
+    "tags": ["moroccan", "lamb", "festive", "roasted", "celebration"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 42,
+      "fat_g": 34,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Excellent source of protein. Lamb provides iron and B vitamins. Cumin aids digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-briouats",
+    "slug": "briouats",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Briouats",
+    "image": "assets/img/recipes/briouats.jpg",
+    "short_description": "Crispy triangular pastries with savory or sweet fillings. These fried or baked treats are popular as appetizers or desserts in Moroccan cuisine.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      { "name": "warqa or phyllo pastry", "amount": 20, "unit": "sheets" },
+      { "name": "ground beef", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "eggs", "amount": 2, "unit": "pc" },
+      { "name": "vegetable oil", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook ground beef with onion and spices until done.",
+      "Add beaten eggs and stir until scrambled into the meat.",
+      "Add parsley and adjust seasoning.",
+      "Cut phyllo into long strips.",
+      "Place a spoonful of filling at one end.",
+      "Fold into triangles by folding corner to corner.",
+      "Seal edge with water or egg wash.",
+      "Deep fry until golden brown.",
+      "Drain on paper towels.",
+      "Serve hot as an appetizer."
+    ],
+    "cooking_tips": [
+      "Keep phyllo covered while working to prevent drying.",
+      "Can also be baked at 375°F for a lighter option.",
+      "Sweet versions use almond paste and honey."
+    ],
+    "difficulty": "medium",
+    "tags": ["moroccan", "appetizer", "pastry", "fried", "snack"],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 6,
+      "fat_g": 7,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein from meat and eggs. Best enjoyed as an appetizer in moderation.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ma-chebakia",
+    "slug": "chebakia",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Chebakia",
+    "image": "assets/img/recipes/chebakia.jpg",
+    "short_description": "Flower-shaped fried cookies coated in honey and sprinkled with sesame seeds. These intricate sweets are essential during Ramadan.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 30,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "sesame seeds", "amount": 100, "unit": "g" },
+      { "name": "almonds (ground)", "amount": 100, "unit": "g" },
+      { "name": "honey", "amount": 500, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "orange blossom water", "amount": 60, "unit": "ml" },
+      { "name": "cinnamon", "amount": 1, "unit": "tbsp" },
+      { "name": "saffron", "amount": 1, "unit": "pinch" },
+      { "name": "vegetable oil", "amount": 1, "unit": "L" }
+    ],
+    "steps": [
+      "Toast sesame seeds and grind half of them.",
+      "Mix flour with ground almonds, ground sesame, cinnamon, and saffron.",
+      "Add melted butter and orange blossom water.",
+      "Knead to a smooth dough, rest 30 minutes.",
+      "Roll dough thin and cut into strips.",
+      "Fold and shape each strip into a flower pattern.",
+      "Deep fry until golden brown.",
+      "Immediately dip hot cookies into warm honey.",
+      "Sprinkle with whole sesame seeds.",
+      "Let cool on a rack."
+    ],
+    "cooking_tips": [
+      "The shaping takes practice - watch tutorials first.",
+      "Warm honey coats better than cold.",
+      "Store in airtight container for weeks."
+    ],
+    "difficulty": "hard",
+    "tags": ["moroccan", "dessert", "ramadan", "fried", "honey", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Sesame seeds provide calcium. Almonds add protein and healthy fats. Honey offers natural sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-sellou",
+    "slug": "sellou",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Sellou",
+    "image": "assets/img/recipes/sellou.jpg",
+    "short_description": "A rich, no-bake mixture of toasted flour, almonds, sesame, and honey. This energy-packed sweet is traditionally served during Ramadan and celebrations.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "almonds", "amount": 200, "unit": "g" },
+      { "name": "sesame seeds", "amount": 200, "unit": "g" },
+      { "name": "butter", "amount": 150, "unit": "g" },
+      { "name": "honey", "amount": 200, "unit": "g" },
+      { "name": "powdered sugar", "amount": 150, "unit": "g" },
+      { "name": "cinnamon", "amount": 2, "unit": "tbsp" },
+      { "name": "anise seeds", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Toast flour in a dry pan until golden, stirring constantly.",
+      "Toast almonds and grind coarsely.",
+      "Toast sesame seeds and grind.",
+      "Toast anise seeds.",
+      "Mix all toasted ingredients in a large bowl.",
+      "Add cinnamon and powdered sugar.",
+      "Mix in melted butter and honey.",
+      "Knead until mixture holds together.",
+      "Press into a mound or individual shapes.",
+      "Dust with powdered sugar before serving."
+    ],
+    "cooking_tips": [
+      "Toast flour slowly to avoid burning.",
+      "The mixture should clump when pressed.",
+      "Keeps for months in an airtight container."
+    ],
+    "difficulty": "medium",
+    "tags": ["moroccan", "dessert", "no-bake", "ramadan", "energy", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 5,
+      "fat_g": 12,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "High in energy from nuts and honey. Almonds provide vitamin E. Sesame offers calcium and minerals.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-moroccan-salad",
+    "slug": "moroccan-salad",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Moroccan Salad",
+    "image": "assets/img/recipes/moroccan-salad.jpg",
+    "short_description": "A refreshing finely diced salad of tomatoes, cucumbers, peppers, and onions dressed with olive oil and lemon. The perfect accompaniment to any Moroccan meal.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      { "name": "tomatoes", "amount": 4, "unit": "medium" },
+      { "name": "cucumber", "amount": 2, "unit": "medium" },
+      { "name": "green bell pepper", "amount": 1, "unit": "pc" },
+      { "name": "red onion", "amount": 0.5, "unit": "pc" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "lemon juice", "amount": 30, "unit": "ml" },
+      { "name": "cumin", "amount": 0.5, "unit": "tsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Dice all vegetables into very small uniform pieces.",
+      "Finely chop the parsley.",
+      "Combine vegetables in a bowl.",
+      "Whisk olive oil, lemon juice, cumin, and salt.",
+      "Pour dressing over vegetables.",
+      "Toss gently to combine.",
+      "Let sit 10 minutes for flavors to meld.",
+      "Serve chilled or at room temperature."
+    ],
+    "cooking_tips": [
+      "The smaller the dice, the more authentic.",
+      "Add a pinch of cayenne for heat.",
+      "Best served fresh the same day."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "salad", "fresh", "vegan", "healthy", "side"],
+    "nutrition": {
+      "per_serving_kcal": 90,
+      "protein_g": 2,
+      "fat_g": 7,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Rich in vitamins from fresh vegetables. Olive oil provides heart-healthy fats. Low in calories.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-taktouka",
+    "slug": "taktouka",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Taktouka",
+    "image": "assets/img/recipes/taktouka.jpg",
+    "short_description": "A smoky roasted pepper and tomato salad with garlic and spices. This versatile Moroccan condiment is perfect as a dip or side dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      { "name": "bell peppers", "amount": 4, "unit": "large" },
+      { "name": "tomatoes", "amount": 6, "unit": "medium" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "fresh cilantro", "amount": 0.25, "unit": "cup" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Roast peppers and tomatoes until charred.",
+      "Peel the charred skins from vegetables.",
+      "Chop the roasted vegetables roughly.",
+      "Sauté garlic in olive oil until fragrant.",
+      "Add roasted vegetables and spices.",
+      "Cook down until thickened, about 20 minutes.",
+      "Mash to desired consistency.",
+      "Stir in fresh cilantro.",
+      "Serve warm or at room temperature with bread."
+    ],
+    "cooking_tips": [
+      "Char the vegetables well for smoky flavor.",
+      "Can be made ahead - flavors improve overnight.",
+      "Adjust spices to taste."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "salad", "roasted", "dip", "vegan", "appetizer"],
+    "nutrition": {
+      "per_serving_kcal": 100,
+      "protein_g": 2,
+      "fat_g": 7,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Roasted peppers are rich in vitamin C. Tomatoes provide lycopene. A healthy, flavorful side dish.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-lentil-soup",
+    "slug": "moroccan-lentil-soup",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Moroccan Lentil Soup",
+    "image": "assets/img/recipes/moroccan-lentil-soup.jpg",
+    "short_description": "A warming spiced lentil soup with tomatoes, ginger, and a hint of cinnamon. This nourishing soup is a staple of Moroccan home cooking.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "red lentils", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomatoes", "amount": 4, "unit": "medium" },
+      { "name": "celery", "amount": 2, "unit": "stalks" },
+      { "name": "ginger", "amount": 1, "unit": "tbsp" },
+      { "name": "turmeric", "amount": 1, "unit": "tsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "vegetable broth", "amount": 1.5, "unit": "L" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" }
+    ],
+    "steps": [
+      "Sauté diced onion and celery in olive oil.",
+      "Add ginger, turmeric, cumin, and cinnamon.",
+      "Add chopped tomatoes and cook briefly.",
+      "Add rinsed lentils and vegetable broth.",
+      "Bring to boil, then simmer for 30 minutes.",
+      "Blend partially for creamy texture.",
+      "Season with salt and pepper.",
+      "Serve with lemon wedges and fresh cilantro.",
+      "Drizzle with olive oil before serving."
+    ],
+    "cooking_tips": [
+      "Red lentils cook faster than brown.",
+      "The soup thickens as it sits - add more broth when reheating.",
+      "A squeeze of lemon brightens all the flavors."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "soup", "lentils", "vegan", "healthy", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 240,
+      "protein_g": 12,
+      "fat_g": 8,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Lentils are high in plant protein and fiber. Turmeric has anti-inflammatory properties. A nutritious, filling meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-fish-chermoula",
+    "slug": "fish-chermoula",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Fish with Chermoula",
+    "image": "assets/img/recipes/fish-chermoula.jpg",
+    "short_description": "Fresh fish marinated in chermoula, a vibrant herb and spice paste, then baked with vegetables. A beloved dish from coastal Morocco.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "whole fish or fish fillets", "amount": 1, "unit": "kg" },
+      { "name": "fresh cilantro", "amount": 1, "unit": "bunch" },
+      { "name": "fresh parsley", "amount": 1, "unit": "bunch" },
+      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "paprika", "amount": 2, "unit": "tsp" },
+      { "name": "lemon juice", "amount": 60, "unit": "ml" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "potatoes", "amount": 3, "unit": "medium" }
+    ],
+    "steps": [
+      "Blend cilantro, parsley, garlic, spices, lemon juice, and oil for chermoula.",
+      "Marinate fish in half the chermoula for 1 hour.",
+      "Slice potatoes and tomatoes.",
+      "Layer potatoes in a baking dish, season.",
+      "Place marinated fish on top.",
+      "Add tomato slices around fish.",
+      "Spoon remaining chermoula over everything.",
+      "Bake at 375°F for 35-40 minutes.",
+      "Fish is done when it flakes easily.",
+      "Serve with extra lemon wedges."
+    ],
+    "cooking_tips": [
+      "Chermoula can be made ahead and refrigerated.",
+      "Sea bass, snapper, or tilapia work well.",
+      "The potatoes should be tender and absorb the flavors."
+    ],
+    "difficulty": "medium",
+    "tags": ["moroccan", "fish", "seafood", "baked", "healthy", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 20,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Fish provides lean protein and omega-3 fatty acids. Herbs add antioxidants. A healthy, complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-khubz",
+    "slug": "khubz",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Khubz",
+    "image": "assets/img/recipes/khubz.jpg",
+    "short_description": "Traditional round Moroccan bread with a crispy crust and soft interior. This essential bread accompanies every Moroccan meal.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 300, "unit": "g" },
+      { "name": "whole wheat flour", "amount": 200, "unit": "g" },
+      { "name": "fine semolina", "amount": 100, "unit": "g" },
+      { "name": "yeast", "amount": 7, "unit": "g" },
+      { "name": "warm water", "amount": 350, "unit": "ml" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" },
+      { "name": "sugar", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 30, "unit": "ml" }
+    ],
+    "steps": [
+      "Dissolve yeast and sugar in warm water.",
+      "Mix flours with semolina and salt.",
+      "Add yeast water and olive oil to flour.",
+      "Knead for 10 minutes until smooth and elastic.",
+      "Divide into two balls.",
+      "Flatten each into thick rounds.",
+      "Let rise covered for 1 hour.",
+      "Prick tops with a fork in a pattern.",
+      "Bake at 400°F for 25-30 minutes until golden.",
+      "Cool on a rack before cutting."
+    ],
+    "cooking_tips": [
+      "The semolina adds a nice texture.",
+      "Traditional bread is baked in a communal oven.",
+      "Perfect for scooping up tagine sauces."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "bread", "traditional", "baked", "staple"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 7,
+      "fat_g": 3,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Whole wheat adds fiber. Semolina provides protein. Essential carbohydrates for energy.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-makrout",
+    "slug": "makrout",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Makrout",
+    "image": "assets/img/recipes/makrout.jpg",
+    "short_description": "Diamond-shaped semolina cookies stuffed with date paste and dipped in honey. These North African sweets are especially popular during Ramadan.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 30,
+    "ingredients": [
+      { "name": "fine semolina", "amount": 500, "unit": "g" },
+      { "name": "date paste", "amount": 400, "unit": "g" },
+      { "name": "butter", "amount": 150, "unit": "g" },
+      { "name": "orange blossom water", "amount": 60, "unit": "ml" },
+      { "name": "honey", "amount": 300, "unit": "g" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable oil", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Mix semolina with melted butter and orange blossom water.",
+      "Add enough water to form a soft dough.",
+      "Let rest 30 minutes.",
+      "Mix date paste with cinnamon.",
+      "Roll dough into logs, fill with date paste, seal.",
+      "Roll gently to smooth.",
+      "Cut at an angle into diamond shapes.",
+      "Score the top decoratively.",
+      "Deep fry until golden.",
+      "Dip hot cookies into warm honey."
+    ],
+    "cooking_tips": [
+      "Don't overfill or they'll burst while frying.",
+      "Traditional scoring creates a beautiful pattern.",
+      "Store in an airtight container."
+    ],
+    "difficulty": "medium",
+    "tags": ["moroccan", "dessert", "dates", "fried", "ramadan", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 160,
+      "protein_g": 2,
+      "fat_g": 7,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Dates provide natural sweetness and fiber. Semolina offers carbohydrates. Honey adds antioxidants.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-brochettes",
+    "slug": "moroccan-brochettes",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Moroccan Brochettes",
+    "image": "assets/img/recipes/moroccan-brochettes.jpg",
+    "short_description": "Spiced meat skewers grilled over charcoal, a beloved street food throughout Morocco. Simple yet incredibly flavorful.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      { "name": "lamb or beef", "amount": 600, "unit": "g" },
+      { "name": "lamb fat", "amount": 100, "unit": "g" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "paprika", "amount": 2, "unit": "tsp" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" }
+    ],
+    "steps": [
+      "Cut meat into 1-inch cubes.",
+      "Cut lamb fat into smaller pieces.",
+      "Mix cumin, paprika, and salt.",
+      "Thread meat and fat alternately on skewers.",
+      "Season generously with spice mixture.",
+      "Grill over hot charcoal, turning frequently.",
+      "Cook until charred outside, pink inside (for lamb).",
+      "Serve with sliced onion and cumin for dipping.",
+      "Garnish with fresh parsley.",
+      "Serve with fresh bread."
+    ],
+    "cooking_tips": [
+      "The fat pieces keep the meat moist.",
+      "High heat creates the characteristic char.",
+      "Dip in cumin salt before each bite."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "grilled", "meat", "street-food", "bbq"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "High in protein. Iron from red meat. Simple preparation preserves nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-mrouzia",
+    "slug": "mrouzia",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Mrouzia",
+    "image": "assets/img/recipes/mrouzia.jpg",
+    "short_description": "A rich, sweet tagine of lamb with honey, raisins, and ras el hanout, traditionally prepared for Eid al-Adha. The perfect balance of sweet and savory.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 1.5, "unit": "kg" },
+      { "name": "ras el hanout", "amount": 3, "unit": "tbsp" },
+      { "name": "honey", "amount": 150, "unit": "g" },
+      { "name": "raisins", "amount": 200, "unit": "g" },
+      { "name": "almonds", "amount": 150, "unit": "g" },
+      { "name": "cinnamon", "amount": 2, "unit": "tsp" },
+      { "name": "saffron", "amount": 1, "unit": "pinch" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "onions", "amount": 2, "unit": "large" }
+    ],
+    "steps": [
+      "Cut lamb into large chunks.",
+      "Season with ras el hanout, salt, and saffron.",
+      "Brown lamb in butter with onions.",
+      "Add water to cover, simmer for 2 hours.",
+      "Add honey, raisins, and cinnamon.",
+      "Continue cooking until sauce is thick and glossy.",
+      "Toast almonds until golden.",
+      "Transfer to serving dish.",
+      "Top with toasted almonds.",
+      "Serve with crusty bread."
+    ],
+    "cooking_tips": [
+      "The sauce should be thick and caramelized.",
+      "Low and slow cooking develops the flavors.",
+      "Traditional for Eid celebrations."
+    ],
+    "difficulty": "medium",
+    "tags": ["moroccan", "lamb", "sweet", "festive", "eid", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Protein-rich lamb. Raisins provide iron. Almonds add healthy fats and vitamin E.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-bissara",
+    "slug": "bissara",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Bissara",
+    "image": "assets/img/recipes/bissara.jpg",
+    "short_description": "A creamy dried fava bean soup flavored with garlic and cumin, drizzled with olive oil. This humble, nutritious soup is beloved breakfast street food.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "dried split fava beans", "amount": 400, "unit": "g" },
+      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" },
+      { "name": "water", "amount": 1.5, "unit": "L" }
+    ],
+    "steps": [
+      "Soak fava beans overnight, drain.",
+      "Cook beans with water and garlic until very soft.",
+      "Blend until smooth and creamy.",
+      "Season with cumin, paprika, and salt.",
+      "Thin with water to desired consistency.",
+      "Serve in bowls.",
+      "Drizzle generously with olive oil.",
+      "Sprinkle with extra cumin and paprika.",
+      "Serve with fresh bread for dipping."
+    ],
+    "cooking_tips": [
+      "The soup should be thick but pourable.",
+      "Quality olive oil is essential for finishing.",
+      "Street vendors top with a dollop of argan oil."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "soup", "beans", "vegan", "breakfast", "street-food"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Fava beans are high in plant protein and fiber. Olive oil provides healthy fats. Very filling and nutritious.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-loubia",
+    "slug": "loubia",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Loubia",
+    "image": "assets/img/recipes/loubia.jpg",
+    "short_description": "A hearty white bean stew with tomatoes and cumin. This comforting Moroccan staple is nutritious, filling, and delicious.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "dried white beans", "amount": 400, "unit": "g" },
+      { "name": "tomatoes", "amount": 6, "unit": "medium" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "fresh cilantro", "amount": 0.5, "unit": "cup" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak beans overnight, drain.",
+      "Cook beans until almost tender, about 1 hour.",
+      "Sauté onion and garlic in olive oil.",
+      "Add grated tomatoes and spices.",
+      "Cook sauce for 15 minutes until thickened.",
+      "Add cooked beans with some cooking water.",
+      "Simmer together for 20 minutes.",
+      "Adjust seasoning and consistency.",
+      "Stir in fresh cilantro.",
+      "Serve with fresh bread."
+    ],
+    "cooking_tips": [
+      "Don't add salt until beans are almost cooked.",
+      "The stew should be thick and rich.",
+      "Can add preserved lemon for extra flavor."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "stew", "beans", "vegan", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "White beans provide protein and fiber. Tomatoes add lycopene. A filling, nutritious vegetarian meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-maakouda",
+    "slug": "maakouda",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Maakouda",
+    "image": "assets/img/recipes/maakouda.jpg",
+    "short_description": "Crispy fried potato patties seasoned with cumin and herbs. These popular street food bites are perfect in sandwiches or as a snack.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 10,
+    "ingredients": [
+      { "name": "potatoes", "amount": 1, "unit": "kg" },
+      { "name": "eggs", "amount": 2, "unit": "pc" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "flour", "amount": 60, "unit": "g" },
+      { "name": "vegetable oil", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Boil potatoes until tender, drain and mash.",
+      "Add eggs, minced garlic, parsley, and cumin.",
+      "Mix in flour until dough forms.",
+      "Shape into small patties.",
+      "Heat oil for deep frying.",
+      "Fry patties until golden brown on both sides.",
+      "Drain on paper towels.",
+      "Serve hot with harissa.",
+      "Often stuffed into sandwiches with vegetables."
+    ],
+    "cooking_tips": [
+      "Don't overwork the potato mixture.",
+      "Fry at medium heat for even cooking.",
+      "Serve immediately for best crispness."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "street-food", "fried", "potatoes", "snack", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Potatoes provide potassium. Eggs add protein. A satisfying street food snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-ghoriba",
+    "slug": "ghoriba",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Ghoriba",
+    "image": "assets/img/recipes/ghoriba.jpg",
+    "short_description": "Crumbly Moroccan cookies with a cracked top, made with almonds, semolina, or coconut. These melt-in-your-mouth treats are flavored with orange blossom water.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 24,
+    "ingredients": [
+      { "name": "almonds (ground)", "amount": 300, "unit": "g" },
+      { "name": "powdered sugar", "amount": 200, "unit": "g" },
+      { "name": "eggs", "amount": 2, "unit": "pc" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "orange blossom water", "amount": 2, "unit": "tbsp" },
+      { "name": "baking powder", "amount": 1, "unit": "tsp" },
+      { "name": "lemon zest", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Mix ground almonds with powdered sugar.",
+      "Add eggs, melted butter, and orange blossom water.",
+      "Mix in baking powder and lemon zest.",
+      "Refrigerate dough for 30 minutes.",
+      "Roll into small balls.",
+      "Place on baking sheet, slightly flatten.",
+      "Bake at 350°F for 12-15 minutes.",
+      "Cookies should be pale with cracked tops.",
+      "Cool completely before removing from pan.",
+      "Dust with powdered sugar."
+    ],
+    "cooking_tips": [
+      "Don't overbake - they firm up as they cool.",
+      "The cracks on top are the signature look.",
+      "Store in an airtight container."
+    ],
+    "difficulty": "easy",
+    "tags": ["moroccan", "cookies", "almonds", "dessert", "tea-time", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 7,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Almonds provide healthy fats and protein. A satisfying sweet with some nutritional value.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-sfenj",
+    "slug": "sfenj",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Sfenj",
+    "image": "assets/img/recipes/sfenj.jpg",
+    "short_description": "Light, airy Moroccan doughnuts without a hole, fried to golden perfection. These street food favorites are best eaten warm, dusted with sugar or drizzled with honey.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 30,
+    "servings": 15,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "warm water", "amount": 350, "unit": "ml" },
+      { "name": "yeast", "amount": 10, "unit": "g" },
+      { "name": "salt", "amount": 1, "unit": "tsp" },
+      { "name": "sugar", "amount": 1, "unit": "tbsp" },
+      { "name": "vegetable oil", "amount": 1, "unit": "L" },
+      { "name": "honey", "amount": 100, "unit": "g" }
+    ],
+    "steps": [
+      "Dissolve yeast and sugar in warm water.",
+      "Add flour and salt, mix to a sticky dough.",
+      "Knead for 5 minutes until smooth but still sticky.",
+      "Cover and let rise for 1 hour until doubled.",
+      "Oil your hands generously.",
+      "Take a handful of dough, form a ring shape.",
+      "Stretch the ring gently.",
+      "Fry in hot oil until golden on both sides.",
+      "Drain on paper towels.",
+      "Serve immediately with honey or sugar."
+    ],
+    "cooking_tips": [
+      "The dough should be very sticky - that's correct.",
+      "Keep hands well oiled when shaping.",
+      "Serve immediately for best texture."
+    ],
+    "difficulty": "medium",
+    "tags": ["moroccan", "street-food", "fried", "doughnuts", "breakfast", "sweet"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Provides quick energy. Best enjoyed as an occasional treat. A beloved Moroccan comfort food.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-cornes-gazelle",
+    "slug": "cornes-de-gazelle",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Cornes de Gazelle",
+    "image": "assets/img/recipes/cornes-de-gazelle.jpg",
+    "short_description": "Elegant crescent-shaped pastries filled with almond paste and perfumed with orange blossom water. These delicate sweets are Morocco's most refined cookies.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 15,
+    "servings": 30,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 300, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "almonds (blanched)", "amount": 400, "unit": "g" },
+      { "name": "powdered sugar", "amount": 200, "unit": "g" },
+      { "name": "orange blossom water", "amount": 60, "unit": "ml" },
+      { "name": "egg white", "amount": 1, "unit": "pc" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "mastic gum (optional)", "amount": 1, "unit": "pinch" }
+    ],
+    "steps": [
+      "Make dough with flour, melted butter, and orange blossom water.",
+      "Knead until smooth, rest 30 minutes.",
+      "Grind almonds finely with powdered sugar.",
+      "Add orange blossom water and cinnamon to almonds.",
+      "Mix until almond paste forms.",
+      "Roll dough very thin.",
+      "Shape almond paste into small cylinders.",
+      "Wrap dough around filling, form crescent shapes.",
+      "Pinch ends to points.",
+      "Bake at 350°F for 12-15 minutes until barely colored."
+    ],
+    "cooking_tips": [
+      "The dough must be paper thin.",
+      "Don't let them brown - they should stay pale.",
+      "Store in an airtight container for weeks."
+    ],
+    "difficulty": "hard",
+    "tags": ["moroccan", "pastry", "almonds", "elegant", "tea-time", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 7,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Almonds provide protein and vitamin E. Orange blossom water has calming properties. A refined treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   }
 ]

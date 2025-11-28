@@ -5890,953 +5890,6 @@
     "dietaryStyle": "Vegetarian"
   },
   {
-    "id": "it-margherita-pizza",
-    "slug": "margherita-pizza",
-    "country": "Italy",
-    "country_slug": "italy",
-    "name_en": "Margherita Pizza",
-    "image": "assets/img/recipes/margherita-pizza.jpg",
-    "short_description": "A timeless Neapolitan masterpiece featuring a pillowy crust, vibrant San Marzano tomato sauce, creamy fresh mozzarella, and fragrant basil leaves. This iconic pizza represents the colors of the Italian flag and delivers pure Mediterranean simplicity at its finest.",
-    "prep_time_minutes": 30,
-    "cooking_time_minutes": 60,
-    "servings": 4,
-    "ingredients": [
-      {
-        "name": "00 flour",
-        "amount": 500,
-        "unit": "g"
-      },
-      {
-        "name": "water",
-        "amount": 320,
-        "unit": "ml"
-      },
-      {
-        "name": "fresh yeast",
-        "amount": 3,
-        "unit": "g"
-      },
-      {
-        "name": "salt",
-        "amount": 10,
-        "unit": "g"
-      },
-      {
-        "name": "San Marzano tomato sauce",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "fresh mozzarella",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "fresh basil leaves",
-        "amount": 12,
-        "unit": "leaves"
-      },
-      {
-        "name": "extra virgin olive oil",
-        "amount": 2,
-        "unit": "tbsp"
-      }
-    ],
-    "steps": [
-      "Dissolve the yeast in lukewarm water and let it activate for 5 minutes until slightly foamy.",
-      "In a large bowl, combine the flour and salt, then gradually add the yeast water while mixing.",
-      "Knead the dough on a floured surface for 10 minutes until smooth and elastic.",
-      "Place the dough in an oiled bowl, cover with a damp cloth, and let rise for 2 hours until doubled.",
-      "Preheat your oven to the highest setting (250°°C/480°°F) with a pizza stone or baking sheet inside.",
-      "Divide the dough into 4 portions and stretch each into a thin round, leaving edges slightly thicker.",
-      "Spread a thin layer of tomato sauce, leaving a 1-inch border for the crust.",
-      "Tear the mozzarella into pieces and distribute evenly over the sauce.",
-      "Bake for 8-10 minutes until the crust is golden and cheese is bubbling.",
-      "Remove from oven, top with fresh basil leaves, drizzle with olive oil, and serve immediately."
-    ],
-    "cooking_tips": [
-      "For best results, let the dough cold-ferment in the refrigerator overnight for deeper flavor.",
-      "Use a pizza stone preheated for at least 30 minutes to achieve a crispy bottom.",
-      "Less is more with toppings - overloading will result in a soggy center."
-    ],
-    "difficulty": "medium",
-    "tags": [
-      "italian",
-      "pizza",
-      "vegetarian",
-      "baked",
-      "classic",
-      "dinner"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 550,
-      "protein_g": 22,
-      "fat_g": 18,
-      "carbs_g": 70
-    },
-    "nutrition_benefits": "This pizza provides a good balance of carbohydrates for energy, protein from the mozzarella cheese, and lycopene from the tomatoes which is a powerful antioxidant. The olive oil adds heart-healthy monounsaturated fats. Fresh basil contains vitamins K, A, and C, plus essential oils with anti-inflammatory properties.",
-    "mealType": "Dinner",
-    "dietaryStyle": "Vegetarian"
-  },
-  {
-    "id": "it-spaghetti-carbonara",
-    "slug": "spaghetti-carbonara",
-    "country": "Italy",
-    "country_slug": "italy",
-    "name_en": "Spaghetti Carbonara",
-    "image": "assets/img/recipes/spaghetti-carbonara.jpg",
-    "short_description": "An authentic Roman treasure featuring al dente spaghetti coated in a luxuriously silky sauce of eggs, aged Pecorino Romano, crispy guanciale, and freshly cracked black pepper. This dish showcases Italian cuisine's genius for transforming simple ingredients into extraordinary flavors.",
-    "prep_time_minutes": 10,
-    "cooking_time_minutes": 20,
-    "servings": 4,
-    "ingredients": [
-      {
-        "name": "spaghetti",
-        "amount": 400,
-        "unit": "g"
-      },
-      {
-        "name": "guanciale",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "egg yolks",
-        "amount": 6,
-        "unit": "pc"
-      },
-      {
-        "name": "whole eggs",
-        "amount": 2,
-        "unit": "pc"
-      },
-      {
-        "name": "Pecorino Romano cheese",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "freshly ground black pepper",
-        "amount": 2,
-        "unit": "tsp"
-      },
-      {
-        "name": "salt",
-        "amount": 1,
-        "unit": "tsp"
-      }
-    ],
-    "steps": [
-      "Bring a large pot of generously salted water to a rolling boil.",
-      "Cut the guanciale into small strips or cubes, about 1cm thick.",
-      "In a bowl, whisk together the egg yolks, whole eggs, and finely grated Pecorino Romano until smooth.",
-      "Add generous amounts of freshly ground black pepper to the egg mixture and set aside.",
-      "Cook the guanciale in a large cold pan over medium heat, letting the fat render slowly for 8-10 minutes until crispy.",
-      "Cook the spaghetti until al dente, reserving 1 cup of pasta water before draining.",
-      "Remove the guanciale pan from heat and let it cool for 1 minute.",
-      "Add the hot drained pasta to the guanciale pan and toss to coat in the rendered fat.",
-      "Working quickly off the heat, pour the egg mixture over the pasta while tossing continuously.",
-      "Add small splashes of pasta water while tossing to create a creamy, glossy sauce.",
-      "Serve immediately with extra Pecorino and black pepper on top."
-    ],
-    "cooking_tips": [
-      "Never add the egg mixture to a hot pan on the heat, or you will get scrambled eggs instead of a silky sauce.",
-      "The residual heat from the pasta and pan is what gently cooks the eggs into a creamy coating.",
-      "Authentic carbonara never includes cream, garlic, or onions."
-    ],
-    "difficulty": "medium",
-    "tags": [
-      "italian",
-      "pasta",
-      "quick",
-      "high-protein",
-      "classic",
-      "dinner"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 650,
-      "protein_g": 28,
-      "fat_g": 32,
-      "carbs_g": 58
-    },
-    "nutrition_benefits": "Carbonara is an excellent source of complete protein from eggs and cheese, providing all essential amino acids. The eggs contain choline, vital for brain health, and the Pecorino Romano offers calcium for bone strength. The dish provides sustained energy from complex carbohydrates in the pasta.",
-    "mealType": "Dinner",
-    "dietaryStyle": "High Protein"
-  },
-  {
-    "id": "it-lasagna",
-    "slug": "lasagna-bolognese",
-    "country": "Italy",
-    "country_slug": "italy",
-    "name_en": "Lasagna Bolognese",
-    "image": "assets/img/recipes/lasagna.jpg",
-    "short_description": "Layers of silky pasta sheets, rich meat ragu, creamy bechamel, and melted Parmigiano. This iconic dish from Bologna represents Italian comfort food at its finest.",
-    "prep_time_minutes": 60,
-    "cooking_time_minutes": 90,
-    "servings": 8,
-    "ingredients": [
-      {
-        "name": "lasagna sheets",
-        "amount": 500,
-        "unit": "g"
-      },
-      {
-        "name": "ground beef",
-        "amount": 400,
-        "unit": "g"
-      },
-      {
-        "name": "ground pork",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "onion",
-        "amount": 1,
-        "unit": "large"
-      },
-      {
-        "name": "carrot",
-        "amount": 1,
-        "unit": "medium"
-      },
-      {
-        "name": "celery",
-        "amount": 1,
-        "unit": "stalk"
-      },
-      {
-        "name": "tomato passata",
-        "amount": 400,
-        "unit": "g"
-      },
-      {
-        "name": "milk",
-        "amount": 800,
-        "unit": "ml"
-      },
-      {
-        "name": "butter",
-        "amount": 80,
-        "unit": "g"
-      },
-      {
-        "name": "flour",
-        "amount": 60,
-        "unit": "g"
-      },
-      {
-        "name": "Parmigiano Reggiano",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "nutmeg",
-        "amount": 0.5,
-        "unit": "tsp"
-      }
-    ],
-    "steps": [
-      "Finely chop onion, carrot, and celery for soffritto.",
-      "Brown meats with soffritto, add wine, then tomato passata.",
-      "Simmer ragu for at least 2 hours until rich and thick.",
-      "Make bechamel: melt butter, whisk in flour, gradually add warm milk.",
-      "Cook bechamel until thick, add nutmeg and half the Parmigiano.",
-      "Cook lasagna sheets if using fresh, or use no-boil sheets.",
-      "Layer: bechamel, pasta, ragu, bechamel, Parmigiano. Repeat.",
-      "Finish with bechamel and plenty of Parmigiano on top.",
-      "Bake at 375°F for 40-45 minutes until golden and bubbling.",
-      "Rest 15 minutes before serving."
-    ],
-    "cooking_tips": [
-      "A slow-cooked ragu is the key to exceptional lasagna.",
-      "The bechamel should be thick enough to coat a spoon.",
-      "Let the lasagna rest before cutting for clean slices."
-    ],
-    "difficulty": "hard",
-    "tags": [
-      "italian",
-      "pasta",
-      "baked",
-      "beef",
-      "comfort-food",
-      "dinner",
-      "bologna"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 580,
-      "protein_g": 32,
-      "fat_g": 32,
-      "carbs_g": 42
-    },
-    "nutrition_benefits": "Lasagna provides complete protein from meat and dairy. The dish offers calcium from cheese and milk. Tomatoes add lycopene, a powerful antioxidant.",
-    "mealType": "Dinner",
-    "dietaryStyle": "High Protein"
-  },
-  {
-    "id": "it-risotto",
-    "slug": "risotto-alla-milanese",
-    "country": "Italy",
-    "country_slug": "italy",
-    "name_en": "Risotto alla Milanese",
-    "image": "assets/img/recipes/risotto.jpg",
-    "short_description": "Creamy saffron-infused rice that is the pride of Milan. This golden dish showcases the Italian technique of slowly building flavor through patient stirring.",
-    "prep_time_minutes": 10,
-    "cooking_time_minutes": 30,
-    "servings": 4,
-    "ingredients": [
-      {
-        "name": "Arborio rice",
-        "amount": 320,
-        "unit": "g"
-      },
-      {
-        "name": "saffron threads",
-        "amount": 0.5,
-        "unit": "g"
-      },
-      {
-        "name": "beef or chicken stock",
-        "amount": 1.2,
-        "unit": "L"
-      },
-      {
-        "name": "butter",
-        "amount": 80,
-        "unit": "g"
-      },
-      {
-        "name": "onion",
-        "amount": 1,
-        "unit": "small"
-      },
-      {
-        "name": "white wine",
-        "amount": 100,
-        "unit": "ml"
-      },
-      {
-        "name": "Parmigiano Reggiano",
-        "amount": 80,
-        "unit": "g"
-      },
-      {
-        "name": "salt",
-        "amount": 1,
-        "unit": "tsp"
-      }
-    ],
-    "steps": [
-      "Steep saffron in 1/4 cup warm stock for 10 minutes.",
-      "Heat remaining stock and keep warm.",
-      "Saute finely diced onion in half the butter until soft.",
-      "Add rice and toast for 2 minutes until edges are translucent.",
-      "Add wine and stir until absorbed.",
-      "Add warm stock one ladle at a time, stirring constantly.",
-      "When almost done, stir in saffron with its liquid.",
-      "Continue until rice is creamy and al dente, about 18 minutes.",
-      "Remove from heat, add remaining butter and Parmigiano.",
-      "Cover and rest 2 minutes before serving."
-    ],
-    "cooking_tips": [
-      "The stock must be warm to maintain cooking temperature.",
-      "Constant stirring releases starch for creamy texture.",
-      "The final mantecatura (adding butter and cheese) is essential."
-    ],
-    "difficulty": "medium",
-    "tags": [
-      "italian",
-      "rice",
-      "saffron",
-      "milan",
-      "dinner",
-      "vegetarian"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 480,
-      "protein_g": 12,
-      "fat_g": 22,
-      "carbs_g": 58
-    },
-    "nutrition_benefits": "Risotto provides complex carbohydrates for sustained energy. Saffron contains antioxidants and may improve mood. Parmigiano adds calcium and protein.",
-    "mealType": "Dinner",
-    "dietaryStyle": "Vegetarian"
-  },
-  {
-    "id": "it-ossobuco",
-    "slug": "ossobuco",
-    "country": "Italy",
-    "country_slug": "italy",
-    "name_en": "Ossobuco alla Milanese",
-    "image": "assets/img/recipes/ossobuco.jpg",
-    "short_description": "Braised veal shanks in a rich wine and vegetable sauce, finished with bright gremolata. This Milanese specialty is traditionally served with saffron risotto.",
-    "prep_time_minutes": 30,
-    "cooking_time_minutes": 150,
-    "servings": 4,
-    "ingredients": [
-      {
-        "name": "veal shanks",
-        "amount": 4,
-        "unit": "pc"
-      },
-      {
-        "name": "onion",
-        "amount": 1,
-        "unit": "large"
-      },
-      {
-        "name": "carrot",
-        "amount": 1,
-        "unit": "medium"
-      },
-      {
-        "name": "celery",
-        "amount": 2,
-        "unit": "stalks"
-      },
-      {
-        "name": "white wine",
-        "amount": 250,
-        "unit": "ml"
-      },
-      {
-        "name": "beef stock",
-        "amount": 500,
-        "unit": "ml"
-      },
-      {
-        "name": "canned tomatoes",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "lemon zest",
-        "amount": 1,
-        "unit": "lemon"
-      },
-      {
-        "name": "fresh parsley",
-        "amount": 0.5,
-        "unit": "cup"
-      },
-      {
-        "name": "garlic",
-        "amount": 2,
-        "unit": "cloves"
-      },
-      {
-        "name": "flour",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "butter",
-        "amount": 50,
-        "unit": "g"
-      }
-    ],
-    "steps": [
-      "Tie string around veal shanks to keep meat attached to bone.",
-      "Dredge shanks in flour and brown in butter on all sides.",
-      "Remove meat, add diced vegetables and cook until soft.",
-      "Return meat to pot, add wine and reduce by half.",
-      "Add stock and tomatoes, bring to a simmer.",
-      "Cover and braise in 325°F oven for 2-2.5 hours until very tender.",
-      "Make gremolata by mixing lemon zest, minced garlic, and parsley.",
-      "Carefully transfer shanks to serving plates.",
-      "Reduce sauce if needed and spoon over meat.",
-      "Top with gremolata and serve immediately."
-    ],
-    "cooking_tips": [
-      "The marrow inside the bone is a delicacy - provide small spoons.",
-      "Low and slow braising is key to tender meat.",
-      "Gremolata should be added at the last minute for freshness."
-    ],
-    "difficulty": "medium",
-    "tags": [
-      "italian",
-      "veal",
-      "braised",
-      "milan",
-      "dinner",
-      "special-occasion"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 420,
-      "protein_g": 38,
-      "fat_g": 18,
-      "carbs_g": 16
-    },
-    "nutrition_benefits": "Ossobuco provides high-quality protein and iron from veal. Bone marrow offers healthy fats and collagen. The gremolata adds vitamin C and antioxidants.",
-    "mealType": "Dinner",
-    "dietaryStyle": "High Protein"
-  },
-  {
-    "id": "it-tiramisu",
-    "slug": "tiramisu",
-    "country": "Italy",
-    "country_slug": "italy",
-    "name_en": "Tiramisu",
-    "image": "assets/img/recipes/tiramisu.jpg",
-    "short_description": "Layers of espresso-soaked ladyfingers and silky mascarpone cream, dusted with cocoa. This beloved Italian dessert from the Veneto region is a perfect ending to any meal.",
-    "prep_time_minutes": 30,
-    "cooking_time_minutes": 0,
-    "servings": 8,
-    "ingredients": [
-      {
-        "name": "mascarpone cheese",
-        "amount": 500,
-        "unit": "g"
-      },
-      {
-        "name": "eggs",
-        "amount": 4,
-        "unit": "pc"
-      },
-      {
-        "name": "sugar",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "espresso (cooled)",
-        "amount": 300,
-        "unit": "ml"
-      },
-      {
-        "name": "ladyfinger biscuits (savoiardi)",
-        "amount": 300,
-        "unit": "g"
-      },
-      {
-        "name": "unsweetened cocoa powder",
-        "amount": 30,
-        "unit": "g"
-      },
-      {
-        "name": "Marsala wine or rum",
-        "amount": 3,
-        "unit": "tbsp"
-      }
-    ],
-    "steps": [
-      "Separate egg yolks and whites.",
-      "Whisk yolks with sugar until pale and fluffy.",
-      "Add mascarpone and mix until smooth.",
-      "Beat egg whites to stiff peaks and fold into mascarpone mixture.",
-      "Mix espresso with Marsala or rum.",
-      "Quickly dip each ladyfinger in espresso - don't soak too long.",
-      "Layer soaked ladyfingers in a dish.",
-      "Spread half the mascarpone cream over ladyfingers.",
-      "Repeat layers, ending with cream.",
-      "Refrigerate at least 4 hours or overnight. Dust with cocoa before serving."
-    ],
-    "cooking_tips": [
-      "Use room temperature mascarpone for easier mixing.",
-      "The ladyfingers should be moist but not soggy.",
-      "Tiramisu is best made a day ahead for flavors to meld."
-    ],
-    "difficulty": "easy",
-    "tags": [
-      "italian",
-      "dessert",
-      "coffee",
-      "no-bake",
-      "mascarpone",
-      "classic"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 380,
-      "protein_g": 8,
-      "fat_g": 24,
-      "carbs_g": 32
-    },
-    "nutrition_benefits": "Tiramisu provides protein from eggs and cheese. Mascarpone offers calcium and vitamin A. Coffee contains antioxidants and may boost metabolism.",
-    "mealType": "Dessert",
-    "dietaryStyle": "Vegetarian"
-  },
-  {
-    "id": "it-pesto",
-    "slug": "pesto-alla-genovese",
-    "country": "Italy",
-    "country_slug": "italy",
-    "name_en": "Pesto alla Genovese",
-    "image": "assets/img/recipes/pesto.jpg",
-    "short_description": "Fresh basil pounded with pine nuts, garlic, Parmigiano, and olive oil into a vibrant green sauce. This Ligurian classic transforms simple pasta into a celebration of summer.",
-    "prep_time_minutes": 15,
-    "cooking_time_minutes": 10,
-    "servings": 4,
-    "ingredients": [
-      {
-        "name": "fresh basil leaves",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "pine nuts",
-        "amount": 30,
-        "unit": "g"
-      },
-      {
-        "name": "garlic",
-        "amount": 2,
-        "unit": "cloves"
-      },
-      {
-        "name": "Parmigiano Reggiano",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "Pecorino Sardo",
-        "amount": 30,
-        "unit": "g"
-      },
-      {
-        "name": "extra virgin olive oil",
-        "amount": 100,
-        "unit": "ml"
-      },
-      {
-        "name": "coarse salt",
-        "amount": 1,
-        "unit": "tsp"
-      },
-      {
-        "name": "pasta (trofie or trenette)",
-        "amount": 400,
-        "unit": "g"
-      }
-    ],
-    "steps": [
-      "Toast pine nuts lightly in a dry pan.",
-      "In a mortar, crush garlic with coarse salt.",
-      "Add pine nuts and pound to a paste.",
-      "Add basil leaves a handful at a time, grinding against the sides.",
-      "Add grated cheeses and mix well.",
-      "Slowly drizzle in olive oil while stirring.",
-      "Cook pasta in well-salted water.",
-      "Reserve 1/2 cup pasta water before draining.",
-      "Loosen pesto with some pasta water.",
-      "Toss pasta with pesto and serve immediately."
-    ],
-    "cooking_tips": [
-      "A mortar and pestle yields the best texture, but a food processor works.",
-      "Don't over-process or basil will oxidize and turn dark.",
-      "Pasta water helps the pesto coat the pasta evenly."
-    ],
-    "difficulty": "easy",
-    "tags": [
-      "italian",
-      "sauce",
-      "basil",
-      "pasta",
-      "genoa",
-      "vegetarian",
-      "quick"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 520,
-      "protein_g": 16,
-      "fat_g": 28,
-      "carbs_g": 52
-    },
-    "nutrition_benefits": "Pesto is rich in heart-healthy olive oil and antioxidants from basil. Pine nuts provide protein and minerals. The cheeses add calcium and protein.",
-    "mealType": "Dinner",
-    "dietaryStyle": "Vegetarian"
-  },
-  {
-    "id": "it-bruschetta",
-    "slug": "bruschetta",
-    "country": "Italy",
-    "country_slug": "italy",
-    "name_en": "Bruschetta al Pomodoro",
-    "image": "assets/img/recipes/bruschetta.jpg",
-    "short_description": "Grilled bread rubbed with garlic and topped with ripe tomatoes, fresh basil, and olive oil. This simple Tuscan appetizer celebrates the quality of Italian ingredients.",
-    "prep_time_minutes": 15,
-    "cooking_time_minutes": 5,
-    "servings": 6,
-    "ingredients": [
-      {
-        "name": "Italian bread",
-        "amount": 1,
-        "unit": "loaf"
-      },
-      {
-        "name": "ripe tomatoes",
-        "amount": 4,
-        "unit": "medium"
-      },
-      {
-        "name": "garlic",
-        "amount": 2,
-        "unit": "cloves"
-      },
-      {
-        "name": "fresh basil",
-        "amount": 0.25,
-        "unit": "cup"
-      },
-      {
-        "name": "extra virgin olive oil",
-        "amount": 60,
-        "unit": "ml"
-      },
-      {
-        "name": "balsamic vinegar",
-        "amount": 1,
-        "unit": "tbsp"
-      },
-      {
-        "name": "salt",
-        "amount": 1,
-        "unit": "tsp"
-      }
-    ],
-    "steps": [
-      "Dice tomatoes and place in a bowl.",
-      "Add torn basil, olive oil, balsamic, salt, and pepper.",
-      "Let marinate for 15-30 minutes.",
-      "Slice bread into 1/2 inch thick slices.",
-      "Grill or toast bread until golden with char marks.",
-      "While still hot, rub one side of each slice with cut garlic.",
-      "Drizzle with a little olive oil.",
-      "Top with tomato mixture just before serving.",
-      "Serve immediately while bread is still warm and crispy."
-    ],
-    "cooking_tips": [
-      "Use the ripest, most flavorful tomatoes you can find.",
-      "The bread must be served immediately - it goes soggy quickly.",
-      "Quality olive oil makes all the difference."
-    ],
-    "difficulty": "easy",
-    "tags": [
-      "italian",
-      "appetizer",
-      "tomato",
-      "quick",
-      "vegan",
-      "summer"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 180,
-      "protein_g": 4,
-      "fat_g": 10,
-      "carbs_g": 20
-    },
-    "nutrition_benefits": "Bruschetta provides lycopene from tomatoes. Olive oil offers heart-healthy monounsaturated fats. Garlic has natural antimicrobial properties.",
-    "mealType": "Appetizer",
-    "dietaryStyle": "Vegan"
-  },
-  {
-    "id": "it-minestrone",
-    "slug": "minestrone",
-    "country": "Italy",
-    "country_slug": "italy",
-    "name_en": "Minestrone",
-    "image": "assets/img/recipes/minestrone.jpg",
-    "short_description": "A hearty vegetable soup that varies by season and region. This Italian classic features beans, pasta, and whatever vegetables are freshest, simmered into a nourishing meal.",
-    "prep_time_minutes": 20,
-    "cooking_time_minutes": 45,
-    "servings": 8,
-    "ingredients": [
-      {
-        "name": "cannellini beans",
-        "amount": 400,
-        "unit": "g"
-      },
-      {
-        "name": "small pasta (ditalini)",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "zucchini",
-        "amount": 2,
-        "unit": "medium"
-      },
-      {
-        "name": "carrots",
-        "amount": 2,
-        "unit": "medium"
-      },
-      {
-        "name": "celery",
-        "amount": 2,
-        "unit": "stalks"
-      },
-      {
-        "name": "potatoes",
-        "amount": 2,
-        "unit": "medium"
-      },
-      {
-        "name": "canned tomatoes",
-        "amount": 400,
-        "unit": "g"
-      },
-      {
-        "name": "vegetable stock",
-        "amount": 2,
-        "unit": "L"
-      },
-      {
-        "name": "Parmigiano rind",
-        "amount": 1,
-        "unit": "pc"
-      },
-      {
-        "name": "fresh basil",
-        "amount": 0.25,
-        "unit": "cup"
-      },
-      {
-        "name": "olive oil",
-        "amount": 60,
-        "unit": "ml"
-      }
-    ],
-    "steps": [
-      "Dice all vegetables into similar-sized pieces.",
-      "Saute onion, carrot, and celery in olive oil until soft.",
-      "Add remaining vegetables except zucchini.",
-      "Add tomatoes, stock, and Parmigiano rind.",
-      "Simmer for 30 minutes until vegetables are almost tender.",
-      "Add zucchini, beans, and pasta.",
-      "Cook until pasta is done, about 10 more minutes.",
-      "Remove Parmigiano rind (it will have melted mostly).",
-      "Season with salt and pepper, stir in fresh basil.",
-      "Serve with a drizzle of olive oil and grated Parmigiano."
-    ],
-    "cooking_tips": [
-      "The Parmigiano rind adds umami depth - don't skip it.",
-      "Minestrone is better the next day after flavors meld.",
-      "Add leafy greens like spinach or kale in the last few minutes."
-    ],
-    "difficulty": "easy",
-    "tags": [
-      "italian",
-      "soup",
-      "vegetable",
-      "beans",
-      "healthy",
-      "vegetarian"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 280,
-      "protein_g": 12,
-      "fat_g": 8,
-      "carbs_g": 42
-    },
-    "nutrition_benefits": "Minestrone is rich in fiber from vegetables and beans. The variety of vegetables provides diverse vitamins and minerals. Beans add plant protein and iron.",
-    "mealType": "Lunch",
-    "dietaryStyle": "Vegetarian"
-  },
-  {
-    "id": "it-arancini",
-    "slug": "arancini",
-    "country": "Italy",
-    "country_slug": "italy",
-    "name_en": "Arancini",
-    "image": "assets/img/recipes/arancini.jpg",
-    "short_description": "Golden fried rice balls stuffed with ragu and mozzarella. These Sicilian street food favorites are named for their resemblance to small oranges.",
-    "prep_time_minutes": 45,
-    "cooking_time_minutes": 30,
-    "servings": 12,
-    "ingredients": [
-      {
-        "name": "Arborio rice",
-        "amount": 400,
-        "unit": "g"
-      },
-      {
-        "name": "vegetable stock",
-        "amount": 1,
-        "unit": "L"
-      },
-      {
-        "name": "saffron threads",
-        "amount": 0.25,
-        "unit": "g"
-      },
-      {
-        "name": "ground beef",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "tomato sauce",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "mozzarella",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "peas",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "eggs",
-        "amount": 4,
-        "unit": "pc"
-      },
-      {
-        "name": "breadcrumbs",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Parmigiano Reggiano",
-        "amount": 80,
-        "unit": "g"
-      },
-      {
-        "name": "vegetable oil for frying",
-        "amount": 1,
-        "unit": "L"
-      }
-    ],
-    "steps": [
-      "Cook rice in stock with saffron until done. Spread on tray to cool.",
-      "Mix cooled rice with 2 beaten eggs and Parmigiano.",
-      "Make filling: brown beef, add tomato sauce and peas, cook until thick.",
-      "Cut mozzarella into small cubes.",
-      "Take a handful of rice, form into a cup, add filling and mozzarella.",
-      "Close rice around filling to form a ball.",
-      "Beat remaining eggs. Dip balls in egg, then coat in breadcrumbs.",
-      "Heat oil to 350°F. Fry arancini until deep golden, about 4 minutes.",
-      "Drain on paper towels.",
-      "Serve hot with marinara sauce for dipping."
-    ],
-    "cooking_tips": [
-      "The rice must be completely cool before shaping.",
-      "Wet hands help prevent sticking when forming balls.",
-      "Can be made ahead and reheated in the oven."
-    ],
-    "difficulty": "medium",
-    "tags": [
-      "italian",
-      "fried",
-      "rice",
-      "sicily",
-      "street-food",
-      "appetizer"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 320,
-      "protein_g": 12,
-      "fat_g": 14,
-      "carbs_g": 38
-    },
-    "nutrition_benefits": "Arancini provide protein from beef and cheese. Saffron contains antioxidants. The dish offers carbohydrates for energy and calcium from cheese.",
-    "mealType": "Appetizer",
-    "dietaryStyle": "High Protein"
-  },
-  {
     "id": "jp-ramen",
     "slug": "ramen",
     "country": "Japan",
@@ -9020,332 +8073,6 @@
     "nutrition_benefits": "Tamales provide protein from pork and complex carbohydrates from masa. The corn masa is naturally gluten-free. Dried chilies add vitamins A and C plus antioxidants.",
     "mealType": "Dinner",
     "dietaryStyle": "Gluten Free"
-  },
-  {
-    "id": "ma-tagine",
-    "slug": "lamb-tagine",
-    "country": "Morocco",
-    "country_slug": "morocco",
-    "name_en": "Lamb Tagine",
-    "short_description": "Slow-cooked Moroccan stew with lamb, apricots, and warming spices.",
-    "prep_time_minutes": 30,
-    "cooking_time_minutes": 120,
-    "servings": 6,
-    "ingredients": [
-      {
-        "name": "lamb shoulder",
-        "amount": 1000,
-        "unit": "g"
-      },
-      {
-        "name": "dried apricots",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "ras el hanout",
-        "amount": 3,
-        "unit": "tbsp"
-      }
-    ],
-    "steps": [
-      "Brown lamb.",
-      "Add spices.",
-      "Slow cook.",
-      "Add fruit."
-    ],
-    "cooking_tips": [
-      "Low and slow.",
-      "Tagine pot ideal."
-    ],
-    "difficulty": "medium",
-    "tags": [
-      "moroccan",
-      "lamb",
-      "stew",
-      "aromatic",
-      "gluten-free"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 480,
-      "protein_g": 38,
-      "fat_g": 24,
-      "carbs_g": 28
-    },
-    "nutrition_benefits": "Iron-rich lamb, antioxidant spices, natural sweetness from fruit.",
-    "mealType": "Dinner",
-    "dietaryStyle": "Gluten Free"
-  },
-  {
-    "id": "ma-couscous",
-    "slug": "couscous-royale",
-    "country": "Morocco",
-    "country_slug": "morocco",
-    "name_en": "Couscous Royale",
-    "short_description": "Fluffy semolina with seven vegetables and tender meat.",
-    "prep_time_minutes": 45,
-    "cooking_time_minutes": 60,
-    "servings": 8,
-    "ingredients": [
-      {
-        "name": "couscous",
-        "amount": 500,
-        "unit": "g"
-      },
-      {
-        "name": "lamb",
-        "amount": 500,
-        "unit": "g"
-      },
-      {
-        "name": "mixed vegetables",
-        "amount": 800,
-        "unit": "g"
-      }
-    ],
-    "steps": [
-      "Steam couscous.",
-      "Make vegetable stew.",
-      "Layer and serve."
-    ],
-    "cooking_tips": [
-      "Fluff couscous.",
-      "Seven vegetables traditional."
-    ],
-    "difficulty": "medium",
-    "tags": [
-      "moroccan",
-      "couscous",
-      "traditional",
-      "festive"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 420,
-      "protein_g": 24,
-      "fat_g": 14,
-      "carbs_g": 52
-    },
-    "nutrition_benefits": "Balanced meal with protein, fiber, and complex carbs.",
-    "mealType": "Dinner",
-    "dietaryStyle": "Dairy Free"
-  },
-  {
-    "id": "ma-harira",
-    "slug": "harira",
-    "country": "Morocco",
-    "country_slug": "morocco",
-    "name_en": "Harira",
-    "short_description": "Hearty Moroccan soup with lentils, chickpeas, and tomatoes.",
-    "prep_time_minutes": 20,
-    "cooking_time_minutes": 60,
-    "servings": 8,
-    "ingredients": [
-      {
-        "name": "lentils",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "chickpeas",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "tomatoes",
-        "amount": 400,
-        "unit": "g"
-      }
-    ],
-    "steps": [
-      "Simmer lentils.",
-      "Add chickpeas.",
-      "Thicken with flour."
-    ],
-    "cooking_tips": [
-      "Ramadan staple.",
-      "Dates on the side."
-    ],
-    "difficulty": "easy",
-    "tags": [
-      "moroccan",
-      "soup",
-      "lentils",
-      "healthy",
-      "vegetarian"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 220,
-      "protein_g": 12,
-      "fat_g": 4,
-      "carbs_g": 38
-    },
-    "nutrition_benefits": "High fiber, plant protein, low fat.",
-    "mealType": "Dinner",
-    "dietaryStyle": "Vegetarian"
-  },
-  {
-    "id": "ma-bastilla",
-    "slug": "bastilla",
-    "country": "Morocco",
-    "country_slug": "morocco",
-    "name_en": "Bastilla",
-    "short_description": "Sweet and savory pie with chicken, almonds, and cinnamon in phyllo.",
-    "prep_time_minutes": 60,
-    "cooking_time_minutes": 45,
-    "servings": 8,
-    "ingredients": [
-      {
-        "name": "chicken",
-        "amount": 1000,
-        "unit": "g"
-      },
-      {
-        "name": "phyllo dough",
-        "amount": 500,
-        "unit": "g"
-      },
-      {
-        "name": "almonds",
-        "amount": 200,
-        "unit": "g"
-      }
-    ],
-    "steps": [
-      "Poach chicken.",
-      "Make filling.",
-      "Layer phyllo.",
-      "Bake."
-    ],
-    "cooking_tips": [
-      "Brush phyllo well.",
-      "Dust with sugar."
-    ],
-    "difficulty": "hard",
-    "tags": [
-      "moroccan",
-      "pastry",
-      "chicken",
-      "festive",
-      "elegant"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 480,
-      "protein_g": 28,
-      "fat_g": 26,
-      "carbs_g": 34
-    },
-    "nutrition_benefits": "Protein from chicken, healthy fats from almonds.",
-    "mealType": "Dinner",
-    "dietaryStyle": "Dairy Free"
-  },
-  {
-    "id": "ma-mint-tea",
-    "slug": "moroccan-mint-tea",
-    "country": "Morocco",
-    "country_slug": "morocco",
-    "name_en": "Moroccan Mint Tea",
-    "short_description": "Sweet green tea with fresh mint, poured from a height.",
-    "prep_time_minutes": 5,
-    "cooking_time_minutes": 5,
-    "servings": 4,
-    "ingredients": [
-      {
-        "name": "gunpowder green tea",
-        "amount": 2,
-        "unit": "tbsp"
-      },
-      {
-        "name": "fresh mint",
-        "amount": 1,
-        "unit": "bunch"
-      },
-      {
-        "name": "sugar",
-        "amount": 60,
-        "unit": "g"
-      }
-    ],
-    "steps": [
-      "Rinse tea.",
-      "Add mint and sugar.",
-      "Steep.",
-      "Pour from height."
-    ],
-    "cooking_tips": [
-      "Pour from height for foam.",
-      "Fresh mint essential."
-    ],
-    "difficulty": "easy",
-    "tags": [
-      "moroccan",
-      "drink",
-      "tea",
-      "refreshing",
-      "vegetarian"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 60,
-      "protein_g": 0,
-      "fat_g": 0,
-      "carbs_g": 15
-    },
-    "nutrition_benefits": "Antioxidants from tea, digestive mint.",
-    "mealType": "Drink",
-    "dietaryStyle": "Vegetarian"
-  },
-  {
-    "id": "ma-zaalouk",
-    "slug": "zaalouk",
-    "country": "Morocco",
-    "country_slug": "morocco",
-    "name_en": "Zaalouk",
-    "short_description": "Smoky eggplant and tomato dip with cumin and paprika.",
-    "prep_time_minutes": 15,
-    "cooking_time_minutes": 30,
-    "servings": 6,
-    "ingredients": [
-      {
-        "name": "eggplant",
-        "amount": 500,
-        "unit": "g"
-      },
-      {
-        "name": "tomatoes",
-        "amount": 400,
-        "unit": "g"
-      },
-      {
-        "name": "cumin",
-        "amount": 1,
-        "unit": "tsp"
-      }
-    ],
-    "steps": [
-      "Roast eggplant.",
-      "Cook with tomatoes.",
-      "Mash and season."
-    ],
-    "cooking_tips": [
-      "Char eggplant.",
-      "Serve warm or cold."
-    ],
-    "difficulty": "easy",
-    "tags": [
-      "moroccan",
-      "dip",
-      "vegan",
-      "healthy",
-      "appetizer"
-    ],
-    "nutrition": {
-      "per_serving_kcal": 80,
-      "protein_g": 2,
-      "fat_g": 5,
-      "carbs_g": 10
-    },
-    "nutrition_benefits": "Low calorie, fiber-rich, antioxidants.",
-    "mealType": "Appetizer",
-    "dietaryStyle": "Vegan"
   },
   {
     "id": "ps-maqluba",
@@ -22889,6 +21616,5186 @@
       "carbs_g": 42
     },
     "nutrition_benefits": "Key limes provide vitamin C. Eggs add protein. A refreshing treat on hot days.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-tagine",
+    "slug": "lamb-tagine",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Lamb Tagine",
+    "short_description": "Slow-cooked Moroccan stew with lamb, apricots, and warming spices.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "dried apricots",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb.",
+      "Add spices.",
+      "Slow cook.",
+      "Add fruit."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Tagine pot ideal."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "lamb",
+      "stew",
+      "aromatic",
+      "gluten-free"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Iron-rich lamb, antioxidant spices, natural sweetness from fruit.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-couscous",
+    "slug": "couscous-royale",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Couscous Royale",
+    "short_description": "Fluffy semolina with seven vegetables and tender meat.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "couscous",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mixed vegetables",
+        "amount": 800,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Steam couscous.",
+      "Make vegetable stew.",
+      "Layer and serve."
+    ],
+    "cooking_tips": [
+      "Fluff couscous.",
+      "Seven vegetables traditional."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "couscous",
+      "traditional",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 14,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Balanced meal with protein, fiber, and complex carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "ma-harira",
+    "slug": "harira",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Harira",
+    "short_description": "Hearty Moroccan soup with lentils, chickpeas, and tomatoes.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lentils",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Simmer lentils.",
+      "Add chickpeas.",
+      "Thicken with flour."
+    ],
+    "cooking_tips": [
+      "Ramadan staple.",
+      "Dates on the side."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "soup",
+      "lentils",
+      "healthy",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 12,
+      "fat_g": 4,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "High fiber, plant protein, low fat.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-bastilla",
+    "slug": "bastilla",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Bastilla",
+    "short_description": "Sweet and savory pie with chicken, almonds, and cinnamon in phyllo.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "phyllo dough",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Poach chicken.",
+      "Make filling.",
+      "Layer phyllo.",
+      "Bake."
+    ],
+    "cooking_tips": [
+      "Brush phyllo well.",
+      "Dust with sugar."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "moroccan",
+      "pastry",
+      "chicken",
+      "festive",
+      "elegant"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Protein from chicken, healthy fats from almonds.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "ma-mint-tea",
+    "slug": "moroccan-mint-tea",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Moroccan Mint Tea",
+    "short_description": "Sweet green tea with fresh mint, poured from a height.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 5,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "gunpowder green tea",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh mint",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "sugar",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Rinse tea.",
+      "Add mint and sugar.",
+      "Steep.",
+      "Pour from height."
+    ],
+    "cooking_tips": [
+      "Pour from height for foam.",
+      "Fresh mint essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "drink",
+      "tea",
+      "refreshing",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 0,
+      "fat_g": 0,
+      "carbs_g": 15
+    },
+    "nutrition_benefits": "Antioxidants from tea, digestive mint.",
+    "mealType": "Drink",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-zaalouk",
+    "slug": "zaalouk",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Zaalouk",
+    "short_description": "Smoky eggplant and tomato dip with cumin and paprika.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Roast eggplant.",
+      "Cook with tomatoes.",
+      "Mash and season."
+    ],
+    "cooking_tips": [
+      "Char eggplant.",
+      "Serve warm or cold."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "dip",
+      "vegan",
+      "healthy",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 2,
+      "fat_g": 5,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Low calorie, fiber-rich, antioxidants.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-chicken-tagine",
+    "slug": "chicken-tagine-olives",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Chicken Tagine with Olives and Preserved Lemons",
+    "image": "assets/img/recipes/chicken-tagine-olives.jpg",
+    "short_description": "Succulent chicken braised with tangy preserved lemons, briny olives, and aromatic spices. This iconic Moroccan dish showcases the perfect balance of savory, sour, and spiced flavors.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "whole chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "preserved lemons",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "green olives",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cut chicken into pieces and season with salt, pepper, ginger, and turmeric.",
+      "Sauté grated onion in olive oil until soft.",
+      "Add chicken pieces and brown on all sides.",
+      "Add garlic, cilantro, parsley, and enough water to cover.",
+      "Simmer covered for 45 minutes until chicken is nearly done.",
+      "Cut preserved lemons, discard pulp, and slice the peel.",
+      "Add preserved lemon peel and olives.",
+      "Continue cooking uncovered for 15 minutes.",
+      "Reduce sauce until thick and flavorful.",
+      "Garnish with fresh cilantro and serve with bread."
+    ],
+    "cooking_tips": [
+      "Use ripe Moroccan olives for authentic flavor.",
+      "The preserved lemons are key - they add a unique tangy depth.",
+      "Serve in the tagine pot for traditional presentation."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "chicken",
+      "tagine",
+      "olives",
+      "traditional",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 26,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High protein from chicken. Olives provide healthy fats. Preserved lemons add probiotics from fermentation.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-kefta-tagine",
+    "slug": "kefta-tagine",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Kefta Tagine with Eggs",
+    "image": "assets/img/recipes/kefta-tagine.jpg",
+    "short_description": "Spiced meatballs simmered in a rich tomato sauce with eggs poached on top. This beloved Moroccan comfort food is perfect for sharing with warm bread.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ground beef or lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 6,
+        "unit": "medium"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Mix ground meat with grated onion, parsley, cumin, and spices.",
+      "Form into small meatballs about 1 inch in diameter.",
+      "Grate tomatoes or blend them.",
+      "Cook tomatoes with olive oil, garlic, and remaining spices.",
+      "Simmer until sauce thickens, about 15 minutes.",
+      "Add meatballs to the sauce.",
+      "Cover and cook for 20 minutes until meatballs are done.",
+      "Make small wells in the sauce, crack eggs into them.",
+      "Cover and cook until egg whites are set.",
+      "Serve immediately with crusty bread."
+    ],
+    "cooking_tips": [
+      "Don't overcrowd the meatballs - cook in batches if needed.",
+      "The eggs should be runny for dipping the bread.",
+      "A tagine pot keeps everything warm at the table."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "meatballs",
+      "eggs",
+      "comfort-food",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 32,
+      "fat_g": 30,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "High in protein from meat and eggs. Tomatoes provide lycopene. Spices have anti-inflammatory properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-rfissa",
+    "slug": "rfissa",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Rfissa",
+    "image": "assets/img/recipes/rfissa.jpg",
+    "short_description": "A ceremonial dish of shredded msemen pancakes with lentils and tender chicken in a fenugreek-spiced broth. Traditionally served for new mothers and special celebrations.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "whole chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "msemen or trid",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "brown lentils",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "fenugreek",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "saffron",
+        "amount": 1,
+        "unit": "pinch"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Soak fenugreek seeds overnight, then drain.",
+      "Cook chicken with onions, spices, and fenugreek until tender.",
+      "Cook lentils separately until soft.",
+      "Remove chicken and shred the meat.",
+      "Add lentils to the chicken broth and simmer.",
+      "Tear msemen into pieces and arrange on a large platter.",
+      "Ladle the lentil broth over the bread to soak it.",
+      "Top with shredded chicken.",
+      "Drizzle with melted butter.",
+      "Serve immediately while hot."
+    ],
+    "cooking_tips": [
+      "Fenugreek is essential for authentic flavor but use sparingly.",
+      "The bread should absorb the broth but not become mushy.",
+      "Traditionally served communally from one platter."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "moroccan",
+      "chicken",
+      "traditional",
+      "festive",
+      "ceremonial"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Fenugreek is known for boosting milk production in nursing mothers. Lentils provide iron and fiber. A nourishing, complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ma-pastilla-seafood",
+    "slug": "pastilla-seafood",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Seafood Pastilla",
+    "image": "assets/img/recipes/seafood-pastilla.jpg",
+    "short_description": "A modern coastal variation of the classic pastilla, featuring a delicate mix of shrimp, fish, and vermicelli wrapped in crispy warqa pastry.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 40,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "mixed seafood (shrimp, fish)",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Chinese vermicelli",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "warqa or phyllo pastry",
+        "amount": 12,
+        "unit": "sheets"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "saffron",
+        "amount": 1,
+        "unit": "pinch"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "white pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook vermicelli according to package directions, drain.",
+      "Sauté onions in butter until caramelized.",
+      "Add seafood, spices, and herbs. Cook until seafood is done.",
+      "Mix seafood with vermicelli.",
+      "Brush a pan with butter, layer phyllo sheets.",
+      "Add seafood filling in the center.",
+      "Fold phyllo over filling, brush with butter.",
+      "Flip onto a baking sheet and brush top with butter.",
+      "Bake at 375°F until golden, about 25 minutes.",
+      "Dust with powdered sugar if desired."
+    ],
+    "cooking_tips": [
+      "Don't overcook the seafood - it will cook more in the oven.",
+      "Keep phyllo covered with damp towel while working.",
+      "The sweet-savory combination is traditional."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "moroccan",
+      "seafood",
+      "pastry",
+      "elegant",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Seafood provides lean protein and omega-3 fatty acids. A lighter alternative to traditional meat pastilla.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ma-msemen",
+    "slug": "msemen",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Msemen",
+    "image": "assets/img/recipes/msemen.jpg",
+    "short_description": "Flaky, buttery square Moroccan pancakes with crispy layers. These versatile flatbreads are perfect for breakfast with honey or as an accompaniment to tagines.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "fine semolina",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "warm water",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "yeast",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix flour, semolina, salt, sugar, and yeast.",
+      "Add water and knead to a soft, smooth dough.",
+      "Divide into balls and let rest 15 minutes.",
+      "Mix softened butter with oil for brushing.",
+      "Flatten each ball on oiled surface very thin.",
+      "Brush with butter mixture, fold into thirds.",
+      "Fold again into a square, let rest.",
+      "Flatten each square gently.",
+      "Cook on a griddle until golden on both sides.",
+      "Serve warm with honey or jam."
+    ],
+    "cooking_tips": [
+      "The thinner you stretch, the flakier the result.",
+      "Oil your hands to prevent sticking.",
+      "Can be stuffed with meat or cheese before cooking."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "breakfast",
+      "bread",
+      "pancake",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 14,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Provides carbohydrates for energy. Semolina adds texture and some protein. Best enjoyed in moderation due to butter content.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-baghrir",
+    "slug": "baghrir",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Baghrir",
+    "image": "assets/img/recipes/baghrir.jpg",
+    "short_description": "Spongy Moroccan pancakes covered in tiny holes, perfect for soaking up honey and butter. These one-sided crêpes are a beloved breakfast treat.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "fine semolina",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "warm water",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "yeast",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "honey",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Blend semolina, flour, yeast, baking powder, sugar, and salt.",
+      "Add warm water and blend until smooth batter forms.",
+      "Let rest 30 minutes until bubbles form on surface.",
+      "Heat a non-stick pan over medium heat.",
+      "Pour batter to form a thin pancake.",
+      "Cook only on one side until holes form and surface is dry.",
+      "Do not flip - the bottom should be smooth.",
+      "Melt butter with honey for serving.",
+      "Stack pancakes and drizzle with honey butter.",
+      "Serve warm."
+    ],
+    "cooking_tips": [
+      "The batter must be smooth - use a blender.",
+      "Don't flip - the holes are the defining feature.",
+      "Serve immediately for best texture."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "breakfast",
+      "pancakes",
+      "sweet",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 5,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Semolina provides complex carbohydrates. Honey adds natural sweetness with antioxidants. A traditional breakfast energy booster.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-mechoui",
+    "slug": "mechoui",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Mechoui",
+    "image": "assets/img/recipes/mechoui.jpg",
+    "short_description": "Whole roasted lamb seasoned with cumin and butter, cooked until the meat falls off the bone. This celebratory dish is the centerpiece of Moroccan feasts.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 300,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "whole lamb",
+        "amount": 10,
+        "unit": "kg"
+      },
+      {
+        "name": "butter",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "coarse salt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 20,
+        "unit": "pc"
+      },
+      {
+        "name": "paprika",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make slits in the lamb and insert garlic cloves.",
+      "Mix butter with cumin and paprika.",
+      "Rub the lamb inside and out with butter mixture.",
+      "Season generously with salt.",
+      "Roast over an open fire or in a large oven.",
+      "Baste frequently with butter mixture.",
+      "Cook for 4-5 hours until meat is falling off bone.",
+      "Let rest 30 minutes before serving.",
+      "Serve with small bowls of cumin and salt for dipping.",
+      "Guests eat by pulling meat with their hands."
+    ],
+    "cooking_tips": [
+      "Low and slow is the secret to tender meat.",
+      "Basting creates the crispy, flavorful exterior.",
+      "Traditionally cooked in a pit oven called tandir."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "moroccan",
+      "lamb",
+      "festive",
+      "roasted",
+      "celebration"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 42,
+      "fat_g": 34,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Excellent source of protein. Lamb provides iron and B vitamins. Cumin aids digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-briouats",
+    "slug": "briouats",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Briouats",
+    "image": "assets/img/recipes/briouats.jpg",
+    "short_description": "Crispy triangular pastries with savory or sweet fillings. These fried or baked treats are popular as appetizers or desserts in Moroccan cuisine.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "warqa or phyllo pastry",
+        "amount": 20,
+        "unit": "sheets"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook ground beef with onion and spices until done.",
+      "Add beaten eggs and stir until scrambled into the meat.",
+      "Add parsley and adjust seasoning.",
+      "Cut phyllo into long strips.",
+      "Place a spoonful of filling at one end.",
+      "Fold into triangles by folding corner to corner.",
+      "Seal edge with water or egg wash.",
+      "Deep fry until golden brown.",
+      "Drain on paper towels.",
+      "Serve hot as an appetizer."
+    ],
+    "cooking_tips": [
+      "Keep phyllo covered while working to prevent drying.",
+      "Can also be baked at 375°F for a lighter option.",
+      "Sweet versions use almond paste and honey."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "appetizer",
+      "pastry",
+      "fried",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 6,
+      "fat_g": 7,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein from meat and eggs. Best enjoyed as an appetizer in moderation.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ma-chebakia",
+    "slug": "chebakia",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Chebakia",
+    "image": "assets/img/recipes/chebakia.jpg",
+    "short_description": "Flower-shaped fried cookies coated in honey and sprinkled with sesame seeds. These intricate sweets are essential during Ramadan.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "almonds (ground)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "saffron",
+        "amount": 1,
+        "unit": "pinch"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 1,
+        "unit": "L"
+      }
+    ],
+    "steps": [
+      "Toast sesame seeds and grind half of them.",
+      "Mix flour with ground almonds, ground sesame, cinnamon, and saffron.",
+      "Add melted butter and orange blossom water.",
+      "Knead to a smooth dough, rest 30 minutes.",
+      "Roll dough thin and cut into strips.",
+      "Fold and shape each strip into a flower pattern.",
+      "Deep fry until golden brown.",
+      "Immediately dip hot cookies into warm honey.",
+      "Sprinkle with whole sesame seeds.",
+      "Let cool on a rack."
+    ],
+    "cooking_tips": [
+      "The shaping takes practice - watch tutorials first.",
+      "Warm honey coats better than cold.",
+      "Store in airtight container for weeks."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "moroccan",
+      "dessert",
+      "ramadan",
+      "fried",
+      "honey",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Sesame seeds provide calcium. Almonds add protein and healthy fats. Honey offers natural sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-sellou",
+    "slug": "sellou",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Sellou",
+    "image": "assets/img/recipes/sellou.jpg",
+    "short_description": "A rich, no-bake mixture of toasted flour, almonds, sesame, and honey. This energy-packed sweet is traditionally served during Ramadan and celebrations.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "anise seeds",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Toast flour in a dry pan until golden, stirring constantly.",
+      "Toast almonds and grind coarsely.",
+      "Toast sesame seeds and grind.",
+      "Toast anise seeds.",
+      "Mix all toasted ingredients in a large bowl.",
+      "Add cinnamon and powdered sugar.",
+      "Mix in melted butter and honey.",
+      "Knead until mixture holds together.",
+      "Press into a mound or individual shapes.",
+      "Dust with powdered sugar before serving."
+    ],
+    "cooking_tips": [
+      "Toast flour slowly to avoid burning.",
+      "The mixture should clump when pressed.",
+      "Keeps for months in an airtight container."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "dessert",
+      "no-bake",
+      "ramadan",
+      "energy",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 5,
+      "fat_g": 12,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "High in energy from nuts and honey. Almonds provide vitamin E. Sesame offers calcium and minerals.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-moroccan-salad",
+    "slug": "moroccan-salad",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Moroccan Salad",
+    "image": "assets/img/recipes/moroccan-salad.jpg",
+    "short_description": "A refreshing finely diced salad of tomatoes, cucumbers, peppers, and onions dressed with olive oil and lemon. The perfect accompaniment to any Moroccan meal.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "cucumber",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "green bell pepper",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "red onion",
+        "amount": 0.5,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Dice all vegetables into very small uniform pieces.",
+      "Finely chop the parsley.",
+      "Combine vegetables in a bowl.",
+      "Whisk olive oil, lemon juice, cumin, and salt.",
+      "Pour dressing over vegetables.",
+      "Toss gently to combine.",
+      "Let sit 10 minutes for flavors to meld.",
+      "Serve chilled or at room temperature."
+    ],
+    "cooking_tips": [
+      "The smaller the dice, the more authentic.",
+      "Add a pinch of cayenne for heat.",
+      "Best served fresh the same day."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "salad",
+      "fresh",
+      "vegan",
+      "healthy",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 90,
+      "protein_g": 2,
+      "fat_g": 7,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Rich in vitamins from fresh vegetables. Olive oil provides heart-healthy fats. Low in calories.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-taktouka",
+    "slug": "taktouka",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Taktouka",
+    "image": "assets/img/recipes/taktouka.jpg",
+    "short_description": "A smoky roasted pepper and tomato salad with garlic and spices. This versatile Moroccan condiment is perfect as a dip or side dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "bell peppers",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 6,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Roast peppers and tomatoes until charred.",
+      "Peel the charred skins from vegetables.",
+      "Chop the roasted vegetables roughly.",
+      "Sauté garlic in olive oil until fragrant.",
+      "Add roasted vegetables and spices.",
+      "Cook down until thickened, about 20 minutes.",
+      "Mash to desired consistency.",
+      "Stir in fresh cilantro.",
+      "Serve warm or at room temperature with bread."
+    ],
+    "cooking_tips": [
+      "Char the vegetables well for smoky flavor.",
+      "Can be made ahead - flavors improve overnight.",
+      "Adjust spices to taste."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "salad",
+      "roasted",
+      "dip",
+      "vegan",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 100,
+      "protein_g": 2,
+      "fat_g": 7,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Roasted peppers are rich in vitamin C. Tomatoes provide lycopene. A healthy, flavorful side dish.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-lentil-soup",
+    "slug": "moroccan-lentil-soup",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Moroccan Lentil Soup",
+    "image": "assets/img/recipes/moroccan-lentil-soup.jpg",
+    "short_description": "A warming spiced lentil soup with tomatoes, ginger, and a hint of cinnamon. This nourishing soup is a staple of Moroccan home cooking.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "red lentils",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable broth",
+        "amount": 1.5,
+        "unit": "L"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Sauté diced onion and celery in olive oil.",
+      "Add ginger, turmeric, cumin, and cinnamon.",
+      "Add chopped tomatoes and cook briefly.",
+      "Add rinsed lentils and vegetable broth.",
+      "Bring to boil, then simmer for 30 minutes.",
+      "Blend partially for creamy texture.",
+      "Season with salt and pepper.",
+      "Serve with lemon wedges and fresh cilantro.",
+      "Drizzle with olive oil before serving."
+    ],
+    "cooking_tips": [
+      "Red lentils cook faster than brown.",
+      "The soup thickens as it sits - add more broth when reheating.",
+      "A squeeze of lemon brightens all the flavors."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "soup",
+      "lentils",
+      "vegan",
+      "healthy",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 240,
+      "protein_g": 12,
+      "fat_g": 8,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Lentils are high in plant protein and fiber. Turmeric has anti-inflammatory properties. A nutritious, filling meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-fish-chermoula",
+    "slug": "fish-chermoula",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Fish with Chermoula",
+    "image": "assets/img/recipes/fish-chermoula.jpg",
+    "short_description": "Fresh fish marinated in chermoula, a vibrant herb and spice paste, then baked with vegetables. A beloved dish from coastal Morocco.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole fish or fish fillets",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "olive oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "medium"
+      }
+    ],
+    "steps": [
+      "Blend cilantro, parsley, garlic, spices, lemon juice, and oil for chermoula.",
+      "Marinate fish in half the chermoula for 1 hour.",
+      "Slice potatoes and tomatoes.",
+      "Layer potatoes in a baking dish, season.",
+      "Place marinated fish on top.",
+      "Add tomato slices around fish.",
+      "Spoon remaining chermoula over everything.",
+      "Bake at 375°F for 35-40 minutes.",
+      "Fish is done when it flakes easily.",
+      "Serve with extra lemon wedges."
+    ],
+    "cooking_tips": [
+      "Chermoula can be made ahead and refrigerated.",
+      "Sea bass, snapper, or tilapia work well.",
+      "The potatoes should be tender and absorb the flavors."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "fish",
+      "seafood",
+      "baked",
+      "healthy",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 20,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Fish provides lean protein and omega-3 fatty acids. Herbs add antioxidants. A healthy, complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-khubz",
+    "slug": "khubz",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Khubz",
+    "image": "assets/img/recipes/khubz.jpg",
+    "short_description": "Traditional round Moroccan bread with a crispy crust and soft interior. This essential bread accompanies every Moroccan meal.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "whole wheat flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fine semolina",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "warm water",
+        "amount": 350,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 30,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Dissolve yeast and sugar in warm water.",
+      "Mix flours with semolina and salt.",
+      "Add yeast water and olive oil to flour.",
+      "Knead for 10 minutes until smooth and elastic.",
+      "Divide into two balls.",
+      "Flatten each into thick rounds.",
+      "Let rise covered for 1 hour.",
+      "Prick tops with a fork in a pattern.",
+      "Bake at 400°F for 25-30 minutes until golden.",
+      "Cool on a rack before cutting."
+    ],
+    "cooking_tips": [
+      "The semolina adds a nice texture.",
+      "Traditional bread is baked in a communal oven.",
+      "Perfect for scooping up tagine sauces."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "bread",
+      "traditional",
+      "baked",
+      "staple"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 7,
+      "fat_g": 3,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Whole wheat adds fiber. Semolina provides protein. Essential carbohydrates for energy.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-makrout",
+    "slug": "makrout",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Makrout",
+    "image": "assets/img/recipes/makrout.jpg",
+    "short_description": "Diamond-shaped semolina cookies stuffed with date paste and dipped in honey. These North African sweets are especially popular during Ramadan.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "fine semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "date paste",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "honey",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Mix semolina with melted butter and orange blossom water.",
+      "Add enough water to form a soft dough.",
+      "Let rest 30 minutes.",
+      "Mix date paste with cinnamon.",
+      "Roll dough into logs, fill with date paste, seal.",
+      "Roll gently to smooth.",
+      "Cut at an angle into diamond shapes.",
+      "Score the top decoratively.",
+      "Deep fry until golden.",
+      "Dip hot cookies into warm honey."
+    ],
+    "cooking_tips": [
+      "Don't overfill or they'll burst while frying.",
+      "Traditional scoring creates a beautiful pattern.",
+      "Store in an airtight container."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "dessert",
+      "dates",
+      "fried",
+      "ramadan",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 160,
+      "protein_g": 2,
+      "fat_g": 7,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Dates provide natural sweetness and fiber. Semolina offers carbohydrates. Honey adds antioxidants.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-brochettes",
+    "slug": "moroccan-brochettes",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Moroccan Brochettes",
+    "image": "assets/img/recipes/moroccan-brochettes.jpg",
+    "short_description": "Spiced meat skewers grilled over charcoal, a beloved street food throughout Morocco. Simple yet incredibly flavorful.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb or beef",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "lamb fat",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cut meat into 1-inch cubes.",
+      "Cut lamb fat into smaller pieces.",
+      "Mix cumin, paprika, and salt.",
+      "Thread meat and fat alternately on skewers.",
+      "Season generously with spice mixture.",
+      "Grill over hot charcoal, turning frequently.",
+      "Cook until charred outside, pink inside (for lamb).",
+      "Serve with sliced onion and cumin for dipping.",
+      "Garnish with fresh parsley.",
+      "Serve with fresh bread."
+    ],
+    "cooking_tips": [
+      "The fat pieces keep the meat moist.",
+      "High heat creates the characteristic char.",
+      "Dip in cumin salt before each bite."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "grilled",
+      "meat",
+      "street-food",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "High in protein. Iron from red meat. Simple preparation preserves nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-mrouzia",
+    "slug": "mrouzia",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Mrouzia",
+    "image": "assets/img/recipes/mrouzia.jpg",
+    "short_description": "A rich, sweet tagine of lamb with honey, raisins, and ras el hanout, traditionally prepared for Eid al-Adha. The perfect balance of sweet and savory.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "honey",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "raisins",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "saffron",
+        "amount": 1,
+        "unit": "pinch"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Cut lamb into large chunks.",
+      "Season with ras el hanout, salt, and saffron.",
+      "Brown lamb in butter with onions.",
+      "Add water to cover, simmer for 2 hours.",
+      "Add honey, raisins, and cinnamon.",
+      "Continue cooking until sauce is thick and glossy.",
+      "Toast almonds until golden.",
+      "Transfer to serving dish.",
+      "Top with toasted almonds.",
+      "Serve with crusty bread."
+    ],
+    "cooking_tips": [
+      "The sauce should be thick and caramelized.",
+      "Low and slow cooking develops the flavors.",
+      "Traditional for Eid celebrations."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "lamb",
+      "sweet",
+      "festive",
+      "eid",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Protein-rich lamb. Raisins provide iron. Almonds add healthy fats and vitamin E.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "ma-bissara",
+    "slug": "bissara",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Bissara",
+    "image": "assets/img/recipes/bissara.jpg",
+    "short_description": "A creamy dried fava bean soup flavored with garlic and cumin, drizzled with olive oil. This humble, nutritious soup is beloved breakfast street food.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "dried split fava beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "amount": 1.5,
+        "unit": "L"
+      }
+    ],
+    "steps": [
+      "Soak fava beans overnight, drain.",
+      "Cook beans with water and garlic until very soft.",
+      "Blend until smooth and creamy.",
+      "Season with cumin, paprika, and salt.",
+      "Thin with water to desired consistency.",
+      "Serve in bowls.",
+      "Drizzle generously with olive oil.",
+      "Sprinkle with extra cumin and paprika.",
+      "Serve with fresh bread for dipping."
+    ],
+    "cooking_tips": [
+      "The soup should be thick but pourable.",
+      "Quality olive oil is essential for finishing.",
+      "Street vendors top with a dollop of argan oil."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "soup",
+      "beans",
+      "vegan",
+      "breakfast",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Fava beans are high in plant protein and fiber. Olive oil provides healthy fats. Very filling and nutritious.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-loubia",
+    "slug": "loubia",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Loubia",
+    "image": "assets/img/recipes/loubia.jpg",
+    "short_description": "A hearty white bean stew with tomatoes and cumin. This comforting Moroccan staple is nutritious, filling, and delicious.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "dried white beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 6,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak beans overnight, drain.",
+      "Cook beans until almost tender, about 1 hour.",
+      "Sauté onion and garlic in olive oil.",
+      "Add grated tomatoes and spices.",
+      "Cook sauce for 15 minutes until thickened.",
+      "Add cooked beans with some cooking water.",
+      "Simmer together for 20 minutes.",
+      "Adjust seasoning and consistency.",
+      "Stir in fresh cilantro.",
+      "Serve with fresh bread."
+    ],
+    "cooking_tips": [
+      "Don't add salt until beans are almost cooked.",
+      "The stew should be thick and rich.",
+      "Can add preserved lemon for extra flavor."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "stew",
+      "beans",
+      "vegan",
+      "comfort-food",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "White beans provide protein and fiber. Tomatoes add lycopene. A filling, nutritious vegetarian meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-maakouda",
+    "slug": "maakouda",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Maakouda",
+    "image": "assets/img/recipes/maakouda.jpg",
+    "short_description": "Crispy fried potato patties seasoned with cumin and herbs. These popular street food bites are perfect in sandwiches or as a snack.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "flour",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Boil potatoes until tender, drain and mash.",
+      "Add eggs, minced garlic, parsley, and cumin.",
+      "Mix in flour until dough forms.",
+      "Shape into small patties.",
+      "Heat oil for deep frying.",
+      "Fry patties until golden brown on both sides.",
+      "Drain on paper towels.",
+      "Serve hot with harissa.",
+      "Often stuffed into sandwiches with vegetables."
+    ],
+    "cooking_tips": [
+      "Don't overwork the potato mixture.",
+      "Fry at medium heat for even cooking.",
+      "Serve immediately for best crispness."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "street-food",
+      "fried",
+      "potatoes",
+      "snack",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Potatoes provide potassium. Eggs add protein. A satisfying street food snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-ghoriba",
+    "slug": "ghoriba",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Ghoriba",
+    "image": "assets/img/recipes/ghoriba.jpg",
+    "short_description": "Crumbly Moroccan cookies with a cracked top, made with almonds, semolina, or coconut. These melt-in-your-mouth treats are flavored with orange blossom water.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "almonds (ground)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon zest",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix ground almonds with powdered sugar.",
+      "Add eggs, melted butter, and orange blossom water.",
+      "Mix in baking powder and lemon zest.",
+      "Refrigerate dough for 30 minutes.",
+      "Roll into small balls.",
+      "Place on baking sheet, slightly flatten.",
+      "Bake at 350°F for 12-15 minutes.",
+      "Cookies should be pale with cracked tops.",
+      "Cool completely before removing from pan.",
+      "Dust with powdered sugar."
+    ],
+    "cooking_tips": [
+      "Don't overbake - they firm up as they cool.",
+      "The cracks on top are the signature look.",
+      "Store in an airtight container."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "moroccan",
+      "cookies",
+      "almonds",
+      "dessert",
+      "tea-time",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 7,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Almonds provide healthy fats and protein. A satisfying sweet with some nutritional value.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ma-sfenj",
+    "slug": "sfenj",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Sfenj",
+    "image": "assets/img/recipes/sfenj.jpg",
+    "short_description": "Light, airy Moroccan doughnuts without a hole, fried to golden perfection. These street food favorites are best eaten warm, dusted with sugar or drizzled with honey.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 30,
+    "servings": 15,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "warm water",
+        "amount": 350,
+        "unit": "ml"
+      },
+      {
+        "name": "yeast",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "honey",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Dissolve yeast and sugar in warm water.",
+      "Add flour and salt, mix to a sticky dough.",
+      "Knead for 5 minutes until smooth but still sticky.",
+      "Cover and let rise for 1 hour until doubled.",
+      "Oil your hands generously.",
+      "Take a handful of dough, form a ring shape.",
+      "Stretch the ring gently.",
+      "Fry in hot oil until golden on both sides.",
+      "Drain on paper towels.",
+      "Serve immediately with honey or sugar."
+    ],
+    "cooking_tips": [
+      "The dough should be very sticky - that's correct.",
+      "Keep hands well oiled when shaping.",
+      "Serve immediately for best texture."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "moroccan",
+      "street-food",
+      "fried",
+      "doughnuts",
+      "breakfast",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Provides quick energy. Best enjoyed as an occasional treat. A beloved Moroccan comfort food.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "ma-cornes-gazelle",
+    "slug": "cornes-de-gazelle",
+    "country": "Morocco",
+    "country_slug": "morocco",
+    "name_en": "Cornes de Gazelle",
+    "image": "assets/img/recipes/cornes-de-gazelle.jpg",
+    "short_description": "Elegant crescent-shaped pastries filled with almond paste and perfumed with orange blossom water. These delicate sweets are Morocco's most refined cookies.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 15,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "almonds (blanched)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "egg white",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "mastic gum (optional)",
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      "Make dough with flour, melted butter, and orange blossom water.",
+      "Knead until smooth, rest 30 minutes.",
+      "Grind almonds finely with powdered sugar.",
+      "Add orange blossom water and cinnamon to almonds.",
+      "Mix until almond paste forms.",
+      "Roll dough very thin.",
+      "Shape almond paste into small cylinders.",
+      "Wrap dough around filling, form crescent shapes.",
+      "Pinch ends to points.",
+      "Bake at 350°F for 12-15 minutes until barely colored."
+    ],
+    "cooking_tips": [
+      "The dough must be paper thin.",
+      "Don't let them brown - they should stay pale.",
+      "Store in an airtight container for weeks."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "moroccan",
+      "pastry",
+      "almonds",
+      "elegant",
+      "tea-time",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 7,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Almonds provide protein and vitamin E. Orange blossom water has calming properties. A refined treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-margherita-pizza",
+    "slug": "margherita-pizza",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Margherita Pizza",
+    "image": "assets/img/recipes/margherita-pizza.jpg",
+    "short_description": "A timeless Neapolitan masterpiece featuring a pillowy crust, vibrant San Marzano tomato sauce, creamy fresh mozzarella, and fragrant basil leaves. This iconic pizza represents the colors of the Italian flag and delivers pure Mediterranean simplicity at its finest.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "00 flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 320,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh yeast",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "San Marzano tomato sauce",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fresh mozzarella",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fresh basil leaves",
+        "amount": 12,
+        "unit": "leaves"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Dissolve the yeast in lukewarm water and let it activate for 5 minutes until slightly foamy.",
+      "In a large bowl, combine the flour and salt, then gradually add the yeast water while mixing.",
+      "Knead the dough on a floured surface for 10 minutes until smooth and elastic.",
+      "Place the dough in an oiled bowl, cover with a damp cloth, and let rise for 2 hours until doubled.",
+      "Preheat your oven to the highest setting (250°°C/480°°F) with a pizza stone or baking sheet inside.",
+      "Divide the dough into 4 portions and stretch each into a thin round, leaving edges slightly thicker.",
+      "Spread a thin layer of tomato sauce, leaving a 1-inch border for the crust.",
+      "Tear the mozzarella into pieces and distribute evenly over the sauce.",
+      "Bake for 8-10 minutes until the crust is golden and cheese is bubbling.",
+      "Remove from oven, top with fresh basil leaves, drizzle with olive oil, and serve immediately."
+    ],
+    "cooking_tips": [
+      "For best results, let the dough cold-ferment in the refrigerator overnight for deeper flavor.",
+      "Use a pizza stone preheated for at least 30 minutes to achieve a crispy bottom.",
+      "Less is more with toppings - overloading will result in a soggy center."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "pizza",
+      "vegetarian",
+      "baked",
+      "classic",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 550,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 70
+    },
+    "nutrition_benefits": "This pizza provides a good balance of carbohydrates for energy, protein from the mozzarella cheese, and lycopene from the tomatoes which is a powerful antioxidant. The olive oil adds heart-healthy monounsaturated fats. Fresh basil contains vitamins K, A, and C, plus essential oils with anti-inflammatory properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-spaghetti-carbonara",
+    "slug": "spaghetti-carbonara",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Spaghetti Carbonara",
+    "image": "assets/img/recipes/spaghetti-carbonara.jpg",
+    "short_description": "An authentic Roman treasure featuring al dente spaghetti coated in a luxuriously silky sauce of eggs, aged Pecorino Romano, crispy guanciale, and freshly cracked black pepper. This dish showcases Italian cuisine's genius for transforming simple ingredients into extraordinary flavors.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "spaghetti",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "guanciale",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "whole eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "Pecorino Romano cheese",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "freshly ground black pepper",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Bring a large pot of generously salted water to a rolling boil.",
+      "Cut the guanciale into small strips or cubes, about 1cm thick.",
+      "In a bowl, whisk together the egg yolks, whole eggs, and finely grated Pecorino Romano until smooth.",
+      "Add generous amounts of freshly ground black pepper to the egg mixture and set aside.",
+      "Cook the guanciale in a large cold pan over medium heat, letting the fat render slowly for 8-10 minutes until crispy.",
+      "Cook the spaghetti until al dente, reserving 1 cup of pasta water before draining.",
+      "Remove the guanciale pan from heat and let it cool for 1 minute.",
+      "Add the hot drained pasta to the guanciale pan and toss to coat in the rendered fat.",
+      "Working quickly off the heat, pour the egg mixture over the pasta while tossing continuously.",
+      "Add small splashes of pasta water while tossing to create a creamy, glossy sauce.",
+      "Serve immediately with extra Pecorino and black pepper on top."
+    ],
+    "cooking_tips": [
+      "Never add the egg mixture to a hot pan on the heat, or you will get scrambled eggs instead of a silky sauce.",
+      "The residual heat from the pasta and pan is what gently cooks the eggs into a creamy coating.",
+      "Authentic carbonara never includes cream, garlic, or onions."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "pasta",
+      "quick",
+      "high-protein",
+      "classic",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 650,
+      "protein_g": 28,
+      "fat_g": 32,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Carbonara is an excellent source of complete protein from eggs and cheese, providing all essential amino acids. The eggs contain choline, vital for brain health, and the Pecorino Romano offers calcium for bone strength. The dish provides sustained energy from complex carbohydrates in the pasta.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "it-lasagna",
+    "slug": "lasagna-bolognese",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Lasagna Bolognese",
+    "image": "assets/img/recipes/lasagna.jpg",
+    "short_description": "Layers of silky pasta sheets, rich meat ragu, creamy bechamel, and melted Parmigiano. This iconic dish from Bologna represents Italian comfort food at its finest.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lasagna sheets",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 1,
+        "unit": "stalk"
+      },
+      {
+        "name": "tomato passata",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Finely chop onion, carrot, and celery for soffritto.",
+      "Brown meats with soffritto, add wine, then tomato passata.",
+      "Simmer ragu for at least 2 hours until rich and thick.",
+      "Make bechamel: melt butter, whisk in flour, gradually add warm milk.",
+      "Cook bechamel until thick, add nutmeg and half the Parmigiano.",
+      "Cook lasagna sheets if using fresh, or use no-boil sheets.",
+      "Layer: bechamel, pasta, ragu, bechamel, Parmigiano. Repeat.",
+      "Finish with bechamel and plenty of Parmigiano on top.",
+      "Bake at 375°F for 40-45 minutes until golden and bubbling.",
+      "Rest 15 minutes before serving."
+    ],
+    "cooking_tips": [
+      "A slow-cooked ragu is the key to exceptional lasagna.",
+      "The bechamel should be thick enough to coat a spoon.",
+      "Let the lasagna rest before cutting for clean slices."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "italian",
+      "pasta",
+      "baked",
+      "beef",
+      "comfort-food",
+      "dinner",
+      "bologna"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 32,
+      "fat_g": 32,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Lasagna provides complete protein from meat and dairy. The dish offers calcium from cheese and milk. Tomatoes add lycopene, a powerful antioxidant.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "it-risotto",
+    "slug": "risotto-alla-milanese",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Risotto alla Milanese",
+    "image": "assets/img/recipes/risotto.jpg",
+    "short_description": "Creamy saffron-infused rice that is the pride of Milan. This golden dish showcases the Italian technique of slowly building flavor through patient stirring.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Arborio rice",
+        "amount": 320,
+        "unit": "g"
+      },
+      {
+        "name": "saffron threads",
+        "amount": 0.5,
+        "unit": "g"
+      },
+      {
+        "name": "beef or chicken stock",
+        "amount": 1.2,
+        "unit": "L"
+      },
+      {
+        "name": "butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "small"
+      },
+      {
+        "name": "white wine",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Steep saffron in 1/4 cup warm stock for 10 minutes.",
+      "Heat remaining stock and keep warm.",
+      "Saute finely diced onion in half the butter until soft.",
+      "Add rice and toast for 2 minutes until edges are translucent.",
+      "Add wine and stir until absorbed.",
+      "Add warm stock one ladle at a time, stirring constantly.",
+      "When almost done, stir in saffron with its liquid.",
+      "Continue until rice is creamy and al dente, about 18 minutes.",
+      "Remove from heat, add remaining butter and Parmigiano.",
+      "Cover and rest 2 minutes before serving."
+    ],
+    "cooking_tips": [
+      "The stock must be warm to maintain cooking temperature.",
+      "Constant stirring releases starch for creamy texture.",
+      "The final mantecatura (adding butter and cheese) is essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "rice",
+      "saffron",
+      "milan",
+      "dinner",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 12,
+      "fat_g": 22,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Risotto provides complex carbohydrates for sustained energy. Saffron contains antioxidants and may improve mood. Parmigiano adds calcium and protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-ossobuco",
+    "slug": "ossobuco",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Ossobuco alla Milanese",
+    "image": "assets/img/recipes/ossobuco.jpg",
+    "short_description": "Braised veal shanks in a rich wine and vegetable sauce, finished with bright gremolata. This Milanese specialty is traditionally served with saffron risotto.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 150,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "veal shanks",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "white wine",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "beef stock",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "canned tomatoes",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "lemon zest",
+        "amount": 1,
+        "unit": "lemon"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "flour",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Tie string around veal shanks to keep meat attached to bone.",
+      "Dredge shanks in flour and brown in butter on all sides.",
+      "Remove meat, add diced vegetables and cook until soft.",
+      "Return meat to pot, add wine and reduce by half.",
+      "Add stock and tomatoes, bring to a simmer.",
+      "Cover and braise in 325°F oven for 2-2.5 hours until very tender.",
+      "Make gremolata by mixing lemon zest, minced garlic, and parsley.",
+      "Carefully transfer shanks to serving plates.",
+      "Reduce sauce if needed and spoon over meat.",
+      "Top with gremolata and serve immediately."
+    ],
+    "cooking_tips": [
+      "The marrow inside the bone is a delicacy - provide small spoons.",
+      "Low and slow braising is key to tender meat.",
+      "Gremolata should be added at the last minute for freshness."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "veal",
+      "braised",
+      "milan",
+      "dinner",
+      "special-occasion"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 18,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Ossobuco provides high-quality protein and iron from veal. Bone marrow offers healthy fats and collagen. The gremolata adds vitamin C and antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "it-tiramisu",
+    "slug": "tiramisu",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Tiramisu",
+    "image": "assets/img/recipes/tiramisu.jpg",
+    "short_description": "Layers of espresso-soaked ladyfingers and silky mascarpone cream, dusted with cocoa. This beloved Italian dessert from the Veneto region is a perfect ending to any meal.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "mascarpone cheese",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "espresso (cooled)",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "ladyfinger biscuits (savoiardi)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "unsweetened cocoa powder",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Marsala wine or rum",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Separate egg yolks and whites.",
+      "Whisk yolks with sugar until pale and fluffy.",
+      "Add mascarpone and mix until smooth.",
+      "Beat egg whites to stiff peaks and fold into mascarpone mixture.",
+      "Mix espresso with Marsala or rum.",
+      "Quickly dip each ladyfinger in espresso - don't soak too long.",
+      "Layer soaked ladyfingers in a dish.",
+      "Spread half the mascarpone cream over ladyfingers.",
+      "Repeat layers, ending with cream.",
+      "Refrigerate at least 4 hours or overnight. Dust with cocoa before serving."
+    ],
+    "cooking_tips": [
+      "Use room temperature mascarpone for easier mixing.",
+      "The ladyfingers should be moist but not soggy.",
+      "Tiramisu is best made a day ahead for flavors to meld."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "dessert",
+      "coffee",
+      "no-bake",
+      "mascarpone",
+      "classic"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 24,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Tiramisu provides protein from eggs and cheese. Mascarpone offers calcium and vitamin A. Coffee contains antioxidants and may boost metabolism.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-pesto",
+    "slug": "pesto-alla-genovese",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Pesto alla Genovese",
+    "image": "assets/img/recipes/pesto.jpg",
+    "short_description": "Fresh basil pounded with pine nuts, garlic, Parmigiano, and olive oil into a vibrant green sauce. This Ligurian classic transforms simple pasta into a celebration of summer.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh basil leaves",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Pecorino Sardo",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "coarse salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "pasta (trofie or trenette)",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Toast pine nuts lightly in a dry pan.",
+      "In a mortar, crush garlic with coarse salt.",
+      "Add pine nuts and pound to a paste.",
+      "Add basil leaves a handful at a time, grinding against the sides.",
+      "Add grated cheeses and mix well.",
+      "Slowly drizzle in olive oil while stirring.",
+      "Cook pasta in well-salted water.",
+      "Reserve 1/2 cup pasta water before draining.",
+      "Loosen pesto with some pasta water.",
+      "Toss pasta with pesto and serve immediately."
+    ],
+    "cooking_tips": [
+      "A mortar and pestle yields the best texture, but a food processor works.",
+      "Don't over-process or basil will oxidize and turn dark.",
+      "Pasta water helps the pesto coat the pasta evenly."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "sauce",
+      "basil",
+      "pasta",
+      "genoa",
+      "vegetarian",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 16,
+      "fat_g": 28,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Pesto is rich in heart-healthy olive oil and antioxidants from basil. Pine nuts provide protein and minerals. The cheeses add calcium and protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-bruschetta",
+    "slug": "bruschetta",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Bruschetta al Pomodoro",
+    "image": "assets/img/recipes/bruschetta.jpg",
+    "short_description": "Grilled bread rubbed with garlic and topped with ripe tomatoes, fresh basil, and olive oil. This simple Tuscan appetizer celebrates the quality of Italian ingredients.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 5,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Italian bread",
+        "amount": 1,
+        "unit": "loaf"
+      },
+      {
+        "name": "ripe tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "fresh basil",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "balsamic vinegar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Dice tomatoes and place in a bowl.",
+      "Add torn basil, olive oil, balsamic, salt, and pepper.",
+      "Let marinate for 15-30 minutes.",
+      "Slice bread into 1/2 inch thick slices.",
+      "Grill or toast bread until golden with char marks.",
+      "While still hot, rub one side of each slice with cut garlic.",
+      "Drizzle with a little olive oil.",
+      "Top with tomato mixture just before serving.",
+      "Serve immediately while bread is still warm and crispy."
+    ],
+    "cooking_tips": [
+      "Use the ripest, most flavorful tomatoes you can find.",
+      "The bread must be served immediately - it goes soggy quickly.",
+      "Quality olive oil makes all the difference."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "appetizer",
+      "tomato",
+      "quick",
+      "vegan",
+      "summer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Bruschetta provides lycopene from tomatoes. Olive oil offers heart-healthy monounsaturated fats. Garlic has natural antimicrobial properties.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "it-minestrone",
+    "slug": "minestrone",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Minestrone",
+    "image": "assets/img/recipes/minestrone.jpg",
+    "short_description": "A hearty vegetable soup that varies by season and region. This Italian classic features beans, pasta, and whatever vegetables are freshest, simmered into a nourishing meal.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "cannellini beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "small pasta (ditalini)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "potatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "canned tomatoes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable stock",
+        "amount": 2,
+        "unit": "L"
+      },
+      {
+        "name": "Parmigiano rind",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh basil",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Dice all vegetables into similar-sized pieces.",
+      "Saute onion, carrot, and celery in olive oil until soft.",
+      "Add remaining vegetables except zucchini.",
+      "Add tomatoes, stock, and Parmigiano rind.",
+      "Simmer for 30 minutes until vegetables are almost tender.",
+      "Add zucchini, beans, and pasta.",
+      "Cook until pasta is done, about 10 more minutes.",
+      "Remove Parmigiano rind (it will have melted mostly).",
+      "Season with salt and pepper, stir in fresh basil.",
+      "Serve with a drizzle of olive oil and grated Parmigiano."
+    ],
+    "cooking_tips": [
+      "The Parmigiano rind adds umami depth - don't skip it.",
+      "Minestrone is better the next day after flavors meld.",
+      "Add leafy greens like spinach or kale in the last few minutes."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "soup",
+      "vegetable",
+      "beans",
+      "healthy",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 8,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Minestrone is rich in fiber from vegetables and beans. The variety of vegetables provides diverse vitamins and minerals. Beans add plant protein and iron.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-arancini",
+    "slug": "arancini",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Arancini",
+    "image": "assets/img/recipes/arancini.jpg",
+    "short_description": "Golden fried rice balls stuffed with ragu and mozzarella. These Sicilian street food favorites are named for their resemblance to small oranges.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "Arborio rice",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable stock",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "saffron threads",
+        "amount": 0.25,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "mozzarella",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "peas",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "breadcrumbs",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 1,
+        "unit": "L"
+      }
+    ],
+    "steps": [
+      "Cook rice in stock with saffron until done. Spread on tray to cool.",
+      "Mix cooled rice with 2 beaten eggs and Parmigiano.",
+      "Make filling: brown beef, add tomato sauce and peas, cook until thick.",
+      "Cut mozzarella into small cubes.",
+      "Take a handful of rice, form into a cup, add filling and mozzarella.",
+      "Close rice around filling to form a ball.",
+      "Beat remaining eggs. Dip balls in egg, then coat in breadcrumbs.",
+      "Heat oil to 350°F. Fry arancini until deep golden, about 4 minutes.",
+      "Drain on paper towels.",
+      "Serve hot with marinara sauce for dipping."
+    ],
+    "cooking_tips": [
+      "The rice must be completely cool before shaping.",
+      "Wet hands help prevent sticking when forming balls.",
+      "Can be made ahead and reheated in the oven."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "fried",
+      "rice",
+      "sicily",
+      "street-food",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Arancini provide protein from beef and cheese. Saffron contains antioxidants. The dish offers carbohydrates for energy and calcium from cheese.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "it-cacio-pepe",
+    "slug": "cacio-e-pepe",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Cacio e Pepe",
+    "image": "assets/img/recipes/cacio-e-pepe.jpg",
+    "short_description": "The ultimate Roman pasta with just three ingredients: pasta, Pecorino Romano, and black pepper. This deceptively simple dish requires perfect technique to achieve its creamy, peppery glory.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tonnarelli or spaghetti",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Pecorino Romano",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "black peppercorns",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Toast peppercorns in a dry pan, then crack coarsely.",
+      "Finely grate the Pecorino Romano.",
+      "Cook pasta in well-salted water until al dente.",
+      "Reserve 2 cups pasta water before draining.",
+      "Toast cracked pepper in a large pan.",
+      "Add a ladle of pasta water to the pepper.",
+      "Add drained pasta to the pan.",
+      "Remove from heat, add cheese gradually while tossing.",
+      "Add pasta water as needed for creamy consistency.",
+      "Serve immediately with extra cheese and pepper."
+    ],
+    "cooking_tips": [
+      "Work quickly off the heat to prevent clumping.",
+      "The starchy pasta water is essential for the sauce.",
+      "Use freshly cracked pepper, not pre-ground."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "pasta",
+      "roman",
+      "quick",
+      "vegetarian",
+      "classic"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 65
+    },
+    "nutrition_benefits": "Pecorino provides calcium and protein. Simple ingredients in perfect balance. A satisfying, quick meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-amatriciana",
+    "slug": "amatriciana",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Bucatini all'Amatriciana",
+    "image": "assets/img/recipes/amatriciana.jpg",
+    "short_description": "A spicy tomato sauce with crispy guanciale and Pecorino Romano, tossed with bucatini pasta. This beloved Roman dish hails from the town of Amatrice.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "bucatini pasta",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "guanciale",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "San Marzano tomatoes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Pecorino Romano",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "dry white wine",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "red chili flakes",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut guanciale into small strips.",
+      "Cook guanciale in a cold pan over medium heat until crispy.",
+      "Remove guanciale, leave the fat in the pan.",
+      "Add chili flakes to the fat briefly.",
+      "Add wine and let it evaporate.",
+      "Add crushed tomatoes and simmer 15 minutes.",
+      "Cook bucatini until al dente.",
+      "Add pasta to sauce with a splash of pasta water.",
+      "Toss with guanciale and grated Pecorino.",
+      "Serve with extra cheese on top."
+    ],
+    "cooking_tips": [
+      "Authentic amatriciana never has onion.",
+      "The guanciale should be crispy.",
+      "Bucatini's hollow center captures the sauce perfectly."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "pasta",
+      "roman",
+      "tomato",
+      "pork",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 24,
+      "fat_g": 28,
+      "carbs_g": 65
+    },
+    "nutrition_benefits": "Tomatoes provide lycopene. Protein from guanciale and cheese. A hearty, satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-saltimbocca",
+    "slug": "saltimbocca",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Saltimbocca alla Romana",
+    "image": "assets/img/recipes/saltimbocca.jpg",
+    "short_description": "Tender veal escalopes topped with sage and prosciutto, pan-fried and finished with a white wine butter sauce. The name means 'jumps in the mouth' for good reason.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "veal escalopes",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "prosciutto",
+        "amount": 8,
+        "unit": "slices"
+      },
+      {
+        "name": "fresh sage leaves",
+        "amount": 16,
+        "unit": "leaves"
+      },
+      {
+        "name": "butter",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "dry white wine",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "flour",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "salt and pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Pound veal escalopes thin between plastic wrap.",
+      "Place a sage leaf on each escalope.",
+      "Top with a slice of prosciutto, press to adhere.",
+      "Secure with a toothpick if needed.",
+      "Dust lightly with flour on both sides.",
+      "Heat butter and oil in a pan.",
+      "Cook veal prosciutto-side down first, 2 minutes.",
+      "Flip and cook 2 more minutes.",
+      "Remove veal, add wine to deglaze.",
+      "Swirl in more butter, pour sauce over veal."
+    ],
+    "cooking_tips": [
+      "Don't overcook - veal should be tender.",
+      "The prosciutto crisps slightly in the pan.",
+      "Work in batches to avoid crowding."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "veal",
+      "quick",
+      "roman",
+      "elegant",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Lean protein from veal. Sage has antimicrobial properties. Quick-cooking preserves nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-caprese",
+    "slug": "caprese-salad",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Caprese Salad",
+    "image": "assets/img/recipes/caprese.jpg",
+    "short_description": "Fresh mozzarella, ripe tomatoes, and basil drizzled with olive oil. This iconic Capri salad showcases Italian simplicity and the importance of quality ingredients.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh mozzarella di bufala",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ripe tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "fresh basil",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "flaky sea salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Slice tomatoes and mozzarella into thick rounds.",
+      "Arrange alternating on a platter.",
+      "Tuck basil leaves between slices.",
+      "Season with flaky salt and pepper.",
+      "Drizzle generously with olive oil.",
+      "Let sit 10 minutes to develop flavors.",
+      "Serve at room temperature."
+    ],
+    "cooking_tips": [
+      "Use the ripest tomatoes you can find.",
+      "Buffalo mozzarella is traditional, but fior di latte works too.",
+      "Quality olive oil is essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "salad",
+      "fresh",
+      "summer",
+      "vegetarian",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 26,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Fresh mozzarella provides calcium. Tomatoes add lycopene. Olive oil offers heart-healthy fats.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-gnocchi",
+    "slug": "gnocchi-di-patate",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Potato Gnocchi",
+    "image": "assets/img/recipes/gnocchi.jpg",
+    "short_description": "Pillowy potato dumplings that melt in your mouth. These light, fluffy gnocchi are traditionally served with butter and sage or tomato sauce.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "floury potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "fresh sage",
+        "amount": 12,
+        "unit": "leaves"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Bake potatoes until tender, about 1 hour.",
+      "While hot, scoop flesh and rice or mash thoroughly.",
+      "Spread on counter to cool and dry slightly.",
+      "Add egg and salt, then flour gradually.",
+      "Knead gently until smooth dough forms.",
+      "Roll into ropes, cut into small pieces.",
+      "Roll each piece over fork tines for ridges.",
+      "Cook in boiling salted water until they float.",
+      "Brown butter with sage leaves.",
+      "Toss gnocchi with sage butter and Parmigiano."
+    ],
+    "cooking_tips": [
+      "Use the minimum amount of flour needed.",
+      "Overworking makes gnocchi dense.",
+      "Baking potatoes keeps them drier than boiling."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "pasta",
+      "potato",
+      "comfort-food",
+      "vegetarian",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 54
+    },
+    "nutrition_benefits": "Potatoes provide potassium and vitamin C. Sage aids digestion. A comforting, satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-piccata",
+    "slug": "chicken-piccata",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Chicken Piccata",
+    "image": "assets/img/recipes/chicken-piccata.jpg",
+    "short_description": "Tender chicken cutlets in a bright lemon-caper butter sauce. This quick Italian-American classic is elegant enough for company yet simple for weeknights.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "capers",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 180,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "salt and pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Slice chicken breasts horizontally into thin cutlets.",
+      "Pound between plastic to even thickness.",
+      "Season and dredge in flour.",
+      "Heat oil and half the butter in a pan.",
+      "Cook chicken 3 minutes per side until golden.",
+      "Remove chicken and keep warm.",
+      "Add broth and lemon juice to pan.",
+      "Add capers and simmer to reduce slightly.",
+      "Swirl in remaining butter.",
+      "Pour sauce over chicken, garnish with parsley."
+    ],
+    "cooking_tips": [
+      "Thin cutlets cook quickly and evenly.",
+      "Don't overcook - chicken should be juicy.",
+      "The sauce comes together in minutes."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "chicken",
+      "quick",
+      "lemon",
+      "dinner",
+      "elegant"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Lean protein from chicken. Lemon adds vitamin C. Capers provide antioxidants.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-ribollita",
+    "slug": "ribollita",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Ribollita",
+    "image": "assets/img/recipes/ribollita.jpg",
+    "short_description": "A hearty Tuscan bread soup thick with cannellini beans, cavolo nero, and vegetables. This peasant dish is even better when reheated the next day.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "cannellini beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cavolo nero (Tuscan kale)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "stale crusty bread",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 3,
+        "unit": "stalks"
+      },
+      {
+        "name": "canned tomatoes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable broth",
+        "amount": 1.5,
+        "unit": "L"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh rosemary",
+        "amount": 2,
+        "unit": "sprigs"
+      }
+    ],
+    "steps": [
+      "Sauté onion, carrots, and celery in olive oil.",
+      "Add tomatoes and cook 10 minutes.",
+      "Add broth, beans, and rosemary.",
+      "Simmer for 30 minutes.",
+      "Remove stems from kale, chop leaves.",
+      "Add kale and cook until tender.",
+      "Tear bread into chunks.",
+      "Stir bread into soup, let it thicken.",
+      "Refrigerate overnight, then reheat (ribollita means reboiled).",
+      "Serve with generous drizzle of olive oil."
+    ],
+    "cooking_tips": [
+      "Stale bread absorbs the broth perfectly.",
+      "The soup is meant to be very thick.",
+      "Always finish with excellent olive oil."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "soup",
+      "tuscan",
+      "bread",
+      "vegetarian",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 12,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Beans provide protein and fiber. Kale is nutrient-dense. A complete, nourishing meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "it-vitello-tonnato",
+    "slug": "vitello-tonnato",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Vitello Tonnato",
+    "image": "assets/img/recipes/vitello-tonnato.jpg",
+    "short_description": "Thin slices of cold poached veal draped with creamy tuna sauce. This elegant Piedmontese summer dish is a surprising and delicious combination.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "veal eye round",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "canned tuna in oil",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "mayonnaise",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "capers",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "anchovy fillets",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "white wine",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "celery",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Poach veal with wine, vegetables, and bay leaves until tender.",
+      "Cool veal in the poaching liquid.",
+      "Blend tuna, anchovy, half the capers, and lemon juice.",
+      "Mix with mayonnaise until smooth.",
+      "Thin sauce with some poaching liquid if needed.",
+      "Slice cold veal very thin.",
+      "Arrange slices on a platter.",
+      "Cover with tuna sauce.",
+      "Garnish with remaining capers.",
+      "Refrigerate 1 hour before serving."
+    ],
+    "cooking_tips": [
+      "The veal must be completely cold before slicing.",
+      "Sauce should coat the back of a spoon.",
+      "Can be made a day ahead."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "veal",
+      "cold",
+      "summer",
+      "elegant",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 32,
+      "fat_g": 20,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "High in protein from veal and tuna. Omega-3 from tuna. A light, summery dish.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "it-focaccia",
+    "slug": "focaccia",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Focaccia Genovese",
+    "image": "assets/img/recipes/focaccia.jpg",
+    "short_description": "Fluffy, olive oil-rich flatbread with a crispy bottom and dimpled top. This Ligurian classic is perfect on its own or as the ultimate sandwich bread.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 25,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "bread flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "warm water",
+        "amount": 350,
+        "unit": "ml"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "yeast",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "flaky sea salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh rosemary",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Dissolve yeast and sugar in warm water.",
+      "Add flour and half the olive oil, mix until dough forms.",
+      "Knead 10 minutes until smooth and elastic.",
+      "Let rise in oiled bowl for 1 hour.",
+      "Oil a baking pan generously.",
+      "Stretch dough to fit pan.",
+      "Let rise another 30 minutes.",
+      "Dimple dough with fingertips.",
+      "Drizzle remaining oil, sprinkle salt and rosemary.",
+      "Bake at 425°F for 20-25 minutes until golden."
+    ],
+    "cooking_tips": [
+      "Generous oil in the pan creates the crispy bottom.",
+      "Dimples hold pools of olive oil.",
+      "Best served warm the same day."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "bread",
+      "ligurian",
+      "baked",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Olive oil provides healthy fats. Rosemary has antioxidants. A satisfying bread with better fats than most.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "it-aglio-olio",
+    "slug": "spaghetti-aglio-olio",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Spaghetti Aglio e Olio",
+    "image": "assets/img/recipes/aglio-olio.jpg",
+    "short_description": "Spaghetti tossed with golden garlic, olive oil, and chili flakes. This midnight pasta from Naples proves that simple ingredients, perfectly executed, create magic.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "spaghetti",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "red chili flakes",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook spaghetti in well-salted water until al dente.",
+      "Thinly slice the garlic.",
+      "Heat olive oil over medium-low heat.",
+      "Add garlic and cook until golden, not brown.",
+      "Add chili flakes.",
+      "Reserve pasta water, drain pasta.",
+      "Add pasta directly to the garlic oil.",
+      "Toss with some pasta water to emulsify.",
+      "Add chopped parsley.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Don't burn the garlic - it turns bitter.",
+      "The pasta water creates a silky sauce.",
+      "Work quickly once pasta is drained."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "pasta",
+      "quick",
+      "vegan",
+      "naples",
+      "midnight-snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 10,
+      "fat_g": 24,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Garlic has antimicrobial properties. Olive oil provides healthy fats. A satisfying vegan option.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "it-panna-cotta",
+    "slug": "panna-cotta",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Panna Cotta",
+    "image": "assets/img/recipes/panna-cotta.jpg",
+    "short_description": "A silky, vanilla-scented cream pudding from Piedmont. This elegant dessert wobbles seductively and pairs perfectly with fresh berries or caramel.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "heavy cream",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "whole milk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "sugar",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "vanilla bean",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "gelatin sheets",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh berries",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Soak gelatin in cold water until soft.",
+      "Split vanilla bean, scrape seeds.",
+      "Heat cream, milk, sugar, and vanilla until simmering.",
+      "Remove from heat.",
+      "Squeeze excess water from gelatin, add to cream.",
+      "Stir until dissolved.",
+      "Divide among ramekins or molds.",
+      "Refrigerate at least 4 hours until set.",
+      "Unmold onto plates or serve in glasses.",
+      "Top with fresh berries."
+    ],
+    "cooking_tips": [
+      "The perfect panna cotta barely holds its shape.",
+      "Use less gelatin for softer set.",
+      "Dip molds briefly in hot water to unmold."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "dessert",
+      "cream",
+      "vanilla",
+      "elegant",
+      "no-bake"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 4,
+      "fat_g": 28,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Cream provides calcium. Berries add antioxidants and vitamin C. An indulgent treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-caponata",
+    "slug": "caponata",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Caponata",
+    "image": "assets/img/recipes/caponata.jpg",
+    "short_description": "A sweet and sour Sicilian eggplant dish with tomatoes, capers, and olives. This agrodolce vegetable medley is perfect as an appetizer or side dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 40,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 6,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "capers",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "green olives",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "red wine vinegar",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "sugar",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cube eggplant, salt and drain for 30 minutes.",
+      "Fry eggplant in olive oil until golden, drain.",
+      "Sauté celery and onion until soft.",
+      "Add chopped tomatoes and cook 15 minutes.",
+      "Add capers, olives, vinegar, and sugar.",
+      "Simmer until sauce thickens.",
+      "Add fried eggplant and mix gently.",
+      "Toast pine nuts and stir in.",
+      "Let cool to room temperature.",
+      "Serve at room temperature with crusty bread."
+    ],
+    "cooking_tips": [
+      "Salting removes bitterness from eggplant.",
+      "Caponata improves after a day in the fridge.",
+      "Balance sweet and sour to your taste."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "sicilian",
+      "vegetable",
+      "appetizer",
+      "vegan",
+      "summer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 14,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Eggplant is low in calories. Olive oil provides healthy fats. Capers add antioxidants.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "it-bolognese",
+    "slug": "ragu-bolognese",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Ragù alla Bolognese",
+    "image": "assets/img/recipes/bolognese.jpg",
+    "short_description": "The authentic slow-simmered meat sauce from Bologna, nothing like quick imitations. This rich, complex ragù takes hours but rewards with depth of flavor.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 240,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pancetta",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 1,
+        "unit": "stalk"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "whole milk",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "white wine",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "beef broth",
+        "amount": 250,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Finely dice onion, carrot, and celery (soffritto).",
+      "Dice pancetta and render in a heavy pot.",
+      "Add soffritto and cook until soft.",
+      "Add meats and brown, breaking up well.",
+      "Add wine and cook until evaporated.",
+      "Add tomato paste and stir well.",
+      "Add milk and simmer until absorbed.",
+      "Add broth, cover and simmer 3-4 hours.",
+      "Stir occasionally, adding liquid if needed.",
+      "Serve with fresh tagliatelle and Parmigiano."
+    ],
+    "cooking_tips": [
+      "Low and slow is essential for authentic ragù.",
+      "Milk tenderizes the meat and adds richness.",
+      "Traditional pairing is tagliatelle, not spaghetti."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "sauce",
+      "meat",
+      "bologna",
+      "slow-cook",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High in protein. The slow cooking develops complex flavors. A satisfying, hearty sauce.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-affogato",
+    "slug": "affogato",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Affogato",
+    "image": "assets/img/recipes/affogato.jpg",
+    "short_description": "A shot of hot espresso 'drowning' a scoop of cold vanilla gelato. This simple Italian dessert-meets-coffee is the perfect ending to any meal.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 2,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "vanilla gelato",
+        "amount": 4,
+        "unit": "scoops"
+      },
+      {
+        "name": "fresh espresso",
+        "amount": 2,
+        "unit": "shots"
+      },
+      {
+        "name": "amaretto liqueur (optional)",
+        "amount": 30,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Place scoops of gelato in chilled glasses or cups.",
+      "Pull fresh shots of espresso.",
+      "Pour hot espresso over the cold gelato.",
+      "Add a splash of amaretto if desired.",
+      "Serve immediately with a small spoon.",
+      "Enjoy as the gelato melts into the coffee."
+    ],
+    "cooking_tips": [
+      "Use the best quality gelato you can find.",
+      "The espresso must be freshly pulled.",
+      "Serve immediately - timing is everything."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "dessert",
+      "coffee",
+      "gelato",
+      "quick",
+      "elegant"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Coffee provides antioxidants. Gelato offers calcium. A quick, satisfying dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-fritto-misto",
+    "slug": "fritto-misto",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Fritto Misto di Mare",
+    "image": "assets/img/recipes/fritto-misto.jpg",
+    "short_description": "A golden platter of lightly battered and fried seafood. This Italian coastal classic features whatever is freshest, from calamari to shrimp to small fish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "calamari",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "small fish (anchovies, whitebait)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "semolina",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sparkling water",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "lemons",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Clean and prepare all seafood, pat dry.",
+      "Mix flour and semolina for dredging.",
+      "Make light batter with some flour and sparkling water.",
+      "Heat oil to 350°F.",
+      "Dredge small pieces in flour mixture only.",
+      "Dip larger pieces in batter.",
+      "Fry in batches until golden and crispy.",
+      "Drain on paper towels.",
+      "Season immediately with salt.",
+      "Serve hot with lemon wedges."
+    ],
+    "cooking_tips": [
+      "Keep seafood very cold until frying.",
+      "Don't overcrowd the oil.",
+      "Serve immediately - fritto misto waits for no one."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "seafood",
+      "fried",
+      "coastal",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Seafood provides lean protein and omega-3s. A festive treat best enjoyed occasionally.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-cacciatore",
+    "slug": "pollo-alla-cacciatore",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Chicken Cacciatore",
+    "image": "assets/img/recipes/chicken-cacciatore.jpg",
+    "short_description": "Hunter-style braised chicken with tomatoes, wine, and herbs. This rustic Italian classic fills the kitchen with irresistible aromas as it simmers.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken pieces",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "canned tomatoes",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "red wine",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "bell peppers",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "mushrooms",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh rosemary",
+        "amount": 2,
+        "unit": "sprigs"
+      },
+      {
+        "name": "olives",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Season chicken pieces with salt and pepper.",
+      "Brown chicken in olive oil on all sides.",
+      "Remove chicken, add onion and peppers.",
+      "Cook until softened, add garlic.",
+      "Add mushrooms and cook 5 minutes.",
+      "Pour in wine and reduce by half.",
+      "Add tomatoes, rosemary, and olives.",
+      "Return chicken to pot, nestling in sauce.",
+      "Cover and simmer 45 minutes until tender.",
+      "Serve with crusty bread or polenta."
+    ],
+    "cooking_tips": [
+      "Bone-in, skin-on chicken has the most flavor.",
+      "The sauce should coat the chicken.",
+      "Even better reheated the next day."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "italian",
+      "chicken",
+      "braised",
+      "rustic",
+      "dinner",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Protein from chicken. Tomatoes provide lycopene. Mushrooms add B vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "it-cannoli",
+    "slug": "cannoli",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Cannoli",
+    "image": "assets/img/recipes/cannoli.jpg",
+    "short_description": "Crispy fried pastry tubes filled with sweet ricotta cream and studded with chocolate or pistachios. These Sicilian classics are a beloved Italian-American treasure.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "ricotta cheese",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "marsala wine",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "chocolate chips",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "pistachios",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make dough with flour, butter, egg, Marsala, and sugar.",
+      "Knead until smooth, refrigerate 1 hour.",
+      "Drain ricotta overnight for thick consistency.",
+      "Mix ricotta with powdered sugar and vanilla.",
+      "Fold in chocolate chips.",
+      "Roll dough thin and cut circles.",
+      "Wrap around cannoli forms.",
+      "Seal with egg white.",
+      "Fry until golden and blistered.",
+      "Fill shells just before serving."
+    ],
+    "cooking_tips": [
+      "Never fill cannoli ahead - shells get soggy.",
+      "Strain ricotta well for proper texture.",
+      "Dip ends in pistachios or chocolate."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "italian",
+      "sicilian",
+      "dessert",
+      "pastry",
+      "fried",
+      "classic"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 14,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Ricotta provides calcium and protein. Pistachios add healthy fats. A celebratory treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-involtini",
+    "slug": "involtini",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Involtini di Melanzane",
+    "image": "assets/img/recipes/involtini.jpg",
+    "short_description": "Grilled eggplant slices rolled around ricotta and baked in tomato sauce. These vegetarian bundles are as beautiful as they are delicious.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "ricotta cheese",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh basil",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "mozzarella",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "salt and pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Slice eggplant lengthwise into thin strips.",
+      "Brush with oil and grill or broil until pliable.",
+      "Mix ricotta with Parmigiano, egg, and basil.",
+      "Season with salt and pepper.",
+      "Spread filling on each eggplant strip.",
+      "Roll up and place seam-side down.",
+      "Spread tomato sauce in baking dish.",
+      "Arrange rolls on sauce.",
+      "Top with mozzarella slices.",
+      "Bake at 375°F for 25 minutes until bubbly."
+    ],
+    "cooking_tips": [
+      "Don't overfill or rolls will burst.",
+      "Eggplant should be flexible, not crispy.",
+      "Can be assembled ahead and baked later."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "vegetarian",
+      "eggplant",
+      "baked",
+      "dinner",
+      "elegant"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Eggplant is low in calories. Ricotta provides protein and calcium. A satisfying vegetarian main.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "it-vitello-milanese",
+    "slug": "cotoletta-milanese",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Cotoletta alla Milanese",
+    "image": "assets/img/recipes/cotoletta-milanese.jpg",
+    "short_description": "A bone-in veal chop breaded and fried to golden perfection. This Milanese icon is the original schnitzel, served with just a wedge of lemon.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "veal chops (bone-in)",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "breadcrumbs",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "lemons",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Pound veal chops to even thickness, leaving bone attached.",
+      "Season with salt.",
+      "Beat eggs in a shallow bowl.",
+      "Put breadcrumbs on a plate.",
+      "Dip veal in egg, then breadcrumbs, pressing well.",
+      "Heat butter and oil in a large pan.",
+      "Fry cutlets until golden, about 4 minutes per side.",
+      "The coating should be crispy, meat just cooked through.",
+      "Drain briefly on paper towels.",
+      "Serve immediately with lemon wedges."
+    ],
+    "cooking_tips": [
+      "The bone is traditional and adds flavor.",
+      "Use clarified butter to prevent burning.",
+      "Serve immediately - the coating gets soggy if left."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "veal",
+      "fried",
+      "milan",
+      "classic",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Veal provides lean protein and iron. A rich dish best enjoyed on special occasions.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "it-zabaglione",
+    "slug": "zabaglione",
+    "country": "Italy",
+    "country_slug": "italy",
+    "name_en": "Zabaglione",
+    "image": "assets/img/recipes/zabaglione.jpg",
+    "short_description": "A light, foamy Italian custard made by whisking egg yolks with sugar and Marsala wine over gentle heat. This elegant Piedmontese dessert is heaven in a glass.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "egg yolks",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "sugar",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Marsala wine",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh berries",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Set up a double boiler with simmering water.",
+      "Whisk egg yolks and sugar until pale and thick.",
+      "Place bowl over simmering water.",
+      "Add Marsala gradually while whisking.",
+      "Whisk constantly for 8-10 minutes.",
+      "The mixture should triple in volume.",
+      "It's ready when it forms soft mounds.",
+      "Pour into glasses immediately.",
+      "Serve warm with fresh berries.",
+      "Can also be chilled for cold zabaglione."
+    ],
+    "cooking_tips": [
+      "Water should not touch the bowl.",
+      "Never stop whisking or eggs will scramble.",
+      "Serve immediately for best foam."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "italian",
+      "dessert",
+      "eggs",
+      "wine",
+      "elegant",
+      "quick"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 10,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Eggs provide protein and choline. Berries add antioxidants. A light, elegant dessert.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
   }
