@@ -478,18 +478,66 @@
     "cooking_time_minutes": 15,
     "servings": 4,
     "ingredients": [
-      {"name": "all-purpose flour", "amount": 150, "unit": "g"},
-      {"name": "dashi stock", "amount": 150, "unit": "ml"},
-      {"name": "eggs", "amount": 4, "unit": "pc"},
-      {"name": "cabbage", "amount": 400, "unit": "g"},
-      {"name": "pork belly slices", "amount": 200, "unit": "g"},
-      {"name": "green onions", "amount": 4, "unit": "stalks"},
-      {"name": "tenkasu (tempura scraps)", "amount": 50, "unit": "g"},
-      {"name": "okonomiyaki sauce", "amount": 100, "unit": "ml"},
-      {"name": "Japanese mayonnaise", "amount": 60, "unit": "ml"},
-      {"name": "bonito flakes", "amount": 10, "unit": "g"},
-      {"name": "aonori (seaweed flakes)", "amount": 2, "unit": "tbsp"},
-      {"name": "vegetable oil", "amount": 3, "unit": "tbsp"}
+      {
+        "name": "all-purpose flour",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "dashi stock",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cabbage",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pork belly slices",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "green onions",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "tenkasu (tempura scraps)",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "okonomiyaki sauce",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Japanese mayonnaise",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "bonito flakes",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "aonori (seaweed flakes)",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Shred cabbage finely and chop green onions.",
@@ -513,7 +561,14 @@
       "Add any toppings you like - shrimp, squid, or cheese are popular."
     ],
     "difficulty": "medium",
-    "tags": ["japanese", "street-food", "savory-pancake", "osaka", "dinner", "comfort-food"],
+    "tags": [
+      "japanese",
+      "street-food",
+      "savory-pancake",
+      "osaka",
+      "dinner",
+      "comfort-food"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 18,
@@ -521,6 +576,1546 @@
       "carbs_g": 34
     },
     "nutrition_benefits": "Okonomiyaki provides a good amount of protein from eggs and pork. Cabbage is rich in vitamin C and fiber. The dish offers a balanced combination of macronutrients in one satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-ramen-1",
+    "slug": "tonkotsu-ramen",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Tonkotsu Ramen",
+    "image": "assets/img/recipes/tonkotsu-ramen.jpg",
+    "short_description": "Creamy pork bone broth ramen. Fukuoka specialty.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 720,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork bones",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "ramen noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chashu",
+        "amount": 8,
+        "unit": "slices"
+      }
+    ],
+    "steps": [
+      "Boil bones 12+ hours.",
+      "Make tare.",
+      "Cook noodles.",
+      "Assemble bowls."
+    ],
+    "cooking_tips": [
+      "Milky white broth.",
+      "Thin noodles.",
+      "Rich toppings."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "japanese",
+      "ramen",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 28,
+      "fat_g": 24,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Collagen from broth.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-sashimi-2",
+    "slug": "sashimi",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Sashimi",
+    "image": "assets/img/recipes/sashimi.jpg",
+    "short_description": "Fresh raw fish sliced artfully. Pure and simple.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "salmon",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tuna",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "wasabi",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Select fresh fish.",
+      "Slice precisely.",
+      "Arrange beautifully.",
+      "Serve with soy and wasabi."
+    ],
+    "cooking_tips": [
+      "Quality is everything.",
+      "Sharp knife essential.",
+      "Serve immediately."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "japanese",
+      "raw",
+      "fish"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 32,
+      "fat_g": 8,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "jp-teriyaki-3",
+    "slug": "chicken-teriyaki",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Chicken Teriyaki",
+    "image": "assets/img/recipes/chicken-teriyaki.jpg",
+    "short_description": "Glazed chicken in sweet soy sauce. Universal favorite.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "mirin",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Pan-fry chicken.",
+      "Make teriyaki sauce.",
+      "Glaze chicken.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Crispy skin.",
+      "Sticky glaze.",
+      "Cut against grain."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "chicken",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-tempura-4",
+    "slug": "tempura",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Tempura",
+    "image": "assets/img/recipes/tempura.jpg",
+    "short_description": "Light battered and fried vegetables and shrimp. Crispy perfection.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": 16,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetables",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tempura flour",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make cold batter.",
+      "Dip ingredients.",
+      "Fry at right temp.",
+      "Drain and serve."
+    ],
+    "cooking_tips": [
+      "Ice cold batter.",
+      "Do not overmix.",
+      "Eat immediately."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "fried",
+      "shrimp"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Light fried option.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-gyudon-5",
+    "slug": "gyudon",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Gyudon",
+    "image": "assets/img/recipes/gyudon.jpg",
+    "short_description": "Beef bowl with sweet onions. Quick comfort food.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Slice beef thin.",
+      "Simmer with onion.",
+      "Pour over rice.",
+      "Top with egg."
+    ],
+    "cooking_tips": [
+      "Thin slices.",
+      "Sweet-savory sauce.",
+      "Runny egg yolk."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "beef",
+      "rice-bowl"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Quick satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-udon-6",
+    "slug": "udon",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Kitsune Udon",
+    "image": "assets/img/recipes/udon.jpg",
+    "short_description": "Thick noodles in dashi broth with sweet tofu. Comforting soup.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "udon noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "dashi",
+        "amount": 1.5,
+        "unit": "liters"
+      },
+      {
+        "name": "aburaage",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make dashi broth.",
+      "Cook udon.",
+      "Simmer tofu.",
+      "Assemble bowls."
+    ],
+    "cooking_tips": [
+      "Chewy noodles.",
+      "Clear umami broth.",
+      "Sweet tofu."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "noodles",
+      "soup"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Comforting and light.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "jp-miso-7",
+    "slug": "miso-soup",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Miso Soup",
+    "image": "assets/img/recipes/miso-soup.jpg",
+    "short_description": "Essential Japanese soup with tofu and seaweed. Daily staple.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "miso paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "wakame",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dashi.",
+      "Add tofu and wakame.",
+      "Dissolve miso.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Do not boil miso.",
+      "Simple ingredients.",
+      "Many variations."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "soup",
+      "miso"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 5,
+      "fat_g": 2,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Probiotics from miso.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "jp-tonkatsu-8",
+    "slug": "tonkatsu",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Tonkatsu",
+    "image": "assets/img/recipes/tonkatsu.jpg",
+    "short_description": "Crispy breaded pork cutlet. Served with cabbage.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork loin",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "panko",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Bread pork.",
+      "Deep fry.",
+      "Slice and serve.",
+      "Add tonkatsu sauce."
+    ],
+    "cooking_tips": [
+      "Pound thin.",
+      "Panko for crunch.",
+      "Drain well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "pork",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-soba-9",
+    "slug": "soba",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Zaru Soba",
+    "image": "assets/img/recipes/soba.jpg",
+    "short_description": "Cold buckwheat noodles with dipping sauce. Refreshing summer dish.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "soba noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tsuyu",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "wasabi",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook soba.",
+      "Rinse in cold water.",
+      "Arrange on mat.",
+      "Serve with tsuyu."
+    ],
+    "cooking_tips": [
+      "Do not overcook.",
+      "Ice cold.",
+      "Add scallion and wasabi."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "noodles",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 2,
+      "carbs_g": 68
+    },
+    "nutrition_benefits": "Healthy buckwheat.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "jp-okonomiyaki-10",
+    "slug": "okonomiyaki",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Okonomiyaki",
+    "image": "assets/img/recipes/okonomiyaki.jpg",
+    "short_description": "Savory cabbage pancake. Osaka street food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "cabbage",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Make batter with cabbage.",
+      "Cook pancake.",
+      "Flip carefully.",
+      "Top with sauce and mayo."
+    ],
+    "cooking_tips": [
+      "Lots of cabbage.",
+      "Low heat.",
+      "Generous toppings."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "pancake",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 14,
+      "fat_g": 18,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Vegetables and carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "jp-karaage-11",
+    "slug": "karaage",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Chicken Karaage",
+    "image": "assets/img/recipes/karaage.jpg",
+    "short_description": "Japanese fried chicken. Juicy and crispy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ginger",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Coat with potato starch.",
+      "Deep fry.",
+      "Serve with lemon."
+    ],
+    "cooking_tips": [
+      "Marinate well.",
+      "Double-fry.",
+      "Serve hot."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "chicken",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-curry-12",
+    "slug": "japanese-curry",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Japanese Curry Rice",
+    "image": "assets/img/recipes/japanese-curry.jpg",
+    "short_description": "Mild curry with vegetables over rice. Comfort food classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "curry roux",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook vegetables.",
+      "Add water and roux.",
+      "Simmer until thick.",
+      "Serve over rice."
+    ],
+    "cooking_tips": [
+      "Use Japanese roux.",
+      "Thick consistency.",
+      "Sweet and mild."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "curry",
+      "rice"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 78
+    },
+    "nutrition_benefits": "Hearty comfort food.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "jp-onigiri-13",
+    "slug": "onigiri",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Onigiri",
+    "image": "assets/img/recipes/onigiri.jpg",
+    "short_description": "Rice balls with various fillings. Portable snack.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "nori",
+        "amount": 6,
+        "unit": "sheets"
+      },
+      {
+        "name": "salmon",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook rice.",
+      "Form triangles.",
+      "Add filling.",
+      "Wrap with nori."
+    ],
+    "cooking_tips": [
+      "Wet hands.",
+      "Do not overpack.",
+      "Many filling options."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "rice",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 2,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Portable energy.",
+    "mealType": "Snack",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-yakitori-14",
+    "slug": "yakitori",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Yakitori",
+    "image": "assets/img/recipes/yakitori.jpg",
+    "short_description": "Grilled chicken skewers with tare sauce. Izakaya favorite.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "scallions",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "tare sauce",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cut chicken.",
+      "Thread on skewers.",
+      "Grill and baste.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Even pieces.",
+      "Charcoal adds flavor.",
+      "Multiple basting."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "chicken",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Lean protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-ramen-1",
+    "slug": "tonkotsu-ramen",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Tonkotsu Ramen",
+    "image": "assets/img/recipes/tonkotsu-ramen.jpg",
+    "short_description": "Creamy pork bone broth ramen. Fukuoka specialty.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 720,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork bones",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "ramen noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chashu",
+        "amount": 8,
+        "unit": "slices"
+      }
+    ],
+    "steps": [
+      "Boil bones 12+ hours.",
+      "Make tare.",
+      "Cook noodles.",
+      "Assemble bowls."
+    ],
+    "cooking_tips": [
+      "Milky white broth.",
+      "Thin noodles.",
+      "Rich toppings."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "japanese",
+      "ramen",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 28,
+      "fat_g": 24,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Collagen from broth.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-sashimi-2",
+    "slug": "sashimi",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Sashimi",
+    "image": "assets/img/recipes/sashimi.jpg",
+    "short_description": "Fresh raw fish sliced artfully. Pure and simple.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "salmon",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tuna",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "wasabi",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Select fresh fish.",
+      "Slice precisely.",
+      "Arrange beautifully.",
+      "Serve with soy and wasabi."
+    ],
+    "cooking_tips": [
+      "Quality is everything.",
+      "Sharp knife essential.",
+      "Serve immediately."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "japanese",
+      "raw",
+      "fish"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 32,
+      "fat_g": 8,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "jp-teriyaki-3",
+    "slug": "chicken-teriyaki",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Chicken Teriyaki",
+    "image": "assets/img/recipes/chicken-teriyaki.jpg",
+    "short_description": "Glazed chicken in sweet soy sauce. Universal favorite.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "mirin",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Pan-fry chicken.",
+      "Make teriyaki sauce.",
+      "Glaze chicken.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Crispy skin.",
+      "Sticky glaze.",
+      "Cut against grain."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "chicken",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-tempura-4",
+    "slug": "tempura",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Tempura",
+    "image": "assets/img/recipes/tempura.jpg",
+    "short_description": "Light battered and fried vegetables and shrimp. Crispy perfection.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": 16,
+        "unit": "pc"
+      },
+      {
+        "name": "vegetables",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tempura flour",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make cold batter.",
+      "Dip ingredients.",
+      "Fry at right temp.",
+      "Drain and serve."
+    ],
+    "cooking_tips": [
+      "Ice cold batter.",
+      "Do not overmix.",
+      "Eat immediately."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "fried",
+      "shrimp"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Light fried option.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-gyudon-5",
+    "slug": "gyudon",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Gyudon",
+    "image": "assets/img/recipes/gyudon.jpg",
+    "short_description": "Beef bowl with sweet onions. Quick comfort food.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Slice beef thin.",
+      "Simmer with onion.",
+      "Pour over rice.",
+      "Top with egg."
+    ],
+    "cooking_tips": [
+      "Thin slices.",
+      "Sweet-savory sauce.",
+      "Runny egg yolk."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "beef",
+      "rice-bowl"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Quick satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-udon-6",
+    "slug": "udon",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Kitsune Udon",
+    "image": "assets/img/recipes/udon.jpg",
+    "short_description": "Thick noodles in dashi broth with sweet tofu. Comforting soup.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "udon noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "dashi",
+        "amount": 1.5,
+        "unit": "liters"
+      },
+      {
+        "name": "aburaage",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make dashi broth.",
+      "Cook udon.",
+      "Simmer tofu.",
+      "Assemble bowls."
+    ],
+    "cooking_tips": [
+      "Chewy noodles.",
+      "Clear umami broth.",
+      "Sweet tofu."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "noodles",
+      "soup"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Comforting and light.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "jp-miso-7",
+    "slug": "miso-soup",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Miso Soup",
+    "image": "assets/img/recipes/miso-soup.jpg",
+    "short_description": "Essential Japanese soup with tofu and seaweed. Daily staple.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "miso paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "wakame",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dashi.",
+      "Add tofu and wakame.",
+      "Dissolve miso.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Do not boil miso.",
+      "Simple ingredients.",
+      "Many variations."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "soup",
+      "miso"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 5,
+      "fat_g": 2,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Probiotics from miso.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "jp-tonkatsu-8",
+    "slug": "tonkatsu",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Tonkatsu",
+    "image": "assets/img/recipes/tonkatsu.jpg",
+    "short_description": "Crispy breaded pork cutlet. Served with cabbage.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork loin",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "panko",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Bread pork.",
+      "Deep fry.",
+      "Slice and serve.",
+      "Add tonkatsu sauce."
+    ],
+    "cooking_tips": [
+      "Pound thin.",
+      "Panko for crunch.",
+      "Drain well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "pork",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-soba-9",
+    "slug": "soba",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Zaru Soba",
+    "image": "assets/img/recipes/soba.jpg",
+    "short_description": "Cold buckwheat noodles with dipping sauce. Refreshing summer dish.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "soba noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tsuyu",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "wasabi",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook soba.",
+      "Rinse in cold water.",
+      "Arrange on mat.",
+      "Serve with tsuyu."
+    ],
+    "cooking_tips": [
+      "Do not overcook.",
+      "Ice cold.",
+      "Add scallion and wasabi."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "noodles",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 2,
+      "carbs_g": 68
+    },
+    "nutrition_benefits": "Healthy buckwheat.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "jp-okonomiyaki-10",
+    "slug": "okonomiyaki",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Okonomiyaki",
+    "image": "assets/img/recipes/okonomiyaki.jpg",
+    "short_description": "Savory cabbage pancake. Osaka street food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "cabbage",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Make batter with cabbage.",
+      "Cook pancake.",
+      "Flip carefully.",
+      "Top with sauce and mayo."
+    ],
+    "cooking_tips": [
+      "Lots of cabbage.",
+      "Low heat.",
+      "Generous toppings."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "pancake",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 14,
+      "fat_g": 18,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Vegetables and carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "jp-karaage-11",
+    "slug": "karaage",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Chicken Karaage",
+    "image": "assets/img/recipes/karaage.jpg",
+    "short_description": "Japanese fried chicken. Juicy and crispy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ginger",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Coat with potato starch.",
+      "Deep fry.",
+      "Serve with lemon."
+    ],
+    "cooking_tips": [
+      "Marinate well.",
+      "Double-fry.",
+      "Serve hot."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "japanese",
+      "chicken",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-curry-12",
+    "slug": "japanese-curry",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Japanese Curry Rice",
+    "image": "assets/img/recipes/japanese-curry.jpg",
+    "short_description": "Mild curry with vegetables over rice. Comfort food classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "curry roux",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook vegetables.",
+      "Add water and roux.",
+      "Simmer until thick.",
+      "Serve over rice."
+    ],
+    "cooking_tips": [
+      "Use Japanese roux.",
+      "Thick consistency.",
+      "Sweet and mild."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "curry",
+      "rice"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 78
+    },
+    "nutrition_benefits": "Hearty comfort food.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "jp-onigiri-13",
+    "slug": "onigiri",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Onigiri",
+    "image": "assets/img/recipes/onigiri.jpg",
+    "short_description": "Rice balls with various fillings. Portable snack.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "nori",
+        "amount": 6,
+        "unit": "sheets"
+      },
+      {
+        "name": "salmon",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook rice.",
+      "Form triangles.",
+      "Add filling.",
+      "Wrap with nori."
+    ],
+    "cooking_tips": [
+      "Wet hands.",
+      "Do not overpack.",
+      "Many filling options."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "rice",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 2,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Portable energy.",
+    "mealType": "Snack",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "jp-yakitori-14",
+    "slug": "yakitori",
+    "country": "Japan",
+    "country_slug": "japan",
+    "name_en": "Yakitori",
+    "image": "assets/img/recipes/yakitori.jpg",
+    "short_description": "Grilled chicken skewers with tare sauce. Izakaya favorite.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "scallions",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "tare sauce",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cut chicken.",
+      "Thread on skewers.",
+      "Grill and baste.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Even pieces.",
+      "Charcoal adds flavor.",
+      "Multiple basting."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "japanese",
+      "chicken",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Lean protein.",
     "mealType": "Dinner",
     "dietaryStyle": "None"
   }

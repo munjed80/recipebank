@@ -271,5 +271,1655 @@
     "nutrition_benefits": "Antioxidants from coffee, energy boost.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "vn-pho-1",
+    "slug": "pho-bo",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Pho Bo",
+    "image": "assets/img/recipes/pho-bo.jpg",
+    "short_description": "Beef noodle soup with aromatic broth. Vietnamese national dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef bones",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "beef sirloin",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Char onion and ginger.",
+      "Simmer broth 3+ hours.",
+      "Cook noodles.",
+      "Top with sliced beef."
+    ],
+    "cooking_tips": [
+      "Clear broth is key.",
+      "Toast spices first.",
+      "Fresh herbs essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "vietnamese",
+      "soup",
+      "beef"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 12,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Protein and minerals from broth.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-banh-2",
+    "slug": "banh-mi",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Banh Mi",
+    "image": "assets/img/recipes/banh-mi.jpg",
+    "short_description": "Vietnamese sandwich with pickled vegetables and pate. French-Vietnamese fusion.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "baguette",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pate",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Prepare pickled vegetables.",
+      "Toast baguette.",
+      "Layer meats and vegetables.",
+      "Add fresh herbs."
+    ],
+    "cooking_tips": [
+      "Bread must be crusty.",
+      "Balance all flavors.",
+      "Fresh cilantro essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "sandwich",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-goi-3",
+    "slug": "goi-cuon",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Goi Cuon",
+    "image": "assets/img/recipes/goi-cuon.jpg",
+    "short_description": "Fresh spring rolls with shrimp and herbs. Light and healthy.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 0,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "rice paper",
+        "amount": 12,
+        "unit": "sheets"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "rice vermicelli",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook shrimp and noodles.",
+      "Prep vegetables.",
+      "Soften rice paper.",
+      "Roll tightly."
+    ],
+    "cooking_tips": [
+      "Do not overfill.",
+      "Moisten paper briefly.",
+      "Serve with peanut sauce."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "rolls",
+      "fresh"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 6,
+      "fat_g": 1,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Low calorie, nutritious.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-bun-4",
+    "slug": "bun-cha",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Bun Cha",
+    "image": "assets/img/recipes/bun-cha.jpg",
+    "short_description": "Grilled pork with noodles and herbs. Hanoi specialty.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork belly",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "rice vermicelli",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate pork.",
+      "Grill until charred.",
+      "Make dipping sauce.",
+      "Serve with noodles and herbs."
+    ],
+    "cooking_tips": [
+      "Charred pork is key.",
+      "Balance fish sauce.",
+      "Lots of fresh herbs."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "pork",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 24,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-com-5",
+    "slug": "com-tam",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Com Tam",
+    "image": "assets/img/recipes/com-tam.jpg",
+    "short_description": "Broken rice with grilled pork chop. Southern comfort food.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "broken rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "pork chops",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate pork.",
+      "Grill until done.",
+      "Cook rice.",
+      "Serve with pickles and sauce."
+    ],
+    "cooking_tips": [
+      "Char the pork.",
+      "Sauce is essential.",
+      "Add egg and skin."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "rice",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Hearty meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-ca-6",
+    "slug": "ca-kho-to",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Ca Kho To",
+    "image": "assets/img/recipes/ca-kho-to.jpg",
+    "short_description": "Caramelized fish in clay pot. Home-style cooking.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "catfish",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Caramelize sugar.",
+      "Add fish sauce.",
+      "Braise fish in sauce.",
+      "Cook until absorbed."
+    ],
+    "cooking_tips": [
+      "Use clay pot.",
+      "Do not stir too much.",
+      "Sweet-savory balance."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "fish",
+      "braised"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 28,
+      "fat_g": 12,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-banh-7",
+    "slug": "banh-xeo",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Banh Xeo",
+    "image": "assets/img/recipes/banh-xeo.jpg",
+    "short_description": "Crispy rice crepe with pork and shrimp. Eat with fresh vegetables.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make batter with turmeric.",
+      "Cook crispy crepe.",
+      "Add filling.",
+      "Fold and serve."
+    ],
+    "cooking_tips": [
+      "Very hot pan.",
+      "Crepe must be crispy.",
+      "Wrap in lettuce."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "crepe",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 16,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Balanced nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-bo-8",
+    "slug": "bo-luc-lac",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Bo Luc Lac",
+    "image": "assets/img/recipes/bo-luc-lac.jpg",
+    "short_description": "Shaking beef stir-fry. Tender cubes in savory sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate beef.",
+      "Sear in very hot pan.",
+      "Add garlic and sauce.",
+      "Shake pan while cooking."
+    ],
+    "cooking_tips": [
+      "Very high heat.",
+      "Do not overcrowd.",
+      "Serve on watercress."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "beef",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "High protein, low carb.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "vn-pho-9",
+    "slug": "pho-ga",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Pho Ga",
+    "image": "assets/img/recipes/pho-ga.jpg",
+    "short_description": "Chicken noodle soup. Lighter alternative to beef pho.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole chicken",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ginger",
+        "amount": 2,
+        "unit": "inches"
+      }
+    ],
+    "steps": [
+      "Simmer chicken.",
+      "Make clear broth.",
+      "Cook noodles.",
+      "Shred chicken."
+    ],
+    "cooking_tips": [
+      "Clear broth.",
+      "Do not boil hard.",
+      "Fresh herbs."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "soup",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 30,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Lean protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-che-10",
+    "slug": "che-ba-mau",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Che Ba Mau",
+    "image": "assets/img/recipes/che-ba-mau.jpg",
+    "short_description": "Three-color dessert with beans and jelly. Sweet and refreshing.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "mung beans",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "red beans",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook beans separately.",
+      "Make pandan jelly.",
+      "Layer in glass.",
+      "Top with coconut milk."
+    ],
+    "cooking_tips": [
+      "Beans should be soft.",
+      "Colorful presentation.",
+      "Serve cold."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "dessert",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Natural sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "vn-nem-11",
+    "slug": "nem-ran",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Nem Ran",
+    "image": "assets/img/recipes/nem-ran.jpg",
+    "short_description": "Fried spring rolls. Crispy and golden.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "rice paper",
+        "amount": 20,
+        "unit": "sheets"
+      },
+      {
+        "name": "glass noodles",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make filling.",
+      "Roll tightly.",
+      "Deep fry.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Roll tight.",
+      "Fry at medium heat.",
+      "Drain well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "fried",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Crispy treat.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-bun-12",
+    "slug": "bun-bo-hue",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Bun Bo Hue",
+    "image": "assets/img/recipes/bun-bo-hue.jpg",
+    "short_description": "Spicy beef noodle soup from Hue. Bold and aromatic.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef shank",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Simmer broth with lemongrass.",
+      "Add shrimp paste.",
+      "Cook noodles.",
+      "Arrange toppings."
+    ],
+    "cooking_tips": [
+      "Spicy broth.",
+      "Use pork leg too.",
+      "Many garnishes."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "vietnamese",
+      "soup",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Warming and hearty.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-xoi-13",
+    "slug": "xoi-man",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Xoi Man",
+    "image": "assets/img/recipes/xoi-man.jpg",
+    "short_description": "Savory sticky rice with toppings. Breakfast staple.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "sticky rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "Chinese sausage",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "fried shallots",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Steam sticky rice.",
+      "Add toppings.",
+      "Drizzle with sauce.",
+      "Serve warm."
+    ],
+    "cooking_tips": [
+      "Rice must be sticky.",
+      "Many topping options.",
+      "Street food classic."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "rice",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Sustained energy.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-canh-14",
+    "slug": "canh-chua",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Canh Chua",
+    "image": "assets/img/recipes/canh-chua.jpg",
+    "short_description": "Sweet and sour soup with fish. Southern specialty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fish",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pineapple",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tamarind",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make tamarind broth.",
+      "Add pineapple.",
+      "Add fish.",
+      "Garnish with herbs."
+    ],
+    "cooking_tips": [
+      "Balance sweet and sour.",
+      "Do not overcook fish.",
+      "Lots of herbs."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "soup",
+      "fish"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 28,
+      "fat_g": 6,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Light and nutritious.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-bo-15",
+    "slug": "bo-la-lot",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Bo La Lot",
+    "image": "assets/img/recipes/bo-la-lot.jpg",
+    "short_description": "Beef wrapped in betel leaves. Grilled to perfection.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "betel leaves",
+        "amount": 30,
+        "unit": "pc"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 2,
+        "unit": "stalks"
+      }
+    ],
+    "steps": [
+      "Season beef.",
+      "Wrap in leaves.",
+      "Grill until done.",
+      "Serve with noodles."
+    ],
+    "cooking_tips": [
+      "Use fresh leaves.",
+      "Secure with toothpick.",
+      "Smoky flavor."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "beef",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 24,
+      "fat_g": 18,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "vn-pho-1",
+    "slug": "pho-bo",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Pho Bo",
+    "image": "assets/img/recipes/pho-bo.jpg",
+    "short_description": "Beef noodle soup with aromatic broth. Vietnamese national dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef bones",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "beef sirloin",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Char onion and ginger.",
+      "Simmer broth 3+ hours.",
+      "Cook noodles.",
+      "Top with sliced beef."
+    ],
+    "cooking_tips": [
+      "Clear broth is key.",
+      "Toast spices first.",
+      "Fresh herbs essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "vietnamese",
+      "soup",
+      "beef"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 12,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Protein and minerals from broth.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-banh-2",
+    "slug": "banh-mi",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Banh Mi",
+    "image": "assets/img/recipes/banh-mi.jpg",
+    "short_description": "Vietnamese sandwich with pickled vegetables and pate. French-Vietnamese fusion.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "baguette",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pate",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Prepare pickled vegetables.",
+      "Toast baguette.",
+      "Layer meats and vegetables.",
+      "Add fresh herbs."
+    ],
+    "cooking_tips": [
+      "Bread must be crusty.",
+      "Balance all flavors.",
+      "Fresh cilantro essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "sandwich",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-goi-3",
+    "slug": "goi-cuon",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Goi Cuon",
+    "image": "assets/img/recipes/goi-cuon.jpg",
+    "short_description": "Fresh spring rolls with shrimp and herbs. Light and healthy.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 0,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "rice paper",
+        "amount": 12,
+        "unit": "sheets"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "rice vermicelli",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook shrimp and noodles.",
+      "Prep vegetables.",
+      "Soften rice paper.",
+      "Roll tightly."
+    ],
+    "cooking_tips": [
+      "Do not overfill.",
+      "Moisten paper briefly.",
+      "Serve with peanut sauce."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "rolls",
+      "fresh"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 6,
+      "fat_g": 1,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Low calorie, nutritious.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-bun-4",
+    "slug": "bun-cha",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Bun Cha",
+    "image": "assets/img/recipes/bun-cha.jpg",
+    "short_description": "Grilled pork with noodles and herbs. Hanoi specialty.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork belly",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "rice vermicelli",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate pork.",
+      "Grill until charred.",
+      "Make dipping sauce.",
+      "Serve with noodles and herbs."
+    ],
+    "cooking_tips": [
+      "Charred pork is key.",
+      "Balance fish sauce.",
+      "Lots of fresh herbs."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "pork",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 24,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-com-5",
+    "slug": "com-tam",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Com Tam",
+    "image": "assets/img/recipes/com-tam.jpg",
+    "short_description": "Broken rice with grilled pork chop. Southern comfort food.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "broken rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "pork chops",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate pork.",
+      "Grill until done.",
+      "Cook rice.",
+      "Serve with pickles and sauce."
+    ],
+    "cooking_tips": [
+      "Char the pork.",
+      "Sauce is essential.",
+      "Add egg and skin."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "rice",
+      "pork"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Hearty meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-ca-6",
+    "slug": "ca-kho-to",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Ca Kho To",
+    "image": "assets/img/recipes/ca-kho-to.jpg",
+    "short_description": "Caramelized fish in clay pot. Home-style cooking.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "catfish",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Caramelize sugar.",
+      "Add fish sauce.",
+      "Braise fish in sauce.",
+      "Cook until absorbed."
+    ],
+    "cooking_tips": [
+      "Use clay pot.",
+      "Do not stir too much.",
+      "Sweet-savory balance."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "fish",
+      "braised"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 28,
+      "fat_g": 12,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-banh-7",
+    "slug": "banh-xeo",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Banh Xeo",
+    "image": "assets/img/recipes/banh-xeo.jpg",
+    "short_description": "Crispy rice crepe with pork and shrimp. Eat with fresh vegetables.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "shrimp",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make batter with turmeric.",
+      "Cook crispy crepe.",
+      "Add filling.",
+      "Fold and serve."
+    ],
+    "cooking_tips": [
+      "Very hot pan.",
+      "Crepe must be crispy.",
+      "Wrap in lettuce."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "crepe",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 16,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Balanced nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-bo-8",
+    "slug": "bo-luc-lac",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Bo Luc Lac",
+    "image": "assets/img/recipes/bo-luc-lac.jpg",
+    "short_description": "Shaking beef stir-fry. Tender cubes in savory sauce.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate beef.",
+      "Sear in very hot pan.",
+      "Add garlic and sauce.",
+      "Shake pan while cooking."
+    ],
+    "cooking_tips": [
+      "Very high heat.",
+      "Do not overcrowd.",
+      "Serve on watercress."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "beef",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "High protein, low carb.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "vn-pho-9",
+    "slug": "pho-ga",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Pho Ga",
+    "image": "assets/img/recipes/pho-ga.jpg",
+    "short_description": "Chicken noodle soup. Lighter alternative to beef pho.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole chicken",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ginger",
+        "amount": 2,
+        "unit": "inches"
+      }
+    ],
+    "steps": [
+      "Simmer chicken.",
+      "Make clear broth.",
+      "Cook noodles.",
+      "Shred chicken."
+    ],
+    "cooking_tips": [
+      "Clear broth.",
+      "Do not boil hard.",
+      "Fresh herbs."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "soup",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 30,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Lean protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-che-10",
+    "slug": "che-ba-mau",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Che Ba Mau",
+    "image": "assets/img/recipes/che-ba-mau.jpg",
+    "short_description": "Three-color dessert with beans and jelly. Sweet and refreshing.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "mung beans",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "red beans",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook beans separately.",
+      "Make pandan jelly.",
+      "Layer in glass.",
+      "Top with coconut milk."
+    ],
+    "cooking_tips": [
+      "Beans should be soft.",
+      "Colorful presentation.",
+      "Serve cold."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "dessert",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Natural sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "vn-nem-11",
+    "slug": "nem-ran",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Nem Ran",
+    "image": "assets/img/recipes/nem-ran.jpg",
+    "short_description": "Fried spring rolls. Crispy and golden.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "rice paper",
+        "amount": 20,
+        "unit": "sheets"
+      },
+      {
+        "name": "glass noodles",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make filling.",
+      "Roll tightly.",
+      "Deep fry.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Roll tight.",
+      "Fry at medium heat.",
+      "Drain well."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "fried",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Crispy treat.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-bun-12",
+    "slug": "bun-bo-hue",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Bun Bo Hue",
+    "image": "assets/img/recipes/bun-bo-hue.jpg",
+    "short_description": "Spicy beef noodle soup from Hue. Bold and aromatic.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef shank",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Simmer broth with lemongrass.",
+      "Add shrimp paste.",
+      "Cook noodles.",
+      "Arrange toppings."
+    ],
+    "cooking_tips": [
+      "Spicy broth.",
+      "Use pork leg too.",
+      "Many garnishes."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "vietnamese",
+      "soup",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Warming and hearty.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-xoi-13",
+    "slug": "xoi-man",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Xoi Man",
+    "image": "assets/img/recipes/xoi-man.jpg",
+    "short_description": "Savory sticky rice with toppings. Breakfast staple.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "sticky rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "Chinese sausage",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "fried shallots",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Steam sticky rice.",
+      "Add toppings.",
+      "Drizzle with sauce.",
+      "Serve warm."
+    ],
+    "cooking_tips": [
+      "Rice must be sticky.",
+      "Many topping options.",
+      "Street food classic."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "rice",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Sustained energy.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-canh-14",
+    "slug": "canh-chua",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Canh Chua",
+    "image": "assets/img/recipes/canh-chua.jpg",
+    "short_description": "Sweet and sour soup with fish. Southern specialty.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fish",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pineapple",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tamarind",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make tamarind broth.",
+      "Add pineapple.",
+      "Add fish.",
+      "Garnish with herbs."
+    ],
+    "cooking_tips": [
+      "Balance sweet and sour.",
+      "Do not overcook fish.",
+      "Lots of herbs."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "vietnamese",
+      "soup",
+      "fish"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 28,
+      "fat_g": 6,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Light and nutritious.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "vn-bo-15",
+    "slug": "bo-la-lot",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "name_en": "Bo La Lot",
+    "image": "assets/img/recipes/bo-la-lot.jpg",
+    "short_description": "Beef wrapped in betel leaves. Grilled to perfection.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "betel leaves",
+        "amount": 30,
+        "unit": "pc"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 2,
+        "unit": "stalks"
+      }
+    ],
+    "steps": [
+      "Season beef.",
+      "Wrap in leaves.",
+      "Grill until done.",
+      "Serve with noodles."
+    ],
+    "cooking_tips": [
+      "Use fresh leaves.",
+      "Secure with toothpick.",
+      "Smoky flavor."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "vietnamese",
+      "beef",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 24,
+      "fat_g": 18,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
   }
 ]

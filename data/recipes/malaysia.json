@@ -11,19 +11,71 @@
     "cooking_time_minutes": 40,
     "servings": 4,
     "ingredients": [
-      {"name": "jasmine rice", "amount": 2, "unit": "cups"},
-      {"name": "coconut milk", "amount": 400, "unit": "ml"},
-      {"name": "pandan leaves", "amount": 3, "unit": "leaves"},
-      {"name": "dried anchovies (ikan bilis)", "amount": 100, "unit": "g"},
-      {"name": "roasted peanuts", "amount": 100, "unit": "g"},
-      {"name": "cucumber", "amount": 1, "unit": "medium"},
-      {"name": "eggs", "amount": 4, "unit": "pc"},
-      {"name": "dried chilies", "amount": 15, "unit": "pc"},
-      {"name": "shallots", "amount": 6, "unit": "pc"},
-      {"name": "belacan (shrimp paste)", "amount": 1, "unit": "tbsp"},
-      {"name": "tamarind paste", "amount": 1, "unit": "tbsp"},
-      {"name": "sugar", "amount": 2, "unit": "tbsp"},
-      {"name": "salt", "amount": 1, "unit": "tsp"}
+      {
+        "name": "jasmine rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "pandan leaves",
+        "amount": 3,
+        "unit": "leaves"
+      },
+      {
+        "name": "dried anchovies (ikan bilis)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "roasted peanuts",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 15,
+        "unit": "pc"
+      },
+      {
+        "name": "shallots",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "belacan (shrimp paste)",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Rinse rice and cook with coconut milk, pandan leaves, and salt in rice cooker.",
@@ -43,7 +95,14 @@
       "Serve with rendang or fried chicken for a complete meal."
     ],
     "difficulty": "medium",
-    "tags": ["malaysian", "rice", "coconut", "breakfast", "national-dish", "sambal"],
+    "tags": [
+      "malaysian",
+      "rice",
+      "coconut",
+      "breakfast",
+      "national-dish",
+      "sambal"
+    ],
     "nutrition": {
       "per_serving_kcal": 580,
       "protein_g": 18,
@@ -66,19 +125,71 @@
     "cooking_time_minutes": 180,
     "servings": 6,
     "ingredients": [
-      {"name": "beef chuck (cubed)", "amount": 1, "unit": "kg"},
-      {"name": "coconut milk", "amount": 800, "unit": "ml"},
-      {"name": "toasted coconut (kerisik)", "amount": 100, "unit": "g"},
-      {"name": "lemongrass", "amount": 4, "unit": "stalks"},
-      {"name": "galangal", "amount": 50, "unit": "g"},
-      {"name": "dried chilies", "amount": 15, "unit": "pc"},
-      {"name": "shallots", "amount": 10, "unit": "pc"},
-      {"name": "garlic", "amount": 8, "unit": "cloves"},
-      {"name": "ginger", "amount": 30, "unit": "g"},
-      {"name": "turmeric powder", "amount": 1, "unit": "tbsp"},
-      {"name": "palm sugar", "amount": 3, "unit": "tbsp"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "kaffir lime leaves", "amount": 6, "unit": "leaves"}
+      {
+        "name": "beef chuck (cubed)",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "toasted coconut (kerisik)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 4,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 15,
+        "unit": "pc"
+      },
+      {
+        "name": "shallots",
+        "amount": 10,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 8,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "turmeric powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "kaffir lime leaves",
+        "amount": 6,
+        "unit": "leaves"
+      }
     ],
     "steps": [
       "Blend soaked chilies, shallots, garlic, ginger, and galangal into smooth paste.",
@@ -98,7 +209,15 @@
       "Rendang improves with time - it's even better the next day."
     ],
     "difficulty": "hard",
-    "tags": ["malaysian", "beef", "curry", "coconut", "dinner", "festive", "slow-cooked"],
+    "tags": [
+      "malaysian",
+      "beef",
+      "curry",
+      "coconut",
+      "dinner",
+      "festive",
+      "slow-cooked"
+    ],
     "nutrition": {
       "per_serving_kcal": 620,
       "protein_g": 42,
@@ -121,18 +240,66 @@
     "cooking_time_minutes": 45,
     "servings": 4,
     "ingredients": [
-      {"name": "rice noodles (laksa noodles)", "amount": 400, "unit": "g"},
-      {"name": "coconut milk", "amount": 400, "unit": "ml"},
-      {"name": "chicken stock", "amount": 1, "unit": "liter"},
-      {"name": "shrimp", "amount": 300, "unit": "g"},
-      {"name": "tofu puffs", "amount": 200, "unit": "g"},
-      {"name": "bean sprouts", "amount": 200, "unit": "g"},
-      {"name": "laksa paste", "amount": 4, "unit": "tbsp"},
-      {"name": "dried shrimp", "amount": 50, "unit": "g"},
-      {"name": "hard-boiled eggs", "amount": 4, "unit": "pc"},
-      {"name": "Vietnamese mint (laksa leaves)", "amount": 1, "unit": "bunch"},
-      {"name": "fish sauce", "amount": 2, "unit": "tbsp"},
-      {"name": "palm sugar", "amount": 1, "unit": "tbsp"}
+      {
+        "name": "rice noodles (laksa noodles)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "chicken stock",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "shrimp",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tofu puffs",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "laksa paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried shrimp",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "hard-boiled eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "Vietnamese mint (laksa leaves)",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fish sauce",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Soak dried shrimp in hot water, then blend into paste.",
@@ -152,7 +319,15 @@
       "Adjust spiciness with sambal at the table."
     ],
     "difficulty": "medium",
-    "tags": ["malaysian", "soup", "noodles", "coconut", "curry", "lunch", "seafood"],
+    "tags": [
+      "malaysian",
+      "soup",
+      "noodles",
+      "coconut",
+      "curry",
+      "lunch",
+      "seafood"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 28,
@@ -175,18 +350,66 @@
     "cooking_time_minutes": 20,
     "servings": 4,
     "ingredients": [
-      {"name": "chicken thigh (boneless)", "amount": 600, "unit": "g"},
-      {"name": "lemongrass", "amount": 2, "unit": "stalks"},
-      {"name": "turmeric powder", "amount": 2, "unit": "tsp"},
-      {"name": "coriander powder", "amount": 1, "unit": "tbsp"},
-      {"name": "cumin powder", "amount": 1, "unit": "tsp"},
-      {"name": "roasted peanuts", "amount": 200, "unit": "g"},
-      {"name": "coconut milk", "amount": 200, "unit": "ml"},
-      {"name": "palm sugar", "amount": 3, "unit": "tbsp"},
-      {"name": "tamarind paste", "amount": 2, "unit": "tbsp"},
-      {"name": "dried chilies", "amount": 5, "unit": "pc"},
-      {"name": "shallots", "amount": 4, "unit": "pc"},
-      {"name": "bamboo skewers", "amount": 20, "unit": "pc"}
+      {
+        "name": "chicken thigh (boneless)",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "turmeric powder",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "roasted peanuts",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 5,
+        "unit": "pc"
+      },
+      {
+        "name": "shallots",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bamboo skewers",
+        "amount": 20,
+        "unit": "pc"
+      }
     ],
     "steps": [
       "Soak bamboo skewers in water for 30 minutes.",
@@ -206,7 +429,14 @@
       "Keep some marinade aside for basting while grilling."
     ],
     "difficulty": "medium",
-    "tags": ["malaysian", "chicken", "grilled", "peanut", "street-food", "appetizer"],
+    "tags": [
+      "malaysian",
+      "chicken",
+      "grilled",
+      "peanut",
+      "street-food",
+      "appetizer"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 35,
@@ -229,16 +459,56 @@
     "cooking_time_minutes": 20,
     "servings": 4,
     "ingredients": [
-      {"name": "all-purpose flour", "amount": 3, "unit": "cups"},
-      {"name": "condensed milk", "amount": 2, "unit": "tbsp"},
-      {"name": "ghee or butter", "amount": 100, "unit": "g"},
-      {"name": "salt", "amount": 1, "unit": "tsp"},
-      {"name": "yellow lentils (for dhal)", "amount": 1, "unit": "cup"},
-      {"name": "coconut milk", "amount": 200, "unit": "ml"},
-      {"name": "curry powder", "amount": 2, "unit": "tbsp"},
-      {"name": "onion", "amount": 1, "unit": "medium"},
-      {"name": "garlic", "amount": 3, "unit": "cloves"},
-      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"}
+      {
+        "name": "all-purpose flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "condensed milk",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ghee or butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "yellow lentils (for dhal)",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "curry powder",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Mix flour, salt, condensed milk, and enough water to form soft dough.",
@@ -258,7 +528,13 @@
       "A hot griddle is essential for the crispy-soft texture."
     ],
     "difficulty": "hard",
-    "tags": ["malaysian", "flatbread", "breakfast", "vegetarian", "indian-influence"],
+    "tags": [
+      "malaysian",
+      "flatbread",
+      "breakfast",
+      "vegetarian",
+      "indian-influence"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 12,
@@ -266,6 +542,1654 @@
       "carbs_g": 54
     },
     "nutrition_benefits": "Roti Canai paired with dhal provides complete protein. Lentils add fiber, iron, and B vitamins. The dish offers sustained energy from complex carbohydrates. Coconut milk provides medium-chain triglycerides.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "my-nasi-lemak-1",
+    "slug": "nasi-lemak-ayam",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Nasi Lemak with Fried Chicken",
+    "image": "assets/img/recipes/nasi-lemak-ayam.jpg",
+    "short_description": "Coconut rice with crispy fried chicken, sambal, and accompaniments. The complete national dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "chicken",
+        "amount": 800,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook rice with coconut milk.",
+      "Fry chicken until crispy.",
+      "Make sambal.",
+      "Arrange with eggs, peanuts, anchovies."
+    ],
+    "cooking_tips": [
+      "Pandan adds fragrance.",
+      "Chicken must be crispy.",
+      "Sambal is essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "rice",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete protein meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-satay-2",
+    "slug": "satay-ayam",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Chicken Satay",
+    "image": "assets/img/recipes/satay-ayam.jpg",
+    "short_description": "Grilled chicken skewers with peanut sauce. Street food classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "peanuts",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Thread on skewers.",
+      "Grill over charcoal.",
+      "Serve with peanut sauce."
+    ],
+    "cooking_tips": [
+      "Marinate overnight.",
+      "Baste while grilling.",
+      "Charcoal adds flavor."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "grilled",
+      "peanut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 24,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from chicken and peanuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-char-kuey-3",
+    "slug": "char-kuey-teow",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Char Kuey Teow",
+    "image": "assets/img/recipes/char-kuey-teow.jpg",
+    "short_description": "Stir-fried flat rice noodles with prawns and Chinese sausage. Smoky wok hei flavor.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "flat rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "prawns",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Heat wok very hot.",
+      "Stir-fry noodles quickly.",
+      "Add prawns and eggs.",
+      "Add bean sprouts last."
+    ],
+    "cooking_tips": [
+      "High heat is crucial.",
+      "Work quickly.",
+      "Wok hei is key."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "malaysian",
+      "noodles",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Balanced meal with seafood.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-laksa-4",
+    "slug": "laksa",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Curry Laksa",
+    "image": "assets/img/recipes/laksa.jpg",
+    "short_description": "Spicy coconut noodle soup with prawns and chicken. Rich and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "curry paste",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make curry broth.",
+      "Add coconut milk.",
+      "Cook noodles.",
+      "Top with prawns, tofu, eggs."
+    ],
+    "cooking_tips": [
+      "Use fresh laksa paste.",
+      "Balance spicy and creamy.",
+      "Many regional varieties."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "soup",
+      "coconut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 24,
+      "fat_g": 28,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Rich in protein and fats.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-rendang-5",
+    "slug": "rendang-ayam",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Chicken Rendang",
+    "image": "assets/img/recipes/rendang-ayam.jpg",
+    "short_description": "Dry curry with tender chicken in spiced coconut. Celebratory dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "rendang paste",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Simmer chicken in spices.",
+      "Add coconut milk.",
+      "Cook until dry.",
+      "Coat chicken in thick sauce."
+    ],
+    "cooking_tips": [
+      "Low and slow cooking.",
+      "Should be almost dry.",
+      "Flavor improves overnight."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "malaysian",
+      "curry",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-roti-6",
+    "slug": "roti-canai",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Roti Canai",
+    "image": "assets/img/recipes/roti-canai.jpg",
+    "short_description": "Flaky flatbread served with curry. Breakfast favorite.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Make soft dough.",
+      "Rest overnight.",
+      "Stretch and fold.",
+      "Cook on griddle."
+    ],
+    "cooking_tips": [
+      "Dough must be very soft.",
+      "Flip technique is key.",
+      "Serve with dhal."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "malaysian",
+      "bread",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Energy from carbs.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "my-mee-7",
+    "slug": "mee-goreng",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Mee Goreng Mamak",
+    "image": "assets/img/recipes/mee-goreng.jpg",
+    "short_description": "Spicy fried noodles with egg and vegetables. Street food staple.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "yellow noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Stir-fry noodles.",
+      "Add eggs.",
+      "Add tofu and vegetables.",
+      "Season with sauce."
+    ],
+    "cooking_tips": [
+      "High heat.",
+      "Sweet and spicy balance.",
+      "Top with lime."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "noodles",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 16,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Quick energy meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "my-ayam-8",
+    "slug": "ayam-percik",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Ayam Percik",
+    "image": "assets/img/recipes/ayam-percik.jpg",
+    "short_description": "Grilled chicken with spiced coconut glaze. Kelantan specialty.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "chili paste",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Grill while basting.",
+      "Make coconut sauce.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Baste frequently.",
+      "Charcoal adds flavor.",
+      "Sauce should be rich."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "grilled",
+      "coconut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-nasi-9",
+    "slug": "nasi-goreng-malaysia",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Malaysian Nasi Goreng",
+    "image": "assets/img/recipes/nasi-goreng-malaysia.jpg",
+    "short_description": "Spicy fried rice with shrimp paste. Served with fried egg.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "belacan",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Stir-fry rice.",
+      "Add belacan.",
+      "Top with fried egg."
+    ],
+    "cooking_tips": [
+      "Use day-old rice.",
+      "Belacan adds depth.",
+      "Garnish with cucumber."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "rice",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 14,
+      "fat_g": 16,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Quick and satisfying.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-cendol-10",
+    "slug": "cendol-malaysia",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Malaysian Cendol",
+    "image": "assets/img/recipes/cendol-malaysia.jpg",
+    "short_description": "Shaved ice with green jelly, coconut milk, and palm sugar. Refreshing dessert.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make green jelly noodles.",
+      "Shave ice.",
+      "Layer with coconut milk.",
+      "Drizzle palm sugar."
+    ],
+    "cooking_tips": [
+      "Cendol should be chewy.",
+      "Thick coconut milk.",
+      "Balance sweet and creamy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "dessert",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 3,
+      "fat_g": 12,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Refreshing treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "my-asam-11",
+    "slug": "asam-laksa",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Asam Laksa",
+    "image": "assets/img/recipes/asam-laksa.jpg",
+    "short_description": "Sour fish noodle soup from Penang. Tangy and refreshing.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mackerel",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tamarind",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Poach fish.",
+      "Make tamarind broth.",
+      "Flake fish into soup.",
+      "Serve with noodles."
+    ],
+    "cooking_tips": [
+      "Use fresh mackerel.",
+      "Balance sour and spicy.",
+      "Garnish with mint."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "soup",
+      "fish"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 12,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-sambal-12",
+    "slug": "sambal-udang",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Sambal Udang",
+    "image": "assets/img/recipes/sambal-udang.jpg",
+    "short_description": "Prawns in spicy sambal sauce. Classic home-cooked dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "prawns",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sambal paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tamarind",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook sambal paste.",
+      "Add prawns.",
+      "Season with tamarind.",
+      "Stir until coated."
+    ],
+    "cooking_tips": [
+      "Do not overcook prawns.",
+      "Sambal should be fragrant.",
+      "Serve with rice."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "prawns",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 28,
+      "fat_g": 10,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Low carb, high protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-kuih-13",
+    "slug": "kuih-lapis",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Kuih Lapis",
+    "image": "assets/img/recipes/kuih-lapis.jpg",
+    "short_description": "Rainbow layered steamed cake. Sweet and chewy.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "sugar",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make batter.",
+      "Steam layer by layer.",
+      "Add coloring to each layer.",
+      "Cool and slice."
+    ],
+    "cooking_tips": [
+      "Each layer must set.",
+      "Patience is key.",
+      "Colorful presentation."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "malaysian",
+      "dessert",
+      "steamed"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 1,
+      "fat_g": 4,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Festive treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "my-bak-14",
+    "slug": "bak-kut-teh",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Bak Kut Teh",
+    "image": "assets/img/recipes/bak-kut-teh.jpg",
+    "short_description": "Herbal pork rib soup. Traditional Chinese-Malaysian dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork ribs",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "herbal packet",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 1,
+        "unit": "head"
+      }
+    ],
+    "steps": [
+      "Blanch ribs.",
+      "Simmer with herbs.",
+      "Cook until tender.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Long simmering extracts flavor.",
+      "Dip in soy sauce.",
+      "Drink as tonic."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "pork",
+      "soup"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-kaya-15",
+    "slug": "kaya-toast",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Kaya Toast",
+    "image": "assets/img/recipes/kaya-toast.jpg",
+    "short_description": "Toast with coconut jam and butter. Classic breakfast.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "bread",
+        "amount": 4,
+        "unit": "slices"
+      },
+      {
+        "name": "kaya",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "butter",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Toast bread.",
+      "Spread kaya.",
+      "Add butter.",
+      "Serve with coffee."
+    ],
+    "cooking_tips": [
+      "Toast until crispy.",
+      "Generous kaya.",
+      "Perfect with soft-boiled eggs."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "breakfast",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 4,
+      "fat_g": 16,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Quick breakfast energy.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "my-nasi-lemak-1",
+    "slug": "nasi-lemak-ayam",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Nasi Lemak with Fried Chicken",
+    "image": "assets/img/recipes/nasi-lemak-ayam.jpg",
+    "short_description": "Coconut rice with crispy fried chicken, sambal, and accompaniments. The complete national dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "chicken",
+        "amount": 800,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook rice with coconut milk.",
+      "Fry chicken until crispy.",
+      "Make sambal.",
+      "Arrange with eggs, peanuts, anchovies."
+    ],
+    "cooking_tips": [
+      "Pandan adds fragrance.",
+      "Chicken must be crispy.",
+      "Sambal is essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "rice",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete protein meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-satay-2",
+    "slug": "satay-ayam",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Chicken Satay",
+    "image": "assets/img/recipes/satay-ayam.jpg",
+    "short_description": "Grilled chicken skewers with peanut sauce. Street food classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "peanuts",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Thread on skewers.",
+      "Grill over charcoal.",
+      "Serve with peanut sauce."
+    ],
+    "cooking_tips": [
+      "Marinate overnight.",
+      "Baste while grilling.",
+      "Charcoal adds flavor."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "grilled",
+      "peanut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 24,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from chicken and peanuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-char-kuey-3",
+    "slug": "char-kuey-teow",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Char Kuey Teow",
+    "image": "assets/img/recipes/char-kuey-teow.jpg",
+    "short_description": "Stir-fried flat rice noodles with prawns and Chinese sausage. Smoky wok hei flavor.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 10,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "flat rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "prawns",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Heat wok very hot.",
+      "Stir-fry noodles quickly.",
+      "Add prawns and eggs.",
+      "Add bean sprouts last."
+    ],
+    "cooking_tips": [
+      "High heat is crucial.",
+      "Work quickly.",
+      "Wok hei is key."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "malaysian",
+      "noodles",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Balanced meal with seafood.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-laksa-4",
+    "slug": "laksa",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Curry Laksa",
+    "image": "assets/img/recipes/laksa.jpg",
+    "short_description": "Spicy coconut noodle soup with prawns and chicken. Rich and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "curry paste",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make curry broth.",
+      "Add coconut milk.",
+      "Cook noodles.",
+      "Top with prawns, tofu, eggs."
+    ],
+    "cooking_tips": [
+      "Use fresh laksa paste.",
+      "Balance spicy and creamy.",
+      "Many regional varieties."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "soup",
+      "coconut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 24,
+      "fat_g": 28,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Rich in protein and fats.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-rendang-5",
+    "slug": "rendang-ayam",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Chicken Rendang",
+    "image": "assets/img/recipes/rendang-ayam.jpg",
+    "short_description": "Dry curry with tender chicken in spiced coconut. Celebratory dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "rendang paste",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Simmer chicken in spices.",
+      "Add coconut milk.",
+      "Cook until dry.",
+      "Coat chicken in thick sauce."
+    ],
+    "cooking_tips": [
+      "Low and slow cooking.",
+      "Should be almost dry.",
+      "Flavor improves overnight."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "malaysian",
+      "curry",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-roti-6",
+    "slug": "roti-canai",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Roti Canai",
+    "image": "assets/img/recipes/roti-canai.jpg",
+    "short_description": "Flaky flatbread served with curry. Breakfast favorite.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Make soft dough.",
+      "Rest overnight.",
+      "Stretch and fold.",
+      "Cook on griddle."
+    ],
+    "cooking_tips": [
+      "Dough must be very soft.",
+      "Flip technique is key.",
+      "Serve with dhal."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "malaysian",
+      "bread",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Energy from carbs.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "my-mee-7",
+    "slug": "mee-goreng",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Mee Goreng Mamak",
+    "image": "assets/img/recipes/mee-goreng.jpg",
+    "short_description": "Spicy fried noodles with egg and vegetables. Street food staple.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "yellow noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Stir-fry noodles.",
+      "Add eggs.",
+      "Add tofu and vegetables.",
+      "Season with sauce."
+    ],
+    "cooking_tips": [
+      "High heat.",
+      "Sweet and spicy balance.",
+      "Top with lime."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "noodles",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 16,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Quick energy meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "my-ayam-8",
+    "slug": "ayam-percik",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Ayam Percik",
+    "image": "assets/img/recipes/ayam-percik.jpg",
+    "short_description": "Grilled chicken with spiced coconut glaze. Kelantan specialty.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "chili paste",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Grill while basting.",
+      "Make coconut sauce.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Baste frequently.",
+      "Charcoal adds flavor.",
+      "Sauce should be rich."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "grilled",
+      "coconut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-nasi-9",
+    "slug": "nasi-goreng-malaysia",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Malaysian Nasi Goreng",
+    "image": "assets/img/recipes/nasi-goreng-malaysia.jpg",
+    "short_description": "Spicy fried rice with shrimp paste. Served with fried egg.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "belacan",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Stir-fry rice.",
+      "Add belacan.",
+      "Top with fried egg."
+    ],
+    "cooking_tips": [
+      "Use day-old rice.",
+      "Belacan adds depth.",
+      "Garnish with cucumber."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "rice",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 14,
+      "fat_g": 16,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Quick and satisfying.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-cendol-10",
+    "slug": "cendol-malaysia",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Malaysian Cendol",
+    "image": "assets/img/recipes/cendol-malaysia.jpg",
+    "short_description": "Shaved ice with green jelly, coconut milk, and palm sugar. Refreshing dessert.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make green jelly noodles.",
+      "Shave ice.",
+      "Layer with coconut milk.",
+      "Drizzle palm sugar."
+    ],
+    "cooking_tips": [
+      "Cendol should be chewy.",
+      "Thick coconut milk.",
+      "Balance sweet and creamy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "dessert",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 3,
+      "fat_g": 12,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Refreshing treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "my-asam-11",
+    "slug": "asam-laksa",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Asam Laksa",
+    "image": "assets/img/recipes/asam-laksa.jpg",
+    "short_description": "Sour fish noodle soup from Penang. Tangy and refreshing.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "mackerel",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tamarind",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Poach fish.",
+      "Make tamarind broth.",
+      "Flake fish into soup.",
+      "Serve with noodles."
+    ],
+    "cooking_tips": [
+      "Use fresh mackerel.",
+      "Balance sour and spicy.",
+      "Garnish with mint."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "malaysian",
+      "soup",
+      "fish"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 12,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-sambal-12",
+    "slug": "sambal-udang",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Sambal Udang",
+    "image": "assets/img/recipes/sambal-udang.jpg",
+    "short_description": "Prawns in spicy sambal sauce. Classic home-cooked dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "prawns",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sambal paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tamarind",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook sambal paste.",
+      "Add prawns.",
+      "Season with tamarind.",
+      "Stir until coated."
+    ],
+    "cooking_tips": [
+      "Do not overcook prawns.",
+      "Sambal should be fragrant.",
+      "Serve with rice."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "prawns",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 28,
+      "fat_g": 10,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Low carb, high protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-kuih-13",
+    "slug": "kuih-lapis",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Kuih Lapis",
+    "image": "assets/img/recipes/kuih-lapis.jpg",
+    "short_description": "Rainbow layered steamed cake. Sweet and chewy.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "sugar",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make batter.",
+      "Steam layer by layer.",
+      "Add coloring to each layer.",
+      "Cool and slice."
+    ],
+    "cooking_tips": [
+      "Each layer must set.",
+      "Patience is key.",
+      "Colorful presentation."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "malaysian",
+      "dessert",
+      "steamed"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 1,
+      "fat_g": 4,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Festive treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "my-bak-14",
+    "slug": "bak-kut-teh",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Bak Kut Teh",
+    "image": "assets/img/recipes/bak-kut-teh.jpg",
+    "short_description": "Herbal pork rib soup. Traditional Chinese-Malaysian dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork ribs",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "herbal packet",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 1,
+        "unit": "head"
+      }
+    ],
+    "steps": [
+      "Blanch ribs.",
+      "Simmer with herbs.",
+      "Cook until tender.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Long simmering extracts flavor.",
+      "Dip in soy sauce.",
+      "Drink as tonic."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "pork",
+      "soup"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 28,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "my-kaya-15",
+    "slug": "kaya-toast",
+    "country": "Malaysia",
+    "country_slug": "malaysia",
+    "name_en": "Kaya Toast",
+    "image": "assets/img/recipes/kaya-toast.jpg",
+    "short_description": "Toast with coconut jam and butter. Classic breakfast.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "bread",
+        "amount": 4,
+        "unit": "slices"
+      },
+      {
+        "name": "kaya",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "butter",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Toast bread.",
+      "Spread kaya.",
+      "Add butter.",
+      "Serve with coffee."
+    ],
+    "cooking_tips": [
+      "Toast until crispy.",
+      "Generous kaya.",
+      "Perfect with soft-boiled eggs."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "malaysian",
+      "breakfast",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 4,
+      "fat_g": 16,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Quick breakfast energy.",
     "mealType": "Breakfast",
     "dietaryStyle": "Vegetarian"
   }
