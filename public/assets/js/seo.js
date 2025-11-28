@@ -1,5 +1,5 @@
 /**
- * Chefpedia - SEO Module
+ * ChefSense - SEO Module
  * Handles dynamic meta tags, Schema.org structured data, and Open Graph tags
  */
 
@@ -12,7 +12,7 @@ const SEO = {
   /**
    * Default author for recipes
    */
-  DEFAULT_AUTHOR: 'Chefpedia Team',
+  DEFAULT_AUTHOR: 'ChefSense Team',
 
   /**
    * Update page meta tags
@@ -57,7 +57,7 @@ const SEO = {
     if (ogImage) {
       this.setMetaProperty('og:image', ogImage);
     }
-    this.setMetaProperty('og:site_name', 'Chefpedia');
+    this.setMetaProperty('og:site_name', 'ChefSense');
 
     // Twitter Card tags
     this.setMetaName('twitter:card', twitterCard);
@@ -263,7 +263,7 @@ const SEO = {
 
     // Update meta tags
     this.updateMeta({
-      title: `${recipe.name_en} Recipe - ${recipe.country} Cuisine | Chefpedia`,
+      title: `${recipe.name_en} Recipe - ${recipe.country} Cuisine | ChefSense`,
       description: `Learn how to make ${recipe.name_en}, a delicious ${recipe.country} dish. ${recipe.short_description.substring(0, 120)}...`,
       canonicalUrl: canonicalUrl,
       ogType: 'article',
@@ -315,7 +315,7 @@ const SEO = {
       `Explore authentic ${countryName} recipes and traditional dishes. Discover the flavors and culinary traditions of ${countryName} cuisine.`;
 
     this.updateMeta({
-      title: `${countryName} Recipes - Authentic ${countryName} Food | Chefpedia`,
+      title: `${countryName} Recipes - Authentic ${countryName} Food | ChefSense`,
       description: description,
       canonicalUrl: canonicalUrl,
       ogTitle: `${countryName} Recipes - Traditional ${countryName} Cuisine`,
@@ -331,10 +331,10 @@ const SEO = {
     const canonicalUrl = `${this.BASE_URL}/index.html`;
     
     this.updateMeta({
-      title: 'Chefpedia - Global Recipe Library | World Cuisine Recipes',
+      title: 'ChefSense - Global Recipe Library | World Cuisine Recipes',
       description: 'Explore authentic recipes from around the world. From Italian pasta to Japanese ramen, Mexican tacos to Indian curry. Your free global recipe library with step-by-step instructions.',
       canonicalUrl: canonicalUrl,
-      ogTitle: 'Chefpedia - Discover World Cuisine',
+      ogTitle: 'ChefSense - Discover World Cuisine',
       ogDescription: 'Explore authentic recipes from over 20 countries. Free global recipe library with step-by-step cooking instructions.',
       keywords: 'recipes, world cuisine, global recipes, cooking, international food, recipe library, Italian recipes, Japanese recipes, Mexican recipes, Indian recipes'
     });
@@ -343,7 +343,7 @@ const SEO = {
     const websiteSchema = {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      'name': 'Chefpedia',
+      'name': 'ChefSense',
       'description': 'A free, open-source global recipe library with authentic recipes from around the world.',
       'url': this.BASE_URL,
       'potentialAction': {
@@ -362,10 +362,10 @@ const SEO = {
     const canonicalUrl = `${this.BASE_URL}/favorites.html`;
     
     this.updateMeta({
-      title: 'My Favorite Recipes | Chefpedia',
-      description: 'View and manage your saved favorite recipes from Chefpedia. Quick access to your personal collection of world cuisine recipes.',
+      title: 'My Favorite Recipes | ChefSense',
+      description: 'View and manage your saved favorite recipes from ChefSense. Quick access to your personal collection of world cuisine recipes.',
       canonicalUrl: canonicalUrl,
-      ogTitle: 'My Favorite Recipes - Chefpedia',
+      ogTitle: 'My Favorite Recipes - ChefSense',
       ogDescription: 'Your personal collection of saved recipes from around the world.',
       keywords: 'favorite recipes, saved recipes, recipe collection, cookbook'
     });
@@ -378,7 +378,7 @@ const SEO = {
     const canonicalUrl = `${this.BASE_URL}/assistant.html`;
     
     this.updateMeta({
-      title: 'AI Chef Assistant - Recipe Search & Cooking Help | Chefpedia',
+      title: 'AI Chef Assistant - Recipe Search & Cooking Help | ChefSense',
       description: 'Get cooking help from our AI Chef Assistant. Search recipes by ingredients, country or difficulty. Get step-by-step guidance, ingredient substitutions and nutrition information.',
       canonicalUrl: canonicalUrl,
       ogTitle: 'AI Chef Assistant - Your Personal Cooking Guide',

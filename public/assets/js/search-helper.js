@@ -1,5 +1,5 @@
 /**
- * Chefpedia - Shared Search Helper Module
+ * ChefSense - Shared Search Helper Module
  * Central place for recipe search, filtering, and matching logic
  */
 
@@ -61,6 +61,85 @@ const RecipeSearch = {
     });
 
     return score;
+  },
+
+  /**
+   * Extract ingredient-like tokens from free-form text
+   */
+  extractIngredientTokens(text) {
+    if (!text) return [];
+    const normalized = text
+      .toLowerCase()
+      .replace(/[^a-z\s,]/g, ' ');
+
+    const parts = normalized
+      .split(/[,]|\band\b|\bwith\b|\bonly\b|\bplus\b|\busing\b|\bhave\b|\bhave got\b/)
+      .map(p => p.trim())
+      .filter(Boolean);
+
+    const stopwords = new Set(['i', 'have', 'with', 'only', 'just', 'some', 'and', 'or', 'a', 'an', 'the', 'few']);
+    const tokens = new Set();
+
+    parts.forEach(part => {
+      part.split(/\s+/).forEach(token => {
+        if (token.length < 3 || stopwords.has(token)) return;
+        tokens.add(token);
+      });
+    });
+
+    return Array.from(tokens);
+  },
+
+  /**
+   * Score a recipe based on ingredient overlap and optional context
+   */
+  scoreByIngredients(recipe, ingredients, context = {}) {
+    const recipeIngredients = (recipe.ingredients || []).map(i => (i.name || '').toLowerCase());
+    let score = 0;
+    const matched = new Set();
+
+    ingredients.forEach(token => {
+      if (!token) return;
+      if (recipeIngredients.some(ing => ing.includes(token))) {
+        score += 3;
+        matched.add(token);
+      }
+    });
+
+    if (context.mealType && recipe.mealType && recipe.mealType.toLowerCase().includes(context.mealType)) {
+      score += 2;
+    }
+
+    if (context.diet && recipe.dietaryStyle && recipe.dietaryStyle.toLowerCase().includes(context.diet)) {
+      score += 2;
+    }
+
+    if (context.tags && context.tags.length) {
+      context.tags.forEach(tag => {
+        if (recipe.tags.some(t => t.toLowerCase().includes(tag))) {
+          score += 1;
+        }
+      });
+    }
+
+    return { score, matchedIngredients: Array.from(matched) };
+  },
+
+  /**
+   * Find best recipe matches given ingredient tokens
+   */
+  findMatchesByIngredients(recipes, ingredients, options = {}) {
+    const limit = options.limit || 5;
+    const context = options.context || {};
+
+    return recipes
+      .map(recipe => {
+        const { score, matchedIngredients } = this.scoreByIngredients(recipe, ingredients, context);
+        return { ...recipe, matchScore: score, matchedIngredients };
+      })
+      .filter(r => r.matchScore > 0)
+      .sort((a, b) => b.matchScore - a.matchScore)
+      .slice(0, limit);
   },
 
   /**

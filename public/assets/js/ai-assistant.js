@@ -8,9 +8,10 @@ const ChefSense = {
   currentRecipe: null,
   conversationHistory: [],
   isLoading: false,
-  isListening: false,
   isSpeaking: false,
-  recognition: null,
+  lang: window.AppLang || 'en',
+  speechSupported: 'speechSynthesis' in window,
+  voices: [],
   chatContainer: null,
   elements: {},
   anchor: null,
@@ -20,7 +21,7 @@ const ChefSense = {
   async init() {
     await this.prepareChatContainer();
     this.cacheElements();
-    this.setupVoiceFeatures();
+    await this.setupVoiceFeatures();
     this.bindEvents();
 
     this.recipes = await RecipeBank.fetchRecipes();
@@ -70,7 +71,6 @@ const ChefSense = {
         <div class="chat-input-area">
           <div class="chat-input-wrapper">
             <input type="text" id="chat-input" placeholder="Ask for recipes, steps, or substitutions..." autocomplete="off" aria-label="ChefSense chat input">
-            <button type="button" class="mic-button" data-voice-input aria-label="Start voice input">🎙️</button>
             <button type="button" id="send-button" class="send-button" aria-label="Send message"><span>➤</span></button>
           </div>
           <p class="voice-fallback" data-voice-fallback aria-live="polite"></p>
@@ -115,7 +115,6 @@ const ChefSense = {
     this.elements.messages = document.getElementById('chat-messages');
     this.elements.input = document.getElementById('chat-input');
     this.elements.sendButton = document.getElementById('send-button');
-    this.elements.voiceInput = this.chatContainer.querySelector('[data-voice-input]');
     this.elements.voiceToggle = this.chatContainer.querySelector('[data-voice-output-toggle]');
     this.elements.voiceStatus = this.chatContainer.querySelector('[data-voice-status]');
     this.elements.voiceFallback = this.chatContainer.querySelector('[data-voice-fallback]');
@@ -137,49 +136,42 @@ const ChefSense = {
         this.handleSend();
       });
     });
-  },
 
-  setupVoiceFeatures() {
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (SpeechRecognition) {
-      this.recognition = new SpeechRecognition();
-      this.recognition.lang = 'en-US';
-      this.recognition.interimResults = false;
-      this.recognition.onresult = (event) => {
-        const transcript = event.results[0][0].transcript;
-        this.elements.input.value = transcript;
-        this.isListening = false;
-        this.elements.voiceInput?.classList.remove('listening');
-        this.handleSend();
-      };
-      this.recognition.onstart = () => {
-        this.isListening = true;
-        this.elements.voiceInput?.classList.add('listening');
-      };
-      this.recognition.onend = () => {
-        this.isListening = false;
-        this.elements.voiceInput?.classList.remove('listening');
-      };
-    } else if (this.elements.voiceFallback) {
-      this.elements.voiceFallback.textContent = 'Voice input not supported in this browser. You can still type to chat with ChefSense.';
-      this.elements.voiceInput?.setAttribute('disabled', 'disabled');
-    }
-
-    this.elements.voiceInput?.addEventListener('click', () => {
-      if (!this.recognition) return;
-      if (this.isListening) {
-        this.recognition.stop();
-      } else {
-        this.recognition.start();
+    this.elements.messages?.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-speak-text]');
+      if (button) {
+        const text = button.getAttribute('data-speak-text');
+        const lang = button.getAttribute('data-lang') || this.lang;
+        this.speakText(text, lang);
       }
     });
+  },
 
-    this.isSpeaking = false;
+  async setupVoiceFeatures() {
+    if (!this.speechSupported) {
+      this.elements.voiceToggle?.classList.add('is-hidden');
+      this.elements.voiceStatus?.classList.add('is-hidden');
+      if (this.elements.voiceFallback) {
+        this.elements.voiceFallback.textContent = 'Voice playback is not supported in this browser.';
+      }
+      return;
+    }
+
+    const loadVoices = () => {
+      this.voices = window.speechSynthesis.getVoices();
+    };
+
+    loadVoices();
+    if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !== undefined) {
+      speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
+    this.isSpeaking = true;
     this.elements.voiceToggle?.addEventListener('click', () => {
       this.isSpeaking = !this.isSpeaking;
       this.elements.voiceToggle.textContent = this.isSpeaking ? '🔊' : '🔈';
       this.elements.voiceToggle.setAttribute('aria-pressed', this.isSpeaking.toString());
-      this.elements.voiceStatus.textContent = this.isSpeaking ? 'Voice replies on' : 'Voice replies off';
+      this.elements.voiceStatus.textContent = this.isSpeaking ? 'Voice replies on' : 'Voice replies muted';
     });
   },
 
@@ -202,7 +194,7 @@ const ChefSense = {
   showWelcome() {
     const welcome = `## 👋 Welcome to ChefSense
 
-I blend master chef expertise with nutrition insight for **${this.recipes.length} real recipes**. Ask me to:
+I blend master chef expertise with nutrition insight for **${this.recipes.length} real recipes**. I auto-detect your language and can speak replies if your browser supports it. Ask me to:
 • 🔍 Match recipes by country, ingredients, or tags
 • 📝 Give numbered, step-by-step cooking instructions
 • 🥗 Summarize nutrition and suggest healthier swaps
@@ -225,223 +217,313 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
   },
 
   processMessage(message) {
-    const lower = message.toLowerCase();
-    this.conversationHistory.push({ role: 'user', content: message });
+    this.lang = this.detectLanguage(message);
+    window.AppLang = this.lang;
+    if (window.I18N) {
+      window.I18N.applyTranslations(this.lang);
+    }
 
+    this.conversationHistory.push({ role: 'user', content: message, lang: this.lang });
+
+    const ingredientTokens = RecipeSearch.extractIngredientTokens ? RecipeSearch.extractIngredientTokens(message) : [];
+    const pantryMode = this.isPantryQuery(message, ingredientTokens);
+
+    let recipe = null;
     let response = '';
 
-    if (this.isGreeting(lower)) {
-      response = this.handleGreeting();
-    } else if (this.isAskingHowToMake(lower)) {
-      response = this.handleHowToMake(lower);
-    } else if (this.isAskingAboutIngredients(lower)) {
-      response = this.handleIngredientQuestion(lower);
-    } else if (this.isAskingAboutNutrition(lower)) {
-      response = this.handleNutritionQuestion(lower);
-    } else if (this.isAskingAboutDietaryInfo(lower) || this.isAskingAboutDietary(lower)) {
-      response = this.handleDietaryInfoQuestion(lower);
-    } else if (this.isAskingAboutSubstitutions(lower)) {
-      response = this.handleSubstitutionQuestion(lower);
-    } else if (this.isAskingAboutMealType(lower)) {
-      response = this.handleMealTypeQuestion(lower);
-    } else if (this.isAskingAboutTime(lower)) {
-      response = this.handleTimeQuestion(lower);
-    } else if (this.isAskingForTips(lower)) {
-      response = this.handleTipsQuestion(lower);
-    } else if (this.isAskingAboutFavorites(lower)) {
-      response = this.handleFavoritesQuestion(lower);
-    } else if (this.isRecipeSearch(lower)) {
-      response = this.handleRecipeSearch(lower);
+    if (pantryMode) {
+      response = this.buildPantryReply(ingredientTokens, message);
     } else {
-      response = this.handleUnknown(message);
+      recipe = this.findRecipeFromMessage(message);
+      this.currentRecipe = recipe || this.currentRecipe;
+      response = this.buildStructuredReply(message, recipe);
     }
 
-    this.conversationHistory.push({ role: 'assistant', content: response });
+    this.conversationHistory.push({ role: 'assistant', content: response, lang: this.lang });
     this.hideLoading();
-    this.addMessage('assistant', response);
+    this.addMessage('assistant', response, this.lang);
   },
 
-  // Intent helpers
-  isGreeting(msg) { return /^(hi|hello|hey|good\s*(morning|afternoon|evening)|greetings)/i.test(msg); },
-  isRecipeSearch(msg) { return /(what|which|show|find|search|looking for|have|got).*(recipe|dish|food|meal)/i.test(msg) || /recipe.*(from|for|with)/i.test(msg); },
-  isAskingHowToMake(msg) { return /(how\s*(do|can|to|should).*(make|cook|prepare|create)|steps|instructions)/i.test(msg); },
-  isAskingAboutIngredients(msg) { return /(ingredients?|what.*(need|use|require))/i.test(msg); },
-  isAskingAboutNutrition(msg) { return /(nutrition|calories|protein|carbs|fat|healthy|benefits)/i.test(msg); },
-  isAskingAboutDietaryInfo(msg) { return /(gluten\.free|vegan|vegetarian|dairy\.free|allergen|allergy|dietary|halal|kosher)/i.test(msg); },
-  isAskingAboutDietary(msg) { return /(vegan|vegetarian|gluten\.free|dairy\.free|keto|low\.carb|halal|kosher|high\.protein)/i.test(msg); },
-  isAskingAboutTime(msg) { return /(how\s*long|time|minutes|hours|duration)/i.test(msg); },
-  isAskingForTips(msg) { return /(tips?|tricks?|advice|suggestions?|secrets?|better)/i.test(msg); },
-  isAskingAboutSubstitutions(msg) { return /(substitute|replacement|replace|alternative|instead of|without)/i.test(msg); },
-  isAskingAboutMealType(msg) { return /(breakfast|lunch|dinner|appetizer|dessert|drink|snack)/i.test(msg); },
-  isAskingAboutFavorites(msg) { return /(favorite|saved|my recipes|bookmarked)/i.test(msg); },
+  detectLanguage(text) {
+    if (/[\u0600-\u06FF]/.test(text)) return 'ar';
+    const normalized = text.toLowerCase();
+    const profiles = {
+      fr: /(bonjour|merci|recette|cuisine|ingrédient|étape|bonsoir)/,
+      nl: /(hallo|dank|recept|keuken|ingrediënt|stap|eten)/,
+      en: /(hello|hi|please|recipe|cook|step|thanks)/
+    };
+    const detected = Object.entries(profiles).find(([, pattern]) => pattern.test(normalized));
+    return detected ? detected[0] : 'en';
+  },
 
-  handleGreeting() {
-    const responses = [
-      "Hello! I'm ChefSense. Want me to find a recipe or walk you through steps?",
-      "Hi! I can match recipes, read them out, and suggest healthy swaps. What sounds good?",
-      "Hey there! Tell me an ingredient, country, or dish you love and I'll cook up ideas."
+  getLangPack(lang) {
+    const packs = {
+      en: {
+        greeting: "Here's a confident plan for you:",
+        stepsTitle: 'Step-by-step instructions',
+        nutritionTitle: 'Nutrition & health notes',
+        swapsTitle: 'Healthy ingredient substitutions',
+        allergenTitle: 'Allergen watch',
+        suggestionsTitle: 'Recipe matches I can serve',
+        calories: 'Calories',
+        protein: 'Protein',
+        carbs: 'Carbs',
+        fat: 'Fat',
+        fallbackNutrition: 'Estimated calories: ~520 kcal with balanced macros.',
+        noAllergens: 'No major allergens detected from the listed ingredients.',
+        askClarify: 'Tell me a key ingredient or cuisine and I will refine further.',
+        pantryIntro: 'Here is what you can cook with',
+        pantryMatchesTitle: 'Ingredient-based picks',
+        bestMatch: 'Best match',
+        noMatches: 'I could not find a close match, but here are flexible ideas you can try.',
+        nutritionSummaryLead: 'Nutrition & health notes'
+      },
+      fr: {
+        greeting: "Voici un plan clair et professionnel :",
+        stepsTitle: 'Instructions étape par étape',
+        nutritionTitle: 'Notes nutrition & santé',
+        swapsTitle: 'Substituts plus sains',
+        allergenTitle: 'Allergènes à surveiller',
+        suggestionsTitle: 'Recettes correspondantes',
+        calories: 'Calories',
+        protein: 'Protéines',
+        carbs: 'Glucides',
+        fat: 'Lipides',
+        fallbackNutrition: 'Calories estimées : ~520 kcal avec un équilibre en macronutriments.',
+        noAllergens: 'Aucun allergène majeur détecté parmi les ingrédients indiqués.',
+        askClarify: 'Indiquez un ingrédient ou une cuisine et je préciserai davantage.',
+        pantryIntro: 'Voici ce que vous pouvez cuisiner avec',
+        pantryMatchesTitle: 'Sélections par ingrédients',
+        bestMatch: 'Meilleure option',
+        noMatches: "Je n'ai pas trouvé d'équivalent direct, voici des idées flexibles à essayer.",
+        nutritionSummaryLead: 'Notes nutrition & santé'
+      },
+      nl: {
+        greeting: 'Hier is een duidelijk plan:',
+        stepsTitle: 'Stapsgewijze instructies',
+        nutritionTitle: 'Voeding & gezondheidsnotities',
+        swapsTitle: 'Gezonde vervangingen',
+        allergenTitle: 'Allergeen waarschuwing',
+        suggestionsTitle: 'Receptsuggesties',
+        calories: 'Calorieën',
+        protein: 'Eiwit',
+        carbs: 'Koolhydraten',
+        fat: 'Vet',
+        fallbackNutrition: 'Geschatte calorieën: ~520 kcal met gebalanceerde macro’s.',
+        noAllergens: 'Geen grote allergenen gevonden in de genoemde ingrediënten.',
+        askClarify: 'Noem een belangrijk ingrediënt of keuken en ik verfijn het meteen.',
+        pantryIntro: 'Dit kun je koken met',
+        pantryMatchesTitle: 'Suggesties op basis van ingrediënten',
+        bestMatch: 'Beste match',
+        noMatches: 'Geen directe match gevonden; hier zijn toch een paar ideeën.',
+        nutritionSummaryLead: 'Voeding & gezondheid'
+      },
+      ar: {
+        greeting: 'إليك خطة واضحة واحترافية:',
+        stepsTitle: 'خطوات مرقمة للتحضير',
+        nutritionTitle: 'ملاحظات التغذية والصحة',
+        swapsTitle: 'بدائل صحية للمكونات',
+        allergenTitle: 'تحذير من مسببات الحساسية',
+        suggestionsTitle: 'وصفات مقترحة',
+        calories: 'سعرات حرارية',
+        protein: 'بروتين',
+        carbs: 'كربوهيدرات',
+        fat: 'دهون',
+        fallbackNutrition: 'تقدير السعرات: حوالي 520 سعرة مع توازن في العناصر الغذائية.',
+        noAllergens: 'لا توجد مسببات حساسية بارزة بين المكونات المذكورة.',
+        askClarify: 'شارك مكوناً أو مطبخاً مفضلاً لأخصص الإجابة أكثر.',
+        pantryIntro: 'إليك ما يمكن طهيه باستخدام',
+        pantryMatchesTitle: 'اقتراحات مبنية على المكونات',
+        bestMatch: 'الخيار الأقرب',
+        noMatches: 'لم أجد وصفة مطابقة تماماً، هذه أفكار مرنة لتجربتها.',
+        nutritionSummaryLead: 'ملاحظات غذائية وصحية'
+      }
+    };
+
+    return packs[lang] || packs.en;
+  },
+
+  isPantryQuery(message, tokens) {
+    const normalized = message.toLowerCase();
+    const hasList = message.includes(',') || tokens.length >= 3;
+    const hasPrompt = /(i have|i've got|only have|what can i cook|cook with|use.*have|using)/.test(normalized);
+    const mentionsCook = /cook|make|recipe|idea|suggest/.test(normalized);
+    return (hasPrompt || hasList) && mentionsCook && tokens.length >= 2;
+  },
+
+  extractContextHints(message) {
+    const normalized = message.toLowerCase();
+    const context = { tags: [] };
+
+    if (/vegan/.test(normalized)) context.diet = 'vegan';
+    if (/vegetarian/.test(normalized)) context.diet = 'vegetarian';
+    if (/gluten[-\s]?free/.test(normalized)) context.tags.push('gluten-free');
+    if (/salad/.test(normalized)) context.tags.push('salad');
+    if (/soup|stew|broth/.test(normalized)) context.mealType = 'soup';
+    if (/dessert|sweet/.test(normalized)) context.mealType = 'dessert';
+
+    return context;
+  },
+
+  buildStructuredReply(message, recipe) {
+    const pack = this.getLangPack(this.lang);
+    const steps = recipe ? this.formatRecipeSteps(recipe) : this.buildGenericSteps(message);
+    const nutrition = this.buildNutritionNotes(recipe, pack);
+    const swaps = this.getHealthySwaps(recipe);
+    const allergens = recipe ? this.getAllergens(recipe) : [];
+    const suggestions = this.buildRecipeSuggestions(message, recipe, pack);
+
+    let response = `${pack.greeting}\n\n`;
+
+    if (recipe) {
+      const totalTime = (recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0);
+      response += `### ${recipe.name_en}\n`;
+      response += `🌍 ${recipe.country} • 🍽️ ${recipe.mealType} • ⏱️ ${totalTime} min`;
+      if (recipe.dietaryStyle && recipe.dietaryStyle !== 'None') {
+        response += ` • ${recipe.dietaryStyle}`;
+      }
+      response += `\n\n`;
+    }
+
+    response += `### ${pack.stepsTitle}:\n`;
+    steps.forEach((step, index) => { response += `${index + 1}. ${step}\n`; });
+
+    response += `\n### ${pack.nutritionTitle}:\n${nutrition}\n`;
+
+    if (swaps.length) {
+      response += `\n### ${pack.swapsTitle}:\n`;
+      swaps.forEach(s => { response += `• ${s}\n`; });
+    }
+
+    response += `\n### ${pack.allergenTitle}:\n`;
+    response += allergens.length ? `• ${allergens.join(', ')}` : `• ${pack.noAllergens}`;
+
+    if (suggestions) {
+      response += `\n\n### ${pack.suggestionsTitle}:\n${suggestions}`;
+    }
+
+    response += `\n\n${pack.askClarify}`;
+    return response;
+  },
+
+  buildPantryReply(ingredientTokens, message) {
+    const pack = this.getLangPack(this.lang);
+    const context = this.extractContextHints(message);
+    const matches = RecipeSearch.findMatchesByIngredients(this.recipes, ingredientTokens, { context, limit: 5 });
+
+    if (!matches.length) {
+      return this.buildPantryFallback(ingredientTokens, pack);
+    }
+
+    const best = matches[0];
+    this.currentRecipe = best;
+    const steps = this.formatRecipeSteps(best).slice(0, 5);
+    const allergens = this.getAllergens(best);
+    const swaps = this.getHealthySwaps(best);
+
+    let response = `${pack.pantryIntro} ${ingredientTokens.join(', ')}.\n\n`;
+
+    response += `### ${pack.stepsTitle} (${best.name_en})\n`;
+    steps.forEach((step, index) => { response += `${index + 1}. ${step}\n`; });
+
+    response += `\n### ${pack.nutritionTitle}:\n${this.buildNutritionNotes(best, pack)}\n`;
+
+    if (swaps.length) {
+      response += `\n### ${pack.swapsTitle}:\n`;
+      swaps.forEach(s => { response += `• ${s}\n`; });
+    }
+
+    response += `\n### ${pack.allergenTitle}:\n`;
+    response += allergens.length ? `• ${allergens.join(', ')}` : `• ${pack.noAllergens}`;
+
+    response += `\n\n### ${pack.pantryMatchesTitle}:\n`;
+    matches.forEach((match, index) => {
+      const bestLabel = index === 0 ? ` (${pack.bestMatch})` : '';
+      const reasonParts = [];
+      if (match.matchedIngredients && match.matchedIngredients.length) {
+        reasonParts.push(`Uses ${match.matchedIngredients.join(', ')}`);
+      }
+      if (context.diet && match.dietaryStyle) {
+        reasonParts.push(`${match.dietaryStyle} friendly`);
+      }
+      const reason = reasonParts.join(' • ') || 'Great overlap with your pantry list';
+
+      response += `• ${match.name_en} (${match.country})${bestLabel}\n`;
+      response += `  → ${match.short_description}\n`;
+      response += `  → ${reason}\n`;
+      response += `  → [RECIPE_LINK:${match.slug}:Open recipe]\n`;
+    });
+
+    response += `\n${pack.nutritionSummaryLead}: ${this.buildNutritionNotes(best, pack)}`;
+    response += `\n${pack.askClarify}`;
+    return response;
+  },
+
+  buildPantryFallback(ingredientTokens, pack) {
+    const baseList = ingredientTokens.join(', ');
+    const genericIdea = [
+      '1. Stir-fry aromatics, add your protein, then fold in grains or legumes.',
+      '2. Season with spices you enjoy, add a splash of stock or water to bring it together.',
+      '3. Finish with herbs, lemon, or yogurt for freshness.'
     ];
-    return responses[Math.floor(Math.random() * responses.length)];
-  },
 
-  handleRecipeSearch(msg) {
-    const results = RecipeSearch.search(this.recipes, msg);
-    if (results.length === 0) {
-      return "I couldn't find a match. Could you share a key ingredient, cuisine, or recipe name so I can guide you?";
-    }
-
-    let response = `Here are recipes I can serve up (${results.length} found):\n`;
-    results.slice(0, 5).forEach(recipe => {
-      const dietary = recipe.dietaryStyle && recipe.dietaryStyle !== 'None' ? ` • ${recipe.dietaryStyle}` : '';
-      const time = (recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0);
-      response += `\n[RECIPE_CARD:${recipe.slug}:${recipe.name_en}:${recipe.country}:${recipe.mealType}${dietary}:${time} min]`;
-    });
-    response += `\n\nWant steps for one of these? Just ask "How do I make [recipe name]?"`;
+    let response = `${pack.pantryIntro} ${baseList}, but ${pack.noMatches}\n\n`;
+    response += `### ${pack.stepsTitle}:\n${genericIdea.join('\n')}\n\n`;
+    response += `### ${pack.nutritionTitle}:\n`;
+    response += `${pack.nutritionSummaryLead}: aim for half vegetables, a lean protein, and whole grains if possible.\n`;
+    response += `Allergen watch: if your list includes nuts, dairy, eggs, or wheat, keep substitutions handy.\n`;
+    response += `${pack.askClarify}`;
     return response;
   },
 
-  handleHowToMake(msg) {
-    let recipeName = msg.replace(/(how\s*(do|can|to|should).*(make|cook|prepare|create)|give|show|tell|steps|instructions|recipe|\?)/gi, '').trim();
-    let recipe = RecipeSearch.findByName(this.recipes, recipeName) || this.findRecipeFromMessage(msg);
-    if (!recipe) {
-      return `I couldn't find that dish yet. Which recipe should I walk through?`;
+  formatRecipeSteps(recipe) {
+    if (!recipe || !recipe.steps) return this.buildGenericSteps('');
+    return recipe.steps;
+  },
+
+  buildGenericSteps(message) {
+    const focus = message ? message.split(/[.!?]/)[0] : 'your dish';
+    return [
+      `Gather the core ingredients for ${focus} and keep a clean station ready.`,
+      'Preheat, chop, and season early so cooking stays smooth.',
+      'Cook with gentle heat, taste often, and finish with fresh herbs or citrus.'
+    ];
+  },
+
+  buildNutritionNotes(recipe, pack) {
+    if (recipe?.nutrition) {
+      return [
+        `• 🔥 ${pack.calories}: ${recipe.nutrition.per_serving_kcal} kcal`,
+        `• 🥩 ${pack.protein}: ${recipe.nutrition.protein_g} g`,
+        `• 🍞 ${pack.carbs}: ${recipe.nutrition.carbs_g} g`,
+        `• 🧈 ${pack.fat}: ${recipe.nutrition.fat_g} g`
+      ].join('\n');
     }
 
-    this.currentRecipe = recipe;
-    const totalTime = (recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0);
-    const allergens = this.getAllergens(recipe);
+    return `• ${pack.fallbackNutrition}`;
+  },
 
-    let response = `## ${recipe.name_en}\n\n`;
-    response += `🌍 ${recipe.country} • 🍽️ ${recipe.mealType} • ⏱️ ${totalTime} min\n`;
-    response += recipe.dietaryStyle && recipe.dietaryStyle !== 'None' ? `• Dietary: ${recipe.dietaryStyle}\n` : '';
-    if (allergens.length) {
-      response += `• Allergens to watch: ${allergens.join(', ')}\n`;
+  buildRecipeSuggestions(message, recipe, pack) {
+    const results = RecipeSearch.search(this.recipes, message);
+    if (results.length) {
+      return results.slice(0, 4).map(r => {
+        const time = (r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0);
+        return `[RECIPE_CARD:${r.slug}:${r.name_en}:${r.country}:${r.mealType}:${time} min]`;
+      }).join('\n');
     }
 
-    response += `\n### Ingredients:\n`;
-    recipe.ingredients.forEach(ing => { response += `• ${ing.amount} ${ing.unit} ${ing.name}\n`; });
-
-    response += `\n### Step-by-Step Instructions:\n`;
-    recipe.steps.forEach((step, index) => { response += `${index + 1}. ${step}\n`; });
-
-    if (recipe.nutrition) {
-      response += `\n### Nutrition per serving:\n`;
-      response += `• 🔥 ${recipe.nutrition.per_serving_kcal} kcal\n`;
-      response += `• 🥩 ${recipe.nutrition.protein_g}g protein\n`;
-      response += `• 🍞 ${recipe.nutrition.carbs_g}g carbs\n`;
-      response += `• 🧈 ${recipe.nutrition.fat_g}g fat\n`;
+    if (recipe && recipe.country_slug) {
+      const alternates = this.recipes.filter(r => r.country_slug === recipe.country_slug && r.slug !== recipe.slug).slice(0, 3);
+      if (alternates.length) {
+        return alternates.map(r => {
+          const time = (r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0);
+          return `[RECIPE_CARD:${r.slug}:${r.name_en}:${r.country}:${r.mealType}:${time} min]`;
+        }).join('\n');
+      }
     }
 
-    response += `\n[RECIPE_LINK:${recipe.slug}:Open the full recipe →]`;
-    return response;
-  },
-
-  handleIngredientQuestion(msg) {
-    const recipe = this.findRecipeFromMessage(msg) || this.currentRecipe;
-    if (!recipe) return "Which recipe do you want the ingredient list for?";
-
-    this.currentRecipe = recipe;
-    let response = `### Ingredients for ${recipe.name_en} (${recipe.servings} servings):\n`;
-    recipe.ingredients.forEach(ing => { response += `• ${ing.amount} ${ing.unit} ${ing.name}\n`; });
-    return response;
-  },
-
-  handleNutritionQuestion(msg) {
-    const recipe = this.findRecipeFromMessage(msg) || this.currentRecipe;
-    if (!recipe || !recipe.nutrition) return "Tell me the recipe name and I'll share the nutrition details.";
-
-    this.currentRecipe = recipe;
-    let response = `### Nutrition & Wellness - ${recipe.name_en}\n\n`;
-    response += `• 🔥 Calories: ${recipe.nutrition.per_serving_kcal} kcal\n`;
-    response += `• 🥩 Protein: ${recipe.nutrition.protein_g}g\n`;
-    response += `• 🧈 Fat: ${recipe.nutrition.fat_g}g\n`;
-    response += `• 🍞 Carbs: ${recipe.nutrition.carbs_g}g\n`;
-    response += recipe.nutrition_benefits ? `\n${recipe.nutrition_benefits}\n` : '';
-
-    const swaps = this.getHealthySwaps(recipe);
-    if (swaps.length) {
-      response += `\nHealthy substitutions: ${swaps.join('; ')}`;
-    }
-    return response;
-  },
-
-  handleDietaryInfoQuestion(msg) {
-    const recipe = this.findRecipeFromMessage(msg) || this.currentRecipe;
-    if (!recipe) return "Could you mention the recipe so I can check dietary flags?";
-
-    this.currentRecipe = recipe;
-    const allergens = this.getAllergens(recipe);
-    let response = `### Dietary notes for ${recipe.name_en}\n`;
-    response += `• Style: ${recipe.mealType} • ${recipe.dietaryStyle || 'No specific tag'}\n`;
-    if (allergens.length) {
-      response += `• Possible allergens: ${allergens.join(', ')}\n`;
-    }
-    response += `• Calories per serving: ${recipe.nutrition?.per_serving_kcal || 'N/A'} kcal\n`;
-    response += `[RECIPE_LINK:${recipe.slug}:View recipe details]`;
-    return response;
-  },
-
-  handleSubstitutionQuestion(msg) {
-    const recipe = this.findRecipeFromMessage(msg) || this.currentRecipe;
-    const swaps = this.getHealthySwaps(recipe);
-    if (swaps.length) {
-      return `Here are smart swaps${recipe ? ` for ${recipe.name_en}` : ''}: ${swaps.join('; ')}`;
-    }
-    return "Tell me the ingredient you're missing and I'll suggest a substitution.";
-  },
-
-  handleMealTypeQuestion(msg) {
-    const results = RecipeSearch.search(this.recipes, msg).filter(r => new RegExp(msg.split(' ').join('|'), 'i').test(r.mealType));
-    if (results.length === 0) return "I didn't find a match. Try asking for dinner, dessert, or breakfast recipes.";
-
-    let response = `Here are some ideas:\n`;
-    results.slice(0, 4).forEach(r => {
-      const time = (r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0);
-      response += `[RECIPE_CARD:${r.slug}:${r.name_en}:${r.country}:${r.mealType}:${time} min]\n`;
-    });
-    return response;
-  },
-
-  handleTimeQuestion(msg) {
-    const recipe = this.findRecipeFromMessage(msg) || this.currentRecipe;
-    if (!recipe) return "Which recipe should I time?";
-
-    const total = (recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0);
-    return `⏱️ ${recipe.name_en}: Prep ${recipe.prep_time_minutes} min • Cook ${recipe.cooking_time_minutes} min • Total ${total} min`;
-  },
-
-  handleTipsQuestion(msg) {
-    const recipe = this.findRecipeFromMessage(msg) || this.currentRecipe;
-    if (!recipe) return "Which recipe do you want tips for?";
-
-    if (!recipe.cooking_tips || recipe.cooking_tips.length === 0) return `I don't have specific tips for ${recipe.name_en}, but I can suggest substitutions or timing adjustments.`;
-
-    let response = `### Pro tips for ${recipe.name_en}:\n`;
-    recipe.cooking_tips.forEach(tip => { response += `💡 ${tip}\n`; });
-    return response;
-  },
-
-  handleFavoritesQuestion() {
-    const favs = Favorites.getAll();
-    if (!favs.length) return 'No favorites saved yet. Tap the heart on any recipe card to store it.';
-
-    const recipes = this.recipes.filter(r => favs.includes(r.slug));
-    let response = `Your favorites:\n`;
-    recipes.slice(0, 5).forEach(r => {
-      const time = (r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0);
-      response += `[RECIPE_CARD:${r.slug}:${r.name_en}:${r.country}:${r.mealType}:${time} min]\n`;
-    });
-    return response;
-  },
-
-  handleUnknown(msg) {
-    const results = RecipeSearch.search(this.recipes, msg);
-    if (results.length > 0) {
-      const r = results[0];
-      const time = (r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0);
-      return `I found something close: [RECIPE_CARD:${r.slug}:${r.name_en}:${r.country}:${r.mealType}:${time} min]\nIs that what you meant?`;
-    }
-    return "I'm here to help! Tell me a recipe name, key ingredient, or cuisine so I can guide you.";
+    const pantryIdeas = this.recipes.slice(0, 2).map(r => `[RECIPE_CARD:${r.slug}:${r.name_en}:${r.country}:${r.mealType}:${(r.prep_time_minutes || 0) + (r.cooking_time_minutes || 0)} min]`).join('\n');
+    return pantryIdeas;
   },
 
   findRecipeFromMessage(msg) {
@@ -475,10 +557,11 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     if (ingredients.some(i => /butter|cream/.test(i))) swaps.push('Use olive oil or Greek yogurt to lighten rich dairy');
     if (ingredients.some(i => /sugar/.test(i))) swaps.push('Reduce sugar or use honey in moderation');
     if (ingredients.some(i => /white rice|pasta|flour/.test(i))) swaps.push('Use whole-grain versions for more fiber');
+    if (ingredients.some(i => /red meat|beef|lamb/.test(i))) swaps.push('Consider lean poultry or legumes to cut saturated fat');
     return swaps;
   },
 
-  addMessage(role, content) {
+  addMessage(role, content, lang = this.lang) {
     if (!this.elements.messages) return;
     const messageDiv = document.createElement('div');
     messageDiv.className = `chat-message ${role}-message`;
@@ -487,20 +570,50 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     avatar.className = 'message-avatar';
     avatar.textContent = role === 'user' ? '👤' : '🧑‍🍳';
 
+    const messageBody = document.createElement('div');
+    messageBody.className = 'message-body';
+
     const bubble = document.createElement('div');
     bubble.className = 'message-bubble';
+    bubble.setAttribute('lang', lang);
+    if (lang === 'ar') {
+      bubble.setAttribute('dir', 'rtl');
+    }
     bubble.innerHTML = this.formatMessage(content);
+    messageBody.appendChild(bubble);
+
+    if (role === 'assistant' && this.speechSupported) {
+      const speakBtn = document.createElement('button');
+      speakBtn.className = 'speak-button';
+      speakBtn.type = 'button';
+      speakBtn.setAttribute('data-speak-text', bubble.textContent);
+      speakBtn.setAttribute('data-lang', lang);
+      speakBtn.setAttribute('aria-label', 'Play ChefSense reply');
+      speakBtn.textContent = '🔊';
+      messageBody.appendChild(speakBtn);
+    }
 
     messageDiv.appendChild(avatar);
-    messageDiv.appendChild(bubble);
+    messageDiv.appendChild(messageBody);
     this.elements.messages.appendChild(messageDiv);
     this.elements.messages.scrollTop = this.elements.messages.scrollHeight;
 
-    if (role === 'assistant' && this.isSpeaking && 'speechSynthesis' in window) {
-      const utterance = new SpeechSynthesisUtterance(bubble.textContent);
-      speechSynthesis.cancel();
-      speechSynthesis.speak(utterance);
+    if (role === 'assistant' && this.isSpeaking && this.speechSupported) {
+      this.speakText(bubble.textContent, lang);
     }
+  },
+
+  speakText(text, lang) {
+    if (!this.speechSupported || !text) return;
+    const utterance = new SpeechSynthesisUtterance(text);
+    const langCode = lang === 'ar' ? 'ar-SA' : lang === 'fr' ? 'fr-FR' : lang === 'nl' ? 'nl-NL' : 'en-US';
+    utterance.lang = langCode;
+    const voiceMatch = this.voices.find(v => v.lang && v.lang.toLowerCase().startsWith(langCode.split('-')[0]));
+    if (voiceMatch) {
+      utterance.voice = voiceMatch;
+    }
+    speechSynthesis.cancel();
+    speechSynthesis.speak(utterance);
   },
 
   formatMessage(content) {
@@ -525,7 +638,10 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     loadingDiv.innerHTML = `
       <div class="message-avatar">🧑‍🍳</div>
       <div class="message-bubble">
-        <div class="typing-indicator"><span></span><span></span><span></span></div>
+        <div class="typing-indicator" aria-live="polite">
+          <span class="typing-label">ChefSense is cooking</span>
+          <span class="dots"><span></span><span></span><span></span></span>
+        </div>
       </div>`;
     loadingDiv.id = 'chefsense-loading';
     this.elements.messages.appendChild(loadingDiv);

@@ -1,5 +1,5 @@
 /**
- * Chefpedia - Main JavaScript
+ * ChefSense - Main JavaScript
  * Shared utilities and navigation functionality
  * Optimized for performance with caching and minimal DOM operations
  */
@@ -9,6 +9,28 @@ const CONFIG = {
   recipesJsonPath: '/recipes.json',
   recipesDataPath: '/data/recipes',
   basePath: ''
+};
+
+window.AppLang = window.AppLang || 'en';
+
+const SCRIPT_BASE = (document.currentScript && document.currentScript.src)
+  ? new URL('.', document.currentScript.src).href
+  : '';
+
+const ScriptLoader = {
+  loaded: {},
+  load(src) {
+    if (this.loaded[src]) return this.loaded[src];
+    this.loaded[src] = new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.src = src;
+      script.async = true;
+      script.onload = () => resolve();
+      script.onerror = reject;
+      document.body.appendChild(script);
+    });
+    return this.loaded[src];
+  }
 };
 
 // Determine base path based on current location
@@ -63,19 +85,26 @@ async function fetchRecipes() {
     return recipeCache.all;
   }
 
-  try {
-    // First try to load from the main recipes.json (for backwards compatibility)
-    const response = await fetch(CONFIG.recipesJsonPath);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+  const candidates = Array.from(new Set([
+    CONFIG.recipesJsonPath,
+    './recipes.json',
+    '../recipes.json'
+  ]));
+
+  for (const path of candidates) {
+    try {
+      const response = await fetch(path);
+      if (!response.ok) continue;
+      const recipes = await response.json();
+      recipeCache.all = recipes;
+      return recipes;
+    } catch (error) {
+      console.warn('Retrying recipe fetch with alternate path', path, error);
     }
-    const recipes = await response.json();
-    recipeCache.all = recipes;
-    return recipes;
-  } catch (error) {
-    console.error('Error fetching recipes:', error);
-    return [];
   }
+
+  console.error('Error fetching recipes: all paths failed');
+  return [];
 }
 
 /**
@@ -277,9 +306,11 @@ function getClassificationBadges(recipe) {
  * Create a recipe card HTML with favorite button
  */
 function createRecipeCard(recipe, options = {}) {
-  const tagsHtml = recipe.tags.slice(0, 3).map(tag => 
+  const tagsHtml = recipe.tags.slice(0, 3).map(tag =>
     `<span class="tag">${tag}</span>`
   ).join('');
+
+  const iconRow = window.RecipeIcons ? RecipeIcons.renderIcons(RecipeIcons.getIcons(recipe)) : '';
 
   // Calculate total time
   const prepTime = recipe.prep_time_minutes || 0;
@@ -316,6 +347,7 @@ function createRecipeCard(recipe, options = {}) {
             ${dietaryBadge}
           </div>
           <h3 class="recipe-card-title">${recipe.name_en}</h3>
+          ${iconRow}
           <p class="recipe-card-description">${recipe.short_description}</p>
           <div class="recipe-card-meta">
             <span><span aria-hidden="true">⏱️</span> ${formatTime(totalTime)}</span>
@@ -377,17 +409,64 @@ function setActiveNavLink() {
   });
 }
 
-/**
- * Dynamically load ChefSense assistant everywhere
- */
-function loadChefSenseScript() {
-  if (window.ChefSense || document.querySelector('script[data-chefsense-loaded]')) return;
+function getAssetUrl(file) {
+  return SCRIPT_BASE ? new URL(file, SCRIPT_BASE).href : file;
+}
 
-  const script = document.createElement('script');
-  script.src = `${CONFIG.basePath}/public/assets/js/ai-assistant.js`;
-  script.async = true;
-  script.dataset.chefsenseLoaded = 'true';
-  document.body.appendChild(script);
+async function ensureI18N() {
+  await ScriptLoader.load(getAssetUrl('i18n.js'));
+  if (window.I18N) {
+    I18N.applyTranslations(window.AppLang || 'en');
+  }
+}
+
+async function ensureChefSense(onReady) {
+  await ensureI18N();
+  await ScriptLoader.load(getAssetUrl('ai-assistant.js'));
+  document.querySelector('.chefsense-launcher')?.classList.add('is-hidden');
+  if (typeof onReady === 'function') {
+    onReady();
+  }
+}
+
+function createChefSenseLauncher() {
+  if (document.querySelector('.chefsense-fab') || document.querySelector('.chefsense-launcher')) return;
+  const launcher = document.createElement('button');
+  launcher.className = 'chefsense-launcher';
+  launcher.type = 'button';
+  launcher.textContent = '🧑‍🍳 ChefSense';
+  launcher.addEventListener('click', () => {
+    ensureChefSense(() => {
+      launcher.classList.add('is-hidden');
+      if (window.ChefSense?.openModal) {
+        window.ChefSense.openModal();
+      }
+    });
+  });
+  document.body.appendChild(launcher);
+}
+
+function setupChefSenseEntrypoints() {
+  const anchor = document.querySelector('[data-chefsense-anchor]');
+  const autoInit = anchor?.getAttribute('data-chefsense-auto-init') === 'true';
+
+  if (anchor) {
+    const input = anchor.querySelector('#chat-input');
+    const sendButton = anchor.querySelector('#send-button');
+    const suggestions = anchor.querySelectorAll('.suggestion-chip');
+
+    ['focus', 'click', 'keydown'].forEach(eventName => {
+      input?.addEventListener(eventName, () => ensureChefSense());
+    });
+    sendButton?.addEventListener('click', () => ensureChefSense());
+    suggestions.forEach(chip => chip.addEventListener('click', () => ensureChefSense()));
+  }
+
+  if (autoInit) {
+    ensureChefSense();
+  }
+
+  createChefSenseLauncher();
 }
 
 /**
@@ -500,7 +579,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   setActiveNavLink();
   initGlobalSearch();
-  loadChefSenseScript();
+  ensureI18N();
+  setupChefSenseEntrypoints();
 });
 
 // Export functions for use in other modules

@@ -1,5 +1,5 @@
 /**
- * Chefpedia - Recipe Detail Module
+ * ChefSense - Recipe Detail Module
  * Handles rendering single recipe from JSON with modern UI
  */
 
@@ -233,7 +233,7 @@ function getRecipeSlugFromUrl() {
  * Update page title and apply SEO
  */
 function updatePageTitle(recipeName) {
-  document.title = `${recipeName} | Chefpedia`;
+  document.title = `${recipeName} | ChefSense`;
 }
 
 /**
@@ -313,6 +313,8 @@ function parseStepInstruction(step, index) {
 function renderRecipeModern(container, recipe) {
   // Generate allergen badges
   const allergenBadgesHtml = generateAllergenBadges(recipe.ingredients, recipe.dietaryStyle);
+
+  const iconRow = window.RecipeIcons ? RecipeIcons.renderIcons(RecipeIcons.getIcons(recipe)) : '';
 
   // Generate ingredients checklist HTML
   const ingredientsHtml = recipe.ingredients.map((ing, index) => `
@@ -492,7 +494,9 @@ function renderRecipeModern(container, recipe) {
       <header class="recipe-header-modern">
         <div class="recipe-header-content">
           <h1 class="recipe-title-modern">${escapeHtml(recipe.name_en)}</h1>
-          
+
+          ${iconRow}
+
           <!-- Classification Badges -->
           <div class="recipe-classification">
             ${RecipeBank.getClassificationBadges(recipe).mealTypeBadge}
@@ -655,7 +659,7 @@ function initPrintButton() {
 function initShareButtons(recipe) {
   const currentUrl = window.location.href;
   const recipeTitle = recipe.name_en;
-  const shareText = `Check out this delicious ${recipeTitle} recipe from Chefpedia!`;
+  const shareText = `Check out this delicious ${recipeTitle} recipe from ChefSense!`;
   
   // Copy Link button
   const copyBtn = document.getElementById('btn-copy-link');

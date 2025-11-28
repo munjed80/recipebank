@@ -1,6 +1,6 @@
-# RecipeBank – Global Recipe Library with AI Assistant
+# ChefSense – Global Recipe Library with AI Assistant
 
-RecipeBank is a free, static, global recipe platform.  
+ChefSense is a free, static, global recipe platform.  
 The project has two main parts:
 
 1. A **country-based recipe browser** where users can explore dishes from many countries.
@@ -15,7 +15,7 @@ The main goal is to keep the project:
 
 ## 1. Core Concept
 
-RecipeBank is a “global recipe bank”:
+ChefSense is a “global recipe bank”:
 
 - Each **country** has a small hub page that lists its recipes.
 - Each **recipe** has:
