@@ -11,16 +11,56 @@
     "cooking_time_minutes": 60,
     "servings": 4,
     "ingredients": [
-      {"name": "basmati rice", "amount": 3, "unit": "cups"},
-      {"name": "ground lamb", "amount": 500, "unit": "g"},
-      {"name": "lamb tenderloin", "amount": 500, "unit": "g"},
-      {"name": "onion (grated)", "amount": 2, "unit": "large"},
-      {"name": "saffron threads", "amount": 1, "unit": "g"},
-      {"name": "butter", "amount": 100, "unit": "g"},
-      {"name": "egg yolks", "amount": 4, "unit": "pc"},
-      {"name": "sumac", "amount": 2, "unit": "tbsp"},
-      {"name": "tomatoes", "amount": 4, "unit": "medium"},
-      {"name": "salt", "amount": 2, "unit": "tsp"}
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb tenderloin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion (grated)",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "saffron threads",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "sumac",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Soak rice in salted water for at least 2 hours, then rinse until water runs clear.",
@@ -41,7 +81,15 @@
       "The raw egg yolk is mixed into the hot rice at the table for richness."
     ],
     "difficulty": "hard",
-    "tags": ["iranian", "persian", "kebab", "rice", "saffron", "dinner", "festive"],
+    "tags": [
+      "iranian",
+      "persian",
+      "kebab",
+      "rice",
+      "saffron",
+      "dinner",
+      "festive"
+    ],
     "nutrition": {
       "per_serving_kcal": 780,
       "protein_g": 45,
@@ -64,17 +112,61 @@
     "cooking_time_minutes": 180,
     "servings": 6,
     "ingredients": [
-      {"name": "lamb shoulder (cubed)", "amount": 700, "unit": "g"},
-      {"name": "fresh parsley", "amount": 3, "unit": "bunches"},
-      {"name": "fresh cilantro", "amount": 2, "unit": "bunches"},
-      {"name": "fresh chives", "amount": 2, "unit": "bunches"},
-      {"name": "fresh fenugreek leaves", "amount": 1, "unit": "bunch"},
-      {"name": "dried limes (limoo amani)", "amount": 4, "unit": "pc"},
-      {"name": "kidney beans", "amount": 1, "unit": "cup"},
-      {"name": "onion", "amount": 1, "unit": "large"},
-      {"name": "turmeric", "amount": 1, "unit": "tsp"},
-      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"},
-      {"name": "salt", "amount": 2, "unit": "tsp"}
+      {
+        "name": "lamb shoulder (cubed)",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 3,
+        "unit": "bunches"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "fresh chives",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "fresh fenugreek leaves",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "dried limes (limoo amani)",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "kidney beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Soak kidney beans overnight, then cook until tender and set aside.",
@@ -94,7 +186,15 @@
       "Crush the dried limes slightly before adding for more intense flavor."
     ],
     "difficulty": "medium",
-    "tags": ["iranian", "persian", "stew", "herbs", "lamb", "dinner", "comfort-food"],
+    "tags": [
+      "iranian",
+      "persian",
+      "stew",
+      "herbs",
+      "lamb",
+      "dinner",
+      "comfort-food"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 32,
@@ -117,16 +217,56 @@
     "cooking_time_minutes": 90,
     "servings": 6,
     "ingredients": [
-      {"name": "basmati rice", "amount": 3, "unit": "cups"},
-      {"name": "chicken thighs", "amount": 600, "unit": "g"},
-      {"name": "Greek yogurt", "amount": 2, "unit": "cups"},
-      {"name": "egg yolks", "amount": 3, "unit": "pc"},
-      {"name": "saffron threads", "amount": 1, "unit": "g"},
-      {"name": "butter", "amount": 100, "unit": "g"},
-      {"name": "barberries (zereshk)", "amount": 100, "unit": "g"},
-      {"name": "onion", "amount": 1, "unit": "large"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"}
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken thighs",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "saffron threads",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "barberries (zereshk)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Poach chicken with onion until cooked, then shred and set aside.",
@@ -147,7 +287,15 @@
       "Let it rest 5 minutes before inverting to help it release cleanly."
     ],
     "difficulty": "hard",
-    "tags": ["iranian", "persian", "rice", "chicken", "saffron", "dinner", "festive"],
+    "tags": [
+      "iranian",
+      "persian",
+      "rice",
+      "chicken",
+      "saffron",
+      "dinner",
+      "festive"
+    ],
     "nutrition": {
       "per_serving_kcal": 550,
       "protein_g": 28,
@@ -170,16 +318,56 @@
     "cooking_time_minutes": 120,
     "servings": 6,
     "ingredients": [
-      {"name": "chicken thighs", "amount": 8, "unit": "pc"},
-      {"name": "walnuts", "amount": 400, "unit": "g"},
-      {"name": "pomegranate molasses", "amount": 150, "unit": "ml"},
-      {"name": "onion", "amount": 2, "unit": "large"},
-      {"name": "sugar", "amount": 2, "unit": "tbsp"},
-      {"name": "turmeric", "amount": 1, "unit": "tsp"},
-      {"name": "cinnamon", "amount": 0.5, "unit": "tsp"},
-      {"name": "salt", "amount": 1.5, "unit": "tsp"},
-      {"name": "vegetable oil", "amount": 3, "unit": "tbsp"},
-      {"name": "pomegranate seeds", "amount": 0.5, "unit": "cup"}
+      {
+        "name": "chicken thighs",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "walnuts",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pomegranate molasses",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pomegranate seeds",
+        "amount": 0.5,
+        "unit": "cup"
+      }
     ],
     "steps": [
       "Toast walnuts lightly, then grind to a fine meal in a food processor.",
@@ -200,7 +388,15 @@
       "Duck or game birds are traditional for special occasions."
     ],
     "difficulty": "medium",
-    "tags": ["iranian", "persian", "stew", "chicken", "walnuts", "pomegranate", "dinner"],
+    "tags": [
+      "iranian",
+      "persian",
+      "stew",
+      "chicken",
+      "walnuts",
+      "pomegranate",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 620,
       "protein_g": 32,
@@ -223,20 +419,76 @@
     "cooking_time_minutes": 90,
     "servings": 8,
     "ingredients": [
-      {"name": "reshteh noodles (or linguine)", "amount": 200, "unit": "g"},
-      {"name": "chickpeas (soaked)", "amount": 0.5, "unit": "cup"},
-      {"name": "kidney beans (soaked)", "amount": 0.5, "unit": "cup"},
-      {"name": "lentils", "amount": 0.5, "unit": "cup"},
-      {"name": "fresh spinach", "amount": 200, "unit": "g"},
-      {"name": "fresh parsley", "amount": 1, "unit": "bunch"},
-      {"name": "fresh cilantro", "amount": 1, "unit": "bunch"},
-      {"name": "fresh dill", "amount": 1, "unit": "bunch"},
-      {"name": "kashk (whey sauce)", "amount": 200, "unit": "ml"},
-      {"name": "onion", "amount": 3, "unit": "large"},
-      {"name": "dried mint", "amount": 2, "unit": "tbsp"},
-      {"name": "turmeric", "amount": 1, "unit": "tsp"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "vegetable oil", "amount": 100, "unit": "ml"}
+      {
+        "name": "reshteh noodles (or linguine)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas (soaked)",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "kidney beans (soaked)",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lentils",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh spinach",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fresh dill",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "kashk (whey sauce)",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "onion",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "dried mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 100,
+        "unit": "ml"
+      }
     ],
     "steps": [
       "Cook chickpeas and kidney beans until almost tender, about 1 hour.",
@@ -256,7 +508,15 @@
       "Kashk is essential - sour cream is not a true substitute but works in a pinch."
     ],
     "difficulty": "medium",
-    "tags": ["iranian", "persian", "soup", "noodles", "vegetarian", "nowruz", "lunch"],
+    "tags": [
+      "iranian",
+      "persian",
+      "soup",
+      "noodles",
+      "vegetarian",
+      "nowruz",
+      "lunch"
+    ],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 16,
@@ -266,5 +526,1095 @@
     "nutrition_benefits": "Ash Reshteh is nutritionally dense with plant proteins from multiple legumes. The abundance of fresh herbs provides vitamins K, C, and A. Lentils offer iron and folate, while the combination of beans creates complete protein.",
     "mealType": "Lunch",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ir-zereshk-polo",
+    "slug": "zereshk-polo",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Zereshk Polo",
+    "image": "assets/img/recipes/zereshk-polo.jpg",
+    "short_description": "Saffron rice with barberries, a festive Persian dish with jewel-like dried fruits.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "barberries",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak rice 2 hours.",
+      "Parboil rice.",
+      "Layer rice in pot with butter.",
+      "Steam until fluffy.",
+      "Saute barberries with sugar.",
+      "Top rice with barberries."
+    ],
+    "cooking_tips": [
+      "Do not overcook barberries.",
+      "Use good saffron.",
+      "Tahdig is the crispy bottom."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "persian",
+      "rice",
+      "saffron",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Antioxidants from barberries. Saffron aids mood.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ir-ghormeh-sabzi",
+    "slug": "ghormeh-sabzi",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Ghormeh Sabzi",
+    "image": "assets/img/recipes/ghormeh-sabzi.jpg",
+    "short_description": "Persian herb stew with kidney beans and lamb. Irans national dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "kidney beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "parsley",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fenugreek",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "dried limes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Chop herbs finely, saute until dark.",
+      "Brown lamb with turmeric.",
+      "Add beans and water.",
+      "Add dried limes.",
+      "Simmer 2-3 hours.",
+      "Add sauteed herbs."
+    ],
+    "cooking_tips": [
+      "Herbs must be dark green.",
+      "Long cooking develops flavor.",
+      "Serve with rice."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "persian",
+      "stew",
+      "lamb",
+      "herbs"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Iron from lamb and beans. Vitamins from herbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-tahdig",
+    "slug": "tahdig",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Tahdig",
+    "image": "assets/img/recipes/tahdig.jpg",
+    "short_description": "The crispy golden rice from the bottom of the pot. The most coveted part of Persian rice.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "yogurt",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak and parboil rice.",
+      "Mix some rice with yogurt.",
+      "Layer yogurt rice at bottom.",
+      "Add remaining rice.",
+      "Cook on low heat.",
+      "Flip to reveal crispy tahdig."
+    ],
+    "cooking_tips": [
+      "Low heat is crucial.",
+      "Do not peek while cooking.",
+      "The flip is the moment of truth."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "persian",
+      "rice",
+      "crispy",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 5,
+      "fat_g": 16,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Carbs for energy. Probiotics from yogurt.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ir-fesenjan",
+    "slug": "fesenjan",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Fesenjan",
+    "image": "assets/img/recipes/fesenjan.jpg",
+    "short_description": "Persian pomegranate walnut stew with chicken. Rich and luxurious.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "walnuts",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "pomegranate paste",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Grind walnuts finely.",
+      "Brown chicken pieces.",
+      "Saute onions.",
+      "Add walnuts and water.",
+      "Simmer 1 hour.",
+      "Add pomegranate paste.",
+      "Balance sweet and sour."
+    ],
+    "cooking_tips": [
+      "Stir often as walnuts can stick.",
+      "Long cooking thickens the sauce.",
+      "Adjust sweet-sour balance."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "persian",
+      "chicken",
+      "pomegranate",
+      "walnut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 38,
+      "fat_g": 42,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Omega-3 from walnuts. Antioxidants from pomegranate.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ir-joojeh-kabab",
+    "slug": "joojeh-kabab",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Joojeh Kabab",
+    "image": "assets/img/recipes/joojeh-kabab.jpg",
+    "short_description": "Saffron marinated chicken kebabs. The most popular Persian barbecue.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "yogurt",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "lemon",
+        "amount": 2,
+        "unit": "whole"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cut chicken into pieces.",
+      "Marinate in yogurt, saffron, lemon.",
+      "Refrigerate 4-24 hours.",
+      "Thread on skewers.",
+      "Grill over charcoal.",
+      "Baste with butter."
+    ],
+    "cooking_tips": [
+      "Bone-in pieces stay moist.",
+      "High heat for charred exterior.",
+      "Serve with grilled tomato."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "persian",
+      "chicken",
+      "kebab",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 42,
+      "fat_g": 22,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Lean protein. Yogurt marinade tenderizes.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-koobideh",
+    "slug": "koobideh",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Koobideh",
+    "image": "assets/img/recipes/koobideh.jpg",
+    "short_description": "Ground meat kebabs with onion. The king of Persian kebabs.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "sumac",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Grate and squeeze onions.",
+      "Mix meats with onion and spices.",
+      "Knead vigorously.",
+      "Shape onto flat skewers.",
+      "Grill over charcoal.",
+      "Serve with rice and sumac."
+    ],
+    "cooking_tips": [
+      "Remove all onion liquid.",
+      "Knead for at least 10 minutes.",
+      "Use wide, flat skewers."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "persian",
+      "kebab",
+      "beef",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 3
+    },
+    "nutrition_benefits": "High protein, low carb. Iron from red meat.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-ash-reshteh",
+    "slug": "ash-reshteh",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Ash Reshteh",
+    "image": "assets/img/recipes/ash-reshteh.jpg",
+    "short_description": "Persian noodle soup with beans, herbs, and kashk. Traditional for Nowruz.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "reshteh noodles",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "lentils",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "spinach",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "parsley",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "kashk",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cook beans until tender.",
+      "Add chopped herbs.",
+      "Add noodles.",
+      "Cook until thick.",
+      "Top with kashk.",
+      "Garnish with fried mint."
+    ],
+    "cooking_tips": [
+      "Soup should be thick.",
+      "Kashk adds tangy flavor.",
+      "Do not skip the fried mint."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "persian",
+      "soup",
+      "noodles",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Protein from legumes. Fiber-rich and filling.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ir-kuku-sabzi",
+    "slug": "kuku-sabzi",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Kuku Sabzi",
+    "image": "assets/img/recipes/kuku-sabzi.jpg",
+    "short_description": "Persian herb frittata packed with fresh herbs. Traditional for Nowruz.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "amount": 6,
+        "unit": "large"
+      },
+      {
+        "name": "parsley",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "cilantro",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "dill",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "walnuts",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "barberries",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Chop all herbs finely.",
+      "Beat eggs.",
+      "Mix herbs into eggs.",
+      "Add walnuts and barberries.",
+      "Bake until set.",
+      "Serve at room temperature."
+    ],
+    "cooking_tips": [
+      "More herbs than egg.",
+      "Can fry instead of bake.",
+      "Traditional for new year."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "persian",
+      "eggs",
+      "herbs",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Nutrient-dense from herbs. Protein from eggs.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ir-tachin",
+    "slug": "tachin",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Tachin",
+    "image": "assets/img/recipes/tachin.jpg",
+    "short_description": "Layered saffron rice cake with chicken. Elegant and impressive.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "saffron",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook and shred chicken.",
+      "Mix yogurt, eggs, saffron.",
+      "Parboil rice.",
+      "Layer rice and chicken.",
+      "Bake until golden.",
+      "Flip onto platter."
+    ],
+    "cooking_tips": [
+      "Grease pan very well.",
+      "Low heat for crispy bottom.",
+      "Let rest before flipping."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "persian",
+      "rice",
+      "chicken",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 460,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete meal with protein and carbs. Impressive presentation.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ir-mast-o-khiar",
+    "slug": "mast-o-khiar",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Mast-o-Khiar",
+    "image": "assets/img/recipes/mast-o-khiar.jpg",
+    "short_description": "Persian cucumber yogurt dip. Cool and refreshing side dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Greek yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "cucumbers",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "dried mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rose petals",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "walnuts",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Dice or grate cucumbers.",
+      "Mix with yogurt.",
+      "Add mint and rose petals.",
+      "Top with walnuts.",
+      "Chill before serving."
+    ],
+    "cooking_tips": [
+      "Drain cucumbers if watery.",
+      "Can add raisins.",
+      "Essential with kebabs."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "persian",
+      "yogurt",
+      "side",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 10,
+      "fat_g": 12,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Probiotics from yogurt. Hydrating cucumbers.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ir-baghali-polo",
+    "slug": "baghali-polo",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Baghali Polo",
+    "image": "assets/img/recipes/baghali-polo.jpg",
+    "short_description": "Dill and fava bean rice. Aromatic and springtime favorite.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "fava beans",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "fresh dill",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Parboil rice.",
+      "Blanch fava beans.",
+      "Chop dill.",
+      "Layer rice with beans and dill.",
+      "Steam with butter.",
+      "Serve with lamb."
+    ],
+    "cooking_tips": [
+      "Use fresh favas if possible.",
+      "Dill should be fresh.",
+      "Traditional with lamb shank."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "persian",
+      "rice",
+      "dill",
+      "fava"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 54
+    },
+    "nutrition_benefits": "Fiber from fava beans. Fragrant and nutritious.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ir-dizi",
+    "slug": "dizi",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Dizi",
+    "image": "assets/img/recipes/dizi.jpg",
+    "short_description": "Traditional lamb and chickpea stew served in clay pots. Eaten with bread.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 240,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "lamb shank",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "potatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      }
+    ],
+    "steps": [
+      "Place all in clay pot.",
+      "Cover with water.",
+      "Simmer 3-4 hours.",
+      "Separate broth from solids.",
+      "Mash solids together.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "Long cooking is essential.",
+      "Mash to desired texture.",
+      "Traditional presentation matters."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "persian",
+      "lamb",
+      "stew",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 24,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Protein from lamb and chickpeas. Very hearty.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ir-sholeh-zard",
+    "slug": "sholeh-zard",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Sholeh Zard",
+    "image": "assets/img/recipes/sholeh-zard.jpg",
+    "short_description": "Saffron rice pudding. Traditional Persian dessert for special occasions.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "saffron",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "rose water",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "almonds",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook rice until very soft.",
+      "Add sugar and saffron.",
+      "Stir constantly.",
+      "Add rose water.",
+      "Pour into shallow dish.",
+      "Decorate with almonds and cinnamon."
+    ],
+    "cooking_tips": [
+      "Must be very soft texture.",
+      "Constant stirring prevents sticking.",
+      "Serve chilled."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "persian",
+      "dessert",
+      "rice-pudding",
+      "saffron"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 4,
+      "fat_g": 6,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Comfort food. Saffron has medicinal properties.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ir-bastani",
+    "slug": "bastani",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Bastani",
+    "image": "assets/img/recipes/bastani.jpg",
+    "short_description": "Persian saffron ice cream with rose water and pistachios. Includes frozen cream pieces.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "heavy cream",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "milk",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pistachios",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Heat milk with saffron.",
+      "Add sugar and dissolve.",
+      "Cool completely.",
+      "Add cream and rose water.",
+      "Churn in ice cream maker.",
+      "Fold in frozen cream pieces and pistachios."
+    ],
+    "cooking_tips": [
+      "Freeze cream separately for pieces.",
+      "Do not skip the rose water.",
+      "Serve between wafers."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "persian",
+      "ice-cream",
+      "saffron",
+      "dessert"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 5,
+      "fat_g": 22,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Calcium from dairy. Unique flavor profile.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ir-halim",
+    "slug": "halim",
+    "country": "Iran",
+    "country_slug": "iran",
+    "name_en": "Halim",
+    "image": "assets/img/recipes/halim.jpg",
+    "short_description": "Wheat and meat porridge, traditional breakfast. Slow-cooked until creamy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 480,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "wheat berries",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak wheat overnight.",
+      "Cook lamb until tender.",
+      "Shred meat.",
+      "Cook wheat until very soft.",
+      "Combine and stir until smooth.",
+      "Top with butter and cinnamon."
+    ],
+    "cooking_tips": [
+      "Stir constantly at end.",
+      "Should be completely smooth.",
+      "Traditional Ramadan breakfast."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "persian",
+      "porridge",
+      "wheat",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Sustained energy from wheat. Protein from lamb.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "None"
   }
 ]

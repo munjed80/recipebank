@@ -11,18 +11,66 @@
     "cooking_time_minutes": 120,
     "servings": 8,
     "ingredients": [
-      { "name": "couscous", "amount": 500, "unit": "g" },
-      { "name": "lamb shoulder", "amount": 500, "unit": "g" },
-      { "name": "chicken pieces", "amount": 500, "unit": "g" },
-      { "name": "merguez sausages", "amount": 4, "unit": "pc" },
-      { "name": "chickpeas (soaked)", "amount": 200, "unit": "g" },
-      { "name": "carrots", "amount": 4, "unit": "pc" },
-      { "name": "zucchini", "amount": 3, "unit": "pc" },
-      { "name": "turnips", "amount": 2, "unit": "pc" },
-      { "name": "tomatoes", "amount": 3, "unit": "pc" },
-      { "name": "onions", "amount": 2, "unit": "large" },
-      { "name": "ras el hanout", "amount": 2, "unit": "tbsp" },
-      { "name": "olive oil", "amount": 4, "unit": "tbsp" }
+      {
+        "name": "couscous",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb shoulder",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chicken pieces",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "merguez sausages",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "chickpeas (soaked)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "zucchini",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "turnips",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "In a couscoussier or steamer, brown lamb and chicken in oil.",
@@ -43,7 +91,14 @@
       "The broth should be ladled over when serving."
     ],
     "difficulty": "hard",
-    "tags": ["algerian", "couscous", "festive", "friday", "family", "dinner"],
+    "tags": [
+      "algerian",
+      "couscous",
+      "festive",
+      "friday",
+      "family",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 680,
       "protein_g": 42,
@@ -66,16 +121,56 @@
     "cooking_time_minutes": 90,
     "servings": 6,
     "ingredients": [
-      { "name": "semolina", "amount": 500, "unit": "g" },
-      { "name": "lamb", "amount": 500, "unit": "g" },
-      { "name": "chickpeas (cooked)", "amount": 200, "unit": "g" },
-      { "name": "onions", "amount": 2, "unit": "large" },
-      { "name": "tomatoes", "amount": 3, "unit": "pc" },
-      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
-      { "name": "harissa paste", "amount": 2, "unit": "tbsp" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas (cooked)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "harissa paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Make a simple flatbread dough with semolina, salt, and water.",
@@ -95,7 +190,14 @@
       "Adjust harissa to your spice preference."
     ],
     "difficulty": "medium",
-    "tags": ["algerian", "lamb", "bread", "traditional", "comfort-food", "dinner"],
+    "tags": [
+      "algerian",
+      "lamb",
+      "bread",
+      "traditional",
+      "comfort-food",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 32,
@@ -118,17 +220,61 @@
     "cooking_time_minutes": 75,
     "servings": 6,
     "ingredients": [
-      { "name": "zucchini", "amount": 4, "unit": "medium" },
-      { "name": "bell peppers", "amount": 4, "unit": "pc" },
-      { "name": "tomatoes", "amount": 4, "unit": "large" },
-      { "name": "ground beef", "amount": 400, "unit": "g" },
-      { "name": "rice", "amount": 150, "unit": "g" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "parsley", "amount": 0.5, "unit": "cup" },
-      { "name": "tomato paste", "amount": 3, "unit": "tbsp" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "paprika", "amount": 1, "unit": "tsp" },
-      { "name": "olive oil", "amount": 3, "unit": "tbsp" }
+      {
+        "name": "zucchini",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "bell peppers",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 3,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Hollow out zucchini and peppers, saving the flesh.",
@@ -148,7 +294,13 @@
       "A splash of lemon juice at the end brightens the flavors."
     ],
     "difficulty": "medium",
-    "tags": ["algerian", "stuffed-vegetables", "beef", "dinner", "traditional"],
+    "tags": [
+      "algerian",
+      "stuffed-vegetables",
+      "beef",
+      "dinner",
+      "traditional"
+    ],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 24,
@@ -171,17 +323,61 @@
     "cooking_time_minutes": 90,
     "servings": 8,
     "ingredients": [
-      { "name": "freekeh (green wheat)", "amount": 150, "unit": "g" },
-      { "name": "lamb shoulder", "amount": 400, "unit": "g" },
-      { "name": "chickpeas (soaked)", "amount": 100, "unit": "g" },
-      { "name": "onions", "amount": 2, "unit": "medium" },
-      { "name": "tomatoes", "amount": 3, "unit": "pc" },
-      { "name": "celery stalks", "amount": 2, "unit": "pc" },
-      { "name": "fresh cilantro", "amount": 0.5, "unit": "cup" },
-      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
-      { "name": "ras el hanout", "amount": 1, "unit": "tbsp" },
-      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
-      { "name": "lemon juice", "amount": 2, "unit": "tbsp" }
+      {
+        "name": "freekeh (green wheat)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "lamb shoulder",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas (soaked)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "celery stalks",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 2,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Rinse freekeh well and soak for 30 minutes.",
@@ -201,7 +397,14 @@
       "Fresh mint can be added as a garnish."
     ],
     "difficulty": "easy",
-    "tags": ["algerian", "soup", "ramadan", "lamb", "freekeh", "healthy"],
+    "tags": [
+      "algerian",
+      "soup",
+      "ramadan",
+      "lamb",
+      "freekeh",
+      "healthy"
+    ],
     "nutrition": {
       "per_serving_kcal": 320,
       "protein_g": 22,
@@ -224,15 +427,51 @@
     "cooking_time_minutes": 30,
     "servings": 24,
     "ingredients": [
-      { "name": "fine semolina", "amount": 500, "unit": "g" },
-      { "name": "butter", "amount": 150, "unit": "g" },
-      { "name": "vegetable oil", "amount": 100, "unit": "ml" },
-      { "name": "date paste", "amount": 400, "unit": "g" },
-      { "name": "orange blossom water", "amount": 2, "unit": "tbsp" },
-      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
-      { "name": "honey", "amount": 300, "unit": "g" },
-      { "name": "vegetable oil for frying", "amount": 500, "unit": "ml" },
-      { "name": "salt", "amount": 0.5, "unit": "tsp" }
+      {
+        "name": "fine semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "date paste",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "honey",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Mix semolina with melted butter, oil, salt, and orange blossom water.",
@@ -253,7 +492,15 @@
       "Warm the honey for easier coating."
     ],
     "difficulty": "medium",
-    "tags": ["algerian", "dessert", "dates", "fried", "honey", "traditional", "festive"],
+    "tags": [
+      "algerian",
+      "dessert",
+      "dates",
+      "fried",
+      "honey",
+      "traditional",
+      "festive"
+    ],
     "nutrition": {
       "per_serving_kcal": 180,
       "protein_g": 2,
@@ -263,5 +510,2643 @@
     "nutrition_benefits": "Dates are high in fiber and natural sugars for quick energy. Semolina provides complex carbohydrates. Honey has natural antibacterial properties.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "dz-berkoukes",
+    "slug": "berkoukes",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Berkoukes",
+    "image": "assets/img/recipes/berkoukes.jpg",
+    "short_description": "Traditional Algerian pasta pearls cooked in a rich tomato and lamb stew with vegetables. A hearty one-pot meal popular in winter.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "berkoukes pasta",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb in olive oil.",
+      "Add onions and cook until soft.",
+      "Add tomato paste and spices.",
+      "Add water and chickpeas, simmer 45 minutes.",
+      "Add vegetables and berkoukes.",
+      "Cook until pasta is tender.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Berkoukes can be homemade or store-bought.",
+      "Add vegetables according to season.",
+      "The stew should be thick, not soupy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "pasta",
+      "lamb",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete protein from lamb and chickpeas. Rich in fiber from vegetables.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-chakhchoukha",
+    "slug": "chakhchoukha",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Chakhchoukha",
+    "image": "assets/img/recipes/chakhchoukha.jpg",
+    "short_description": "Algerian torn flatbread in a spicy meat sauce, a specialty from the Biskra region. The bread is torn into pieces and soaked in flavorful red sauce.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "harissa",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make flatbread with semolina and water.",
+      "Cook bread on griddle, tear into pieces.",
+      "Brown lamb with onions.",
+      "Add garlic, spices, and tomato paste.",
+      "Add water and chickpeas, simmer until tender.",
+      "Add harissa and adjust seasoning.",
+      "Layer bread pieces with sauce.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "The bread should be slightly crispy before adding sauce.",
+      "Sauce should be absorbed but not too soggy.",
+      "Very spicy - adjust harissa to taste."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "algerian",
+      "bread",
+      "lamb",
+      "regional",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 35,
+      "fat_g": 26,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Carbohydrates from semolina for energy. Protein from lamb and chickpeas.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-dolma",
+    "slug": "dolma-algerian",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Algerian Dolma",
+    "image": "assets/img/recipes/dolma-algerian.jpg",
+    "short_description": "Stuffed vegetables including peppers, zucchini, and tomatoes filled with spiced meat and rice. A festive dish prepared for special occasions.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "bell peppers",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "zucchini",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Hollow out vegetables, reserve tops.",
+      "Mix beef with rice, onion, herbs, and seasonings.",
+      "Stuff vegetables loosely.",
+      "Arrange in pot with a little water.",
+      "Pour tomato sauce over.",
+      "Cover and simmer 1 hour.",
+      "Serve warm with cooking sauce."
+    ],
+    "cooking_tips": [
+      "Don't overstuff - rice expands.",
+      "Use vegetable pulp in the sauce.",
+      "Arrange tightly so they don't fall over."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "stuffed-vegetables",
+      "beef",
+      "dinner",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Vegetables provide vitamins and fiber. Complete protein from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "dz-makroud",
+    "slug": "makroud",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Makroud",
+    "image": "assets/img/recipes/makroud.jpg",
+    "short_description": "Semolina cookies filled with date paste and soaked in honey syrup. These diamond-shaped sweets are essential during Algerian celebrations.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "fine semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "dates (pitted)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Process dates with cinnamon into paste.",
+      "Make dough with semolina, butter, and water.",
+      "Roll dough into logs, make groove.",
+      "Fill with date paste, close and shape.",
+      "Cut into diamonds.",
+      "Fry until golden.",
+      "Soak in warm honey with orange blossom.",
+      "Cool and serve."
+    ],
+    "cooking_tips": [
+      "The dough should be pliable but not sticky.",
+      "Fry at medium heat for even cooking.",
+      "Dip in honey while still warm."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "algerian",
+      "dessert",
+      "dates",
+      "fried",
+      "celebration"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Natural sugars from dates. Honey provides energy and antioxidants.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "dz-hrira",
+    "slug": "hrira-algerian",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Algerian Hrira",
+    "image": "assets/img/recipes/hrira-algerian.jpg",
+    "short_description": "A hearty soup with lamb, chickpeas, and lentils thickened with fermented dough. Essential for breaking fast during Ramadan.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "lentils",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb in pot.",
+      "Add onion and celery, cook until soft.",
+      "Add tomatoes and spices.",
+      "Add water, chickpeas, lentils, simmer 1 hour.",
+      "Mix flour with water, stir in.",
+      "Simmer until thickened.",
+      "Add herbs and serve."
+    ],
+    "cooking_tips": [
+      "Soak chickpeas overnight.",
+      "Stir constantly when adding flour.",
+      "Serve with dates and chebakia."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "soup",
+      "lamb",
+      "ramadan",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 24,
+      "fat_g": 12,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "High protein from lamb and legumes. Fiber aids digestion after fasting.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-chebakia",
+    "slug": "chebakia-algerian",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Chebakia",
+    "image": "assets/img/recipes/chebakia-algerian.jpg",
+    "short_description": "Flower-shaped fried pastries coated in honey and sesame seeds. These aromatic sweets are traditional during Ramadan.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 40,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "almonds (ground)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "anise seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Toast sesame seeds, reserve for coating.",
+      "Mix flour, almonds, butter, spices into dough.",
+      "Roll thin and cut into rectangles.",
+      "Make slits and fold into flower shapes.",
+      "Deep fry until golden.",
+      "Coat in warm honey.",
+      "Sprinkle with sesame seeds.",
+      "Cool on rack."
+    ],
+    "cooking_tips": [
+      "Work quickly as dough dries.",
+      "Fry in batches at medium heat.",
+      "Honey should be warm but not hot."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "algerian",
+      "dessert",
+      "honey",
+      "sesame",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 3,
+      "fat_g": 7,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Energy from honey and carbs. Sesame seeds provide calcium.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "dz-mesfouf",
+    "slug": "mesfouf",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Mesfouf",
+    "image": "assets/img/recipes/mesfouf.jpg",
+    "short_description": "Sweet couscous with butter, raisins, and cinnamon, often served as breakfast or dessert. Light and fragrant, perfect with milk.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "fine couscous",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "raisins",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "milk",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Steam couscous until fluffy.",
+      "Mix in butter while hot.",
+      "Add raisins and sugar.",
+      "Sprinkle with cinnamon.",
+      "Add orange blossom water.",
+      "Serve with cold milk on side."
+    ],
+    "cooking_tips": [
+      "Fluff couscous with fork.",
+      "Can be served hot or cold.",
+      "Add pomegranate seeds for garnish."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "algerian",
+      "couscous",
+      "dessert",
+      "breakfast",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 14,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Quick energy from simple carbs. Raisins provide iron.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "dz-rechta",
+    "slug": "rechta",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Rechta",
+    "image": "assets/img/recipes/rechta.jpg",
+    "short_description": "Algerian hand-rolled pasta in a chicken and chickpea stew with warming spices. A labor of love for special occasions.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "turnips",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make dough, rest 30 minutes.",
+      "Roll very thin and cut into strips.",
+      "Cook chicken with onions and spices.",
+      "Add chickpeas and vegetables.",
+      "Simmer until tender.",
+      "Steam pasta over stew.",
+      "Serve pasta topped with chicken and vegetables."
+    ],
+    "cooking_tips": [
+      "Dough must be very thin.",
+      "Steam pasta, don't boil it.",
+      "The sauce should be light, not thick."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "algerian",
+      "pasta",
+      "chicken",
+      "festive",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Lean protein from chicken. Fiber from vegetables and chickpeas.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-mhadjeb",
+    "slug": "mhadjeb",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Mhadjeb",
+    "image": "assets/img/recipes/mhadjeb.jpg",
+    "short_description": "Pan-fried filled flatbread with tomato and onion filling. Popular street food often served with coffee or tea.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "fine semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "bell pepper",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "harissa",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make soft dough with semolina and water.",
+      "Cook tomatoes, onions, and peppers into thick paste.",
+      "Add harissa and cool.",
+      "Divide dough into balls.",
+      "Roll thin, add filling, fold and roll again.",
+      "Cook on griddle with oil until golden.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Filling must be dry.",
+      "Roll carefully to spread filling evenly.",
+      "Best eaten fresh and hot."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "flatbread",
+      "vegetarian",
+      "street-food",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Lycopene from tomatoes. Energy from complex carbs.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "dz-bourek",
+    "slug": "bourek-algerian",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Algerian Bourek",
+    "image": "assets/img/recipes/bourek-algerian.jpg",
+    "short_description": "Crispy filo pastry rolls filled with spiced meat and eggs, fried until golden. Classic appetizer during Ramadan.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "filo pastry",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cheese",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook beef with onion until dry.",
+      "Add parsley and cheese, cool.",
+      "Beat eggs and add to meat.",
+      "Cut filo into strips.",
+      "Place filling and roll tightly.",
+      "Seal edges with egg.",
+      "Deep fry until golden.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Keep filo covered to prevent drying.",
+      "Rolls should be thin and crispy.",
+      "Drain well after frying."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "appetizer",
+      "fried",
+      "beef",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 165,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from beef and eggs. Best in moderation.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "dz-tajine-zitoune",
+    "slug": "tajine-zitoune",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Tajine Zitoune",
+    "image": "assets/img/recipes/tajine-zitoune.jpg",
+    "short_description": "Chicken stew with olives and preserved lemons in a fragrant sauce. The tanginess creates a memorable flavor profile.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken pieces",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "green olives",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "preserved lemons",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown chicken in olive oil.",
+      "Add onions and cook until soft.",
+      "Add garlic, turmeric, and water.",
+      "Simmer 40 minutes.",
+      "Add olives and preserved lemon.",
+      "Cook 15 more minutes.",
+      "Garnish with cilantro."
+    ],
+    "cooking_tips": [
+      "Rinse olives to reduce saltiness.",
+      "Use only the rind of preserved lemons.",
+      "Serve over couscous or bread."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "chicken",
+      "olives",
+      "dinner",
+      "tajine"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 26,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Lean protein from chicken. Heart-healthy fats from olives.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-mtewem",
+    "slug": "mtewem",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Mtewem",
+    "image": "assets/img/recipes/mtewem.jpg",
+    "short_description": "Meatballs in a creamy almond and garlic sauce, rich with saffron and cinnamon. An elegant dish for special guests.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "almonds (blanched)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 8,
+        "unit": "cloves"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "bread crumbs",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix beef with egg, bread crumbs, and spices.",
+      "Form small meatballs.",
+      "Blend almonds with garlic into paste.",
+      "Brown meatballs in butter.",
+      "Add almond paste and water.",
+      "Simmer until sauce thickens.",
+      "Add saffron and serve."
+    ],
+    "cooking_tips": [
+      "Toast almonds before blending for deeper flavor.",
+      "Sauce should coat meatballs nicely.",
+      "Garnish with toasted almonds."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "meatballs",
+      "almonds",
+      "dinner",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 38,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from beef. Healthy fats and vitamin E from almonds.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-kesra",
+    "slug": "kesra",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Kesra",
+    "image": "assets/img/recipes/kesra.jpg",
+    "short_description": "Traditional Algerian semolina flatbread cooked on a clay griddle. The rustic bread accompanies most meals.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "fine semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "water",
+        "amount": 1.5,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Mix semolina with salt.",
+      "Add olive oil and water gradually.",
+      "Knead to soft dough.",
+      "Divide into balls, flatten.",
+      "Cook on hot griddle until spotted.",
+      "Flip and cook other side.",
+      "Wrap in cloth to keep soft."
+    ],
+    "cooking_tips": [
+      "Dough should be soft but not sticky.",
+      "High heat for best texture.",
+      "Best served warm."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "algerian",
+      "bread",
+      "semolina",
+      "vegetarian",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Complex carbohydrates for energy. Low in fat.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "dz-chtitha-batata",
+    "slug": "chtitha-batata",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Chtitha Batata",
+    "image": "assets/img/recipes/chtitha-batata.jpg",
+    "short_description": "Spicy potato stew in a red sauce with garlic and caraway. A humble but flavorful vegetarian main dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "caraway seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cayenne",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut potatoes into chunks.",
+      "Fry garlic and spices in oil.",
+      "Add tomato paste and water.",
+      "Add potatoes and simmer until tender.",
+      "The sauce should be thick.",
+      "Garnish with cilantro.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "Don't stir too much or potatoes will break.",
+      "Adjust cayenne to preferred spice level.",
+      "A fried egg on top is traditional."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "algerian",
+      "potato",
+      "vegetarian",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 240,
+      "protein_g": 5,
+      "fat_g": 10,
+      "carbs_g": 35
+    },
+    "nutrition_benefits": "Potassium and vitamin C from potatoes. Economical and filling.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "dz-lham-hlou",
+    "slug": "lham-hlou",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Lham Hlou",
+    "image": "assets/img/recipes/lham-hlou.jpg",
+    "short_description": "Sweet lamb with prunes and almonds in a honey-cinnamon sauce. A festive dish showcasing the Algerian love for sweet-savory combinations.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "prunes",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb with onion in butter.",
+      "Add cinnamon, salt, and water.",
+      "Simmer 1 hour until tender.",
+      "Soak prunes in warm water.",
+      "Add prunes, honey, and almonds.",
+      "Cook 20 more minutes.",
+      "Add orange blossom water.",
+      "Serve over rice."
+    ],
+    "cooking_tips": [
+      "Use bone-in lamb for better flavor.",
+      "Toast almonds for extra crunch.",
+      "Balance sweet and savory to taste."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "lamb",
+      "prunes",
+      "sweet-savory",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Iron from lamb and prunes. Healthy fats from almonds.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-berkoukes",
+    "slug": "berkoukes",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Berkoukes",
+    "image": "assets/img/recipes/berkoukes.jpg",
+    "short_description": "Traditional Algerian pasta pearls cooked in a rich tomato and lamb stew with vegetables. A hearty one-pot meal popular in winter.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "berkoukes pasta",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb in olive oil.",
+      "Add onions and cook until soft.",
+      "Add tomato paste and spices.",
+      "Add water and chickpeas, simmer 45 minutes.",
+      "Add vegetables and berkoukes.",
+      "Cook until pasta is tender.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Berkoukes can be homemade or store-bought.",
+      "Add vegetables according to season.",
+      "The stew should be thick, not soupy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "pasta",
+      "lamb",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete protein from lamb and chickpeas. Rich in fiber from vegetables.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-chakhchoukha",
+    "slug": "chakhchoukha",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Chakhchoukha",
+    "image": "assets/img/recipes/chakhchoukha.jpg",
+    "short_description": "Algerian torn flatbread in a spicy meat sauce, a specialty from the Biskra region. The bread is torn into pieces and soaked in flavorful red sauce.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "harissa",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make flatbread with semolina and water.",
+      "Cook bread on griddle, tear into pieces.",
+      "Brown lamb with onions.",
+      "Add garlic, spices, and tomato paste.",
+      "Add water and chickpeas, simmer until tender.",
+      "Add harissa and adjust seasoning.",
+      "Layer bread pieces with sauce.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "The bread should be slightly crispy before adding sauce.",
+      "Sauce should be absorbed but not too soggy.",
+      "Very spicy - adjust harissa to taste."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "algerian",
+      "bread",
+      "lamb",
+      "regional",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 35,
+      "fat_g": 26,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Carbohydrates from semolina for energy. Protein from lamb and chickpeas.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-dolma",
+    "slug": "dolma-algerian",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Algerian Dolma",
+    "image": "assets/img/recipes/dolma-algerian.jpg",
+    "short_description": "Stuffed vegetables including peppers, zucchini, and tomatoes filled with spiced meat and rice. A festive dish prepared for special occasions.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "bell peppers",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "zucchini",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Hollow out vegetables, reserve tops.",
+      "Mix beef with rice, onion, herbs, and seasonings.",
+      "Stuff vegetables loosely.",
+      "Arrange in pot with a little water.",
+      "Pour tomato sauce over.",
+      "Cover and simmer 1 hour.",
+      "Serve warm with cooking sauce."
+    ],
+    "cooking_tips": [
+      "Don't overstuff - rice expands.",
+      "Use vegetable pulp in the sauce.",
+      "Arrange tightly so they don't fall over."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "stuffed-vegetables",
+      "beef",
+      "dinner",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 18,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Vegetables provide vitamins and fiber. Complete protein from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "dz-makroud",
+    "slug": "makroud",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Makroud",
+    "image": "assets/img/recipes/makroud.jpg",
+    "short_description": "Semolina cookies filled with date paste and soaked in honey syrup. These diamond-shaped sweets are essential during Algerian celebrations.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "fine semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "dates (pitted)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Process dates with cinnamon into paste.",
+      "Make dough with semolina, butter, and water.",
+      "Roll dough into logs, make groove.",
+      "Fill with date paste, close and shape.",
+      "Cut into diamonds.",
+      "Fry until golden.",
+      "Soak in warm honey with orange blossom.",
+      "Cool and serve."
+    ],
+    "cooking_tips": [
+      "The dough should be pliable but not sticky.",
+      "Fry at medium heat for even cooking.",
+      "Dip in honey while still warm."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "algerian",
+      "dessert",
+      "dates",
+      "fried",
+      "celebration"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 8,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Natural sugars from dates. Honey provides energy and antioxidants.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "dz-hrira",
+    "slug": "hrira-algerian",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Algerian Hrira",
+    "image": "assets/img/recipes/hrira-algerian.jpg",
+    "short_description": "A hearty soup with lamb, chickpeas, and lentils thickened with fermented dough. Essential for breaking fast during Ramadan.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "lentils",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "celery",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "ras el hanout",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb in pot.",
+      "Add onion and celery, cook until soft.",
+      "Add tomatoes and spices.",
+      "Add water, chickpeas, lentils, simmer 1 hour.",
+      "Mix flour with water, stir in.",
+      "Simmer until thickened.",
+      "Add herbs and serve."
+    ],
+    "cooking_tips": [
+      "Soak chickpeas overnight.",
+      "Stir constantly when adding flour.",
+      "Serve with dates and chebakia."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "soup",
+      "lamb",
+      "ramadan",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 24,
+      "fat_g": 12,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "High protein from lamb and legumes. Fiber aids digestion after fasting.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-chebakia",
+    "slug": "chebakia-algerian",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Chebakia",
+    "image": "assets/img/recipes/chebakia-algerian.jpg",
+    "short_description": "Flower-shaped fried pastries coated in honey and sesame seeds. These aromatic sweets are traditional during Ramadan.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 40,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "almonds (ground)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "anise seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Toast sesame seeds, reserve for coating.",
+      "Mix flour, almonds, butter, spices into dough.",
+      "Roll thin and cut into rectangles.",
+      "Make slits and fold into flower shapes.",
+      "Deep fry until golden.",
+      "Coat in warm honey.",
+      "Sprinkle with sesame seeds.",
+      "Cool on rack."
+    ],
+    "cooking_tips": [
+      "Work quickly as dough dries.",
+      "Fry in batches at medium heat.",
+      "Honey should be warm but not hot."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "algerian",
+      "dessert",
+      "honey",
+      "sesame",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 3,
+      "fat_g": 7,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Energy from honey and carbs. Sesame seeds provide calcium.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "dz-mesfouf",
+    "slug": "mesfouf",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Mesfouf",
+    "image": "assets/img/recipes/mesfouf.jpg",
+    "short_description": "Sweet couscous with butter, raisins, and cinnamon, often served as breakfast or dessert. Light and fragrant, perfect with milk.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "fine couscous",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "raisins",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "milk",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Steam couscous until fluffy.",
+      "Mix in butter while hot.",
+      "Add raisins and sugar.",
+      "Sprinkle with cinnamon.",
+      "Add orange blossom water.",
+      "Serve with cold milk on side."
+    ],
+    "cooking_tips": [
+      "Fluff couscous with fork.",
+      "Can be served hot or cold.",
+      "Add pomegranate seeds for garnish."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "algerian",
+      "couscous",
+      "dessert",
+      "breakfast",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 14,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Quick energy from simple carbs. Raisins provide iron.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "dz-rechta",
+    "slug": "rechta",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Rechta",
+    "image": "assets/img/recipes/rechta.jpg",
+    "short_description": "Algerian hand-rolled pasta in a chicken and chickpea stew with warming spices. A labor of love for special occasions.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "turnips",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make dough, rest 30 minutes.",
+      "Roll very thin and cut into strips.",
+      "Cook chicken with onions and spices.",
+      "Add chickpeas and vegetables.",
+      "Simmer until tender.",
+      "Steam pasta over stew.",
+      "Serve pasta topped with chicken and vegetables."
+    ],
+    "cooking_tips": [
+      "Dough must be very thin.",
+      "Steam pasta, don't boil it.",
+      "The sauce should be light, not thick."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "algerian",
+      "pasta",
+      "chicken",
+      "festive",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Lean protein from chicken. Fiber from vegetables and chickpeas.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-mhadjeb",
+    "slug": "mhadjeb",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Mhadjeb",
+    "image": "assets/img/recipes/mhadjeb.jpg",
+    "short_description": "Pan-fried filled flatbread with tomato and onion filling. Popular street food often served with coffee or tea.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "fine semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "bell pepper",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "harissa",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make soft dough with semolina and water.",
+      "Cook tomatoes, onions, and peppers into thick paste.",
+      "Add harissa and cool.",
+      "Divide dough into balls.",
+      "Roll thin, add filling, fold and roll again.",
+      "Cook on griddle with oil until golden.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Filling must be dry.",
+      "Roll carefully to spread filling evenly.",
+      "Best eaten fresh and hot."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "flatbread",
+      "vegetarian",
+      "street-food",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Lycopene from tomatoes. Energy from complex carbs.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "dz-bourek",
+    "slug": "bourek-algerian",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Algerian Bourek",
+    "image": "assets/img/recipes/bourek-algerian.jpg",
+    "short_description": "Crispy filo pastry rolls filled with spiced meat and eggs, fried until golden. Classic appetizer during Ramadan.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "filo pastry",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cheese",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook beef with onion until dry.",
+      "Add parsley and cheese, cool.",
+      "Beat eggs and add to meat.",
+      "Cut filo into strips.",
+      "Place filling and roll tightly.",
+      "Seal edges with egg.",
+      "Deep fry until golden.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Keep filo covered to prevent drying.",
+      "Rolls should be thin and crispy.",
+      "Drain well after frying."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "appetizer",
+      "fried",
+      "beef",
+      "ramadan"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 165,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from beef and eggs. Best in moderation.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "dz-tajine-zitoune",
+    "slug": "tajine-zitoune",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Tajine Zitoune",
+    "image": "assets/img/recipes/tajine-zitoune.jpg",
+    "short_description": "Chicken stew with olives and preserved lemons in a fragrant sauce. The tanginess creates a memorable flavor profile.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken pieces",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "green olives",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "preserved lemons",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown chicken in olive oil.",
+      "Add onions and cook until soft.",
+      "Add garlic, turmeric, and water.",
+      "Simmer 40 minutes.",
+      "Add olives and preserved lemon.",
+      "Cook 15 more minutes.",
+      "Garnish with cilantro."
+    ],
+    "cooking_tips": [
+      "Rinse olives to reduce saltiness.",
+      "Use only the rind of preserved lemons.",
+      "Serve over couscous or bread."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "chicken",
+      "olives",
+      "dinner",
+      "tajine"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 26,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Lean protein from chicken. Heart-healthy fats from olives.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-mtewem",
+    "slug": "mtewem",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Mtewem",
+    "image": "assets/img/recipes/mtewem.jpg",
+    "short_description": "Meatballs in a creamy almond and garlic sauce, rich with saffron and cinnamon. An elegant dish for special guests.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "almonds (blanched)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 8,
+        "unit": "cloves"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "bread crumbs",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix beef with egg, bread crumbs, and spices.",
+      "Form small meatballs.",
+      "Blend almonds with garlic into paste.",
+      "Brown meatballs in butter.",
+      "Add almond paste and water.",
+      "Simmer until sauce thickens.",
+      "Add saffron and serve."
+    ],
+    "cooking_tips": [
+      "Toast almonds before blending for deeper flavor.",
+      "Sauce should coat meatballs nicely.",
+      "Garnish with toasted almonds."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "meatballs",
+      "almonds",
+      "dinner",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 32,
+      "fat_g": 38,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from beef. Healthy fats and vitamin E from almonds.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "dz-kesra",
+    "slug": "kesra",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Kesra",
+    "image": "assets/img/recipes/kesra.jpg",
+    "short_description": "Traditional Algerian semolina flatbread cooked on a clay griddle. The rustic bread accompanies most meals.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "fine semolina",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "water",
+        "amount": 1.5,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Mix semolina with salt.",
+      "Add olive oil and water gradually.",
+      "Knead to soft dough.",
+      "Divide into balls, flatten.",
+      "Cook on hot griddle until spotted.",
+      "Flip and cook other side.",
+      "Wrap in cloth to keep soft."
+    ],
+    "cooking_tips": [
+      "Dough should be soft but not sticky.",
+      "High heat for best texture.",
+      "Best served warm."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "algerian",
+      "bread",
+      "semolina",
+      "vegetarian",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Complex carbohydrates for energy. Low in fat.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "dz-chtitha-batata",
+    "slug": "chtitha-batata",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Chtitha Batata",
+    "image": "assets/img/recipes/chtitha-batata.jpg",
+    "short_description": "Spicy potato stew in a red sauce with garlic and caraway. A humble but flavorful vegetarian main dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "caraway seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cayenne",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut potatoes into chunks.",
+      "Fry garlic and spices in oil.",
+      "Add tomato paste and water.",
+      "Add potatoes and simmer until tender.",
+      "The sauce should be thick.",
+      "Garnish with cilantro.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "Don't stir too much or potatoes will break.",
+      "Adjust cayenne to preferred spice level.",
+      "A fried egg on top is traditional."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "algerian",
+      "potato",
+      "vegetarian",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 240,
+      "protein_g": 5,
+      "fat_g": 10,
+      "carbs_g": 35
+    },
+    "nutrition_benefits": "Potassium and vitamin C from potatoes. Economical and filling.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "dz-lham-hlou",
+    "slug": "lham-hlou",
+    "country": "Algeria",
+    "country_slug": "algeria",
+    "name_en": "Lham Hlou",
+    "image": "assets/img/recipes/lham-hlou.jpg",
+    "short_description": "Sweet lamb with prunes and almonds in a honey-cinnamon sauce. A festive dish showcasing the Algerian love for sweet-savory combinations.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "prunes",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "orange blossom water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb with onion in butter.",
+      "Add cinnamon, salt, and water.",
+      "Simmer 1 hour until tender.",
+      "Soak prunes in warm water.",
+      "Add prunes, honey, and almonds.",
+      "Cook 20 more minutes.",
+      "Add orange blossom water.",
+      "Serve over rice."
+    ],
+    "cooking_tips": [
+      "Use bone-in lamb for better flavor.",
+      "Toast almonds for extra crunch.",
+      "Balance sweet and savory to taste."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "algerian",
+      "lamb",
+      "prunes",
+      "sweet-savory",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Iron from lamb and prunes. Healthy fats from almonds.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
   }
 ]

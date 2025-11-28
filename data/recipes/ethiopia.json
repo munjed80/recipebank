@@ -264,5 +264,2183 @@
     "nutrition_benefits": "High protein, iron from beef.",
     "mealType": "Dinner",
     "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "et-kitfo",
+    "slug": "kitfo",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Kitfo",
+    "image": "assets/img/recipes/kitfo.jpg",
+    "short_description": "Ethiopian steak tartare seasoned with mitmita spice and niter kibbeh butter. A celebratory dish for special occasions.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef tenderloin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "mitmita",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "korerima",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ayib (fresh cheese)",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Finely mince beef by hand.",
+      "Warm niter kibbeh.",
+      "Mix beef with warm butter.",
+      "Season with mitmita.",
+      "Serve immediately with ayib.",
+      "Accompany with injera."
+    ],
+    "cooking_tips": [
+      "Meat must be very fresh.",
+      "Mince by hand, not machine.",
+      "Can be served lightly seared."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "beef",
+      "raw",
+      "celebration"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 26,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "High protein, no carbs. Rich in iron and B12.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "et-tibs",
+    "slug": "tibs",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Tibs",
+    "image": "assets/img/recipes/tibs.jpg",
+    "short_description": "Sauteed beef or lamb with onions and peppers. A quick, flavorful Ethiopian stir-fry.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "jalapenos",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "berbere",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rosemary",
+        "amount": 1,
+        "unit": "sprig"
+      }
+    ],
+    "steps": [
+      "Cut beef into cubes.",
+      "Heat niter kibbeh very hot.",
+      "Sear beef until browned.",
+      "Add onions, cook until soft.",
+      "Add tomatoes and peppers.",
+      "Season with berbere.",
+      "Serve over injera."
+    ],
+    "cooking_tips": [
+      "Very high heat for proper sear.",
+      "Don't overcrowd the pan.",
+      "Adjust spice to taste."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "beef",
+      "stir-fry",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 26,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein-rich and satisfying. Iron from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "et-shiro",
+    "slug": "shiro",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Shiro",
+    "image": "assets/img/recipes/shiro.jpg",
+    "short_description": "Creamy chickpea or lentil stew made from powdered legumes. A staple vegetarian dish during fasting periods.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shiro powder",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "berbere",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "water",
+        "amount": 3,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Cook onions in niter kibbeh until very soft.",
+      "Add garlic and tomatoes.",
+      "Add berbere and cook.",
+      "Whisk in shiro powder.",
+      "Add water gradually, stir constantly.",
+      "Simmer until thick and smooth.",
+      "Serve with injera."
+    ],
+    "cooking_tips": [
+      "Stir constantly to prevent lumps.",
+      "Adjust consistency with water.",
+      "Best when very smooth."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "vegan",
+      "chickpeas",
+      "fasting",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Plant protein from legumes. Rich in fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-gomen",
+    "slug": "gomen",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Gomen",
+    "image": "assets/img/recipes/gomen.jpg",
+    "short_description": "Ethiopian collard greens sauteed with ginger and garlic. A healthy and flavorful side dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "collard greens",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Remove stems from greens, chop finely.",
+      "Saute onions until soft.",
+      "Add garlic and ginger.",
+      "Add greens, cover and steam.",
+      "Cook until tender but still green.",
+      "Season with salt."
+    ],
+    "cooking_tips": [
+      "Chop greens very finely.",
+      "Don't overcook.",
+      "Can add jalapeño for heat."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "vegetables",
+      "vegan",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Vitamin K and calcium from greens. Very nutritious.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-misir-wot",
+    "slug": "misir-wot",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Misir Wot",
+    "image": "assets/img/recipes/misir-wot.jpg",
+    "short_description": "Spicy red lentil stew with berbere spice. A cornerstone of Ethiopian vegan cuisine.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "red lentils",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "berbere",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "inch"
+      }
+    ],
+    "steps": [
+      "Cook onions without oil until dry.",
+      "Add niter kibbeh and continue cooking.",
+      "Add garlic, ginger, berbere.",
+      "Add tomato paste.",
+      "Add lentils and water.",
+      "Simmer until lentils are very soft.",
+      "Adjust seasoning and serve."
+    ],
+    "cooking_tips": [
+      "Cook onions very slowly.",
+      "Lentils should be creamy.",
+      "Add water as needed."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "lentils",
+      "vegan",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 12,
+      "carbs_g": 40
+    },
+    "nutrition_benefits": "High fiber and protein from lentils. Iron-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-ayib",
+    "slug": "ayib",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Ayib",
+    "image": "assets/img/recipes/ayib.jpg",
+    "short_description": "Fresh Ethiopian cottage cheese, mild and crumbly. Used as a cooling side with spicy dishes.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole milk",
+        "amount": 2,
+        "unit": "liters"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Heat milk until almost boiling.",
+      "Remove from heat, add lemon juice.",
+      "Stir gently, let sit 15 minutes.",
+      "Strain through cheesecloth.",
+      "Season with salt.",
+      "Press lightly and chill."
+    ],
+    "cooking_tips": [
+      "Don't boil the milk.",
+      "Strain gently for tender curds.",
+      "Best used fresh."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "cheese",
+      "vegetarian",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 8,
+      "fat_g": 8,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Calcium and protein from dairy. Cooling for spicy meals.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-firfir",
+    "slug": "firfir",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Firfir",
+    "image": "assets/img/recipes/firfir.jpg",
+    "short_description": "Torn injera sauteed with berbere sauce. A delicious way to use leftover bread.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "injera",
+        "amount": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "berbere",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "water",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Tear injera into pieces.",
+      "Saute onions in niter kibbeh.",
+      "Add berbere and tomatoes.",
+      "Add water to make sauce.",
+      "Add torn injera, mix well.",
+      "Cook until sauce is absorbed."
+    ],
+    "cooking_tips": [
+      "Use day-old injera.",
+      "Don't make too wet.",
+      "Can add eggs for breakfast."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "bread",
+      "breakfast",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Energy from carbs. Uses leftovers wisely.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-kik-alicha",
+    "slug": "kik-alicha",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Kik Alicha",
+    "image": "assets/img/recipes/kik-alicha.jpg",
+    "short_description": "Mild yellow split pea stew without berbere. A gentle option for those avoiding spicy foods.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "yellow split peas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook onions until softened.",
+      "Add garlic, ginger, turmeric.",
+      "Add split peas and water.",
+      "Simmer until peas are soft.",
+      "Mash slightly for creamy texture.",
+      "Serve with injera."
+    ],
+    "cooking_tips": [
+      "Peas should be very soft.",
+      "Add water as needed.",
+      "Mild but flavorful."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "split-peas",
+      "vegan",
+      "mild",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Plant protein and fiber. Gentle on digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-awaze",
+    "slug": "awaze",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Awaze",
+    "image": "assets/img/recipes/awaze.jpg",
+    "short_description": "Spicy Ethiopian paste made with berbere, honey, and wine. Used as a condiment and cooking base.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 5,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "berbere",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "red wine",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "honey",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mince garlic and ginger.",
+      "Mix berbere with wine.",
+      "Add honey, garlic, ginger.",
+      "Stir until smooth paste.",
+      "Adjust consistency as needed.",
+      "Store in refrigerator."
+    ],
+    "cooking_tips": [
+      "Let rest overnight for best flavor.",
+      "Keeps for weeks refrigerated.",
+      "Use as dip or cooking sauce."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "condiment",
+      "spicy",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 25,
+      "protein_g": 0,
+      "fat_g": 1,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Antioxidants from spices. Use sparingly.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-yebeg-alicha",
+    "slug": "yebeg-alicha",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Yebeg Alicha",
+    "image": "assets/img/recipes/yebeg-alicha.jpg",
+    "short_description": "Mild lamb stew with turmeric and ginger. A gentler alternative to spicy wots.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "turmeric",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "ginger",
+        "amount": 2,
+        "unit": "inches"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "jalapenos",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cut lamb into pieces.",
+      "Cook onions in niter kibbeh.",
+      "Add garlic and ginger.",
+      "Add turmeric, cook briefly.",
+      "Add lamb and brown.",
+      "Add water, simmer until tender.",
+      "Add whole peppers last."
+    ],
+    "cooking_tips": [
+      "Low and slow for tender lamb.",
+      "Yellow color from turmeric.",
+      "Peppers should stay whole."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "lamb",
+      "mild",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "High protein from lamb. Anti-inflammatory turmeric.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "et-dabo",
+    "slug": "dabo",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Dabo",
+    "image": "assets/img/recipes/dabo.jpg",
+    "short_description": "Ethiopian honey bread baked in a pot. Sweet and aromatic, often served at holidays.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "honey",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "yeast",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cardamom",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Activate yeast in warm milk.",
+      "Mix flour, eggs, honey, butter.",
+      "Add yeast mixture.",
+      "Knead until smooth.",
+      "Rise until doubled.",
+      "Shape into round, place in pot.",
+      "Bake covered until golden."
+    ],
+    "cooking_tips": [
+      "Traditionally baked in clay pot.",
+      "Cover for soft crust.",
+      "Best served warm."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "bread",
+      "sweet",
+      "holiday",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 8,
+      "fat_g": 12,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Energy from carbs. Comfort food for celebrations.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-kategna",
+    "slug": "kategna",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Kategna",
+    "image": "assets/img/recipes/kategna.jpg",
+    "short_description": "Crispy injera with berbere butter. A simple and addictive snack or side dish.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "injera",
+        "amount": 2,
+        "unit": "pieces"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "berbere",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix berbere with niter kibbeh.",
+      "Spread on injera.",
+      "Roll up tightly.",
+      "Toast in dry pan until crispy.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Roll tightly for best texture.",
+      "Toast until very crispy.",
+      "Eat immediately."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "snack",
+      "bread",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 12,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Quick energy boost. Simple and satisfying.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-genfo",
+    "slug": "genfo",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Genfo",
+    "image": "assets/img/recipes/genfo.jpg",
+    "short_description": "Ethiopian porridge with spiced butter pool in center. Traditional breakfast food, especially for new mothers.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "barley flour",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "water",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 6,
+        "unit": "tbsp"
+      },
+      {
+        "name": "berbere",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Boil water with salt.",
+      "Add flour gradually, stirring.",
+      "Stir vigorously until very thick.",
+      "Shape into mound with well.",
+      "Fill well with melted niter kibbeh.",
+      "Add berbere to butter.",
+      "Eat by dipping edges in butter."
+    ],
+    "cooking_tips": [
+      "Must stir vigorously to prevent lumps.",
+      "Should be very thick.",
+      "Tear off pieces to eat."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "porridge",
+      "breakfast",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Sustained energy from complex carbs. Traditional postpartum food.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-kocho",
+    "slug": "kocho",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Kocho",
+    "image": "assets/img/recipes/kocho.jpg",
+    "short_description": "Fermented flatbread from enset plant. A staple food in southern Ethiopia.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "kocho paste",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Knead kocho paste with salt.",
+      "Form into flat rounds.",
+      "Wrap in banana leaves.",
+      "Steam or bake until cooked.",
+      "Serve with butter and kitfo.",
+      "Can also be fried."
+    ],
+    "cooking_tips": [
+      "Kocho improves with longer fermentation.",
+      "Steam for softer texture.",
+      "Essential with kitfo."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "bread",
+      "fermented",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 35
+    },
+    "nutrition_benefits": "Fermented for probiotics. Unique regional staple.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-fossolia",
+    "slug": "fossolia",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Fossolia",
+    "image": "assets/img/recipes/fossolia.jpg",
+    "short_description": "Ethiopian green beans and carrots sauteed with onions and garlic. Simple and healthy vegetable dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "green beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Trim and chop green beans.",
+      "Slice carrots thinly.",
+      "Saute onions until soft.",
+      "Add garlic, cook briefly.",
+      "Add vegetables, saute until tender.",
+      "Season with salt."
+    ],
+    "cooking_tips": [
+      "Don't overcook vegetables.",
+      "Add turmeric for color.",
+      "Good side for any meal."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "vegetables",
+      "vegan",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Vitamins from fresh vegetables. Low calorie and nutritious.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-kitfo",
+    "slug": "kitfo",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Kitfo",
+    "image": "assets/img/recipes/kitfo.jpg",
+    "short_description": "Ethiopian steak tartare seasoned with mitmita spice and niter kibbeh butter. A celebratory dish for special occasions.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef tenderloin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "mitmita",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "korerima",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ayib (fresh cheese)",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Finely mince beef by hand.",
+      "Warm niter kibbeh.",
+      "Mix beef with warm butter.",
+      "Season with mitmita.",
+      "Serve immediately with ayib.",
+      "Accompany with injera."
+    ],
+    "cooking_tips": [
+      "Meat must be very fresh.",
+      "Mince by hand, not machine.",
+      "Can be served lightly seared."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "beef",
+      "raw",
+      "celebration"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 26,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "High protein, no carbs. Rich in iron and B12.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "et-tibs",
+    "slug": "tibs",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Tibs",
+    "image": "assets/img/recipes/tibs.jpg",
+    "short_description": "Sauteed beef or lamb with onions and peppers. A quick, flavorful Ethiopian stir-fry.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "jalapenos",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "berbere",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rosemary",
+        "amount": 1,
+        "unit": "sprig"
+      }
+    ],
+    "steps": [
+      "Cut beef into cubes.",
+      "Heat niter kibbeh very hot.",
+      "Sear beef until browned.",
+      "Add onions, cook until soft.",
+      "Add tomatoes and peppers.",
+      "Season with berbere.",
+      "Serve over injera."
+    ],
+    "cooking_tips": [
+      "Very high heat for proper sear.",
+      "Don't overcrowd the pan.",
+      "Adjust spice to taste."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "beef",
+      "stir-fry",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 26,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein-rich and satisfying. Iron from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "et-shiro",
+    "slug": "shiro",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Shiro",
+    "image": "assets/img/recipes/shiro.jpg",
+    "short_description": "Creamy chickpea or lentil stew made from powdered legumes. A staple vegetarian dish during fasting periods.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shiro powder",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "berbere",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "water",
+        "amount": 3,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Cook onions in niter kibbeh until very soft.",
+      "Add garlic and tomatoes.",
+      "Add berbere and cook.",
+      "Whisk in shiro powder.",
+      "Add water gradually, stir constantly.",
+      "Simmer until thick and smooth.",
+      "Serve with injera."
+    ],
+    "cooking_tips": [
+      "Stir constantly to prevent lumps.",
+      "Adjust consistency with water.",
+      "Best when very smooth."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "vegan",
+      "chickpeas",
+      "fasting",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Plant protein from legumes. Rich in fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-gomen",
+    "slug": "gomen",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Gomen",
+    "image": "assets/img/recipes/gomen.jpg",
+    "short_description": "Ethiopian collard greens sauteed with ginger and garlic. A healthy and flavorful side dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "collard greens",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Remove stems from greens, chop finely.",
+      "Saute onions until soft.",
+      "Add garlic and ginger.",
+      "Add greens, cover and steam.",
+      "Cook until tender but still green.",
+      "Season with salt."
+    ],
+    "cooking_tips": [
+      "Chop greens very finely.",
+      "Don't overcook.",
+      "Can add jalapeño for heat."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "vegetables",
+      "vegan",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Vitamin K and calcium from greens. Very nutritious.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-misir-wot",
+    "slug": "misir-wot",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Misir Wot",
+    "image": "assets/img/recipes/misir-wot.jpg",
+    "short_description": "Spicy red lentil stew with berbere spice. A cornerstone of Ethiopian vegan cuisine.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "red lentils",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "berbere",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "inch"
+      }
+    ],
+    "steps": [
+      "Cook onions without oil until dry.",
+      "Add niter kibbeh and continue cooking.",
+      "Add garlic, ginger, berbere.",
+      "Add tomato paste.",
+      "Add lentils and water.",
+      "Simmer until lentils are very soft.",
+      "Adjust seasoning and serve."
+    ],
+    "cooking_tips": [
+      "Cook onions very slowly.",
+      "Lentils should be creamy.",
+      "Add water as needed."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "lentils",
+      "vegan",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 12,
+      "carbs_g": 40
+    },
+    "nutrition_benefits": "High fiber and protein from lentils. Iron-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-ayib",
+    "slug": "ayib",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Ayib",
+    "image": "assets/img/recipes/ayib.jpg",
+    "short_description": "Fresh Ethiopian cottage cheese, mild and crumbly. Used as a cooling side with spicy dishes.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole milk",
+        "amount": 2,
+        "unit": "liters"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Heat milk until almost boiling.",
+      "Remove from heat, add lemon juice.",
+      "Stir gently, let sit 15 minutes.",
+      "Strain through cheesecloth.",
+      "Season with salt.",
+      "Press lightly and chill."
+    ],
+    "cooking_tips": [
+      "Don't boil the milk.",
+      "Strain gently for tender curds.",
+      "Best used fresh."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "cheese",
+      "vegetarian",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 8,
+      "fat_g": 8,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Calcium and protein from dairy. Cooling for spicy meals.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-firfir",
+    "slug": "firfir",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Firfir",
+    "image": "assets/img/recipes/firfir.jpg",
+    "short_description": "Torn injera sauteed with berbere sauce. A delicious way to use leftover bread.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "injera",
+        "amount": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "berbere",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "water",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Tear injera into pieces.",
+      "Saute onions in niter kibbeh.",
+      "Add berbere and tomatoes.",
+      "Add water to make sauce.",
+      "Add torn injera, mix well.",
+      "Cook until sauce is absorbed."
+    ],
+    "cooking_tips": [
+      "Use day-old injera.",
+      "Don't make too wet.",
+      "Can add eggs for breakfast."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "bread",
+      "breakfast",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Energy from carbs. Uses leftovers wisely.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-kik-alicha",
+    "slug": "kik-alicha",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Kik Alicha",
+    "image": "assets/img/recipes/kik-alicha.jpg",
+    "short_description": "Mild yellow split pea stew without berbere. A gentle option for those avoiding spicy foods.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "yellow split peas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook onions until softened.",
+      "Add garlic, ginger, turmeric.",
+      "Add split peas and water.",
+      "Simmer until peas are soft.",
+      "Mash slightly for creamy texture.",
+      "Serve with injera."
+    ],
+    "cooking_tips": [
+      "Peas should be very soft.",
+      "Add water as needed.",
+      "Mild but flavorful."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "split-peas",
+      "vegan",
+      "mild",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Plant protein and fiber. Gentle on digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "et-awaze",
+    "slug": "awaze",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Awaze",
+    "image": "assets/img/recipes/awaze.jpg",
+    "short_description": "Spicy Ethiopian paste made with berbere, honey, and wine. Used as a condiment and cooking base.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 5,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "berbere",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "red wine",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "honey",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mince garlic and ginger.",
+      "Mix berbere with wine.",
+      "Add honey, garlic, ginger.",
+      "Stir until smooth paste.",
+      "Adjust consistency as needed.",
+      "Store in refrigerator."
+    ],
+    "cooking_tips": [
+      "Let rest overnight for best flavor.",
+      "Keeps for weeks refrigerated.",
+      "Use as dip or cooking sauce."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "condiment",
+      "spicy",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 25,
+      "protein_g": 0,
+      "fat_g": 1,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Antioxidants from spices. Use sparingly.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-yebeg-alicha",
+    "slug": "yebeg-alicha",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Yebeg Alicha",
+    "image": "assets/img/recipes/yebeg-alicha.jpg",
+    "short_description": "Mild lamb stew with turmeric and ginger. A gentler alternative to spicy wots.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "turmeric",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "ginger",
+        "amount": 2,
+        "unit": "inches"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "jalapenos",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cut lamb into pieces.",
+      "Cook onions in niter kibbeh.",
+      "Add garlic and ginger.",
+      "Add turmeric, cook briefly.",
+      "Add lamb and brown.",
+      "Add water, simmer until tender.",
+      "Add whole peppers last."
+    ],
+    "cooking_tips": [
+      "Low and slow for tender lamb.",
+      "Yellow color from turmeric.",
+      "Peppers should stay whole."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "lamb",
+      "mild",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "High protein from lamb. Anti-inflammatory turmeric.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "et-dabo",
+    "slug": "dabo",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Dabo",
+    "image": "assets/img/recipes/dabo.jpg",
+    "short_description": "Ethiopian honey bread baked in a pot. Sweet and aromatic, often served at holidays.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "honey",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "yeast",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cardamom",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Activate yeast in warm milk.",
+      "Mix flour, eggs, honey, butter.",
+      "Add yeast mixture.",
+      "Knead until smooth.",
+      "Rise until doubled.",
+      "Shape into round, place in pot.",
+      "Bake covered until golden."
+    ],
+    "cooking_tips": [
+      "Traditionally baked in clay pot.",
+      "Cover for soft crust.",
+      "Best served warm."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "bread",
+      "sweet",
+      "holiday",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 8,
+      "fat_g": 12,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Energy from carbs. Comfort food for celebrations.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-kategna",
+    "slug": "kategna",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Kategna",
+    "image": "assets/img/recipes/kategna.jpg",
+    "short_description": "Crispy injera with berbere butter. A simple and addictive snack or side dish.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "injera",
+        "amount": 2,
+        "unit": "pieces"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "berbere",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix berbere with niter kibbeh.",
+      "Spread on injera.",
+      "Roll up tightly.",
+      "Toast in dry pan until crispy.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Roll tightly for best texture.",
+      "Toast until very crispy.",
+      "Eat immediately."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "snack",
+      "bread",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 12,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Quick energy boost. Simple and satisfying.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-genfo",
+    "slug": "genfo",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Genfo",
+    "image": "assets/img/recipes/genfo.jpg",
+    "short_description": "Ethiopian porridge with spiced butter pool in center. Traditional breakfast food, especially for new mothers.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "barley flour",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "water",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "niter kibbeh",
+        "amount": 6,
+        "unit": "tbsp"
+      },
+      {
+        "name": "berbere",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Boil water with salt.",
+      "Add flour gradually, stirring.",
+      "Stir vigorously until very thick.",
+      "Shape into mound with well.",
+      "Fill well with melted niter kibbeh.",
+      "Add berbere to butter.",
+      "Eat by dipping edges in butter."
+    ],
+    "cooking_tips": [
+      "Must stir vigorously to prevent lumps.",
+      "Should be very thick.",
+      "Tear off pieces to eat."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "porridge",
+      "breakfast",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Sustained energy from complex carbs. Traditional postpartum food.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-kocho",
+    "slug": "kocho",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Kocho",
+    "image": "assets/img/recipes/kocho.jpg",
+    "short_description": "Fermented flatbread from enset plant. A staple food in southern Ethiopia.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "kocho paste",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Knead kocho paste with salt.",
+      "Form into flat rounds.",
+      "Wrap in banana leaves.",
+      "Steam or bake until cooked.",
+      "Serve with butter and kitfo.",
+      "Can also be fried."
+    ],
+    "cooking_tips": [
+      "Kocho improves with longer fermentation.",
+      "Steam for softer texture.",
+      "Essential with kitfo."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "ethiopian",
+      "bread",
+      "fermented",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 35
+    },
+    "nutrition_benefits": "Fermented for probiotics. Unique regional staple.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "et-fossolia",
+    "slug": "fossolia",
+    "country": "Ethiopia",
+    "country_slug": "ethiopia",
+    "name_en": "Fossolia",
+    "image": "assets/img/recipes/fossolia.jpg",
+    "short_description": "Ethiopian green beans and carrots sauteed with onions and garlic. Simple and healthy vegetable dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "green beans",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Trim and chop green beans.",
+      "Slice carrots thinly.",
+      "Saute onions until soft.",
+      "Add garlic, cook briefly.",
+      "Add vegetables, saute until tender.",
+      "Season with salt."
+    ],
+    "cooking_tips": [
+      "Don't overcook vegetables.",
+      "Add turmeric for color.",
+      "Good side for any meal."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "ethiopian",
+      "vegetables",
+      "vegan",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 3,
+      "fat_g": 8,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Vitamins from fresh vegetables. Low calorie and nutritious.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegan"
   }
 ]
