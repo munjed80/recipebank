@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Get cooking help from our AI Chef Assistant. Search recipes by ingredients, country or difficulty. Get step-by-step guidance, ingredient substitutions and nutrition information.">
-  <meta name="keywords" content="AI chef, recipe search, cooking assistant, ingredient search, recipe finder, cooking help, recipe recommendations">
+  <meta name="description" content="ChefSense is your master chef and nutrition expert. Get guided cooking steps, voice-enabled help, substitutions, and dietary insights using real recipes.">
+  <meta name="keywords" content="ChefSense, AI chef, recipe search, cooking assistant, nutrition expert, substitutions, dietary guide">
   <meta name="robots" content="index, follow">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Chefpedia">
-  <meta property="og:title" content="AI Chef Assistant - Your Personal Cooking Guide">
-  <meta property="og:description" content="Chat with our AI assistant to find recipes, get cooking tips, and learn about nutrition.">
+  <meta property="og:title" content="ChefSense - Your Personal Cooking Guide">
+  <meta property="og:description" content="Chat with ChefSense to find recipes, get cooking tips, and learn about nutrition.">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://munjed80.github.io/recipebank/public/assistant.html">
-  <title>AI Chef Assistant - Recipe Search & Cooking Help | Chefpedia</title>
+  <title>ChefSense - Recipe Search & Cooking Help | Chefpedia</title>
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/chat.css">
 </head>
@@ -27,41 +27,57 @@
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="favorites.html">Favorites</a></li>
-        <li><a href="assistant.html" class="active">AI Assistant</a></li>
+        <li><a href="assistant.html" class="active">ChefSense</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="chat-container" id="chat-container">
-    <div class="chat-header">
-      <div class="chat-header-icon">🤖</div>
-      <div class="chat-header-info">
-        <h1>AI Chef Assistant</h1>
-        <p>Ask me about recipes, cooking tips, and nutrition</p>
+  <main class="section">
+    <div class="container hero-card-wrap">
+      <div class="hero-text" style="margin-bottom: 1rem;">
+        <h1>ChefSense — Master Chef & Nutrition Expert</h1>
+        <p>Ask for recipes, guided steps, nutrition guidance, or ingredient swaps. Turn on voice to talk hands-free.</p>
       </div>
-    </div>
+      <div data-chefsense-anchor="true">
+        <div class="chat-card" id="chat-container">
+          <div class="chat-header">
+            <div class="chat-header-icon">🍳</div>
+            <div class="chat-header-info">
+              <p class="chat-kicker">ChefSense</p>
+              <h1>Master Chef & Nutrition Expert</h1>
+              <p>Voice-enabled cooking guidance, nutrition insight, and step-by-step help.</p>
+            </div>
+            <div class="chat-actions">
+              <button type="button" class="voice-toggle" data-voice-output-toggle aria-label="Toggle speech output">🔈</button>
+              <span class="voice-status" data-voice-status>Voice ready</span>
+            </div>
+          </div>
 
-    <div class="chat-messages" id="chat-messages">
-      <!-- Messages will be added dynamically -->
-    </div>
+          <div class="chat-messages" id="chat-messages"></div>
 
-    <div class="chat-input-area">
-      <div class="chat-input-wrapper">
-        <input 
-          type="text" 
-          id="chat-input" 
-          placeholder="Ask about a recipe, ingredient, or cooking technique..."
-          autocomplete="off"
-        >
-        <button type="button" id="send-button" class="send-button" aria-label="Send message">
-          <span>➤</span>
-        </button>
-      </div>
-      <div class="chat-suggestions">
-        <button type="button" class="suggestion-chip" data-query="What recipes do you have from Italy?">Italian recipes</button>
-        <button type="button" class="suggestion-chip" data-query="Show me vegetarian dishes">Vegetarian</button>
-        <button type="button" class="suggestion-chip" data-query="What quick recipes can I make?">Quick meals</button>
-        <button type="button" class="suggestion-chip" data-query="What are my favorite recipes?">My favorites</button>
+          <div class="chat-input-area">
+            <div class="chat-input-wrapper">
+              <input
+                type="text"
+                id="chat-input"
+                placeholder="Ask about a recipe, ingredient, or cooking technique..."
+                autocomplete="off"
+                aria-label="ChefSense chat input"
+              >
+              <button type="button" class="mic-button" data-voice-input aria-label="Start voice input">🎙️</button>
+              <button type="button" id="send-button" class="send-button" aria-label="Send message">
+                <span>➤</span>
+              </button>
+            </div>
+            <p class="voice-fallback" data-voice-fallback aria-live="polite"></p>
+            <div class="chat-suggestions">
+              <button type="button" class="suggestion-chip" data-suggestion="What recipes do you have from Italy?">Italian recipes</button>
+              <button type="button" class="suggestion-chip" data-suggestion="Show me vegetarian dishes">Vegetarian</button>
+              <button type="button" class="suggestion-chip" data-suggestion="What quick recipes can I make?">Quick meals</button>
+              <button type="button" class="suggestion-chip" data-suggestion="What are my favorite recipes?">My favorites</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </main>
@@ -79,21 +95,5 @@
   <script src="assets/js/search-helper.js"></script>
   <script src="assets/js/favorites.js"></script>
   <script src="assets/js/ai-assistant.js"></script>
-  <script>
-    // Initialize AI Assistant when DOM is ready
-    document.addEventListener('DOMContentLoaded', () => {
-      AIAssistant.init();
-      
-      // Handle suggestion chips
-      document.querySelectorAll('.suggestion-chip').forEach(chip => {
-        chip.addEventListener('click', () => {
-          const query = chip.getAttribute('data-query');
-          const input = document.getElementById('chat-input');
-          input.value = query;
-          document.getElementById('send-button').click();
-        });
-      });
-    });
-  </script>
 </body>
 </html>

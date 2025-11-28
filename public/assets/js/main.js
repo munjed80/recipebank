@@ -378,6 +378,19 @@ function setActiveNavLink() {
 }
 
 /**
+ * Dynamically load ChefSense assistant everywhere
+ */
+function loadChefSenseScript() {
+  if (window.ChefSense || document.querySelector('script[data-chefsense-loaded]')) return;
+
+  const script = document.createElement('script');
+  script.src = `${CONFIG.basePath}/public/assets/js/ai-assistant.js`;
+  script.async = true;
+  script.dataset.chefsenseLoaded = 'true';
+  document.body.appendChild(script);
+}
+
+/**
  * Initialize global search functionality
  * Optimized with debounce and cached recipes
  */
@@ -487,6 +500,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   setActiveNavLink();
   initGlobalSearch();
+  loadChefSenseScript();
 });
 
 // Export functions for use in other modules
