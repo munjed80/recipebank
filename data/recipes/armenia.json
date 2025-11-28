@@ -11,17 +11,61 @@
     "cooking_time_minutes": 75,
     "servings": 6,
     "ingredients": [
-      { "name": "grape leaves (jarred)", "amount": 50, "unit": "leaves" },
-      { "name": "ground lamb", "amount": 400, "unit": "g" },
-      { "name": "ground beef", "amount": 200, "unit": "g" },
-      { "name": "short-grain rice", "amount": 150, "unit": "g" },
-      { "name": "onion", "amount": 2, "unit": "medium" },
-      { "name": "fresh dill", "amount": 0.5, "unit": "cup" },
-      { "name": "fresh mint", "amount": 0.25, "unit": "cup" },
-      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
-      { "name": "lemon juice", "amount": 3, "unit": "tbsp" },
-      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
-      { "name": "yogurt", "amount": 200, "unit": "g" }
+      {
+        "name": "grape leaves (jarred)",
+        "amount": 50,
+        "unit": "leaves"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "short-grain rice",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "fresh dill",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh mint",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "yogurt",
+        "amount": 200,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Rinse grape leaves, blanch if using fresh, drain well.",
@@ -42,7 +86,14 @@
       "Leftover dolmas taste even better the next day."
     ],
     "difficulty": "hard",
-    "tags": ["armenian", "dolma", "grape-leaves", "lamb", "traditional", "dinner"],
+    "tags": [
+      "armenian",
+      "dolma",
+      "grape-leaves",
+      "lamb",
+      "traditional",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 26,
@@ -65,17 +116,61 @@
     "cooking_time_minutes": 20,
     "servings": 6,
     "ingredients": [
-      { "name": "pork shoulder or lamb", "amount": 1, "unit": "kg" },
-      { "name": "onions", "amount": 3, "unit": "large" },
-      { "name": "red wine vinegar", "amount": 3, "unit": "tbsp" },
-      { "name": "vegetable oil", "amount": 4, "unit": "tbsp" },
-      { "name": "fresh basil", "amount": 0.5, "unit": "cup" },
-      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
-      { "name": "tomatoes", "amount": 4, "unit": "pc" },
-      { "name": "eggplant", "amount": 2, "unit": "medium" },
-      { "name": "bell peppers", "amount": 3, "unit": "pc" },
-      { "name": "salt", "amount": 2, "unit": "tsp" },
-      { "name": "black pepper", "amount": 1, "unit": "tsp" }
+      {
+        "name": "pork shoulder or lamb",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "red wine vinegar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh basil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "bell peppers",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Cut meat into 2-inch cubes.",
@@ -95,7 +190,15 @@
       "Don't over-marinate pork - 4-6 hours is ideal."
     ],
     "difficulty": "medium",
-    "tags": ["armenian", "bbq", "grilled", "pork", "lamb", "traditional", "dinner"],
+    "tags": [
+      "armenian",
+      "bbq",
+      "grilled",
+      "pork",
+      "lamb",
+      "traditional",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 450,
       "protein_g": 38,
@@ -118,11 +221,31 @@
     "cooking_time_minutes": 480,
     "servings": 8,
     "ingredients": [
-      { "name": "whole wheat berries", "amount": 500, "unit": "g" },
-      { "name": "lamb shoulder", "amount": 1, "unit": "kg" },
-      { "name": "butter", "amount": 100, "unit": "g" },
-      { "name": "salt", "amount": 2, "unit": "tsp" },
-      { "name": "water", "amount": 4, "unit": "L" }
+      {
+        "name": "whole wheat berries",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "amount": 4,
+        "unit": "L"
+      }
     ],
     "steps": [
       "Soak wheat overnight, drain.",
@@ -143,7 +266,15 @@
       "Traditionally cooked overnight in large communal pots."
     ],
     "difficulty": "hard",
-    "tags": ["armenian", "porridge", "wheat", "lamb", "traditional", "ceremonial", "easter"],
+    "tags": [
+      "armenian",
+      "porridge",
+      "wheat",
+      "lamb",
+      "traditional",
+      "ceremonial",
+      "easter"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 32,
@@ -166,17 +297,61 @@
     "cooking_time_minutes": 10,
     "servings": 8,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
-      { "name": "ground lamb or beef", "amount": 400, "unit": "g" },
-      { "name": "tomatoes", "amount": 2, "unit": "medium" },
-      { "name": "green bell pepper", "amount": 1, "unit": "pc" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
-      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
-      { "name": "paprika", "amount": 1, "unit": "tbsp" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "Aleppo pepper", "amount": 1, "unit": "tsp" },
-      { "name": "lemon", "amount": 1, "unit": "pc" }
+      {
+        "name": "all-purpose flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb or beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "green bell pepper",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Aleppo pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "pc"
+      }
     ],
     "steps": [
       "Make a simple dough with flour, salt, and water. Rest 30 minutes.",
@@ -196,7 +371,14 @@
       "Must be eaten immediately while crispy."
     ],
     "difficulty": "medium",
-    "tags": ["armenian", "flatbread", "lamb", "quick", "lunch", "street-food"],
+    "tags": [
+      "armenian",
+      "flatbread",
+      "lamb",
+      "quick",
+      "lunch",
+      "street-food"
+    ],
     "nutrition": {
       "per_serving_kcal": 280,
       "protein_g": 16,
@@ -219,14 +401,46 @@
     "cooking_time_minutes": 35,
     "servings": 12,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
-      { "name": "butter", "amount": 200, "unit": "g" },
-      { "name": "sour cream", "amount": 200, "unit": "g" },
-      { "name": "sugar", "amount": 200, "unit": "g" },
-      { "name": "egg yolks", "amount": 2, "unit": "pc" },
-      { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
-      { "name": "baking powder", "amount": 1, "unit": "tsp" },
-      { "name": "egg for glazing", "amount": 1, "unit": "pc" }
+      {
+        "name": "all-purpose flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sour cream",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "egg yolks",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "egg for glazing",
+        "amount": 1,
+        "unit": "pc"
+      }
     ],
     "steps": [
       "Make dough: mix flour, half the soft butter, sour cream, 1 yolk, vanilla, and baking powder.",
@@ -247,7 +461,14 @@
       "Gata keeps well for several days."
     ],
     "difficulty": "medium",
-    "tags": ["armenian", "dessert", "sweet-bread", "festive", "traditional", "holiday"],
+    "tags": [
+      "armenian",
+      "dessert",
+      "sweet-bread",
+      "festive",
+      "traditional",
+      "holiday"
+    ],
     "nutrition": {
       "per_serving_kcal": 320,
       "protein_g": 5,
@@ -257,5 +478,2399 @@
     "nutrition_benefits": "A rich treat providing quick energy. Sour cream adds calcium. Best enjoyed in moderation as a special occasion dessert.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "am-khash",
+    "slug": "khash",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Khash",
+    "image": "assets/img/recipes/khash.jpg",
+    "short_description": "Traditional Armenian beef feet soup, a winter ritual meal eaten early morning with garlic and dried lavash.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 480,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef feet",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "heads"
+      },
+      {
+        "name": "dried lavash",
+        "amount": 4,
+        "unit": "sheets"
+      },
+      {
+        "name": "salt",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Clean feet thoroughly.",
+      "Cover with water and simmer overnight.",
+      "Remove bones, shred meat.",
+      "Serve with raw garlic and lavash.",
+      "Season with salt at table."
+    ],
+    "cooking_tips": [
+      "Must simmer at least 8 hours.",
+      "Traditionally served with vodka.",
+      "Break lavash into soup."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "soup",
+      "beef",
+      "winter",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Rich in collagen for joints. High protein content.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-khorovats",
+    "slug": "armenian-khorovats",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Khorovats",
+    "image": "assets/img/recipes/armenian-khorovats.jpg",
+    "short_description": "Armenian grilled meat skewers, the national barbecue tradition featuring marinated pork or lamb.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "onions",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "bell peppers",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cut meat into 2-inch cubes.",
+      "Layer with sliced onions, season.",
+      "Marinate 4-24 hours.",
+      "Thread on wide skewers.",
+      "Grill over charcoal until done.",
+      "Serve with grilled vegetables."
+    ],
+    "cooking_tips": [
+      "Onion marinade tenderizes meat.",
+      "Use wide, flat skewers.",
+      "Don't over-cook for juiciness."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "grilled",
+      "pork",
+      "barbecue",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 38,
+      "fat_g": 30,
+      "carbs_g": 5
+    },
+    "nutrition_benefits": "High-quality protein. B vitamins from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-ghapama",
+    "slug": "ghapama",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Ghapama",
+    "image": "assets/img/recipes/ghapama.jpg",
+    "short_description": "Festive stuffed pumpkin with rice, dried fruits, nuts, and honey. A celebratory Armenian dish for weddings and holidays.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "sugar pumpkin",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "almonds",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "raisins",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "dried apricots",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "honey",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut top off pumpkin, scoop out seeds.",
+      "Cook rice halfway.",
+      "Mix rice with fruits, nuts, honey.",
+      "Fill pumpkin with mixture.",
+      "Dot with butter, replace lid.",
+      "Bake until pumpkin is tender.",
+      "Serve warm, scooping pumpkin flesh."
+    ],
+    "cooking_tips": [
+      "Choose sweet variety pumpkin.",
+      "Don't overcook or it will collapse.",
+      "The shell becomes part of the dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "pumpkin",
+      "festive",
+      "sweet",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 14,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Beta-carotene from pumpkin. Fiber and natural sugars from fruits.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "am-tolma",
+    "slug": "armenian-tolma",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Tolma",
+    "image": "assets/img/recipes/armenian-tolma.jpg",
+    "short_description": "Grape leaves stuffed with spiced meat and rice, served with garlic yogurt. A cornerstone of Armenian cuisine.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 50,
+        "unit": "pc"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "mint",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Blanch grape leaves if fresh.",
+      "Mix meat, rice, onion, herbs.",
+      "Place filling on each leaf, roll tightly.",
+      "Arrange in pot seam-side down.",
+      "Add water and simmer 45 minutes.",
+      "Mix yogurt with garlic.",
+      "Serve with garlic yogurt."
+    ],
+    "cooking_tips": [
+      "Don't overfill the leaves.",
+      "Use lemon juice in cooking water.",
+      "Serve at room temperature."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "stuffed-leaves",
+      "beef",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Balanced protein and carbs. Probiotics from yogurt.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "am-harissa",
+    "slug": "armenian-harissa",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Harissa",
+    "image": "assets/img/recipes/armenian-harissa.jpg",
+    "short_description": "Slow-cooked wheat and chicken porridge, traditionally made for religious holidays. Rich and deeply comforting.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 480,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "wheat berries",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak wheat overnight.",
+      "Cook chicken until falling off bone.",
+      "Shred chicken, discard bones.",
+      "Add wheat to broth.",
+      "Simmer, stirring often, 4-6 hours.",
+      "Stir until smooth porridge.",
+      "Top with melted butter."
+    ],
+    "cooking_tips": [
+      "Constant stirring prevents sticking.",
+      "Traditionally cooked overnight.",
+      "The texture should be creamy."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "wheat",
+      "chicken",
+      "holiday",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 30,
+      "fat_g": 18,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Complete protein from chicken. Fiber from whole wheat.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-manti",
+    "slug": "armenian-manti",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Manti",
+    "image": "assets/img/recipes/armenian-manti.jpg",
+    "short_description": "Tiny baked dumplings in tomato broth topped with garlic yogurt. Smaller than Turkish manti, baked instead of boiled.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "dried mint",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make dough, rest 30 minutes.",
+      "Mix beef with onion and seasonings.",
+      "Roll dough thin, cut small squares.",
+      "Place tiny meat balls, pinch closed.",
+      "Bake until golden.",
+      "Simmer tomato broth.",
+      "Add manti to broth.",
+      "Top with garlic yogurt and mint."
+    ],
+    "cooking_tips": [
+      "Manti should be very small.",
+      "Bake before adding to broth.",
+      "Serve immediately for best texture."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "dumplings",
+      "beef",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 25,
+      "fat_g": 16,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Protein from beef and yogurt. Probiotics from dairy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "am-lahmajun",
+    "slug": "armenian-lahmajun",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Lahmajun",
+    "image": "assets/img/recipes/armenian-lahmajun.jpg",
+    "short_description": "Thin crispy flatbread with spiced lamb topping. Often served rolled with fresh herbs and lemon juice.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "bell pepper",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "paprika",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cayenne",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make soft dough, rest 30 minutes.",
+      "Finely chop vegetables.",
+      "Mix with lamb and spices.",
+      "Roll dough very thin.",
+      "Spread meat thinly to edges.",
+      "Bake at high heat 5-7 minutes.",
+      "Serve with herbs and lemon."
+    ],
+    "cooking_tips": [
+      "Dough must be paper-thin.",
+      "Spread topping very thinly.",
+      "Best eaten fresh from oven."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "flatbread",
+      "lamb",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Protein from lamb. Lycopene from tomatoes.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "am-topik",
+    "slug": "topik",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Topik",
+    "image": "assets/img/recipes/topik.jpg",
+    "short_description": "Chickpea and onion dumplings with tahini and currants. An elaborate vegetarian dish for Lent.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "onions",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "tahini",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "currants",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook chickpeas until very soft.",
+      "Caramelize onions slowly.",
+      "Mash chickpeas, add tahini.",
+      "Season with spices.",
+      "Form into patties.",
+      "Fill with onion mixture.",
+      "Reshape and chill.",
+      "Serve cold with olive oil."
+    ],
+    "cooking_tips": [
+      "Onions must be deeply caramelized.",
+      "Chill thoroughly before serving.",
+      "Traditional for Easter."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "chickpeas",
+      "vegan",
+      "lent",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Plant protein from chickpeas. Healthy fats from tahini.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "am-kufta",
+    "slug": "armenian-kufta",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Kufta",
+    "image": "assets/img/recipes/armenian-kufta.jpg",
+    "short_description": "Silky smooth meat shells filled with spiced lamb and butter. The meat is pounded to a paste for unique texture.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lean beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "bulgur",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "lamb",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ice water",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Soak bulgur until soft.",
+      "Pound beef with bulgur and ice water.",
+      "Mix until very smooth paste.",
+      "Cook lamb with onion and nuts.",
+      "Form meat paste into shells.",
+      "Fill with lamb mixture.",
+      "Poach in salted water.",
+      "Serve with melted butter."
+    ],
+    "cooking_tips": [
+      "Meat must be very cold.",
+      "Pound thoroughly for smooth texture.",
+      "Don't overcook or they'll fall apart."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "meatballs",
+      "beef",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 26,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "High protein from two meats. Iron and B vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-spas",
+    "slug": "spas",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Spas",
+    "image": "assets/img/recipes/spas.jpg",
+    "short_description": "Tangy yogurt soup with wheat and herbs, served hot or cold. A staple of Armenian home cooking.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "yogurt",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "wheat berries",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook wheat berries until tender.",
+      "Beat yogurt with egg.",
+      "Add to wheat slowly over low heat.",
+      "Stir constantly to prevent curdling.",
+      "Add herbs.",
+      "Finish with butter.",
+      "Serve hot or chill completely."
+    ],
+    "cooking_tips": [
+      "Never boil or yogurt will curdle.",
+      "Stir constantly while heating.",
+      "Equally good hot or cold."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "soup",
+      "yogurt",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 10,
+      "fat_g": 8,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Probiotics from yogurt. Fiber from wheat.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "am-basturma",
+    "slug": "basturma",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Basturma",
+    "image": "assets/img/recipes/basturma.jpg",
+    "short_description": "Air-dried cured beef coated in fenugreek and paprika paste. Armenian charcuterie sliced paper-thin.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "beef eye round",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "salt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fenugreek",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "paprika",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cayenne",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Salt beef heavily, press for 3 days.",
+      "Rinse and dry.",
+      "Hang in cool dry place 1 week.",
+      "Make paste with spices and garlic.",
+      "Coat beef thickly.",
+      "Hang 2-3 more weeks until firm.",
+      "Slice paper-thin to serve."
+    ],
+    "cooking_tips": [
+      "Requires cool, dry environment.",
+      "Must be sliced very thin.",
+      "Store wrapped in fridge."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "cured-meat",
+      "appetizer",
+      "preservation"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 12,
+      "fat_g": 3,
+      "carbs_g": 1
+    },
+    "nutrition_benefits": "High protein, low fat. Iron and B12 from beef.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-sujukh",
+    "slug": "sujukh",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Sujukh",
+    "image": "assets/img/recipes/sujukh.jpg",
+    "short_description": "Walnuts on a string dipped in grape must. Traditional Armenian candy, chewy and naturally sweet.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "walnuts (halved)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "grape juice",
+        "amount": 2,
+        "unit": "liters"
+      },
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cloves",
+        "amount": 5,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "stick"
+      }
+    ],
+    "steps": [
+      "Thread walnuts on strings.",
+      "Cook grape juice with spices until reduced by half.",
+      "Whisk in flour, cook until thick.",
+      "Dip walnut strings repeatedly.",
+      "Let dry between dips.",
+      "Hang to dry completely.",
+      "Store in cool place."
+    ],
+    "cooking_tips": [
+      "Multiple dips create thick coating.",
+      "Must dry between each dip.",
+      "Keeps for months."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "candy",
+      "walnuts",
+      "traditional",
+      "dessert"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 150,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Omega-3 from walnuts. Natural antioxidants from grapes.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "am-gata",
+    "slug": "gata",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Gata",
+    "image": "assets/img/recipes/gata.jpg",
+    "short_description": "Sweet Armenian bread with buttery filling, often decorated with traditional patterns. Essential for celebrations.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 40,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "yogurt",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "vanilla",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "baking powder",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make soft dough with half butter.",
+      "Make filling with remaining butter, flour, sugar.",
+      "Roll dough, spread filling.",
+      "Roll up and shape into round.",
+      "Score decorative pattern.",
+      "Brush with egg wash.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Filling should be crumbly.",
+      "Traditional patterns are meaningful.",
+      "Best served slightly warm."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "bread",
+      "sweet",
+      "celebration",
+      "dessert"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 5,
+      "fat_g": 18,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Energy from carbs and fats. Comfort food for celebrations.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "am-tutum-kyufta",
+    "slug": "tutum-kyufta",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Tutum Kyufta",
+    "image": "assets/img/recipes/tutum-kyufta.jpg",
+    "short_description": "Pumpkin meatballs in a tangy sauce, combining sweet pumpkin with savory meat. An autumn favorite.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pumpkin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "bulgur",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Roast and mash pumpkin.",
+      "Mix with beef and bulgur.",
+      "Form into meatballs.",
+      "Make sauce with tomato paste and water.",
+      "Add lemon juice.",
+      "Poach meatballs in sauce.",
+      "Garnish with parsley."
+    ],
+    "cooking_tips": [
+      "Pumpkin should be well-drained.",
+      "Balance sweet and sour in sauce.",
+      "Serve over rice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "meatballs",
+      "pumpkin",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 24,
+      "fat_g": 16,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Beta-carotene from pumpkin. Protein from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "am-ishkhan",
+    "slug": "ishkhan",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Ishkhan",
+    "image": "assets/img/recipes/ishkhan.jpg",
+    "short_description": "Lake Sevan trout stuffed with rice and herbs, a prized Armenian dish. Simple preparation highlights the delicate fish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole trout",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "tarragon",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dill",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Clean and scale fish.",
+      "Cook rice with herbs and butter.",
+      "Stuff fish with rice mixture.",
+      "Place in baking dish.",
+      "Top with butter and lemon.",
+      "Bake until fish flakes.",
+      "Serve with lemon wedges."
+    ],
+    "cooking_tips": [
+      "Don't overcook the fish.",
+      "Fresh herbs are essential.",
+      "Lake trout has delicate flavor."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "fish",
+      "stuffed",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Omega-3 from trout. Light and nutritious.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-khash",
+    "slug": "khash",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Khash",
+    "image": "assets/img/recipes/khash.jpg",
+    "short_description": "Traditional Armenian beef feet soup, a winter ritual meal eaten early morning with garlic and dried lavash.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 480,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef feet",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "heads"
+      },
+      {
+        "name": "dried lavash",
+        "amount": 4,
+        "unit": "sheets"
+      },
+      {
+        "name": "salt",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Clean feet thoroughly.",
+      "Cover with water and simmer overnight.",
+      "Remove bones, shred meat.",
+      "Serve with raw garlic and lavash.",
+      "Season with salt at table."
+    ],
+    "cooking_tips": [
+      "Must simmer at least 8 hours.",
+      "Traditionally served with vodka.",
+      "Break lavash into soup."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "soup",
+      "beef",
+      "winter",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Rich in collagen for joints. High protein content.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-khorovats",
+    "slug": "armenian-khorovats",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Khorovats",
+    "image": "assets/img/recipes/armenian-khorovats.jpg",
+    "short_description": "Armenian grilled meat skewers, the national barbecue tradition featuring marinated pork or lamb.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "onions",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "bell peppers",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cut meat into 2-inch cubes.",
+      "Layer with sliced onions, season.",
+      "Marinate 4-24 hours.",
+      "Thread on wide skewers.",
+      "Grill over charcoal until done.",
+      "Serve with grilled vegetables."
+    ],
+    "cooking_tips": [
+      "Onion marinade tenderizes meat.",
+      "Use wide, flat skewers.",
+      "Don't over-cook for juiciness."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "grilled",
+      "pork",
+      "barbecue",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 38,
+      "fat_g": 30,
+      "carbs_g": 5
+    },
+    "nutrition_benefits": "High-quality protein. B vitamins from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-ghapama",
+    "slug": "ghapama",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Ghapama",
+    "image": "assets/img/recipes/ghapama.jpg",
+    "short_description": "Festive stuffed pumpkin with rice, dried fruits, nuts, and honey. A celebratory Armenian dish for weddings and holidays.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "sugar pumpkin",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "almonds",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "raisins",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "dried apricots",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "honey",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut top off pumpkin, scoop out seeds.",
+      "Cook rice halfway.",
+      "Mix rice with fruits, nuts, honey.",
+      "Fill pumpkin with mixture.",
+      "Dot with butter, replace lid.",
+      "Bake until pumpkin is tender.",
+      "Serve warm, scooping pumpkin flesh."
+    ],
+    "cooking_tips": [
+      "Choose sweet variety pumpkin.",
+      "Don't overcook or it will collapse.",
+      "The shell becomes part of the dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "pumpkin",
+      "festive",
+      "sweet",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 14,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Beta-carotene from pumpkin. Fiber and natural sugars from fruits.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "am-tolma",
+    "slug": "armenian-tolma",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Tolma",
+    "image": "assets/img/recipes/armenian-tolma.jpg",
+    "short_description": "Grape leaves stuffed with spiced meat and rice, served with garlic yogurt. A cornerstone of Armenian cuisine.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 50,
+        "unit": "pc"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "mint",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Blanch grape leaves if fresh.",
+      "Mix meat, rice, onion, herbs.",
+      "Place filling on each leaf, roll tightly.",
+      "Arrange in pot seam-side down.",
+      "Add water and simmer 45 minutes.",
+      "Mix yogurt with garlic.",
+      "Serve with garlic yogurt."
+    ],
+    "cooking_tips": [
+      "Don't overfill the leaves.",
+      "Use lemon juice in cooking water.",
+      "Serve at room temperature."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "stuffed-leaves",
+      "beef",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Balanced protein and carbs. Probiotics from yogurt.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "am-harissa",
+    "slug": "armenian-harissa",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Harissa",
+    "image": "assets/img/recipes/armenian-harissa.jpg",
+    "short_description": "Slow-cooked wheat and chicken porridge, traditionally made for religious holidays. Rich and deeply comforting.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 480,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "wheat berries",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak wheat overnight.",
+      "Cook chicken until falling off bone.",
+      "Shred chicken, discard bones.",
+      "Add wheat to broth.",
+      "Simmer, stirring often, 4-6 hours.",
+      "Stir until smooth porridge.",
+      "Top with melted butter."
+    ],
+    "cooking_tips": [
+      "Constant stirring prevents sticking.",
+      "Traditionally cooked overnight.",
+      "The texture should be creamy."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "wheat",
+      "chicken",
+      "holiday",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 30,
+      "fat_g": 18,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Complete protein from chicken. Fiber from whole wheat.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-manti",
+    "slug": "armenian-manti",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Manti",
+    "image": "assets/img/recipes/armenian-manti.jpg",
+    "short_description": "Tiny baked dumplings in tomato broth topped with garlic yogurt. Smaller than Turkish manti, baked instead of boiled.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "dried mint",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make dough, rest 30 minutes.",
+      "Mix beef with onion and seasonings.",
+      "Roll dough thin, cut small squares.",
+      "Place tiny meat balls, pinch closed.",
+      "Bake until golden.",
+      "Simmer tomato broth.",
+      "Add manti to broth.",
+      "Top with garlic yogurt and mint."
+    ],
+    "cooking_tips": [
+      "Manti should be very small.",
+      "Bake before adding to broth.",
+      "Serve immediately for best texture."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "dumplings",
+      "beef",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 25,
+      "fat_g": 16,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Protein from beef and yogurt. Probiotics from dairy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "am-lahmajun",
+    "slug": "armenian-lahmajun",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Lahmajun",
+    "image": "assets/img/recipes/armenian-lahmajun.jpg",
+    "short_description": "Thin crispy flatbread with spiced lamb topping. Often served rolled with fresh herbs and lemon juice.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "bell pepper",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "paprika",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cayenne",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make soft dough, rest 30 minutes.",
+      "Finely chop vegetables.",
+      "Mix with lamb and spices.",
+      "Roll dough very thin.",
+      "Spread meat thinly to edges.",
+      "Bake at high heat 5-7 minutes.",
+      "Serve with herbs and lemon."
+    ],
+    "cooking_tips": [
+      "Dough must be paper-thin.",
+      "Spread topping very thinly.",
+      "Best eaten fresh from oven."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "flatbread",
+      "lamb",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Protein from lamb. Lycopene from tomatoes.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "am-topik",
+    "slug": "topik",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Topik",
+    "image": "assets/img/recipes/topik.jpg",
+    "short_description": "Chickpea and onion dumplings with tahini and currants. An elaborate vegetarian dish for Lent.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "onions",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "tahini",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "currants",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook chickpeas until very soft.",
+      "Caramelize onions slowly.",
+      "Mash chickpeas, add tahini.",
+      "Season with spices.",
+      "Form into patties.",
+      "Fill with onion mixture.",
+      "Reshape and chill.",
+      "Serve cold with olive oil."
+    ],
+    "cooking_tips": [
+      "Onions must be deeply caramelized.",
+      "Chill thoroughly before serving.",
+      "Traditional for Easter."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "chickpeas",
+      "vegan",
+      "lent",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Plant protein from chickpeas. Healthy fats from tahini.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "am-kufta",
+    "slug": "armenian-kufta",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Armenian Kufta",
+    "image": "assets/img/recipes/armenian-kufta.jpg",
+    "short_description": "Silky smooth meat shells filled with spiced lamb and butter. The meat is pounded to a paste for unique texture.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lean beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "bulgur",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "lamb",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "allspice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ice water",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Soak bulgur until soft.",
+      "Pound beef with bulgur and ice water.",
+      "Mix until very smooth paste.",
+      "Cook lamb with onion and nuts.",
+      "Form meat paste into shells.",
+      "Fill with lamb mixture.",
+      "Poach in salted water.",
+      "Serve with melted butter."
+    ],
+    "cooking_tips": [
+      "Meat must be very cold.",
+      "Pound thoroughly for smooth texture.",
+      "Don't overcook or they'll fall apart."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "meatballs",
+      "beef",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 26,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "High protein from two meats. Iron and B vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-spas",
+    "slug": "spas",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Spas",
+    "image": "assets/img/recipes/spas.jpg",
+    "short_description": "Tangy yogurt soup with wheat and herbs, served hot or cold. A staple of Armenian home cooking.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "yogurt",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "wheat berries",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook wheat berries until tender.",
+      "Beat yogurt with egg.",
+      "Add to wheat slowly over low heat.",
+      "Stir constantly to prevent curdling.",
+      "Add herbs.",
+      "Finish with butter.",
+      "Serve hot or chill completely."
+    ],
+    "cooking_tips": [
+      "Never boil or yogurt will curdle.",
+      "Stir constantly while heating.",
+      "Equally good hot or cold."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "soup",
+      "yogurt",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 10,
+      "fat_g": 8,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Probiotics from yogurt. Fiber from wheat.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "am-basturma",
+    "slug": "basturma",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Basturma",
+    "image": "assets/img/recipes/basturma.jpg",
+    "short_description": "Air-dried cured beef coated in fenugreek and paprika paste. Armenian charcuterie sliced paper-thin.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "beef eye round",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "salt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fenugreek",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "paprika",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cayenne",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Salt beef heavily, press for 3 days.",
+      "Rinse and dry.",
+      "Hang in cool dry place 1 week.",
+      "Make paste with spices and garlic.",
+      "Coat beef thickly.",
+      "Hang 2-3 more weeks until firm.",
+      "Slice paper-thin to serve."
+    ],
+    "cooking_tips": [
+      "Requires cool, dry environment.",
+      "Must be sliced very thin.",
+      "Store wrapped in fridge."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "cured-meat",
+      "appetizer",
+      "preservation"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 12,
+      "fat_g": 3,
+      "carbs_g": 1
+    },
+    "nutrition_benefits": "High protein, low fat. Iron and B12 from beef.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "am-sujukh",
+    "slug": "sujukh",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Sujukh",
+    "image": "assets/img/recipes/sujukh.jpg",
+    "short_description": "Walnuts on a string dipped in grape must. Traditional Armenian candy, chewy and naturally sweet.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "walnuts (halved)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "grape juice",
+        "amount": 2,
+        "unit": "liters"
+      },
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cloves",
+        "amount": 5,
+        "unit": "pc"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "stick"
+      }
+    ],
+    "steps": [
+      "Thread walnuts on strings.",
+      "Cook grape juice with spices until reduced by half.",
+      "Whisk in flour, cook until thick.",
+      "Dip walnut strings repeatedly.",
+      "Let dry between dips.",
+      "Hang to dry completely.",
+      "Store in cool place."
+    ],
+    "cooking_tips": [
+      "Multiple dips create thick coating.",
+      "Must dry between each dip.",
+      "Keeps for months."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "armenian",
+      "candy",
+      "walnuts",
+      "traditional",
+      "dessert"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 150,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Omega-3 from walnuts. Natural antioxidants from grapes.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "am-gata",
+    "slug": "gata",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Gata",
+    "image": "assets/img/recipes/gata.jpg",
+    "short_description": "Sweet Armenian bread with buttery filling, often decorated with traditional patterns. Essential for celebrations.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 40,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "yogurt",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "vanilla",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "baking powder",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make soft dough with half butter.",
+      "Make filling with remaining butter, flour, sugar.",
+      "Roll dough, spread filling.",
+      "Roll up and shape into round.",
+      "Score decorative pattern.",
+      "Brush with egg wash.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Filling should be crumbly.",
+      "Traditional patterns are meaningful.",
+      "Best served slightly warm."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "bread",
+      "sweet",
+      "celebration",
+      "dessert"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 5,
+      "fat_g": 18,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Energy from carbs and fats. Comfort food for celebrations.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "am-tutum-kyufta",
+    "slug": "tutum-kyufta",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Tutum Kyufta",
+    "image": "assets/img/recipes/tutum-kyufta.jpg",
+    "short_description": "Pumpkin meatballs in a tangy sauce, combining sweet pumpkin with savory meat. An autumn favorite.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pumpkin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "bulgur",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "parsley",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Roast and mash pumpkin.",
+      "Mix with beef and bulgur.",
+      "Form into meatballs.",
+      "Make sauce with tomato paste and water.",
+      "Add lemon juice.",
+      "Poach meatballs in sauce.",
+      "Garnish with parsley."
+    ],
+    "cooking_tips": [
+      "Pumpkin should be well-drained.",
+      "Balance sweet and sour in sauce.",
+      "Serve over rice."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "meatballs",
+      "pumpkin",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 24,
+      "fat_g": 16,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Beta-carotene from pumpkin. Protein from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "am-ishkhan",
+    "slug": "ishkhan",
+    "country": "Armenia",
+    "country_slug": "armenia",
+    "name_en": "Ishkhan",
+    "image": "assets/img/recipes/ishkhan.jpg",
+    "short_description": "Lake Sevan trout stuffed with rice and herbs, a prized Armenian dish. Simple preparation highlights the delicate fish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole trout",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "tarragon",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dill",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Clean and scale fish.",
+      "Cook rice with herbs and butter.",
+      "Stuff fish with rice mixture.",
+      "Place in baking dish.",
+      "Top with butter and lemon.",
+      "Bake until fish flakes.",
+      "Serve with lemon wedges."
+    ],
+    "cooking_tips": [
+      "Don't overcook the fish.",
+      "Fresh herbs are essential.",
+      "Lake trout has delicate flavor."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "armenian",
+      "fish",
+      "stuffed",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Omega-3 from trout. Light and nutritious.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
   }
 ]

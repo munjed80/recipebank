@@ -342,5 +342,865 @@
     "nutrition_benefits": "Excellent source of lean protein from chicken. Garlic contains allicin, known for cardiovascular benefits and immune support. Extra virgin olive oil provides heart-healthy monounsaturated fats and polyphenols. The combination creates a highly nutritious Mediterranean-style meal.",
     "mealType": "Dinner",
     "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "es-paella-valenciana",
+    "slug": "paella-valenciana",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Paella Valenciana",
+    "short_description": "The original rice dish from Valencia with rabbit, chicken, and green beans. Spain's most iconic dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "bomba or calasparra rice", "amount": 400, "unit": "g" },
+      { "name": "chicken pieces", "amount": 500, "unit": "g" },
+      { "name": "rabbit pieces", "amount": 500, "unit": "g" },
+      { "name": "green beans", "amount": 200, "unit": "g" },
+      { "name": "white beans (garrofó)", "amount": 100, "unit": "g" },
+      { "name": "tomato", "amount": 2, "unit": "medium" },
+      { "name": "saffron", "amount": 1, "unit": "g" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "chicken stock", "amount": 1.2, "unit": "L" },
+      { "name": "rosemary", "amount": 2, "unit": "sprigs" }
+    ],
+    "steps": [
+      "Heat oil in paella pan over high heat.",
+      "Brown chicken and rabbit pieces well.",
+      "Add green beans and cook briefly.",
+      "Add grated tomato and cook until dark.",
+      "Add stock and saffron.",
+      "Bring to boil and simmer 20 minutes.",
+      "Add rice, distributing evenly.",
+      "Cook on high for 10 minutes.",
+      "Reduce heat and cook until liquid absorbed.",
+      "Let rest 5 minutes before serving."
+    ],
+    "cooking_tips": [
+      "Never stir the rice once added.",
+      "The socarrat (crispy bottom) is prized.",
+      "Use authentic Spanish rice for best results."
+    ],
+    "difficulty": "hard",
+    "tags": ["spanish", "valencian", "rice", "festive", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Complete meal with protein and carbs. Saffron has antioxidant properties.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "es-gazpacho",
+    "slug": "gazpacho-andaluz",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Gazpacho Andaluz",
+    "short_description": "Chilled tomato soup from Andalusia. The perfect refreshment on a hot Spanish summer day.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      { "name": "ripe tomatoes", "amount": 1, "unit": "kg" },
+      { "name": "cucumber", "amount": 1, "unit": "medium" },
+      { "name": "green pepper", "amount": 1, "unit": "small" },
+      { "name": "garlic cloves", "amount": 2, "unit": "pc" },
+      { "name": "stale bread", "amount": 100, "unit": "g" },
+      { "name": "extra virgin olive oil", "amount": 100, "unit": "ml" },
+      { "name": "sherry vinegar", "amount": 30, "unit": "ml" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak bread in water.",
+      "Roughly chop all vegetables.",
+      "Blend tomatoes until smooth.",
+      "Add cucumber, pepper, and garlic.",
+      "Blend until very smooth.",
+      "Add soaked bread and blend.",
+      "With blender running, drizzle in olive oil.",
+      "Add vinegar and salt.",
+      "Strain for silky texture (optional).",
+      "Chill for at least 2 hours before serving."
+    ],
+    "cooking_tips": [
+      "Use the ripest tomatoes you can find.",
+      "Serve ice cold with diced vegetable garnishes.",
+      "Quality olive oil makes a huge difference."
+    ],
+    "difficulty": "easy",
+    "tags": ["spanish", "andalusian", "cold-soup", "summer", "vegan"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 3,
+      "fat_g": 14,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Tomatoes are rich in lycopene. Raw vegetables retain all nutrients. Very refreshing and healthy.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "es-tortilla-espanola",
+    "slug": "tortilla-espanola",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Tortilla Española",
+    "short_description": "The classic Spanish potato omelette. Simple ingredients elevated to perfection.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      { "name": "potatoes", "amount": 800, "unit": "g" },
+      { "name": "eggs", "amount": 6, "unit": "large" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "olive oil", "amount": 250, "unit": "ml" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Peel and thinly slice potatoes.",
+      "Slice onion thinly.",
+      "Gently cook potatoes and onion in oil.",
+      "They should be tender, not crispy.",
+      "Beat eggs in large bowl with salt.",
+      "Drain potatoes, add to eggs.",
+      "Let soak for 10 minutes.",
+      "Cook in non-stick pan on medium heat.",
+      "Flip using a plate when almost set.",
+      "Cook other side briefly. Center should be slightly soft."
+    ],
+    "cooking_tips": [
+      "Debate exists over runny vs set center.",
+      "The onion is traditional but some omit it.",
+      "Best served at room temperature."
+    ],
+    "difficulty": "medium",
+    "tags": ["spanish", "eggs", "tapas", "vegetarian", "classic"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 28,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Eggs provide complete protein. Potatoes offer potassium. A satisfying dish.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "es-croquetas-jamon",
+    "slug": "croquetas-jamon",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Croquetas de Jamón",
+    "short_description": "Creamy béchamel croquettes with Iberian ham. The quintessential Spanish tapa.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      { "name": "butter", "amount": 80, "unit": "g" },
+      { "name": "flour", "amount": 80, "unit": "g" },
+      { "name": "milk", "amount": 500, "unit": "ml" },
+      { "name": "jamón ibérico or serrano", "amount": 150, "unit": "g" },
+      { "name": "nutmeg", "amount": 0.25, "unit": "tsp" },
+      { "name": "eggs", "amount": 2, "unit": "pc" },
+      { "name": "breadcrumbs", "amount": 200, "unit": "g" },
+      { "name": "oil for frying", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Melt butter, add flour to make roux.",
+      "Gradually add milk, stirring constantly.",
+      "Cook béchamel until very thick.",
+      "Add finely chopped jamón.",
+      "Season with nutmeg and salt.",
+      "Spread on tray and refrigerate until firm.",
+      "Shape into cylinders.",
+      "Dip in beaten egg, then breadcrumbs.",
+      "Repeat coating for extra crispness.",
+      "Deep fry until golden brown."
+    ],
+    "cooking_tips": [
+      "Béchamel must be very thick to hold shape.",
+      "Chill thoroughly before shaping.",
+      "Double breading ensures crispy exterior."
+    ],
+    "difficulty": "medium",
+    "tags": ["spanish", "tapas", "fried", "ham", "appetizer"],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Jamón provides protein. A beloved Spanish comfort food.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "es-patatas-bravas",
+    "slug": "patatas-bravas",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Patatas Bravas",
+    "short_description": "Crispy fried potatoes with spicy tomato sauce. A tapas bar essential.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "potatoes", "amount": 600, "unit": "g" },
+      { "name": "tomato sauce", "amount": 200, "unit": "ml" },
+      { "name": "smoked paprika", "amount": 1, "unit": "tsp" },
+      { "name": "hot paprika", "amount": 0.5, "unit": "tsp" },
+      { "name": "garlic", "amount": 2, "unit": "cloves" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "aioli", "amount": 60, "unit": "ml" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cut potatoes into irregular chunks.",
+      "Fry in batches until golden and crispy.",
+      "Make sauce: sauté garlic in oil.",
+      "Add paprikas and cook briefly.",
+      "Add tomato sauce and simmer.",
+      "Season with salt.",
+      "Arrange hot potatoes on plate.",
+      "Drizzle with brava sauce.",
+      "Add dollops of aioli.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Double-fry for crispiest potatoes.",
+      "Each region has their own brava sauce recipe.",
+      "Some prefer the sauce on the side."
+    ],
+    "difficulty": "easy",
+    "tags": ["spanish", "tapas", "potatoes", "spicy", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 4,
+      "fat_g": 20,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Potatoes provide potassium and vitamin C. A classic comfort tapa.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "es-gambas-ajillo",
+    "slug": "gambas-al-ajillo",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Gambas al Ajillo",
+    "short_description": "Sizzling garlic shrimp in olive oil and chili. A tapas classic from every Spanish bar.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      { "name": "large shrimp", "amount": 500, "unit": "g" },
+      { "name": "garlic cloves", "amount": 8, "unit": "pc" },
+      { "name": "dried guindilla chili", "amount": 2, "unit": "pc" },
+      { "name": "extra virgin olive oil", "amount": 100, "unit": "ml" },
+      { "name": "fresh parsley", "amount": 2, "unit": "tbsp" },
+      { "name": "sea salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Peel shrimp, leaving tails on.",
+      "Slice garlic thinly.",
+      "Heat olive oil in cazuela or skillet.",
+      "Add garlic and chili when oil is hot.",
+      "Cook until garlic turns golden.",
+      "Add shrimp and cook 2 minutes per side.",
+      "Season with salt.",
+      "Sprinkle with parsley.",
+      "Serve sizzling with crusty bread.",
+      "Eat immediately."
+    ],
+    "cooking_tips": [
+      "Everything must be ready - cooking is fast.",
+      "Serve in the cooking vessel for drama.",
+      "The bread for mopping is essential."
+    ],
+    "difficulty": "easy",
+    "tags": ["spanish", "tapas", "seafood", "garlic", "quick"],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 26,
+      "fat_g": 26,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Shrimp is high in protein and low in calories. Garlic has health benefits.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "es-pimientos-padron",
+    "slug": "pimientos-de-padron",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Pimientos de Padrón",
+    "short_description": "Blistered Padrón peppers with sea salt. Most are mild, but some are hot - that's the fun!",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 5,
+    "servings": 4,
+    "ingredients": [
+      { "name": "Padrón peppers", "amount": 300, "unit": "g" },
+      { "name": "olive oil", "amount": 45, "unit": "ml" },
+      { "name": "flaky sea salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Wash and dry peppers thoroughly.",
+      "Heat oil in large skillet until smoking.",
+      "Add peppers in single layer.",
+      "Don't move them - let them blister.",
+      "Turn once charred spots appear.",
+      "Cook until blistered all over.",
+      "Transfer to plate immediately.",
+      "Sprinkle generously with sea salt.",
+      "Serve hot.",
+      "Eat whole, discarding stem."
+    ],
+    "cooking_tips": [
+      "Peppers must be completely dry.",
+      "Very high heat is essential.",
+      "About 1 in 10 will be spicy - the gamble is part of the fun."
+    ],
+    "difficulty": "easy",
+    "tags": ["spanish", "tapas", "peppers", "vegan", "quick"],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 2,
+      "fat_g": 10,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Peppers are high in vitamin C. Low calorie, delicious snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "es-pulpo-gallega",
+    "slug": "pulpo-a-la-gallega",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Pulpo a la Gallega",
+    "short_description": "Galician-style octopus with paprika on wooden plates. A specialty from northwestern Spain.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "octopus", "amount": 1.5, "unit": "kg" },
+      { "name": "extra virgin olive oil", "amount": 80, "unit": "ml" },
+      { "name": "smoked paprika", "amount": 2, "unit": "tbsp" },
+      { "name": "coarse sea salt", "amount": 1, "unit": "tbsp" },
+      { "name": "potatoes (cachelos)", "amount": 500, "unit": "g" }
+    ],
+    "steps": [
+      "Freeze and thaw octopus to tenderize.",
+      "Bring large pot of water to boil.",
+      "Dip octopus in and out 3 times.",
+      "Then cook until tender, about 45 minutes.",
+      "Test with knife - should slide in easily.",
+      "Boil potatoes in octopus water.",
+      "Slice octopus into rounds.",
+      "Arrange on wooden board with potatoes.",
+      "Drizzle generously with olive oil.",
+      "Sprinkle with paprika and salt."
+    ],
+    "cooking_tips": [
+      "The 'scaring' technique helps prevent tough skin.",
+      "Traditional to serve on wooden boards.",
+      "Use the best Spanish paprika you can find."
+    ],
+    "difficulty": "medium",
+    "tags": ["spanish", "galician", "seafood", "octopus", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 36,
+      "fat_g": 16,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Octopus is high in protein and low in fat. Rich in B vitamins and minerals.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "es-fabada-asturiana",
+    "slug": "fabada-asturiana",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Fabada Asturiana",
+    "short_description": "Rich bean stew from Asturias with chorizo and morcilla. The ultimate Spanish comfort food.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      { "name": "fabes (large white beans)", "amount": 500, "unit": "g" },
+      { "name": "chorizo asturiano", "amount": 200, "unit": "g" },
+      { "name": "morcilla (blood sausage)", "amount": 200, "unit": "g" },
+      { "name": "lacón (cured pork shoulder)", "amount": 200, "unit": "g" },
+      { "name": "tocino (salt pork)", "amount": 100, "unit": "g" },
+      { "name": "saffron", "amount": 0.5, "unit": "g" },
+      { "name": "bay leaf", "amount": 2, "unit": "pc" },
+      { "name": "onion", "amount": 1, "unit": "medium" }
+    ],
+    "steps": [
+      "Soak beans and meats separately overnight.",
+      "Put beans and meats in large pot.",
+      "Cover with cold water.",
+      "Add onion and bay leaves.",
+      "Bring to very gentle simmer.",
+      "Never let it boil vigorously.",
+      "Cook 2-3 hours until beans are creamy.",
+      "Add saffron toward end.",
+      "Rest 30 minutes before serving.",
+      "Serve beans with sliced meats on top."
+    ],
+    "cooking_tips": [
+      "Slow, gentle cooking is essential.",
+      "Beans should be whole but creamy inside.",
+      "This is even better the next day."
+    ],
+    "difficulty": "medium",
+    "tags": ["spanish", "asturian", "stew", "beans", "pork", "hearty"],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 36,
+      "fat_g": 34,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Beans provide protein and fiber. A hearty, warming winter dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "es-cochinillo",
+    "slug": "cochinillo-asado",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Cochinillo Asado",
+    "short_description": "Roast suckling pig from Segovia with incredibly crispy skin. A celebration dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 150,
+    "servings": 8,
+    "ingredients": [
+      { "name": "suckling pig", "amount": 5, "unit": "kg" },
+      { "name": "lard", "amount": 100, "unit": "g" },
+      { "name": "white wine", "amount": 250, "unit": "ml" },
+      { "name": "water", "amount": 250, "unit": "ml" },
+      { "name": "garlic cloves", "amount": 8, "unit": "pc" },
+      { "name": "bay leaves", "amount": 3, "unit": "pc" },
+      { "name": "salt", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Score the pig's skin.",
+      "Rub generously with salt.",
+      "Place in roasting pan with wine and water.",
+      "Add garlic and bay leaves to pan.",
+      "Roast at 325°F for 2 hours, basting frequently.",
+      "Increase heat to 425°F for last 30 minutes.",
+      "Skin should become incredibly crispy.",
+      "Traditional test: cut with edge of a plate.",
+      "Rest 10 minutes before carving.",
+      "Serve with roasted potatoes."
+    ],
+    "cooking_tips": [
+      "The pig should be no more than 3 weeks old.",
+      "Segovian tradition carves with a plate.",
+      "The crackling should shatter when touched."
+    ],
+    "difficulty": "hard",
+    "tags": ["spanish", "segovian", "pork", "roast", "celebration"],
+    "nutrition": {
+      "per_serving_kcal": 680,
+      "protein_g": 48,
+      "fat_g": 52,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "High in protein. A special occasion indulgence.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "es-crema-catalana",
+    "slug": "crema-catalana",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Crema Catalana",
+    "short_description": "Catalan custard with caramelized sugar top. The original crème brûlée.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      { "name": "whole milk", "amount": 750, "unit": "ml" },
+      { "name": "egg yolks", "amount": 6, "unit": "pc" },
+      { "name": "sugar", "amount": 150, "unit": "g" },
+      { "name": "cornstarch", "amount": 30, "unit": "g" },
+      { "name": "cinnamon stick", "amount": 1, "unit": "pc" },
+      { "name": "lemon zest", "amount": 1, "unit": "lemon" },
+      { "name": "extra sugar for topping", "amount": 60, "unit": "g" }
+    ],
+    "steps": [
+      "Heat milk with cinnamon and lemon zest.",
+      "Let infuse for 10 minutes.",
+      "Whisk yolks with sugar and cornstarch.",
+      "Strain warm milk into yolk mixture.",
+      "Return to heat, stirring constantly.",
+      "Cook until thickened.",
+      "Pour into shallow terracotta dishes.",
+      "Chill for at least 4 hours.",
+      "Sprinkle with sugar before serving.",
+      "Caramelize with torch or under broiler."
+    ],
+    "cooking_tips": [
+      "Don't let the custard boil.",
+      "Traditional to caramelize with a hot iron.",
+      "The cinnamon-lemon flavor is distinctive."
+    ],
+    "difficulty": "medium",
+    "tags": ["spanish", "catalan", "dessert", "custard", "sweet"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Eggs provide protein. A classic Spanish dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "es-churros-chocolate",
+    "slug": "churros-con-chocolate",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Churros con Chocolate",
+    "short_description": "Crispy fried dough sticks served with thick hot chocolate for dipping. The Spanish breakfast tradition.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      { "name": "water", "amount": 250, "unit": "ml" },
+      { "name": "butter", "amount": 30, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 160, "unit": "g" },
+      { "name": "salt", "amount": 0.5, "unit": "tsp" },
+      { "name": "oil for frying", "amount": 500, "unit": "ml" },
+      { "name": "dark chocolate", "amount": 200, "unit": "g" },
+      { "name": "milk", "amount": 400, "unit": "ml" },
+      { "name": "cornstarch", "amount": 1, "unit": "tbsp" },
+      { "name": "sugar for coating", "amount": 100, "unit": "g" }
+    ],
+    "steps": [
+      "Boil water with butter and salt.",
+      "Add flour all at once, stir vigorously.",
+      "Cook until dough forms a ball.",
+      "Let cool slightly.",
+      "Pipe through star tip into hot oil.",
+      "Fry until golden and crispy.",
+      "Drain and roll in sugar.",
+      "For chocolate: heat milk with cornstarch.",
+      "Add chopped chocolate, stir until thick.",
+      "Serve churros with hot chocolate for dipping."
+    ],
+    "cooking_tips": [
+      "Dough should be smooth and pipeable.",
+      "Spanish chocolate is very thick for dipping.",
+      "Traditionally eaten for breakfast or late night."
+    ],
+    "difficulty": "medium",
+    "tags": ["spanish", "breakfast", "dessert", "fried", "chocolate"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 6,
+      "fat_g": 22,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Dark chocolate has antioxidants. An indulgent treat.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "es-salmorejo",
+    "slug": "salmorejo-cordobes",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Salmorejo Cordobés",
+    "short_description": "Thick, creamy tomato soup from Córdoba. Like gazpacho's richer, creamier cousin.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      { "name": "ripe tomatoes", "amount": 1, "unit": "kg" },
+      { "name": "stale bread", "amount": 200, "unit": "g" },
+      { "name": "extra virgin olive oil", "amount": 100, "unit": "ml" },
+      { "name": "garlic cloves", "amount": 1, "unit": "pc" },
+      { "name": "sherry vinegar", "amount": 15, "unit": "ml" },
+      { "name": "hard-boiled eggs", "amount": 2, "unit": "pc" },
+      { "name": "jamón serrano", "amount": 50, "unit": "g" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak bread in water.",
+      "Blend tomatoes until smooth.",
+      "Add soaked bread and garlic.",
+      "Blend until very smooth.",
+      "With blender running, slowly add oil.",
+      "Add vinegar and salt.",
+      "The texture should be thick and creamy.",
+      "Chill for at least 2 hours.",
+      "Serve topped with chopped egg and jamón.",
+      "Drizzle with more olive oil."
+    ],
+    "cooking_tips": [
+      "More bread makes it thicker.",
+      "Only use the ripest tomatoes.",
+      "The emulsification with oil is key to creaminess."
+    ],
+    "difficulty": "easy",
+    "tags": ["spanish", "cordoban", "cold-soup", "summer", "tomato"],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 10,
+      "fat_g": 26,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Tomatoes provide lycopene. Olive oil is heart-healthy. Refreshing summer dish.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "es-pisto-manchego",
+    "slug": "pisto-manchego",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Pisto Manchego",
+    "short_description": "La Mancha's vegetable stew similar to ratatouille. Often topped with a fried egg.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "zucchini", "amount": 2, "unit": "medium" },
+      { "name": "red bell peppers", "amount": 2, "unit": "pc" },
+      { "name": "green bell peppers", "amount": 2, "unit": "pc" },
+      { "name": "tomatoes", "amount": 4, "unit": "large" },
+      { "name": "onion", "amount": 2, "unit": "medium" },
+      { "name": "garlic cloves", "amount": 3, "unit": "pc" },
+      { "name": "extra virgin olive oil", "amount": 100, "unit": "ml" },
+      { "name": "eggs", "amount": 6, "unit": "pc" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Dice all vegetables into small cubes.",
+      "Heat oil in large pan.",
+      "Sauté onion until soft.",
+      "Add peppers and cook 10 minutes.",
+      "Add zucchini and cook 10 more minutes.",
+      "Add tomatoes and garlic.",
+      "Simmer until vegetables are tender.",
+      "The mixture should be thick, not watery.",
+      "Fry eggs separately.",
+      "Serve pisto topped with fried eggs."
+    ],
+    "cooking_tips": [
+      "Cook each vegetable sufficiently before adding next.",
+      "Can serve cold as a tapa.",
+      "Some add chorizo for extra flavor."
+    ],
+    "difficulty": "easy",
+    "tags": ["spanish", "la-mancha", "vegetables", "stew", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 10,
+      "fat_g": 18,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Lots of vegetables provide vitamins. Olive oil is heart-healthy. Very nutritious.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "es-bacalao-pil-pil",
+    "slug": "bacalao-al-pil-pil",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Bacalao al Pil-Pil",
+    "short_description": "Salt cod in emulsified garlic olive oil sauce. A Basque masterpiece of technique.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "salt cod", "amount": 600, "unit": "g" },
+      { "name": "extra virgin olive oil", "amount": 250, "unit": "ml" },
+      { "name": "garlic cloves", "amount": 8, "unit": "pc" },
+      { "name": "guindilla pepper", "amount": 2, "unit": "pc" }
+    ],
+    "steps": [
+      "Soak salt cod for 48 hours, changing water.",
+      "Pat cod completely dry.",
+      "Heat oil gently with sliced garlic.",
+      "Remove garlic when golden, reserve.",
+      "Add guindillas, then remove.",
+      "Place cod skin-side up in warm oil.",
+      "Cook very gently, never letting oil boil.",
+      "Remove cod when cooked.",
+      "Shake pan in circular motion off heat.",
+      "Gelatin from cod will emulsify the sauce."
+    ],
+    "cooking_tips": [
+      "The sauce emulsifies from cod's collagen.",
+      "Constant gentle motion creates the pil-pil.",
+      "Patience is essential - rushing ruins it."
+    ],
+    "difficulty": "hard",
+    "tags": ["spanish", "basque", "cod", "seafood", "technique"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 36,
+      "fat_g": 42,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Cod is high in protein and omega-3s. A Basque culinary tradition.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "es-manchego-membrillo",
+    "slug": "manchego-con-membrillo",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Manchego con Membrillo",
+    "short_description": "Aged Manchego cheese paired with quince paste. A perfect Spanish dessert or tapa.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      { "name": "Manchego cheese (aged)", "amount": 200, "unit": "g" },
+      { "name": "membrillo (quince paste)", "amount": 150, "unit": "g" },
+      { "name": "walnuts", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Remove cheese from refrigerator 30 minutes before.",
+      "Cut Manchego into wedges or thin slices.",
+      "Slice membrillo into matching pieces.",
+      "Arrange cheese and membrillo on plate.",
+      "Toast walnuts lightly if desired.",
+      "Scatter walnuts around.",
+      "Each bite should have cheese and membrillo.",
+      "The sweet-savory combination is perfection.",
+      "Serve with a glass of sherry.",
+      "Let cheese come to room temperature."
+    ],
+    "cooking_tips": [
+      "The older the Manchego, the more intense.",
+      "Equal portions of cheese and membrillo.",
+      "A simple yet sophisticated combination."
+    ],
+    "difficulty": "easy",
+    "tags": ["spanish", "cheese", "dessert", "tapa", "no-cook"],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 14,
+      "fat_g": 24,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Manchego provides calcium and protein. Quince has fiber. A classic pairing.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "es-pescaito-frito",
+    "slug": "pescaito-frito",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Pescaíto Frito",
+    "short_description": "Mixed fried fish Andalusian style. Golden, crispy seafood served in paper cones.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "mixed small fish", "amount": 600, "unit": "g" },
+      { "name": "squid rings", "amount": 200, "unit": "g" },
+      { "name": "shrimp", "amount": 200, "unit": "g" },
+      { "name": "chickpea flour", "amount": 200, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 100, "unit": "g" },
+      { "name": "salt", "amount": 2, "unit": "tsp" },
+      { "name": "olive oil for frying", "amount": 1, "unit": "L" },
+      { "name": "lemon wedges", "amount": 4, "unit": "pc" }
+    ],
+    "steps": [
+      "Clean and dry all seafood thoroughly.",
+      "Mix flours with salt.",
+      "Heat oil to 375°F.",
+      "Toss seafood in flour mixture.",
+      "Shake off excess flour.",
+      "Fry in small batches.",
+      "Don't overcrowd the pan.",
+      "Fry until golden and crispy.",
+      "Drain on paper towels.",
+      "Serve immediately with lemon."
+    ],
+    "cooking_tips": [
+      "Very hot oil and dry fish are essential.",
+      "Andalusian tradition uses only flour, no batter.",
+      "Eat immediately while crispy."
+    ],
+    "difficulty": "medium",
+    "tags": ["spanish", "andalusian", "seafood", "fried", "tapas"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 34,
+      "fat_g": 24,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Seafood is high in protein and omega-3s. A Mediterranean classic.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "es-flan",
+    "slug": "flan-espanol",
+    "country": "Spain",
+    "country_slug": "spain",
+    "name_en": "Flan Español",
+    "short_description": "Classic Spanish caramel custard. Silky smooth with bittersweet caramel.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "whole milk", "amount": 500, "unit": "ml" },
+      { "name": "eggs", "amount": 4, "unit": "whole" },
+      { "name": "egg yolks", "amount": 2, "unit": "pc" },
+      { "name": "sugar", "amount": 200, "unit": "g" },
+      { "name": "vanilla bean", "amount": 1, "unit": "pc" },
+      { "name": "water", "amount": 60, "unit": "ml" }
+    ],
+    "steps": [
+      "Make caramel: heat 100g sugar with water.",
+      "Cook until amber colored.",
+      "Pour into ramekins immediately.",
+      "Heat milk with vanilla bean.",
+      "Whisk eggs, yolks, and remaining sugar.",
+      "Gradually add warm milk.",
+      "Strain custard into ramekins.",
+      "Bake in water bath at 325°F for 45 minutes.",
+      "Chill for at least 4 hours.",
+      "Invert onto plates to serve."
+    ],
+    "cooking_tips": [
+      "Don't overcook or custard will be grainy.",
+      "The caramel should be dark amber.",
+      "Run knife around edge before inverting."
+    ],
+    "difficulty": "medium",
+    "tags": ["spanish", "dessert", "custard", "caramel", "classic"],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Eggs provide protein. Milk offers calcium. A beloved Spanish classic.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   }
 ]

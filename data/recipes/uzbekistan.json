@@ -11,16 +11,56 @@
     "cooking_time_minutes": 90,
     "servings": 8,
     "ingredients": [
-      { "name": "lamb shoulder", "amount": 1, "unit": "kg" },
-      { "name": "long-grain rice", "amount": 700, "unit": "g" },
-      { "name": "carrots", "amount": 700, "unit": "g" },
-      { "name": "onions", "amount": 3, "unit": "large" },
-      { "name": "vegetable oil", "amount": 200, "unit": "ml" },
-      { "name": "cumin seeds", "amount": 2, "unit": "tbsp" },
-      { "name": "coriander seeds", "amount": 1, "unit": "tbsp" },
-      { "name": "whole garlic heads", "amount": 2, "unit": "pc" },
-      { "name": "dried barberries", "amount": 50, "unit": "g" },
-      { "name": "salt", "amount": 2, "unit": "tbsp" }
+      {
+        "name": "lamb shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "long-grain rice",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "coriander seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "whole garlic heads",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "dried barberries",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Soak rice in warm salted water for at least 1 hour.",
@@ -43,7 +83,15 @@
       "Barberries add a distinctive tartness."
     ],
     "difficulty": "hard",
-    "tags": ["uzbek", "plov", "rice", "lamb", "festive", "traditional", "dinner"],
+    "tags": [
+      "uzbek",
+      "plov",
+      "rice",
+      "lamb",
+      "festive",
+      "traditional",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 680,
       "protein_g": 35,
@@ -66,15 +114,51 @@
     "cooking_time_minutes": 15,
     "servings": 6,
     "ingredients": [
-      { "name": "lamb leg or shoulder", "amount": 1, "unit": "kg" },
-      { "name": "onions", "amount": 4, "unit": "large" },
-      { "name": "vinegar", "amount": 3, "unit": "tbsp" },
-      { "name": "cumin", "amount": 2, "unit": "tsp" },
-      { "name": "coriander", "amount": 1, "unit": "tsp" },
-      { "name": "lamb fat", "amount": 100, "unit": "g" },
-      { "name": "salt", "amount": 2, "unit": "tsp" },
-      { "name": "black pepper", "amount": 1, "unit": "tsp" },
-      { "name": "fresh herbs", "amount": 1, "unit": "bunch" }
+      {
+        "name": "lamb leg or shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "onions",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "vinegar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "lamb fat",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh herbs",
+        "amount": 1,
+        "unit": "bunch"
+      }
     ],
     "steps": [
       "Cut lamb into 2-inch cubes with some fat attached.",
@@ -95,7 +179,14 @@
       "Let the charcoal form a white ash before grilling."
     ],
     "difficulty": "medium",
-    "tags": ["uzbek", "kebab", "lamb", "grilled", "bbq", "dinner"],
+    "tags": [
+      "uzbek",
+      "kebab",
+      "lamb",
+      "grilled",
+      "bbq",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 38,
@@ -118,16 +209,56 @@
     "cooking_time_minutes": 45,
     "servings": 6,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
-      { "name": "ground lamb", "amount": 500, "unit": "g" },
-      { "name": "onions", "amount": 3, "unit": "large" },
-      { "name": "lamb fat", "amount": 50, "unit": "g" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "yogurt", "amount": 200, "unit": "g" },
-      { "name": "garlic", "amount": 2, "unit": "cloves" },
-      { "name": "dried mint", "amount": 1, "unit": "tsp" },
-      { "name": "chili oil", "amount": 2, "unit": "tbsp" },
-      { "name": "salt", "amount": 2, "unit": "tsp" }
+      {
+        "name": "all-purpose flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "lamb fat",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "yogurt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "dried mint",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "chili oil",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Make a firm dough with flour, salt, and water. Rest 30 minutes.",
@@ -148,7 +279,14 @@
       "Make extra and freeze before steaming."
     ],
     "difficulty": "hard",
-    "tags": ["uzbek", "dumplings", "lamb", "steamed", "traditional", "dinner"],
+    "tags": [
+      "uzbek",
+      "dumplings",
+      "lamb",
+      "steamed",
+      "traditional",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 450,
       "protein_g": 25,
@@ -171,17 +309,61 @@
     "cooking_time_minutes": 45,
     "servings": 6,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
-      { "name": "lamb", "amount": 400, "unit": "g" },
-      { "name": "tomatoes", "amount": 3, "unit": "pc" },
-      { "name": "bell peppers", "amount": 2, "unit": "pc" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "radish", "amount": 1, "unit": "large" },
-      { "name": "celery", "amount": 2, "unit": "stalks" },
-      { "name": "garlic", "amount": 4, "unit": "cloves" },
-      { "name": "vegetable oil", "amount": 4, "unit": "tbsp" },
-      { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "star anise", "amount": 2, "unit": "pc" }
+      {
+        "name": "all-purpose flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "bell peppers",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "radish",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "celery",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "star anise",
+        "amount": 2,
+        "unit": "pc"
+      }
     ],
     "steps": [
       "Make a smooth dough, rest covered for 1 hour.",
@@ -202,7 +384,14 @@
       "The dish should be soupy, not dry."
     ],
     "difficulty": "hard",
-    "tags": ["uzbek", "noodles", "lamb", "soup", "silk-road", "dinner"],
+    "tags": [
+      "uzbek",
+      "noodles",
+      "lamb",
+      "soup",
+      "silk-road",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 24,
@@ -225,15 +414,51 @@
     "cooking_time_minutes": 25,
     "servings": 12,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
-      { "name": "butter or lamb fat", "amount": 150, "unit": "g" },
-      { "name": "ground lamb", "amount": 500, "unit": "g" },
-      { "name": "onions", "amount": 3, "unit": "large" },
-      { "name": "cumin", "amount": 2, "unit": "tsp" },
-      { "name": "black pepper", "amount": 1, "unit": "tsp" },
-      { "name": "sesame seeds", "amount": 2, "unit": "tbsp" },
-      { "name": "egg", "amount": 1, "unit": "pc" },
-      { "name": "salt", "amount": 2, "unit": "tsp" }
+      {
+        "name": "all-purpose flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter or lamb fat",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Make dough with flour, salt, and cold water. Rest 30 minutes.",
@@ -254,7 +479,14 @@
       "Don't overfill or they'll burst while baking."
     ],
     "difficulty": "medium",
-    "tags": ["uzbek", "pastry", "lamb", "snack", "baked", "appetizer"],
+    "tags": [
+      "uzbek",
+      "pastry",
+      "lamb",
+      "snack",
+      "baked",
+      "appetizer"
+    ],
     "nutrition": {
       "per_serving_kcal": 320,
       "protein_g": 14,
@@ -264,5 +496,825 @@
     "nutrition_benefits": "A satisfying protein-rich snack. The flaky layers come from butter. Best enjoyed fresh from the oven.",
     "mealType": "Appetizer",
     "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "uz-plov-1",
+    "slug": "uzbek-plov",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Uzbek Plov",
+    "image": "assets/img/recipes/uzbek-plov.jpg",
+    "short_description": "Rice pilaf with lamb and carrots. National dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "lamb",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "amount": 1,
+        "unit": "kg"
+      }
+    ],
+    "steps": [
+      "Cook meat in fat.",
+      "Add carrots.",
+      "Add rice.",
+      "Steam until done."
+    ],
+    "cooking_tips": [
+      "Layer carefully.",
+      "Do not stir.",
+      "Fluffy rice."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "uzbek",
+      "rice",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Hearty feast.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-shashlik-1",
+    "slug": "shashlik",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Shashlik",
+    "image": "assets/img/recipes/shashlik.jpg",
+    "short_description": "Grilled meat skewers. Central Asian BBQ.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "onions",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate meat.",
+      "Thread on skewers.",
+      "Grill over charcoal.",
+      "Serve with onions."
+    ],
+    "cooking_tips": [
+      "Fat for flavor.",
+      "Charcoal essential.",
+      "Simple seasoning."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "uzbek",
+      "grilled",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 24,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-manti-1",
+    "slug": "uzbek-manti",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Uzbek Manti",
+    "image": "assets/img/recipes/uzbek-manti.jpg",
+    "short_description": "Steamed meat dumplings. Large and hearty.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Make filling.",
+      "Shape dumplings.",
+      "Steam until done."
+    ],
+    "cooking_tips": [
+      "Large dumplings.",
+      "Juicy filling.",
+      "Serve with yogurt."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "uzbek",
+      "dumplings",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 10,
+      "fat_g": 8,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-lagman-1",
+    "slug": "lagman",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Lagman",
+    "image": "assets/img/recipes/lagman.jpg",
+    "short_description": "Hand-pulled noodles in soup. Uyghur influence.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "vegetables",
+        "amount": 500,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make hand-pulled noodles.",
+      "Make meat soup.",
+      "Cook noodles.",
+      "Serve in soup."
+    ],
+    "cooking_tips": [
+      "Fresh noodles essential.",
+      "Rich broth.",
+      "Many vegetables."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "uzbek",
+      "noodles",
+      "soup"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 14,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Filling meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-samsa-1",
+    "slug": "samsa",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Samsa",
+    "image": "assets/img/recipes/samsa.jpg",
+    "short_description": "Baked meat pastries. Street food.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make flaky dough.",
+      "Make meat filling.",
+      "Shape triangles.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Flaky layers.",
+      "Juicy filling.",
+      "Traditional tandoor."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "uzbek",
+      "pastry",
+      "meat"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 10,
+      "fat_g": 12,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Portable snack.",
+    "mealType": "Snack",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-shorpo-1",
+    "slug": "shorpo",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Shorpo",
+    "image": "assets/img/recipes/shorpo.jpg",
+    "short_description": "Clear meat soup. Comforting broth.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Simmer meat.",
+      "Add vegetables.",
+      "Season simply.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "Clear broth.",
+      "Large pieces.",
+      "Simple perfection."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "uzbek",
+      "soup",
+      "lamb"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Comforting soup.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-non-1",
+    "slug": "non",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Non",
+    "image": "assets/img/recipes/non.jpg",
+    "short_description": "Traditional flatbread. Decorated and beautiful.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Shape rounds.",
+      "Decorate with stamp.",
+      "Bake in tandoor."
+    ],
+    "cooking_tips": [
+      "Traditional stamp.",
+      "Crusty edges.",
+      "Soft center."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "uzbek",
+      "bread",
+      "tandoor"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 4,
+      "carbs_g": 54
+    },
+    "nutrition_benefits": "Essential bread.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "uz-chuchvara-1",
+    "slug": "chuchvara",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Chuchvara",
+    "image": "assets/img/recipes/chuchvara.jpg",
+    "short_description": "Small meat dumplings in soup. Comfort food.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "broth",
+        "amount": 1.5,
+        "unit": "liters"
+      }
+    ],
+    "steps": [
+      "Make tiny dumplings.",
+      "Make clear broth.",
+      "Cook dumplings in broth.",
+      "Serve with yogurt."
+    ],
+    "cooking_tips": [
+      "Very small size.",
+      "Clear broth.",
+      "Warming meal."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "uzbek",
+      "dumplings",
+      "soup"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 10,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Comforting dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-dimlama-1",
+    "slug": "dimlama",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Dimlama",
+    "image": "assets/img/recipes/dimlama.jpg",
+    "short_description": "Layered meat and vegetable stew. One-pot meal.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 0.5,
+        "unit": "head"
+      }
+    ],
+    "steps": [
+      "Layer meat and vegetables.",
+      "Add fat and water.",
+      "Cover tightly.",
+      "Cook slowly."
+    ],
+    "cooking_tips": [
+      "Layer matters.",
+      "Sealed pot.",
+      "No peeking."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "uzbek",
+      "stew",
+      "one-pot"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-mastava-1",
+    "slug": "mastava",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Mastava",
+    "image": "assets/img/recipes/mastava.jpg",
+    "short_description": "Rice soup with meat. Everyday comfort.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Brown meat.",
+      "Add vegetables.",
+      "Add rice and water.",
+      "Simmer until done."
+    ],
+    "cooking_tips": [
+      "Rice thickens soup.",
+      "Tangy from tomato.",
+      "Everyday food."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "uzbek",
+      "soup",
+      "rice"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Light soup.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-norin-1",
+    "slug": "norin",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Norin",
+    "image": "assets/img/recipes/norin.jpg",
+    "short_description": "Cold noodles with horse meat. Traditional dish.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "horse meat",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook meat until very tender.",
+      "Make thin noodles.",
+      "Slice meat thin.",
+      "Toss together cold."
+    ],
+    "cooking_tips": [
+      "Traditional meat.",
+      "Very thin noodles.",
+      "Served cold."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "uzbek",
+      "noodles",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Unique dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-halva-1",
+    "slug": "uzbek-halva",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Uzbek Halva",
+    "image": "assets/img/recipes/uzbek-halva.jpg",
+    "short_description": "Flour-based sweet. Traditional dessert.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Toast flour in butter.",
+      "Add sugar syrup.",
+      "Stir until thick.",
+      "Cool and serve."
+    ],
+    "cooking_tips": [
+      "Constant stirring.",
+      "Brown the flour.",
+      "Rich and sweet."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "uzbek",
+      "dessert",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 10,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Sweet treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "uz-kurut-1",
+    "slug": "kurut",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Kurut",
+    "image": "assets/img/recipes/kurut.jpg",
+    "short_description": "Dried yogurt balls. Portable snack.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "yogurt",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Strain yogurt.",
+      "Salt heavily.",
+      "Form balls.",
+      "Dry in sun."
+    ],
+    "cooking_tips": [
+      "Sour and salty.",
+      "Long shelf life.",
+      "Traditional snack."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "uzbek",
+      "dairy",
+      "preserved"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 30,
+      "protein_g": 2,
+      "fat_g": 1,
+      "carbs_g": 3
+    },
+    "nutrition_benefits": "Portable protein.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "uz-pashtet-1",
+    "slug": "kazan-kabob",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Kazan Kabob",
+    "image": "assets/img/recipes/kazan-kabob.jpg",
+    "short_description": "Meat and potato dish. Home cooking.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Layer meat and potatoes.",
+      "Cook in fat.",
+      "Flip when browned.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Crispy potatoes.",
+      "Tender meat.",
+      "Simple and good."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "uzbek",
+      "lamb",
+      "potatoes"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Hearty meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "uz-achichuk-1",
+    "slug": "achichuk",
+    "country": "Uzbekistan",
+    "country_slug": "uzbekistan",
+    "name_en": "Achichuk",
+    "image": "assets/img/recipes/achichuk.jpg",
+    "short_description": "Tomato and onion salad. Essential side.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "basil",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Slice tomatoes.",
+      "Slice onions.",
+      "Combine with herbs.",
+      "Season simply."
+    ],
+    "cooking_tips": [
+      "Ripe tomatoes.",
+      "Soak onions.",
+      "Fresh and simple."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "uzbek",
+      "salad",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 40,
+      "protein_g": 1,
+      "fat_g": 0,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Fresh vegetables.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegan"
   }
 ]

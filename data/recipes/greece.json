@@ -727,5 +727,1105 @@
     "nutrition_benefits": "Galaktoboureko provides calcium from milk. Eggs add protein and B vitamins. The dessert offers quick energy from carbohydrates.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-spanakopita-1",
+    "slug": "spanakopita",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Spanakopita",
+    "image": "assets/img/recipes/spanakopita.jpg",
+    "short_description": "Spinach and feta pie. Greek classic.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "spinach",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "feta",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "filo",
+        "amount": 500,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook spinach.",
+      "Mix with feta.",
+      "Layer filo.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Drain spinach well.",
+      "Butter each layer.",
+      "Golden and crispy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "spinach",
+      "pie"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Iron from spinach.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-pastitsio-2",
+    "slug": "pastitsio",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Pastitsio",
+    "image": "assets/img/recipes/pastitsio.jpg",
+    "short_description": "Greek pasta bake. Layers of deliciousness.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "pasta",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "bechamel",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook pasta.",
+      "Make meat sauce.",
+      "Make bechamel.",
+      "Layer and bake."
+    ],
+    "cooking_tips": [
+      "Tube pasta traditional.",
+      "Rich bechamel.",
+      "Golden top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "pasta",
+      "baked"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 22,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Hearty comfort.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "gr-saganaki-3",
+    "slug": "saganaki",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Saganaki",
+    "image": "assets/img/recipes/saganaki.jpg",
+    "short_description": "Fried cheese flambeed tableside. Dramatic starter.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 5,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "kefalotyri cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Slice cheese thick.",
+      "Dredge in flour.",
+      "Pan-fry until golden.",
+      "Flambe with brandy."
+    ],
+    "cooking_tips": [
+      "Hot pan.",
+      "Serve immediately.",
+      "Squeeze lemon."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "greek",
+      "cheese",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Protein from cheese.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-kleftiko-4",
+    "slug": "kleftiko",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Kleftiko",
+    "image": "assets/img/recipes/kleftiko.jpg",
+    "short_description": "Slow-cooked lamb in parchment. Tender perfection.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 240,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "potatoes",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "oregano",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate lamb.",
+      "Wrap in parchment.",
+      "Bake low and slow.",
+      "Open at table."
+    ],
+    "cooking_tips": [
+      "Very slow cooking.",
+      "Sealed for flavor.",
+      "Fall-off-bone tender."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "lamb",
+      "slow-cooked"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 42,
+      "fat_g": 32,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Tender lamb.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "gr-dolmades-5",
+    "slug": "dolmades",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Dolmades",
+    "image": "assets/img/recipes/dolmades.jpg",
+    "short_description": "Stuffed grape leaves with rice. Meze essential.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 50,
+        "unit": "pc"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "dill",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make rice filling.",
+      "Roll leaves tightly.",
+      "Arrange in pot.",
+      "Simmer with lemon."
+    ],
+    "cooking_tips": [
+      "Roll tight.",
+      "Use fresh dill.",
+      "Serve cold or warm."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "greek",
+      "grape-leaves",
+      "meze"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 1,
+      "fat_g": 2,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Light appetizer.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "gr-stifado-6",
+    "slug": "stifado",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Stifado",
+    "image": "assets/img/recipes/stifado.jpg",
+    "short_description": "Beef stew with pearl onions. Rich and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "pearl onions",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "red wine",
+        "amount": 250,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Brown beef.",
+      "Add onions whole.",
+      "Add wine and spices.",
+      "Simmer until tender."
+    ],
+    "cooking_tips": [
+      "Keep onions whole.",
+      "Cinnamon essential.",
+      "Long braising."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "beef",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Hearty and rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "gr-avgolemono-7",
+    "slug": "avgolemono",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Avgolemono",
+    "image": "assets/img/recipes/avgolemono.jpg",
+    "short_description": "Egg-lemon chicken soup. Silky and comforting.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "lemon",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook chicken in broth.",
+      "Shred chicken.",
+      "Temper eggs with broth.",
+      "Add lemon juice."
+    ],
+    "cooking_tips": [
+      "Temper slowly.",
+      "Do not boil after eggs.",
+      "Silky texture."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "soup",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 22,
+      "fat_g": 12,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Comforting soup.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "gr-loukoumades-8",
+    "slug": "loukoumades",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Loukoumades",
+    "image": "assets/img/recipes/loukoumades.jpg",
+    "short_description": "Honey-soaked doughnut holes. Street food sweet.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make yeasted batter.",
+      "Fry small balls.",
+      "Drench in honey.",
+      "Top with cinnamon."
+    ],
+    "cooking_tips": [
+      "Hot oil.",
+      "Crispy outside.",
+      "Dripping with honey."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "dessert",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 1,
+      "fat_g": 3,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Sweet treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-keftedes-9",
+    "slug": "keftedes",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Keftedes",
+    "image": "assets/img/recipes/keftedes.jpg",
+    "short_description": "Greek meatballs with mint. Flavorful and tender.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "mint",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix meat with herbs.",
+      "Form small balls.",
+      "Fry until golden.",
+      "Serve with tzatziki."
+    ],
+    "cooking_tips": [
+      "Fresh mint essential.",
+      "Do not overmix.",
+      "Serve hot."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "greek",
+      "meatballs",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 6,
+      "fat_g": 5,
+      "carbs_g": 3
+    },
+    "nutrition_benefits": "Protein snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "gr-galaktoboureko-10",
+    "slug": "galaktoboureko",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Galaktoboureko",
+    "image": "assets/img/recipes/galaktoboureko.jpg",
+    "short_description": "Custard in filo pastry. Creamy dessert.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 50,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "filo",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make custard.",
+      "Layer filo.",
+      "Add custard.",
+      "Bake and soak in syrup."
+    ],
+    "cooking_tips": [
+      "Hot custard in filo.",
+      "Lemon syrup.",
+      "Serve room temperature."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "greek",
+      "dessert",
+      "custard"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 5,
+      "fat_g": 10,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Rich dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-spanakopita-1",
+    "slug": "spanakopita",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Spanakopita",
+    "image": "assets/img/recipes/spanakopita.jpg",
+    "short_description": "Spinach and feta pie. Greek classic.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "spinach",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "feta",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "filo",
+        "amount": 500,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cook spinach.",
+      "Mix with feta.",
+      "Layer filo.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Drain spinach well.",
+      "Butter each layer.",
+      "Golden and crispy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "spinach",
+      "pie"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 10,
+      "fat_g": 14,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Iron from spinach.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-pastitsio-2",
+    "slug": "pastitsio",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Pastitsio",
+    "image": "assets/img/recipes/pastitsio.jpg",
+    "short_description": "Greek pasta bake. Layers of deliciousness.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "pasta",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "bechamel",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook pasta.",
+      "Make meat sauce.",
+      "Make bechamel.",
+      "Layer and bake."
+    ],
+    "cooking_tips": [
+      "Tube pasta traditional.",
+      "Rich bechamel.",
+      "Golden top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "pasta",
+      "baked"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 22,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Hearty comfort.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "gr-saganaki-3",
+    "slug": "saganaki",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Saganaki",
+    "image": "assets/img/recipes/saganaki.jpg",
+    "short_description": "Fried cheese flambeed tableside. Dramatic starter.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 5,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "kefalotyri cheese",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Slice cheese thick.",
+      "Dredge in flour.",
+      "Pan-fry until golden.",
+      "Flambe with brandy."
+    ],
+    "cooking_tips": [
+      "Hot pan.",
+      "Serve immediately.",
+      "Squeeze lemon."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "greek",
+      "cheese",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Protein from cheese.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-kleftiko-4",
+    "slug": "kleftiko",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Kleftiko",
+    "image": "assets/img/recipes/kleftiko.jpg",
+    "short_description": "Slow-cooked lamb in parchment. Tender perfection.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 240,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "potatoes",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "oregano",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate lamb.",
+      "Wrap in parchment.",
+      "Bake low and slow.",
+      "Open at table."
+    ],
+    "cooking_tips": [
+      "Very slow cooking.",
+      "Sealed for flavor.",
+      "Fall-off-bone tender."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "lamb",
+      "slow-cooked"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 42,
+      "fat_g": 32,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Tender lamb.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "gr-dolmades-5",
+    "slug": "dolmades",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Dolmades",
+    "image": "assets/img/recipes/dolmades.jpg",
+    "short_description": "Stuffed grape leaves with rice. Meze essential.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 50,
+        "unit": "pc"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "dill",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make rice filling.",
+      "Roll leaves tightly.",
+      "Arrange in pot.",
+      "Simmer with lemon."
+    ],
+    "cooking_tips": [
+      "Roll tight.",
+      "Use fresh dill.",
+      "Serve cold or warm."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "greek",
+      "grape-leaves",
+      "meze"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 1,
+      "fat_g": 2,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Light appetizer.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "gr-stifado-6",
+    "slug": "stifado",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Stifado",
+    "image": "assets/img/recipes/stifado.jpg",
+    "short_description": "Beef stew with pearl onions. Rich and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 180,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "pearl onions",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "red wine",
+        "amount": 250,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Brown beef.",
+      "Add onions whole.",
+      "Add wine and spices.",
+      "Simmer until tender."
+    ],
+    "cooking_tips": [
+      "Keep onions whole.",
+      "Cinnamon essential.",
+      "Long braising."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "beef",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Hearty and rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "gr-avgolemono-7",
+    "slug": "avgolemono",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Avgolemono",
+    "image": "assets/img/recipes/avgolemono.jpg",
+    "short_description": "Egg-lemon chicken soup. Silky and comforting.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "lemon",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook chicken in broth.",
+      "Shred chicken.",
+      "Temper eggs with broth.",
+      "Add lemon juice."
+    ],
+    "cooking_tips": [
+      "Temper slowly.",
+      "Do not boil after eggs.",
+      "Silky texture."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "soup",
+      "chicken"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 22,
+      "fat_g": 12,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Comforting soup.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "gr-loukoumades-8",
+    "slug": "loukoumades",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Loukoumades",
+    "image": "assets/img/recipes/loukoumades.jpg",
+    "short_description": "Honey-soaked doughnut holes. Street food sweet.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make yeasted batter.",
+      "Fry small balls.",
+      "Drench in honey.",
+      "Top with cinnamon."
+    ],
+    "cooking_tips": [
+      "Hot oil.",
+      "Crispy outside.",
+      "Dripping with honey."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "greek",
+      "dessert",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 1,
+      "fat_g": 3,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Sweet treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "gr-keftedes-9",
+    "slug": "keftedes",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Keftedes",
+    "image": "assets/img/recipes/keftedes.jpg",
+    "short_description": "Greek meatballs with mint. Flavorful and tender.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "mint",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix meat with herbs.",
+      "Form small balls.",
+      "Fry until golden.",
+      "Serve with tzatziki."
+    ],
+    "cooking_tips": [
+      "Fresh mint essential.",
+      "Do not overmix.",
+      "Serve hot."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "greek",
+      "meatballs",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 6,
+      "fat_g": 5,
+      "carbs_g": 3
+    },
+    "nutrition_benefits": "Protein snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "gr-galaktoboureko-10",
+    "slug": "galaktoboureko",
+    "country": "Greece",
+    "country_slug": "greece",
+    "name_en": "Galaktoboureko",
+    "image": "assets/img/recipes/galaktoboureko.jpg",
+    "short_description": "Custard in filo pastry. Creamy dessert.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 50,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "filo",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make custard.",
+      "Layer filo.",
+      "Add custard.",
+      "Bake and soak in syrup."
+    ],
+    "cooking_tips": [
+      "Hot custard in filo.",
+      "Lemon syrup.",
+      "Serve room temperature."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "greek",
+      "dessert",
+      "custard"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 5,
+      "fat_g": 10,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Rich dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   }
 ]

@@ -11,18 +11,66 @@
     "cooking_time_minutes": 120,
     "servings": 8,
     "ingredients": [
-      { "name": "beef brisket", "amount": 500, "unit": "g" },
-      { "name": "beets", "amount": 3, "unit": "medium" },
-      { "name": "cabbage", "amount": 0.5, "unit": "head" },
-      { "name": "potatoes", "amount": 3, "unit": "medium" },
-      { "name": "carrots", "amount": 2, "unit": "pc" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
-      { "name": "garlic cloves", "amount": 3, "unit": "pc" },
-      { "name": "bay leaves", "amount": 2, "unit": "pc" },
-      { "name": "white vinegar", "amount": 2, "unit": "tbsp" },
-      { "name": "sour cream", "amount": 200, "unit": "g" },
-      { "name": "fresh dill", "amount": 0.5, "unit": "cup" }
+      {
+        "name": "beef brisket",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "beets",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "cabbage",
+        "amount": 0.5,
+        "unit": "head"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "white vinegar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "sour cream",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fresh dill",
+        "amount": 0.5,
+        "unit": "cup"
+      }
     ],
     "steps": [
       "Simmer beef in water with bay leaves for 1-1.5 hours until tender.",
@@ -43,7 +91,14 @@
       "Serve with dark rye bread for authenticity."
     ],
     "difficulty": "medium",
-    "tags": ["russian", "soup", "beets", "traditional", "comfort-food", "dinner"],
+    "tags": [
+      "russian",
+      "soup",
+      "beets",
+      "traditional",
+      "comfort-food",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 280,
       "protein_g": 18,
@@ -66,16 +121,56 @@
     "cooking_time_minutes": 30,
     "servings": 4,
     "ingredients": [
-      { "name": "beef tenderloin", "amount": 600, "unit": "g" },
-      { "name": "mushrooms", "amount": 300, "unit": "g" },
-      { "name": "onion", "amount": 1, "unit": "large" },
-      { "name": "sour cream", "amount": 250, "unit": "g" },
-      { "name": "beef broth", "amount": 150, "unit": "ml" },
-      { "name": "Dijon mustard", "amount": 1, "unit": "tbsp" },
-      { "name": "butter", "amount": 3, "unit": "tbsp" },
-      { "name": "flour", "amount": 1, "unit": "tbsp" },
-      { "name": "paprika", "amount": 1, "unit": "tsp" },
-      { "name": "fresh parsley", "amount": 0.25, "unit": "cup" }
+      {
+        "name": "beef tenderloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "mushrooms",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      },
+      {
+        "name": "sour cream",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "beef broth",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Dijon mustard",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "butter",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 0.25,
+        "unit": "cup"
+      }
     ],
     "steps": [
       "Slice beef into thin strips against the grain.",
@@ -96,7 +191,14 @@
       "Room temperature sour cream prevents curdling."
     ],
     "difficulty": "medium",
-    "tags": ["russian", "beef", "creamy", "classic", "dinner", "elegant"],
+    "tags": [
+      "russian",
+      "beef",
+      "creamy",
+      "classic",
+      "dinner",
+      "elegant"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 40,
@@ -119,16 +221,56 @@
     "cooking_time_minutes": 10,
     "servings": 6,
     "ingredients": [
-      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
-      { "name": "eggs", "amount": 2, "unit": "pc" },
-      { "name": "water", "amount": 150, "unit": "ml" },
-      { "name": "ground beef", "amount": 300, "unit": "g" },
-      { "name": "ground pork", "amount": 200, "unit": "g" },
-      { "name": "onion", "amount": 1, "unit": "medium" },
-      { "name": "garlic", "amount": 2, "unit": "cloves" },
-      { "name": "butter", "amount": 50, "unit": "g" },
-      { "name": "sour cream", "amount": 200, "unit": "g" },
-      { "name": "salt and pepper", "amount": 2, "unit": "tsp" }
+      {
+        "name": "all-purpose flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "water",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "sour cream",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "salt and pepper",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Make dough: mix flour, eggs, water, and salt until smooth.",
@@ -148,7 +290,15 @@
       "A drop of cold water in the filling keeps it moist."
     ],
     "difficulty": "hard",
-    "tags": ["russian", "dumplings", "beef", "pork", "traditional", "dinner", "freezer-friendly"],
+    "tags": [
+      "russian",
+      "dumplings",
+      "beef",
+      "pork",
+      "traditional",
+      "dinner",
+      "freezer-friendly"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 24,
@@ -171,16 +321,56 @@
     "cooking_time_minutes": 30,
     "servings": 8,
     "ingredients": [
-      { "name": "buckwheat flour", "amount": 100, "unit": "g" },
-      { "name": "all-purpose flour", "amount": 100, "unit": "g" },
-      { "name": "warm milk", "amount": 300, "unit": "ml" },
-      { "name": "eggs", "amount": 2, "unit": "pc" },
-      { "name": "yeast", "amount": 1, "unit": "tsp" },
-      { "name": "sugar", "amount": 1, "unit": "tbsp" },
-      { "name": "butter", "amount": 50, "unit": "g" },
-      { "name": "sour cream", "amount": 200, "unit": "g" },
-      { "name": "salmon roe or caviar", "amount": 100, "unit": "g" },
-      { "name": "salt", "amount": 0.5, "unit": "tsp" }
+      {
+        "name": "buckwheat flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "warm milk",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "yeast",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "sour cream",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "salmon roe or caviar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Dissolve yeast and sugar in warm milk, let foam.",
@@ -201,7 +391,14 @@
       "Keep them small for elegant appetizers."
     ],
     "difficulty": "medium",
-    "tags": ["russian", "pancakes", "caviar", "appetizer", "celebration", "maslenitsa"],
+    "tags": [
+      "russian",
+      "pancakes",
+      "caviar",
+      "appetizer",
+      "celebration",
+      "maslenitsa"
+    ],
     "nutrition": {
       "per_serving_kcal": 220,
       "protein_g": 10,
@@ -224,14 +421,46 @@
     "cooking_time_minutes": 45,
     "servings": 8,
     "ingredients": [
-      { "name": "eggs", "amount": 4, "unit": "pc" },
-      { "name": "sugar", "amount": 200, "unit": "g" },
-      { "name": "all-purpose flour", "amount": 200, "unit": "g" },
-      { "name": "apples", "amount": 4, "unit": "large" },
-      { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
-      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
-      { "name": "butter for pan", "amount": 1, "unit": "tbsp" },
-      { "name": "powdered sugar", "amount": 2, "unit": "tbsp" }
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "sugar",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "apples",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter for pan",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Preheat oven to 180°C (350°F).",
@@ -252,7 +481,14 @@
       "Serve warm with tea for the authentic experience."
     ],
     "difficulty": "easy",
-    "tags": ["russian", "dessert", "apple", "cake", "simple", "autumn"],
+    "tags": [
+      "russian",
+      "dessert",
+      "apple",
+      "cake",
+      "simple",
+      "autumn"
+    ],
     "nutrition": {
       "per_serving_kcal": 250,
       "protein_g": 5,
@@ -275,21 +511,81 @@
     "cooking_time_minutes": 30,
     "servings": 4,
     "ingredients": [
-      {"name": "large boneless chicken breasts (with tenderloin attached)", "amount": 4, "unit": "pc"},
-      {"name": "unsalted butter (softened)", "amount": 200, "unit": "g"},
-      {"name": "fresh dill (finely chopped)", "amount": 4, "unit": "tbsp"},
-      {"name": "fresh parsley (finely chopped)", "amount": 3, "unit": "tbsp"},
-      {"name": "fresh chives (finely chopped)", "amount": 2, "unit": "tbsp"},
-      {"name": "garlic cloves (minced)", "amount": 4, "unit": "pc"},
-      {"name": "lemon zest", "amount": 2, "unit": "tsp"},
-      {"name": "lemon juice", "amount": 1, "unit": "tbsp"},
-      {"name": "eggs", "amount": 3, "unit": "pc"},
-      {"name": "panko breadcrumbs", "amount": 250, "unit": "g"},
-      {"name": "all-purpose flour", "amount": 120, "unit": "g"},
-      {"name": "vegetable oil (for deep frying)", "amount": 750, "unit": "ml"},
-      {"name": "salt", "amount": 1.5, "unit": "tsp"},
-      {"name": "freshly ground black pepper", "amount": 0.5, "unit": "tsp"},
-      {"name": "white pepper", "amount": 0.25, "unit": "tsp"}
+      {
+        "name": "large boneless chicken breasts (with tenderloin attached)",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "unsalted butter (softened)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "fresh dill (finely chopped)",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh parsley (finely chopped)",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh chives (finely chopped)",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves (minced)",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "lemon zest",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "panko breadcrumbs",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable oil (for deep frying)",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "freshly ground black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "white pepper",
+        "amount": 0.25,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Prepare the compound butter: In a bowl, combine softened butter with dill, parsley, chives, minced garlic, lemon zest, lemon juice, and a pinch of salt.",
@@ -328,7 +624,16 @@
       "Let the kievs rest before serving - this allows the butter to cool slightly so it flows rather than spurts."
     ],
     "difficulty": "hard",
-    "tags": ["russian", "chicken", "fried", "elegant", "dinner", "butter", "special-occasion", "classic"],
+    "tags": [
+      "russian",
+      "chicken",
+      "fried",
+      "elegant",
+      "dinner",
+      "butter",
+      "special-occasion",
+      "classic"
+    ],
     "nutrition": {
       "per_serving_kcal": 680,
       "protein_g": 48,
@@ -338,5 +643,1545 @@
     "nutrition_benefits": "Excellent source of lean protein from chicken breast. Fresh herbs provide vitamins and antioxidants. The butter offers fat-soluble vitamins A, D, and E. While indulgent, this is a satisfying special occasion dish that provides sustained energy.",
     "mealType": "Dinner",
     "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "ru-borscht-1",
+    "slug": "borscht",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Borscht",
+    "image": "assets/img/recipes/borscht.jpg",
+    "short_description": "Beet soup with sour cream. Eastern European classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beets",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sour cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook beets.",
+      "Add cabbage.",
+      "Make broth.",
+      "Top with sour cream."
+    ],
+    "cooking_tips": [
+      "Vibrant red color.",
+      "Tangy flavor.",
+      "Serve with bread."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "soup",
+      "beets"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Antioxidants from beets.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-pelmeni-2",
+    "slug": "pelmeni",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Pelmeni",
+    "image": "assets/img/recipes/pelmeni.jpg",
+    "short_description": "Meat dumplings. Russian comfort food.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 15,
+    "servings": 40,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Make meat filling.",
+      "Form dumplings.",
+      "Boil until float."
+    ],
+    "cooking_tips": [
+      "Thin dough.",
+      "Season filling well.",
+      "Serve with sour cream."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "russian",
+      "dumplings",
+      "meat"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 40,
+      "protein_g": 2,
+      "fat_g": 2,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Protein snacks.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ru-beef-3",
+    "slug": "beef-stroganoff",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Beef Stroganoff",
+    "image": "assets/img/recipes/beef-stroganoff.jpg",
+    "short_description": "Creamy beef and mushrooms. Russian classic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mushrooms",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sour cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Slice beef thin.",
+      "Saute mushrooms.",
+      "Cook beef quickly.",
+      "Add sour cream."
+    ],
+    "cooking_tips": [
+      "Quick cooking.",
+      "Do not overcook.",
+      "Serve over noodles."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "beef",
+      "creamy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ru-blini-4",
+    "slug": "blini",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Blini",
+    "image": "assets/img/recipes/blini.jpg",
+    "short_description": "Thin yeasted pancakes. Festive food.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make yeasted batter.",
+      "Rest until bubbly.",
+      "Cook thin pancakes.",
+      "Serve with toppings."
+    ],
+    "cooking_tips": [
+      "Yeasted for flavor.",
+      "Very thin.",
+      "Many toppings."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "pancakes",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 3,
+      "fat_g": 2,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Versatile base.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-olivier-5",
+    "slug": "olivier-salad",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Olivier Salad",
+    "image": "assets/img/recipes/olivier-salad.jpg",
+    "short_description": "Russian potato salad. New Year essential.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "peas",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "mayonnaise",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Boil vegetables.",
+      "Dice all ingredients.",
+      "Mix with mayo.",
+      "Chill and serve."
+    ],
+    "cooking_tips": [
+      "Small dice.",
+      "Generous mayo.",
+      "Holiday tradition."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "salad",
+      "holiday"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 22,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Festive dish.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-pirozhki-6",
+    "slug": "pirozhki",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Pirozhki",
+    "image": "assets/img/recipes/pirozhki.jpg",
+    "short_description": "Filled buns. Many fillings.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make yeasted dough.",
+      "Cook filling.",
+      "Form buns.",
+      "Bake or fry."
+    ],
+    "cooking_tips": [
+      "Soft dough.",
+      "Generous filling.",
+      "Many varieties."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "buns",
+      "filled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 6,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Portable meal.",
+    "mealType": "Snack",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ru-shchi-7",
+    "slug": "shchi",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Shchi",
+    "image": "assets/img/recipes/shchi.jpg",
+    "short_description": "Cabbage soup. Ancient Russian dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "cabbage",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sauerkraut",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make beef broth.",
+      "Add cabbage.",
+      "Simmer long.",
+      "Add sauerkraut."
+    ],
+    "cooking_tips": [
+      "Two kinds of cabbage.",
+      "Tangy flavor.",
+      "Better next day."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "russian",
+      "soup",
+      "cabbage"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 18,
+      "fat_g": 10,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Vitamin C from cabbage.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ru-kasha-8",
+    "slug": "buckwheat-kasha",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Buckwheat Kasha",
+    "image": "assets/img/recipes/buckwheat-kasha.jpg",
+    "short_description": "Toasted buckwheat porridge. Staple side.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "buckwheat",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Toast buckwheat.",
+      "Add water.",
+      "Simmer covered.",
+      "Fluff with butter."
+    ],
+    "cooking_tips": [
+      "Toast first.",
+      "Do not stir.",
+      "Nutty flavor."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "russian",
+      "grains",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Complete protein.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-syrniki-9",
+    "slug": "syrniki",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Syrniki",
+    "image": "assets/img/recipes/syrniki.jpg",
+    "short_description": "Cheese pancakes. Sweet breakfast.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "tvorog",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix cheese with eggs.",
+      "Add flour.",
+      "Form patties.",
+      "Pan-fry until golden."
+    ],
+    "cooking_tips": [
+      "Drain cheese well.",
+      "Do not overmix.",
+      "Serve with jam."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "russian",
+      "cheese",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 8,
+      "fat_g": 6,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-pirog-10",
+    "slug": "pirog",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Pirog",
+    "image": "assets/img/recipes/pirog.jpg",
+    "short_description": "Large filled pie. Many varieties.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make yeasted dough.",
+      "Cook filling.",
+      "Assemble pie.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Rich dough.",
+      "Many fillings.",
+      "Slice like pie."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "pie",
+      "filled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 8,
+      "fat_g": 8,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-golubtsy-11",
+    "slug": "golubtsy",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Golubtsy",
+    "image": "assets/img/recipes/golubtsy.jpg",
+    "short_description": "Stuffed cabbage rolls. Comfort classic.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "cabbage",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "ground meat",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Blanch cabbage leaves.",
+      "Make meat filling.",
+      "Roll cabbage.",
+      "Bake in sauce."
+    ],
+    "cooking_tips": [
+      "Soften leaves well.",
+      "Roll tight.",
+      "Tomato sauce."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "cabbage",
+      "stuffed"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 12,
+      "fat_g": 8,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ru-medovik-12",
+    "slug": "medovik",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Medovik",
+    "image": "assets/img/recipes/medovik.jpg",
+    "short_description": "Honey layer cake. Russian classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "honey",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sour cream",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make honey dough.",
+      "Bake thin layers.",
+      "Make sour cream filling.",
+      "Layer and chill."
+    ],
+    "cooking_tips": [
+      "Many thin layers.",
+      "Rest overnight.",
+      "Softens beautifully."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "russian",
+      "cake",
+      "honey"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Sweet celebration.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-napoleon-13",
+    "slug": "napoleon-cake",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Napoleon Cake",
+    "image": "assets/img/recipes/napoleon-cake.jpg",
+    "short_description": "Puff pastry cream cake. Elaborate dessert.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "puff pastry",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "custard",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Bake pastry layers.",
+      "Make custard.",
+      "Layer with cream.",
+      "Chill overnight."
+    ],
+    "cooking_tips": [
+      "Crispy layers.",
+      "Rich custard.",
+      "Softens when rested."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "russian",
+      "cake",
+      "pastry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 6,
+      "fat_g": 24,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Indulgent dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-okroshka-14",
+    "slug": "okroshka",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Okroshka",
+    "image": "assets/img/recipes/okroshka.jpg",
+    "short_description": "Cold kvass soup. Summer refreshment.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "kvass",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "cucumbers",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Dice vegetables.",
+      "Mix with kvass.",
+      "Add sour cream.",
+      "Serve very cold."
+    ],
+    "cooking_tips": [
+      "Tangy and refreshing.",
+      "Summer only.",
+      "Cold soup."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "russian",
+      "soup",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 4,
+      "fat_g": 4,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Refreshing summer dish.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-borscht-1",
+    "slug": "borscht",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Borscht",
+    "image": "assets/img/recipes/borscht.jpg",
+    "short_description": "Beet soup with sour cream. Eastern European classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beets",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sour cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Cook beets.",
+      "Add cabbage.",
+      "Make broth.",
+      "Top with sour cream."
+    ],
+    "cooking_tips": [
+      "Vibrant red color.",
+      "Tangy flavor.",
+      "Serve with bread."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "soup",
+      "beets"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Antioxidants from beets.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-pelmeni-2",
+    "slug": "pelmeni",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Pelmeni",
+    "image": "assets/img/recipes/pelmeni.jpg",
+    "short_description": "Meat dumplings. Russian comfort food.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 15,
+    "servings": 40,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Make meat filling.",
+      "Form dumplings.",
+      "Boil until float."
+    ],
+    "cooking_tips": [
+      "Thin dough.",
+      "Season filling well.",
+      "Serve with sour cream."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "russian",
+      "dumplings",
+      "meat"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 40,
+      "protein_g": 2,
+      "fat_g": 2,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Protein snacks.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ru-beef-3",
+    "slug": "beef-stroganoff",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Beef Stroganoff",
+    "image": "assets/img/recipes/beef-stroganoff.jpg",
+    "short_description": "Creamy beef and mushrooms. Russian classic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mushrooms",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sour cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Slice beef thin.",
+      "Saute mushrooms.",
+      "Cook beef quickly.",
+      "Add sour cream."
+    ],
+    "cooking_tips": [
+      "Quick cooking.",
+      "Do not overcook.",
+      "Serve over noodles."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "beef",
+      "creamy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ru-blini-4",
+    "slug": "blini",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Blini",
+    "image": "assets/img/recipes/blini.jpg",
+    "short_description": "Thin yeasted pancakes. Festive food.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make yeasted batter.",
+      "Rest until bubbly.",
+      "Cook thin pancakes.",
+      "Serve with toppings."
+    ],
+    "cooking_tips": [
+      "Yeasted for flavor.",
+      "Very thin.",
+      "Many toppings."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "pancakes",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 3,
+      "fat_g": 2,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Versatile base.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-olivier-5",
+    "slug": "olivier-salad",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Olivier Salad",
+    "image": "assets/img/recipes/olivier-salad.jpg",
+    "short_description": "Russian potato salad. New Year essential.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "peas",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "mayonnaise",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Boil vegetables.",
+      "Dice all ingredients.",
+      "Mix with mayo.",
+      "Chill and serve."
+    ],
+    "cooking_tips": [
+      "Small dice.",
+      "Generous mayo.",
+      "Holiday tradition."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "salad",
+      "holiday"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 22,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Festive dish.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-pirozhki-6",
+    "slug": "pirozhki",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Pirozhki",
+    "image": "assets/img/recipes/pirozhki.jpg",
+    "short_description": "Filled buns. Many fillings.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make yeasted dough.",
+      "Cook filling.",
+      "Form buns.",
+      "Bake or fry."
+    ],
+    "cooking_tips": [
+      "Soft dough.",
+      "Generous filling.",
+      "Many varieties."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "buns",
+      "filled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 6,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Portable meal.",
+    "mealType": "Snack",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ru-shchi-7",
+    "slug": "shchi",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Shchi",
+    "image": "assets/img/recipes/shchi.jpg",
+    "short_description": "Cabbage soup. Ancient Russian dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "cabbage",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sauerkraut",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make beef broth.",
+      "Add cabbage.",
+      "Simmer long.",
+      "Add sauerkraut."
+    ],
+    "cooking_tips": [
+      "Two kinds of cabbage.",
+      "Tangy flavor.",
+      "Better next day."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "russian",
+      "soup",
+      "cabbage"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 18,
+      "fat_g": 10,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Vitamin C from cabbage.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ru-kasha-8",
+    "slug": "buckwheat-kasha",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Buckwheat Kasha",
+    "image": "assets/img/recipes/buckwheat-kasha.jpg",
+    "short_description": "Toasted buckwheat porridge. Staple side.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "buckwheat",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Toast buckwheat.",
+      "Add water.",
+      "Simmer covered.",
+      "Fluff with butter."
+    ],
+    "cooking_tips": [
+      "Toast first.",
+      "Do not stir.",
+      "Nutty flavor."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "russian",
+      "grains",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Complete protein.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-syrniki-9",
+    "slug": "syrniki",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Syrniki",
+    "image": "assets/img/recipes/syrniki.jpg",
+    "short_description": "Cheese pancakes. Sweet breakfast.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "tvorog",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix cheese with eggs.",
+      "Add flour.",
+      "Form patties.",
+      "Pan-fry until golden."
+    ],
+    "cooking_tips": [
+      "Drain cheese well.",
+      "Do not overmix.",
+      "Serve with jam."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "russian",
+      "cheese",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 8,
+      "fat_g": 6,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-pirog-10",
+    "slug": "pirog",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Pirog",
+    "image": "assets/img/recipes/pirog.jpg",
+    "short_description": "Large filled pie. Many varieties.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make yeasted dough.",
+      "Cook filling.",
+      "Assemble pie.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Rich dough.",
+      "Many fillings.",
+      "Slice like pie."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "pie",
+      "filled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 8,
+      "fat_g": 8,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Satisfying meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-golubtsy-11",
+    "slug": "golubtsy",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Golubtsy",
+    "image": "assets/img/recipes/golubtsy.jpg",
+    "short_description": "Stuffed cabbage rolls. Comfort classic.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "cabbage",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "ground meat",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Blanch cabbage leaves.",
+      "Make meat filling.",
+      "Roll cabbage.",
+      "Bake in sauce."
+    ],
+    "cooking_tips": [
+      "Soften leaves well.",
+      "Roll tight.",
+      "Tomato sauce."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "russian",
+      "cabbage",
+      "stuffed"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 12,
+      "fat_g": 8,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "ru-medovik-12",
+    "slug": "medovik",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Medovik",
+    "image": "assets/img/recipes/medovik.jpg",
+    "short_description": "Honey layer cake. Russian classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "honey",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "flour",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sour cream",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make honey dough.",
+      "Bake thin layers.",
+      "Make sour cream filling.",
+      "Layer and chill."
+    ],
+    "cooking_tips": [
+      "Many thin layers.",
+      "Rest overnight.",
+      "Softens beautifully."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "russian",
+      "cake",
+      "honey"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Sweet celebration.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-napoleon-13",
+    "slug": "napoleon-cake",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Napoleon Cake",
+    "image": "assets/img/recipes/napoleon-cake.jpg",
+    "short_description": "Puff pastry cream cake. Elaborate dessert.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "puff pastry",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "custard",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Bake pastry layers.",
+      "Make custard.",
+      "Layer with cream.",
+      "Chill overnight."
+    ],
+    "cooking_tips": [
+      "Crispy layers.",
+      "Rich custard.",
+      "Softens when rested."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "russian",
+      "cake",
+      "pastry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 6,
+      "fat_g": 24,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Indulgent dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "ru-okroshka-14",
+    "slug": "okroshka",
+    "country": "Russia",
+    "country_slug": "russia",
+    "name_en": "Okroshka",
+    "image": "assets/img/recipes/okroshka.jpg",
+    "short_description": "Cold kvass soup. Summer refreshment.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "kvass",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "cucumbers",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Dice vegetables.",
+      "Mix with kvass.",
+      "Add sour cream.",
+      "Serve very cold."
+    ],
+    "cooking_tips": [
+      "Tangy and refreshing.",
+      "Summer only.",
+      "Cold soup."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "russian",
+      "soup",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 4,
+      "fat_g": 4,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Refreshing summer dish.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
   }
 ]

@@ -11,15 +11,51 @@
     "cooking_time_minutes": 90,
     "servings": 4,
     "ingredients": [
-      {"name": "whole carp or similar freshwater fish", "amount": 2, "unit": "kg"},
-      {"name": "tamarind paste", "amount": 3, "unit": "tbsp"},
-      {"name": "tomato paste", "amount": 2, "unit": "tbsp"},
-      {"name": "olive oil", "amount": 4, "unit": "tbsp"},
-      {"name": "turmeric powder", "amount": 1, "unit": "tsp"},
-      {"name": "curry powder", "amount": 1, "unit": "tsp"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "fresh tomatoes", "amount": 3, "unit": "medium"},
-      {"name": "onion", "amount": 1, "unit": "large"}
+      {
+        "name": "whole carp or similar freshwater fish",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "curry powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "large"
+      }
     ],
     "steps": [
       "Clean the fish thoroughly and butterfly it by cutting along the belly, keeping the back intact.",
@@ -39,7 +75,14 @@
       "Keep a spray bottle of water nearby to control any flare-ups."
     ],
     "difficulty": "hard",
-    "tags": ["iraqi", "fish", "grilled", "traditional", "dinner", "festive"],
+    "tags": [
+      "iraqi",
+      "fish",
+      "grilled",
+      "traditional",
+      "dinner",
+      "festive"
+    ],
     "nutrition": {
       "per_serving_kcal": 420,
       "protein_g": 45,
@@ -62,18 +105,66 @@
     "cooking_time_minutes": 120,
     "servings": 8,
     "ingredients": [
-      {"name": "grape leaves", "amount": 40, "unit": "leaves"},
-      {"name": "medium zucchini", "amount": 4, "unit": "pc"},
-      {"name": "bell peppers", "amount": 4, "unit": "pc"},
-      {"name": "tomatoes", "amount": 4, "unit": "medium"},
-      {"name": "onions", "amount": 4, "unit": "medium"},
-      {"name": "short grain rice", "amount": 2, "unit": "cups"},
-      {"name": "ground lamb", "amount": 500, "unit": "g"},
-      {"name": "tomato paste", "amount": 3, "unit": "tbsp"},
-      {"name": "dried mint", "amount": 2, "unit": "tbsp"},
-      {"name": "baharat spice mix", "amount": 2, "unit": "tbsp"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "lemon juice", "amount": 4, "unit": "tbsp"}
+      {
+        "name": "grape leaves",
+        "amount": 40,
+        "unit": "leaves"
+      },
+      {
+        "name": "medium zucchini",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bell peppers",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "onions",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "short grain rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "baharat spice mix",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 4,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Rinse rice and soak for 30 minutes, then drain well.",
@@ -94,7 +185,14 @@
       "Leftover dolma tastes even better the next day as flavors meld."
     ],
     "difficulty": "hard",
-    "tags": ["iraqi", "stuffed-vegetables", "rice", "lamb", "dinner", "festive"],
+    "tags": [
+      "iraqi",
+      "stuffed-vegetables",
+      "rice",
+      "lamb",
+      "dinner",
+      "festive"
+    ],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 18,
@@ -117,17 +215,61 @@
     "cooking_time_minutes": 90,
     "servings": 6,
     "ingredients": [
-      {"name": "lamb shoulder", "amount": 1, "unit": "kg"},
-      {"name": "chickpeas (soaked overnight)", "amount": 1, "unit": "cup"},
-      {"name": "onions", "amount": 2, "unit": "large"},
-      {"name": "tomatoes", "amount": 4, "unit": "medium"},
-      {"name": "garlic cloves", "amount": 6, "unit": "pc"},
-      {"name": "baharat spice mix", "amount": 2, "unit": "tbsp"},
-      {"name": "turmeric", "amount": 1, "unit": "tsp"},
-      {"name": "cinnamon stick", "amount": 1, "unit": "pc"},
-      {"name": "Iraqi flatbread (khubz)", "amount": 4, "unit": "loaves"},
-      {"name": "fresh parsley", "amount": 1, "unit": "bunch"},
-      {"name": "salt", "amount": 2, "unit": "tsp"}
+      {
+        "name": "lamb shoulder",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "chickpeas (soaked overnight)",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "baharat spice mix",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "Iraqi flatbread (khubz)",
+        "amount": 4,
+        "unit": "loaves"
+      },
+      {
+        "name": "fresh parsley",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Cut lamb into large chunks, keeping some on the bone for flavor.",
@@ -147,7 +289,14 @@
       "Let the bread soak for a few minutes before serving for ultimate comfort."
     ],
     "difficulty": "medium",
-    "tags": ["iraqi", "stew", "lamb", "comfort-food", "dinner", "ramadan"],
+    "tags": [
+      "iraqi",
+      "stew",
+      "lamb",
+      "comfort-food",
+      "dinner",
+      "ramadan"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 35,
@@ -170,16 +319,56 @@
     "cooking_time_minutes": 30,
     "servings": 6,
     "ingredients": [
-      {"name": "fine bulgur wheat", "amount": 2, "unit": "cups"},
-      {"name": "semolina", "amount": 1, "unit": "cup"},
-      {"name": "ground lamb", "amount": 400, "unit": "g"},
-      {"name": "onion", "amount": 2, "unit": "large"},
-      {"name": "pine nuts", "amount": 50, "unit": "g"},
-      {"name": "baharat spice mix", "amount": 2, "unit": "tbsp"},
-      {"name": "cumin", "amount": 1, "unit": "tsp"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "vegetable oil for frying", "amount": 500, "unit": "ml"},
-      {"name": "plain yogurt", "amount": 2, "unit": "cups"}
+      {
+        "name": "fine bulgur wheat",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "semolina",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "ground lamb",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "baharat spice mix",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil for frying",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": 2,
+        "unit": "cups"
+      }
     ],
     "steps": [
       "Soak bulgur in warm water for 30 minutes until softened, then drain well.",
@@ -199,7 +388,14 @@
       "Freeze shaped kubba for up to a month before frying."
     ],
     "difficulty": "hard",
-    "tags": ["iraqi", "dumplings", "fried", "lamb", "appetizer", "mosul"],
+    "tags": [
+      "iraqi",
+      "dumplings",
+      "fried",
+      "lamb",
+      "appetizer",
+      "mosul"
+    ],
     "nutrition": {
       "per_serving_kcal": 450,
       "protein_g": 22,
@@ -222,16 +418,56 @@
     "cooking_time_minutes": 25,
     "servings": 30,
     "ingredients": [
-      {"name": "all-purpose flour", "amount": 4, "unit": "cups"},
-      {"name": "butter (softened)", "amount": 250, "unit": "g"},
-      {"name": "sugar", "amount": 0.5, "unit": "cup"},
-      {"name": "milk", "amount": 0.5, "unit": "cup"},
-      {"name": "instant yeast", "amount": 1, "unit": "tsp"},
-      {"name": "cardamom powder", "amount": 1, "unit": "tbsp"},
-      {"name": "rose water", "amount": 2, "unit": "tbsp"},
-      {"name": "date paste", "amount": 500, "unit": "g"},
-      {"name": "sesame seeds", "amount": 50, "unit": "g"},
-      {"name": "nigella seeds", "amount": 2, "unit": "tbsp"}
+      {
+        "name": "all-purpose flour",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "butter (softened)",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "milk",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "instant yeast",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cardamom powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "date paste",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "nigella seeds",
+        "amount": 2,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Warm milk slightly and dissolve yeast with a pinch of sugar.",
@@ -253,7 +489,14 @@
       "Walnuts can replace dates for a variation called kleicha bil-joz."
     ],
     "difficulty": "medium",
-    "tags": ["iraqi", "dessert", "cookies", "dates", "eid", "festive"],
+    "tags": [
+      "iraqi",
+      "dessert",
+      "cookies",
+      "dates",
+      "eid",
+      "festive"
+    ],
     "nutrition": {
       "per_serving_kcal": 180,
       "protein_g": 2,
@@ -261,6 +504,1838 @@
       "carbs_g": 26
     },
     "nutrition_benefits": "Kleicha offers natural sweetness from dates, which are high in fiber, potassium, and iron. Dates provide quick energy and support digestive health. Cardamom aids digestion and adds antioxidant properties.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-dolma",
+    "slug": "dolma-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Dolma",
+    "image": "assets/img/recipes/dolma-iraqi.jpg",
+    "short_description": "Stuffed vegetables and grape leaves with spiced rice and meat. Family-style feast.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 90,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 40,
+        "unit": "pc"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "baharat",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Blanch leaves.",
+      "Mix rice with meat.",
+      "Stuff and roll.",
+      "Layer in pot.",
+      "Simmer 1.5 hours."
+    ],
+    "cooking_tips": [
+      "Do not overstuff.",
+      "Layer tightly.",
+      "Serve at room temperature."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iraqi",
+      "stuffed",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Balanced protein and carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-masgouf",
+    "slug": "masgouf",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Masgouf",
+    "image": "assets/img/recipes/masgouf.jpg",
+    "short_description": "Grilled carp opened flat and cooked over fire. Iraqs national fish dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "whole carp",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "olive oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tamarind",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Butterfly fish.",
+      "Rub with spices.",
+      "Grill skin-side to fire.",
+      "Add tamarind glaze.",
+      "Cook until tender."
+    ],
+    "cooking_tips": [
+      "Wood fire adds flavor.",
+      "Fish should be large.",
+      "Serve communally."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "fish",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 45,
+      "fat_g": 20,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "iq-tashreeb",
+    "slug": "tashreeb",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Tashreeb",
+    "image": "assets/img/recipes/tashreeb.jpg",
+    "short_description": "Lamb stew served over broken bread. The bread soaks up broth.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Iraqi bread",
+        "amount": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "baharat",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb.",
+      "Add chickpeas and water.",
+      "Simmer until tender.",
+      "Layer bread.",
+      "Pour stew over."
+    ],
+    "cooking_tips": [
+      "Bread should soak.",
+      "Traditional breakfast.",
+      "Use lamb shanks."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "lamb",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Protein and carbs.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-kubba",
+    "slug": "kubba-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Kubba",
+    "image": "assets/img/recipes/kubba-iraqi.jpg",
+    "short_description": "Bulgur shells stuffed with spiced meat. Many regional styles.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "fine bulgur",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "baharat",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak bulgur.",
+      "Knead to paste.",
+      "Cook filling.",
+      "Form shells and fill.",
+      "Fry or simmer."
+    ],
+    "cooking_tips": [
+      "Shell should be thin.",
+      "Many shapes exist.",
+      "Can serve in soup."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iraqi",
+      "bulgur",
+      "stuffed"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 12,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Protein and fiber.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-biryani",
+    "slug": "biryani-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Biryani",
+    "image": "assets/img/recipes/biryani-iraqi.jpg",
+    "short_description": "Layered spiced rice with chicken. Iraqi version with distinctive spices.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "baharat",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Parboil rice.",
+      "Layer rice and chicken.",
+      "Add saffron.",
+      "Steam until done."
+    ],
+    "cooking_tips": [
+      "Dark fried onions essential.",
+      "Do not stir after layering.",
+      "Raisins add sweetness."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "rice",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 16,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete festive meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-bamia",
+    "slug": "bamia-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Bamia",
+    "image": "assets/img/recipes/bamia-iraqi.jpg",
+    "short_description": "Okra stew with lamb in tomato sauce. Tangy comfort food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "okra",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "baharat",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Fry okra.",
+      "Brown lamb.",
+      "Add tomato paste.",
+      "Add okra last.",
+      "Cook until tender."
+    ],
+    "cooking_tips": [
+      "Do not cut okra.",
+      "Frying reduces sliminess.",
+      "Tangy tomato base."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "okra",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 20,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Fiber from okra.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-tepsi",
+    "slug": "tepsi-baytinijan",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Tepsi Baytinijan",
+    "image": "assets/img/recipes/tepsi-baytinijan.jpg",
+    "short_description": "Layered eggplant casserole with meat. Rich and hearty.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplants",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "baharat",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Fry eggplant.",
+      "Cook meat.",
+      "Layer eggplant and meat.",
+      "Top with tomatoes.",
+      "Bake until done."
+    ],
+    "cooking_tips": [
+      "Salt eggplant first.",
+      "Layer generously.",
+      "Serve hot."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "eggplant",
+      "casserole"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 28,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Antioxidants from eggplant.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-qeema",
+    "slug": "qeema-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Qeema",
+    "image": "assets/img/recipes/qeema-iraqi.jpg",
+    "short_description": "Ground meat stew with potatoes. Quick comfort food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "baharat",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown meat.",
+      "Add tomato paste.",
+      "Add potatoes.",
+      "Simmer until tender."
+    ],
+    "cooking_tips": [
+      "Do not overcook potatoes.",
+      "Everyday meal.",
+      "Adjust thickness."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "iraqi",
+      "beef",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 24,
+      "fat_g": 18,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Balanced nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-kleicha",
+    "slug": "kleicha",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Kleicha",
+    "image": "assets/img/recipes/kleicha.jpg",
+    "short_description": "Date-filled cookies traditional for Eid. Shaped by hand.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 25,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "dates",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "cardamom",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Process dates.",
+      "Fill and shape.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Many regional shapes.",
+      "Traditional for holidays.",
+      "Can use walnuts."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "cookies",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Natural date sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-lablabi",
+    "slug": "lablabi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Lablabi",
+    "image": "assets/img/recipes/lablabi.jpg",
+    "short_description": "Chickpea soup with garlic and cumin. Simple and nourishing.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Cook chickpeas.",
+      "Mash garlic with cumin.",
+      "Add lemon juice.",
+      "Top with olive oil."
+    ],
+    "cooking_tips": [
+      "Chickpeas should be soft.",
+      "Warming and simple.",
+      "Adjust garlic."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "iraqi",
+      "chickpeas",
+      "soup"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 14,
+      "fat_g": 14,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Plant protein and fiber.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "iq-maqluba",
+    "slug": "maqluba-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Maqluba",
+    "image": "assets/img/recipes/maqluba-iraqi.jpg",
+    "short_description": "Upside-down rice with meat and vegetables. Impressive flip.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "cauliflower",
+        "amount": 1,
+        "unit": "small"
+      }
+    ],
+    "steps": [
+      "Fry vegetables.",
+      "Brown meat.",
+      "Layer meat, vegetables, rice.",
+      "Cook covered.",
+      "Flip onto platter."
+    ],
+    "cooking_tips": [
+      "Pack layers firmly.",
+      "Let rest before flipping.",
+      "Dramatic presentation."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "rice",
+      "layered"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-timen-bagilla",
+    "slug": "timen-bagilla",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Timen Bagilla",
+    "image": "assets/img/recipes/timen-bagilla.jpg",
+    "short_description": "Rice with fava beans and dill. Spring dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 50,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "fava beans",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "dill",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Saute onion.",
+      "Add fava beans.",
+      "Add rice and water.",
+      "Add dill.",
+      "Cook until done."
+    ],
+    "cooking_tips": [
+      "Use fresh favas.",
+      "Do not stir too much.",
+      "Serve with yogurt."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "iraqi",
+      "rice",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 10,
+      "fat_g": 10,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Plant protein from favas.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-kahi",
+    "slug": "kahi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Kahi",
+    "image": "assets/img/recipes/kahi.jpg",
+    "short_description": "Iraqi breakfast pastry with butter layers. Served with qaimar.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "qaimar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "date syrup",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make soft dough.",
+      "Roll very thin.",
+      "Brush with butter.",
+      "Cook on griddle.",
+      "Serve with qaimar."
+    ],
+    "cooking_tips": [
+      "Very thin layers.",
+      "Lots of butter.",
+      "Traditional breakfast."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "pastry",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 8,
+      "fat_g": 28,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Indulgent breakfast.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-timman",
+    "slug": "timman-habil",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Timman Habil",
+    "image": "assets/img/recipes/timman-habil.jpg",
+    "short_description": "Cardamom-scented rice. Base for many dishes.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "cardamom",
+        "amount": 6,
+        "unit": "pods"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak rice.",
+      "Parboil with cardamom.",
+      "Steam with butter.",
+      "Fluff before serving."
+    ],
+    "cooking_tips": [
+      "Proper soaking is key.",
+      "Do not stir while steaming.",
+      "Fragrant base for meals."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "iraqi",
+      "rice",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Energy from complex carbs.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-halawet",
+    "slug": "halawet-jibn",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Halawet Jibn",
+    "image": "assets/img/recipes/halawet-jibn.jpg",
+    "short_description": "Sweet cheese rolls filled with cream. Beloved dessert.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "mozzarella",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "semolina",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cream",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar syrup",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Heat cheese until stretchy.",
+      "Add semolina.",
+      "Roll thin.",
+      "Fill with cream.",
+      "Top with syrup."
+    ],
+    "cooking_tips": [
+      "Work quickly.",
+      "Cream should be thick.",
+      "Serve fresh."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iraqi",
+      "dessert",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Calcium from cheese.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-dolma",
+    "slug": "dolma-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Dolma",
+    "image": "assets/img/recipes/dolma-iraqi.jpg",
+    "short_description": "Stuffed vegetables and grape leaves with spiced rice and meat. Family-style feast.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 90,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "grape leaves",
+        "amount": 40,
+        "unit": "pc"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 1.5,
+        "unit": "cups"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "baharat",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Blanch leaves.",
+      "Mix rice with meat.",
+      "Stuff and roll.",
+      "Layer in pot.",
+      "Simmer 1.5 hours."
+    ],
+    "cooking_tips": [
+      "Do not overstuff.",
+      "Layer tightly.",
+      "Serve at room temperature."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iraqi",
+      "stuffed",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 12,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Balanced protein and carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-masgouf",
+    "slug": "masgouf",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Masgouf",
+    "image": "assets/img/recipes/masgouf.jpg",
+    "short_description": "Grilled carp opened flat and cooked over fire. Iraqs national fish dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "whole carp",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "olive oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tamarind",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Butterfly fish.",
+      "Rub with spices.",
+      "Grill skin-side to fire.",
+      "Add tamarind glaze.",
+      "Cook until tender."
+    ],
+    "cooking_tips": [
+      "Wood fire adds flavor.",
+      "Fish should be large.",
+      "Serve communally."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "fish",
+      "grilled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 45,
+      "fat_g": 20,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "iq-tashreeb",
+    "slug": "tashreeb",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Tashreeb",
+    "image": "assets/img/recipes/tashreeb.jpg",
+    "short_description": "Lamb stew served over broken bread. The bread soaks up broth.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "Iraqi bread",
+        "amount": 4,
+        "unit": "pieces"
+      },
+      {
+        "name": "baharat",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb.",
+      "Add chickpeas and water.",
+      "Simmer until tender.",
+      "Layer bread.",
+      "Pour stew over."
+    ],
+    "cooking_tips": [
+      "Bread should soak.",
+      "Traditional breakfast.",
+      "Use lamb shanks."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "lamb",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Protein and carbs.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-kubba",
+    "slug": "kubba-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Kubba",
+    "image": "assets/img/recipes/kubba-iraqi.jpg",
+    "short_description": "Bulgur shells stuffed with spiced meat. Many regional styles.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "fine bulgur",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pine nuts",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "baharat",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Soak bulgur.",
+      "Knead to paste.",
+      "Cook filling.",
+      "Form shells and fill.",
+      "Fry or simmer."
+    ],
+    "cooking_tips": [
+      "Shell should be thin.",
+      "Many shapes exist.",
+      "Can serve in soup."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iraqi",
+      "bulgur",
+      "stuffed"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 12,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Protein and fiber.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-biryani",
+    "slug": "biryani-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Biryani",
+    "image": "assets/img/recipes/biryani-iraqi.jpg",
+    "short_description": "Layered spiced rice with chicken. Iraqi version with distinctive spices.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "baharat",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook chicken.",
+      "Parboil rice.",
+      "Layer rice and chicken.",
+      "Add saffron.",
+      "Steam until done."
+    ],
+    "cooking_tips": [
+      "Dark fried onions essential.",
+      "Do not stir after layering.",
+      "Raisins add sweetness."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "rice",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 32,
+      "fat_g": 16,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete festive meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-bamia",
+    "slug": "bamia-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Bamia",
+    "image": "assets/img/recipes/bamia-iraqi.jpg",
+    "short_description": "Okra stew with lamb in tomato sauce. Tangy comfort food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "okra",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "baharat",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Fry okra.",
+      "Brown lamb.",
+      "Add tomato paste.",
+      "Add okra last.",
+      "Cook until tender."
+    ],
+    "cooking_tips": [
+      "Do not cut okra.",
+      "Frying reduces sliminess.",
+      "Tangy tomato base."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "okra",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 20,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Fiber from okra.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-tepsi",
+    "slug": "tepsi-baytinijan",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Tepsi Baytinijan",
+    "image": "assets/img/recipes/tepsi-baytinijan.jpg",
+    "short_description": "Layered eggplant casserole with meat. Rich and hearty.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplants",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "baharat",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Fry eggplant.",
+      "Cook meat.",
+      "Layer eggplant and meat.",
+      "Top with tomatoes.",
+      "Bake until done."
+    ],
+    "cooking_tips": [
+      "Salt eggplant first.",
+      "Layer generously.",
+      "Serve hot."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "eggplant",
+      "casserole"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 28,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Antioxidants from eggplant.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-qeema",
+    "slug": "qeema-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Qeema",
+    "image": "assets/img/recipes/qeema-iraqi.jpg",
+    "short_description": "Ground meat stew with potatoes. Quick comfort food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "baharat",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown meat.",
+      "Add tomato paste.",
+      "Add potatoes.",
+      "Simmer until tender."
+    ],
+    "cooking_tips": [
+      "Do not overcook potatoes.",
+      "Everyday meal.",
+      "Adjust thickness."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "iraqi",
+      "beef",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 24,
+      "fat_g": 18,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Balanced nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-kleicha",
+    "slug": "kleicha",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Kleicha",
+    "image": "assets/img/recipes/kleicha.jpg",
+    "short_description": "Date-filled cookies traditional for Eid. Shaped by hand.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 25,
+    "servings": 30,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "dates",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "cardamom",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Process dates.",
+      "Fill and shape.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Many regional shapes.",
+      "Traditional for holidays.",
+      "Can use walnuts."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "cookies",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Natural date sweetness.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-lablabi",
+    "slug": "lablabi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Lablabi",
+    "image": "assets/img/recipes/lablabi.jpg",
+    "short_description": "Chickpea soup with garlic and cumin. Simple and nourishing.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Cook chickpeas.",
+      "Mash garlic with cumin.",
+      "Add lemon juice.",
+      "Top with olive oil."
+    ],
+    "cooking_tips": [
+      "Chickpeas should be soft.",
+      "Warming and simple.",
+      "Adjust garlic."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "iraqi",
+      "chickpeas",
+      "soup"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 14,
+      "fat_g": 14,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Plant protein and fiber.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "iq-maqluba",
+    "slug": "maqluba-iraqi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Iraqi Maqluba",
+    "image": "assets/img/recipes/maqluba-iraqi.jpg",
+    "short_description": "Upside-down rice with meat and vegetables. Impressive flip.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "cauliflower",
+        "amount": 1,
+        "unit": "small"
+      }
+    ],
+    "steps": [
+      "Fry vegetables.",
+      "Brown meat.",
+      "Layer meat, vegetables, rice.",
+      "Cook covered.",
+      "Flip onto platter."
+    ],
+    "cooking_tips": [
+      "Pack layers firmly.",
+      "Let rest before flipping.",
+      "Dramatic presentation."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "rice",
+      "layered"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 28,
+      "fat_g": 18,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Complete meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "iq-timen-bagilla",
+    "slug": "timen-bagilla",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Timen Bagilla",
+    "image": "assets/img/recipes/timen-bagilla.jpg",
+    "short_description": "Rice with fava beans and dill. Spring dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 50,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "fava beans",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "dill",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Saute onion.",
+      "Add fava beans.",
+      "Add rice and water.",
+      "Add dill.",
+      "Cook until done."
+    ],
+    "cooking_tips": [
+      "Use fresh favas.",
+      "Do not stir too much.",
+      "Serve with yogurt."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "iraqi",
+      "rice",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 10,
+      "fat_g": 10,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Plant protein from favas.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-kahi",
+    "slug": "kahi",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Kahi",
+    "image": "assets/img/recipes/kahi.jpg",
+    "short_description": "Iraqi breakfast pastry with butter layers. Served with qaimar.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "qaimar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "date syrup",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make soft dough.",
+      "Roll very thin.",
+      "Brush with butter.",
+      "Cook on griddle.",
+      "Serve with qaimar."
+    ],
+    "cooking_tips": [
+      "Very thin layers.",
+      "Lots of butter.",
+      "Traditional breakfast."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "iraqi",
+      "pastry",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 8,
+      "fat_g": 28,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Indulgent breakfast.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-timman",
+    "slug": "timman-habil",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Timman Habil",
+    "image": "assets/img/recipes/timman-habil.jpg",
+    "short_description": "Cardamom-scented rice. Base for many dishes.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 40,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "cardamom",
+        "amount": 6,
+        "unit": "pods"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak rice.",
+      "Parboil with cardamom.",
+      "Steam with butter.",
+      "Fluff before serving."
+    ],
+    "cooking_tips": [
+      "Proper soaking is key.",
+      "Do not stir while steaming.",
+      "Fragrant base for meals."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "iraqi",
+      "rice",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Energy from complex carbs.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "iq-halawet",
+    "slug": "halawet-jibn",
+    "country": "Iraq",
+    "country_slug": "iraq",
+    "name_en": "Halawet Jibn",
+    "image": "assets/img/recipes/halawet-jibn.jpg",
+    "short_description": "Sweet cheese rolls filled with cream. Beloved dessert.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "mozzarella",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "semolina",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cream",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar syrup",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Heat cheese until stretchy.",
+      "Add semolina.",
+      "Roll thin.",
+      "Fill with cream.",
+      "Top with syrup."
+    ],
+    "cooking_tips": [
+      "Work quickly.",
+      "Cream should be thick.",
+      "Serve fresh."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "iraqi",
+      "dessert",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Calcium from cheese.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
   }

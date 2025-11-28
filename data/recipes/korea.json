@@ -286,24 +286,96 @@
     "cooking_time_minutes": 50,
     "servings": 6,
     "ingredients": [
-      {"name": "whole chicken (cut into pieces, bone-in)", "amount": 1.5, "unit": "kg"},
-      {"name": "potatoes (waxy variety)", "amount": 4, "unit": "medium"},
-      {"name": "carrots", "amount": 3, "unit": "medium"},
-      {"name": "onion", "amount": 2, "unit": "medium"},
-      {"name": "zucchini", "amount": 1, "unit": "medium"},
-      {"name": "gochugaru (Korean red pepper flakes)", "amount": 4, "unit": "tbsp"},
-      {"name": "soy sauce", "amount": 5, "unit": "tbsp"},
-      {"name": "gochujang (Korean red pepper paste)", "amount": 3, "unit": "tbsp"},
-      {"name": "garlic cloves (minced)", "amount": 8, "unit": "pc"},
-      {"name": "fresh ginger (grated)", "amount": 2, "unit": "tbsp"},
-      {"name": "rice wine or mirin", "amount": 3, "unit": "tbsp"},
-      {"name": "brown sugar or honey", "amount": 2, "unit": "tbsp"},
-      {"name": "Korean soup soy sauce (guk-ganjang)", "amount": 1, "unit": "tbsp"},
-      {"name": "green onions", "amount": 5, "unit": "stalks"},
-      {"name": "toasted sesame oil", "amount": 2, "unit": "tbsp"},
-      {"name": "toasted sesame seeds", "amount": 1, "unit": "tbsp"},
-      {"name": "freshly ground black pepper", "amount": 0.5, "unit": "tsp"},
-      {"name": "water or chicken stock", "amount": 500, "unit": "ml"}
+      {
+        "name": "whole chicken (cut into pieces, bone-in)",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "potatoes (waxy variety)",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "carrots",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "zucchini",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "gochugaru (Korean red pepper flakes)",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "gochujang (Korean red pepper paste)",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic cloves (minced)",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "fresh ginger (grated)",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rice wine or mirin",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "brown sugar or honey",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Korean soup soy sauce (guk-ganjang)",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "green onions",
+        "amount": 5,
+        "unit": "stalks"
+      },
+      {
+        "name": "toasted sesame oil",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "toasted sesame seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "freshly ground black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "water or chicken stock",
+        "amount": 500,
+        "unit": "ml"
+      }
     ],
     "steps": [
       "Cut chicken into 8-10 pieces through the bone - you can ask your butcher to do this.",
@@ -343,7 +415,16 @@
       "This stew tastes even better the next day as flavors meld - just reheat gently with a splash of water."
     ],
     "difficulty": "medium",
-    "tags": ["korean", "chicken", "spicy", "stew", "comfort-food", "dinner", "one-pot", "braised"],
+    "tags": [
+      "korean",
+      "chicken",
+      "spicy",
+      "stew",
+      "comfort-food",
+      "dinner",
+      "one-pot",
+      "braised"
+    ],
     "nutrition": {
       "per_serving_kcal": 520,
       "protein_g": 42,
@@ -353,5 +434,1545 @@
     "nutrition_benefits": "Excellent source of lean protein from chicken. Gochugaru contains capsaicin, known to boost metabolism and provide anti-inflammatory benefits. Potatoes offer potassium and vitamin C. Garlic and ginger provide immune-supporting compounds. Sesame oil adds heart-healthy unsaturated fats.",
     "mealType": "Dinner",
     "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "kr-bibimbap-1",
+    "slug": "bibimbap",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Bibimbap",
+    "image": "assets/img/recipes/bibimbap.jpg",
+    "short_description": "Mixed rice bowl with vegetables and gochujang. Colorful and nutritious.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "vegetables",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook rice.",
+      "Prepare vegetables.",
+      "Fry eggs.",
+      "Arrange beautifully."
+    ],
+    "cooking_tips": [
+      "Mix before eating.",
+      "Gochujang essential.",
+      "Crispy rice bottom."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "rice",
+      "vegetables"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 72
+    },
+    "nutrition_benefits": "Balanced and colorful.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "kr-bulgogi-2",
+    "slug": "bulgogi",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Bulgogi",
+    "image": "assets/img/recipes/bulgogi.jpg",
+    "short_description": "Marinated beef BBQ. Sweet and savory.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pear",
+        "amount": 0.5,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Slice beef thin.",
+      "Marinate with pear.",
+      "Grill quickly.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Pear tenderizes.",
+      "Thin slices.",
+      "High heat."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "beef",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-kimchi-3",
+    "slug": "kimchi-jjigae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Kimchi Jjigae",
+    "image": "assets/img/recipes/kimchi-jjigae.jpg",
+    "short_description": "Kimchi stew with pork. Spicy and comforting.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "kimchi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pork belly",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Saute pork.",
+      "Add kimchi.",
+      "Add water and tofu.",
+      "Simmer until done."
+    ],
+    "cooking_tips": [
+      "Use old kimchi.",
+      "Fermented is best.",
+      "Serve bubbling."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "stew",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 20,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Probiotics from kimchi.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-japchae-4",
+    "slug": "japchae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Japchae",
+    "image": "assets/img/recipes/japchae.jpg",
+    "short_description": "Glass noodles with vegetables. Festive side dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "sweet potato noodles",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "vegetables",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sesame oil",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook noodles.",
+      "Stir-fry vegetables.",
+      "Toss together.",
+      "Season with sesame."
+    ],
+    "cooking_tips": [
+      "Cook vegetables separately.",
+      "Chewy noodles.",
+      "Sweet-savory balance."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "noodles",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Glass noodles are filling.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "kr-samgyeopsal-5",
+    "slug": "samgyeopsal",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Samgyeopsal",
+    "image": "assets/img/recipes/samgyeopsal.jpg",
+    "short_description": "Grilled pork belly. Korean BBQ classic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork belly",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "lettuce",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "garlic",
+        "amount": 10,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Slice pork thick.",
+      "Grill at table.",
+      "Wrap in lettuce.",
+      "Add ssamjang."
+    ],
+    "cooking_tips": [
+      "Thick slices.",
+      "Grill until crispy.",
+      "Wrap with garlic."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "pork",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 28,
+      "fat_g": 42,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Rich in protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-tteokbokki-6",
+    "slug": "tteokbokki",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Tteokbokki",
+    "image": "assets/img/recipes/tteokbokki.jpg",
+    "short_description": "Spicy rice cakes in gochujang sauce. Street food favorite.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice cakes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "gochujang",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fish cakes",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Boil rice cakes.",
+      "Make sauce.",
+      "Simmer together.",
+      "Add fish cakes."
+    ],
+    "cooking_tips": [
+      "Chewy texture.",
+      "Adjust spice level.",
+      "Popular snack."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "rice-cakes",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 8,
+      "fat_g": 4,
+      "carbs_g": 66
+    },
+    "nutrition_benefits": "Quick street food.",
+    "mealType": "Snack",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-sundubu-7",
+    "slug": "sundubu-jjigae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Sundubu Jjigae",
+    "image": "assets/img/recipes/sundubu-jjigae.jpg",
+    "short_description": "Soft tofu stew. Silky and spicy.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "soft tofu",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "seafood",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "gochugaru",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Saute garlic.",
+      "Add seafood.",
+      "Add tofu and broth.",
+      "Crack in egg."
+    ],
+    "cooking_tips": [
+      "Do not stir tofu.",
+      "Served bubbling.",
+      "Egg at end."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "tofu",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 18,
+      "fat_g": 12,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from tofu.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-galbi-8",
+    "slug": "galbi",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Galbi",
+    "image": "assets/img/recipes/galbi.jpg",
+    "short_description": "Grilled short ribs. Sweet and succulent.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "short ribs",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "pear",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Score ribs.",
+      "Marinate overnight.",
+      "Grill until done.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Long marinade.",
+      "Caramelize edges.",
+      "Festive dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "beef",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-pajeon-9",
+    "slug": "pajeon",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Pajeon",
+    "image": "assets/img/recipes/pajeon.jpg",
+    "short_description": "Scallion pancake. Crispy and savory.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "scallions",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "seafood",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make batter.",
+      "Add scallions.",
+      "Pan-fry until crispy.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Crispy edges.",
+      "Lots of scallions.",
+      "Rainy day food."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "pancake",
+      "seafood"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Quick and satisfying.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-doenjang-10",
+    "slug": "doenjang-jjigae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Doenjang Jjigae",
+    "image": "assets/img/recipes/doenjang-jjigae.jpg",
+    "short_description": "Soybean paste stew. Earthy and comforting.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "doenjang",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "zucchini",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make anchovy broth.",
+      "Add doenjang.",
+      "Add vegetables.",
+      "Simmer until done."
+    ],
+    "cooking_tips": [
+      "Use fermented paste.",
+      "Hearty vegetables.",
+      "Korean comfort food."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "stew",
+      "soybean"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 12,
+      "fat_g": 8,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Probiotics from fermentation.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "kr-dakgalbi-11",
+    "slug": "dakgalbi",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Dakgalbi",
+    "image": "assets/img/recipes/dakgalbi.jpg",
+    "short_description": "Spicy stir-fried chicken. Chuncheon specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "gochujang",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cabbage",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cut chicken.",
+      "Make spicy marinade.",
+      "Stir-fry with vegetables.",
+      "Add rice cakes."
+    ],
+    "cooking_tips": [
+      "Cook at table.",
+      "Very spicy.",
+      "Add cheese on top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "chicken",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 38,
+      "fat_g": 16,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-jjajangmyeon-12",
+    "slug": "jjajangmyeon",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Jjajangmyeon",
+    "image": "assets/img/recipes/jjajangmyeon.jpg",
+    "short_description": "Black bean sauce noodles. Korean-Chinese favorite.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "black bean paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pork",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Fry paste.",
+      "Add vegetables.",
+      "Make thick sauce.",
+      "Toss with noodles."
+    ],
+    "cooking_tips": [
+      "Rich black sauce.",
+      "Chopped vegetables.",
+      "Comfort food."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "noodles",
+      "chinese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 70
+    },
+    "nutrition_benefits": "Hearty noodles.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-gimbap-13",
+    "slug": "gimbap",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Gimbap",
+    "image": "assets/img/recipes/gimbap.jpg",
+    "short_description": "Korean seaweed rice rolls. Portable and nutritious.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "nori",
+        "amount": 6,
+        "unit": "sheets"
+      },
+      {
+        "name": "vegetables",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Season rice.",
+      "Prepare fillings.",
+      "Roll tightly.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Sesame oil key.",
+      "Roll tight.",
+      "Many filling options."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "rice",
+      "rolls"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 6,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Balanced portable meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-bingsu-14",
+    "slug": "bingsu",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Patbingsu",
+    "image": "assets/img/recipes/bingsu.jpg",
+    "short_description": "Shaved ice with red bean. Summer dessert.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shaved ice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "red bean",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "condensed milk",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Shave ice.",
+      "Add red beans.",
+      "Top with milk.",
+      "Add toppings."
+    ],
+    "cooking_tips": [
+      "Fine ice.",
+      "Sweet red beans.",
+      "Many variations."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "dessert",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Refreshing treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "kr-bibimbap-1",
+    "slug": "bibimbap",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Bibimbap",
+    "image": "assets/img/recipes/bibimbap.jpg",
+    "short_description": "Mixed rice bowl with vegetables and gochujang. Colorful and nutritious.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "vegetables",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook rice.",
+      "Prepare vegetables.",
+      "Fry eggs.",
+      "Arrange beautifully."
+    ],
+    "cooking_tips": [
+      "Mix before eating.",
+      "Gochujang essential.",
+      "Crispy rice bottom."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "rice",
+      "vegetables"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 16,
+      "fat_g": 14,
+      "carbs_g": 72
+    },
+    "nutrition_benefits": "Balanced and colorful.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "kr-bulgogi-2",
+    "slug": "bulgogi",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Bulgogi",
+    "image": "assets/img/recipes/bulgogi.jpg",
+    "short_description": "Marinated beef BBQ. Sweet and savory.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pear",
+        "amount": 0.5,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Slice beef thin.",
+      "Marinate with pear.",
+      "Grill quickly.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Pear tenderizes.",
+      "Thin slices.",
+      "High heat."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "beef",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "High protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-kimchi-3",
+    "slug": "kimchi-jjigae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Kimchi Jjigae",
+    "image": "assets/img/recipes/kimchi-jjigae.jpg",
+    "short_description": "Kimchi stew with pork. Spicy and comforting.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "kimchi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pork belly",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Saute pork.",
+      "Add kimchi.",
+      "Add water and tofu.",
+      "Simmer until done."
+    ],
+    "cooking_tips": [
+      "Use old kimchi.",
+      "Fermented is best.",
+      "Serve bubbling."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "stew",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 20,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Probiotics from kimchi.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-japchae-4",
+    "slug": "japchae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Japchae",
+    "image": "assets/img/recipes/japchae.jpg",
+    "short_description": "Glass noodles with vegetables. Festive side dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "sweet potato noodles",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "vegetables",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sesame oil",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook noodles.",
+      "Stir-fry vegetables.",
+      "Toss together.",
+      "Season with sesame."
+    ],
+    "cooking_tips": [
+      "Cook vegetables separately.",
+      "Chewy noodles.",
+      "Sweet-savory balance."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "noodles",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Glass noodles are filling.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "kr-samgyeopsal-5",
+    "slug": "samgyeopsal",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Samgyeopsal",
+    "image": "assets/img/recipes/samgyeopsal.jpg",
+    "short_description": "Grilled pork belly. Korean BBQ classic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork belly",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "lettuce",
+        "amount": 1,
+        "unit": "head"
+      },
+      {
+        "name": "garlic",
+        "amount": 10,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Slice pork thick.",
+      "Grill at table.",
+      "Wrap in lettuce.",
+      "Add ssamjang."
+    ],
+    "cooking_tips": [
+      "Thick slices.",
+      "Grill until crispy.",
+      "Wrap with garlic."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "pork",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 28,
+      "fat_g": 42,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Rich in protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-tteokbokki-6",
+    "slug": "tteokbokki",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Tteokbokki",
+    "image": "assets/img/recipes/tteokbokki.jpg",
+    "short_description": "Spicy rice cakes in gochujang sauce. Street food favorite.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice cakes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "gochujang",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fish cakes",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Boil rice cakes.",
+      "Make sauce.",
+      "Simmer together.",
+      "Add fish cakes."
+    ],
+    "cooking_tips": [
+      "Chewy texture.",
+      "Adjust spice level.",
+      "Popular snack."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "rice-cakes",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 8,
+      "fat_g": 4,
+      "carbs_g": 66
+    },
+    "nutrition_benefits": "Quick street food.",
+    "mealType": "Snack",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-sundubu-7",
+    "slug": "sundubu-jjigae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Sundubu Jjigae",
+    "image": "assets/img/recipes/sundubu-jjigae.jpg",
+    "short_description": "Soft tofu stew. Silky and spicy.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "soft tofu",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "seafood",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "gochugaru",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Saute garlic.",
+      "Add seafood.",
+      "Add tofu and broth.",
+      "Crack in egg."
+    ],
+    "cooking_tips": [
+      "Do not stir tofu.",
+      "Served bubbling.",
+      "Egg at end."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "tofu",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 18,
+      "fat_g": 12,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Protein from tofu.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-galbi-8",
+    "slug": "galbi",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Galbi",
+    "image": "assets/img/recipes/galbi.jpg",
+    "short_description": "Grilled short ribs. Sweet and succulent.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "short ribs",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "pear",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Score ribs.",
+      "Marinate overnight.",
+      "Grill until done.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Long marinade.",
+      "Caramelize edges.",
+      "Festive dish."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "beef",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from beef.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-pajeon-9",
+    "slug": "pajeon",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Pajeon",
+    "image": "assets/img/recipes/pajeon.jpg",
+    "short_description": "Scallion pancake. Crispy and savory.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "scallions",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "seafood",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make batter.",
+      "Add scallions.",
+      "Pan-fry until crispy.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Crispy edges.",
+      "Lots of scallions.",
+      "Rainy day food."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "pancake",
+      "seafood"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 12,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Quick and satisfying.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-doenjang-10",
+    "slug": "doenjang-jjigae",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Doenjang Jjigae",
+    "image": "assets/img/recipes/doenjang-jjigae.jpg",
+    "short_description": "Soybean paste stew. Earthy and comforting.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "doenjang",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "zucchini",
+        "amount": 1,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Make anchovy broth.",
+      "Add doenjang.",
+      "Add vegetables.",
+      "Simmer until done."
+    ],
+    "cooking_tips": [
+      "Use fermented paste.",
+      "Hearty vegetables.",
+      "Korean comfort food."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "stew",
+      "soybean"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 12,
+      "fat_g": 8,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Probiotics from fermentation.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "kr-dakgalbi-11",
+    "slug": "dakgalbi",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Dakgalbi",
+    "image": "assets/img/recipes/dakgalbi.jpg",
+    "short_description": "Spicy stir-fried chicken. Chuncheon specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "gochujang",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cabbage",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cut chicken.",
+      "Make spicy marinade.",
+      "Stir-fry with vegetables.",
+      "Add rice cakes."
+    ],
+    "cooking_tips": [
+      "Cook at table.",
+      "Very spicy.",
+      "Add cheese on top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "chicken",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 38,
+      "fat_g": 16,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-jjajangmyeon-12",
+    "slug": "jjajangmyeon",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Jjajangmyeon",
+    "image": "assets/img/recipes/jjajangmyeon.jpg",
+    "short_description": "Black bean sauce noodles. Korean-Chinese favorite.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "black bean paste",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pork",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Fry paste.",
+      "Add vegetables.",
+      "Make thick sauce.",
+      "Toss with noodles."
+    ],
+    "cooking_tips": [
+      "Rich black sauce.",
+      "Chopped vegetables.",
+      "Comfort food."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "noodles",
+      "chinese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 18,
+      "fat_g": 14,
+      "carbs_g": 70
+    },
+    "nutrition_benefits": "Hearty noodles.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-gimbap-13",
+    "slug": "gimbap",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Gimbap",
+    "image": "assets/img/recipes/gimbap.jpg",
+    "short_description": "Korean seaweed rice rolls. Portable and nutritious.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "nori",
+        "amount": 6,
+        "unit": "sheets"
+      },
+      {
+        "name": "vegetables",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Season rice.",
+      "Prepare fillings.",
+      "Roll tightly.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Sesame oil key.",
+      "Roll tight.",
+      "Many filling options."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "korean",
+      "rice",
+      "rolls"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 6,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Balanced portable meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "kr-bingsu-14",
+    "slug": "bingsu",
+    "country": "Korea",
+    "country_slug": "korea",
+    "name_en": "Patbingsu",
+    "image": "assets/img/recipes/bingsu.jpg",
+    "short_description": "Shaved ice with red bean. Summer dessert.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "shaved ice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "red bean",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "condensed milk",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Shave ice.",
+      "Add red beans.",
+      "Top with milk.",
+      "Add toppings."
+    ],
+    "cooking_tips": [
+      "Fine ice.",
+      "Sweet red beans.",
+      "Many variations."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "korean",
+      "dessert",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Refreshing treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   }
 ]

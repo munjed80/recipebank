@@ -323,5 +323,1545 @@
     "nutrition_benefits": "High protein from pork.",
     "mealType": "Dinner",
     "dietaryStyle": "Dairy Free"
+  },
+  {
+    "id": "cn-kung-1",
+    "slug": "kung-pao-chicken",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Kung Pao Chicken",
+    "image": "assets/img/recipes/kung-pao-chicken.jpg",
+    "short_description": "Sichuan stir-fry with peanuts and dried chilies. Spicy and savory.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "peanuts",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 10,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Stir-fry with chilies.",
+      "Add peanuts.",
+      "Add sauce."
+    ],
+    "cooking_tips": [
+      "Use Sichuan peppercorns.",
+      "Hot wok essential.",
+      "Balance numbing and spicy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "chicken",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from chicken and peanuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-mapo-2",
+    "slug": "mapo-tofu",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Mapo Tofu",
+    "image": "assets/img/recipes/mapo-tofu.jpg",
+    "short_description": "Silky tofu in spicy meat sauce. Sichuan classic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "silken tofu",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "doubanjiang",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown pork.",
+      "Add doubanjiang.",
+      "Add tofu gently.",
+      "Thicken with starch."
+    ],
+    "cooking_tips": [
+      "Do not break tofu.",
+      "Numbing heat key.",
+      "Garnish with scallion."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "tofu",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 20,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Plant protein from tofu.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-char-3",
+    "slug": "char-siu",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Char Siu",
+    "image": "assets/img/recipes/char-siu.jpg",
+    "short_description": "Cantonese BBQ pork. Sweet and caramelized.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "hoisin sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "honey",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate pork overnight.",
+      "Roast at high heat.",
+      "Glaze frequently.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Char the edges.",
+      "Sweet sticky glaze.",
+      "Great in rice or noodles."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "pork",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "High protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-jiaozi-4",
+    "slug": "jiaozi",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Jiaozi",
+    "image": "assets/img/recipes/jiaozi.jpg",
+    "short_description": "Chinese dumplings with pork and cabbage. Festive food.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 20,
+    "servings": 40,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground pork",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Prepare filling.",
+      "Wrap dumplings.",
+      "Boil or pan-fry."
+    ],
+    "cooking_tips": [
+      "Pleat edges nicely.",
+      "Do not overfill.",
+      "New Year essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "chinese",
+      "dumplings",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 35,
+      "protein_g": 2,
+      "fat_g": 1,
+      "carbs_g": 5
+    },
+    "nutrition_benefits": "Balanced snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-fried-5",
+    "slug": "fried-rice",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Chinese Fried Rice",
+    "image": "assets/img/recipes/fried-rice.jpg",
+    "short_description": "Quick stir-fried rice with eggs and vegetables. Classic comfort food.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "scallions",
+        "amount": 4,
+        "unit": "stalks"
+      }
+    ],
+    "steps": [
+      "Use day-old rice.",
+      "Scramble eggs.",
+      "Stir-fry rice.",
+      "Season with soy sauce."
+    ],
+    "cooking_tips": [
+      "High heat essential.",
+      "Rice must be cold.",
+      "Simple perfection."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "rice",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 12,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "cn-sweet-6",
+    "slug": "sweet-sour-pork",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Sweet and Sour Pork",
+    "image": "assets/img/recipes/sweet-sour-pork.jpg",
+    "short_description": "Crispy pork in tangy sauce. Cantonese classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork loin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pineapple",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bell pepper",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Batter and fry pork.",
+      "Make sauce.",
+      "Toss pork in sauce.",
+      "Add vegetables."
+    ],
+    "cooking_tips": [
+      "Double-fry for crispiness.",
+      "Balance sweet and sour.",
+      "Colorful vegetables."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "pork",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-hk-7",
+    "slug": "hong-kong-wonton",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Wonton Noodle Soup",
+    "image": "assets/img/recipes/hong-kong-wonton.jpg",
+    "short_description": "Shrimp wontons in clear broth. Hong Kong comfort food.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "wonton wrappers",
+        "amount": 40,
+        "unit": "pc"
+      },
+      {
+        "name": "shrimp",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "egg noodles",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make shrimp filling.",
+      "Wrap wontons.",
+      "Cook in broth.",
+      "Serve with noodles."
+    ],
+    "cooking_tips": [
+      "Thin wrappers.",
+      "Clear broth.",
+      "Al dente noodles."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "soup",
+      "shrimp"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 10,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Protein from shrimp.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-peking-8",
+    "slug": "peking-duck",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Peking Duck",
+    "image": "assets/img/recipes/peking-duck.jpg",
+    "short_description": "Crispy skinned roast duck. Served with pancakes.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "whole duck",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "flour pancakes",
+        "amount": 20,
+        "unit": "pc"
+      },
+      {
+        "name": "hoisin sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Air-dry duck.",
+      "Roast until crispy.",
+      "Slice thin.",
+      "Serve with pancakes."
+    ],
+    "cooking_tips": [
+      "Skin must be crispy.",
+      "Glaze helps color.",
+      "Ceremonial dish."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "chinese",
+      "duck",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Protein from duck.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-dan-9",
+    "slug": "dan-dan-noodles",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Dan Dan Noodles",
+    "image": "assets/img/recipes/dan-dan-noodles.jpg",
+    "short_description": "Sichuan noodles with spicy pork sauce. Street food classic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sesame paste",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook pork with spices.",
+      "Make sesame sauce.",
+      "Toss noodles.",
+      "Top with pork."
+    ],
+    "cooking_tips": [
+      "Numbing and spicy.",
+      "Rich sesame sauce.",
+      "Garnish with peanuts."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "noodles",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 22,
+      "fat_g": 24,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Satisfying noodles.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-spring-10",
+    "slug": "spring-rolls",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Spring Rolls",
+    "image": "assets/img/recipes/spring-rolls.jpg",
+    "short_description": "Crispy fried rolls with vegetable filling. Party favorite.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "spring roll wrappers",
+        "amount": 20,
+        "unit": "pc"
+      },
+      {
+        "name": "cabbage",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook filling.",
+      "Roll tightly.",
+      "Deep fry.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Seal edges well.",
+      "Roll tight.",
+      "Fry until golden."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "fried",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Crispy snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "cn-hot-11",
+    "slug": "hot-pot",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Chinese Hot Pot",
+    "image": "assets/img/recipes/hot-pot.jpg",
+    "short_description": "Simmering broth for cooking meats and vegetables. Communal dining.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef slices",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "vegetables",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "broth",
+        "amount": 2,
+        "unit": "liters"
+      }
+    ],
+    "steps": [
+      "Prepare broth.",
+      "Slice ingredients thinly.",
+      "Cook at table.",
+      "Dip in sauce."
+    ],
+    "cooking_tips": [
+      "Thin slices cook fast.",
+      "Variety is key.",
+      "Make dipping sauces."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "hot-pot",
+      "communal"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Customizable and fun.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-congee-12",
+    "slug": "congee",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Congee",
+    "image": "assets/img/recipes/congee.jpg",
+    "short_description": "Rice porridge with various toppings. Comfort breakfast.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "chicken",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "ginger",
+        "amount": 2,
+        "unit": "inches"
+      }
+    ],
+    "steps": [
+      "Simmer rice in broth.",
+      "Stir often.",
+      "Add toppings.",
+      "Season with soy."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Silky texture.",
+      "Many topping options."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "porridge",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 16,
+      "fat_g": 6,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Gentle on stomach.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-beef-13",
+    "slug": "beef-broccoli",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Beef and Broccoli",
+    "image": "assets/img/recipes/beef-broccoli.jpg",
+    "short_description": "Tender beef with crisp broccoli in savory sauce. American-Chinese classic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "broccoli",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "oyster sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Slice beef thin.",
+      "Blanch broccoli.",
+      "Stir-fry beef.",
+      "Add sauce and broccoli."
+    ],
+    "cooking_tips": [
+      "Velvet the beef.",
+      "High heat.",
+      "Quick cooking."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "beef",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 32,
+      "fat_g": 16,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein and vegetables.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-szechuan-14",
+    "slug": "szechuan-chicken",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Szechuan Chicken",
+    "image": "assets/img/recipes/szechuan-chicken.jpg",
+    "short_description": "Crispy chicken in fiery sauce. Numbing and spicy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 15,
+        "unit": "pc"
+      },
+      {
+        "name": "Sichuan pepper",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Fry chicken pieces.",
+      "Toast peppers.",
+      "Make sauce.",
+      "Toss together."
+    ],
+    "cooking_tips": [
+      "Lots of chilies.",
+      "Numbing sensation.",
+      "Addictively spicy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "chicken",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-kung-1",
+    "slug": "kung-pao-chicken",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Kung Pao Chicken",
+    "image": "assets/img/recipes/kung-pao-chicken.jpg",
+    "short_description": "Sichuan stir-fry with peanuts and dried chilies. Spicy and savory.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "peanuts",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 10,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Marinate chicken.",
+      "Stir-fry with chilies.",
+      "Add peanuts.",
+      "Add sauce."
+    ],
+    "cooking_tips": [
+      "Use Sichuan peppercorns.",
+      "Hot wok essential.",
+      "Balance numbing and spicy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "chicken",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from chicken and peanuts.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-mapo-2",
+    "slug": "mapo-tofu",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Mapo Tofu",
+    "image": "assets/img/recipes/mapo-tofu.jpg",
+    "short_description": "Silky tofu in spicy meat sauce. Sichuan classic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "silken tofu",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "doubanjiang",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Brown pork.",
+      "Add doubanjiang.",
+      "Add tofu gently.",
+      "Thicken with starch."
+    ],
+    "cooking_tips": [
+      "Do not break tofu.",
+      "Numbing heat key.",
+      "Garnish with scallion."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "tofu",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 20,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Plant protein from tofu.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-char-3",
+    "slug": "char-siu",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Char Siu",
+    "image": "assets/img/recipes/char-siu.jpg",
+    "short_description": "Cantonese BBQ pork. Sweet and caramelized.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "pork shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "hoisin sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "honey",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate pork overnight.",
+      "Roast at high heat.",
+      "Glaze frequently.",
+      "Slice and serve."
+    ],
+    "cooking_tips": [
+      "Char the edges.",
+      "Sweet sticky glaze.",
+      "Great in rice or noodles."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "pork",
+      "bbq"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "High protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-jiaozi-4",
+    "slug": "jiaozi",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Jiaozi",
+    "image": "assets/img/recipes/jiaozi.jpg",
+    "short_description": "Chinese dumplings with pork and cabbage. Festive food.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 20,
+    "servings": 40,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground pork",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Prepare filling.",
+      "Wrap dumplings.",
+      "Boil or pan-fry."
+    ],
+    "cooking_tips": [
+      "Pleat edges nicely.",
+      "Do not overfill.",
+      "New Year essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "chinese",
+      "dumplings",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 35,
+      "protein_g": 2,
+      "fat_g": 1,
+      "carbs_g": 5
+    },
+    "nutrition_benefits": "Balanced snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-fried-5",
+    "slug": "fried-rice",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Chinese Fried Rice",
+    "image": "assets/img/recipes/fried-rice.jpg",
+    "short_description": "Quick stir-fried rice with eggs and vegetables. Classic comfort food.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 4,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "large"
+      },
+      {
+        "name": "scallions",
+        "amount": 4,
+        "unit": "stalks"
+      }
+    ],
+    "steps": [
+      "Use day-old rice.",
+      "Scramble eggs.",
+      "Stir-fry rice.",
+      "Season with soy sauce."
+    ],
+    "cooking_tips": [
+      "High heat essential.",
+      "Rice must be cold.",
+      "Simple perfection."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "rice",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 12,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Quick energy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "cn-sweet-6",
+    "slug": "sweet-sour-pork",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Sweet and Sour Pork",
+    "image": "assets/img/recipes/sweet-sour-pork.jpg",
+    "short_description": "Crispy pork in tangy sauce. Cantonese classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "pork loin",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "pineapple",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bell pepper",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Batter and fry pork.",
+      "Make sauce.",
+      "Toss pork in sauce.",
+      "Add vegetables."
+    ],
+    "cooking_tips": [
+      "Double-fry for crispiness.",
+      "Balance sweet and sour.",
+      "Colorful vegetables."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "pork",
+      "fried"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-hk-7",
+    "slug": "hong-kong-wonton",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Wonton Noodle Soup",
+    "image": "assets/img/recipes/hong-kong-wonton.jpg",
+    "short_description": "Shrimp wontons in clear broth. Hong Kong comfort food.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "wonton wrappers",
+        "amount": 40,
+        "unit": "pc"
+      },
+      {
+        "name": "shrimp",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "egg noodles",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make shrimp filling.",
+      "Wrap wontons.",
+      "Cook in broth.",
+      "Serve with noodles."
+    ],
+    "cooking_tips": [
+      "Thin wrappers.",
+      "Clear broth.",
+      "Al dente noodles."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "soup",
+      "shrimp"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 10,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Protein from shrimp.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-peking-8",
+    "slug": "peking-duck",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Peking Duck",
+    "image": "assets/img/recipes/peking-duck.jpg",
+    "short_description": "Crispy skinned roast duck. Served with pancakes.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "whole duck",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "flour pancakes",
+        "amount": 20,
+        "unit": "pc"
+      },
+      {
+        "name": "hoisin sauce",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Air-dry duck.",
+      "Roast until crispy.",
+      "Slice thin.",
+      "Serve with pancakes."
+    ],
+    "cooking_tips": [
+      "Skin must be crispy.",
+      "Glaze helps color.",
+      "Ceremonial dish."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "chinese",
+      "duck",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Protein from duck.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-dan-9",
+    "slug": "dan-dan-noodles",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Dan Dan Noodles",
+    "image": "assets/img/recipes/dan-dan-noodles.jpg",
+    "short_description": "Sichuan noodles with spicy pork sauce. Street food classic.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sesame paste",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook pork with spices.",
+      "Make sesame sauce.",
+      "Toss noodles.",
+      "Top with pork."
+    ],
+    "cooking_tips": [
+      "Numbing and spicy.",
+      "Rich sesame sauce.",
+      "Garnish with peanuts."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "noodles",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 22,
+      "fat_g": 24,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Satisfying noodles.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-spring-10",
+    "slug": "spring-rolls",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Spring Rolls",
+    "image": "assets/img/recipes/spring-rolls.jpg",
+    "short_description": "Crispy fried rolls with vegetable filling. Party favorite.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "spring roll wrappers",
+        "amount": 20,
+        "unit": "pc"
+      },
+      {
+        "name": "cabbage",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook filling.",
+      "Roll tightly.",
+      "Deep fry.",
+      "Serve with sauce."
+    ],
+    "cooking_tips": [
+      "Seal edges well.",
+      "Roll tight.",
+      "Fry until golden."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "fried",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Crispy snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "cn-hot-11",
+    "slug": "hot-pot",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Chinese Hot Pot",
+    "image": "assets/img/recipes/hot-pot.jpg",
+    "short_description": "Simmering broth for cooking meats and vegetables. Communal dining.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef slices",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "vegetables",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "broth",
+        "amount": 2,
+        "unit": "liters"
+      }
+    ],
+    "steps": [
+      "Prepare broth.",
+      "Slice ingredients thinly.",
+      "Cook at table.",
+      "Dip in sauce."
+    ],
+    "cooking_tips": [
+      "Thin slices cook fast.",
+      "Variety is key.",
+      "Make dipping sauces."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "hot-pot",
+      "communal"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 16,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Customizable and fun.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-congee-12",
+    "slug": "congee",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Congee",
+    "image": "assets/img/recipes/congee.jpg",
+    "short_description": "Rice porridge with various toppings. Comfort breakfast.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "chicken",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "ginger",
+        "amount": 2,
+        "unit": "inches"
+      }
+    ],
+    "steps": [
+      "Simmer rice in broth.",
+      "Stir often.",
+      "Add toppings.",
+      "Season with soy."
+    ],
+    "cooking_tips": [
+      "Low and slow.",
+      "Silky texture.",
+      "Many topping options."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "porridge",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 16,
+      "fat_g": 6,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Gentle on stomach.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-beef-13",
+    "slug": "beef-broccoli",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Beef and Broccoli",
+    "image": "assets/img/recipes/beef-broccoli.jpg",
+    "short_description": "Tender beef with crisp broccoli in savory sauce. American-Chinese classic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "broccoli",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "oyster sauce",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Slice beef thin.",
+      "Blanch broccoli.",
+      "Stir-fry beef.",
+      "Add sauce and broccoli."
+    ],
+    "cooking_tips": [
+      "Velvet the beef.",
+      "High heat.",
+      "Quick cooking."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "chinese",
+      "beef",
+      "stir-fry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 32,
+      "fat_g": 16,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein and vegetables.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "cn-szechuan-14",
+    "slug": "szechuan-chicken",
+    "country": "China",
+    "country_slug": "china",
+    "name_en": "Szechuan Chicken",
+    "image": "assets/img/recipes/szechuan-chicken.jpg",
+    "short_description": "Crispy chicken in fiery sauce. Numbing and spicy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "dried chilies",
+        "amount": 15,
+        "unit": "pc"
+      },
+      {
+        "name": "Sichuan pepper",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Fry chicken pieces.",
+      "Toast peppers.",
+      "Make sauce.",
+      "Toss together."
+    ],
+    "cooking_tips": [
+      "Lots of chilies.",
+      "Numbing sensation.",
+      "Addictively spicy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "chinese",
+      "chicken",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Protein from chicken.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
   }
 ]

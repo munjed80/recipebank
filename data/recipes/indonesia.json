@@ -272,5 +272,2369 @@
     "nutrition_benefits": "High protein, anti-inflammatory turmeric.",
     "mealType": "Dinner",
     "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "id-mie-goreng",
+    "slug": "mie-goreng",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Mie Goreng",
+    "image": "assets/img/recipes/mie-goreng.jpg",
+    "short_description": "Indonesian fried noodles with sweet soy sauce, vegetables, and choice of protein. A beloved street food classic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "egg noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chicken breast",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "shrimp paste",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook noodles, drain and toss with oil.",
+      "Stir-fry chicken until cooked.",
+      "Push aside, scramble eggs.",
+      "Add garlic and vegetables.",
+      "Add noodles and kecap manis.",
+      "Toss until well combined.",
+      "Serve with fried shallots."
+    ],
+    "cooking_tips": [
+      "High heat for best results.",
+      "Kecap manis is key to flavor.",
+      "Don't overcrowd the wok."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "noodles",
+      "stir-fry",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 16,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Balanced meal with protein and carbs. Quick and satisfying.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-bakso",
+    "slug": "bakso",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Bakso",
+    "image": "assets/img/recipes/bakso.jpg",
+    "short_description": "Indonesian meatball soup with springy beef balls in clear broth with noodles and vegetables.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tapioca starch",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "beef broth",
+        "amount": 2,
+        "unit": "liters"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bok choy",
+        "amount": 4,
+        "unit": "heads"
+      },
+      {
+        "name": "fried shallots",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "celery",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Blend beef with garlic, tapioca, ice.",
+      "Process until very smooth paste.",
+      "Form into balls, chill.",
+      "Boil meatballs until they float.",
+      "Prepare broth with spices.",
+      "Cook noodles and vegetables.",
+      "Serve with meatballs in broth."
+    ],
+    "cooking_tips": [
+      "Ice keeps meat cold for bouncy texture.",
+      "Process thoroughly.",
+      "Meatballs should be springy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "soup",
+      "meatballs",
+      "noodles"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 14,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Protein-rich. Comforting and warming.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-soto-ayam",
+    "slug": "soto-ayam",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Soto Ayam",
+    "image": "assets/img/recipes/soto-ayam.jpg",
+    "short_description": "Yellow Indonesian chicken soup with turmeric, herbs, and various toppings. A complete meal in a bowl.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "turmeric",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 2,
+        "unit": "inches"
+      },
+      {
+        "name": "rice vermicelli",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "lime",
+        "amount": 2,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Simmer chicken with aromatics.",
+      "Remove chicken, shred meat.",
+      "Strain and season broth.",
+      "Cook eggs and noodles.",
+      "Arrange toppings in bowls.",
+      "Ladle hot broth over.",
+      "Serve with sambal and lime."
+    ],
+    "cooking_tips": [
+      "Yellow color from turmeric.",
+      "Many regional variations exist.",
+      "Toppings are essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "soup",
+      "chicken",
+      "turmeric"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 32,
+      "fat_g": 12,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Lean protein from chicken. Anti-inflammatory turmeric.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-gado-gado",
+    "slug": "gado-gado",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Gado-Gado",
+    "image": "assets/img/recipes/gado-gado.jpg",
+    "short_description": "Indonesian salad with blanched vegetables, tofu, and eggs in peanut sauce. Nutritious and satisfying.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cabbage",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "green beans",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "peanut butter",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tamarind",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Blanch vegetables until crisp-tender.",
+      "Hard-boil eggs.",
+      "Fry tofu until golden.",
+      "Make sauce with peanut butter, kecap manis, tamarind.",
+      "Arrange vegetables on plate.",
+      "Top with tofu and eggs.",
+      "Drizzle with peanut sauce."
+    ],
+    "cooking_tips": [
+      "Vegetables should be crisp.",
+      "Sauce can be adjusted to taste.",
+      "Serve immediately."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "salad",
+      "peanut",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 24,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Plant protein from tofu and peanuts. Fiber from vegetables.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "id-ayam-penyet",
+    "slug": "ayam-penyet",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Ayam Penyet",
+    "image": "assets/img/recipes/ayam-penyet.jpg",
+    "short_description": "Smashed fried chicken served with sambal and vegetables. Originating from East Java.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken pieces",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "coriander",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "red chilies",
+        "amount": 10,
+        "unit": "pc"
+      },
+      {
+        "name": "shrimp paste",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "tomato",
+        "amount": 2,
+        "unit": "medium"
+      }
+    ],
+    "steps": [
+      "Marinate chicken with spices.",
+      "Simmer chicken until tender.",
+      "Deep fry until crispy.",
+      "Smash chicken with pestle.",
+      "Make sambal with chilies and shrimp paste.",
+      "Serve with vegetables and rice."
+    ],
+    "cooking_tips": [
+      "Smashing creates crispy texture.",
+      "Sambal should be very spicy.",
+      "Best eaten fresh."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "chicken",
+      "fried",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "High protein from chicken. Spices aid metabolism.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-sate-kambing",
+    "slug": "sate-kambing",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Sate Kambing",
+    "image": "assets/img/recipes/sate-kambing.jpg",
+    "short_description": "Goat satay with sweet soy marinade. A popular street food often served at celebrations.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "goat meat",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "shallots",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "oil",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cut meat into cubes.",
+      "Make marinade with all ingredients.",
+      "Marinate meat 2-4 hours.",
+      "Thread onto bamboo skewers.",
+      "Grill over charcoal.",
+      "Baste with marinade.",
+      "Serve with kecap manis and shallots."
+    ],
+    "cooking_tips": [
+      "Use tender cuts of goat.",
+      "Charcoal adds best flavor.",
+      "Don't overcook."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "grilled",
+      "satay",
+      "goat"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Lean protein from goat. Iron and zinc.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "id-perkedel",
+    "slug": "perkedel",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Perkedel",
+    "image": "assets/img/recipes/perkedel.jpg",
+    "short_description": "Indonesian potato fritters with meat and spices. Crispy outside, soft inside.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "shallots",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Boil and mash potatoes.",
+      "Saute beef until cooked.",
+      "Mix potato, beef, spices.",
+      "Form into patties.",
+      "Dip in beaten egg.",
+      "Deep fry until golden.",
+      "Drain and serve."
+    ],
+    "cooking_tips": [
+      "Mash potatoes well.",
+      "Mixture should be smooth.",
+      "Fry at medium heat."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "potato",
+      "fritters",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Carbs for energy. Protein from beef and eggs.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-rawon",
+    "slug": "rawon",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Rawon",
+    "image": "assets/img/recipes/rawon.jpg",
+    "short_description": "Black beef soup from East Java colored by keluak nuts. Deeply savory and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "keluak nuts",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 2,
+        "unit": "inches"
+      },
+      {
+        "name": "shallots",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Open keluak nuts, scrape out meat.",
+      "Grind nuts with shallots, garlic.",
+      "Cut beef into chunks.",
+      "Simmer beef until tender.",
+      "Add spice paste and aromatics.",
+      "Cook until flavors meld.",
+      "Serve with bean sprouts and rice."
+    ],
+    "cooking_tips": [
+      "Keluak must be processed carefully.",
+      "The soup should be dark.",
+      "Balance the bitter notes."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "indonesian",
+      "soup",
+      "beef",
+      "regional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 350,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High in protein. Unique nutritional profile from keluak.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "id-martabak-manis",
+    "slug": "martabak-manis",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Martabak Manis",
+    "image": "assets/img/recipes/martabak-manis.jpg",
+    "short_description": "Sweet thick pancake with various toppings like chocolate, cheese, and peanuts. Popular street dessert.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "milk",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "chocolate sprinkles",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "condensed milk",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix flour, sugar, yeast, milk.",
+      "Add eggs, rest until bubbly.",
+      "Pour batter in special pan.",
+      "Cook covered until done.",
+      "Top with butter while hot.",
+      "Add toppings of choice.",
+      "Fold and cut."
+    ],
+    "cooking_tips": [
+      "Batter should be very bubbly.",
+      "Many holes = good texture.",
+      "Be generous with toppings."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "dessert",
+      "pancake",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 16,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Indulgent treat. Energy from carbs and fats.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "id-klepon",
+    "slug": "klepon",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Klepon",
+    "image": "assets/img/recipes/klepon.jpg",
+    "short_description": "Green rice flour balls filled with palm sugar, coated in coconut. A classic Indonesian sweet.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "glutinous rice flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pandan extract",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "shredded coconut",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix flour with pandan and water.",
+      "Knead to smooth dough.",
+      "Chop palm sugar finely.",
+      "Form balls, insert sugar center.",
+      "Boil until they float.",
+      "Roll in salted coconut.",
+      "Serve at room temperature."
+    ],
+    "cooking_tips": [
+      "Don't overfill with sugar.",
+      "Coconut should be fresh.",
+      "Best eaten same day."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "dessert",
+      "rice-flour",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 1,
+      "fat_g": 2,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Natural sugars from palm sugar. Gluten-free.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "id-serabi",
+    "slug": "serabi",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Serabi",
+    "image": "assets/img/recipes/serabi.jpg",
+    "short_description": "Indonesian coconut milk pancakes, can be sweet or savory. Soft and slightly chewy texture.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "pandan leaf",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix flour with coconut milk.",
+      "Add pandan and rest.",
+      "Heat special serabi pan.",
+      "Pour batter, cover to cook.",
+      "Top with palm sugar.",
+      "Serve warm."
+    ],
+    "cooking_tips": [
+      "Use traditional clay pan if available.",
+      "Batter should be thin.",
+      "Many topping variations exist."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "pancake",
+      "coconut",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Energy from rice and coconut. Gluten-free.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "id-es-cendol",
+    "slug": "es-cendol",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Es Cendol",
+    "image": "assets/img/recipes/es-cendol.jpg",
+    "short_description": "Iced dessert with green rice flour jelly, coconut milk, and palm sugar syrup. Refreshing and sweet.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "tapioca starch",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "pandan extract",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "ice",
+        "amount": 4,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Mix flours with pandan and water.",
+      "Cook until thick paste forms.",
+      "Press through cendol mold into ice water.",
+      "Make palm sugar syrup.",
+      "Combine coconut milk with salt.",
+      "Layer cendol, coconut milk, syrup, ice.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Cendol should be chewy.",
+      "Use thick coconut milk.",
+      "Balance sweet and creamy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "dessert",
+      "drink",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 3,
+      "fat_g": 12,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Refreshing treat. Natural sweetness from palm sugar.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "id-opor-ayam",
+    "slug": "opor-ayam",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Opor Ayam",
+    "image": "assets/img/recipes/opor-ayam.jpg",
+    "short_description": "Chicken in white coconut curry, traditional for Lebaran celebration. Mild and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken pieces",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 2,
+        "unit": "inches"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "shallots",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "coriander",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make spice paste.",
+      "Saute paste with aromatics.",
+      "Add chicken, brown lightly.",
+      "Add coconut milk.",
+      "Simmer until chicken is tender.",
+      "Cook until oil separates.",
+      "Serve with ketupat."
+    ],
+    "cooking_tips": [
+      "Don't boil coconut milk.",
+      "Stir occasionally.",
+      "Traditional for Eid celebration."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "chicken",
+      "coconut",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 36,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Protein from chicken. Rich and festive dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-empal",
+    "slug": "empal",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Empal",
+    "image": "assets/img/recipes/empal.jpg",
+    "short_description": "Sweet fried beef from Java, braised then fried until crispy. Intensely flavorful.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "coriander",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "tamarind",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cut beef into flat pieces.",
+      "Simmer with spices and palm sugar.",
+      "Cook until liquid absorbed.",
+      "Pound meat to flatten.",
+      "Deep fry until very crispy.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Pounding tenderizes the meat.",
+      "Should be crispy outside.",
+      "Sweet-savory balance."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "beef",
+      "fried",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 30,
+      "fat_g": 24,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein-rich. The double cooking makes it tender.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "id-lodeh",
+    "slug": "lodeh",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Lodeh",
+    "image": "assets/img/recipes/lodeh.jpg",
+    "short_description": "Vegetable stew in coconut milk from Central Java. Creamy and mildly spiced.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chayote",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "long beans",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "galangal",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "shallots",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cut vegetables into pieces.",
+      "Make spice paste.",
+      "Simmer aromatics in coconut milk.",
+      "Add vegetables by cooking time.",
+      "Add tofu last.",
+      "Cook until vegetables are tender.",
+      "Season and serve."
+    ],
+    "cooking_tips": [
+      "Add harder vegetables first.",
+      "Don't overcook.",
+      "Can add tempeh."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "vegetables",
+      "coconut",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Nutritious vegetables. Healthy fats from coconut.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "id-mie-goreng",
+    "slug": "mie-goreng",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Mie Goreng",
+    "image": "assets/img/recipes/mie-goreng.jpg",
+    "short_description": "Indonesian fried noodles with sweet soy sauce, vegetables, and choice of protein. A beloved street food classic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "egg noodles",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chicken breast",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "cabbage",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "shrimp paste",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cook noodles, drain and toss with oil.",
+      "Stir-fry chicken until cooked.",
+      "Push aside, scramble eggs.",
+      "Add garlic and vegetables.",
+      "Add noodles and kecap manis.",
+      "Toss until well combined.",
+      "Serve with fried shallots."
+    ],
+    "cooking_tips": [
+      "High heat for best results.",
+      "Kecap manis is key to flavor.",
+      "Don't overcrowd the wok."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "noodles",
+      "stir-fry",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 22,
+      "fat_g": 16,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Balanced meal with protein and carbs. Quick and satisfying.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-bakso",
+    "slug": "bakso",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Bakso",
+    "image": "assets/img/recipes/bakso.jpg",
+    "short_description": "Indonesian meatball soup with springy beef balls in clear broth with noodles and vegetables.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tapioca starch",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "beef broth",
+        "amount": 2,
+        "unit": "liters"
+      },
+      {
+        "name": "rice noodles",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bok choy",
+        "amount": 4,
+        "unit": "heads"
+      },
+      {
+        "name": "fried shallots",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "celery",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Blend beef with garlic, tapioca, ice.",
+      "Process until very smooth paste.",
+      "Form into balls, chill.",
+      "Boil meatballs until they float.",
+      "Prepare broth with spices.",
+      "Cook noodles and vegetables.",
+      "Serve with meatballs in broth."
+    ],
+    "cooking_tips": [
+      "Ice keeps meat cold for bouncy texture.",
+      "Process thoroughly.",
+      "Meatballs should be springy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "soup",
+      "meatballs",
+      "noodles"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 14,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Protein-rich. Comforting and warming.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-soto-ayam",
+    "slug": "soto-ayam",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Soto Ayam",
+    "image": "assets/img/recipes/soto-ayam.jpg",
+    "short_description": "Yellow Indonesian chicken soup with turmeric, herbs, and various toppings. A complete meal in a bowl.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "turmeric",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 2,
+        "unit": "inches"
+      },
+      {
+        "name": "rice vermicelli",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "lime",
+        "amount": 2,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Simmer chicken with aromatics.",
+      "Remove chicken, shred meat.",
+      "Strain and season broth.",
+      "Cook eggs and noodles.",
+      "Arrange toppings in bowls.",
+      "Ladle hot broth over.",
+      "Serve with sambal and lime."
+    ],
+    "cooking_tips": [
+      "Yellow color from turmeric.",
+      "Many regional variations exist.",
+      "Toppings are essential."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "soup",
+      "chicken",
+      "turmeric"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 32,
+      "fat_g": 12,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Lean protein from chicken. Anti-inflammatory turmeric.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-gado-gado",
+    "slug": "gado-gado",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Gado-Gado",
+    "image": "assets/img/recipes/gado-gado.jpg",
+    "short_description": "Indonesian salad with blanched vegetables, tofu, and eggs in peanut sauce. Nutritious and satisfying.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "cabbage",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "green beans",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "peanut butter",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "tamarind",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Blanch vegetables until crisp-tender.",
+      "Hard-boil eggs.",
+      "Fry tofu until golden.",
+      "Make sauce with peanut butter, kecap manis, tamarind.",
+      "Arrange vegetables on plate.",
+      "Top with tofu and eggs.",
+      "Drizzle with peanut sauce."
+    ],
+    "cooking_tips": [
+      "Vegetables should be crisp.",
+      "Sauce can be adjusted to taste.",
+      "Serve immediately."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "salad",
+      "peanut",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 24,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Plant protein from tofu and peanuts. Fiber from vegetables.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "id-ayam-penyet",
+    "slug": "ayam-penyet",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Ayam Penyet",
+    "image": "assets/img/recipes/ayam-penyet.jpg",
+    "short_description": "Smashed fried chicken served with sambal and vegetables. Originating from East Java.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chicken pieces",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "coriander",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "red chilies",
+        "amount": 10,
+        "unit": "pc"
+      },
+      {
+        "name": "shrimp paste",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "tomato",
+        "amount": 2,
+        "unit": "medium"
+      }
+    ],
+    "steps": [
+      "Marinate chicken with spices.",
+      "Simmer chicken until tender.",
+      "Deep fry until crispy.",
+      "Smash chicken with pestle.",
+      "Make sambal with chilies and shrimp paste.",
+      "Serve with vegetables and rice."
+    ],
+    "cooking_tips": [
+      "Smashing creates crispy texture.",
+      "Sambal should be very spicy.",
+      "Best eaten fresh."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "chicken",
+      "fried",
+      "spicy"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 32,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "High protein from chicken. Spices aid metabolism.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-sate-kambing",
+    "slug": "sate-kambing",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Sate Kambing",
+    "image": "assets/img/recipes/sate-kambing.jpg",
+    "short_description": "Goat satay with sweet soy marinade. A popular street food often served at celebrations.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "goat meat",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "kecap manis",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "shallots",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "oil",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cut meat into cubes.",
+      "Make marinade with all ingredients.",
+      "Marinate meat 2-4 hours.",
+      "Thread onto bamboo skewers.",
+      "Grill over charcoal.",
+      "Baste with marinade.",
+      "Serve with kecap manis and shallots."
+    ],
+    "cooking_tips": [
+      "Use tender cuts of goat.",
+      "Charcoal adds best flavor.",
+      "Don't overcook."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "grilled",
+      "satay",
+      "goat"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Lean protein from goat. Iron and zinc.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "id-perkedel",
+    "slug": "perkedel",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Perkedel",
+    "image": "assets/img/recipes/perkedel.jpg",
+    "short_description": "Indonesian potato fritters with meat and spices. Crispy outside, soft inside.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ground beef",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "shallots",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "nutmeg",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Boil and mash potatoes.",
+      "Saute beef until cooked.",
+      "Mix potato, beef, spices.",
+      "Form into patties.",
+      "Dip in beaten egg.",
+      "Deep fry until golden.",
+      "Drain and serve."
+    ],
+    "cooking_tips": [
+      "Mash potatoes well.",
+      "Mixture should be smooth.",
+      "Fry at medium heat."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "potato",
+      "fritters",
+      "appetizer"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Carbs for energy. Protein from beef and eggs.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-rawon",
+    "slug": "rawon",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Rawon",
+    "image": "assets/img/recipes/rawon.jpg",
+    "short_description": "Black beef soup from East Java colored by keluak nuts. Deeply savory and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "keluak nuts",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 2,
+        "unit": "inches"
+      },
+      {
+        "name": "shallots",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": 2,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Open keluak nuts, scrape out meat.",
+      "Grind nuts with shallots, garlic.",
+      "Cut beef into chunks.",
+      "Simmer beef until tender.",
+      "Add spice paste and aromatics.",
+      "Cook until flavors meld.",
+      "Serve with bean sprouts and rice."
+    ],
+    "cooking_tips": [
+      "Keluak must be processed carefully.",
+      "The soup should be dark.",
+      "Balance the bitter notes."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "indonesian",
+      "soup",
+      "beef",
+      "regional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 350,
+      "protein_g": 35,
+      "fat_g": 18,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High in protein. Unique nutritional profile from keluak.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "id-martabak-manis",
+    "slug": "martabak-manis",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Martabak Manis",
+    "image": "assets/img/recipes/martabak-manis.jpg",
+    "short_description": "Sweet thick pancake with various toppings like chocolate, cheese, and peanuts. Popular street dessert.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "milk",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "chocolate sprinkles",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "condensed milk",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix flour, sugar, yeast, milk.",
+      "Add eggs, rest until bubbly.",
+      "Pour batter in special pan.",
+      "Cook covered until done.",
+      "Top with butter while hot.",
+      "Add toppings of choice.",
+      "Fold and cut."
+    ],
+    "cooking_tips": [
+      "Batter should be very bubbly.",
+      "Many holes = good texture.",
+      "Be generous with toppings."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "dessert",
+      "pancake",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 16,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Indulgent treat. Energy from carbs and fats.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "id-klepon",
+    "slug": "klepon",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Klepon",
+    "image": "assets/img/recipes/klepon.jpg",
+    "short_description": "Green rice flour balls filled with palm sugar, coated in coconut. A classic Indonesian sweet.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "glutinous rice flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pandan extract",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "shredded coconut",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix flour with pandan and water.",
+      "Knead to smooth dough.",
+      "Chop palm sugar finely.",
+      "Form balls, insert sugar center.",
+      "Boil until they float.",
+      "Roll in salted coconut.",
+      "Serve at room temperature."
+    ],
+    "cooking_tips": [
+      "Don't overfill with sugar.",
+      "Coconut should be fresh.",
+      "Best eaten same day."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "dessert",
+      "rice-flour",
+      "traditional"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 1,
+      "fat_g": 2,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Natural sugars from palm sugar. Gluten-free.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "id-serabi",
+    "slug": "serabi",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Serabi",
+    "image": "assets/img/recipes/serabi.jpg",
+    "short_description": "Indonesian coconut milk pancakes, can be sweet or savory. Soft and slightly chewy texture.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "pandan leaf",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix flour with coconut milk.",
+      "Add pandan and rest.",
+      "Heat special serabi pan.",
+      "Pour batter, cover to cook.",
+      "Top with palm sugar.",
+      "Serve warm."
+    ],
+    "cooking_tips": [
+      "Use traditional clay pan if available.",
+      "Batter should be thin.",
+      "Many topping variations exist."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "pancake",
+      "coconut",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Energy from rice and coconut. Gluten-free.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "id-es-cendol",
+    "slug": "es-cendol",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Es Cendol",
+    "image": "assets/img/recipes/es-cendol.jpg",
+    "short_description": "Iced dessert with green rice flour jelly, coconut milk, and palm sugar syrup. Refreshing and sweet.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "rice flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "tapioca starch",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "pandan extract",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "ice",
+        "amount": 4,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Mix flours with pandan and water.",
+      "Cook until thick paste forms.",
+      "Press through cendol mold into ice water.",
+      "Make palm sugar syrup.",
+      "Combine coconut milk with salt.",
+      "Layer cendol, coconut milk, syrup, ice.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Cendol should be chewy.",
+      "Use thick coconut milk.",
+      "Balance sweet and creamy."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "dessert",
+      "drink",
+      "cold"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 3,
+      "fat_g": 12,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Refreshing treat. Natural sweetness from palm sugar.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "id-opor-ayam",
+    "slug": "opor-ayam",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Opor Ayam",
+    "image": "assets/img/recipes/opor-ayam.jpg",
+    "short_description": "Chicken in white coconut curry, traditional for Lebaran celebration. Mild and aromatic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken pieces",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "lemongrass",
+        "amount": 2,
+        "unit": "stalks"
+      },
+      {
+        "name": "galangal",
+        "amount": 2,
+        "unit": "inches"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "shallots",
+        "amount": 8,
+        "unit": "pc"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "coriander",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Make spice paste.",
+      "Saute paste with aromatics.",
+      "Add chicken, brown lightly.",
+      "Add coconut milk.",
+      "Simmer until chicken is tender.",
+      "Cook until oil separates.",
+      "Serve with ketupat."
+    ],
+    "cooking_tips": [
+      "Don't boil coconut milk.",
+      "Stir occasionally.",
+      "Traditional for Eid celebration."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "chicken",
+      "coconut",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 35,
+      "fat_g": 36,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Protein from chicken. Rich and festive dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "id-empal",
+    "slug": "empal",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Empal",
+    "image": "assets/img/recipes/empal.jpg",
+    "short_description": "Sweet fried beef from Java, braised then fried until crispy. Intensely flavorful.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "beef",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "palm sugar",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "coriander",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "tamarind",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Cut beef into flat pieces.",
+      "Simmer with spices and palm sugar.",
+      "Cook until liquid absorbed.",
+      "Pound meat to flatten.",
+      "Deep fry until very crispy.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Pounding tenderizes the meat.",
+      "Should be crispy outside.",
+      "Sweet-savory balance."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "indonesian",
+      "beef",
+      "fried",
+      "sweet"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 30,
+      "fat_g": 24,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein-rich. The double cooking makes it tender.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "id-lodeh",
+    "slug": "lodeh",
+    "country": "Indonesia",
+    "country_slug": "indonesia",
+    "name_en": "Lodeh",
+    "image": "assets/img/recipes/lodeh.jpg",
+    "short_description": "Vegetable stew in coconut milk from Central Java. Creamy and mildly spiced.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chayote",
+        "amount": 2,
+        "unit": "medium"
+      },
+      {
+        "name": "long beans",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tofu",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "coconut milk",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "galangal",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "shallots",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cut vegetables into pieces.",
+      "Make spice paste.",
+      "Simmer aromatics in coconut milk.",
+      "Add vegetables by cooking time.",
+      "Add tofu last.",
+      "Cook until vegetables are tender.",
+      "Season and serve."
+    ],
+    "cooking_tips": [
+      "Add harder vegetables first.",
+      "Don't overcook.",
+      "Can add tempeh."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "indonesian",
+      "vegetables",
+      "coconut",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Nutritious vegetables. Healthy fats from coconut.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
   }
 ]

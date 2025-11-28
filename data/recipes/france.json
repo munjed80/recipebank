@@ -331,5 +331,1545 @@
     "nutrition_benefits": "Protein from eggs and bacon.",
     "mealType": "Breakfast",
     "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-coq-1",
+    "slug": "coq-au-vin",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Coq au Vin",
+    "image": "assets/img/recipes/coq-au-vin.jpg",
+    "short_description": "Chicken braised in red wine. Classic French comfort.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "red wine",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "mushrooms",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Brown chicken.",
+      "Saute aromatics.",
+      "Add wine.",
+      "Braise until tender."
+    ],
+    "cooking_tips": [
+      "Use good wine.",
+      "Pearl onions traditional.",
+      "Long braise."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "chicken",
+      "braised"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Rich in protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-boeuf-2",
+    "slug": "boeuf-bourguignon",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Boeuf Bourguignon",
+    "image": "assets/img/recipes/boeuf-bourguignon.jpg",
+    "short_description": "Beef stew in red wine. Burgundy classic.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "red wine",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "pearl onions",
+        "amount": 20,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Brown beef.",
+      "Cook bacon.",
+      "Add wine and broth.",
+      "Braise 3 hours."
+    ],
+    "cooking_tips": [
+      "Cut large chunks.",
+      "Low and slow.",
+      "Better next day."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "beef",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 45,
+      "fat_g": 26,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Hearty and rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-ratatouille-3",
+    "slug": "ratatouille",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Ratatouille",
+    "image": "assets/img/recipes/ratatouille.jpg",
+    "short_description": "Provencal vegetable stew. Colorful and healthy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Slice vegetables.",
+      "Layer in dish.",
+      "Drizzle with oil.",
+      "Bake until tender."
+    ],
+    "cooking_tips": [
+      "Thin slices.",
+      "Herbs de Provence.",
+      "Serve hot or cold."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "vegetables",
+      "provencal"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 12,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Healthy vegetables.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "fr-quiche-4",
+    "slug": "quiche-lorraine",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Quiche Lorraine",
+    "image": "assets/img/recipes/quiche-lorraine.jpg",
+    "short_description": "Bacon and egg tart. Brunch classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bacon",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make pastry.",
+      "Cook bacon.",
+      "Make custard.",
+      "Bake until set."
+    ],
+    "cooking_tips": [
+      "Blind bake crust.",
+      "Rich custard.",
+      "Serve warm."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "eggs",
+      "pastry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 28,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Rich and satisfying.",
+    "mealType": "Brunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-soupe-5",
+    "slug": "french-onion-soup",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "French Onion Soup",
+    "image": "assets/img/recipes/french-onion-soup.jpg",
+    "short_description": "Caramelized onion soup with cheese. Comforting classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "onions",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "beef broth",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "gruyere",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Caramelize onions slowly.",
+      "Add broth.",
+      "Ladle into bowls.",
+      "Top with cheese and broil."
+    ],
+    "cooking_tips": [
+      "Dark caramelization.",
+      "Good broth essential.",
+      "Crusty bread."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "soup",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 18,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Comforting warmth.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-cassoulet-6",
+    "slug": "cassoulet",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Cassoulet",
+    "image": "assets/img/recipes/cassoulet.jpg",
+    "short_description": "Bean and meat casserole. Southwestern specialty.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 240,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "white beans",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sausage",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "duck confit",
+        "amount": 4,
+        "unit": "legs"
+      }
+    ],
+    "steps": [
+      "Cook beans.",
+      "Layer with meats.",
+      "Top with breadcrumbs.",
+      "Bake slowly."
+    ],
+    "cooking_tips": [
+      "Break crust 7 times.",
+      "Very long cooking.",
+      "Rich and hearty."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "beans",
+      "casserole"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 42,
+      "fat_g": 32,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Very hearty.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-nicoise-7",
+    "slug": "salade-nicoise",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Salade Nicoise",
+    "image": "assets/img/recipes/salade-nicoise.jpg",
+    "short_description": "Composed salad from Nice. Fresh and colorful.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tuna",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "green beans",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook eggs and beans.",
+      "Arrange all ingredients.",
+      "Make vinaigrette.",
+      "Drizzle and serve."
+    ],
+    "cooking_tips": [
+      "Quality tuna.",
+      "Compose beautifully.",
+      "Fresh ingredients."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "french",
+      "salad",
+      "tuna"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 24,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein salad.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-crepes-8",
+    "slug": "crepes",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "French Crepes",
+    "image": "assets/img/recipes/crepes.jpg",
+    "short_description": "Thin pancakes with various fillings. Sweet or savory.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make thin batter.",
+      "Rest 30 minutes.",
+      "Cook thin crepes.",
+      "Fill and fold."
+    ],
+    "cooking_tips": [
+      "Very thin.",
+      "Rest batter.",
+      "Many fillings."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "crepes",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 4,
+      "fat_g": 4,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Versatile base.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-bouillabaisse-9",
+    "slug": "bouillabaisse",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Bouillabaisse",
+    "image": "assets/img/recipes/bouillabaisse.jpg",
+    "short_description": "Provencal fish stew. Marseille specialty.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "mixed fish",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fennel",
+        "amount": 1,
+        "unit": "bulb"
+      }
+    ],
+    "steps": [
+      "Make fish broth.",
+      "Add saffron.",
+      "Add fish last.",
+      "Serve with rouille."
+    ],
+    "cooking_tips": [
+      "Variety of fish.",
+      "Saffron essential.",
+      "Serve with bread."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "fish",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 42,
+      "fat_g": 14,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Omega-3 rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-souffle-10",
+    "slug": "chocolate-souffle",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Chocolate Souffle",
+    "image": "assets/img/recipes/chocolate-souffle.jpg",
+    "short_description": "Light and airy chocolate dessert. Impressive and delicate.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chocolate",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Melt chocolate.",
+      "Whip egg whites.",
+      "Fold together.",
+      "Bake immediately."
+    ],
+    "cooking_tips": [
+      "Do not open oven.",
+      "Serve immediately.",
+      "Dramatic rise."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "dessert",
+      "chocolate"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 16,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Decadent treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-tarte-11",
+    "slug": "tarte-tatin",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Tarte Tatin",
+    "image": "assets/img/recipes/tarte-tatin.jpg",
+    "short_description": "Upside-down apple tart. Caramelized perfection.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "apples",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "puff pastry",
+        "amount": 1,
+        "unit": "sheet"
+      }
+    ],
+    "steps": [
+      "Caramelize apples.",
+      "Top with pastry.",
+      "Bake until golden.",
+      "Flip carefully."
+    ],
+    "cooking_tips": [
+      "Dark caramel.",
+      "Flip while hot.",
+      "Serve with cream."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "dessert",
+      "apple"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 3,
+      "fat_g": 16,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Classic dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-duck-12",
+    "slug": "duck-confit",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Duck Confit",
+    "image": "assets/img/recipes/duck-confit.jpg",
+    "short_description": "Duck legs slow-cooked in fat. Crispy and tender.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 180,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "duck legs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "duck fat",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "thyme",
+        "amount": 4,
+        "unit": "sprigs"
+      }
+    ],
+    "steps": [
+      "Salt duck overnight.",
+      "Submerge in fat.",
+      "Cook very slowly.",
+      "Crisp under broiler."
+    ],
+    "cooking_tips": [
+      "Low temperature.",
+      "Long cooking.",
+      "Crisp the skin."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "duck",
+      "confit"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 36,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "Rich and tender.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-croissant-13",
+    "slug": "croissant",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Croissant",
+    "image": "assets/img/recipes/croissant.jpg",
+    "short_description": "Flaky butter pastry. French breakfast icon.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 25,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 7,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Fold in butter.",
+      "Roll and fold.",
+      "Shape and bake."
+    ],
+    "cooking_tips": [
+      "Keep butter cold.",
+      "Many folds.",
+      "Golden and flaky."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "pastry",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Buttery perfection.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-gratin-14",
+    "slug": "gratin-dauphinois",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Gratin Dauphinois",
+    "image": "assets/img/recipes/gratin-dauphinois.jpg",
+    "short_description": "Creamy potato gratin. Rich and comforting.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "cream",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Slice potatoes thin.",
+      "Layer with cream.",
+      "Season each layer.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Thin slices.",
+      "No cheese traditional.",
+      "Golden top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "potato",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 6,
+      "fat_g": 22,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Creamy comfort.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-coq-1",
+    "slug": "coq-au-vin",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Coq au Vin",
+    "image": "assets/img/recipes/coq-au-vin.jpg",
+    "short_description": "Chicken braised in red wine. Classic French comfort.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 120,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chicken",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "red wine",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "mushrooms",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Brown chicken.",
+      "Saute aromatics.",
+      "Add wine.",
+      "Braise until tender."
+    ],
+    "cooking_tips": [
+      "Use good wine.",
+      "Pearl onions traditional.",
+      "Long braise."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "chicken",
+      "braised"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 22,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Rich in protein.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-boeuf-2",
+    "slug": "boeuf-bourguignon",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Boeuf Bourguignon",
+    "image": "assets/img/recipes/boeuf-bourguignon.jpg",
+    "short_description": "Beef stew in red wine. Burgundy classic.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 180,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "red wine",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "pearl onions",
+        "amount": 20,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Brown beef.",
+      "Cook bacon.",
+      "Add wine and broth.",
+      "Braise 3 hours."
+    ],
+    "cooking_tips": [
+      "Cut large chunks.",
+      "Low and slow.",
+      "Better next day."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "beef",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 45,
+      "fat_g": 26,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Hearty and rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-ratatouille-3",
+    "slug": "ratatouille",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Ratatouille",
+    "image": "assets/img/recipes/ratatouille.jpg",
+    "short_description": "Provencal vegetable stew. Colorful and healthy.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "eggplant",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "zucchini",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Slice vegetables.",
+      "Layer in dish.",
+      "Drizzle with oil.",
+      "Bake until tender."
+    ],
+    "cooking_tips": [
+      "Thin slices.",
+      "Herbs de Provence.",
+      "Serve hot or cold."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "vegetables",
+      "provencal"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 12,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Healthy vegetables.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "fr-quiche-4",
+    "slug": "quiche-lorraine",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Quiche Lorraine",
+    "image": "assets/img/recipes/quiche-lorraine.jpg",
+    "short_description": "Bacon and egg tart. Brunch classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "bacon",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "cream",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make pastry.",
+      "Cook bacon.",
+      "Make custard.",
+      "Bake until set."
+    ],
+    "cooking_tips": [
+      "Blind bake crust.",
+      "Rich custard.",
+      "Serve warm."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "eggs",
+      "pastry"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 28,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Rich and satisfying.",
+    "mealType": "Brunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-soupe-5",
+    "slug": "french-onion-soup",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "French Onion Soup",
+    "image": "assets/img/recipes/french-onion-soup.jpg",
+    "short_description": "Caramelized onion soup with cheese. Comforting classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "onions",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "beef broth",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "gruyere",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Caramelize onions slowly.",
+      "Add broth.",
+      "Ladle into bowls.",
+      "Top with cheese and broil."
+    ],
+    "cooking_tips": [
+      "Dark caramelization.",
+      "Good broth essential.",
+      "Crusty bread."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "soup",
+      "cheese"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 18,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Comforting warmth.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-cassoulet-6",
+    "slug": "cassoulet",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Cassoulet",
+    "image": "assets/img/recipes/cassoulet.jpg",
+    "short_description": "Bean and meat casserole. Southwestern specialty.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 240,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "white beans",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sausage",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "duck confit",
+        "amount": 4,
+        "unit": "legs"
+      }
+    ],
+    "steps": [
+      "Cook beans.",
+      "Layer with meats.",
+      "Top with breadcrumbs.",
+      "Bake slowly."
+    ],
+    "cooking_tips": [
+      "Break crust 7 times.",
+      "Very long cooking.",
+      "Rich and hearty."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "beans",
+      "casserole"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 620,
+      "protein_g": 42,
+      "fat_g": 32,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Very hearty.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-nicoise-7",
+    "slug": "salade-nicoise",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Salade Nicoise",
+    "image": "assets/img/recipes/salade-nicoise.jpg",
+    "short_description": "Composed salad from Nice. Fresh and colorful.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "tuna",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "green beans",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Cook eggs and beans.",
+      "Arrange all ingredients.",
+      "Make vinaigrette.",
+      "Drizzle and serve."
+    ],
+    "cooking_tips": [
+      "Quality tuna.",
+      "Compose beautifully.",
+      "Fresh ingredients."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "french",
+      "salad",
+      "tuna"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 28,
+      "fat_g": 24,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "High protein salad.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-crepes-8",
+    "slug": "crepes",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "French Crepes",
+    "image": "assets/img/recipes/crepes.jpg",
+    "short_description": "Thin pancakes with various fillings. Sweet or savory.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Make thin batter.",
+      "Rest 30 minutes.",
+      "Cook thin crepes.",
+      "Fill and fold."
+    ],
+    "cooking_tips": [
+      "Very thin.",
+      "Rest batter.",
+      "Many fillings."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "crepes",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 4,
+      "fat_g": 4,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Versatile base.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-bouillabaisse-9",
+    "slug": "bouillabaisse",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Bouillabaisse",
+    "image": "assets/img/recipes/bouillabaisse.jpg",
+    "short_description": "Provencal fish stew. Marseille specialty.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "mixed fish",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "saffron",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "fennel",
+        "amount": 1,
+        "unit": "bulb"
+      }
+    ],
+    "steps": [
+      "Make fish broth.",
+      "Add saffron.",
+      "Add fish last.",
+      "Serve with rouille."
+    ],
+    "cooking_tips": [
+      "Variety of fish.",
+      "Saffron essential.",
+      "Serve with bread."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "fish",
+      "stew"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 42,
+      "fat_g": 14,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Omega-3 rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-souffle-10",
+    "slug": "chocolate-souffle",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Chocolate Souffle",
+    "image": "assets/img/recipes/chocolate-souffle.jpg",
+    "short_description": "Light and airy chocolate dessert. Impressive and delicate.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "chocolate",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Melt chocolate.",
+      "Whip egg whites.",
+      "Fold together.",
+      "Bake immediately."
+    ],
+    "cooking_tips": [
+      "Do not open oven.",
+      "Serve immediately.",
+      "Dramatic rise."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "dessert",
+      "chocolate"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 16,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Decadent treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-tarte-11",
+    "slug": "tarte-tatin",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Tarte Tatin",
+    "image": "assets/img/recipes/tarte-tatin.jpg",
+    "short_description": "Upside-down apple tart. Caramelized perfection.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "apples",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "puff pastry",
+        "amount": 1,
+        "unit": "sheet"
+      }
+    ],
+    "steps": [
+      "Caramelize apples.",
+      "Top with pastry.",
+      "Bake until golden.",
+      "Flip carefully."
+    ],
+    "cooking_tips": [
+      "Dark caramel.",
+      "Flip while hot.",
+      "Serve with cream."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "dessert",
+      "apple"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 3,
+      "fat_g": 16,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Classic dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-duck-12",
+    "slug": "duck-confit",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Duck Confit",
+    "image": "assets/img/recipes/duck-confit.jpg",
+    "short_description": "Duck legs slow-cooked in fat. Crispy and tender.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 180,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "duck legs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "duck fat",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "thyme",
+        "amount": 4,
+        "unit": "sprigs"
+      }
+    ],
+    "steps": [
+      "Salt duck overnight.",
+      "Submerge in fat.",
+      "Cook very slowly.",
+      "Crisp under broiler."
+    ],
+    "cooking_tips": [
+      "Low temperature.",
+      "Long cooking.",
+      "Crisp the skin."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "duck",
+      "confit"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 38,
+      "fat_g": 36,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "Rich and tender.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "fr-croissant-13",
+    "slug": "croissant",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Croissant",
+    "image": "assets/img/recipes/croissant.jpg",
+    "short_description": "Flaky butter pastry. French breakfast icon.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 25,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yeast",
+        "amount": 7,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make dough.",
+      "Fold in butter.",
+      "Roll and fold.",
+      "Shape and bake."
+    ],
+    "cooking_tips": [
+      "Keep butter cold.",
+      "Many folds.",
+      "Golden and flaky."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "french",
+      "pastry",
+      "breakfast"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 5,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Buttery perfection.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "fr-gratin-14",
+    "slug": "gratin-dauphinois",
+    "country": "France",
+    "country_slug": "france",
+    "name_en": "Gratin Dauphinois",
+    "image": "assets/img/recipes/gratin-dauphinois.jpg",
+    "short_description": "Creamy potato gratin. Rich and comforting.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      {
+        "name": "cream",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Slice potatoes thin.",
+      "Layer with cream.",
+      "Season each layer.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Thin slices.",
+      "No cheese traditional.",
+      "Golden top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "french",
+      "potato",
+      "side"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 6,
+      "fat_g": 22,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Creamy comfort.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
   }
 ]

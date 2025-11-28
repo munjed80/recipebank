@@ -11,16 +11,56 @@
     "cooking_time_minutes": 90,
     "servings": 6,
     "ingredients": [
-      {"name": "basmati rice", "amount": 3, "unit": "cups"},
-      {"name": "lamb shoulder (bone-in)", "amount": 1, "unit": "kg"},
-      {"name": "carrots", "amount": 4, "unit": "large"},
-      {"name": "raisins", "amount": 0.5, "unit": "cup"},
-      {"name": "onions", "amount": 2, "unit": "large"},
-      {"name": "vegetable oil", "amount": 0.5, "unit": "cup"},
-      {"name": "cumin seeds", "amount": 1, "unit": "tbsp"},
-      {"name": "cardamom pods", "amount": 6, "unit": "pc"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "sugar", "amount": 2, "unit": "tbsp"}
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "lamb shoulder (bone-in)",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "carrots",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "raisins",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom pods",
+        "amount": 6,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Soak rice in salted water for 2 hours, then rinse thoroughly.",
@@ -42,7 +82,15 @@
       "The crusty bottom (tah-dig) is considered the best part."
     ],
     "difficulty": "medium",
-    "tags": ["afghan", "rice", "lamb", "pilaf", "dinner", "festive", "national-dish"],
+    "tags": [
+      "afghan",
+      "rice",
+      "lamb",
+      "pilaf",
+      "dinner",
+      "festive",
+      "national-dish"
+    ],
     "nutrition": {
       "per_serving_kcal": 680,
       "protein_g": 35,
@@ -65,17 +113,61 @@
     "cooking_time_minutes": 45,
     "servings": 6,
     "ingredients": [
-      {"name": "all-purpose flour", "amount": 3, "unit": "cups"},
-      {"name": "ground beef", "amount": 500, "unit": "g"},
-      {"name": "onions", "amount": 4, "unit": "large"},
-      {"name": "split yellow lentils", "amount": 0.5, "unit": "cup"},
-      {"name": "tomato paste", "amount": 3, "unit": "tbsp"},
-      {"name": "Greek yogurt", "amount": 2, "unit": "cups"},
-      {"name": "garlic", "amount": 4, "unit": "cloves"},
-      {"name": "coriander powder", "amount": 1, "unit": "tbsp"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "dried mint", "amount": 1, "unit": "tbsp"},
-      {"name": "vegetable oil", "amount": 4, "unit": "tbsp"}
+      {
+        "name": "all-purpose flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground beef",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 4,
+        "unit": "large"
+      },
+      {
+        "name": "split yellow lentils",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Greek yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "coriander powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried mint",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Make dough with flour, water, and salt; knead until smooth and rest 30 minutes.",
@@ -95,7 +187,14 @@
       "The sauce should be thick enough to coat the dumplings."
     ],
     "difficulty": "hard",
-    "tags": ["afghan", "dumplings", "beef", "steamed", "dinner", "festive"],
+    "tags": [
+      "afghan",
+      "dumplings",
+      "beef",
+      "steamed",
+      "dinner",
+      "festive"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 26,
@@ -118,16 +217,56 @@
     "cooking_time_minutes": 30,
     "servings": 8,
     "ingredients": [
-      {"name": "all-purpose flour", "amount": 3, "unit": "cups"},
-      {"name": "potatoes", "amount": 500, "unit": "g"},
-      {"name": "leeks", "amount": 2, "unit": "large"},
-      {"name": "green onions", "amount": 1, "unit": "bunch"},
-      {"name": "fresh cilantro", "amount": 1, "unit": "bunch"},
-      {"name": "cumin", "amount": 1, "unit": "tsp"},
-      {"name": "coriander powder", "amount": 1, "unit": "tsp"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "vegetable oil", "amount": 0.5, "unit": "cup"},
-      {"name": "chili flakes", "amount": 0.5, "unit": "tsp"}
+      {
+        "name": "all-purpose flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "potatoes",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "leeks",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "green onions",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "chili flakes",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Make soft dough with flour, water, and salt; rest for 30 minutes.",
@@ -147,7 +286,14 @@
       "Serve immediately for best crispy texture."
     ],
     "difficulty": "easy",
-    "tags": ["afghan", "flatbread", "vegetarian", "appetizer", "street-food", "potato"],
+    "tags": [
+      "afghan",
+      "flatbread",
+      "vegetarian",
+      "appetizer",
+      "street-food",
+      "potato"
+    ],
     "nutrition": {
       "per_serving_kcal": 280,
       "protein_g": 6,
@@ -170,16 +316,56 @@
     "cooking_time_minutes": 30,
     "servings": 6,
     "ingredients": [
-      {"name": "all-purpose flour", "amount": 2, "unit": "cups"},
-      {"name": "leeks", "amount": 6, "unit": "large"},
-      {"name": "ground beef", "amount": 300, "unit": "g"},
-      {"name": "Greek yogurt", "amount": 2, "unit": "cups"},
-      {"name": "garlic", "amount": 4, "unit": "cloves"},
-      {"name": "tomato paste", "amount": 2, "unit": "tbsp"},
-      {"name": "dried mint", "amount": 2, "unit": "tbsp"},
-      {"name": "coriander powder", "amount": 1, "unit": "tbsp"},
-      {"name": "salt", "amount": 2, "unit": "tsp"},
-      {"name": "vegetable oil", "amount": 3, "unit": "tbsp"}
+      {
+        "name": "all-purpose flour",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "leeks",
+        "amount": 6,
+        "unit": "large"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "coriander powder",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "tbsp"
+      }
     ],
     "steps": [
       "Make smooth dough with flour, water, and salt; rest covered for 30 minutes.",
@@ -199,7 +385,13 @@
       "The meat sauce should be chunky, not too saucy."
     ],
     "difficulty": "medium",
-    "tags": ["afghan", "dumplings", "leeks", "boiled", "dinner"],
+    "tags": [
+      "afghan",
+      "dumplings",
+      "leeks",
+      "boiled",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 380,
       "protein_g": 18,
@@ -222,14 +414,46 @@
     "cooking_time_minutes": 25,
     "servings": 6,
     "ingredients": [
-      {"name": "whole milk", "amount": 1, "unit": "liter"},
-      {"name": "cornstarch", "amount": 0.5, "unit": "cup"},
-      {"name": "sugar", "amount": 0.75, "unit": "cup"},
-      {"name": "rose water", "amount": 2, "unit": "tbsp"},
-      {"name": "cardamom powder", "amount": 1, "unit": "tsp"},
-      {"name": "pistachios (crushed)", "amount": 50, "unit": "g"},
-      {"name": "almonds (slivered)", "amount": 50, "unit": "g"},
-      {"name": "ground cinnamon", "amount": 0.5, "unit": "tsp"}
+      {
+        "name": "whole milk",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "cornstarch",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": 0.75,
+        "unit": "cup"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "pistachios (crushed)",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "almonds (slivered)",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "ground cinnamon",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Dissolve cornstarch in 1 cup of cold milk until smooth.",
@@ -249,7 +473,14 @@
       "Adjust sugar to taste - some prefer it less sweet."
     ],
     "difficulty": "easy",
-    "tags": ["afghan", "dessert", "pudding", "milk", "rose-water", "vegetarian"],
+    "tags": [
+      "afghan",
+      "dessert",
+      "pudding",
+      "milk",
+      "rose-water",
+      "vegetarian"
+    ],
     "nutrition": {
       "per_serving_kcal": 280,
       "protein_g": 8,
@@ -259,5 +490,2549 @@
     "nutrition_benefits": "Firni provides calcium and protein from milk for bone health. Pistachios and almonds add healthy fats, vitamin E, and minerals. Cardamom aids digestion and has antibacterial properties.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-qorma-lawand",
+    "slug": "qorma-lawand",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Qorma Lawand",
+    "image": "assets/img/recipes/qorma-lawand.jpg",
+    "short_description": "A tangy Afghan lamb stew made with yogurt and turmeric, creating a distinctive sour-savory profile. This comfort food dish showcases the Afghan love for yogurt-based sauces.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 750,
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut lamb into 2-inch cubes and season with salt.",
+      "Heat oil in a heavy pot and brown lamb on all sides.",
+      "Add sliced onions and cook until golden.",
+      "Add garlic and turmeric, stir for 1 minute.",
+      "Reduce heat and slowly stir in yogurt.",
+      "Cover and simmer for 1.5 hours until lamb is tender.",
+      "Adjust seasoning and serve with rice."
+    ],
+    "cooking_tips": [
+      "Add yogurt slowly to prevent curdling.",
+      "Low heat is essential for a smooth sauce.",
+      "The longer it simmers, the more tender the meat."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "lamb",
+      "yogurt",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High in protein from lamb and probiotics from yogurt. Turmeric provides anti-inflammatory benefits.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-shola-goshti",
+    "slug": "shola-goshti",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Shola Goshti",
+    "image": "assets/img/recipes/shola-goshti.jpg",
+    "short_description": "A hearty Afghan rice porridge with tender meat chunks, spiced with cumin and coriander. This warming dish is perfect for cold nights and celebrations.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "short-grain rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak chickpeas overnight, then cook until tender.",
+      "Cut beef into chunks and brown in oil.",
+      "Add onions and cook until softened.",
+      "Add garlic, cumin, and coriander.",
+      "Cover with water and simmer for 1 hour.",
+      "Add rice and chickpeas, cook until rice is very soft.",
+      "Stir frequently until porridge consistency is achieved.",
+      "Serve hot with crispy onions on top."
+    ],
+    "cooking_tips": [
+      "The dish should be creamy but not soupy.",
+      "Use fatty beef cuts for better flavor.",
+      "Top with fried onions for extra crunch."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "beef",
+      "rice",
+      "porridge",
+      "dinner",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Provides complete protein and fiber from chickpeas. Complex carbs from rice offer sustained energy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-qabili-chalau",
+    "slug": "qabili-chalau",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Qabili Chalau",
+    "image": "assets/img/recipes/qabili-chalau.jpg",
+    "short_description": "Simple white Afghan rice cooked to fluffy perfection with butter and cumin. This foundational dish accompanies most Afghan main courses.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "amount": 6,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Soak rice in salted water for 30 minutes.",
+      "Bring water to a boil with salt.",
+      "Add rice and cook until al dente, about 7 minutes.",
+      "Drain rice and return to pot.",
+      "Add butter and cumin seeds.",
+      "Cover tightly and cook on low for 30 minutes.",
+      "Fluff with fork and serve."
+    ],
+    "cooking_tips": [
+      "Soaking rice prevents breaking during cooking.",
+      "Low heat creates the perfect tahdig (crispy bottom).",
+      "Use aged basmati for best results."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "rice",
+      "side-dish",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Complex carbohydrates for energy. Cumin aids digestion.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-do-pyaza",
+    "slug": "do-pyaza",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Do Pyaza",
+    "image": "assets/img/recipes/do-pyaza.jpg",
+    "short_description": "An Afghan lamb stew featuring double the onions - some cooked into the sauce and some added at the end for texture. The name literally means 'two onions'.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 6,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Slice 4 onions thinly; quarter remaining 2 onions.",
+      "Brown lamb in oil, then set aside.",
+      "Cook sliced onions until deeply golden.",
+      "Add garlic, ginger, and spices.",
+      "Add chopped tomatoes and cook down.",
+      "Return lamb, add water, and simmer 1 hour.",
+      "Add quartered onions in last 15 minutes.",
+      "Garnish with cilantro and serve."
+    ],
+    "cooking_tips": [
+      "The quartered onions should stay slightly firm.",
+      "Deep caramelization of first batch of onions is key.",
+      "Add more water if sauce gets too thick."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "lamb",
+      "onions",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 15
+    },
+    "nutrition_benefits": "Rich in quercetin from onions, supporting heart health. Lamb provides iron and B12.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-maushawa",
+    "slug": "maushawa",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Maushawa",
+    "image": "assets/img/recipes/maushawa.jpg",
+    "short_description": "A traditional Afghan bean and pasta soup topped with yogurt and meat sauce. This protein-rich soup is often served during Ramadan to break the fast.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "kidney beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "small pasta",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "dried mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak beans and chickpeas overnight.",
+      "Cook beans until tender, about 1 hour.",
+      "Add pasta and cook until soft.",
+      "Brown ground beef with onions and tomato paste.",
+      "Mix yogurt with garlic and salt.",
+      "Ladle soup into bowls.",
+      "Top with meat sauce and yogurt.",
+      "Sprinkle with dried mint."
+    ],
+    "cooking_tips": [
+      "The soup should be thick and hearty.",
+      "Traditional versions use mung beans as well.",
+      "Can substitute any small pasta shape."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "soup",
+      "beans",
+      "ramadan",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 12,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "High in fiber and plant protein from beans. Yogurt adds calcium and probiotics.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-sabzi-chalau",
+    "slug": "sabzi-chalau",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Sabzi Chalau",
+    "image": "assets/img/recipes/sabzi-chalau.jpg",
+    "short_description": "Afghan spinach rice featuring tender basmati layered with garlicky spinach and aromatic spices. A nutritious and flavorful vegetarian main dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 50,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "fresh spinach",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "dill",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak rice for 30 minutes, then parboil until al dente.",
+      "Chop spinach and wilt in a pan.",
+      "Saute onions until golden, add garlic.",
+      "Add spinach, dill, and turmeric.",
+      "Layer rice and spinach mixture in pot.",
+      "Cover and cook on low for 30 minutes.",
+      "Mix gently before serving."
+    ],
+    "cooking_tips": [
+      "Squeeze excess water from spinach.",
+      "Fresh dill makes a big difference.",
+      "Serve with yogurt on the side."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "rice",
+      "spinach",
+      "vegetarian",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 7,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Spinach provides iron, vitamin K, and folate. A nutrient-dense vegetarian option.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-qorma-sabzi",
+    "slug": "qorma-sabzi",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Qorma Sabzi",
+    "image": "assets/img/recipes/qorma-sabzi.jpg",
+    "short_description": "Afghan green herb stew made with a medley of fresh herbs, spinach, and tender lamb. The bright green color and fresh flavor make it a spring favorite.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "fresh spinach",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "dill",
+        "amount": 0.5,
+        "unit": "bunch"
+      },
+      {
+        "name": "leeks",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb pieces in oil.",
+      "Add sliced onions and cook until soft.",
+      "Finely chop all greens and herbs.",
+      "Add greens to pot and stir well.",
+      "Add garlic, salt, and pepper.",
+      "Add water to cover, simmer for 1.5 hours.",
+      "The sauce should be thick and green.",
+      "Serve hot over rice."
+    ],
+    "cooking_tips": [
+      "Use a variety of green herbs for complexity.",
+      "The stew should be intensely green.",
+      "Cook until oil separates on top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "lamb",
+      "herbs",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 30,
+      "fat_g": 24,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Loaded with vitamins A, C, and K from fresh greens. Iron from both lamb and spinach.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-sambosa-afghan",
+    "slug": "afghan-sambosa",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Afghan Sambosa",
+    "image": "assets/img/recipes/afghan-sambosa.jpg",
+    "short_description": "Crispy fried pastries filled with spiced ground beef and onions. These triangular pockets are a beloved snack and appetizer throughout Afghanistan.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Make dough with flour, oil, and water; rest 30 minutes.",
+      "Cook beef with onions and spices until dry.",
+      "Add cilantro and let cool.",
+      "Roll dough thin and cut into strips.",
+      "Fold into triangles, filling each with meat.",
+      "Seal edges with water.",
+      "Deep fry until golden brown.",
+      "Drain and serve with chutney."
+    ],
+    "cooking_tips": [
+      "The filling must be dry or the pastry will be soggy.",
+      "Fry at medium heat for even cooking.",
+      "Can be baked for a healthier version."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "appetizer",
+      "fried",
+      "beef",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 145,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from beef. Best enjoyed in moderation due to frying.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "af-qoroot",
+    "slug": "qoroot",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Qoroot",
+    "image": "assets/img/recipes/qoroot.jpg",
+    "short_description": "Traditional Afghan dried yogurt balls reconstituted into a tangy sauce. This preserved dairy product adds intense flavor to many Afghan dishes.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "dried qoroot",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried mint",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Break qoroot into small pieces.",
+      "Soak in warm water for 30 minutes.",
+      "Blend until smooth.",
+      "Strain if desired for smoother texture.",
+      "Mince garlic and add to sauce.",
+      "Season with salt and mint.",
+      "Use as topping for rice or dumplings."
+    ],
+    "cooking_tips": [
+      "Qoroot can be very sour - adjust to taste.",
+      "Add more water for thinner consistency.",
+      "Store-bought kashk can substitute."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "sauce",
+      "dairy",
+      "condiment"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Probiotics from fermented dairy. Calcium and protein in concentrated form.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-sheer-yakh",
+    "slug": "sheer-yakh",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Sheer Yakh",
+    "image": "assets/img/recipes/sheer-yakh.jpg",
+    "short_description": "Traditional Afghan ice cream made with salep and rose water, creating a stretchy, chewy texture unlike any other frozen dessert. Topped with pistachios.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "whole milk",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "salep powder",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pistachios",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix salep with a little cold milk.",
+      "Heat remaining milk with cream and sugar.",
+      "Add salep mixture and stir constantly.",
+      "Cook until thickened, about 20 minutes.",
+      "Add rose water and cardamom.",
+      "Cool mixture completely.",
+      "Churn in ice cream maker.",
+      "Freeze until firm, top with pistachios."
+    ],
+    "cooking_tips": [
+      "Salep creates the signature stretchy texture.",
+      "Stir constantly to prevent lumps.",
+      "The mixture should coat the back of a spoon."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "dessert",
+      "ice-cream",
+      "rose-water",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Calcium from dairy. Healthy fats from pistachios and cream.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-gosh-e-feel",
+    "slug": "gosh-e-feel",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Gosh-e-Feel",
+    "image": "assets/img/recipes/gosh-e-feel.jpg",
+    "short_description": "Delicate fried pastries shaped like elephant ears, dusted with powdered sugar and ground pistachios. These crispy treats are essential at Afghan celebrations.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 30,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "milk",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "pistachios (ground)",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Mix flour, eggs, milk, butter, and cardamom into dough.",
+      "Knead until smooth and elastic.",
+      "Rest dough for 30 minutes.",
+      "Roll very thin and cut into ovals.",
+      "Make a slit in center and pull one end through.",
+      "Deep fry until golden and crispy.",
+      "Drain and dust with powdered sugar.",
+      "Sprinkle with ground pistachios."
+    ],
+    "cooking_tips": [
+      "Roll dough as thin as possible for crispiness.",
+      "Fry at medium heat to cook evenly.",
+      "Dust with sugar while still warm."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "dessert",
+      "fried",
+      "pastry",
+      "celebration"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "A celebratory treat. Pistachios add vitamin B6 and potassium.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-shor-nakhod",
+    "slug": "shor-nakhod",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Shor Nakhod",
+    "image": "assets/img/recipes/shor-nakhod.jpg",
+    "short_description": "A tangy Afghan chickpea salad with potatoes, dressed with vinegar and cilantro. This refreshing street food is popular during Ramadan and hot summer days.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "white vinegar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "green chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook chickpeas until tender, or use canned.",
+      "Boil potatoes until just done, cube.",
+      "Dice onion and chop cilantro.",
+      "Mince green chilies.",
+      "Combine all ingredients in bowl.",
+      "Dress with vinegar, salt, and cumin.",
+      "Toss gently and serve at room temperature."
+    ],
+    "cooking_tips": [
+      "Don't overcook the potatoes.",
+      "Adjust vinegar to taste.",
+      "Best served fresh, not chilled."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "salad",
+      "chickpeas",
+      "vegetarian",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 8,
+      "fat_g": 2,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "High in fiber and plant protein. Low in fat, perfect for a healthy snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "af-sheer-chai",
+    "slug": "sheer-chai",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Sheer Chai",
+    "image": "assets/img/recipes/sheer-chai.jpg",
+    "short_description": "Afghan pink tea made by boiling green tea with milk and baking soda until it turns a beautiful pink color. A unique and comforting beverage.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "green tea",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "water",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "whole milk",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "baking soda",
+        "amount": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom",
+        "amount": 3,
+        "unit": "pods"
+      }
+    ],
+    "steps": [
+      "Boil green tea in water for 5 minutes.",
+      "Add baking soda and continue boiling.",
+      "Beat the tea to aerate it.",
+      "The tea will turn dark red.",
+      "Add milk gradually while stirring.",
+      "Add cardamom and sugar.",
+      "The color will become pink.",
+      "Simmer and serve hot."
+    ],
+    "cooking_tips": [
+      "Aerating is essential for the pink color.",
+      "Use whole milk for best results.",
+      "Can be sweetened with honey instead."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "beverage",
+      "tea",
+      "pink-tea",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 4,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Antioxidants from green tea. Calcium from milk.",
+    "mealType": "Beverage",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-sherwa",
+    "slug": "sherwa",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Sherwa",
+    "image": "assets/img/recipes/sherwa.jpg",
+    "short_description": "A simple but flavorful Afghan lamb soup with tomatoes and onions. This light broth is often served as a starter or alongside rice dishes.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut lamb into small pieces.",
+      "Slice onions and chop tomatoes.",
+      "Brown lamb in a pot.",
+      "Add onions and cook until soft.",
+      "Add garlic and turmeric.",
+      "Add tomatoes and water.",
+      "Simmer for 1 hour.",
+      "Season and garnish with cilantro."
+    ],
+    "cooking_tips": [
+      "Skim foam for a clearer broth.",
+      "Cook low and slow for tender meat.",
+      "Serve with fresh naan bread."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "soup",
+      "lamb",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 250,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein and iron from lamb. Lycopene from cooked tomatoes.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-kichiri-quroot",
+    "slug": "kichiri-quroot",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Kichiri Quroot",
+    "image": "assets/img/recipes/kichiri-quroot.jpg",
+    "short_description": "Comforting Afghan rice and lentil dish topped with tangy dried yogurt sauce and ground meat. A complete meal that's both humble and deeply satisfying.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 50,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "mung beans",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "dried qoroot",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook rice and mung beans together until soft.",
+      "Dissolve qoroot in warm water.",
+      "Brown beef with onions and cumin.",
+      "Mash rice and beans slightly.",
+      "Serve rice topped with meat.",
+      "Drizzle with qoroot sauce.",
+      "Garnish with fried onions."
+    ],
+    "cooking_tips": [
+      "The consistency should be like risotto.",
+      "Adjust qoroot to taste - it's quite sour.",
+      "Top with extra fried onions for crunch."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "rice",
+      "lentils",
+      "comfort-food",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 20,
+      "fat_g": 16,
+      "carbs_g": 50
+    },
+    "nutrition_benefits": "Complete protein from rice and lentils. Probiotics from fermented qoroot.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "af-qorma-lawand",
+    "slug": "qorma-lawand",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Qorma Lawand",
+    "image": "assets/img/recipes/qorma-lawand.jpg",
+    "short_description": "A tangy Afghan lamb stew made with yogurt and turmeric, creating a distinctive sour-savory profile. This comfort food dish showcases the Afghan love for yogurt-based sauces.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 750,
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "turmeric",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut lamb into 2-inch cubes and season with salt.",
+      "Heat oil in a heavy pot and brown lamb on all sides.",
+      "Add sliced onions and cook until golden.",
+      "Add garlic and turmeric, stir for 1 minute.",
+      "Reduce heat and slowly stir in yogurt.",
+      "Cover and simmer for 1.5 hours until lamb is tender.",
+      "Adjust seasoning and serve with rice."
+    ],
+    "cooking_tips": [
+      "Add yogurt slowly to prevent curdling.",
+      "Low heat is essential for a smooth sauce.",
+      "The longer it simmers, the more tender the meat."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "lamb",
+      "yogurt",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "High in protein from lamb and probiotics from yogurt. Turmeric provides anti-inflammatory benefits.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-shola-goshti",
+    "slug": "shola-goshti",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Shola Goshti",
+    "image": "assets/img/recipes/shola-goshti.jpg",
+    "short_description": "A hearty Afghan rice porridge with tender meat chunks, spiced with cumin and coriander. This warming dish is perfect for cold nights and celebrations.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 120,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "short-grain rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "cumin",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak chickpeas overnight, then cook until tender.",
+      "Cut beef into chunks and brown in oil.",
+      "Add onions and cook until softened.",
+      "Add garlic, cumin, and coriander.",
+      "Cover with water and simmer for 1 hour.",
+      "Add rice and chickpeas, cook until rice is very soft.",
+      "Stir frequently until porridge consistency is achieved.",
+      "Serve hot with crispy onions on top."
+    ],
+    "cooking_tips": [
+      "The dish should be creamy but not soupy.",
+      "Use fatty beef cuts for better flavor.",
+      "Top with fried onions for extra crunch."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "beef",
+      "rice",
+      "porridge",
+      "dinner",
+      "comfort-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 22,
+      "carbs_g": 45
+    },
+    "nutrition_benefits": "Provides complete protein and fiber from chickpeas. Complex carbs from rice offer sustained energy.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-qabili-chalau",
+    "slug": "qabili-chalau",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Qabili Chalau",
+    "image": "assets/img/recipes/qabili-chalau.jpg",
+    "short_description": "Simple white Afghan rice cooked to fluffy perfection with butter and cumin. This foundational dish accompanies most Afghan main courses.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "butter",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "amount": 6,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Soak rice in salted water for 30 minutes.",
+      "Bring water to a boil with salt.",
+      "Add rice and cook until al dente, about 7 minutes.",
+      "Drain rice and return to pot.",
+      "Add butter and cumin seeds.",
+      "Cover tightly and cook on low for 30 minutes.",
+      "Fluff with fork and serve."
+    ],
+    "cooking_tips": [
+      "Soaking rice prevents breaking during cooking.",
+      "Low heat creates the perfect tahdig (crispy bottom).",
+      "Use aged basmati for best results."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "rice",
+      "side-dish",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 56
+    },
+    "nutrition_benefits": "Complex carbohydrates for energy. Cumin aids digestion.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-do-pyaza",
+    "slug": "do-pyaza",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Do Pyaza",
+    "image": "assets/img/recipes/do-pyaza.jpg",
+    "short_description": "An Afghan lamb stew featuring double the onions - some cooked into the sauce and some added at the end for texture. The name literally means 'two onions'.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb shoulder",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 6,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 1,
+        "unit": "inch"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Slice 4 onions thinly; quarter remaining 2 onions.",
+      "Brown lamb in oil, then set aside.",
+      "Cook sliced onions until deeply golden.",
+      "Add garlic, ginger, and spices.",
+      "Add chopped tomatoes and cook down.",
+      "Return lamb, add water, and simmer 1 hour.",
+      "Add quartered onions in last 15 minutes.",
+      "Garnish with cilantro and serve."
+    ],
+    "cooking_tips": [
+      "The quartered onions should stay slightly firm.",
+      "Deep caramelization of first batch of onions is key.",
+      "Add more water if sauce gets too thick."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "lamb",
+      "onions",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 450,
+      "protein_g": 35,
+      "fat_g": 28,
+      "carbs_g": 15
+    },
+    "nutrition_benefits": "Rich in quercetin from onions, supporting heart health. Lamb provides iron and B12.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-maushawa",
+    "slug": "maushawa",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Maushawa",
+    "image": "assets/img/recipes/maushawa.jpg",
+    "short_description": "A traditional Afghan bean and pasta soup topped with yogurt and meat sauce. This protein-rich soup is often served during Ramadan to break the fast.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "kidney beans",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "chickpeas",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "small pasta",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yogurt",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "tomato paste",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "dried mint",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak beans and chickpeas overnight.",
+      "Cook beans until tender, about 1 hour.",
+      "Add pasta and cook until soft.",
+      "Brown ground beef with onions and tomato paste.",
+      "Mix yogurt with garlic and salt.",
+      "Ladle soup into bowls.",
+      "Top with meat sauce and yogurt.",
+      "Sprinkle with dried mint."
+    ],
+    "cooking_tips": [
+      "The soup should be thick and hearty.",
+      "Traditional versions use mung beans as well.",
+      "Can substitute any small pasta shape."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "soup",
+      "beans",
+      "ramadan",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 22,
+      "fat_g": 12,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "High in fiber and plant protein from beans. Yogurt adds calcium and probiotics.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-sabzi-chalau",
+    "slug": "sabzi-chalau",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Sabzi Chalau",
+    "image": "assets/img/recipes/sabzi-chalau.jpg",
+    "short_description": "Afghan spinach rice featuring tender basmati layered with garlicky spinach and aromatic spices. A nutritious and flavorful vegetarian main dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 50,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "fresh spinach",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "dill",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Soak rice for 30 minutes, then parboil until al dente.",
+      "Chop spinach and wilt in a pan.",
+      "Saute onions until golden, add garlic.",
+      "Add spinach, dill, and turmeric.",
+      "Layer rice and spinach mixture in pot.",
+      "Cover and cook on low for 30 minutes.",
+      "Mix gently before serving."
+    ],
+    "cooking_tips": [
+      "Squeeze excess water from spinach.",
+      "Fresh dill makes a big difference.",
+      "Serve with yogurt on the side."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "rice",
+      "spinach",
+      "vegetarian",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 7,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Spinach provides iron, vitamin K, and folate. A nutrient-dense vegetarian option.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-qorma-sabzi",
+    "slug": "qorma-sabzi",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Qorma Sabzi",
+    "image": "assets/img/recipes/qorma-sabzi.jpg",
+    "short_description": "Afghan green herb stew made with a medley of fresh herbs, spinach, and tender lamb. The bright green color and fresh flavor make it a spring favorite.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "fresh spinach",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "cilantro",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "dill",
+        "amount": 0.5,
+        "unit": "bunch"
+      },
+      {
+        "name": "leeks",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Brown lamb pieces in oil.",
+      "Add sliced onions and cook until soft.",
+      "Finely chop all greens and herbs.",
+      "Add greens to pot and stir well.",
+      "Add garlic, salt, and pepper.",
+      "Add water to cover, simmer for 1.5 hours.",
+      "The sauce should be thick and green.",
+      "Serve hot over rice."
+    ],
+    "cooking_tips": [
+      "Use a variety of green herbs for complexity.",
+      "The stew should be intensely green.",
+      "Cook until oil separates on top."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "lamb",
+      "herbs",
+      "stew",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 30,
+      "fat_g": 24,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Loaded with vitamins A, C, and K from fresh greens. Iron from both lamb and spinach.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-sambosa-afghan",
+    "slug": "afghan-sambosa",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Afghan Sambosa",
+    "image": "assets/img/recipes/afghan-sambosa.jpg",
+    "short_description": "Crispy fried pastries filled with spiced ground beef and onions. These triangular pockets are a beloved snack and appetizer throughout Afghanistan.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Make dough with flour, oil, and water; rest 30 minutes.",
+      "Cook beef with onions and spices until dry.",
+      "Add cilantro and let cool.",
+      "Roll dough thin and cut into strips.",
+      "Fold into triangles, filling each with meat.",
+      "Seal edges with water.",
+      "Deep fry until golden brown.",
+      "Drain and serve with chutney."
+    ],
+    "cooking_tips": [
+      "The filling must be dry or the pastry will be soggy.",
+      "Fry at medium heat for even cooking.",
+      "Can be baked for a healthier version."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "appetizer",
+      "fried",
+      "beef",
+      "snack"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 145,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Protein from beef. Best enjoyed in moderation due to frying.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "af-qoroot",
+    "slug": "qoroot",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Qoroot",
+    "image": "assets/img/recipes/qoroot.jpg",
+    "short_description": "Traditional Afghan dried yogurt balls reconstituted into a tangy sauce. This preserved dairy product adds intense flavor to many Afghan dishes.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "dried qoroot",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "dried mint",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Break qoroot into small pieces.",
+      "Soak in warm water for 30 minutes.",
+      "Blend until smooth.",
+      "Strain if desired for smoother texture.",
+      "Mince garlic and add to sauce.",
+      "Season with salt and mint.",
+      "Use as topping for rice or dumplings."
+    ],
+    "cooking_tips": [
+      "Qoroot can be very sour - adjust to taste.",
+      "Add more water for thinner consistency.",
+      "Store-bought kashk can substitute."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "sauce",
+      "dairy",
+      "condiment"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 60,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Probiotics from fermented dairy. Calcium and protein in concentrated form.",
+    "mealType": "Side",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-sheer-yakh",
+    "slug": "sheer-yakh",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Sheer Yakh",
+    "image": "assets/img/recipes/sheer-yakh.jpg",
+    "short_description": "Traditional Afghan ice cream made with salep and rose water, creating a stretchy, chewy texture unlike any other frozen dessert. Topped with pistachios.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 40,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "whole milk",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "salep powder",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "rose water",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "pistachios",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix salep with a little cold milk.",
+      "Heat remaining milk with cream and sugar.",
+      "Add salep mixture and stir constantly.",
+      "Cook until thickened, about 20 minutes.",
+      "Add rose water and cardamom.",
+      "Cool mixture completely.",
+      "Churn in ice cream maker.",
+      "Freeze until firm, top with pistachios."
+    ],
+    "cooking_tips": [
+      "Salep creates the signature stretchy texture.",
+      "Stir constantly to prevent lumps.",
+      "The mixture should coat the back of a spoon."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "dessert",
+      "ice-cream",
+      "rose-water",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 6,
+      "fat_g": 14,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Calcium from dairy. Healthy fats from pistachios and cream.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-gosh-e-feel",
+    "slug": "gosh-e-feel",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Gosh-e-Feel",
+    "image": "assets/img/recipes/gosh-e-feel.jpg",
+    "short_description": "Delicate fried pastries shaped like elephant ears, dusted with powdered sugar and ground pistachios. These crispy treats are essential at Afghan celebrations.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 30,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "milk",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "pistachios (ground)",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 3,
+        "unit": "cups"
+      }
+    ],
+    "steps": [
+      "Mix flour, eggs, milk, butter, and cardamom into dough.",
+      "Knead until smooth and elastic.",
+      "Rest dough for 30 minutes.",
+      "Roll very thin and cut into ovals.",
+      "Make a slit in center and pull one end through.",
+      "Deep fry until golden and crispy.",
+      "Drain and dust with powdered sugar.",
+      "Sprinkle with ground pistachios."
+    ],
+    "cooking_tips": [
+      "Roll dough as thin as possible for crispiness.",
+      "Fry at medium heat to cook evenly.",
+      "Dust with sugar while still warm."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "dessert",
+      "fried",
+      "pastry",
+      "celebration"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "A celebratory treat. Pistachios add vitamin B6 and potassium.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-shor-nakhod",
+    "slug": "shor-nakhod",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Shor Nakhod",
+    "image": "assets/img/recipes/shor-nakhod.jpg",
+    "short_description": "A tangy Afghan chickpea salad with potatoes, dressed with vinegar and cilantro. This refreshing street food is popular during Ramadan and hot summer days.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "potatoes",
+        "amount": 3,
+        "unit": "medium"
+      },
+      {
+        "name": "white vinegar",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "green chilies",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook chickpeas until tender, or use canned.",
+      "Boil potatoes until just done, cube.",
+      "Dice onion and chop cilantro.",
+      "Mince green chilies.",
+      "Combine all ingredients in bowl.",
+      "Dress with vinegar, salt, and cumin.",
+      "Toss gently and serve at room temperature."
+    ],
+    "cooking_tips": [
+      "Don't overcook the potatoes.",
+      "Adjust vinegar to taste.",
+      "Best served fresh, not chilled."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "salad",
+      "chickpeas",
+      "vegetarian",
+      "street-food"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 8,
+      "fat_g": 2,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "High in fiber and plant protein. Low in fat, perfect for a healthy snack.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "af-sheer-chai",
+    "slug": "sheer-chai",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Sheer Chai",
+    "image": "assets/img/recipes/sheer-chai.jpg",
+    "short_description": "Afghan pink tea made by boiling green tea with milk and baking soda until it turns a beautiful pink color. A unique and comforting beverage.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "green tea",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "water",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "whole milk",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "baking soda",
+        "amount": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom",
+        "amount": 3,
+        "unit": "pods"
+      }
+    ],
+    "steps": [
+      "Boil green tea in water for 5 minutes.",
+      "Add baking soda and continue boiling.",
+      "Beat the tea to aerate it.",
+      "The tea will turn dark red.",
+      "Add milk gradually while stirring.",
+      "Add cardamom and sugar.",
+      "The color will become pink.",
+      "Simmer and serve hot."
+    ],
+    "cooking_tips": [
+      "Aerating is essential for the pink color.",
+      "Use whole milk for best results.",
+      "Can be sweetened with honey instead."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "beverage",
+      "tea",
+      "pink-tea",
+      "vegetarian"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 4,
+      "fat_g": 4,
+      "carbs_g": 16
+    },
+    "nutrition_benefits": "Antioxidants from green tea. Calcium from milk.",
+    "mealType": "Beverage",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "af-sherwa",
+    "slug": "sherwa",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Sherwa",
+    "image": "assets/img/recipes/sherwa.jpg",
+    "short_description": "A simple but flavorful Afghan lamb soup with tomatoes and onions. This light broth is often served as a starter or alongside rice dishes.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "lamb",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "cilantro",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "black pepper",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut lamb into small pieces.",
+      "Slice onions and chop tomatoes.",
+      "Brown lamb in a pot.",
+      "Add onions and cook until soft.",
+      "Add garlic and turmeric.",
+      "Add tomatoes and water.",
+      "Simmer for 1 hour.",
+      "Season and garnish with cilantro."
+    ],
+    "cooking_tips": [
+      "Skim foam for a clearer broth.",
+      "Cook low and slow for tender meat.",
+      "Serve with fresh naan bread."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "afghan",
+      "soup",
+      "lamb",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 250,
+      "protein_g": 22,
+      "fat_g": 14,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Protein and iron from lamb. Lycopene from cooked tomatoes.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "af-kichiri-quroot",
+    "slug": "kichiri-quroot",
+    "country": "Afghanistan",
+    "country_slug": "afghanistan",
+    "name_en": "Kichiri Quroot",
+    "image": "assets/img/recipes/kichiri-quroot.jpg",
+    "short_description": "Comforting Afghan rice and lentil dish topped with tangy dried yogurt sauce and ground meat. A complete meal that's both humble and deeply satisfying.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 50,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 2,
+        "unit": "cups"
+      },
+      {
+        "name": "mung beans",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "dried qoroot",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "onions",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook rice and mung beans together until soft.",
+      "Dissolve qoroot in warm water.",
+      "Brown beef with onions and cumin.",
+      "Mash rice and beans slightly.",
+      "Serve rice topped with meat.",
+      "Drizzle with qoroot sauce.",
+      "Garnish with fried onions."
+    ],
+    "cooking_tips": [
+      "The consistency should be like risotto.",
+      "Adjust qoroot to taste - it's quite sour.",
+      "Top with extra fried onions for crunch."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "afghan",
+      "rice",
+      "lentils",
+      "comfort-food",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 20,
+      "fat_g": 16,
+      "carbs_g": 50
+    },
+    "nutrition_benefits": "Complete protein from rice and lentils. Probiotics from fermented qoroot.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
   }
 ]

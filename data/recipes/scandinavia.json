@@ -11,17 +11,61 @@
     "cooking_time_minutes": 30,
     "servings": 6,
     "ingredients": [
-      { "name": "ground beef", "amount": 400, "unit": "g" },
-      { "name": "ground pork", "amount": 200, "unit": "g" },
-      { "name": "breadcrumbs", "amount": 50, "unit": "g" },
-      { "name": "milk", "amount": 100, "unit": "ml" },
-      { "name": "egg", "amount": 1, "unit": "pc" },
-      { "name": "onion", "amount": 1, "unit": "small" },
-      { "name": "heavy cream", "amount": 250, "unit": "ml" },
-      { "name": "beef broth", "amount": 200, "unit": "ml" },
-      { "name": "allspice", "amount": 0.5, "unit": "tsp" },
-      { "name": "butter", "amount": 3, "unit": "tbsp" },
-      { "name": "lingonberry jam", "amount": 100, "unit": "g" }
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "breadcrumbs",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "small"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "beef broth",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "allspice",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "butter",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lingonberry jam",
+        "amount": 100,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Soak breadcrumbs in milk for 5 minutes.",
@@ -41,7 +85,13 @@
       "Lingonberry jam cuts the richness of the cream sauce."
     ],
     "difficulty": "medium",
-    "tags": ["scandinavian", "swedish", "meatballs", "comfort-food", "dinner"],
+    "tags": [
+      "scandinavian",
+      "swedish",
+      "meatballs",
+      "comfort-food",
+      "dinner"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 28,
@@ -64,15 +114,51 @@
     "cooking_time_minutes": 0,
     "servings": 10,
     "ingredients": [
-      { "name": "fresh salmon fillet", "amount": 1, "unit": "kg" },
-      { "name": "coarse salt", "amount": 100, "unit": "g" },
-      { "name": "sugar", "amount": 100, "unit": "g" },
-      { "name": "fresh dill", "amount": 2, "unit": "bunches" },
-      { "name": "white pepper", "amount": 2, "unit": "tbsp" },
-      { "name": "Swedish mustard", "amount": 3, "unit": "tbsp" },
-      { "name": "honey", "amount": 2, "unit": "tbsp" },
-      { "name": "white wine vinegar", "amount": 2, "unit": "tbsp" },
-      { "name": "vegetable oil", "amount": 100, "unit": "ml" }
+      {
+        "name": "fresh salmon fillet",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "coarse salt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "fresh dill",
+        "amount": 2,
+        "unit": "bunches"
+      },
+      {
+        "name": "white pepper",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Swedish mustard",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "honey",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "white wine vinegar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 100,
+        "unit": "ml"
+      }
     ],
     "steps": [
       "Mix salt, sugar, and crushed white pepper.",
@@ -93,7 +179,14 @@
       "A sharp, flexible knife makes slicing easier."
     ],
     "difficulty": "easy",
-    "tags": ["scandinavian", "salmon", "cured", "appetizer", "celebration", "dill"],
+    "tags": [
+      "scandinavian",
+      "salmon",
+      "cured",
+      "appetizer",
+      "celebration",
+      "dill"
+    ],
     "nutrition": {
       "per_serving_kcal": 280,
       "protein_g": 24,
@@ -116,16 +209,56 @@
     "cooking_time_minutes": 0,
     "servings": 4,
     "ingredients": [
-      { "name": "dark rye bread", "amount": 4, "unit": "slices" },
-      { "name": "butter", "amount": 50, "unit": "g" },
-      { "name": "pickled herring", "amount": 150, "unit": "g" },
-      { "name": "cooked shrimp", "amount": 200, "unit": "g" },
-      { "name": "roast beef slices", "amount": 150, "unit": "g" },
-      { "name": "hard-boiled eggs", "amount": 2, "unit": "pc" },
-      { "name": "red onion", "amount": 1, "unit": "small" },
-      { "name": "capers", "amount": 2, "unit": "tbsp" },
-      { "name": "fresh dill", "amount": 0.25, "unit": "cup" },
-      { "name": "remoulade sauce", "amount": 100, "unit": "g" }
+      {
+        "name": "dark rye bread",
+        "amount": 4,
+        "unit": "slices"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "pickled herring",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "cooked shrimp",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "roast beef slices",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "hard-boiled eggs",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "red onion",
+        "amount": 1,
+        "unit": "small"
+      },
+      {
+        "name": "capers",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "fresh dill",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "remoulade sauce",
+        "amount": 100,
+        "unit": "g"
+      }
     ],
     "steps": [
       "Generously butter each slice of rye bread.",
@@ -143,7 +276,14 @@
       "Each smørrebrød is eaten with knife and fork, never picked up."
     ],
     "difficulty": "easy",
-    "tags": ["scandinavian", "danish", "sandwich", "lunch", "seafood", "traditional"],
+    "tags": [
+      "scandinavian",
+      "danish",
+      "sandwich",
+      "lunch",
+      "seafood",
+      "traditional"
+    ],
     "nutrition": {
       "per_serving_kcal": 350,
       "protein_g": 22,
@@ -166,12 +306,36 @@
     "cooking_time_minutes": 30,
     "servings": 12,
     "ingredients": [
-      { "name": "russet potatoes", "amount": 1, "unit": "kg" },
-      { "name": "butter", "amount": 60, "unit": "g" },
-      { "name": "heavy cream", "amount": 60, "unit": "ml" },
-      { "name": "all-purpose flour", "amount": 200, "unit": "g" },
-      { "name": "sugar", "amount": 2, "unit": "tbsp" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "russet potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "butter",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "heavy cream",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Boil potatoes until tender, drain well.",
@@ -192,7 +356,14 @@
       "A grooved rolling pin (lefse stick) helps."
     ],
     "difficulty": "hard",
-    "tags": ["scandinavian", "norwegian", "flatbread", "potato", "traditional", "holiday"],
+    "tags": [
+      "scandinavian",
+      "norwegian",
+      "flatbread",
+      "potato",
+      "traditional",
+      "holiday"
+    ],
     "nutrition": {
       "per_serving_kcal": 180,
       "protein_g": 3,
@@ -215,14 +386,46 @@
     "cooking_time_minutes": 25,
     "servings": 20,
     "ingredients": [
-      { "name": "rye flour", "amount": 200, "unit": "g" },
-      { "name": "all-purpose flour", "amount": 50, "unit": "g" },
-      { "name": "water", "amount": 150, "unit": "ml" },
-      { "name": "short-grain rice", "amount": 200, "unit": "g" },
-      { "name": "whole milk", "amount": 1, "unit": "L" },
-      { "name": "butter", "amount": 100, "unit": "g" },
-      { "name": "hard-boiled eggs", "amount": 4, "unit": "pc" },
-      { "name": "salt", "amount": 1, "unit": "tsp" }
+      {
+        "name": "rye flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "short-grain rice",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "whole milk",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "hard-boiled eggs",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "tsp"
+      }
     ],
     "steps": [
       "Make rice porridge: simmer rice in milk for 45 minutes, stirring often.",
@@ -242,7 +445,14 @@
       "Best eaten fresh and warm."
     ],
     "difficulty": "hard",
-    "tags": ["scandinavian", "finnish", "pastry", "rice", "traditional", "breakfast"],
+    "tags": [
+      "scandinavian",
+      "finnish",
+      "pastry",
+      "rice",
+      "traditional",
+      "breakfast"
+    ],
     "nutrition": {
       "per_serving_kcal": 150,
       "protein_g": 4,
@@ -265,24 +475,96 @@
     "cooking_time_minutes": 55,
     "servings": 8,
     "ingredients": [
-      {"name": "bone-in chicken thighs and drumsticks", "amount": 1.2, "unit": "kg"},
-      {"name": "carrots", "amount": 4, "unit": "medium"},
-      {"name": "leeks", "amount": 2, "unit": "large"},
-      {"name": "celery stalks", "amount": 3, "unit": "pc"},
-      {"name": "parsnip", "amount": 1, "unit": "medium"},
-      {"name": "yellow onion", "amount": 1, "unit": "medium"},
-      {"name": "chicken stock (preferably homemade)", "amount": 1, "unit": "L"},
-      {"name": "heavy cream (full-fat)", "amount": 300, "unit": "ml"},
-      {"name": "unsalted butter", "amount": 75, "unit": "g"},
-      {"name": "all-purpose flour", "amount": 60, "unit": "g"},
-      {"name": "fresh dill (finely chopped)", "amount": 0.5, "unit": "cup"},
-      {"name": "fresh parsley (finely chopped)", "amount": 3, "unit": "tbsp"},
-      {"name": "bay leaves", "amount": 2, "unit": "pc"},
-      {"name": "whole allspice berries", "amount": 4, "unit": "pc"},
-      {"name": "white pepper (ground)", "amount": 1, "unit": "tsp"},
-      {"name": "sea salt", "amount": 1, "unit": "tbsp"},
-      {"name": "lemon juice", "amount": 1, "unit": "tbsp"},
-      {"name": "egg yolks (for liaison, optional)", "amount": 2, "unit": "pc"}
+      {
+        "name": "bone-in chicken thighs and drumsticks",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "carrots",
+        "amount": 4,
+        "unit": "medium"
+      },
+      {
+        "name": "leeks",
+        "amount": 2,
+        "unit": "large"
+      },
+      {
+        "name": "celery stalks",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "parsnip",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "yellow onion",
+        "amount": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "chicken stock (preferably homemade)",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "heavy cream (full-fat)",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "unsalted butter",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "fresh dill (finely chopped)",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "fresh parsley (finely chopped)",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "whole allspice berries",
+        "amount": 4,
+        "unit": "pc"
+      },
+      {
+        "name": "white pepper (ground)",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "sea salt",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "egg yolks (for liaison, optional)",
+        "amount": 2,
+        "unit": "pc"
+      }
     ],
     "steps": [
       "Prepare the vegetables: peel and dice carrots and parsnip into 1.5cm cubes.",
@@ -325,7 +607,17 @@
       "Swedes often serve this with lingonberry jam on the side for a touch of sweetness."
     ],
     "difficulty": "medium",
-    "tags": ["scandinavian", "swedish", "chicken", "creamy", "stew", "dinner", "comfort-food", "winter", "husmanskost"],
+    "tags": [
+      "scandinavian",
+      "swedish",
+      "chicken",
+      "creamy",
+      "stew",
+      "dinner",
+      "comfort-food",
+      "winter",
+      "husmanskost"
+    ],
     "nutrition": {
       "per_serving_kcal": 480,
       "protein_g": 38,
@@ -335,5 +627,1545 @@
     "nutrition_benefits": "Excellent source of high-quality protein from chicken. Root vegetables provide fiber, vitamins A and C, and potassium. Fresh dill contains antioxidants and aids digestion. The cream provides calcium and fat-soluble vitamins for sustained energy during cold Nordic winters.",
     "mealType": "Dinner",
     "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "sc-gravlax-1",
+    "slug": "gravlax",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Gravlax",
+    "image": "assets/img/recipes/gravlax.jpg",
+    "short_description": "Cured salmon with dill. Nordic classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "salmon",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "dill",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cover salmon with cure.",
+      "Add dill.",
+      "Refrigerate 3 days.",
+      "Slice thin."
+    ],
+    "cooking_tips": [
+      "Weight while curing.",
+      "Flip daily.",
+      "Mustard sauce."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "scandinavian",
+      "fish",
+      "cured"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 22,
+      "fat_g": 10,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Omega-3 from salmon.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-meatballs-1",
+    "slug": "swedish-meatballs",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Swedish Meatballs",
+    "image": "assets/img/recipes/swedish-meatballs.jpg",
+    "short_description": "Creamy meatballs. Iconic comfort.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cream",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "lingonberry",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make meatballs.",
+      "Brown in butter.",
+      "Make cream sauce.",
+      "Serve with lingonberry."
+    ],
+    "cooking_tips": [
+      "Small meatballs.",
+      "Rich cream sauce.",
+      "Essential jam."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "scandinavian",
+      "meatballs",
+      "cream"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 32,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Comforting meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-smorgasbord-1",
+    "slug": "smorgasbord",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Smorgasbord",
+    "image": "assets/img/recipes/smorgasbord.jpg",
+    "short_description": "Buffet spread. Festive tradition.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 60,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "herring",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "salmon",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "meatballs",
+        "amount": 24,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Prepare all dishes.",
+      "Arrange buffet.",
+      "Start with fish.",
+      "Progress to meats."
+    ],
+    "cooking_tips": [
+      "Order matters.",
+      "Many small dishes.",
+      "Festive occasion."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "scandinavian",
+      "buffet",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 32,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Varied nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-janssons-1",
+    "slug": "janssons-frestelse",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Janssons Temptation",
+    "image": "assets/img/recipes/janssons-frestelse.jpg",
+    "short_description": "Potato anchovy gratin. Swedish Christmas.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "anchovies",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cream",
+        "amount": 400,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Layer potatoes and anchovies.",
+      "Pour cream.",
+      "Bake until golden.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Swedish anchovies.",
+      "Very creamy.",
+      "Christmas essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "scandinavian",
+      "potato",
+      "christmas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 26,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Calcium from cream.",
+    "mealType": "Side",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-smørrebrød-1",
+    "slug": "smorrebrod",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Smørrebrød",
+    "image": "assets/img/recipes/smorrebrod.jpg",
+    "short_description": "Open-faced sandwiches. Danish lunch.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rye bread",
+        "amount": 6,
+        "unit": "slices"
+      },
+      {
+        "name": "toppings",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Butter bread generously.",
+      "Add topping artfully.",
+      "Garnish precisely.",
+      "Eat with knife and fork."
+    ],
+    "cooking_tips": [
+      "Dense rye bread.",
+      "Artistic presentation.",
+      "Many varieties."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "scandinavian",
+      "sandwich",
+      "lunch"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-pickled-1",
+    "slug": "pickled-herring",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Pickled Herring",
+    "image": "assets/img/recipes/pickled-herring.jpg",
+    "short_description": "Marinated herring. Midsummer essential.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "herring",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "vinegar",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Salt herring.",
+      "Make pickling brine.",
+      "Layer with onion.",
+      "Marinate 24 hours."
+    ],
+    "cooking_tips": [
+      "Many flavor variations.",
+      "Traditional preservation.",
+      "Festive occasions."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "scandinavian",
+      "fish",
+      "pickled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-frikadeller-1",
+    "slug": "frikadeller",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Frikadeller",
+    "image": "assets/img/recipes/frikadeller.jpg",
+    "short_description": "Danish pan-fried meatballs. Everyday comfort.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix meatball mixture.",
+      "Shape oval patties.",
+      "Pan-fry in butter.",
+      "Serve with potatoes."
+    ],
+    "cooking_tips": [
+      "Flat ovals, not balls.",
+      "Brown in butter.",
+      "Classic comfort."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "scandinavian",
+      "meatballs",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 12,
+      "fat_g": 10,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-rullepølse-1",
+    "slug": "rullepolse",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Rullepølse",
+    "image": "assets/img/recipes/rullepolse.jpg",
+    "short_description": "Rolled pork belly. Cold cut specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "pork belly",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "spices",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Season pork belly.",
+      "Roll tightly.",
+      "Braise until tender.",
+      "Press and slice thin."
+    ],
+    "cooking_tips": [
+      "Press while cooling.",
+      "Slice very thin.",
+      "Open sandwich topping."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "scandinavian",
+      "pork",
+      "cold-cut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 14,
+      "fat_g": 14,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-karjalan-1",
+    "slug": "karelian-pasties",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Karelian Pasties",
+    "image": "assets/img/recipes/karelian-pasties.jpg",
+    "short_description": "Rye crust with rice filling. Finnish classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "rye flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make thin rye crusts.",
+      "Fill with rice porridge.",
+      "Pinch edges.",
+      "Bake and brush with butter."
+    ],
+    "cooking_tips": [
+      "Very thin crust.",
+      "Distinctive shape.",
+      "Egg butter on top."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "scandinavian",
+      "pastry",
+      "rice"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Traditional snack.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sc-kanelbullar-1",
+    "slug": "kanelbullar",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Kanelbullar",
+    "image": "assets/img/recipes/kanelbullar.jpg",
+    "short_description": "Swedish cinnamon buns. Fika essential.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make cardamom dough.",
+      "Roll with cinnamon filling.",
+      "Shape buns.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Cardamom in dough.",
+      "Soft and fluffy.",
+      "Fika time."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "scandinavian",
+      "pastry",
+      "cinnamon"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Comfort treat.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sc-æbleskiver-1",
+    "slug": "aebleskiver",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Æbleskiver",
+    "image": "assets/img/recipes/aebleskiver.jpg",
+    "short_description": "Danish pancake balls. Christmas treat.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "buttermilk",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make batter.",
+      "Cook in special pan.",
+      "Turn when golden.",
+      "Serve with jam."
+    ],
+    "cooking_tips": [
+      "Special pan needed.",
+      "Turn with skewer.",
+      "Christmas tradition."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "scandinavian",
+      "pancakes",
+      "christmas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 2,
+      "fat_g": 2,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Festive treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sc-kottbullar-1",
+    "slug": "kottbullar",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Köttbullar",
+    "image": "assets/img/recipes/kottbullar.jpg",
+    "short_description": "Traditional Swedish meatballs. IKEA famous.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 25,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "breadcrumbs",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Mix meat with breadcrumbs.",
+      "Form small balls.",
+      "Brown in butter.",
+      "Make cream gravy."
+    ],
+    "cooking_tips": [
+      "Small and round.",
+      "Brown well.",
+      "Lingonberry essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "scandinavian",
+      "meatballs",
+      "cream"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 26,
+      "fat_g": 28,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Comfort classic.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-smörgåstårta-1",
+    "slug": "smorgastarta",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Smörgåstårta",
+    "image": "assets/img/recipes/smorgastarta.jpg",
+    "short_description": "Swedish sandwich cake. Celebration dish.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 0,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "bread",
+        "amount": 1,
+        "unit": "loaf"
+      },
+      {
+        "name": "fillings",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "cream cheese",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Layer bread with fillings.",
+      "Frost with cream cheese.",
+      "Decorate lavishly.",
+      "Chill and slice."
+    ],
+    "cooking_tips": [
+      "Looks like cake.",
+      "Savory not sweet.",
+      "Party essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "scandinavian",
+      "sandwich",
+      "party"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 24,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Impressive dish.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-risgrynsgröt-1",
+    "slug": "risgrynsgrot",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Risgrynsgröt",
+    "image": "assets/img/recipes/risgrynsgrot.jpg",
+    "short_description": "Rice porridge. Christmas breakfast.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook rice in milk.",
+      "Stir constantly.",
+      "Add butter.",
+      "Top with cinnamon."
+    ],
+    "cooking_tips": [
+      "Creamy texture.",
+      "Hide an almond.",
+      "Christmas tradition."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "scandinavian",
+      "porridge",
+      "christmas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Comfort breakfast.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sc-gravlax-1",
+    "slug": "gravlax",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Gravlax",
+    "image": "assets/img/recipes/gravlax.jpg",
+    "short_description": "Cured salmon with dill. Nordic classic.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "salmon",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "dill",
+        "amount": 1,
+        "unit": "bunch"
+      },
+      {
+        "name": "sugar",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Cover salmon with cure.",
+      "Add dill.",
+      "Refrigerate 3 days.",
+      "Slice thin."
+    ],
+    "cooking_tips": [
+      "Weight while curing.",
+      "Flip daily.",
+      "Mustard sauce."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "scandinavian",
+      "fish",
+      "cured"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 22,
+      "fat_g": 10,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Omega-3 from salmon.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-meatballs-1",
+    "slug": "swedish-meatballs",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Swedish Meatballs",
+    "image": "assets/img/recipes/swedish-meatballs.jpg",
+    "short_description": "Creamy meatballs. Iconic comfort.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "cream",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "lingonberry",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make meatballs.",
+      "Brown in butter.",
+      "Make cream sauce.",
+      "Serve with lingonberry."
+    ],
+    "cooking_tips": [
+      "Small meatballs.",
+      "Rich cream sauce.",
+      "Essential jam."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "scandinavian",
+      "meatballs",
+      "cream"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 32,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Comforting meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-smorgasbord-1",
+    "slug": "smorgasbord",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Smorgasbord",
+    "image": "assets/img/recipes/smorgasbord.jpg",
+    "short_description": "Buffet spread. Festive tradition.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 60,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "herring",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "salmon",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "meatballs",
+        "amount": 24,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Prepare all dishes.",
+      "Arrange buffet.",
+      "Start with fish.",
+      "Progress to meats."
+    ],
+    "cooking_tips": [
+      "Order matters.",
+      "Many small dishes.",
+      "Festive occasion."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "scandinavian",
+      "buffet",
+      "festive"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 35,
+      "fat_g": 32,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Varied nutrients.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-janssons-1",
+    "slug": "janssons-frestelse",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Janssons Temptation",
+    "image": "assets/img/recipes/janssons-frestelse.jpg",
+    "short_description": "Potato anchovy gratin. Swedish Christmas.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "anchovies",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cream",
+        "amount": 400,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Layer potatoes and anchovies.",
+      "Pour cream.",
+      "Bake until golden.",
+      "Serve hot."
+    ],
+    "cooking_tips": [
+      "Swedish anchovies.",
+      "Very creamy.",
+      "Christmas essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "scandinavian",
+      "potato",
+      "christmas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 26,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Calcium from cream.",
+    "mealType": "Side",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-smørrebrød-1",
+    "slug": "smorrebrod",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Smørrebrød",
+    "image": "assets/img/recipes/smorrebrod.jpg",
+    "short_description": "Open-faced sandwiches. Danish lunch.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rye bread",
+        "amount": 6,
+        "unit": "slices"
+      },
+      {
+        "name": "toppings",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Butter bread generously.",
+      "Add topping artfully.",
+      "Garnish precisely.",
+      "Eat with knife and fork."
+    ],
+    "cooking_tips": [
+      "Dense rye bread.",
+      "Artistic presentation.",
+      "Many varieties."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "scandinavian",
+      "sandwich",
+      "lunch"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 16,
+      "carbs_g": 28
+    },
+    "nutrition_benefits": "Balanced meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-pickled-1",
+    "slug": "pickled-herring",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Pickled Herring",
+    "image": "assets/img/recipes/pickled-herring.jpg",
+    "short_description": "Marinated herring. Midsummer essential.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 0,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "herring",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "pc"
+      },
+      {
+        "name": "vinegar",
+        "amount": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Salt herring.",
+      "Make pickling brine.",
+      "Layer with onion.",
+      "Marinate 24 hours."
+    ],
+    "cooking_tips": [
+      "Many flavor variations.",
+      "Traditional preservation.",
+      "Festive occasions."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "scandinavian",
+      "fish",
+      "pickled"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 14,
+      "fat_g": 8,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "Omega-3 from fish.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-frikadeller-1",
+    "slug": "frikadeller",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Frikadeller",
+    "image": "assets/img/recipes/frikadeller.jpg",
+    "short_description": "Danish pan-fried meatballs. Everyday comfort.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 16,
+    "ingredients": [
+      {
+        "name": "ground pork",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "pc"
+      },
+      {
+        "name": "flour",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix meatball mixture.",
+      "Shape oval patties.",
+      "Pan-fry in butter.",
+      "Serve with potatoes."
+    ],
+    "cooking_tips": [
+      "Flat ovals, not balls.",
+      "Brown in butter.",
+      "Classic comfort."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "scandinavian",
+      "meatballs",
+      "dinner"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 140,
+      "protein_g": 12,
+      "fat_g": 10,
+      "carbs_g": 2
+    },
+    "nutrition_benefits": "Protein-rich.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-rullepølse-1",
+    "slug": "rullepolse",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Rullepølse",
+    "image": "assets/img/recipes/rullepolse.jpg",
+    "short_description": "Rolled pork belly. Cold cut specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 120,
+    "servings": 20,
+    "ingredients": [
+      {
+        "name": "pork belly",
+        "amount": 2,
+        "unit": "kg"
+      },
+      {
+        "name": "spices",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "onion",
+        "amount": 2,
+        "unit": "pc"
+      }
+    ],
+    "steps": [
+      "Season pork belly.",
+      "Roll tightly.",
+      "Braise until tender.",
+      "Press and slice thin."
+    ],
+    "cooking_tips": [
+      "Press while cooling.",
+      "Slice very thin.",
+      "Open sandwich topping."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "scandinavian",
+      "pork",
+      "cold-cut"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 14,
+      "fat_g": 14,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "Protein from pork.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-karjalan-1",
+    "slug": "karelian-pasties",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Karelian Pasties",
+    "image": "assets/img/recipes/karelian-pasties.jpg",
+    "short_description": "Rye crust with rice filling. Finnish classic.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "rye flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "butter",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Make thin rye crusts.",
+      "Fill with rice porridge.",
+      "Pinch edges.",
+      "Bake and brush with butter."
+    ],
+    "cooking_tips": [
+      "Very thin crust.",
+      "Distinctive shape.",
+      "Egg butter on top."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "scandinavian",
+      "pastry",
+      "rice"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 120,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Traditional snack.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sc-kanelbullar-1",
+    "slug": "kanelbullar",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Kanelbullar",
+    "image": "assets/img/recipes/kanelbullar.jpg",
+    "short_description": "Swedish cinnamon buns. Fika essential.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 15,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cardamom",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Make cardamom dough.",
+      "Roll with cinnamon filling.",
+      "Shape buns.",
+      "Bake until golden."
+    ],
+    "cooking_tips": [
+      "Cardamom in dough.",
+      "Soft and fluffy.",
+      "Fika time."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "scandinavian",
+      "pastry",
+      "cinnamon"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Comfort treat.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sc-æbleskiver-1",
+    "slug": "aebleskiver",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Æbleskiver",
+    "image": "assets/img/recipes/aebleskiver.jpg",
+    "short_description": "Danish pancake balls. Christmas treat.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 20,
+    "servings": 24,
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "amount": 3,
+        "unit": "pc"
+      },
+      {
+        "name": "buttermilk",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Make batter.",
+      "Cook in special pan.",
+      "Turn when golden.",
+      "Serve with jam."
+    ],
+    "cooking_tips": [
+      "Special pan needed.",
+      "Turn with skewer.",
+      "Christmas tradition."
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "scandinavian",
+      "pancakes",
+      "christmas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 2,
+      "fat_g": 2,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Festive treat.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "sc-kottbullar-1",
+    "slug": "kottbullar",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Köttbullar",
+    "image": "assets/img/recipes/kottbullar.jpg",
+    "short_description": "Traditional Swedish meatballs. IKEA famous.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 25,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ground pork",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "breadcrumbs",
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    ],
+    "steps": [
+      "Mix meat with breadcrumbs.",
+      "Form small balls.",
+      "Brown in butter.",
+      "Make cream gravy."
+    ],
+    "cooking_tips": [
+      "Small and round.",
+      "Brown well.",
+      "Lingonberry essential."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "scandinavian",
+      "meatballs",
+      "cream"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 26,
+      "fat_g": 28,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Comfort classic.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-smörgåstårta-1",
+    "slug": "smorgastarta",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Smörgåstårta",
+    "image": "assets/img/recipes/smorgastarta.jpg",
+    "short_description": "Swedish sandwich cake. Celebration dish.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 0,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "bread",
+        "amount": 1,
+        "unit": "loaf"
+      },
+      {
+        "name": "fillings",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "cream cheese",
+        "amount": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Layer bread with fillings.",
+      "Frost with cream cheese.",
+      "Decorate lavishly.",
+      "Chill and slice."
+    ],
+    "cooking_tips": [
+      "Looks like cake.",
+      "Savory not sweet.",
+      "Party essential."
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "scandinavian",
+      "sandwich",
+      "party"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 18,
+      "fat_g": 24,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "Impressive dish.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "sc-risgrynsgröt-1",
+    "slug": "risgrynsgrot",
+    "country": "Scandinavia",
+    "country_slug": "scandinavia",
+    "name_en": "Risgrynsgröt",
+    "image": "assets/img/recipes/risgrynsgrot.jpg",
+    "short_description": "Rice porridge. Christmas breakfast.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "liter"
+      },
+      {
+        "name": "cinnamon",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook rice in milk.",
+      "Stir constantly.",
+      "Add butter.",
+      "Top with cinnamon."
+    ],
+    "cooking_tips": [
+      "Creamy texture.",
+      "Hide an almond.",
+      "Christmas tradition."
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "scandinavian",
+      "porridge",
+      "christmas"
+    ],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 36
+    },
+    "nutrition_benefits": "Comfort breakfast.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
   }
 ]
