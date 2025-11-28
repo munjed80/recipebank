@@ -1,5 +1,5 @@
 /**
- * Chefpedia - AI Assistant Module
+ * ChefSense - AI Assistant Module
  * Local search and filtering logic for recipe suggestions
  */
 

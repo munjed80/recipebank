@@ -1,5 +1,5 @@
 /**
- * Chefpedia - Favorites Module
+ * ChefSense - Favorites Module
  * Handles saving, loading, and managing favorite recipes using localStorage
  */
 

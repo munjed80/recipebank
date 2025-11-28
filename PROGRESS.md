@@ -1,6 +1,15 @@
-# RecipeBank Progress Log
+# ChefSense Progress Log
 
 ## Iteration 9 - Additional Cuisines Expansion (Current)
+
+### Recent Enhancements
+- ✅ Added a lightweight `recipe-icons.js` helper that derives icons (spicy, vegan, nuts, rice, pasta, dessert, etc.) directly from recipe ingredients, tags, and descriptions. Icons are rendered via `RecipeIcons.renderIcons()` inside cards and detail pages for consistent sizing and accessible labels.
+- ✅ Introduced ChefSense pantry mode: when users list ingredients, the assistant now parses pantry items, scores recipe overlap with the dataset, and replies with best matches, links, steps, nutrition notes, substitutions, and allergen highlights in the detected language.
+
+### How to Extend Recipe Icons
+1. Add or edit icon vocabulary in `public/assets/js/recipe-icons.js` under the `ICONS` map and `ingredientKeywords` list.
+2. Keep rules deterministic—match keywords in ingredient names, tags, or descriptions, then return icon keys from `getIcons()`.
+3. The shared renderer is `RecipeIcons.renderIcons(keys)`, which outputs styled, aria-labeled icons used across recipe cards, favorites, and detail headers.
 
 ### What Was Built
 
@@ -298,7 +307,7 @@
 - ✅ JSON-LD structured data automatically inserted
 
 #### Home Page SEO
-- ✅ Updated meta title: "RecipeBank - Global Recipe Library | World Cuisine Recipes"
+- ✅ Updated meta title: "ChefSense - Global Recipe Library | World Cuisine Recipes"
 - ✅ Comprehensive meta description
 - ✅ Keywords covering all major cuisines
 - ✅ WebSite schema with SearchAction for site search

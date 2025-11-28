@@ -1,4 +1,4 @@
-/* RecipeBank - Recipe Detail Stylesheet */
+/* ChefSense - Recipe Detail Stylesheet */
 
 /* =========================================
    Recipe Page Variables & Base
@@ -184,6 +184,11 @@
   color: var(--secondary-color, #2c3e50);
   margin-bottom: 0.5rem;
   line-height: 1.2;
+}
+
+.recipe-header-content .recipe-icon-row {
+  margin: 0.35rem auto 0.85rem;
+  justify-content: center;
 }
 
 .recipe-local-name-modern {

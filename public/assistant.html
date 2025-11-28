@@ -7,12 +7,12 @@
   <meta name="keywords" content="ChefSense, AI chef, recipe search, cooking assistant, nutrition expert, substitutions, dietary guide">
   <meta name="robots" content="index, follow">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Chefpedia">
+  <meta property="og:site_name" content="ChefSense">
   <meta property="og:title" content="ChefSense - Your Personal Cooking Guide">
   <meta property="og:description" content="Chat with ChefSense to find recipes, get cooking tips, and learn about nutrition.">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://munjed80.github.io/recipebank/public/assistant.html">
-  <title>ChefSense - Recipe Search & Cooking Help | Chefpedia</title>
+  <title>ChefSense - Recipe Search & Cooking Help | ChefSense</title>
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/chat.css">
 </head>
@@ -21,7 +21,7 @@
     <nav class="navbar">
       <a href="index.html" class="logo">
         <span class="logo-icon">👨‍🍳</span>
-        <span>Chefpedia</span>
+        <span>ChefSense</span>
       </a>
       <button class="menu-toggle" aria-label="Toggle menu">☰</button>
       <ul class="nav-links">
@@ -35,10 +35,10 @@
   <main class="section">
     <div class="container hero-card-wrap">
       <div class="hero-text" style="margin-bottom: 1rem;">
-        <h1>ChefSense — Master Chef & Nutrition Expert</h1>
-        <p>Ask for recipes, guided steps, nutrition guidance, or ingredient swaps. Turn on voice to talk hands-free.</p>
+        <h1 data-i18n-key="heroTitle">ChefSense — Master Chef & Nutrition Expert</h1>
+        <p data-i18n-key="heroSubtitle">Your multilingual cooking guide with nutrition insights and voice support</p>
       </div>
-      <div data-chefsense-anchor="true">
+      <div data-chefsense-anchor="true" data-chefsense-auto-init="true">
         <div class="chat-card" id="chat-container">
           <div class="chat-header">
             <div class="chat-header-icon">🍳</div>
@@ -64,7 +64,6 @@
                 autocomplete="off"
                 aria-label="ChefSense chat input"
               >
-              <button type="button" class="mic-button" data-voice-input aria-label="Start voice input">🎙️</button>
               <button type="button" id="send-button" class="send-button" aria-label="Send message">
                 <span>➤</span>
               </button>
@@ -84,7 +83,7 @@
 
   <footer>
     <div class="container">
-      <p>© 2024 Chefpedia. A free, open-source recipe library. 
+      <p>© 2024 ChefSense. A free, open-source recipe library. 
         <a href="https://github.com/munjed80/recipebank" target="_blank" rel="noopener">View on GitHub</a>
       </p>
     </div>
@@ -94,6 +93,5 @@
   <script src="assets/js/seo.js"></script>
   <script src="assets/js/search-helper.js"></script>
   <script src="assets/js/favorites.js"></script>
-  <script src="assets/js/ai-assistant.js"></script>
 </body>
 </html>
