@@ -29,24 +29,67 @@
       <ul class="nav-links">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="favorites.html">Favorites</a></li>
-        <li><a href="assistant.html">AI Assistant</a></li>
+        <li><a href="assistant.html">ChefSense</a></li>
       </ul>
     </nav>
   </header>
 
   <section class="hero">
-    <div class="container">
-      <h1>🌍 Chefpedia</h1>
-      <p>Explore authentic recipes from countries around the world. From Italian pasta to Syrian kibbeh, discover the flavors of global cuisine.</p>
-      
-      <!-- Global Search Bar -->
+    <div class="container hero-card-wrap">
+      <div class="hero-text">
+        <h1>ChefSense — Master Chef & Nutrition Expert</h1>
+        <p>Voice-enabled cooking guidance, nutrition insight, and step-by-step help with real recipes.</p>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-chat" data-chefsense-anchor="true">
+          <div class="chat-card" id="chat-container">
+            <div class="chat-header">
+              <div class="chat-header-icon">🍳</div>
+              <div class="chat-header-info">
+                <p class="chat-kicker">ChefSense</p>
+                <h1>Master Chef & Nutrition Expert</h1>
+                <p>Voice-enabled cooking guidance, nutrition insight, and step-by-step help.</p>
+              </div>
+              <div class="chat-actions">
+                <button type="button" class="voice-toggle" data-voice-output-toggle aria-label="Toggle speech output">🔈</button>
+                <span class="voice-status" data-voice-status>Voice ready</span>
+              </div>
+            </div>
+            <div class="chat-messages" id="chat-messages"></div>
+            <div class="chat-input-area">
+              <div class="chat-input-wrapper">
+                <input
+                  type="text"
+                  id="chat-input"
+                  placeholder="Ask for recipes, steps, or substitutions..."
+                  autocomplete="off"
+                  aria-label="ChefSense chat input"
+                >
+                <button type="button" class="mic-button" data-voice-input aria-label="Start voice input">🎙️</button>
+                <button type="button" id="send-button" class="send-button" aria-label="Send message">
+                  <span>➤</span>
+                </button>
+              </div>
+              <p class="voice-fallback" data-voice-fallback aria-live="polite"></p>
+              <div class="chat-suggestions" aria-label="Quick suggestions">
+                <button type="button" class="suggestion-chip" data-suggestion="Find me Moroccan dinner recipes">Moroccan dinner</button>
+                <button type="button" class="suggestion-chip" data-suggestion="Show gluten-free dinner options">Gluten-free picks</button>
+                <button type="button" class="suggestion-chip" data-suggestion="Give me the steps for Butter Chicken">Butter chicken steps</button>
+                <button type="button" class="suggestion-chip" data-suggestion="What healthy swaps can I use for butter?">Healthy swaps</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="global-search-wrapper hero-search">
         <div class="search-input-container">
           <span class="search-icon">🔍</span>
-          <input 
-            type="text" 
-            id="global-search" 
-            class="global-search-input" 
+          <input
+            type="text"
+            id="global-search"
+            class="global-search-input"
             placeholder="Search recipes, ingredients, or cuisines..."
             autocomplete="off"
           >
@@ -102,13 +145,13 @@
 
   <section class="section" style="background: white;">
     <div class="container">
-      <h2 class="section-title">Try Our <span>AI Chef Assistant</span></h2>
+      <h2 class="section-title">Try <span>ChefSense</span></h2>
       <p class="text-center" style="max-width: 600px; margin: 0 auto 2rem;">
-        Chat with our AI assistant to get cooking help, recipe guidance, ingredient substitutions, and nutrition information.
+        Chat with ChefSense for cooking help, recipe guidance, ingredient substitutions, and nutrition information.
       </p>
       <div class="text-center">
         <a href="assistant.html" class="btn">
-          🤖 Chat with AI Assistant
+          🤖 Open ChefSense
         </a>
       </div>
     </div>
