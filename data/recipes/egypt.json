@@ -349,5 +349,884 @@
     "nutrition_benefits": "Excellent source of lean protein from chicken. Garlic provides allicin with antimicrobial and immune-boosting properties. Pine nuts offer healthy fats and vitamin E. The combination of rice and bread provides sustained energy from complex carbohydrates.",
     "mealType": "Dinner",
     "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "eg-molokhia",
+    "slug": "molokhia",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Molokhia",
+    "short_description": "A beloved Egyptian soup made from jute leaves with garlic-coriander sauce, served over rice with chicken or rabbit.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "molokhia leaves (fresh or frozen)", "amount": 500, "unit": "g" },
+      { "name": "chicken broth", "amount": 1.5, "unit": "L" },
+      { "name": "garlic cloves", "amount": 10, "unit": "pc" },
+      { "name": "ground coriander", "amount": 2, "unit": "tbsp" },
+      { "name": "ghee", "amount": 60, "unit": "g" },
+      { "name": "cooked chicken", "amount": 600, "unit": "g" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Finely chop molokhia leaves or use frozen pre-chopped.",
+      "Bring chicken broth to a boil.",
+      "Add molokhia leaves and stir well.",
+      "Simmer for 10-15 minutes.",
+      "Mince garlic and sauté in ghee until golden.",
+      "Add ground coriander to garlic mixture.",
+      "Pour garlic-coriander sauce into soup.",
+      "Stir well and simmer 5 more minutes.",
+      "Serve over rice with chicken pieces.",
+      "Accompany with Egyptian bread and lemon."
+    ],
+    "cooking_tips": [
+      "Never cover the pot or molokhia will turn brown.",
+      "The garlic sauce (ta'aleya) is essential.",
+      "Traditional to serve with rabbit in Upper Egypt."
+    ],
+    "difficulty": "medium",
+    "tags": ["egyptian", "soup", "traditional", "chicken", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 340,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Molokhia is rich in vitamins A, C, and E. High in iron and calcium. A nutritious traditional dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "eg-mahshi",
+    "slug": "egyptian-mahshi",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Egyptian Mahshi",
+    "short_description": "Assorted vegetables stuffed with herbed rice and tomato sauce. An Egyptian family feast dish.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      { "name": "zucchini", "amount": 6, "unit": "pc" },
+      { "name": "bell peppers", "amount": 4, "unit": "pc" },
+      { "name": "tomatoes", "amount": 6, "unit": "pc" },
+      { "name": "grape leaves", "amount": 30, "unit": "pc" },
+      { "name": "short-grain rice", "amount": 400, "unit": "g" },
+      { "name": "fresh dill", "amount": 1, "unit": "cup" },
+      { "name": "fresh parsley", "amount": 1, "unit": "cup" },
+      { "name": "tomato paste", "amount": 4, "unit": "tbsp" },
+      { "name": "ground beef", "amount": 300, "unit": "g" },
+      { "name": "salt and spices", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Core zucchini and peppers, hollow tomatoes.",
+      "Mix rice with herbs, spices, and optional meat.",
+      "Stuff each vegetable loosely to allow rice expansion.",
+      "Roll grape leaves with filling.",
+      "Arrange stuffed vegetables in large pot.",
+      "Mix tomato paste with water for sauce.",
+      "Pour sauce over vegetables.",
+      "Place plate on top to keep submerged.",
+      "Simmer on low for 90 minutes.",
+      "Serve warm with yogurt."
+    ],
+    "cooking_tips": [
+      "Don't overstuff - rice expands while cooking.",
+      "Layer grape leaves on pot bottom to prevent burning.",
+      "Cooking time varies by vegetable size."
+    ],
+    "difficulty": "hard",
+    "tags": ["egyptian", "stuffed", "vegetables", "rice", "family-meal"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 10,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Variety of vegetables provides diverse vitamins. High in fiber and complex carbs.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "eg-kofta",
+    "slug": "egyptian-kofta",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Egyptian Kofta",
+    "short_description": "Spiced ground meat kebabs grilled on skewers, a staple of Egyptian street food and home cooking.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      { "name": "ground beef and lamb", "amount": 700, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "coriander", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Grate onion and squeeze out excess liquid.",
+      "Mix meat with onion and all seasonings.",
+      "Knead mixture until well combined.",
+      "Shape onto flat metal skewers.",
+      "Grill over high heat, turning once.",
+      "Cook until charred but still juicy inside.",
+      "Serve with tahini sauce and bread.",
+      "Accompany with fresh vegetables.",
+      "Can also bake in oven at 400°F.",
+      "Rest briefly before serving."
+    ],
+    "cooking_tips": [
+      "Chilling the meat before shaping helps it hold.",
+      "Wide flat skewers prevent spinning.",
+      "Don't overcook or it becomes dry."
+    ],
+    "difficulty": "easy",
+    "tags": ["egyptian", "grilled", "meat", "kebab", "street-food"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 4
+    },
+    "nutrition_benefits": "High protein from mixed meats. Fresh herbs add vitamins. A popular protein-rich dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "eg-falafel",
+    "slug": "taamiya",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Ta'amiya (Egyptian Falafel)",
+    "short_description": "Egyptian falafel made with fava beans instead of chickpeas, bright green inside and crispy outside.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      { "name": "dried split fava beans", "amount": 400, "unit": "g" },
+      { "name": "fresh cilantro", "amount": 1, "unit": "cup" },
+      { "name": "fresh parsley", "amount": 1, "unit": "cup" },
+      { "name": "fresh dill", "amount": 0.5, "unit": "cup" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "coriander", "amount": 1, "unit": "tsp" },
+      { "name": "sesame seeds", "amount": 50, "unit": "g" },
+      { "name": "vegetable oil for frying", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Soak fava beans overnight, then drain.",
+      "Blend beans with herbs, onion, and garlic.",
+      "Add spices and blend until smooth but not pasty.",
+      "Let mixture rest for 30 minutes.",
+      "Shape into flat discs.",
+      "Dip in sesame seeds.",
+      "Deep fry until dark golden.",
+      "Drain on paper towels.",
+      "Serve in pita with tahini and vegetables.",
+      "Best eaten immediately while crispy."
+    ],
+    "cooking_tips": [
+      "The mixture should be green from all the herbs.",
+      "Don't use canned beans - only dried work.",
+      "Egyptian ta'amiya is flatter than Levantine falafel."
+    ],
+    "difficulty": "medium",
+    "tags": ["egyptian", "vegan", "fried", "street-food", "breakfast"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 14,
+      "fat_g": 12,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Fava beans are high in protein and fiber. Fresh herbs add vitamins and antioxidants.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "eg-ful-medames",
+    "slug": "ful-medames",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Ful Medames",
+    "short_description": "Slow-cooked fava beans mashed with garlic, lemon, and olive oil. Egypt's national breakfast dish.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 480,
+    "servings": 6,
+    "ingredients": [
+      { "name": "dried fava beans", "amount": 500, "unit": "g" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "lemon juice", "amount": 60, "unit": "ml" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" },
+      { "name": "fresh parsley", "amount": 0.25, "unit": "cup" }
+    ],
+    "steps": [
+      "Soak fava beans overnight.",
+      "Cook in fresh water on very low heat for 6-8 hours.",
+      "Traditional method uses special pot called 'idra'.",
+      "Beans should be very soft and creamy.",
+      "Drain, reserving some cooking liquid.",
+      "Mash some beans, leave others whole.",
+      "Add crushed garlic, lemon juice, and cumin.",
+      "Drizzle generously with olive oil.",
+      "Garnish with parsley.",
+      "Serve with bread and fresh vegetables."
+    ],
+    "cooking_tips": [
+      "Slow cooking is essential for creamy texture.",
+      "Can use pressure cooker for faster results.",
+      "Traditionally sold from large copper pots on street corners."
+    ],
+    "difficulty": "easy",
+    "tags": ["egyptian", "vegan", "breakfast", "beans", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 12,
+      "carbs_g": 40
+    },
+    "nutrition_benefits": "Excellent plant protein source. High in fiber and iron. Olive oil provides healthy fats.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "eg-kushari",
+    "slug": "alexandrian-liver",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Alexandrian Liver (Kibda Iskandarani)",
+    "short_description": "Spicy sautéed liver with peppers and garlic, a beloved Egyptian street food from Alexandria.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      { "name": "beef or lamb liver", "amount": 500, "unit": "g" },
+      { "name": "bell peppers", "amount": 2, "unit": "pc" },
+      { "name": "garlic cloves", "amount": 6, "unit": "pc" },
+      { "name": "green chili", "amount": 2, "unit": "pc" },
+      { "name": "cumin", "amount": 1, "unit": "tbsp" },
+      { "name": "coriander", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable oil", "amount": 60, "unit": "ml" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cut liver into small cubes.",
+      "Slice peppers and garlic.",
+      "Heat oil in a large pan until very hot.",
+      "Add liver and sear quickly.",
+      "Add peppers, garlic, and chilies.",
+      "Season with cumin, coriander, and salt.",
+      "Cook on high heat for 3-4 minutes.",
+      "Liver should be cooked but still pink inside.",
+      "Serve immediately in pita bread.",
+      "Top with tahini if desired."
+    ],
+    "cooking_tips": [
+      "Very high heat is essential for proper searing.",
+      "Don't overcook or liver becomes rubbery.",
+      "Best eaten as a sandwich in baladi bread."
+    ],
+    "difficulty": "easy",
+    "tags": ["egyptian", "liver", "street-food", "quick", "alexandria"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 26,
+      "fat_g": 16,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Liver is extremely rich in iron and vitamin A. High in B vitamins. Very nutritious.",
+    "mealType": "Lunch",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "eg-hawawshi",
+    "slug": "hawawshi",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Hawawshi",
+    "short_description": "Spiced ground meat stuffed in Egyptian bread and baked until crispy. A popular street food.",
+    "prep_time_minutes": 25,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      { "name": "ground beef", "amount": 500, "unit": "g" },
+      { "name": "Egyptian baladi bread", "amount": 6, "unit": "pc" },
+      { "name": "onion", "amount": 2, "unit": "medium" },
+      { "name": "green pepper", "amount": 1, "unit": "pc" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Finely chop onion and pepper.",
+      "Mix meat with vegetables and spices.",
+      "Cut bread to create pocket.",
+      "Stuff meat mixture generously inside.",
+      "Press to flatten and distribute meat.",
+      "Brush outside with oil.",
+      "Bake at 425°F until bread is crispy.",
+      "Alternatively, cook in a special press.",
+      "Cut into quarters to serve.",
+      "Accompany with tahini and pickles."
+    ],
+    "cooking_tips": [
+      "Don't overstuff or bread will tear.",
+      "The outside should be very crispy.",
+      "Traditional bakeries use a special coal-heated press."
+    ],
+    "difficulty": "easy",
+    "tags": ["egyptian", "street-food", "meat", "baked", "sandwich"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 18,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Good source of protein. Whole grain bread provides fiber. A satisfying meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "eg-shawarma",
+    "slug": "egyptian-shawarma",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Egyptian Shawarma",
+    "short_description": "Marinated meat stacked on a vertical spit, shaved and served in bread with tahini and pickles.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 60,
+    "servings": 8,
+    "ingredients": [
+      { "name": "beef or chicken", "amount": 1, "unit": "kg" },
+      { "name": "onion", "amount": 2, "unit": "large" },
+      { "name": "garlic", "amount": 6, "unit": "cloves" },
+      { "name": "vinegar", "amount": 60, "unit": "ml" },
+      { "name": "cardamom", "amount": 1, "unit": "tsp" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "tahini sauce", "amount": 200, "unit": "ml" },
+      { "name": "pita bread", "amount": 8, "unit": "pc" }
+    ],
+    "steps": [
+      "Slice meat very thin.",
+      "Blend onion, garlic, and spices.",
+      "Marinate meat for at least 4 hours.",
+      "Layer meat on vertical spit (or in oven).",
+      "Roast slowly, basting with drippings.",
+      "Shave cooked outer layer as it crisps.",
+      "Serve in pita with tahini.",
+      "Add pickles and fresh vegetables.",
+      "Wrap tightly in foil.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Home version can be made in oven with stacked meat.",
+      "The key is thin slicing and slow cooking.",
+      "Egyptian style uses more spices than Lebanese."
+    ],
+    "difficulty": "medium",
+    "tags": ["egyptian", "street-food", "meat", "sandwich", "grilled"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 32,
+      "fat_g": 18,
+      "carbs_g": 26
+    },
+    "nutrition_benefits": "High protein content. The spices have anti-inflammatory properties. Satisfying and filling.",
+    "mealType": "Lunch",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "eg-mulukhiyah-bil-arnab",
+    "slug": "mulukhiyah-rabbit",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Mulukhiyah with Rabbit",
+    "short_description": "Traditional Upper Egyptian version of molokhia made with rabbit, considered the most authentic preparation.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "whole rabbit", "amount": 1, "unit": "pc" },
+      { "name": "molokhia leaves", "amount": 600, "unit": "g" },
+      { "name": "garlic cloves", "amount": 12, "unit": "pc" },
+      { "name": "ground coriander", "amount": 3, "unit": "tbsp" },
+      { "name": "ghee", "amount": 80, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Clean and cut rabbit into portions.",
+      "Boil rabbit with onion until tender.",
+      "Reserve the flavorful broth.",
+      "Finely chop molokhia leaves.",
+      "Bring rabbit broth to a boil.",
+      "Add molokhia and simmer without covering.",
+      "Make ta'aleya with garlic and coriander.",
+      "Pour garlic mixture into soup.",
+      "Serve over rice with rabbit pieces.",
+      "Drizzle with extra ghee."
+    ],
+    "cooking_tips": [
+      "Rabbit gives the richest flavor.",
+      "Never cover molokhia while cooking.",
+      "This is how it's made in Minya and Assiut."
+    ],
+    "difficulty": "medium",
+    "tags": ["egyptian", "soup", "rabbit", "traditional", "upper-egypt"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 36,
+      "fat_g": 22,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Rabbit is leaner than chicken. Molokhia is a superfood. Very nutritious traditional dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "eg-roz-bil-laban",
+    "slug": "roz-bil-laban",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Roz bil Laban",
+    "short_description": "Egyptian rice pudding flavored with rose water and cinnamon. A beloved dessert served cold.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "short-grain rice", "amount": 150, "unit": "g" },
+      { "name": "milk", "amount": 1, "unit": "L" },
+      { "name": "sugar", "amount": 150, "unit": "g" },
+      { "name": "rose water", "amount": 2, "unit": "tbsp" },
+      { "name": "ground cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "pistachios", "amount": 30, "unit": "g" }
+    ],
+    "steps": [
+      "Rinse rice until water runs clear.",
+      "Cook rice with water until half done.",
+      "Add milk and bring to gentle simmer.",
+      "Stir frequently to prevent sticking.",
+      "Cook until rice is very soft and creamy.",
+      "Add sugar and stir until dissolved.",
+      "Remove from heat, add rose water.",
+      "Pour into serving dishes.",
+      "Refrigerate until cold.",
+      "Top with cinnamon and crushed pistachios."
+    ],
+    "cooking_tips": [
+      "Stir constantly to achieve creamy texture.",
+      "Can be served warm or cold.",
+      "Often sold by street vendors."
+    ],
+    "difficulty": "easy",
+    "tags": ["egyptian", "dessert", "rice-pudding", "cold", "sweet"],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 6,
+      "fat_g": 6,
+      "carbs_g": 46
+    },
+    "nutrition_benefits": "Milk provides calcium and protein. A comforting, mild dessert. Rose water aids digestion.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "eg-basbousa",
+    "slug": "basbousa",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Basbousa",
+    "short_description": "Semolina cake soaked in sweet syrup, topped with almonds. A classic Egyptian dessert.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 35,
+    "servings": 16,
+    "ingredients": [
+      { "name": "fine semolina", "amount": 400, "unit": "g" },
+      { "name": "sugar", "amount": 200, "unit": "g" },
+      { "name": "butter", "amount": 150, "unit": "g" },
+      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "baking powder", "amount": 1.5, "unit": "tsp" },
+      { "name": "blanched almonds", "amount": 20, "unit": "pc" },
+      { "name": "sugar syrup", "amount": 400, "unit": "ml" },
+      { "name": "rose water", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Mix semolina, sugar, and baking powder.",
+      "Add melted butter and yogurt.",
+      "Mix until well combined.",
+      "Let rest 30 minutes.",
+      "Spread in greased baking pan.",
+      "Score into diamond shapes.",
+      "Place an almond on each piece.",
+      "Bake at 350°F until golden.",
+      "Pour cold syrup over hot cake.",
+      "Let soak before serving."
+    ],
+    "cooking_tips": [
+      "Cold syrup on hot cake is key.",
+      "The tahini underneath is traditional.",
+      "Best served at room temperature."
+    ],
+    "difficulty": "easy",
+    "tags": ["egyptian", "dessert", "semolina", "syrup", "sweet"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 44
+    },
+    "nutrition_benefits": "Semolina provides carbohydrates. A sweet treat best enjoyed in moderation.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "eg-kunafa",
+    "slug": "egyptian-kunafa",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Egyptian Kunafa",
+    "short_description": "Crispy shredded phyllo pastry layered with cream and soaked in syrup. A Ramadan favorite.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      { "name": "kataifi pastry", "amount": 500, "unit": "g" },
+      { "name": "butter", "amount": 200, "unit": "g" },
+      { "name": "ashta (cream)", "amount": 500, "unit": "g" },
+      { "name": "sugar", "amount": 400, "unit": "g" },
+      { "name": "water", "amount": 300, "unit": "ml" },
+      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
+      { "name": "rose water", "amount": 2, "unit": "tbsp" },
+      { "name": "pistachios", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Shred kataifi and mix with melted butter.",
+      "Press half into a baking pan.",
+      "Spread cream filling evenly.",
+      "Top with remaining pastry.",
+      "Press down firmly.",
+      "Bake at 375°F until golden on top and bottom.",
+      "Make syrup by boiling sugar and water.",
+      "Add lemon juice and rose water.",
+      "Pour cold syrup over hot kunafa.",
+      "Top with crushed pistachios."
+    ],
+    "cooking_tips": [
+      "Can flip to brown both sides.",
+      "The cream should be thick, not runny.",
+      "Best served warm."
+    ],
+    "difficulty": "medium",
+    "tags": ["egyptian", "dessert", "pastry", "ramadan", "sweet"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 6,
+      "fat_g": 22,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "A rich treat for special occasions. The cream provides calcium.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "eg-om-ali",
+    "slug": "om-ali",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Om Ali",
+    "short_description": "Egyptian bread pudding made with puff pastry, nuts, and cream. Named after a historic queen.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      { "name": "puff pastry", "amount": 500, "unit": "g" },
+      { "name": "whole milk", "amount": 1, "unit": "L" },
+      { "name": "heavy cream", "amount": 250, "unit": "ml" },
+      { "name": "sugar", "amount": 150, "unit": "g" },
+      { "name": "mixed nuts", "amount": 150, "unit": "g" },
+      { "name": "raisins", "amount": 50, "unit": "g" },
+      { "name": "coconut flakes", "amount": 50, "unit": "g" },
+      { "name": "vanilla", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Bake puff pastry until golden and crispy.",
+      "Break into small pieces.",
+      "Toast nuts lightly.",
+      "Layer pastry, nuts, raisins, and coconut in baking dish.",
+      "Heat milk with sugar and vanilla.",
+      "Pour hot milk over pastry layers.",
+      "Let soak for 10 minutes.",
+      "Add cream on top.",
+      "Broil until top is golden and bubbly.",
+      "Serve warm in individual dishes."
+    ],
+    "cooking_tips": [
+      "Traditional version uses rokak bread.",
+      "Must be served hot from the oven.",
+      "Named after the wife of a Mamluk sultan."
+    ],
+    "difficulty": "easy",
+    "tags": ["egyptian", "dessert", "bread-pudding", "nuts", "cream"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 10,
+      "fat_g": 32,
+      "carbs_g": 50
+    },
+    "nutrition_benefits": "Nuts provide protein and healthy fats. A rich, indulgent dessert.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "eg-feteer-meshaltet",
+    "slug": "feteer-meshaltet",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Feteer Meshaltet",
+    "short_description": "Flaky Egyptian layered pastry that can be sweet or savory. A labor of love with many buttered layers.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "butter or ghee", "amount": 300, "unit": "g" },
+      { "name": "sugar", "amount": 50, "unit": "g" },
+      { "name": "salt", "amount": 1, "unit": "tsp" },
+      { "name": "warm water", "amount": 250, "unit": "ml" },
+      { "name": "honey for serving", "amount": 100, "unit": "ml" }
+    ],
+    "steps": [
+      "Make soft dough with flour, salt, sugar, and water.",
+      "Knead until very smooth and elastic.",
+      "Rest for 1 hour covered.",
+      "Divide into portions.",
+      "Stretch each portion paper-thin on oiled surface.",
+      "Brush generously with melted butter.",
+      "Fold into layers repeatedly.",
+      "Let rest briefly.",
+      "Stretch again and fold.",
+      "Bake at 400°F until golden and flaky."
+    ],
+    "cooking_tips": [
+      "The dough should be stretched see-through thin.",
+      "More layers mean flakier pastry.",
+      "Can be filled with cheese or meat for savory version."
+    ],
+    "difficulty": "hard",
+    "tags": ["egyptian", "pastry", "breakfast", "sweet", "flaky"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 8,
+      "fat_g": 28,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Provides energy from carbohydrates. The honey adds natural sweetness.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "eg-hamam-mahshi",
+    "slug": "hamam-mahshi",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Hamam Mahshi (Stuffed Pigeon)",
+    "short_description": "Whole pigeons stuffed with freekeh and roasted until golden. A delicacy in Egyptian cuisine.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      { "name": "whole pigeons", "amount": 4, "unit": "pc" },
+      { "name": "freekeh", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "butter", "amount": 80, "unit": "g" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "allspice", "amount": 0.5, "unit": "tsp" },
+      { "name": "cardamom", "amount": 0.25, "unit": "tsp" },
+      { "name": "chicken broth", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Clean pigeons thoroughly inside and out.",
+      "Sauté diced onion in butter.",
+      "Add freekeh and toast briefly.",
+      "Add spices and broth.",
+      "Cook freekeh until half done.",
+      "Stuff each pigeon with freekeh mixture.",
+      "Sew or skewer closed.",
+      "Rub with butter and season.",
+      "Roast at 400°F until golden and cooked through.",
+      "Serve with remaining freekeh on the side."
+    ],
+    "cooking_tips": [
+      "Squab can substitute for pigeon.",
+      "Freekeh is smoky green wheat.",
+      "A festive dish for special occasions."
+    ],
+    "difficulty": "hard",
+    "tags": ["egyptian", "pigeon", "stuffed", "festive", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 42,
+      "fat_g": 28,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "Pigeon is high in protein. Freekeh is a nutritious ancient grain. A protein-rich feast.",
+    "mealType": "Dinner",
+    "dietaryStyle": "High Protein"
+  },
+  {
+    "id": "eg-besara",
+    "slug": "besara",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Besara",
+    "short_description": "A creamy fava bean dip flavored with herbs and garlic, drizzled with olive oil. A rustic Egyptian appetizer.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      { "name": "dried split fava beans", "amount": 300, "unit": "g" },
+      { "name": "fresh dill", "amount": 1, "unit": "cup" },
+      { "name": "fresh parsley", "amount": 0.5, "unit": "cup" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "coriander", "amount": 0.5, "unit": "tsp" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak fava beans for 4 hours.",
+      "Cook until very soft.",
+      "Blend with fresh herbs until smooth.",
+      "Add garlic, cumin, and coriander.",
+      "Season with salt.",
+      "Blend until creamy.",
+      "Spread on a plate.",
+      "Drizzle generously with olive oil.",
+      "Sprinkle with extra cumin.",
+      "Serve with bread."
+    ],
+    "cooking_tips": [
+      "The dip should be bright green from herbs.",
+      "Can be served warm or at room temperature.",
+      "Similar to Levantine bissara."
+    ],
+    "difficulty": "easy",
+    "tags": ["egyptian", "dip", "vegan", "appetizer", "herbs"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 10,
+      "fat_g": 12,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Fava beans provide plant protein. Fresh herbs add vitamins. Olive oil is heart-healthy.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "eg-shakshuka",
+    "slug": "egyptian-shakshuka",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Egyptian Shakshuka",
+    "short_description": "Eggs poached in spiced tomato sauce with peppers. A popular breakfast dish throughout Egypt.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "eggs", "amount": 6, "unit": "pc" },
+      { "name": "tomatoes", "amount": 6, "unit": "medium" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "bell pepper", "amount": 1, "unit": "pc" },
+      { "name": "garlic cloves", "amount": 3, "unit": "pc" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 45, "unit": "ml" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Sauté onion and pepper in olive oil.",
+      "Add garlic and cook briefly.",
+      "Add chopped tomatoes and spices.",
+      "Simmer until sauce thickens.",
+      "Make wells in the sauce.",
+      "Crack eggs into wells.",
+      "Cover and cook until whites set.",
+      "Yolks should remain runny.",
+      "Season with salt and pepper.",
+      "Serve in the pan with bread."
+    ],
+    "cooking_tips": [
+      "Don't stir after adding eggs.",
+      "Cover helps cook egg whites evenly.",
+      "A one-pan breakfast classic."
+    ],
+    "difficulty": "easy",
+    "tags": ["egyptian", "breakfast", "eggs", "tomato", "one-pan"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 12,
+      "fat_g": 14,
+      "carbs_g": 12
+    },
+    "nutrition_benefits": "Eggs provide complete protein. Tomatoes are rich in lycopene. A nutritious breakfast.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "eg-dukkah",
+    "slug": "dukkah",
+    "country": "Egypt",
+    "country_slug": "egypt",
+    "name_en": "Dukkah",
+    "short_description": "An Egyptian nut and spice blend used as a dip with bread and olive oil. Addictively crunchy.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 10,
+    "servings": 20,
+    "ingredients": [
+      { "name": "hazelnuts", "amount": 100, "unit": "g" },
+      { "name": "sesame seeds", "amount": 50, "unit": "g" },
+      { "name": "coriander seeds", "amount": 30, "unit": "g" },
+      { "name": "cumin seeds", "amount": 20, "unit": "g" },
+      { "name": "black pepper", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Toast hazelnuts until fragrant and skins loosen.",
+      "Remove skins by rubbing in a towel.",
+      "Toast sesame seeds until golden.",
+      "Toast coriander and cumin seeds.",
+      "Let all ingredients cool.",
+      "Pulse nuts coarsely in food processor.",
+      "Add toasted spices and pulse.",
+      "Add sesame seeds and salt.",
+      "Pulse to coarse texture - not a powder.",
+      "Store in airtight container."
+    ],
+    "cooking_tips": [
+      "Must remain crunchy, not powdery.",
+      "Dip bread in oil, then in dukkah.",
+      "Also great on salads and vegetables."
+    ],
+    "difficulty": "easy",
+    "tags": ["egyptian", "condiment", "nuts", "spice-blend", "vegan"],
+    "nutrition": {
+      "per_serving_kcal": 80,
+      "protein_g": 2,
+      "fat_g": 7,
+      "carbs_g": 3
+    },
+    "nutrition_benefits": "Nuts provide healthy fats. Sesame adds calcium. A nutritious condiment.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
   }
 ]

@@ -590,5 +590,905 @@
     "nutrition_benefits": "Dosa is naturally gluten-free and the fermentation process increases the bioavailability of nutrients. The combination of rice and lentils provides complete protein. It's light yet satisfying and easily digestible.",
     "mealType": "Breakfast",
     "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "in-palak-paneer",
+    "slug": "palak-paneer",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Palak Paneer",
+    "short_description": "Creamy spinach curry with cubes of fresh Indian cheese. A beloved North Indian vegetarian classic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "fresh spinach", "amount": 500, "unit": "g" },
+      { "name": "paneer", "amount": 250, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "tomatoes", "amount": 2, "unit": "medium" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "ginger", "amount": 1, "unit": "inch" },
+      { "name": "green chilies", "amount": 2, "unit": "pc" },
+      { "name": "cream", "amount": 60, "unit": "ml" },
+      { "name": "garam masala", "amount": 1, "unit": "tsp" },
+      { "name": "cumin seeds", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Blanch spinach in boiling water for 2 minutes.",
+      "Immediately transfer to ice water to retain color.",
+      "Blend spinach into smooth puree.",
+      "Cut paneer into cubes and lightly fry until golden.",
+      "Sauté cumin, then add onion, ginger, garlic.",
+      "Add tomatoes and cook until soft.",
+      "Add spinach puree and spices.",
+      "Simmer for 10 minutes.",
+      "Add paneer cubes and cream.",
+      "Serve with naan or rice."
+    ],
+    "cooking_tips": [
+      "Blanching keeps spinach bright green.",
+      "Don't overcook the spinach puree.",
+      "Frying paneer adds texture but is optional."
+    ],
+    "difficulty": "medium",
+    "tags": ["indian", "vegetarian", "curry", "spinach", "paneer"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 16,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Spinach is rich in iron and vitamins. Paneer provides protein and calcium.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-dal-makhani",
+    "slug": "dal-makhani",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Dal Makhani",
+    "short_description": "Black lentils slow-cooked with butter and cream. The queen of all dals from Punjab.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 240,
+    "servings": 6,
+    "ingredients": [
+      { "name": "whole black lentils (urad)", "amount": 200, "unit": "g" },
+      { "name": "kidney beans", "amount": 50, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "cream", "amount": 100, "unit": "ml" },
+      { "name": "tomato puree", "amount": 200, "unit": "ml" },
+      { "name": "ginger-garlic paste", "amount": 2, "unit": "tbsp" },
+      { "name": "kashmiri chili", "amount": 2, "unit": "tsp" },
+      { "name": "garam masala", "amount": 1, "unit": "tsp" },
+      { "name": "kasoori methi", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Soak lentils and beans overnight.",
+      "Pressure cook until very soft.",
+      "Mash some lentils against the pot.",
+      "In another pan, sauté ginger-garlic in butter.",
+      "Add tomato puree and spices.",
+      "Cook until oil separates.",
+      "Add to the lentils.",
+      "Simmer on low for 2-3 hours, stirring occasionally.",
+      "Add cream and more butter before serving.",
+      "Garnish with kasoori methi and cream swirl."
+    ],
+    "cooking_tips": [
+      "Low and slow cooking is essential.",
+      "Traditional method cooks overnight on charcoal.",
+      "The dal should be creamy, not watery."
+    ],
+    "difficulty": "medium",
+    "tags": ["indian", "punjabi", "dal", "creamy", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 22,
+      "carbs_g": 34
+    },
+    "nutrition_benefits": "Lentils provide plant protein and fiber. A rich, indulgent comfort food.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-rogan-josh",
+    "slug": "rogan-josh",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Rogan Josh",
+    "short_description": "Aromatic Kashmiri lamb curry with a deep red color from Kashmiri chilies. A royal Mughlai dish.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 800, "unit": "g" },
+      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "kashmiri chili powder", "amount": 3, "unit": "tbsp" },
+      { "name": "fennel powder", "amount": 2, "unit": "tsp" },
+      { "name": "ginger powder", "amount": 2, "unit": "tsp" },
+      { "name": "cardamom pods", "amount": 6, "unit": "pc" },
+      { "name": "cinnamon stick", "amount": 2, "unit": "pc" },
+      { "name": "cloves", "amount": 6, "unit": "pc" },
+      { "name": "ghee", "amount": 80, "unit": "g" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cut lamb into large chunks.",
+      "Heat ghee and add whole spices.",
+      "Add lamb and sear on all sides.",
+      "Add Kashmiri chili powder for color.",
+      "Stir well to coat meat.",
+      "Add ginger and fennel powder.",
+      "Add yogurt gradually, stirring constantly.",
+      "Cover and simmer until lamb is tender.",
+      "The sauce should be thick and red.",
+      "Serve with steamed rice or naan."
+    ],
+    "cooking_tips": [
+      "Kashmiri chilies give color, not heat.",
+      "Authentic recipe doesn't use onion or garlic.",
+      "The oil should separate when done."
+    ],
+    "difficulty": "medium",
+    "tags": ["indian", "kashmiri", "lamb", "curry", "mughlai"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 36,
+      "fat_g": 28,
+      "carbs_g": 8
+    },
+    "nutrition_benefits": "Lamb provides protein and iron. Aromatic spices aid digestion.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "in-chole-bhature",
+    "slug": "chole-bhature",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Chole Bhature",
+    "short_description": "Spicy chickpea curry served with puffy fried bread. A Punjabi breakfast that's hearty enough for dinner.",
+    "prep_time_minutes": 40,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "chickpeas", "amount": 400, "unit": "g" },
+      { "name": "tea bags", "amount": 2, "unit": "pc" },
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "yogurt", "amount": 100, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "large" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "chole masala", "amount": 2, "unit": "tbsp" },
+      { "name": "amchur", "amount": 1, "unit": "tsp" },
+      { "name": "oil for frying", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Soak chickpeas overnight with tea bags for dark color.",
+      "Pressure cook until very soft.",
+      "Make dough with flour, yogurt, and oil.",
+      "Let rest for 2 hours.",
+      "Sauté onions until golden.",
+      "Add tomatoes and cook down.",
+      "Add spices and chickpeas.",
+      "Simmer until gravy thickens.",
+      "Roll and fry bhature until puffed.",
+      "Serve hot with pickled onions."
+    ],
+    "cooking_tips": [
+      "Tea gives chickpeas authentic dark color.",
+      "Bhature should puff up completely.",
+      "Serve with lassi to balance the richness."
+    ],
+    "difficulty": "medium",
+    "tags": ["indian", "punjabi", "breakfast", "street-food", "chickpeas"],
+    "nutrition": {
+      "per_serving_kcal": 520,
+      "protein_g": 16,
+      "fat_g": 24,
+      "carbs_g": 62
+    },
+    "nutrition_benefits": "Chickpeas provide protein and fiber. A filling, satisfying meal.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-samosa",
+    "slug": "samosa",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Samosa",
+    "short_description": "Crispy triangular pastries stuffed with spiced potatoes and peas. India's most famous snack.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 30,
+    "servings": 12,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 250, "unit": "g" },
+      { "name": "potatoes", "amount": 500, "unit": "g" },
+      { "name": "green peas", "amount": 100, "unit": "g" },
+      { "name": "cumin seeds", "amount": 1, "unit": "tsp" },
+      { "name": "garam masala", "amount": 1, "unit": "tsp" },
+      { "name": "amchur", "amount": 1, "unit": "tsp" },
+      { "name": "green chilies", "amount": 2, "unit": "pc" },
+      { "name": "ghee", "amount": 60, "unit": "g" },
+      { "name": "oil for frying", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Make dough with flour, ghee, and water.",
+      "Knead until smooth, rest 30 minutes.",
+      "Boil and roughly mash potatoes.",
+      "Sauté cumin seeds, add chilies and peas.",
+      "Add potatoes and all spices.",
+      "Cool the filling completely.",
+      "Roll dough, cut into semicircles.",
+      "Form cones and stuff with filling.",
+      "Seal edges with water paste.",
+      "Deep fry on medium heat until golden."
+    ],
+    "cooking_tips": [
+      "Fry on medium heat for crispy texture.",
+      "The dough should be firm, not soft.",
+      "Let them drain well before serving."
+    ],
+    "difficulty": "medium",
+    "tags": ["indian", "snack", "fried", "street-food", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Potatoes provide carbohydrates. Peas add fiber. A classic tea-time snack.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "in-biryani-hyderabadi",
+    "slug": "hyderabadi-biryani",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Hyderabadi Biryani",
+    "short_description": "Layered rice and meat dish slow-cooked in a sealed pot. The crown jewel of Hyderabadi cuisine.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      { "name": "basmati rice", "amount": 500, "unit": "g" },
+      { "name": "lamb or chicken", "amount": 800, "unit": "g" },
+      { "name": "yogurt", "amount": 300, "unit": "g" },
+      { "name": "fried onions", "amount": 200, "unit": "g" },
+      { "name": "saffron", "amount": 1, "unit": "g" },
+      { "name": "warm milk", "amount": 100, "unit": "ml" },
+      { "name": "biryani masala", "amount": 3, "unit": "tbsp" },
+      { "name": "ghee", "amount": 100, "unit": "g" },
+      { "name": "mint leaves", "amount": 1, "unit": "cup" },
+      { "name": "green chilies", "amount": 6, "unit": "pc" }
+    ],
+    "steps": [
+      "Marinate meat with yogurt, spices, and half the onions.",
+      "Soak rice for 30 minutes.",
+      "Parboil rice until 70% cooked.",
+      "Soak saffron in warm milk.",
+      "Layer marinated meat at bottom of heavy pot.",
+      "Add layer of rice.",
+      "Sprinkle with saffron milk, mint, and fried onions.",
+      "Repeat layers.",
+      "Seal pot with dough or foil.",
+      "Cook on dum (low heat) for 45 minutes."
+    ],
+    "cooking_tips": [
+      "Dum cooking on very low heat is essential.",
+      "Each grain of rice should be separate.",
+      "Rest 10 minutes before opening."
+    ],
+    "difficulty": "hard",
+    "tags": ["indian", "hyderabadi", "rice", "biryani", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 28,
+      "fat_g": 26,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Complete meal with protein and carbs. Saffron has antioxidant properties.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "in-korma",
+    "slug": "chicken-korma",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Chicken Korma",
+    "short_description": "Mild, creamy curry made with yogurt and nuts. A Mughlai dish fit for royalty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "chicken", "amount": 800, "unit": "g" },
+      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "cashews", "amount": 100, "unit": "g" },
+      { "name": "cream", "amount": 100, "unit": "ml" },
+      { "name": "onion", "amount": 2, "unit": "large" },
+      { "name": "cardamom pods", "amount": 6, "unit": "pc" },
+      { "name": "cinnamon stick", "amount": 1, "unit": "pc" },
+      { "name": "saffron", "amount": 0.5, "unit": "g" },
+      { "name": "ghee", "amount": 60, "unit": "g" },
+      { "name": "rose water", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak cashews and blend into paste.",
+      "Fry sliced onions until golden.",
+      "Blend fried onions into paste.",
+      "Sauté whole spices in ghee.",
+      "Add chicken and brown lightly.",
+      "Add onion and cashew pastes.",
+      "Add yogurt and cook until oil separates.",
+      "Add water and simmer until chicken is done.",
+      "Finish with cream and rose water.",
+      "Garnish with saffron."
+    ],
+    "cooking_tips": [
+      "This curry should be mild and creamy.",
+      "Cashew paste makes it rich.",
+      "A royal dish from the Mughal courts."
+    ],
+    "difficulty": "medium",
+    "tags": ["indian", "mughlai", "chicken", "mild", "creamy"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 32,
+      "fat_g": 28,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Protein from chicken. Cashews add healthy fats. A rich, special occasion dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "in-aloo-gobi",
+    "slug": "aloo-gobi",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Aloo Gobi",
+    "short_description": "Dry curry of potatoes and cauliflower with aromatic spices. A everyday North Indian vegetable dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      { "name": "potatoes", "amount": 300, "unit": "g" },
+      { "name": "cauliflower", "amount": 400, "unit": "g" },
+      { "name": "cumin seeds", "amount": 1, "unit": "tsp" },
+      { "name": "turmeric", "amount": 0.5, "unit": "tsp" },
+      { "name": "coriander powder", "amount": 1, "unit": "tsp" },
+      { "name": "garam masala", "amount": 0.5, "unit": "tsp" },
+      { "name": "tomato", "amount": 1, "unit": "medium" },
+      { "name": "ginger", "amount": 1, "unit": "inch" },
+      { "name": "oil", "amount": 45, "unit": "ml" },
+      { "name": "fresh cilantro", "amount": 0.25, "unit": "cup" }
+    ],
+    "steps": [
+      "Cut potatoes and cauliflower into florets.",
+      "Heat oil and add cumin seeds.",
+      "Add ginger and cook briefly.",
+      "Add vegetables and turmeric.",
+      "Cover and cook on low, stirring occasionally.",
+      "Add tomato and remaining spices.",
+      "Cook until vegetables are tender.",
+      "The dish should be dry, not saucy.",
+      "Finish with garam masala.",
+      "Garnish with fresh cilantro."
+    ],
+    "cooking_tips": [
+      "Keep lid on to steam the vegetables.",
+      "Don't add water - vegetables release moisture.",
+      "Can add peas for color."
+    ],
+    "difficulty": "easy",
+    "tags": ["indian", "vegetarian", "vegan", "dry-curry", "everyday"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 22
+    },
+    "nutrition_benefits": "Cauliflower is high in vitamin C. A healthy, simple vegetable dish.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "in-rajma",
+    "slug": "rajma-chawal",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Rajma Chawal",
+    "short_description": "Kidney bean curry served over rice. The ultimate Punjabi comfort food.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "kidney beans", "amount": 250, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "large" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "ginger-garlic paste", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin seeds", "amount": 1, "unit": "tsp" },
+      { "name": "rajma masala", "amount": 2, "unit": "tbsp" },
+      { "name": "kashmiri chili", "amount": 1, "unit": "tsp" },
+      { "name": "ghee", "amount": 45, "unit": "g" },
+      { "name": "basmati rice", "amount": 300, "unit": "g" }
+    ],
+    "steps": [
+      "Soak kidney beans overnight.",
+      "Pressure cook until very soft.",
+      "Mash some beans for thick gravy.",
+      "Sauté cumin in ghee.",
+      "Add onions and cook until golden.",
+      "Add ginger-garlic paste.",
+      "Add tomatoes and spices.",
+      "Cook until oil separates.",
+      "Add beans with their water.",
+      "Simmer until thick. Serve over rice."
+    ],
+    "cooking_tips": [
+      "Beans must be thoroughly cooked.",
+      "The gravy should be thick and coat the beans.",
+      "Sunday lunch tradition in Punjabi homes."
+    ],
+    "difficulty": "easy",
+    "tags": ["indian", "punjabi", "beans", "comfort-food", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 14,
+      "fat_g": 10,
+      "carbs_g": 60
+    },
+    "nutrition_benefits": "Kidney beans are high in protein and fiber. Complete meal with rice.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-paneer-tikka",
+    "slug": "paneer-tikka",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Paneer Tikka",
+    "short_description": "Marinated paneer cubes grilled in a tandoor. The vegetarian's answer to chicken tikka.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "paneer", "amount": 400, "unit": "g" },
+      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "bell peppers", "amount": 2, "unit": "pc" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "kashmiri chili", "amount": 2, "unit": "tsp" },
+      { "name": "garam masala", "amount": 1, "unit": "tsp" },
+      { "name": "lemon juice", "amount": 30, "unit": "ml" },
+      { "name": "mustard oil", "amount": 30, "unit": "ml" },
+      { "name": "chaat masala", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cut paneer into 1-inch cubes.",
+      "Mix yogurt with all spices and oil.",
+      "Marinate paneer for at least 2 hours.",
+      "Cut vegetables into chunks.",
+      "Thread paneer and vegetables on skewers.",
+      "Grill in tandoor or oven at high heat.",
+      "Baste with butter while cooking.",
+      "Cook until slightly charred.",
+      "Sprinkle with chaat masala.",
+      "Serve with mint chutney."
+    ],
+    "cooking_tips": [
+      "Mustard oil adds authentic flavor.",
+      "High heat creates char marks.",
+      "Can also cook on grill or cast iron."
+    ],
+    "difficulty": "easy",
+    "tags": ["indian", "tandoori", "paneer", "appetizer", "grilled"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 18,
+      "fat_g": 24,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Paneer provides protein and calcium. Peppers add vitamin C.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-keema-matar",
+    "slug": "keema-matar",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Keema Matar",
+    "short_description": "Spiced minced meat with green peas. A beloved North Indian home-style dish.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 35,
+    "servings": 6,
+    "ingredients": [
+      { "name": "minced lamb or goat", "amount": 500, "unit": "g" },
+      { "name": "green peas", "amount": 150, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "large" },
+      { "name": "tomatoes", "amount": 2, "unit": "medium" },
+      { "name": "ginger-garlic paste", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin seeds", "amount": 1, "unit": "tsp" },
+      { "name": "coriander powder", "amount": 1, "unit": "tbsp" },
+      { "name": "garam masala", "amount": 1, "unit": "tsp" },
+      { "name": "ghee", "amount": 60, "unit": "g" }
+    ],
+    "steps": [
+      "Heat ghee and add cumin seeds.",
+      "Add onions and cook until golden.",
+      "Add ginger-garlic paste.",
+      "Add mince and cook until browned.",
+      "Add tomatoes and all spices.",
+      "Cook until oil separates.",
+      "Add peas and a little water.",
+      "Cover and simmer until peas are cooked.",
+      "The dish should be dry, not soupy.",
+      "Garnish with fresh cilantro and ginger."
+    ],
+    "cooking_tips": [
+      "Cook mince until completely browned.",
+      "Traditionally made very dry.",
+      "Serve with paratha or naan."
+    ],
+    "difficulty": "easy",
+    "tags": ["indian", "meat", "keema", "homestyle", "punjabi"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 22,
+      "fat_g": 22,
+      "carbs_g": 10
+    },
+    "nutrition_benefits": "Lamb provides protein and iron. Peas add fiber and vitamins.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "in-idli-sambar",
+    "slug": "idli-sambar",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Idli Sambar",
+    "short_description": "Steamed rice cakes served with lentil vegetable stew. The quintessential South Indian breakfast.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "idli rice", "amount": 200, "unit": "g" },
+      { "name": "urad dal", "amount": 100, "unit": "g" },
+      { "name": "toor dal", "amount": 150, "unit": "g" },
+      { "name": "sambar powder", "amount": 3, "unit": "tbsp" },
+      { "name": "drumstick", "amount": 1, "unit": "pc" },
+      { "name": "tamarind", "amount": 30, "unit": "g" },
+      { "name": "mustard seeds", "amount": 1, "unit": "tsp" },
+      { "name": "curry leaves", "amount": 10, "unit": "pc" },
+      { "name": "mixed vegetables", "amount": 200, "unit": "g" }
+    ],
+    "steps": [
+      "Soak rice and dal separately.",
+      "Grind into smooth batter.",
+      "Ferment overnight.",
+      "Steam in idli molds for 10 minutes.",
+      "For sambar: cook toor dal until soft.",
+      "Cook vegetables with tamarind water.",
+      "Add sambar powder and cooked dal.",
+      "Make tempering with mustard and curry leaves.",
+      "Add to sambar.",
+      "Serve idlis with hot sambar and coconut chutney."
+    ],
+    "cooking_tips": [
+      "Fermentation is key for fluffy idlis.",
+      "Sambar should be tangy and flavorful.",
+      "A complete, balanced breakfast."
+    ],
+    "difficulty": "medium",
+    "tags": ["indian", "south-indian", "breakfast", "fermented", "healthy"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 10,
+      "fat_g": 4,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Fermentation increases nutrients. Complete protein from rice and lentils.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "in-naan",
+    "slug": "naan-bread",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Naan",
+    "short_description": "Soft, pillowy leavened flatbread baked in a tandoor. The perfect vehicle for curries.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 15,
+    "servings": 8,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 400, "unit": "g" },
+      { "name": "yogurt", "amount": 100, "unit": "g" },
+      { "name": "yeast", "amount": 7, "unit": "g" },
+      { "name": "sugar", "amount": 1, "unit": "tsp" },
+      { "name": "baking powder", "amount": 0.5, "unit": "tsp" },
+      { "name": "milk", "amount": 100, "unit": "ml" },
+      { "name": "butter", "amount": 60, "unit": "g" },
+      { "name": "nigella seeds", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Activate yeast in warm milk with sugar.",
+      "Mix flour, yogurt, baking powder, and yeast mixture.",
+      "Knead into soft, smooth dough.",
+      "Let rise for 2 hours.",
+      "Divide into 8 portions.",
+      "Roll each into oval shape.",
+      "Stick to tandoor wall or cook on very hot cast iron.",
+      "Brush with butter immediately.",
+      "Sprinkle with nigella seeds if desired.",
+      "Serve hot with curry."
+    ],
+    "cooking_tips": [
+      "Dough should be slightly sticky.",
+      "Maximum heat gives best char.",
+      "Butter while still hot for best flavor."
+    ],
+    "difficulty": "medium",
+    "tags": ["indian", "bread", "tandoor", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 6,
+      "fat_g": 8,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Provides carbohydrates for energy. Yogurt adds probiotics.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-gulab-jamun",
+    "slug": "gulab-jamun",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Gulab Jamun",
+    "short_description": "Soft, syrup-soaked milk dumplings. India's most beloved sweet.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      { "name": "milk powder", "amount": 200, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 30, "unit": "g" },
+      { "name": "ghee", "amount": 30, "unit": "g" },
+      { "name": "milk", "amount": 60, "unit": "ml" },
+      { "name": "sugar", "amount": 400, "unit": "g" },
+      { "name": "water", "amount": 500, "unit": "ml" },
+      { "name": "cardamom", "amount": 4, "unit": "pods" },
+      { "name": "rose water", "amount": 2, "unit": "tsp" },
+      { "name": "oil for frying", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Mix milk powder, flour, and softened ghee.",
+      "Add milk gradually to form soft dough.",
+      "Shape into small smooth balls without cracks.",
+      "Make sugar syrup with cardamom.",
+      "Add rose water to syrup.",
+      "Heat oil on low temperature.",
+      "Fry balls slowly until deep brown.",
+      "Immediately soak in warm syrup.",
+      "Let absorb for at least 2 hours.",
+      "Serve warm or at room temperature."
+    ],
+    "cooking_tips": [
+      "Low temperature frying is crucial.",
+      "Balls must be crack-free for even soaking.",
+      "They should be soft and spongy."
+    ],
+    "difficulty": "medium",
+    "tags": ["indian", "dessert", "sweet", "festive", "fried"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 2,
+      "fat_g": 6,
+      "carbs_g": 30
+    },
+    "nutrition_benefits": "A special occasion treat. Rose water is calming.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-kheer",
+    "slug": "kheer",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Kheer",
+    "short_description": "Creamy Indian rice pudding flavored with cardamom and saffron. A festive dessert.",
+    "prep_time_minutes": 10,
+    "cooking_time_minutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "basmati rice", "amount": 60, "unit": "g" },
+      { "name": "whole milk", "amount": 1.5, "unit": "L" },
+      { "name": "sugar", "amount": 120, "unit": "g" },
+      { "name": "cardamom", "amount": 4, "unit": "pods" },
+      { "name": "saffron", "amount": 0.5, "unit": "g" },
+      { "name": "almonds", "amount": 30, "unit": "g" },
+      { "name": "pistachios", "amount": 20, "unit": "g" },
+      { "name": "rose water", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak rice for 30 minutes.",
+      "Bring milk to boil in heavy pan.",
+      "Add rice and reduce heat to low.",
+      "Stir frequently to prevent sticking.",
+      "Cook until rice is very soft and milk reduced.",
+      "Add sugar and cardamom.",
+      "Soak saffron in warm milk, add to kheer.",
+      "Cook until desired thickness.",
+      "Add nuts and rose water.",
+      "Serve warm or chilled."
+    ],
+    "cooking_tips": [
+      "Constant stirring prevents burning.",
+      "Should reduce to half its volume.",
+      "Made for every Indian celebration."
+    ],
+    "difficulty": "easy",
+    "tags": ["indian", "dessert", "rice-pudding", "festive", "sweet"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 8,
+      "fat_g": 10,
+      "carbs_g": 42
+    },
+    "nutrition_benefits": "Milk provides calcium. Saffron has antioxidant properties. Nuts add healthy fats.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-pani-puri",
+    "slug": "pani-puri",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Pani Puri",
+    "short_description": "Crispy hollow shells filled with spiced water, chickpeas, and potato. India's most fun street snack.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 30,
+    "servings": 8,
+    "ingredients": [
+      { "name": "semolina", "amount": 200, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 50, "unit": "g" },
+      { "name": "mint leaves", "amount": 1, "unit": "cup" },
+      { "name": "cilantro", "amount": 1, "unit": "cup" },
+      { "name": "tamarind", "amount": 50, "unit": "g" },
+      { "name": "green chili", "amount": 4, "unit": "pc" },
+      { "name": "chaat masala", "amount": 2, "unit": "tbsp" },
+      { "name": "boiled potatoes", "amount": 200, "unit": "g" },
+      { "name": "chickpeas", "amount": 100, "unit": "g" },
+      { "name": "black salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make dough with semolina and flour.",
+      "Roll very thin and cut into circles.",
+      "Deep fry until puffed and crispy.",
+      "Blend mint, cilantro, chili with water for green pani.",
+      "Make sweet tamarind chutney.",
+      "Mix mashed potato and chickpeas.",
+      "Add chaat masala to filling.",
+      "Make a hole in each puri.",
+      "Add filling.",
+      "Dip in flavored water and eat in one bite."
+    ],
+    "cooking_tips": [
+      "Puris must be crispy and hollow.",
+      "Eat immediately after filling.",
+      "The water should be spicy and tangy."
+    ],
+    "difficulty": "hard",
+    "tags": ["indian", "street-food", "snack", "chaat", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 4,
+      "fat_g": 8,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Fresh herbs provide vitamins. A fun, interactive snack experience.",
+    "mealType": "Snack",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "in-jalebi",
+    "slug": "jalebi",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Jalebi",
+    "short_description": "Crispy, pretzel-shaped sweets soaked in saffron syrup. Bright orange and irresistibly sweet.",
+    "prep_time_minutes": 240,
+    "cooking_time_minutes": 30,
+    "servings": 20,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 200, "unit": "g" },
+      { "name": "yogurt", "amount": 30, "unit": "g" },
+      { "name": "sugar", "amount": 400, "unit": "g" },
+      { "name": "water", "amount": 300, "unit": "ml" },
+      { "name": "saffron", "amount": 0.5, "unit": "g" },
+      { "name": "cardamom", "amount": 4, "unit": "pods" },
+      { "name": "ghee for frying", "amount": 500, "unit": "ml" },
+      { "name": "food color", "amount": 1, "unit": "pinch" }
+    ],
+    "steps": [
+      "Mix flour with yogurt and water.",
+      "Let batter ferment for 4-6 hours.",
+      "Batter should be bubbly and flowing.",
+      "Make one-string sugar syrup with saffron.",
+      "Heat ghee in wide pan.",
+      "Pour batter in circular motion to form spirals.",
+      "Fry until crispy.",
+      "Immediately soak in warm syrup.",
+      "Let drip and serve immediately.",
+      "Best eaten hot and crispy."
+    ],
+    "cooking_tips": [
+      "Fermentation creates the right texture.",
+      "Must be served immediately after making.",
+      "Traditional breakfast with rabri or poori."
+    ],
+    "difficulty": "medium",
+    "tags": ["indian", "dessert", "sweet", "fried", "festive"],
+    "nutrition": {
+      "per_serving_kcal": 160,
+      "protein_g": 2,
+      "fat_g": 8,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "A festive sweet treat. Saffron adds flavor and color.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "in-lassi",
+    "slug": "lassi",
+    "country": "India",
+    "country_slug": "india",
+    "name_en": "Lassi",
+    "short_description": "Refreshing yogurt drink that can be sweet or salted. Perfect for cooling down spicy meals.",
+    "prep_time_minutes": 5,
+    "cooking_time_minutes": 0,
+    "servings": 2,
+    "ingredients": [
+      { "name": "thick yogurt", "amount": 400, "unit": "g" },
+      { "name": "sugar or salt", "amount": 2, "unit": "tbsp" },
+      { "name": "ice cubes", "amount": 6, "unit": "pc" },
+      { "name": "cardamom", "amount": 2, "unit": "pods" },
+      { "name": "rose water", "amount": 1, "unit": "tsp" },
+      { "name": "mango pulp (for mango lassi)", "amount": 150, "unit": "g" }
+    ],
+    "steps": [
+      "Blend yogurt until smooth.",
+      "Add sugar (for sweet) or salt (for salted).",
+      "Add ice and blend again.",
+      "For sweet: add cardamom and rose water.",
+      "For mango: add mango pulp.",
+      "Blend until frothy.",
+      "Pour into tall glasses.",
+      "Top with cream if desired.",
+      "Sprinkle with cardamom.",
+      "Serve immediately."
+    ],
+    "cooking_tips": [
+      "Use thick, creamy yogurt.",
+      "Sweet lassi goes well with spicy food.",
+      "Salted lassi is more refreshing."
+    ],
+    "difficulty": "easy",
+    "tags": ["indian", "drink", "yogurt", "refreshing", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 180,
+      "protein_g": 8,
+      "fat_g": 6,
+      "carbs_g": 24
+    },
+    "nutrition_benefits": "Yogurt provides probiotics. Cooling effect on digestion. Calcium-rich.",
+    "mealType": "Drink",
+    "dietaryStyle": "Vegetarian"
   }
 ]

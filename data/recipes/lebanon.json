@@ -1323,5 +1323,869 @@
     "nutrition_benefits": "Dates provide natural sweetness and fiber. Walnuts add omega-3 fatty acids. Rose water has calming properties.",
     "mealType": "Dessert",
     "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "lb-mujaddara",
+    "slug": "lebanese-mujaddara",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Lebanese Mujaddara",
+    "short_description": "Lentils and rice with crispy caramelized onions. A humble dish elevated to perfection.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 50,
+    "servings": 6,
+    "ingredients": [
+      { "name": "brown or green lentils", "amount": 200, "unit": "g" },
+      { "name": "long-grain rice", "amount": 200, "unit": "g" },
+      { "name": "large onions", "amount": 4, "unit": "pc" },
+      { "name": "olive oil", "amount": 150, "unit": "ml" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 2, "unit": "tsp" }
+    ],
+    "steps": [
+      "Slice onions into thin half-moons.",
+      "Fry onions in oil until deeply caramelized.",
+      "Reserve most onions for topping.",
+      "Cook lentils until almost tender.",
+      "Add rice, remaining onions, and cumin.",
+      "Add water and salt.",
+      "Cover and cook until rice is done.",
+      "Fluff with fork.",
+      "Top with crispy caramelized onions.",
+      "Serve with yogurt and fresh vegetables."
+    ],
+    "cooking_tips": [
+      "The onions should be dark brown, not burnt.",
+      "Patient caramelizing is key to flavor.",
+      "A beloved comfort food in Lebanon."
+    ],
+    "difficulty": "easy",
+    "tags": ["lebanese", "vegan", "lentils", "rice", "comfort-food"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 12,
+      "fat_g": 18,
+      "carbs_g": 46
+    },
+    "nutrition_benefits": "Lentils provide protein and fiber. Complete amino acids when combined with rice. Very nutritious.",
+    "mealType": "Dinner",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "lb-kibbeh-nayeh",
+    "slug": "kibbeh-nayeh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Kibbeh Nayeh",
+    "short_description": "Raw lamb and bulgur prepared tableside. Lebanon's beloved steak tartare.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 0,
+    "servings": 6,
+    "ingredients": [
+      { "name": "very fresh lamb leg", "amount": 500, "unit": "g" },
+      { "name": "fine bulgur", "amount": 150, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "medium" },
+      { "name": "fresh basil", "amount": 0.5, "unit": "cup" },
+      { "name": "fresh mint", "amount": 0.25, "unit": "cup" },
+      { "name": "extra virgin olive oil", "amount": 60, "unit": "ml" },
+      { "name": "seven spice", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Soak bulgur in cold water for 10 minutes.",
+      "Squeeze out all water from bulgur.",
+      "Trim lamb of all fat and sinew.",
+      "Chop meat very finely or grind fresh.",
+      "Grate onion and squeeze out liquid.",
+      "Combine meat, bulgur, onion, and spices.",
+      "Knead vigorously for 10 minutes.",
+      "Add ice water as needed for smooth texture.",
+      "Spread on plate, make indentations.",
+      "Drizzle with olive oil, serve with mint."
+    ],
+    "cooking_tips": [
+      "Lamb must be extremely fresh - same day.",
+      "Keep everything ice cold while preparing.",
+      "Traditionally pounded in a stone mortar."
+    ],
+    "difficulty": "hard",
+    "tags": ["lebanese", "raw", "lamb", "mezze", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 22,
+      "fat_g": 16,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "High in protein and iron. Fresh preparation retains nutrients. A delicacy.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "lb-lahme-baajine",
+    "slug": "lahme-baajine",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Lahme Baajine",
+    "short_description": "Thin, crispy meat pies with lamb and tomatoes. Lebanon's answer to pizza.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 15,
+    "servings": 20,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "yeast", "amount": 7, "unit": "g" },
+      { "name": "ground lamb", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "medium" },
+      { "name": "tomatoes", "amount": 3, "unit": "medium" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "pine nuts", "amount": 50, "unit": "g" },
+      { "name": "pomegranate molasses", "amount": 2, "unit": "tbsp" },
+      { "name": "seven spice", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make dough with flour, yeast, and water.",
+      "Let rise for 1 hour.",
+      "Mix meat with finely diced vegetables.",
+      "Add spices and pomegranate molasses.",
+      "Roll dough into very thin circles.",
+      "Spread thin layer of meat mixture.",
+      "Top with pine nuts.",
+      "Bake at 475°F until edges crisp.",
+      "Roll up with mint and vegetables to eat.",
+      "Squeeze lemon over before eating."
+    ],
+    "cooking_tips": [
+      "The dough should be paper thin.",
+      "Meat layer should be very thin too.",
+      "Best eaten hot from the oven."
+    ],
+    "difficulty": "medium",
+    "tags": ["lebanese", "meat-pie", "street-food", "lamb", "baked"],
+    "nutrition": {
+      "per_serving_kcal": 160,
+      "protein_g": 7,
+      "fat_g": 6,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Lean protein from lamb. A satisfying snack or light meal.",
+    "mealType": "Lunch",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "lb-manoushe",
+    "slug": "manoushe-zaatar",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Manoushe Za'atar",
+    "short_description": "Lebanese flatbread topped with za'atar and olive oil. The quintessential Lebanese breakfast.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 10,
+    "servings": 6,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "yeast", "amount": 7, "unit": "g" },
+      { "name": "za'atar", "amount": 100, "unit": "g" },
+      { "name": "olive oil", "amount": 150, "unit": "ml" },
+      { "name": "sugar", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 1.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Make dough with flour, yeast, sugar, and water.",
+      "Knead until smooth.",
+      "Let rise for 1 hour.",
+      "Mix za'atar with olive oil.",
+      "Divide dough into portions.",
+      "Roll each into a circle.",
+      "Spread za'atar mixture generously.",
+      "Bake in very hot oven until puffy.",
+      "Serve hot, folded in half.",
+      "Add fresh vegetables if desired."
+    ],
+    "cooking_tips": [
+      "High heat creates the characteristic bubbles.",
+      "Don't be shy with the za'atar topping.",
+      "The Lebanese start every morning with this."
+    ],
+    "difficulty": "easy",
+    "tags": ["lebanese", "breakfast", "flatbread", "zaatar", "vegan"],
+    "nutrition": {
+      "per_serving_kcal": 380,
+      "protein_g": 8,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Za'atar has antioxidant properties. Olive oil is heart-healthy. A beloved breakfast.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "lb-fatte-hummus",
+    "slug": "fatteh-hummus",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Fatteh Hummus",
+    "short_description": "Layered dish of crispy pita, chickpeas, and garlicky yogurt. A Lebanese brunch favorite.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      { "name": "chickpeas", "amount": 400, "unit": "g" },
+      { "name": "pita bread", "amount": 3, "unit": "pc" },
+      { "name": "yogurt", "amount": 400, "unit": "g" },
+      { "name": "tahini", "amount": 60, "unit": "ml" },
+      { "name": "garlic cloves", "amount": 3, "unit": "pc" },
+      { "name": "butter", "amount": 60, "unit": "g" },
+      { "name": "pine nuts", "amount": 50, "unit": "g" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "lemon juice", "amount": 45, "unit": "ml" }
+    ],
+    "steps": [
+      "Cook chickpeas until tender, reserve broth.",
+      "Toast pita pieces until crispy.",
+      "Mix yogurt with tahini, garlic, and lemon.",
+      "Layer pita in serving dish.",
+      "Moisten with warm chickpea broth.",
+      "Add warm chickpeas.",
+      "Pour yogurt sauce over everything.",
+      "Toast pine nuts in butter until golden.",
+      "Sprinkle with cumin.",
+      "Pour pine nut butter over dish."
+    ],
+    "cooking_tips": [
+      "The bread should be crispy but absorbent.",
+      "Serve immediately before it gets soggy.",
+      "The warm-cold contrast is essential."
+    ],
+    "difficulty": "medium",
+    "tags": ["lebanese", "brunch", "chickpeas", "yogurt", "layered"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 16,
+      "fat_g": 24,
+      "carbs_g": 38
+    },
+    "nutrition_benefits": "Chickpeas provide protein and fiber. Yogurt adds probiotics. A satisfying brunch.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "lb-sayyadieh",
+    "slug": "sayyadieh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Sayyadieh",
+    "short_description": "Spiced fish over caramelized onion rice. A Lebanese coastal specialty.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "white fish fillets", "amount": 800, "unit": "g" },
+      { "name": "long-grain rice", "amount": 400, "unit": "g" },
+      { "name": "onions", "amount": 4, "unit": "large" },
+      { "name": "cumin", "amount": 2, "unit": "tsp" },
+      { "name": "turmeric", "amount": 1, "unit": "tsp" },
+      { "name": "fish stock", "amount": 750, "unit": "ml" },
+      { "name": "pine nuts", "amount": 80, "unit": "g" },
+      { "name": "vegetable oil", "amount": 120, "unit": "ml" },
+      { "name": "tahini sauce", "amount": 200, "unit": "ml" }
+    ],
+    "steps": [
+      "Fry fish fillets, set aside.",
+      "Caramelize onions until very dark brown.",
+      "Remove half the onions for topping.",
+      "Add rice to remaining onions.",
+      "Add spices and toast briefly.",
+      "Add fish stock and cook rice.",
+      "Toast pine nuts until golden.",
+      "Place rice on platter.",
+      "Top with fish and caramelized onions.",
+      "Serve with tahini sauce."
+    ],
+    "cooking_tips": [
+      "The darker the onions, the better the flavor.",
+      "Don't skip the tahini sauce.",
+      "A fisherman's dish from the coast."
+    ],
+    "difficulty": "medium",
+    "tags": ["lebanese", "fish", "rice", "coastal", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 560,
+      "protein_g": 36,
+      "fat_g": 24,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Fish provides omega-3s and protein. A complete, nutritious meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "lb-shanklish",
+    "slug": "shanklish",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Shanklish Salad",
+    "short_description": "Crumbled aged cheese with tomatoes and onions. A tangy, pungent Lebanese mezze.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      { "name": "shanklish cheese", "amount": 200, "unit": "g" },
+      { "name": "tomatoes", "amount": 2, "unit": "medium" },
+      { "name": "onion", "amount": 1, "unit": "medium" },
+      { "name": "extra virgin olive oil", "amount": 60, "unit": "ml" },
+      { "name": "fresh mint", "amount": 0.25, "unit": "cup" },
+      { "name": "za'atar", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Remove outer moldy coating if desired.",
+      "Crumble shanklish into bowl.",
+      "Dice tomatoes finely.",
+      "Dice onion finely.",
+      "Mix cheese with vegetables.",
+      "Add chopped mint.",
+      "Drizzle generously with olive oil.",
+      "Sprinkle with za'atar.",
+      "Mix gently.",
+      "Serve with flatbread."
+    ],
+    "cooking_tips": [
+      "Some prefer to keep the moldy coating.",
+      "The cheese should be pungent but not off.",
+      "A traditional village cheese from the mountains."
+    ],
+    "difficulty": "easy",
+    "tags": ["lebanese", "cheese", "salad", "mezze", "vegetarian"],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 12,
+      "fat_g": 22,
+      "carbs_g": 6
+    },
+    "nutrition_benefits": "Aged cheese provides probiotics. High in protein and calcium.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "lb-kebbeh-bil-laban",
+    "slug": "kebbeh-bil-laban",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Kebbeh bil Laban",
+    "short_description": "Kibbeh balls cooked in tangy yogurt sauce. Comfort food from the Lebanese mountains.",
+    "prep_time_minutes": 90,
+    "cooking_time_minutes": 30,
+    "servings": 6,
+    "ingredients": [
+      { "name": "prepared kibbeh balls", "amount": 24, "unit": "pc" },
+      { "name": "plain yogurt", "amount": 1, "unit": "kg" },
+      { "name": "egg", "amount": 1, "unit": "pc" },
+      { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
+      { "name": "garlic cloves", "amount": 4, "unit": "pc" },
+      { "name": "dried mint", "amount": 2, "unit": "tbsp" },
+      { "name": "butter", "amount": 45, "unit": "g" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Prepare and fry kibbeh balls.",
+      "Whisk yogurt with egg and cornstarch.",
+      "Cook over medium heat, stirring constantly.",
+      "Stir in one direction only.",
+      "Bring to gentle simmer.",
+      "Add fried kibbeh balls.",
+      "Simmer 10 minutes.",
+      "Sauté minced garlic and mint in butter.",
+      "Pour over the dish.",
+      "Serve with rice."
+    ],
+    "cooking_tips": [
+      "Never stop stirring or yogurt will curdle.",
+      "The sauce should coat a spoon.",
+      "A warming winter dish."
+    ],
+    "difficulty": "medium",
+    "tags": ["lebanese", "kibbeh", "yogurt", "comfort-food", "dinner"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 24,
+      "fat_g": 28,
+      "carbs_g": 20
+    },
+    "nutrition_benefits": "Yogurt provides probiotics. High in protein. A nourishing meal.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "lb-hindbeh",
+    "slug": "hindbeh-bil-zeit",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Hindbeh bil Zeit",
+    "short_description": "Sautéed dandelion greens with caramelized onions. A healthy Lebanese classic.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "dandelion greens", "amount": 500, "unit": "g" },
+      { "name": "large onions", "amount": 3, "unit": "pc" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "lemon juice", "amount": 60, "unit": "ml" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Wash dandelion greens thoroughly.",
+      "Blanch in boiling salted water.",
+      "Drain and squeeze out excess water.",
+      "Slice onions into half-moons.",
+      "Caramelize onions in olive oil slowly.",
+      "Cook until deeply browned.",
+      "Add blanched greens to onions.",
+      "Sauté together briefly.",
+      "Add lemon juice and salt.",
+      "Serve at room temperature."
+    ],
+    "cooking_tips": [
+      "The greens are slightly bitter - that's correct.",
+      "Caramelized onions balance the bitterness.",
+      "A traditional health food."
+    ],
+    "difficulty": "easy",
+    "tags": ["lebanese", "vegan", "greens", "healthy", "mezze"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 18,
+      "carbs_g": 14
+    },
+    "nutrition_benefits": "Dandelion greens are rich in vitamins and minerals. Very healthy and detoxifying.",
+    "mealType": "Lunch",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "lb-arnabeet-mekle",
+    "slug": "arnabeet-mekle",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Arnabeet Mekle",
+    "short_description": "Crispy fried cauliflower served with tahini sauce. A beloved Lebanese vegetable dish.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "cauliflower", "amount": 1, "unit": "large head" },
+      { "name": "vegetable oil for frying", "amount": 500, "unit": "ml" },
+      { "name": "tahini", "amount": 100, "unit": "ml" },
+      { "name": "lemon juice", "amount": 60, "unit": "ml" },
+      { "name": "garlic clove", "amount": 1, "unit": "pc" },
+      { "name": "salt", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cut cauliflower into florets.",
+      "Heat oil to 375°F.",
+      "Fry cauliflower in batches.",
+      "Cook until golden brown.",
+      "Drain on paper towels.",
+      "Season with salt while hot.",
+      "Make tahini sauce with lemon and garlic.",
+      "Thin with water to pouring consistency.",
+      "Serve cauliflower with tahini.",
+      "Eat immediately while crispy."
+    ],
+    "cooking_tips": [
+      "Don't crowd the pan when frying.",
+      "The cauliflower should be deeply golden.",
+      "Tahini sauce is essential."
+    ],
+    "difficulty": "easy",
+    "tags": ["lebanese", "fried", "cauliflower", "vegan", "mezze"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 8,
+      "fat_g": 26,
+      "carbs_g": 18
+    },
+    "nutrition_benefits": "Cauliflower is low in calories. Tahini adds calcium. A delicious way to eat vegetables.",
+    "mealType": "Appetizer",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "lb-moghrabieh",
+    "slug": "moghrabieh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Moghrabieh",
+    "short_description": "Lebanese couscous with chicken and chickpeas in spiced broth. A festive village dish.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 90,
+    "servings": 8,
+    "ingredients": [
+      { "name": "moghrabieh pearls", "amount": 500, "unit": "g" },
+      { "name": "whole chicken", "amount": 1.5, "unit": "kg" },
+      { "name": "chickpeas", "amount": 200, "unit": "g" },
+      { "name": "pearl onions", "amount": 300, "unit": "g" },
+      { "name": "cinnamon stick", "amount": 2, "unit": "pc" },
+      { "name": "seven spice", "amount": 1, "unit": "tbsp" },
+      { "name": "caraway seeds", "amount": 1, "unit": "tsp" },
+      { "name": "butter", "amount": 60, "unit": "g" }
+    ],
+    "steps": [
+      "Soak chickpeas overnight and cook until tender.",
+      "Poach chicken with cinnamon and spices.",
+      "Reserve the flavorful broth.",
+      "Toast moghrabieh in butter until golden.",
+      "Add broth and cook until tender.",
+      "Sauté pearl onions until caramelized.",
+      "Cut chicken into portions.",
+      "Layer moghrabieh on platter.",
+      "Top with chicken, chickpeas, and onions.",
+      "Serve with extra broth on the side."
+    ],
+    "cooking_tips": [
+      "Toasting the pearls adds nutty flavor.",
+      "The dish should be moist, not soupy.",
+      "A special occasion dish."
+    ],
+    "difficulty": "medium",
+    "tags": ["lebanese", "festive", "chicken", "couscous", "traditional"],
+    "nutrition": {
+      "per_serving_kcal": 580,
+      "protein_g": 42,
+      "fat_g": 20,
+      "carbs_g": 58
+    },
+    "nutrition_benefits": "Complete meal with protein and carbs. Chickpeas add fiber.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "lb-sfouf",
+    "slug": "sfouf",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Sfouf",
+    "short_description": "Golden turmeric cake that's dairy-free and vegan. A traditional Lebanese sweet.",
+    "prep_time_minutes": 15,
+    "cooking_time_minutes": 35,
+    "servings": 16,
+    "ingredients": [
+      { "name": "semolina", "amount": 300, "unit": "g" },
+      { "name": "all-purpose flour", "amount": 100, "unit": "g" },
+      { "name": "sugar", "amount": 200, "unit": "g" },
+      { "name": "turmeric", "amount": 2, "unit": "tbsp" },
+      { "name": "vegetable oil", "amount": 150, "unit": "ml" },
+      { "name": "tahini", "amount": 60, "unit": "ml" },
+      { "name": "baking powder", "amount": 2, "unit": "tsp" },
+      { "name": "pine nuts", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Mix semolina, flour, sugar, and turmeric.",
+      "Add oil and mix well.",
+      "Add enough water for thick batter.",
+      "Add baking powder last.",
+      "Grease pan with tahini.",
+      "Pour batter into pan.",
+      "Press pine nuts on top.",
+      "Bake at 350°F until golden.",
+      "Cut into diamonds while warm.",
+      "Cool before serving."
+    ],
+    "cooking_tips": [
+      "Tahini creates a beautiful golden bottom.",
+      "The cake should be moist, not dry.",
+      "Naturally vegan and dairy-free."
+    ],
+    "difficulty": "easy",
+    "tags": ["lebanese", "dessert", "vegan", "turmeric", "cake"],
+    "nutrition": {
+      "per_serving_kcal": 220,
+      "protein_g": 4,
+      "fat_g": 10,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "Turmeric has anti-inflammatory properties. Naturally dairy-free.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "lb-arak-cocktail",
+    "slug": "arak-classic",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Arak (Classic Serve)",
+    "short_description": "Lebanon's anise-flavored spirit served the traditional way with water and ice.",
+    "prep_time_minutes": 2,
+    "cooking_time_minutes": 0,
+    "servings": 1,
+    "ingredients": [
+      { "name": "arak", "amount": 45, "unit": "ml" },
+      { "name": "cold water", "amount": 90, "unit": "ml" },
+      { "name": "ice cubes", "amount": 3, "unit": "pc" }
+    ],
+    "steps": [
+      "Pour arak into a traditional short glass.",
+      "Add cold water - it will turn milky white.",
+      "This is called the 'louche' effect.",
+      "Add ice cubes last.",
+      "Adding ice before water can make it bitter.",
+      "The ratio is usually 1:2 arak to water.",
+      "Sip slowly alongside mezze.",
+      "Never drink arak without food.",
+      "Refill throughout the meal.",
+      "A Lebanese dining tradition."
+    ],
+    "cooking_tips": [
+      "Always add water before ice.",
+      "The clouding is normal and expected.",
+      "Traditionally paired with mezze."
+    ],
+    "difficulty": "easy",
+    "tags": ["lebanese", "drink", "anise", "traditional", "aperitif"],
+    "nutrition": {
+      "per_serving_kcal": 100,
+      "protein_g": 0,
+      "fat_g": 0,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "Anise is said to aid digestion. Drink responsibly.",
+    "mealType": "Drink",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "lb-awarma",
+    "slug": "awarma",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Awarma",
+    "short_description": "Preserved lamb in rendered fat. A traditional Lebanese pantry staple.",
+    "prep_time_minutes": 60,
+    "cooking_time_minutes": 180,
+    "servings": 20,
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 2, "unit": "kg" },
+      { "name": "lamb fat", "amount": 1, "unit": "kg" },
+      { "name": "coarse salt", "amount": 3, "unit": "tbsp" },
+      { "name": "seven spice", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Cut lamb into small cubes.",
+      "Season generously with salt and spice.",
+      "Cut fat into small pieces.",
+      "Render fat slowly in large pot.",
+      "Add seasoned meat to rendered fat.",
+      "Cook slowly until meat is browned.",
+      "Continue cooking until all moisture evaporates.",
+      "Pour into jars while still liquid.",
+      "Fat will solidify and preserve the meat.",
+      "Store in cool place for months."
+    ],
+    "cooking_tips": [
+      "Low, slow cooking is essential.",
+      "The fat must completely cover the meat.",
+      "Use for eggs, rice, or vegetables."
+    ],
+    "difficulty": "medium",
+    "tags": ["lebanese", "preserved", "lamb", "traditional", "pantry"],
+    "nutrition": {
+      "per_serving_kcal": 280,
+      "protein_g": 18,
+      "fat_g": 24,
+      "carbs_g": 0
+    },
+    "nutrition_benefits": "Preservation without refrigeration. High in protein.",
+    "mealType": "Ingredient",
+    "dietaryStyle": "Gluten Free"
+  },
+  {
+    "id": "lb-znoud-el-sitt",
+    "slug": "znoud-el-sitt",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Znoud el Sitt",
+    "short_description": "Crispy phyllo rolls filled with cream, soaked in syrup. 'Lady's Arms' - elegant Lebanese pastry.",
+    "prep_time_minutes": 45,
+    "cooking_time_minutes": 20,
+    "servings": 20,
+    "ingredients": [
+      { "name": "phyllo dough", "amount": 500, "unit": "g" },
+      { "name": "ashta (clotted cream)", "amount": 400, "unit": "g" },
+      { "name": "butter", "amount": 150, "unit": "g" },
+      { "name": "sugar", "amount": 400, "unit": "g" },
+      { "name": "water", "amount": 300, "unit": "ml" },
+      { "name": "lemon juice", "amount": 1, "unit": "tbsp" },
+      { "name": "rose water", "amount": 2, "unit": "tbsp" },
+      { "name": "pistachios", "amount": 50, "unit": "g" }
+    ],
+    "steps": [
+      "Make sugar syrup with rose water, cool.",
+      "Cut phyllo into rectangles.",
+      "Brush each layer with melted butter.",
+      "Place spoonful of ashta at edge.",
+      "Roll tightly, tucking in sides.",
+      "Fry in batches until golden.",
+      "Drain briefly.",
+      "Dip in cold syrup.",
+      "Top with crushed pistachios.",
+      "Serve at room temperature."
+    ],
+    "cooking_tips": [
+      "Work quickly so phyllo doesn't dry.",
+      "Cold syrup on hot pastry is key.",
+      "Best eaten within hours of making."
+    ],
+    "difficulty": "medium",
+    "tags": ["lebanese", "dessert", "pastry", "cream", "fried"],
+    "nutrition": {
+      "per_serving_kcal": 260,
+      "protein_g": 4,
+      "fat_g": 14,
+      "carbs_g": 32
+    },
+    "nutrition_benefits": "An indulgent treat for special occasions.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
+  },
+  {
+    "id": "lb-hashweh",
+    "slug": "hashweh-rice",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Hashweh Rice",
+    "short_description": "Fragrant rice with spiced ground meat and toasted nuts. Lebanese celebration rice.",
+    "prep_time_minutes": 20,
+    "cooking_time_minutes": 35,
+    "servings": 8,
+    "ingredients": [
+      { "name": "basmati rice", "amount": 400, "unit": "g" },
+      { "name": "ground beef or lamb", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "large" },
+      { "name": "seven spice", "amount": 2, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "pine nuts", "amount": 80, "unit": "g" },
+      { "name": "slivered almonds", "amount": 60, "unit": "g" },
+      { "name": "butter", "amount": 60, "unit": "g" }
+    ],
+    "steps": [
+      "Rinse and soak rice for 30 minutes.",
+      "Toast pine nuts and almonds in butter.",
+      "Set nuts aside.",
+      "Brown meat with diced onion.",
+      "Add spices and cook until fragrant.",
+      "Add rice and toast briefly.",
+      "Add water and salt.",
+      "Cook until rice is fluffy.",
+      "Top with toasted nuts.",
+      "Serve as side or stuffing."
+    ],
+    "cooking_tips": [
+      "This rice is used to stuff chicken or lamb.",
+      "Toasting the nuts is essential.",
+      "A festive dish for celebrations."
+    ],
+    "difficulty": "easy",
+    "tags": ["lebanese", "rice", "meat", "festive", "side-dish"],
+    "nutrition": {
+      "per_serving_kcal": 420,
+      "protein_g": 16,
+      "fat_g": 18,
+      "carbs_g": 48
+    },
+    "nutrition_benefits": "Complete meal with protein and carbs. Nuts add healthy fats.",
+    "mealType": "Dinner",
+    "dietaryStyle": "None"
+  },
+  {
+    "id": "lb-kaak-bread",
+    "slug": "kaak-asrouniyeh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Kaak Asrouniyeh",
+    "short_description": "Ring-shaped bread encrusted with sesame seeds. Lebanese street food classic.",
+    "prep_time_minutes": 120,
+    "cooking_time_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": 500, "unit": "g" },
+      { "name": "yeast", "amount": 10, "unit": "g" },
+      { "name": "sugar", "amount": 30, "unit": "g" },
+      { "name": "salt", "amount": 1, "unit": "tsp" },
+      { "name": "mahleb", "amount": 1, "unit": "tsp" },
+      { "name": "sesame seeds", "amount": 150, "unit": "g" },
+      { "name": "vegetable oil", "amount": 60, "unit": "ml" }
+    ],
+    "steps": [
+      "Dissolve yeast in warm water with sugar.",
+      "Mix flour, salt, and mahleb.",
+      "Add yeast mixture and oil.",
+      "Knead until smooth.",
+      "Let rise for 1 hour.",
+      "Divide into portions.",
+      "Roll each into rope and form ring.",
+      "Dip in water, then coat with sesame seeds.",
+      "Let rise again briefly.",
+      "Bake at 400°F until golden."
+    ],
+    "cooking_tips": [
+      "Mahleb gives the distinctive flavor.",
+      "The sesame coating should be generous.",
+      "Traditionally sold on streets for breakfast."
+    ],
+    "difficulty": "medium",
+    "tags": ["lebanese", "bread", "sesame", "street-food", "breakfast"],
+    "nutrition": {
+      "per_serving_kcal": 320,
+      "protein_g": 10,
+      "fat_g": 12,
+      "carbs_g": 46
+    },
+    "nutrition_benefits": "Sesame seeds provide calcium. A popular street snack.",
+    "mealType": "Breakfast",
+    "dietaryStyle": "Vegan"
+  },
+  {
+    "id": "lb-knafeh-nabulsiyeh",
+    "slug": "knafeh-nabulsiyeh",
+    "country": "Lebanon",
+    "country_slug": "lebanon",
+    "name_en": "Knafeh Nabulsiyeh",
+    "short_description": "Cheese pastry with shredded phyllo, soaked in sweet syrup. The most beloved Middle Eastern dessert.",
+    "prep_time_minutes": 30,
+    "cooking_time_minutes": 45,
+    "servings": 12,
+    "ingredients": [
+      { "name": "kataifi pastry", "amount": 500, "unit": "g" },
+      { "name": "akkawi cheese", "amount": 500, "unit": "g" },
+      { "name": "butter", "amount": 200, "unit": "g" },
+      { "name": "sugar", "amount": 400, "unit": "g" },
+      { "name": "water", "amount": 300, "unit": "ml" },
+      { "name": "orange blossom water", "amount": 2, "unit": "tbsp" },
+      { "name": "orange food coloring", "amount": 1, "unit": "tsp" },
+      { "name": "pistachios", "amount": 100, "unit": "g" }
+    ],
+    "steps": [
+      "Soak cheese overnight to remove salt.",
+      "Shred kataifi and mix with melted butter.",
+      "Add orange coloring to pastry.",
+      "Press half the pastry into round pan.",
+      "Spread sliced cheese evenly.",
+      "Top with remaining pastry.",
+      "Bake at 375°F until golden.",
+      "Make syrup and cool.",
+      "Flip knafeh onto platter.",
+      "Pour cold syrup over hot knafeh."
+    ],
+    "cooking_tips": [
+      "The cheese must be desalinated.",
+      "Hot pastry, cold syrup is essential.",
+      "Eat immediately for stretchy cheese."
+    ],
+    "difficulty": "medium",
+    "tags": ["lebanese", "dessert", "cheese", "pastry", "syrup"],
+    "nutrition": {
+      "per_serving_kcal": 480,
+      "protein_g": 12,
+      "fat_g": 26,
+      "carbs_g": 52
+    },
+    "nutrition_benefits": "Cheese provides calcium and protein. An indulgent celebration sweet.",
+    "mealType": "Dessert",
+    "dietaryStyle": "Vegetarian"
   }
 ]
