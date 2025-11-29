@@ -9,8 +9,11 @@ const ChefSense = {
   conversationHistory: [],
   isLoading: false,
   isSpeaking: false,
+  isListening: false,
   lang: window.AppLang || 'en',
   speechSupported: 'speechSynthesis' in window,
+  speechRecognitionSupported: 'webkitSpeechRecognition' in window || 'SpeechRecognition' in window,
+  recognition: null,
   voices: [],
   chatContainer: null,
   elements: {},
@@ -23,6 +26,7 @@ const ChefSense = {
     await this.prepareChatContainer();
     this.cacheElements();
     await this.setupVoiceFeatures();
+    this.setupSpeechRecognition();
     this.bindEvents();
 
     this.recipes = await RecipeBank.fetchRecipes();
@@ -72,6 +76,7 @@ const ChefSense = {
         <div class="chat-input-area">
           <div class="chat-input-wrapper">
             <input type="text" id="chat-input" placeholder="Ask for recipes, steps, or substitutions..." autocomplete="off" aria-label="ChefSense chat input">
+            <button type="button" id="mic-button" class="mic-button" aria-label="Voice input"><span>🎤</span></button>
             <button type="button" id="send-button" class="send-button" aria-label="Send message"><span>➤</span></button>
           </div>
           <p class="voice-fallback" data-voice-fallback aria-live="polite"></p>
@@ -116,6 +121,7 @@ const ChefSense = {
     this.elements.messages = document.getElementById('chat-messages');
     this.elements.input = document.getElementById('chat-input');
     this.elements.sendButton = document.getElementById('send-button');
+    this.elements.micButton = document.getElementById('mic-button');
     this.elements.voiceToggle = this.chatContainer.querySelector('[data-voice-output-toggle]');
     this.elements.voiceStatus = this.chatContainer.querySelector('[data-voice-status]');
     this.elements.voiceFallback = this.chatContainer.querySelector('[data-voice-fallback]');
@@ -129,6 +135,8 @@ const ChefSense = {
         this.handleSend();
       }
     });
+
+    this.elements.micButton?.addEventListener('click', () => this.toggleSpeechRecognition());
 
     this.chatContainer.querySelectorAll('.suggestion-chip').forEach(chip => {
       chip.addEventListener('click', () => {
@@ -146,6 +154,86 @@ const ChefSense = {
         this.speakText(text, lang);
       }
     });
+  },
+
+  setupSpeechRecognition() {
+    if (!this.speechRecognitionSupported) {
+      // Hide mic button if speech recognition is not supported
+      if (this.elements.micButton) {
+        this.elements.micButton.style.display = 'none';
+      }
+      return;
+    }
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    this.recognition = new SpeechRecognition();
+    this.recognition.continuous = false;
+    this.recognition.interimResults = false;
+    this.recognition.lang = this.lang === 'ar' ? 'ar-SA' : this.lang === 'fr' ? 'fr-FR' : this.lang === 'nl' ? 'nl-NL' : 'en-US';
+
+    this.recognition.onstart = () => {
+      this.isListening = true;
+      this.elements.micButton?.classList.add('listening');
+      this.elements.micButton.innerHTML = '<span>🔴</span>';
+      if (this.elements.voiceFallback) {
+        this.elements.voiceFallback.textContent = 'Listening...';
+      }
+    };
+
+    this.recognition.onresult = (event) => {
+      const transcript = event.results[0][0].transcript;
+      if (transcript && transcript.trim()) {
+        this.elements.input.value = transcript;
+        // Auto-submit after speech recognition with brief delay for UI feedback
+        const SPEECH_SUBMIT_DELAY_MS = 300;
+        setTimeout(() => this.handleSend(), SPEECH_SUBMIT_DELAY_MS);
+      }
+    };
+
+    this.recognition.onerror = (event) => {
+      this.isListening = false;
+      this.elements.micButton?.classList.remove('listening');
+      this.elements.micButton.innerHTML = '<span>🎤</span>';
+      if (this.elements.voiceFallback) {
+        // Provide specific error messages based on error type
+        const errorMessages = {
+          'not-allowed': 'Microphone access denied. Please allow microphone access.',
+          'no-speech': 'No speech detected. Please try again.',
+          'network': 'Network error. Please check your connection.',
+          'aborted': 'Voice input cancelled.',
+          'audio-capture': 'No microphone found. Please check your device.'
+        };
+        this.elements.voiceFallback.textContent = errorMessages[event.error] || 'Voice input error. Please try again.';
+      }
+    };
+
+    this.recognition.onend = () => {
+      this.isListening = false;
+      this.elements.micButton?.classList.remove('listening');
+      this.elements.micButton.innerHTML = '<span>🎤</span>';
+      if (this.elements.voiceFallback && this.elements.voiceFallback.textContent === 'Listening...') {
+        this.elements.voiceFallback.textContent = '';
+      }
+    };
+  },
+
+  toggleSpeechRecognition() {
+    if (!this.recognition) return;
+
+    if (this.isListening) {
+      this.recognition.stop();
+    } else {
+      // Update recognition language based on current detected language
+      this.recognition.lang = this.lang === 'ar' ? 'ar-SA' : this.lang === 'fr' ? 'fr-FR' : this.lang === 'nl' ? 'nl-NL' : 'en-US';
+      try {
+        this.recognition.start();
+      } catch (e) {
+        // Recognition might already be running
+        if (this.elements.voiceFallback) {
+          this.elements.voiceFallback.textContent = 'Voice input busy. Please wait and try again.';
+        }
+      }
+    }
   },
 
   async setupVoiceFeatures() {
@@ -669,7 +757,12 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     messageDiv.appendChild(avatar);
     messageDiv.appendChild(messageBody);
     this.elements.messages.appendChild(messageDiv);
-    this.elements.messages.scrollTop = this.elements.messages.scrollHeight;
+    
+    // Smooth scroll to bottom of messages
+    this.elements.messages.scrollTo({
+      top: this.elements.messages.scrollHeight,
+      behavior: 'smooth'
+    });
 
     if (role === 'assistant' && this.isSpeaking && this.speechSupported) {
       this.speakText(bubble.textContent, lang);

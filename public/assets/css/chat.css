@@ -114,6 +114,8 @@
   gap: 1rem;
   min-height: 260px;
   max-height: 60vh;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Individual Message */
@@ -368,10 +370,13 @@
   font-size: 1rem;
   padding: 0.5rem 0;
   outline: none;
+  color: #1a1a1a;
+  -webkit-text-fill-color: #1a1a1a;
 }
 
 #chat-input::placeholder {
-  color: var(--text-light);
+  color: #666666;
+  -webkit-text-fill-color: #666666;
 }
 
 .mic-button {
@@ -537,12 +542,14 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .chat-card,
   .chat-container {
     height: auto;
+    min-height: auto;
     max-width: 100%;
     margin: 0;
-    border-radius: 0;
-    box-shadow: none;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
   }
 
   .chat-header {
@@ -561,6 +568,10 @@
 
   .chat-messages {
     padding: 1rem;
+    min-height: 180px;
+    max-height: 45vh;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
   }
 
   .chat-message {
@@ -580,6 +591,18 @@
 
   .chat-input-area {
     padding: 0.75rem 1rem 1rem;
+    position: sticky;
+    bottom: 0;
+    background: var(--card-background);
+    z-index: 10;
+  }
+
+  .chat-input-wrapper {
+    padding: 0.4rem 0.4rem 0.4rem 1rem;
+  }
+
+  #chat-input {
+    font-size: 16px; /* Prevents iOS zoom on focus */
   }
 
   .chat-suggestions {
@@ -598,6 +621,12 @@
   .chefsense-close {
     top: 10px;
     right: 10px;
+  }
+
+  /* Show mic button on mobile always with increased specificity */
+  .chat-input-wrapper .mic-button,
+  .chat-input-area .mic-button {
+    display: flex;
   }
 }
 
