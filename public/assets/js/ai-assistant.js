@@ -184,8 +184,9 @@ const ChefSense = {
       const transcript = event.results[0][0].transcript;
       if (transcript && transcript.trim()) {
         this.elements.input.value = transcript;
-        // Auto-submit after speech recognition
-        setTimeout(() => this.handleSend(), 300);
+        // Auto-submit after speech recognition with brief delay for UI feedback
+        const SPEECH_SUBMIT_DELAY_MS = 300;
+        setTimeout(() => this.handleSend(), SPEECH_SUBMIT_DELAY_MS);
       }
     };
 
@@ -194,11 +195,15 @@ const ChefSense = {
       this.elements.micButton?.classList.remove('listening');
       this.elements.micButton.innerHTML = '<span>🎤</span>';
       if (this.elements.voiceFallback) {
-        if (event.error === 'not-allowed') {
-          this.elements.voiceFallback.textContent = 'Microphone access denied. Please allow microphone access.';
-        } else {
-          this.elements.voiceFallback.textContent = 'Voice input error. Please try again.';
-        }
+        // Provide specific error messages based on error type
+        const errorMessages = {
+          'not-allowed': 'Microphone access denied. Please allow microphone access.',
+          'no-speech': 'No speech detected. Please try again.',
+          'network': 'Network error. Please check your connection.',
+          'aborted': 'Voice input cancelled.',
+          'audio-capture': 'No microphone found. Please check your device.'
+        };
+        this.elements.voiceFallback.textContent = errorMessages[event.error] || 'Voice input error. Please try again.';
       }
     };
 
@@ -224,7 +229,9 @@ const ChefSense = {
         this.recognition.start();
       } catch (e) {
         // Recognition might already be running
-        console.warn('Speech recognition start error:', e);
+        if (this.elements.voiceFallback) {
+          this.elements.voiceFallback.textContent = 'Voice input busy. Please wait and try again.';
+        }
       }
     }
   },

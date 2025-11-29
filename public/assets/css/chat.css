@@ -623,9 +623,10 @@
     right: 10px;
   }
 
-  /* Show mic button on mobile always */
-  .mic-button {
-    display: flex !important;
+  /* Show mic button on mobile always with increased specificity */
+  .chat-input-wrapper .mic-button,
+  .chat-input-area .mic-button {
+    display: flex;
   }
 }
 
