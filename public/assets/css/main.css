@@ -210,6 +210,8 @@ header {
   background: white;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   transition: var(--transition);
+  color: #1a1a1a;
+  -webkit-text-fill-color: #1a1a1a;
 }
 
 .global-search-input:focus {
@@ -218,7 +220,8 @@ header {
 }
 
 .global-search-input::placeholder {
-  color: var(--text-light);
+  color: #666666;
+  -webkit-text-fill-color: #666666;
 }
 
 .global-search-results {
@@ -742,6 +745,14 @@ header {
   border-radius: 8px;
   font-size: 1rem;
   transition: var(--transition);
+  color: #1a1a1a;
+  -webkit-text-fill-color: #1a1a1a;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #666666;
+  -webkit-text-fill-color: #666666;
 }
 
 .form-group input:focus,
@@ -858,6 +869,13 @@ header {
   border-radius: 8px;
   font-size: 1rem;
   transition: var(--transition);
+  color: #1a1a1a;
+  -webkit-text-fill-color: #1a1a1a;
+}
+
+.recipe-search-input::placeholder {
+  color: #666666;
+  -webkit-text-fill-color: #666666;
 }
 
 .recipe-search-input:focus {
@@ -1035,12 +1053,22 @@ footer a {
     padding: 1rem;
   }
 
+  .hero {
+    padding: 1.5rem 0.75rem 2rem;
+  }
+
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
   }
 
   .hero p {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero .hero-text {
+    margin-bottom: 1rem;
   }
 
   .recipe-title {
