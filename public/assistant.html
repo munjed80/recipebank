@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ChefSense is your master chef and nutrition expert. Get guided cooking steps, voice-enabled help, substitutions, and dietary insights using real recipes.">
-  <meta name="keywords" content="ChefSense, AI chef, recipe search, cooking assistant, nutrition expert, substitutions, dietary guide">
+  <meta name="description" content="ChefSense is your personal chef and certified nutrition expert. Get 2-4 smart recipe ideas from available ingredients, nutrition insights with calories, protein, fat, carbs, allergen info, and healthy ingredient swaps.">
+  <meta name="keywords" content="ChefSense, AI chef, recipe search, cooking assistant, nutrition expert, healthy swaps, allergens, calories, protein">
   <meta name="robots" content="index, follow">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ChefSense">
-  <meta property="og:title" content="ChefSense - Your Personal Cooking Guide">
-  <meta property="og:description" content="Chat with ChefSense to find recipes, get cooking tips, and learn about nutrition.">
+  <meta property="og:title" content="ChefSense - Your Personal Chef & Nutrition Expert">
+  <meta property="og:description" content="Tell me what ingredients you have and I'll suggest 2-4 recipes with nutrition info and healthy swaps!">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://munjed80.github.io/recipebank/public/assistant.html">
-  <title>ChefSense - Recipe Search & Cooking Help | ChefSense</title>
+  <title>ChefSense - Your Personal Chef & Nutrition Expert</title>
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/chat.css">
 </head>
@@ -35,17 +35,17 @@
   <main class="section">
     <div class="container hero-card-wrap">
       <div class="hero-text" style="margin-bottom: 1rem;">
-        <h1 data-i18n-key="heroTitle">ChefSense — Master Chef & Nutrition Expert</h1>
-        <p data-i18n-key="heroSubtitle">Your multilingual cooking guide with nutrition insights and voice support</p>
+        <h1 data-i18n-key="heroTitle">ChefSense — Your Personal Chef & Nutrition Expert</h1>
+        <p data-i18n-key="heroSubtitle">Ask me anything about cooking, recipes & healthy eating!</p>
       </div>
       <div data-chefsense-anchor="true" data-chefsense-auto-init="true">
         <div class="chat-card" id="chat-container">
           <div class="chat-header">
-            <div class="chat-header-icon">🍳</div>
+            <div class="chat-header-icon">👨‍🍳</div>
             <div class="chat-header-info">
               <p class="chat-kicker">ChefSense</p>
-              <h1>Master Chef & Nutrition Expert</h1>
-              <p>Voice-enabled cooking guidance, nutrition insight, and step-by-step help.</p>
+              <h1>Your Personal Chef & Nutrition Expert</h1>
+              <p>Ask me anything about cooking, recipes & healthy eating!</p>
             </div>
             <div class="chat-actions">
               <button type="button" class="voice-toggle" data-voice-output-toggle aria-label="Toggle speech output">🔈</button>
@@ -60,7 +60,7 @@
               <input
                 type="text"
                 id="chat-input"
-                placeholder="Ask about a recipe, ingredient, or cooking technique..."
+                placeholder="I have chicken, onions and rice - what can I cook?"
                 autocomplete="off"
                 aria-label="ChefSense chat input"
               >
@@ -73,10 +73,10 @@
             </div>
             <p class="voice-fallback" data-voice-fallback aria-live="polite"></p>
             <div class="chat-suggestions">
-              <button type="button" class="suggestion-chip" data-suggestion="What recipes do you have from Italy?">Italian recipes</button>
-              <button type="button" class="suggestion-chip" data-suggestion="Show me vegetarian dishes">Vegetarian</button>
-              <button type="button" class="suggestion-chip" data-suggestion="What quick recipes can I make?">Quick meals</button>
-              <button type="button" class="suggestion-chip" data-suggestion="What are my favorite recipes?">My favorites</button>
+              <button type="button" class="suggestion-chip" data-suggestion="I only have chicken, onions and rice - what can I cook?">🍳 What can I cook?</button>
+              <button type="button" class="suggestion-chip" data-suggestion="Show me healthy swaps for butter and cream">💡 Healthy swaps</button>
+              <button type="button" class="suggestion-chip" data-suggestion="Find me a quick vegetarian dinner">🥗 Veggie dinner</button>
+              <button type="button" class="suggestion-chip" data-suggestion="What are the nutrition facts for Pad Thai?">📊 Nutrition info</button>
             </div>
           </div>
         </div>

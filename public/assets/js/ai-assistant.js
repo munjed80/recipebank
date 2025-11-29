@@ -3,6 +3,12 @@
  * Master Chef + Nutrition Expert + Voice-enabled guide
  */
 
+// Configuration constants
+const CHEFSENSE_CONFIG = {
+  MAX_SWAPS_DISPLAYED: 3,
+  MAX_PANTRY_SUGGESTIONS: 4
+};
+
 const ChefSense = {
   recipes: [],
   currentRecipe: null,
@@ -61,11 +67,11 @@ const ChefSense = {
     return `
       <div class="chat-card" id="chat-container">
         <div class="chat-header">
-          <div class="chat-header-icon">🍳</div>
+          <div class="chat-header-icon">👨‍🍳</div>
           <div class="chat-header-info">
             <p class="chat-kicker">ChefSense</p>
-            <h1>Master Chef & Nutrition Expert</h1>
-            <p>Voice-enabled cooking guidance, nutrition insight, and step-by-step help.</p>
+            <h1>Your Personal Chef & Nutrition Expert</h1>
+            <p>Ask me anything about cooking, recipes & healthy eating!</p>
           </div>
           <div class="chat-actions">
             <button type="button" class="voice-toggle" data-voice-output-toggle aria-label="Toggle speech output">🔈</button>
@@ -75,16 +81,16 @@ const ChefSense = {
         <div class="chat-messages" id="chat-messages"></div>
         <div class="chat-input-area">
           <div class="chat-input-wrapper">
-            <input type="text" id="chat-input" placeholder="Ask for recipes, steps, or substitutions..." autocomplete="off" aria-label="ChefSense chat input">
+            <input type="text" id="chat-input" placeholder="I have chicken, onions and rice - what can I cook?" autocomplete="off" aria-label="ChefSense chat input">
             <button type="button" id="mic-button" class="mic-button" aria-label="Voice input"><span>🎤</span></button>
             <button type="button" id="send-button" class="send-button" aria-label="Send message"><span>➤</span></button>
           </div>
           <p class="voice-fallback" data-voice-fallback aria-live="polite"></p>
           <div class="chat-suggestions" aria-label="Quick suggestions">
-            <button type="button" class="suggestion-chip" data-suggestion="What recipes match chicken and rice?">Pairing ideas</button>
-            <button type="button" class="suggestion-chip" data-suggestion="Show gluten-free dinner options">Dietary picks</button>
-            <button type="button" class="suggestion-chip" data-suggestion="Give me the steps for Pad Thai">Step-by-step help</button>
-            <button type="button" class="suggestion-chip" data-suggestion="What healthy swaps can I use for butter?">Healthy swaps</button>
+            <button type="button" class="suggestion-chip" data-suggestion="I only have chicken, onions and rice - what can I cook?">🍳 What can I cook?</button>
+            <button type="button" class="suggestion-chip" data-suggestion="Show me healthy swaps for butter and cream">💡 Healthy swaps</button>
+            <button type="button" class="suggestion-chip" data-suggestion="Find me a quick vegetarian dinner">🥗 Veggie dinner</button>
+            <button type="button" class="suggestion-chip" data-suggestion="What are the nutrition facts for Pad Thai?">📊 Nutrition info</button>
           </div>
         </div>
       </div>
@@ -281,16 +287,17 @@ const ChefSense = {
   },
 
   showWelcome() {
-    const welcome = `## 👋 Welcome to ChefSense
+    const welcome = `## 👨‍🍳 Hello! I'm ChefSense, your personal chef & nutrition expert!
 
-I blend master chef expertise with nutrition insight for **${this.recipes.length} real recipes**. I auto-detect your language and can speak replies if your browser supports it. Ask me to:
-• 🔍 Match recipes by country, ingredients, or tags
-• 📝 Give numbered, step-by-step cooking instructions
-• 🥗 Summarize nutrition and suggest healthier swaps
-• ⚠️ Spot common allergens or dietary flags when I can
-• 📌 Suggest clickable recipe cards to open right away
+Ready to cook something amazing? I know **${this.recipes.length} recipes** from around the world. Just tell me what you have!
 
-Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
+**What I can do:**
+• 🍳 "I only have chicken, onions and rice" → Get 2-4 smart recipe ideas with steps
+• 🥗 Show calories, protein, fat, carbs & allergen info for any dish
+• 💡 Suggest healthy swaps like olive oil for butter or quinoa for rice
+• 📝 Walk you through any recipe step-by-step
+
+**Try asking:** "What can I cook with pasta and tomatoes?" or "Show me a quick vegetarian dinner"`;
     this.addMessage('assistant', welcome);
   },
 
@@ -373,24 +380,24 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
   getLangPack(lang) {
     const packs = {
       en: {
-        greeting: "Here's a confident plan for you:",
-        stepsTitle: 'Step-by-step instructions',
-        nutritionTitle: 'Nutrition & health notes',
-        swapsTitle: 'Healthy ingredient substitutions',
-        allergenTitle: 'Allergen watch',
-        suggestionsTitle: 'Recipe matches I can serve',
+        greeting: "👨‍🍳 Chef's tip coming right up!",
+        stepsTitle: 'Let me walk you through it',
+        nutritionTitle: 'Nutrition breakdown',
+        swapsTitle: 'Healthy swaps I recommend',
+        allergenTitle: 'Heads up on allergens',
+        suggestionsTitle: 'More tasty ideas for you',
         calories: 'Calories',
         protein: 'Protein',
         carbs: 'Carbs',
         fat: 'Fat',
-        fallbackNutrition: 'Estimated calories: ~520 kcal with balanced macros.',
-        noAllergens: 'No major allergens detected from the listed ingredients.',
-        askClarify: 'Tell me a key ingredient or cuisine and I will refine further.',
-        pantryIntro: 'Here is what you can cook with',
-        pantryMatchesTitle: 'Ingredient-based picks',
-        bestMatch: 'Best match',
-        noMatches: 'I could not find a close match, but here are flexible ideas you can try.',
-        nutritionSummaryLead: 'Nutrition & health notes'
+        fallbackNutrition: 'Roughly 520 kcal per serving with balanced macros.',
+        noAllergens: 'Looks allergy-friendly! No common allergens spotted.',
+        askClarify: 'What else can I help you cook today?',
+        pantryIntro: 'Great ingredients! Here is what we can make',
+        pantryMatchesTitle: 'My top picks for you',
+        bestMatch: "Chef's choice",
+        noMatches: 'Hmm, tricky combo! But let me suggest some flexible ideas.',
+        nutritionSummaryLead: 'Quick nutrition facts'
       },
       fr: {
         greeting: "Voici un plan clair et professionnel :",
@@ -484,7 +491,6 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     const steps = recipe ? this.formatRecipeSteps(recipe) : this.buildGenericSteps(message);
     const nutrition = this.buildNutritionNotes(recipe, pack);
     const swaps = this.getHealthySwaps(recipe);
-    const allergens = recipe ? this.getAllergens(recipe) : [];
     const suggestions = this.buildRecipeSuggestions(message, recipe, pack, options.searchResults);
 
     let response = `${pack.greeting}\n\n`;
@@ -492,9 +498,9 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     if (recipe) {
       const totalTime = (recipe.prep_time_minutes || 0) + (recipe.cooking_time_minutes || 0);
       response += `### ${recipe.name_en}\n`;
-      response += `🌍 ${recipe.country} • 🍽️ ${recipe.mealType} • ⏱️ ${totalTime} min`;
+      response += `🌍 ${recipe.country} • 🍽️ ${recipe.mealType} • ⏱️ ${totalTime} min • 📊 ${recipe.difficulty}`;
       if (recipe.dietaryStyle && recipe.dietaryStyle !== 'None') {
-        response += ` • ${recipe.dietaryStyle}`;
+        response += ` • 🥗 ${recipe.dietaryStyle}`;
       }
       response += `\n\n`;
     }
@@ -506,14 +512,11 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
 
     if (swaps.length) {
       response += `\n### ${pack.swapsTitle}:\n`;
-      swaps.forEach(s => { response += `• ${s}\n`; });
+      swaps.slice(0, CHEFSENSE_CONFIG.MAX_SWAPS_DISPLAYED).forEach(s => { response += `${s}\n`; });
     }
 
-    response += `\n### ${pack.allergenTitle}:\n`;
-    response += allergens.length ? `• ${allergens.join(', ')}` : `• ${pack.noAllergens}`;
-
     if (suggestions) {
-      response += `\n\n### ${pack.suggestionsTitle}:\n${suggestions}`;
+      response += `\n### ${pack.suggestionsTitle}:\n${suggestions}`;
     }
 
     response += `\n\n${pack.askClarify}`;
@@ -523,7 +526,8 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
   buildPantryReply(ingredientTokens, message) {
     const pack = this.getLangPack(this.lang);
     const context = this.extractContextHints(message);
-    const matches = RecipeSearch.findMatchesByIngredients(this.recipes, ingredientTokens, { context, limit: 5 });
+    // Limit to 2-4 smart suggestions as per requirements
+    const matches = RecipeSearch.findMatchesByIngredients(this.recipes, ingredientTokens, { context, limit: CHEFSENSE_CONFIG.MAX_PANTRY_SUGGESTIONS });
 
     if (!matches.length) {
       return { text: this.buildPantryFallback(ingredientTokens, pack), matches: [] };
@@ -531,44 +535,39 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
 
     const best = matches[0];
     this.currentRecipe = best;
-    const steps = this.formatRecipeSteps(best).slice(0, 5);
-    const allergens = this.getAllergens(best);
+    const steps = this.formatRecipeSteps(best);
     const swaps = this.getHealthySwaps(best);
 
-    let response = `${pack.pantryIntro} ${ingredientTokens.join(', ')}.\n\n`;
+    let response = `${pack.pantryIntro} **${ingredientTokens.join(', ')}**! 🎉\n\n`;
 
-    response += `### ${pack.stepsTitle} (${best.name_en})\n`;
+    // Show all matches (2-4) with quick info
+    response += `### ${pack.pantryMatchesTitle}:\n`;
+    matches.forEach((match, index) => {
+      const bestLabel = index === 0 ? ` ⭐ ${pack.bestMatch}` : '';
+      const time = (match.prep_time_minutes || 0) + (match.cooking_time_minutes || 0);
+      const matchedIng = match.matchedIngredients?.length ? `Uses: ${match.matchedIngredients.join(', ')}` : '';
+      
+      response += `**${index + 1}. ${match.name_en}** (${match.country})${bestLabel}\n`;
+      response += `   ⏱️ ${time} min • 📊 ${match.difficulty}`;
+      if (match.nutrition) {
+        response += ` • 🔥 ${match.nutrition.per_serving_kcal} kcal`;
+      }
+      response += `\n`;
+      if (matchedIng) response += `   ${matchedIng}\n`;
+      response += `   [RECIPE_LINK:${match.slug}:👉 View full recipe]\n\n`;
+    });
+
+    // Show steps for the best match
+    response += `### ${pack.stepsTitle} for ${best.name_en}:\n`;
     steps.forEach((step, index) => { response += `${index + 1}. ${step}\n`; });
 
     response += `\n### ${pack.nutritionTitle}:\n${this.buildNutritionNotes(best, pack)}\n`;
 
     if (swaps.length) {
       response += `\n### ${pack.swapsTitle}:\n`;
-      swaps.forEach(s => { response += `• ${s}\n`; });
+      swaps.slice(0, CHEFSENSE_CONFIG.MAX_SWAPS_DISPLAYED).forEach(s => { response += `${s}\n`; });
     }
 
-    response += `\n### ${pack.allergenTitle}:\n`;
-    response += allergens.length ? `• ${allergens.join(', ')}` : `• ${pack.noAllergens}`;
-
-    response += `\n\n### ${pack.pantryMatchesTitle}:\n`;
-    matches.forEach((match, index) => {
-      const bestLabel = index === 0 ? ` (${pack.bestMatch})` : '';
-      const reasonParts = [];
-      if (match.matchedIngredients && match.matchedIngredients.length) {
-        reasonParts.push(`Uses ${match.matchedIngredients.join(', ')}`);
-      }
-      if (context.diet && match.dietaryStyle) {
-        reasonParts.push(`${match.dietaryStyle} friendly`);
-      }
-      const reason = reasonParts.join(' • ') || 'Great overlap with your pantry list';
-
-      response += `• ${match.name_en} (${match.country})${bestLabel}\n`;
-      response += `  → ${match.short_description}\n`;
-      response += `  → ${reason}\n`;
-      response += `  → [RECIPE_LINK:${match.slug}:Open recipe]\n`;
-    });
-
-    response += `\n${pack.nutritionSummaryLead}: ${this.getHealthAdvice(best)}`;
     response += `\n${pack.askClarify}`;
     return { text: response, matches };
   },
@@ -609,36 +608,42 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
 
     if (recipe?.nutrition) {
       lines.push(
-        `• 🔥 ${pack.calories}: ${recipe.nutrition.per_serving_kcal} kcal`,
-        `• 🥩 ${pack.protein}: ${recipe.nutrition.protein_g} g`,
-        `• 🍞 ${pack.carbs}: ${recipe.nutrition.carbs_g} g`,
-        `• 🧈 ${pack.fat}: ${recipe.nutrition.fat_g} g`
+        `• 🔥 ${pack.calories}: **${recipe.nutrition.per_serving_kcal} kcal** per serving`,
+        `• 🥩 ${pack.protein}: **${recipe.nutrition.protein_g}g**`,
+        `• 🍞 ${pack.carbs}: **${recipe.nutrition.carbs_g}g**`,
+        `• 🧈 ${pack.fat}: **${recipe.nutrition.fat_g}g**`
       );
     } else {
       lines.push(`• ${pack.fallbackNutrition}`);
     }
 
-    lines.push(`• ${this.getHealthAdvice(recipe)}`);
+    // Add allergens right after nutrition
+    const allergens = recipe ? this.getAllergens(recipe) : [];
+    if (allergens.length) {
+      lines.push(`• ⚠️ Contains: **${allergens.join(', ')}**`);
+    }
+
+    lines.push(`• 💡 ${this.getHealthAdvice(recipe)}`);
     return lines.join('\n');
   },
 
   getHealthAdvice(recipe) {
     if (!recipe || !recipe.nutrition) {
-      return 'Balanced plate: load up on vegetables, lean protein, and whole grains when possible.';
+      return 'Pro tip: Fill half your plate with veggies, add lean protein, and choose whole grains!';
     }
 
     const notes = [];
     const calories = recipe.nutrition.per_serving_kcal;
-    if (calories >= 750) notes.push('Hearty calories—keep portions moderate and add a fresh salad.');
-    else if (calories >= 450) notes.push('Moderate calories—pair with vegetables for balance.');
-    else notes.push('Light plate—consider whole grains for fullness.');
+    if (calories >= 750) notes.push('Rich dish! Share or pair with a light salad.');
+    else if (calories >= 450) notes.push('Good energy! Add some veggies on the side.');
+    else notes.push('Light & fresh! Great for a starter or add protein.');
 
     const protein = recipe.nutrition.protein_g;
-    if (protein >= 25) notes.push('High protein supports muscle recovery.');
-    else if (protein < 12) notes.push('Add beans, lentils, or lean meat to boost protein.');
+    if (protein >= 25) notes.push('Great for muscle recovery!');
+    else if (protein < 12) notes.push('Tip: Add beans or eggs for more protein.');
 
     if (recipe.tags?.some(t => /vegetarian|vegan/i.test(t))) {
-      notes.push('Plant-forward—ensure varied proteins and B12 where relevant.');
+      notes.push('Plant-based goodness!');
     }
 
     return notes.join(' ');
@@ -696,30 +701,39 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
     if (!recipe) return [];
     const allergens = [];
     const ingredients = recipe.ingredients.map(i => i.name.toLowerCase());
-    if (ingredients.some(i => /flour|wheat|bread|pasta/.test(i))) allergens.push('gluten');
-    if (ingredients.some(i => /milk|butter|cheese|yogurt|cream/.test(i))) allergens.push('dairy');
-    if (ingredients.some(i => /egg/.test(i))) allergens.push('egg');
-    if (ingredients.some(i => /peanut|almond|walnut|cashew|nut/.test(i))) allergens.push('nuts');
-    if (ingredients.some(i => /soy/.test(i))) allergens.push('soy');
-    if (ingredients.some(i => /shrimp|prawn|crab|lobster/.test(i))) allergens.push('shellfish');
+    if (ingredients.some(i => /flour|wheat|bread|pasta|noodle/.test(i))) allergens.push('gluten');
+    if (ingredients.some(i => /milk|butter|cheese|yogurt|cream|ghee/.test(i))) allergens.push('dairy');
+    if (ingredients.some(i => /\beggs?\b/.test(i) && !/eggplant/.test(i))) allergens.push('eggs');
+    if (ingredients.some(i => /peanut|almond|walnut|cashew|pistachio|nut/.test(i))) allergens.push('tree nuts');
+    if (ingredients.some(i => /soy|tofu|tempeh/.test(i))) allergens.push('soy');
+    if (ingredients.some(i => /shrimp|prawn|crab|lobster|shellfish/.test(i))) allergens.push('shellfish');
+    if (ingredients.some(i => /fish|salmon|tuna|anchov/.test(i))) allergens.push('fish');
+    if (ingredients.some(i => /sesame/.test(i))) allergens.push('sesame');
     return allergens;
   },
 
   getHealthySwaps(recipe) {
     const swaps = [];
     if (!recipe) {
-      swaps.push('Swap butter → olive oil for heart-healthy fats');
-      swaps.push('Use Greek yogurt instead of heavy cream for creaminess');
-      swaps.push('Try whole-grain pasta or rice for extra fiber');
+      swaps.push('🧈→🫒 Butter → olive oil (heart-healthy fats)');
+      swaps.push('🥛→🥣 Heavy cream → Greek yogurt (less fat, more protein)');
+      swaps.push('🍚→🌾 White rice → quinoa or brown rice (more fiber)');
+      swaps.push('🍝→🥒 Pasta → zucchini noodles (low-carb option)');
       return swaps;
     }
 
     const ingredients = recipe.ingredients.map(i => i.name.toLowerCase());
-    if (ingredients.some(i => /butter|cream/.test(i))) swaps.push('Use olive oil or Greek yogurt to lighten rich dairy');
-    if (ingredients.some(i => /sugar/.test(i))) swaps.push('Reduce sugar or use honey in moderation');
-    if (ingredients.some(i => /white rice|pasta|flour/.test(i))) swaps.push('Use whole-grain versions for more fiber');
-    if (ingredients.some(i => /red meat|beef|lamb/.test(i))) swaps.push('Consider lean poultry or legumes to cut saturated fat');
-    return swaps;
+    if (ingredients.some(i => /butter/.test(i))) swaps.push('🧈→🫒 Butter → olive oil or avocado (healthier fats)');
+    if (ingredients.some(i => /cream/.test(i))) swaps.push('🥛→🥣 Cream → coconut milk or cashew cream (dairy-free)');
+    if (ingredients.some(i => /sugar/.test(i))) swaps.push('🍬→🍯 Sugar → honey, maple syrup, or dates (natural sweetness)');
+    if (ingredients.some(i => /white rice/.test(i))) swaps.push('🍚→🌾 White rice → cauliflower rice (low-carb) or quinoa (more protein)');
+    if (ingredients.some(i => /pasta/.test(i))) swaps.push('🍝→🌾 Regular pasta → whole wheat or chickpea pasta (gluten-free option)');
+    if (ingredients.some(i => /flour/.test(i) && !/whole/.test(i))) swaps.push('🌾→🥥 White flour → almond flour or oat flour (gluten-free options)');
+    if (ingredients.some(i => /beef|lamb/.test(i))) swaps.push('🥩→🍗 Red meat → chicken, turkey, or tofu (leaner protein)');
+    if (ingredients.some(i => /salt/.test(i))) swaps.push('🧂→🌿 Salt → herbs & lemon zest (reduce sodium, boost flavor)');
+    if (ingredients.some(i => /oil/.test(i) && /vegetable|canola/.test(i))) swaps.push('🛢️→🫒 Vegetable oil → extra virgin olive oil (better fats)');
+    
+    return swaps.length > 0 ? swaps : ['💡 This recipe looks pretty healthy! Minor tweaks: use less salt, add more veggies.'];
   },
 
   addMessage(role, content, lang = this.lang) {
@@ -805,7 +819,7 @@ Try: "Find Lebanese vegetarian dinners" or "Give me healthy swaps for butter".`;
       <div class="message-avatar">🧑‍🍳</div>
       <div class="message-bubble">
         <div class="typing-indicator" aria-live="polite">
-          <span class="typing-label">ChefSense is cooking</span>
+          <span class="typing-label">Chef is preparing your answer</span>
           <span class="dots"><span></span><span></span><span></span></span>
         </div>
       </div>`;
